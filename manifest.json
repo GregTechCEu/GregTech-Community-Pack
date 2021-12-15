@@ -18,6 +18,11 @@
             "url" : "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v43/appliedenergistics2-rv6-stable-7.omni-fixes-v43h.jar",
             "hash" : "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
             "name": "Applied Energistics 2 Trousers Edition"
+        },
+        {
+            "url" : "https://github.com/GregTechCEu/GregTech/releases/download/latest/gregtech-1.12.2-2.0.0-alpha.jar",
+            "hash" : "hashes-are-disabled-please-fix-sometime-html",
+            "name" : "GregTech Community Edition Unofficial"
         }
     ],
     "name": "GregTech Community Pack",
