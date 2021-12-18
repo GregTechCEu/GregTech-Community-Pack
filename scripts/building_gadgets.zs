@@ -8,7 +8,7 @@ recipes.addShaped("buildingtool", <buildinggadgets:buildingtool>, [
 ]);
 
 // Exchanging Gadget
-recipes.removeByRecipeName("buildinggadgets:exchangertool");
+recipes.removeByRecipeName("buildinggadgets:exchangingtool");
 recipes.addShaped("exchangertool", <buildinggadgets:exchangertool>, [
     [<ore:plateSteel>, <ore:plateGold>, <ore:plateSteel>],
     [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],

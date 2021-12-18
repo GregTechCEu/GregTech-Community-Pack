@@ -2,17 +2,17 @@
 // Glider Wing (Left)
 recipes.removeByRecipeName("openglider:glider_wing_left");
 recipes.addShaped("glider_wing_left", <openglider:hang_glider_part>, [
-    [<ore:gtceHardHammers>, <ore:stickSteel>, <ore:foilPolycaprolactam>],
-    [<ore:stickSteel>, <ore:foilPolycaprolactam>, <ore:foilPolycaprolactam>],
-    [<ore:foilPolycaprolactam>, <ore:foilPolycaprolactam>, <ore:foilPolycaprolactam>]
+    [<ore:gtceHardHammers>, <ore:stickSteel>, <ore:leather>],
+    [<ore:stickSteel>, <ore:leather>, <ore:leather>],
+    [<ore:leather>, <ore:leather>, <ore:leather>]
 ]);
 
 // Glider Wing (Right)
 recipes.removeByRecipeName("openglider:glider_wing_right");
 recipes.addShaped("glider_wing_right", <openglider:hang_glider_part:1>, [
-    [<ore:foilPolycaprolactam>, <ore:stickSteel>, <ore:gtceHardHammers>],
-    [<ore:foilPolycaprolactam>, <ore:foilPolycaprolactam>, <ore:stickSteel>],
-    [<ore:foilPolycaprolactam>, <ore:foilPolycaprolactam>, <ore:foilPolycaprolactam>]
+    [<ore:leather>, <ore:stickSteel>, <ore:gtceHardHammers>],
+    [<ore:leather>, <ore:leather>, <ore:stickSteel>],
+    [<ore:leather>, <ore:leather>, <ore:leather>]
 ]);
 
 // Scaffolding
