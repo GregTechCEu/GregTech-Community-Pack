@@ -77,7 +77,7 @@ recipes.addShaped("constructionpastecontainert3", <buildinggadgets:constructionp
 
 // Creative Paste Container
 recipes.removeByRecipeName("buildinggadgets:constructionpastecontainercreative");
-recipes.addShaped("constructionpastecontainert3", <buildinggadgets:constructionpastecontainercreative>, [
+recipes.addShaped("constructionpastecontainercreative", <buildinggadgets:constructionpastecontainercreative>, [
     [<ore:screwIridium>, <ore:ringIridium>, <ore:screwIridium>],
     [<ore:plateDoubleOsmiridium>, <buildinggadgets:constructionpastecontainert3>, <ore:plateDoubleOsmiridium>],
     [<ore:screwIridium>, <ore:ringIridium>, <ore:screwIridium>]
