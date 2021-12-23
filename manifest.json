@@ -3,7 +3,7 @@
         "version": "1.12.2",
         "modLoaders": [
             {
-            "id": "forge-14.23.5.2855",
+            "id": "forge-14.23.5.2860",
             "primary": true
             }
         ]
@@ -28,8 +28,8 @@
     "name": "GregTech Community Pack",
     "files":[
         {
-            "projectID": 238222,
-            "fileID": 3040523,
+            "projectID": 557549,
+            "fileID": 3568778,
             "required": true
         },
         {
