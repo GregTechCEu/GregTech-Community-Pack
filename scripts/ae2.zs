@@ -623,6 +623,16 @@ assembler.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<metaitem:component.resistor> * 16)
+    .inputs(<ore:plateCertusQuartz>)
+    .inputs(<ore:circuitBasic> * 2)
+    .fluidInputs([<liquid:red_alloy> * 288])
+    .outputs(<appliedenergistics2:material:35>)
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister();
+
 // 4k Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components_cell_4k_part");
 assembler.recipeBuilder()
@@ -839,6 +849,12 @@ recipes.addShaped("panels_semi_dark_monitor", <appliedenergistics2:part:180>, [
     [<ore:wireFineTin>, <metaitem:cover.screen>, <appliedenergistics2:quartz_vibrant_glass>]
 ]);
 
+recipes.addShaped("panels_semi_dark_monitor_lv", <appliedenergistics2:part:180>, [
+    [<ore:gtceSoftHammers>, <ore:wireFineCopper>, <ore:plateGlass>],
+    [<ore:wireFineTin>, <ore:circuitBasic>, <appliedenergistics2:quartz_vibrant_glass>],
+    [<ore:gtceWireCutters>, <ore:wireFineCopper>, <ore:plateGlass>]
+]);
+
 // ME Storage Bus
 recipes.removeByRecipeName("appliedenergistics2:network/parts/storage_bus");
 recipes.addShaped("storage_bus", <appliedenergistics2:part:220>, [
@@ -905,6 +921,13 @@ recipes.removeByRecipeName("appliedenergistics2:network/parts/planes_annihilatio
 recipes.addShaped("planes_annihilation_fluid", <appliedenergistics2:part:302>, [
     [<metaitem:electric.pump.lv>, <appliedenergistics2:material:44>, <ore:crystalFluix>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+]);
+
+// ME Terminal
+recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
+    [<ore:boltNetherQuartz>, <ore:circuitBasic>, <ore:boltNetherQuartz>],
+    [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
+    [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
 
 // ME Crafting Terminal
