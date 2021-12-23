@@ -33,6 +33,15 @@ recipes.removeByRecipeName("appliedenergistics2:network/blocks/inscribers");
 // Charger
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_charger");
 
+// Certus Quartz Pillar Uncraft
+recipes.removeByRecipeName("appliedenergistics2:misc/deconstruction_certus_quartz_pillar");
+
+// Certus Quartz Pillar Uncraft
+recipes.removeByRecipeName("appliedenergistics2:misc/deconstruction_certus_quartz_block");
+
+// Certus Quartz Pillar Uncraft
+recipes.removeByRecipeName("appliedenergistics2:misc/deconstruction_certus_chiseled_quartz");
+
 // Tiny TNT
 recipes.removeByRecipeName("appliedenergistics2:misc/tiny_tnt");
 cutter.recipeBuilder()
@@ -189,7 +198,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_vibration_
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_energy_cell");
 recipes.addShaped("energy_energy_cell", <appliedenergistics2:energy_cell>, [
     [<ore:screwCertusQuartz>, <ore:plateCertusQuartz>, <ore:screwCertusQuartz>],
-    [<ore:plateCertusQuartz>, <appliedenergistics2:quartz_vibrant_glass>, <ore:plateCertusQuartz>],
+    [<metaitem:voltage_coil.lv>, <appliedenergistics2:quartz_vibrant_glass>, <metaitem:voltage_coil.lv>],
     [<ore:screwCertusQuartz>, <ore:plateCertusQuartz>, <ore:screwCertusQuartz>]
 ]);
 
@@ -201,13 +210,6 @@ compressor.recipeBuilder()
     .duration(100)
     .EUt(30)
     .buildAndRegister();
-
-// Creative Energy Cell
-recipes.addShaped("energy_creative_energy_cell", <appliedenergistics2:creative_energy_cell>, [
-    [<ore:plateSteel>, <metaitem:voltage_coil.lv>, <ore:plateSteel>],
-    [<metaitem:voltage_coil.lv>, <appliedenergistics2:dense_energy_cell>, <metaitem:voltage_coil.lv>],
-    [<ore:plateSteel>, <metaitem:voltage_coil.lv>, <ore:plateSteel>]
-]);
 
 // Crafting Unit
 recipes.removeByRecipeName("appliedenergistics2:network/crafting/cpu_crafting_unit");
@@ -338,6 +340,15 @@ recipes.addShaped("network_tool", <appliedenergistics2:network_tool>, [
     [<appliedenergistics2:material:23>, <ore:itemIlluminatedPanel>]
 ]);
 
+// Certus Quartz Seed
+recipes.removeByRecipeName("appliedenergistics2:misc/seeds_certus");
+
+// Nether Quartz Seed
+recipes.removeByRecipeName("appliedenergistics2:misc/seeds_nether");
+
+// Fluix Seed
+recipes.removeByRecipeName("appliedenergistics2:misc/seeds_fluix");
+
 // View Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/view_cell");
 recipes.removeByRecipeName("appliedenergistics2:network/cells/view_cell_storage");
@@ -445,85 +456,14 @@ recipes.addShaped("empty_storage_cell", <appliedenergistics2:material:39>, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
-// Certus Quartz Seed
-recipes.removeByRecipeName("appliedenergistics2:misc/seeds_certus");
+// Fluix Dust
 mixer.recipeBuilder()
-    .inputs(<ore:sand>)
+    .inputs(<ore:dustNetherQuartz>)
     .inputs(<ore:dustRegularCertusQuartz>)
-    .outputs(<appliedenergistics2:crystal_seed> * 2)
-    .duration(200)
+    .inputs(<ore:dustRedstone>)
+    .outputs(<metaitem:dustFluix> * 3)
     .EUt(16)
-    .buildAndRegister();
-
-// Nether Quartz Seed
-recipes.removeByRecipeName("appliedenergistics2:misc/seeds_nether");
-mixer.recipeBuilder()
-    .inputs(<ore:sand>)
-    .inputs(<ore:dustRegularNetherQuartz>)
-    .outputs(<appliedenergistics2:crystal_seed:600> * 2)
     .duration(200)
-    .EUt(16)
-    .buildAndRegister();
-
-// Fluix Seed
-recipes.removeByRecipeName("appliedenergistics2:misc/seeds_fluix");
-chemical_reactor.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed>)
-    .inputs(<appliedenergistics2:crystal_seed:600>)
-    .outputs(<appliedenergistics2:crystal_seed:1200> * 2)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
-
-// Pure Certus Quartz
-autoclave.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed>)
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs(<appliedenergistics2:material:10>)
-    .duration(600)
-    .EUt(24)
-    .buildAndRegister();
-
-autoclave.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed>)
-    .fluidInputs([<liquid:water> * 250])
-    .outputs(<appliedenergistics2:material:10>)
-    .duration(1200)
-    .EUt(24)
-    .buildAndRegister();
-
-// Pure Nether Quartz
-autoclave.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed:600>)
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs(<appliedenergistics2:material:11>)
-    .duration(600)
-    .EUt(24)
-    .buildAndRegister();
-
-autoclave.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed:600>)
-    .fluidInputs([<liquid:water> * 250])
-    .outputs(<appliedenergistics2:material:11>)
-    .duration(1200)
-    .EUt(24)
-    .buildAndRegister();
-
-// Fluix
-autoclave.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed:1200>)
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs(<gregtech:meta_gem:32000>)
-    .duration(600)
-    .EUt(24)
-    .buildAndRegister();
-
-autoclave.recipeBuilder()
-    .inputs(<appliedenergistics2:crystal_seed:1200>)
-    .fluidInputs([<liquid:water> * 250])
-    .outputs(<gregtech:meta_gem:32000>)
-    .duration(1200)
-    .EUt(24)
     .buildAndRegister();
 
 // Advanced Card
@@ -742,7 +682,7 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_16k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.ultra_low_power_integrated_circuit>)
-    .inputs(<appliedenergistics2:material:36> * 3)
+    .inputs(<appliedenergistics2:material:55> * 3)
     .inputs(<ore:circuitAdvanced>)
     .outputs(<appliedenergistics2:material:56>)
     .duration(200)
@@ -753,7 +693,7 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_64k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.power_integrated_circuit>)
-    .inputs(<appliedenergistics2:material:37> * 3)
+    .inputs(<appliedenergistics2:material:56> * 3)
     .inputs(<ore:circuitExtreme>)
     .outputs(<appliedenergistics2:material:57>)
     .duration(200)
@@ -894,7 +834,7 @@ lathe.recipeBuilder()
     .buildAndRegister();
 
 // Illuminated Panel
-recipes.removeByRecipeName("appliedenergistics2:network/parts/panels/panels_semi_dark_monitor");
+recipes.removeByRecipeName("appliedenergistics2:network/parts/panels_semi_dark_monitor");
 recipes.addShaped("panels_semi_dark_monitor", <appliedenergistics2:part:180>, [
     [<ore:wireFineTin>, <metaitem:cover.screen>, <appliedenergistics2:quartz_vibrant_glass>]
 ]);

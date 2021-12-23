@@ -23,7 +23,9 @@
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
 <ore:crystalFluix>.remove(<appliedenergistics2:material:7>);
 <ore:crystalPureFluix>.remove(<appliedenergistics2:material:12>);
+<ore:itemSilicon>.remove(<appliedenergistics2:material:5>);
+<ore:crystalCertusQuartz>.remove(<appliedenergistics2:material>);
 
 // GregTech
 <ore:crystalFluix>.addItems([<gregtech:meta_gem:32000>]);
-<ore:crystalPureFluix>.addItems([<gregtech:meta_gem:32000>]);
+<ore:itemSilicon>.add(<gregtech:meta_plate:99>); // GT silicon plate
