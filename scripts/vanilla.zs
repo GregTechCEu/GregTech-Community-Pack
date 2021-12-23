@@ -92,6 +92,8 @@ assembler.recipeBuilder()
     .buildAndRegister();
     
 // Bones
+recipes.addShapeless("bones", <minecraft:bone>, [<ore:gtceMortars>, <ore:dirt>]);
+
 sifter.recipeBuilder()
     .inputs(<ore:dirt>)
     .outputs(<minecraft:bone>)
