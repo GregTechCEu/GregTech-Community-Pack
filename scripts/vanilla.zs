@@ -144,3 +144,11 @@ centrifuge.recipeBuilder()
     .duration(200)
     .EUt(24)
     .buildAndRegister();
+
+// Sponge
+compressor.recipeBuilder()
+    .inputs(<ore:foilPolycaprolactam> * 2)
+    .outputs(<minecraft:sponge>)
+    .duration(200)
+    .EUt(2)
+    .buildAndRegister();
