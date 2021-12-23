@@ -801,7 +801,7 @@ laser_engraver.recipeBuilder()
 // Inscriber Calculation Press
 laser_engraver.recipeBuilder()
     .inputs(<ore:plateDenseIron>)
-    .notConsumable(<ore:craftingLensMagenta>)
+    .notConsumable(<ore:craftingLensWhite>)
     .outputs(<appliedenergistics2:material:13>)
     .duration(500)
     .EUt(120)
