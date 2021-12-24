@@ -2327,55 +2327,52 @@
       }
     },
     "31:10": {
-      "preRequisites:11": [
-        26
-      ],
       "properties:10": {
         "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nYou now have access to the nether, with more veins, and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on peaceful yet, it not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack. Additionally, mobs like Blazes and Endermen drop Sulfur and Enderpearl Dust, so you can\u0027t reach the end quite yet!",
-          "globalshare:1": 0,
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
           "icon:10": {
+            "id:8": "minecraft:netherrack",
             "Count:3": 1,
             "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "minecraft:netherrack"
+            "OreDict:8": ""
           },
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "The Nether",
+          "globalshare:1": 0,
           "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Nether",
+          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a Flint and Steel, you have access to the Nether. You could also light the Nether portal using alternative means.\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on peaceful yet, it not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack."
         }
       },
-      "questID:3": 31,
-      "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:flint_and_steel"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "name:8": "New Location",
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "dimension:3": -1,
+          "biome:8": "",
+          "structure:8": "",
+          "range:3": -1,
+          "visible:1": 0,
+          "hideInfo:1": 0,
+          "invert:1": 0,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location",
+          "index:3": 0
         }
-      }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 31
     },
     "32:10": {
       "preRequisites:11": [
