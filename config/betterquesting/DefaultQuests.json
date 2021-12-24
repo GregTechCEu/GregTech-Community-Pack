@@ -1934,119 +1934,119 @@
       }
     },
     "26:10": {
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "gregtech:machine",
-            "Count:3": 1,
-            "Damage:2": 1000,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Primitive Blast Furnace",
-          "desc:8": "Your first mandatory §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. You will need 132 clay, split into 66 clay dusts and 66 brick dusts.\nAs a pro tip: if you are grinding down using Mortars, do it with clay blocks and brick blocks.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you made the Coke Oven earlier, as each Steel Ingot only requires §61 Coke§r instead of §62 Coal§r. Otherwise, you can simply use §6Charcoal§r as it is mostly free. Also, using Wrought Iron cuts the recipe duration by §a60%§r.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides Diamond mining level."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_dust",
-              "Count:3": 1,
-              "Damage:2": 2063,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:meta_dust",
-              "Count:3": 1,
-              "Damage:2": 2524,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "gregtech:meta_dust",
-              "Count:3": 1,
-              "Damage:2": 2525,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 1,
-              "Damage:2": 351,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 1,
-              "Damage:2": 352,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval",
-          "index:3": 0
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:machine",
-              "Count:3": 1,
-              "Damage:2": 1000,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:metal_casing",
-              "Count:3": 32,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval",
-          "index:3": 1
-        },
-        "2:10": {
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_ingot",
-              "Count:3": 1,
-              "Damage:2": 324,
-              "OreDict:8": "ingotSteel"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval",
-          "index:3": 2
-        }
-      },
-      "rewards:9": {},
       "preRequisites:11": [
         22
       ],
-      "questID:3": 26
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your first mandatory §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. You will need 132 clay, split into 66 clay dusts and 66 brick dusts.\nAs a pro tip: if you are grinding down using Mortars, do it with clay blocks and brick blocks.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you made the Coke Oven earlier, as each Steel Ingot only requires §61 Coke§r instead of §62 Coal§r. Otherwise, you can simply use §6Charcoal§r as it is mostly free. Also, using Wrought Iron cuts the recipe duration by §a60%§r.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides Diamond mining level.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Primitive Blast Furnace",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 26,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2063,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 2524,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 2525,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 351,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 352,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1000,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 324,
+              "OreDict:8": "ingotSteel",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "27:10": {
       "preRequisites:11": [
@@ -2327,52 +2327,52 @@
       }
     },
     "31:10": {
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
-          "simultaneous:1": 0,
+          "autoclaim:1": 0,
+          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a Flint and Steel, you have access to the Nether. You could also light the Nether portal using alternative means.\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on peaceful yet, it not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.",
+          "globalshare:1": 0,
           "icon:10": {
-            "id:8": "minecraft:netherrack",
             "Count:3": 1,
             "Damage:2": 0,
-            "OreDict:8": ""
+            "OreDict:8": "",
+            "id:8": "minecraft:netherrack"
           },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
           "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
           "name:8": "The Nether",
-          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a Flint and Steel, you have access to the Nether. You could also light the Nether portal using alternative means.\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on peaceful yet, it not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack."
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
         }
       },
+      "questID:3": 31,
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "biome:8": "",
+          "dimension:3": -1,
+          "hideInfo:1": 0,
+          "index:3": 0,
+          "invert:1": 0,
           "name:8": "New Location",
           "posX:3": 0,
           "posY:3": 0,
           "posZ:3": 0,
-          "dimension:3": -1,
-          "biome:8": "",
-          "structure:8": "",
           "range:3": -1,
-          "visible:1": 0,
-          "hideInfo:1": 0,
-          "invert:1": 0,
-          "taxiCabDist:1": 0,
+          "structure:8": "",
           "taskID:8": "bq_standard:location",
-          "index:3": 0
+          "taxiCabDist:1": 0,
+          "visible:1": 0
         }
-      },
-      "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 31
+      }
     },
     "32:10": {
       "preRequisites:11": [
@@ -3512,6 +3512,44 @@
     },
     "45:10": {
       "preRequisites:11": [
+        46
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "All machines have 1 or more §cfront faces§r, and 1 §9output face§r.\nThe §cfront face§r should be obvious.\nThe §9output face§r is the face which has a dot or hole on it. By default, this is opposite the front face, or at the back of the machine as you place it.\n\nMachines can §aauto-output§r through their output face. To turn on auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §aFilters§r and §aCovers§r, which are explained in the quest to the left of this one.\n\nRight-clicking a machine with a §aWrench§r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side §ccannot§r also be the output side! \n\nBy default, items and fluids can be inserted through the output side, but shift-right-clicking with a §aScrewdriver§r can toggle this off. This could be useful for certain automation setups.\n\n\n§bLore:§r In base GTCE, the output side disallowed input by default. If you forgot to turn it on every time, have fun troubleshooting your setup",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:hopper"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Machine Auto-Output Behaviour",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 45,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "46:10": {
+      "preRequisites:11": [
         32
       ],
       "properties:10": {
@@ -3561,7 +3599,7 @@
         }
       }
     },
-    "46:10": {
+    "47:10": {
       "preRequisites:11": [
         21
       ],
@@ -3624,7 +3662,7 @@
         }
       }
     },
-    "47:10": {
+    "48:10": {
       "preRequisites:11": [
         46
       ],
@@ -3675,7 +3713,7 @@
         }
       }
     },
-    "48:10": {
+    "49:10": {
       "preRequisites:11": [
         46
       ],
@@ -3726,7 +3764,7 @@
         }
       }
     },
-    "49:10": {
+    "50:10": {
       "preRequisites:11": [
         46
       ],
@@ -3777,7 +3815,7 @@
         }
       }
     },
-    "50:10": {
+    "51:10": {
       "preRequisites:11": [
         48
       ],
@@ -3828,7 +3866,7 @@
         }
       }
     },
-    "51:10": {
+    "52:10": {
       "preRequisites:11": [
         49,
         50,
@@ -3881,7 +3919,7 @@
         }
       }
     },
-    "52:10": {
+    "53:10": {
       "preRequisites:11": [
         46,
         44
@@ -3933,7 +3971,7 @@
         }
       }
     },
-    "53:10": {
+    "54:10": {
       "preRequisites:11": [
         46,
         44
@@ -3985,7 +4023,7 @@
         }
       }
     },
-    "54:10": {
+    "55:10": {
       "preRequisites:11": [
         54
       ],
@@ -4052,7 +4090,7 @@
         }
       }
     },
-    "55:10": {
+    "56:10": {
       "preRequisites:11": [
         54
       ],
@@ -4103,7 +4141,7 @@
         }
       }
     },
-    "56:10": {
+    "57:10": {
       "preRequisites:11": [
         54
       ],
@@ -4154,7 +4192,7 @@
         }
       }
     },
-    "57:10": {
+    "58:10": {
       "preRequisites:11": [
         62
       ],
@@ -4205,7 +4243,7 @@
         }
       }
     },
-    "58:10": {
+    "59:10": {
       "preRequisites:11": [
         20
       ],
@@ -4274,7 +4312,7 @@
         }
       }
     },
-    "59:10": {
+    "60:10": {
       "preRequisites:11": [
         53
       ],
@@ -4337,7 +4375,7 @@
         }
       }
     },
-    "60:10": {
+    "61:10": {
       "preRequisites:11": [
         60
       ],
@@ -4375,7 +4413,7 @@
         }
       }
     },
-    "61:10": {
+    "62:10": {
       "preRequisites:11": [
         54
       ],
@@ -4426,7 +4464,7 @@
         }
       }
     },
-    "62:10": {
+    "63:10": {
       "preRequisites:11": [
         62
       ],
@@ -4459,7 +4497,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "63:10": {
+    "64:10": {
       "preRequisites:11": [
         63
       ],
@@ -4545,7 +4583,7 @@
         }
       }
     },
-    "64:10": {
+    "65:10": {
       "preRequisites:11": [
         63
       ],
@@ -4596,7 +4634,7 @@
         }
       }
     },
-    "65:10": {
+    "66:10": {
       "preRequisites:11": [
         63
       ],
@@ -4647,7 +4685,7 @@
         }
       }
     },
-    "66:10": {
+    "67:10": {
       "preRequisites:11": [
         63
       ],
@@ -4698,7 +4736,7 @@
         }
       }
     },
-    "67:10": {
+    "68:10": {
       "preRequisites:11": [
         63
       ],
@@ -4749,7 +4787,7 @@
         }
       }
     },
-    "68:10": {
+    "69:10": {
       "preRequisites:11": [
         58
       ],
@@ -4800,7 +4838,7 @@
         }
       }
     },
-    "69:10": {
+    "70:10": {
       "preRequisites:11": [
         62
       ],
@@ -4851,7 +4889,7 @@
         }
       }
     },
-    "70:10": {
+    "71:10": {
       "preRequisites:11": [
         62
       ],
@@ -4902,7 +4940,7 @@
         }
       }
     },
-    "71:10": {
+    "72:10": {
       "preRequisites:11": [
         73,
         71
@@ -4991,7 +5029,7 @@
         }
       }
     },
-    "72:10": {
+    "73:10": {
       "preRequisites:11": [
         44
       ],
@@ -5059,7 +5097,7 @@
         }
       }
     },
-    "73:10": {
+    "74:10": {
       "preRequisites:11": [
         72
       ],
@@ -5145,7 +5183,7 @@
         }
       }
     },
-    "74:10": {
+    "75:10": {
       "preRequisites:11": [
         72
       ],
@@ -5213,7 +5251,7 @@
         }
       }
     },
-    "75:10": {
+    "76:10": {
       "preRequisites:11": [
         66,
         67
@@ -5266,7 +5304,7 @@
         }
       }
     },
-    "76:10": {
+    "77:10": {
       "preRequisites:11": [
         58
       ],
@@ -5351,7 +5389,7 @@
         }
       }
     },
-    "77:10": {
+    "78:10": {
       "preRequisites:11": [
         63
       ],
@@ -5402,7 +5440,7 @@
         }
       }
     },
-    "78:10": {
+    "79:10": {
       "preRequisites:11": [
         63
       ],
@@ -5453,7 +5491,7 @@
         }
       }
     },
-    "79:10": {
+    "80:10": {
       "preRequisites:11": [
         83
       ],
@@ -5504,7 +5542,7 @@
         }
       }
     },
-    "80:10": {
+    "81:10": {
       "preRequisites:11": [
         80,
         75
@@ -5556,7 +5594,7 @@
         }
       }
     },
-    "81:10": {
+    "82:10": {
       "preRequisites:11": [
         76
       ],
@@ -5636,7 +5674,7 @@
         }
       }
     },
-    "82:10": {
+    "83:10": {
       "preRequisites:11": [
         70
       ],
@@ -5687,7 +5725,7 @@
         }
       }
     },
-    "83:10": {
+    "84:10": {
       "preRequisites:11": [
         83,
         69
@@ -5739,7 +5777,7 @@
         }
       }
     },
-    "84:10": {
+    "85:10": {
       "preRequisites:11": [
         81
       ],
@@ -5790,7 +5828,7 @@
         }
       }
     },
-    "85:10": {
+    "86:10": {
       "preRequisites:11": [
         66
       ],
@@ -5842,7 +5880,7 @@
         }
       }
     },
-    "86:10": {
+    "87:10": {
       "preRequisites:11": [
         86,
         70
@@ -5900,7 +5938,7 @@
         }
       }
     },
-    "87:10": {
+    "88:10": {
       "preRequisites:11": [
         90,
         70
@@ -5952,7 +5990,7 @@
         }
       }
     },
-    "88:10": {
+    "89:10": {
       "preRequisites:11": [
         63
       ],
@@ -6003,7 +6041,7 @@
         }
       }
     },
-    "89:10": {
+    "90:10": {
       "preRequisites:11": [
         91,
         67
@@ -6078,7 +6116,7 @@
         }
       }
     },
-    "90:10": {
+    "91:10": {
       "preRequisites:11": [
         62
       ],
@@ -6129,7 +6167,7 @@
         }
       }
     },
-    "91:10": {
+    "92:10": {
       "preRequisites:11": [
         87,
         88
@@ -6194,7 +6232,7 @@
         }
       }
     },
-    "92:10": {
+    "93:10": {
       "preRequisites:11": [
         92,
         83
@@ -6246,7 +6284,7 @@
         }
       }
     },
-    "93:10": {
+    "94:10": {
       "preRequisites:11": [
         81
       ],
@@ -6297,7 +6335,7 @@
         }
       }
     },
-    "94:10": {
+    "95:10": {
       "preRequisites:11": [
         94
       ],
@@ -6361,7 +6399,7 @@
         }
       }
     },
-    "95:10": {
+    "96:10": {
       "preRequisites:11": [
         76
       ],
@@ -6412,7 +6450,7 @@
         }
       }
     },
-    "96:10": {
+    "97:10": {
       "preRequisites:11": [
         81
       ],
@@ -6463,7 +6501,7 @@
         }
       }
     },
-    "97:10": {
+    "98:10": {
       "preRequisites:11": [
         81
       ],
@@ -6501,7 +6539,7 @@
         }
       }
     },
-    "98:10": {
+    "99:10": {
       "preRequisites:11": [
         81
       ],
@@ -6581,7 +6619,7 @@
         }
       }
     },
-    "99:10": {
+    "100:10": {
       "preRequisites:11": [
         81
       ],
@@ -6632,7 +6670,7 @@
         }
       }
     },
-    "100:10": {
+    "101:10": {
       "preRequisites:11": [
         53
       ],
@@ -6683,7 +6721,7 @@
         }
       }
     },
-    "101:10": {
+    "102:10": {
       "preRequisites:11": [
         58
       ],
@@ -6731,7 +6769,7 @@
         }
       }
     },
-    "102:10": {
+    "103:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -6783,7 +6821,7 @@
         }
       }
     },
-    "103:10": {
+    "104:10": {
       "preRequisites:11": [
         70
       ],
@@ -7375,391 +7413,398 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 45,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -48
+        },
+        "1:10": {
           "id:3": 46,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -12,
           "y:3": -108
         },
-        "1:10": {
+        "2:10": {
           "id:3": 48,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -96
         },
-        "2:10": {
+        "3:10": {
           "id:3": 49,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": -96
         },
-        "3:10": {
+        "4:10": {
           "id:3": 50,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": -96
         },
-        "4:10": {
+        "5:10": {
           "id:3": 51,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": -96
         },
-        "5:10": {
+        "6:10": {
           "id:3": 52,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": -48
         },
-        "6:10": {
+        "7:10": {
           "id:3": 53,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 78,
           "y:3": -102
         },
-        "7:10": {
+        "8:10": {
           "id:3": 54,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -6,
           "y:3": -36
         },
-        "8:10": {
+        "9:10": {
           "id:3": 55,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 36,
           "y:3": -36
         },
-        "9:10": {
+        "10:10": {
           "id:3": 56,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 78,
           "y:3": -36
         },
-        "10:10": {
+        "11:10": {
           "id:3": 57,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 120,
           "y:3": -36
         },
-        "11:10": {
+        "12:10": {
           "id:3": 58,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 60,
           "y:3": 84
         },
-        "12:10": {
+        "13:10": {
           "id:3": 60,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": -72
         },
-        "13:10": {
+        "14:10": {
           "id:3": 61,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": -72
         },
-        "14:10": {
+        "15:10": {
           "id:3": 62,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 60
         },
-        "15:10": {
+        "16:10": {
           "id:3": 63,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": 60
         },
-        "16:10": {
+        "17:10": {
           "id:3": 64,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 90
         },
-        "17:10": {
+        "18:10": {
           "id:3": 65,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -162,
           "y:3": 60
         },
-        "18:10": {
+        "19:10": {
           "id:3": 66,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -126,
           "y:3": 126
         },
-        "19:10": {
+        "20:10": {
           "id:3": 67,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -66,
           "y:3": 126
         },
-        "20:10": {
+        "21:10": {
           "id:3": 68,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 6
         },
-        "21:10": {
+        "22:10": {
           "id:3": 69,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 54
         },
-        "22:10": {
+        "23:10": {
           "id:3": 70,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 156,
           "y:3": 120
         },
-        "23:10": {
+        "24:10": {
           "id:3": 71,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 18
         },
-        "24:10": {
+        "25:10": {
           "id:3": 72,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 18
         },
-        "25:10": {
+        "26:10": {
           "id:3": 73,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
           "y:3": -24
         },
-        "26:10": {
+        "27:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 222,
           "y:3": -24
         },
-        "27:10": {
+        "28:10": {
           "id:3": 75,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 258,
           "y:3": 12
         },
-        "28:10": {
+        "29:10": {
           "id:3": 76,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -162,
           "y:3": 132
         },
-        "29:10": {
+        "30:10": {
           "id:3": 77,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
           "y:3": 132
         },
-        "30:10": {
+        "31:10": {
           "id:3": 78,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": -12
         },
-        "31:10": {
+        "32:10": {
           "id:3": 79,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 30
         },
-        "32:10": {
+        "33:10": {
           "id:3": 80,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 300,
           "y:3": 60
         },
-        "33:10": {
+        "34:10": {
           "id:3": 81,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 342,
           "y:3": 6
         },
-        "34:10": {
+        "35:10": {
           "id:3": 82,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 192
         },
-        "35:10": {
+        "36:10": {
           "id:3": 83,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 300,
           "y:3": 126
         },
-        "36:10": {
+        "37:10": {
           "id:3": 84,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 54
         },
-        "37:10": {
+        "38:10": {
           "id:3": 85,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 84
         },
-        "38:10": {
+        "39:10": {
           "id:3": 86,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 192
         },
-        "39:10": {
+        "40:10": {
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 192
         },
-        "40:10": {
+        "41:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 192
         },
-        "41:10": {
+        "42:10": {
           "id:3": 89,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 6
         },
-        "42:10": {
+        "43:10": {
           "id:3": 90,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 192
         },
-        "43:10": {
+        "44:10": {
           "id:3": 91,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 132
         },
-        "44:10": {
+        "45:10": {
           "id:3": 92,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 384,
           "y:3": 180
         },
-        "45:10": {
+        "46:10": {
           "id:3": 93,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 390,
           "y:3": 126
         },
-        "46:10": {
+        "47:10": {
           "id:3": 94,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
           "y:3": -96
         },
-        "47:10": {
+        "48:10": {
           "id:3": 95,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
           "y:3": -90
         },
-        "48:10": {
+        "49:10": {
           "id:3": 96,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -162,
           "y:3": 192
         },
-        "49:10": {
+        "50:10": {
           "id:3": 97,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 402,
           "y:3": -30
         },
-        "50:10": {
+        "51:10": {
           "id:3": 98,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 420,
           "y:3": 18
         },
-        "51:10": {
+        "52:10": {
           "id:3": 99,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 402,
           "y:3": 66
         },
-        "52:10": {
+        "53:10": {
           "id:3": 100,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 306,
           "y:3": -30
         },
-        "53:10": {
+        "54:10": {
           "id:3": 101,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 222,
           "y:3": -102
         },
-        "54:10": {
+        "55:10": {
           "id:3": 102,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 90
         },
-        "55:10": {
+        "56:10": {
           "id:3": 104,
           "sizeX:3": 36,
           "sizeY:3": 36,
