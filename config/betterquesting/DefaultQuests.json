@@ -1934,119 +1934,119 @@
       }
     },
     "26:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Primitive Blast Furnace",
+          "desc:8": "Your first mandatory §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. You will need 132 clay, split into 66 clay dusts and 66 brick dusts.\nAs a pro tip: if you are grinding down using Mortars, do it with clay blocks and brick blocks.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you made the Coke Oven earlier, as each Steel Ingot only requires §61 Coke§r instead of §62 Coal§r. Otherwise, you can simply use §6Charcoal§r as it is mostly free. Also, using Wrought Iron cuts the recipe duration by §a60%§r.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides Diamond mining level."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 2063,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 2524,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 2525,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 351,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 352,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 1
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 324,
+              "OreDict:8": "ingotSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 2
+        }
+      },
+      "rewards:9": {},
       "preRequisites:11": [
         22
       ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Your first mandatory §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. You will need 132 clay, split into 66 clay dusts and 66 brick dusts.\nAs a pro tip: if you are grinding down using Mortars, do it with clay blocks and brick blocks.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you made the Coke Oven earlier, by using Coke for a faster recipe. Otherwise you can simply use Charcoal as it is mostly free. Note that bones for bone meal are craftable!\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides a Diamond mining level.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 1000,
-            "OreDict:8": "",
-            "id:8": "gregtech:machine"
-          },
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Primitive Blast Furnace",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 26,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2063,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 2524,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 2525,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 351,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 352,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1000,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            },
-            "1:10": {
-              "Count:3": 32,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "gregtech:metal_casing"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 324,
-              "OreDict:8": "ingotSteel",
-              "id:8": "gregtech:meta_ingot"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
+      "questID:3": 26
     },
     "27:10": {
       "preRequisites:11": [
