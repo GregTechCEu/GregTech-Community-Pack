@@ -5313,11 +5313,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech contains a lot of crafting with fluid. Tanks allow you to store them. Any tank can be broken and picked up and will §9keep the fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\nThe advantage of Tanks over Drums is the fact that they can form multiblocks by being placed next to each other.\n\n\nGet §eany§r of the proposed Tanks to complete this quest.",
+          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech contains a lot of crafting with fluid. Drums allow you to store them. Any drum can be broken and picked up and will §9keep the fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\n\nGet §eeither§r of the proposed Drums to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1597,
+            "Damage:2": 1612,
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
@@ -5343,12 +5343,12 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 0,
+          "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1596,
+              "Damage:2": 1611,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -5356,23 +5356,6 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1597,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
