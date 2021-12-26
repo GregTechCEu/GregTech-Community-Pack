@@ -6034,7 +6034,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, check the recipe for Tiny Dusts (open that handy material tab in JEI). You can obtain it from §acentrifuging impure dusts§r, either Bauxite or Sphalerite.\nYou can also §aelectrolyze Sphalerite§r, but the yield is really small. Furthermore, you will lose on smelting value the Sphalerite dust into Zinc.\n\n\nFor §dArsenic§r, you will have to mine and §aelectrolyze Realgar§r. The ore is found in Galena veins.",
+          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, check the recipe for Tiny Dusts (open that handy material tab in JEI). You can obtain it from §acentrifuging impure dusts§r, either Bauxite or Sphalerite.\nYou can also §aelectrolyze Sphalerite§r, but the yield is really small. Furthermore, you will lose on smelting value the Sphalerite dust into Zinc.\n\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r. The ore is found in Galena veins.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
