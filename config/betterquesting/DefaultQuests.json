@@ -326,7 +326,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\nSurface rocks will indicate veins that are below them. in JEI, press U on the tiny dust corresponding to the surface rock you found.\n§cImportant note:§r Surface rocks generate with an offset, so the vein can be up to two chunks away. You may have to guess and dig at several locations if you are unlucky. Soon enough you will obtain an Ore Prospector to circumvent this issue.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex ore processing, you won\u0027t have an issue with the late game!",
+          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\nPress §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. By default, ore veins generate in a grid, where both the X and Z chunk numbers are §b1 more than a multiple of 3§r. (-5, -2, 1, 4, 7, ...) However ore veins can be deleted by caves, Oil deposits, or other things generating over them.\n\nSurface rocks will indicate the type of veins that are below them. In JEI, press U on the tiny dust corresponding to the surface rock you found to see the vein type below it.\n§cImportant note:§r Surface rocks generate with an offset, so the vein can be up to two chunks away. \n\nIn §6LV Age§r, you can craft an Ore Prospector to assist in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex ore processing, you won\u0027t have an issue with the late game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1437,7 +1437,7 @@
               "id:8": "gregtech:machine",
               "tag:10": {
                 "Fluid:10": {
-                  "Amount:3": 4000,
+                  "Amount:3": 16000,
                   "FluidName:8": "water"
                 }
               }
@@ -1570,7 +1570,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWhy is this chapter called Steam Age again? I can\u0027t be due to this machine, can it?§r\n\nAnyways... The Coal Boiler is the only available Boiler for now, due to the Glass recipe. Make one, or two.\n\n§cImportant:§r Boilers can §cexplode§r! Water does not mess too well with high temperatures, and a steam explosion may occure under the following conditions:\n§9-§r The Boiler is hot, shown by the red bar in the GUI\n§9AND\n-§r The Boiler has no water, notified by the absence of blue bar\n§9AND\n-§r The Boiler receives water§r\n\nYou can be perfectly safe by filling the boiler with water before heating it up, and making sure it has water constantly. The drain is slow, so you don\u0027t have to worry too much.\n\nAdditionally, the boiler will auto eject steam on all faces except bottom. For automated water input, use the bottom face.\n\n\n§9Note:§r In this modpack, explosions are configured to not damage any block or entity, but you still lose your machine!",
+          "desc:8": "§oWhy is this chapter called Steam Age again? I can\u0027t be due to this machine, can it?§r\n\nAnyways... The Coal Boiler is the only available Boiler for now, due to the Glass recipe. Make one, or two.\n\n§cImportant:§r Boilers can §cexplode§r! Water does not mess too well with high temperatures, and a steam explosion may occur under the following conditions:\n§9-§r The Boiler is hot, shown by the red bar in the GUI\n§9AND\n-§r The Boiler has no water, signified by the absence of blue bar\n§9AND\n-§r The Boiler receives water§r\n\nYou can be perfectly safe by filling the boiler with water before heating it up, and making sure it has water constantly. The drain is slow, so you don\u0027t have to worry too much.\n\nThe boiler will auto eject steam on all faces except bottom. For automated water input, use the bottom face.\n\n\n§9Note 1:§r In this modpack, explosions are configured to not damage any block or entity, but you still lose your machine!\n\n§9Note 2: §rYou may have noticed the unit L (Litres) used in certain places. 1 L is equivalent to, and used interchangeably with 1 mB.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5313,11 +5313,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech contains a lot of crafting with fluid. Tanks allow you to store them. Any tank can be broken and picked up and will §9keep the fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\nThe advantage of Tanks over Drums is the fact that they can form multiblocks by being placed next to each other.\n\n\nGet §eany§r of the proposed Tanks to complete this quest.",
+          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech contains a lot of crafting with fluid. Drums allow you to store them. Any drum can be broken and picked up and will §9keep the fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\n\nGet §eeither§r of the proposed Drums to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1597,
+            "Damage:2": 1612,
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
@@ -5343,12 +5343,12 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 0,
+          "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1596,
+              "Damage:2": 1611,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -5356,23 +5356,6 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1597,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
@@ -6051,7 +6034,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, check the recipe for Tiny Dusts (open that handy material tab in JEI). You can obtain it from §acentrifuging impure dusts§r, either Bauxite or Sphalerite.\nYou can also §aelectrolyze Sphalerite§r, but the yield is really small. Furthermore, you will lose on smelting value the Sphalerite dust into Zinc.\n\n\nFor §dArsenic§r, you will have to mine and §aelectrolyze Realgar§r. The ore is found in Galena veins.",
+          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, check the recipe for Tiny Dusts (open that handy material tab in JEI). You can obtain it from §acentrifuging impure dusts§r, either Bauxite or Sphalerite.\nYou can also §aelectrolyze Sphalerite§r, but the yield is really small. Furthermore, you will lose on smelting value the Sphalerite dust into Zinc.\n\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r. The ore is found in Galena veins.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6858,6 +6841,76 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "105:10": {
+      "preRequisites:11": [
+        77
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Multiblock Tanks can store a larger amount of fluid, but aren\u0027t portable like Drums are. The §6Steel Multiblock Tank§r holds §a1,000,000 mB§r of fluid.\n\nFluid input and output goes through the controller block, or through up to 2 additional Valve blocks.\n\nA §6Wooden§r§r version exists which holds §a250,000 mB§r, but it cannot store §chot fluids§r such as Steam.\n\nYou may not need fluid storage at this scale at this point, so if you don\u0027t, feel free to hold off on this quest for now.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1599,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Multiblock Tanks",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 105,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 5,
+              "Damage:2": 142,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1599,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 25,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     }
@@ -7810,8 +7863,15 @@
           "id:3": 104,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 102,
-          "y:3": 126
+          "x:3": 222,
+          "y:3": 90
+        },
+        "57:10": {
+          "id:3": 105,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 66,
+          "y:3": 168
         }
       }
     },
