@@ -6270,19 +6270,16 @@
       }
     },
     "94:10": {
-      "preRequisites:11": [
-        81
-      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§bAluminium§r is the main ingredient for §bMV§r machine hulls. You will need a lot of it, so be sure to set up a good system for processing §bAluminium Dust§r.\n\nWith LV power, the only way of getting Aluminium Dust is by electrolyzing §9Sapphire§r or §2Green Sapphire§r. Once you setup an §bMV Electrolyzer§r, you can get Aluminium through many other ores. All of this quest\u0027s rewards bear Aluminium.\n\nThe process of smelting Aluminium can be accelerated with §9Nitrogen§r, which is obtained by centrifuging §bAir§r from a Gas Collector.",
           "globalshare:1": 0,
           "icon:10": {
+            "id:8": "gregtech:meta_ingot",
             "Count:3": 1,
             "Damage:2": 2,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_ingot"
+            "OreDict:8": ""
           },
           "ismain:1": 1,
           "issilent:1": 0,
@@ -6298,27 +6295,73 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "questID:3": 94,
-      "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
+          "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "gregtech:meta_dust",
               "Count:3": 1,
               "Damage:2": 2,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
         }
-      }
+      },
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_sodalite_0",
+              "Count:3": 18,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:ore_almandine_0",
+              "Count:3": 18,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:ore_kyanite_0",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "gregtech:ore_bauxite_0",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:granite",
+              "Count:3": 24,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        81
+      ],
+      "questID:3": 94
     },
     "95:10": {
       "preRequisites:11": [
