@@ -5254,24 +5254,20 @@
       }
     },
     "76:10": {
-      "preRequisites:11": [
-        66,
-        67
-      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIf you wanted to be picky, it would be Dioxygen, or Oxygen Gas. But gameplay convention makes it as simply Oxygen.§r\n\nYou could be spending §ominutes§r in JEI looking for Oxygen recipes given the many ways to obtain it. Various minerals will produce it when electrolyzed.\n\nHowever the best source according to me (!) is §acentrifuging Air§r after making a §dGas Collector§r, which you probably cannot make just yet. This recipe also gives §aNitrogen§r.\n\nThe second best source according to me (!) is §aelectrolyzing Silicon Dioxide§r, obtained from Glass Dust, which you may make from Glass made in the Arc Furnace which requires Oxygen... yes that\u0027s a bit evolved.\n\nThe third best source according to me (!) is §aelectrolyzing Water§r. But that\u0027s more for §aHydrogen§r due to the higher energy cost.\n\nThe fourth best source according to me (!) is §ato not void§r it, ever. Any Oxygen obtained from any source is worth something and should be stored in Tanks, and if you don\u0027t have enough Tanks, make more of them!",
+          "desc:8": "§oIf you wanted to be picky, it would be Dioxygen, or Oxygen Gas. But gameplay convention makes it as simply Oxygen.§r\n\nYou could be spending §ominutes§r in JEI looking for Oxygen recipes given the many ways to obtain it. Various minerals will produce it when electrolyzed.\n\nHowever the best source according to me (!) is §acentrifuging Air§r after making a §dGas Collector§r, which you probably cannot make just yet. This recipe also gives §aNitrogen§r, which can speed up certain §9Electric Blast Furnace§r recipes§r.\n\nThe second best source according to me (!) is §aelectrolyzing Silicon Dioxide§r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust.\n\nThe third best source according to me (!) is §aelectrolyzing Water§r. But that\u0027s more for §aHydrogen§r due to the higher energy cost.\n\nThe fourth best source according to me (!) is §ato not void§r it, ever. Any Oxygen obtained from any source is worth something and should be stored in Tanks, and if you don\u0027t have enough Tanks, make more of them!",
           "globalshare:1": 0,
           "icon:10": {
+            "id:8": "forge:bucketfilled",
             "Count:3": 1,
             "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "forge:bucketfilled",
             "tag:10": {
               "Amount:3": 1000,
               "FluidName:8": "oxygen"
-            }
+            },
+            "OreDict:8": ""
           },
           "ismain:1": 0,
           "issilent:1": 0,
@@ -5287,24 +5283,28 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "questID:3": 76,
-      "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
+          "ignoreNBT:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
+          "autoConsume:1": 0,
           "requiredFluids:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "oxygen"
+              "FluidName:8": "oxygen",
+              "Amount:3": 1000
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:fluid",
+          "index:3": 0
         }
-      }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        66,
+        67
+      ],
+      "questID:3": 76
     },
     "77:10": {
       "preRequisites:11": [
