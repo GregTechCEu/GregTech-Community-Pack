@@ -1,36 +1,36 @@
 {
-  "weight": 100,
+  "weight": 10,
   "density": 0.2,
   "min_height": 5,
-  "max_height": 20,
+  "max_height": 50,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "sphalerite"
+    "material": "platinum"
   },
   "dimension_filter": [
-    "is_nether"
+    "name:the_end"
   ],
   "generator": {
     "type": "layered",
     "radius": [
-      17,
-      24
+      14,
+      16
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:sulfur"
+        "primary": "ore:bornite"
       },
       {
-        "secondary": "ore:sulfur"
+        "secondary": "ore:cooperite"
       },
       {
-        "between": "ore:pyrite"
+        "between": "ore:platinum"
       },
       {
-        "sporadic": "ore:sphalerite"
+        "sporadic": "ore:palladium"
       }
     ]
   }

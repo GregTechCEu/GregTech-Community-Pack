@@ -1,12 +1,15 @@
 {
-  "weight": 40,
+  "weight": 20,
   "density": 0.25,
-  "max_height": 40,
-  "min_height": 10,
+  "min_height": 30,
+  "max_height": 60,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "nickel"
+    "material": "uraninite"
   },
+  "dimension_filter": [
+    "name:the_end"
+  ],
   "generator": {
     "type": "layered",
     "radius": [
@@ -18,16 +21,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:garnierite"
+        "primary": "ore:pitchblende"
       },
       {
-        "secondary": "ore:nickel"
+        "secondary": "ore:pitchblende"
       },
       {
-        "between": "ore:cobaltite"
+        "between": "ore:uraninite"
       },
       {
-        "sporadic": "ore:pentlandite"
+        "sporadic": "ore:uraninite"
       }
     ]
   }

@@ -1,11 +1,11 @@
 {
-  "weight": 120,
+  "weight": 80,
   "density": 0.2,
-  "max_height": 40,
-  "min_height": 10,
+  "max_height": 200,
+  "min_height": 80,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "banded_iron"
+    "material": "realgar"
   },
   "generator": {
     "type": "layered",
@@ -18,16 +18,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:brown_limonite"
+        "primary": "ore:chalcopyrite"
       },
       {
-        "secondary": "ore:yellow_limonite"
+        "secondary": "ore:zeolite"
       },
       {
-        "between": "ore:banded_iron"
+        "between": "ore:cassiterite"
       },
       {
-        "sporadic": "ore:malachite"
+        "sporadic": "ore:realgar"
       }
     ]
   }

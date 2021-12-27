@@ -1,12 +1,15 @@
 {
-  "weight": 120,
+  "weight": 60,
   "density": 0.2,
+  "min_height": 5,
   "max_height": 40,
-  "min_height": 10,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "banded_iron"
+    "material": "redstone"
   },
+  "dimension_filter": [
+    "is_nether"
+  ],
   "generator": {
     "type": "layered",
     "radius": [
@@ -18,16 +21,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:brown_limonite"
+        "primary": "ore:redstone"
       },
       {
-        "secondary": "ore:yellow_limonite"
+        "secondary": "ore:redstone"
       },
       {
-        "between": "ore:banded_iron"
+        "between": "ore:ruby"
       },
       {
-        "sporadic": "ore:malachite"
+        "sporadic": "ore:cinnabar"
       }
     ]
   }
