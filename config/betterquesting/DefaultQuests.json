@@ -6,7 +6,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r, known as GTCEu or CEu, a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure Tech modpack, focusing on GregTech and its progression. You will find no better place to learn about this mod and all the features it adds. At any point, feel free to run the command §9/bq_admin edit§r to open any quest (even if you have them locked) and read through them to gather information. §6This questbook is very informative§r, so check it out even if the modpack doesn\u0027t pick your interest that much.",
+          "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r, known as GTCEu or CEu, a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure Tech modpack, focusing on GregTech and its progression. You will find no better place to learn about this mod and all the features it adds. At any point, feel free to run the command §9/bq_admin edit§r to open any quest (even if you have them locked) and read through them to gather information. §6This questbook is very informative§r, so check it out even if the modpack doesn\u0027t pick your interest that much.\n\n\nIf you feel like some mods are missing, there is no other explanation than this modpack is lightweight! Feel free to add mods to your instances, but don\u0027t add anything that breaks the progression. Promise?",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -235,7 +235,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:glass"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Glass",
@@ -334,7 +334,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_cobaltite_0"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Ore Generation",
@@ -550,7 +550,20 @@
         }
       },
       "questID:3": 8,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -611,7 +624,23 @@
         }
       },
       "questID:3": 9,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "storagedrawers:basicdrawers",
+              "tag:10": {
+                "material:8": "oak"
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -872,7 +901,26 @@
         }
       },
       "questID:3": 11,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_stick"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_screw"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -955,7 +1003,20 @@
         }
       },
       "questID:3": 12,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 23,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1084,7 +1145,20 @@
         }
       },
       "questID:3": 13,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1626,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1112,7 +1186,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. Charcoal smelting is enabled here, making §dthis Multiblock optional in this modpack.§r\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §aCreosote as bonus§r output. Creosote is not very useful, except for a small amount of lubricant you may want past LV age.\n\n\nTo craft this multiblock, you will first need the brick form, which doesn\u0027t get consumed in recipes. You will need 117 clay, and 195 sand.\nCheck the JEI multiblock preview for the structure pattern.\nNote that the Hatch is optional and can be replaced with a bricks. The Hatch is used for automation purposes and can be placed on any centered face. You can also use multiple of them. You use the hatch to insert items or extract items and fluids.\n\n\n§bLore:§r The concept of Multiblock is very old in modded Minecraft. Back in 1.4.7, Railcraft introduced the Coke Oven, this was revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. Charcoal smelting is enabled here, making §dthis Multiblock optional in this modpack.§r\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §aCreosote as bonus§r output. Creosote is not very useful, except for a small amount of lubricant you may want past LV age.\n\n\nTo craft this multiblock, you will first need the brick form, which doesn\u0027t get consumed in recipes. You will need 117 clay, and 195 sand.\nCheck the JEI multiblock preview for the structure pattern.\n\n§9Note:§r Any Brick block can be replaced with a §9Coke Oven Hatch§r. That hatch allows for automation. It will auto-export Creosote into connected fluid containers, and it will also accept item insertion/extraction.\n\nIf you have no access to fluid voiding yet, but happen to have too much Creosote at hand, mine the Coke Oven block and replace it.\n\n\n§bLore:§r The concept of Multiblock is very old in modded Minecraft. Back in 1.4.7, Railcraft introduced the Coke Oven, this was revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1309,7 +1383,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Grind down some Copper and Tin into dust. You will need a Mortar from the \"More Tools\" quest.\n\nMake much more than just 3 Bronze ingots. The Steam Age machines need a lot more.\n\n\nIt is advisable to start venturing in rivers and to start collecting clay!\n\nThe progression now continues in the Steam Age chapter.",
+          "desc:8": "Grind down some Copper and Tin into dust. You will need a Mortar from the \"More Tools\" quest.\n\nMake much more than just 3 Bronze ingots. The Steam Age machines need a lot more.\n\n\nIt is advisable to start venturing in rivers and to start collecting Clay! Just saying...\n\n\n§6The progression now continues in the Steam Age chapter.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1578,7 +1652,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Pressure Cooker",
@@ -1593,7 +1667,26 @@
         }
       },
       "questID:3": 19,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:coal"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 271,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem_exquisite"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1629,7 +1722,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steam Alloy Smelter",
@@ -1644,7 +1737,26 @@
         }
       },
       "questID:3": 20,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 12,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 69,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1680,7 +1792,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:steam_casing"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steam Machine Behavior",
@@ -1695,7 +1807,26 @@
         }
       },
       "questID:3": 21,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1731,7 +1862,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steam Compressor",
@@ -1746,7 +1877,20 @@
         }
       },
       "questID:3": 22,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:clay_ball"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1782,7 +1926,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steam Forge Hammer",
@@ -1838,7 +1982,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Macerator macerates... I am done with this.§r\n\nThis means you can stop ruining your hands and destroying mortars grinding dusts by yourself, at the cost of time.\n\nWhat this also means is §6Ore Processing§r, but that\u0027s a scary topic presented in the next quest.\nJEI will display three output slots for recipes in the macerator, §chowever recipes will only output the first item§r. The other items will be available with a higher tier Macerator, available much later.\n\n\n§9My (important!) advice:§r it is better to keep directly smelting ores for now! The efficiency loss is made up with fast mining.",
+          "desc:8": "§oThe Macerator macerates... I am done with this.§r\n\nThis means you can stop ruining your hands and destroying mortars grinding dusts by yourself, at the cost of time.\n\nWhat this also means is §6Ore Processing§r, but that\u0027s a scary topic presented in the next quest.\n§cThe macerator will output only the first item shown in recipes from JEI!§r The other slots are locked until much later in the game (HV Age to be precise).\n\n\n§9My (important!) advice:§r it is better to keep directly smelting ores for now! The efficiency loss is made up with fast mining.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1846,7 +1990,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steam Macerator",
@@ -1897,7 +2041,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steam Extractor",
@@ -1912,7 +2056,20 @@
         }
       },
       "questID:3": 25,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 438,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1940,7 +2097,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your first mandatory §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. You will need 132 clay, split into 66 clay dusts and 66 brick dusts.\nAs a pro tip: if you are grinding down using Mortars, do it with clay blocks and brick blocks.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you made the Coke Oven earlier, as each Steel Ingot only requires §61 Coke§r instead of §62 Coal§r. Otherwise, you can simply use §6Charcoal§r as it is mostly free. Also, using Wrought Iron cuts the recipe duration by §a60%§r.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides Diamond mining level.",
+          "desc:8": "Your first mandatory §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. If you do not have a §dMacerator§r yet, this multiblock will be §lfour times as expensive§r.\nYou will need 132 Clay, split into 66 Clay Dusts and 66 Brick Dusts.\nAs a pro tip: if you are grinding down using Mortars, do it with clay blocks and brick blocks.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you made the Coke Oven earlier, as each Steel Ingot only requires §6one Coke§r instead of §6one Coal§r. Otherwise, you can simply use §6Charcoal§r as it is mostly free.\nUsing Wrought Iron cuts the recipe duration significantly... if you have the sanity to smelt thousands of nuggets beforehand.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides Diamond mining level.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1948,7 +2105,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Primitive Blast Furnace",
@@ -1963,7 +2120,20 @@
         }
       },
       "questID:3": 26,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -2055,7 +2225,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "One PBF will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can share walls? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four PBFs. It just depends on how much of an innate speedrunner you are.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 300 seconds in the PBF!",
+          "desc:8": "§oSteel, the Shrödinger alloy of all alloys. Made with a very small percentage of carbon in mass, it is significantly tougher than Iron or Wrought Iron.§r\n\nOne PBF will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can §dshare walls§r? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four PBFs. It just depends on how much of an innate speedrunner you are.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 300 seconds in the PBF!\nPollution was also a thing, and four of these bad boys would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2127,7 +2297,7 @@
             "0:10": {
               "Count:3": 32,
               "Damage:2": 324,
-              "OreDict:8": "",
+              "OreDict:8": "ingotSteel",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -2150,7 +2320,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Primitive Water Pump",
@@ -2199,6 +2369,18 @@
               "Damage:2": 1648,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 10,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
+            },
+            "3:10": {
+              "Count:3": 10,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_frame_101"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2220,7 +2402,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Sticky Resin",
@@ -2284,7 +2466,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Sulfur",
@@ -2299,7 +2481,23 @@
         }
       },
       "questID:3": 30,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:potion",
+              "tag:10": {
+                "Potion:8": "minecraft:long_fire_resistance"
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -2310,15 +2508,15 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 8,
               "Damage:2": 1,
-              "OreDict:8": "",
+              "OreDict:8": "oreNetherrackSulfur",
               "id:8": "gregtech:ore_sulfur_0"
             },
             "1:10": {
-              "Count:3": 32,
+              "Count:3": 16,
               "Damage:2": 103,
-              "OreDict:8": "",
+              "OreDict:8": "dustSulfur",
               "id:8": "gregtech:meta_dust"
             }
           },
@@ -2333,7 +2531,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a Flint and Steel, you have access to the Nether. You could also light the Nether portal using alternative means.\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on peaceful yet, it not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.",
+          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the Nether.\nYou could also light the Nether portal using alternative means... you dirty cheater...\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on Peaceful yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n§9Note:§r Blaze and Enderman loot table has been changed to Sulfur Dust and Ender Pearl Dust respectively, so you can\u0027t rush the End.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2341,7 +2539,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:netherrack"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "The Nether",
@@ -2394,7 +2592,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Rubber",
@@ -2470,7 +2668,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Red Alloy",
@@ -2526,7 +2724,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "High Pressure Boilers will be a better source of Steam to power your Steam machines.\n\nKeep in mind energy conversion will use Steam to also power your Electric machines in the LV age, so there really isn\u0027t such a thing as too few boilers.\n\nI recommend you go for several Solar Boilers after you get some Glass (given you can skip the night by sleeping!). There\u0027s an achievement for this which you may love.\n\n\nGet §eany§r of the three proposed boilers to complete this quest.",
+          "desc:8": "High Pressure Boilers will be a better source of Steam to power your Steam machines.\n\nKeep in mind energy conversion will use Steam to also power your Electric machines in the LV age. §cThere is not such a thing as too few Boilers§r... well okay perhaps 100 is way too many.\n\nDo you want a recommendation...? Well, you\u0027re out of luck, all of them are really good while having their own drawback. But I can tell you this: you will love the Advancement name from making a HP Solar Boiler.\n\n\nGet §eany§r of the three proposed boilers to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2659,7 +2857,20 @@
         }
       },
       "questID:3": 35,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 324,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -2729,7 +2940,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_crushed"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "What is this Mess?",
@@ -2799,25 +3010,25 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "oreRedstone",
               "id:8": "gregtech:ore_redstone_0"
             },
             "1:10": {
               "Count:3": 10,
-              "Damage:2": 2507,
-              "OreDict:8": "",
+              "Damage:2": 2064,
+              "OreDict:8": "crushedRedstone",
               "id:8": "gregtech:meta_crushed"
             },
             "2:10": {
               "Count:3": 10,
-              "Damage:2": 2507,
-              "OreDict:8": "",
+              "Damage:2": 2064,
+              "OreDict:8": "dustImpureRedstone",
               "id:8": "gregtech:meta_dust_impure"
             },
             "3:10": {
               "Count:3": 10,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "dustRegularRedstone",
               "id:8": "minecraft:redstone"
             }
           },
@@ -2832,7 +3043,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Steam Grinder\u0027s big brother. Or little brother, don\u0027t let him know.§r\n\nThe Steam Oven is a great multiblock to §6effortlessly smelt large quantities of items.§r No more line of furnaces that you have to manually empty and refuel.\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the power input is where your steam goes to power the bad boy.\n\n§9Note:§r Buses and Hatches automatically import/export (depending on context). This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cOther note:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock - despite being very similar to the Grinder - is not ported from a GregTech version or addon. Its actual origin is the Steam Oven from Railcraft, which datesback to 1.4.7!",
+          "desc:8": "§oThe Steam Grinder\u0027s big brother. Or little brother, don\u0027t let him know.§r\n\nThe Steam Oven is a great multiblock to §6effortlessly smelt large quantities of items.§r No more line of furnaces that you have to manually empty and refuel.\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Buses and Hatches automatically import/export (depending on context). This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cOther note:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock - despite being very similar to the Grinder - is not ported from a GregTech version or addon. Its actual origin is the Steam Oven from Railcraft, which datesback to 1.4.7!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2855,7 +3066,20 @@
         }
       },
       "questID:3": 37,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -2875,28 +3099,19 @@
               "Count:3": 1,
               "Damage:2": 1652,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
-              "tag:10": {
-                "PaintingColor:3": 16777215
-              }
+              "id:8": "gregtech:machine"
             },
             "2:10": {
               "Count:3": 1,
               "Damage:2": 1650,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
-              "tag:10": {
-                "PaintingColor:3": 16777215
-              }
+              "id:8": "gregtech:machine"
             },
             "3:10": {
               "Count:3": 1,
               "Damage:2": 1651,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
-              "tag:10": {
-                "PaintingColor:3": 16777215
-              }
+              "id:8": "gregtech:machine"
             },
             "4:10": {
               "Count:3": 8,
@@ -2923,7 +3138,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Steam Oven\u0027s elder brother. Or perhaps it was the opposite?§r\n\nThe Steam Grinder is §lthe§r reason you will start doing Ore Processing. §6It can pulverize large batches of items fast and effortlessly.§r\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the power input is where your steam goes to power the bad boy.\n\n§9Note:§r Buses and Hatches automatically import/export (depending on context). This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cOther note:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze.",
+          "desc:8": "§oThe Steam Oven\u0027s elder brother. Or perhaps it was the opposite?§r\n\nThe Steam Grinder is §lthe§r reason you will start doing Ore Processing. §6It can pulverize large batches of items fast and effortlessly.§r\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Buses and Hatches automatically import/export (depending on context). This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cOther note:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2946,7 +3161,20 @@
         }
       },
       "questID:3": 38,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -2966,28 +3194,19 @@
               "Count:3": 1,
               "Damage:2": 1652,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
-              "tag:10": {
-                "PaintingColor:3": 16777215
-              }
+              "id:8": "gregtech:machine"
             },
             "2:10": {
               "Count:3": 1,
               "Damage:2": 1650,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
-              "tag:10": {
-                "PaintingColor:3": 16777215
-              }
+              "id:8": "gregtech:machine"
             },
             "3:10": {
               "Count:3": 1,
               "Damage:2": 1651,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
-              "tag:10": {
-                "PaintingColor:3": 16777215
-              }
+              "id:8": "gregtech:machine"
             },
             "4:10": {
               "Count:3": 22,
@@ -3015,7 +3234,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Malding",
@@ -3097,7 +3316,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:paper"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Giga Chad",
@@ -3112,7 +3331,20 @@
         }
       },
       "questID:3": 40,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:reeds"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -3160,7 +3392,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Electronics Part Three: The Vacuum Tubes",
@@ -3252,7 +3484,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Electronics Part Two: The Board",
@@ -3356,7 +3588,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Electronics Part One: The Resistors",
@@ -3440,7 +3672,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Electronics Part Four: The Circuit",
@@ -3519,7 +3751,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "All machines have 1 or more §cfront faces§r, and 1 §9output face§r.\nThe §cfront face§r should be obvious.\nThe §9output face§r is the face which has a dot or hole on it. By default, this is opposite the front face, or at the back of the machine as you place it.\n\nMachines can §aauto-output§r through their output face. To turn on auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §aFilters§r and §aCovers§r, which are explained in the quest to the left of this one.\n\nRight-clicking a machine with a §aWrench§r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side §ccannot§r also be the output side! \n\nBy default, items and fluids can be inserted through the output side, but shift-right-clicking with a §aScrewdriver§r can toggle this off. This could be useful for certain automation setups.\n\n\n§bLore:§r In base GTCE, the output side disallowed input by default. If you forgot to turn it on every time, have fun troubleshooting your setup",
+          "desc:8": "All machines typically have one §cFront Face§r, and one §9Output Face§r.\nThe §cFront Face§r should be obvious.\nThe §9Output Face§r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it.\n\nMachines can §aauto-output§r through their output face. To turn on auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §dFilters§r and §dCovers§r, which are explained in the quest to the left of this one.\n\nRight-clicking a machine with a §aWrench§r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side §ccannot§r also be the output side! \n\nBy default, items and fluids cannot be inserted through the output side, but this can be toggled with a §9Screwdriver§r. Either right-click the cover directly, or shift-right-click on the grid to the side of the cover. This could be useful for certain automation setups.\nNote: At the time of writing this, the chat message for output side is actually the opposite of what it actually does, whoops!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3580,7 +3812,26 @@
         }
       },
       "questID:3": 46,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "1:10": {
+              "Count:3": 12,
+              "Damage:2": 335,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -3631,7 +3882,20 @@
         }
       },
       "questID:3": 47,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 2037,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -3671,7 +3935,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A crafting component. Just like the LV Motor it is used to craft LV machines.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3722,7 +3986,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA crafting component, but also a cover!§r\n(Next quest explain how to interact with covers)\n\n\nThe pump, when placed on a machine, will transfer fluid. You can configure it to import or export.\nI can accept a §9Fluid Filter§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3773,7 +4037,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA crafting component, but also a cover!§r\n(Next quest explains how to interact with covers)\n\n\nThe Conveyor Module, when placed on a machine, will transfer items. You can configure it to import or export.\nThis has a special interaction with Item Pipes to enable perfect §dRound Robin§r.\nIt can also accept various §9Item Filters§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3824,7 +4088,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA crafting component, OH MY GOSH THIS ONE IS EXPENSIVE, but also a cover!§r\n(Next quest explain how to interact with covers)\n\n\nThe Robot Arm, when placed on a machine, is a more advanced Conveyor Module. It lets transfer at specific rates or keep a certain amount of items.\nActual uses for the Robot Arm will be explained in future Quests as tutorial.\n\n§9Note:§r The functionalities provided by the Robot Arm work §lonly§r if it is doing the operation.\n\n\n§bLore:§r GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it\u0027s all been replaced by the almighty Robot Arm and various Filter Covers. That is a lot more compact!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3877,7 +4141,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a Crowbar (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\n\nFor the Covers transferring Item/Fluid, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3929,7 +4193,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYes, you will need more Steam production!§r\n\nThe Steam Turbine will help you convert Steam into Electricity. Or so that\u0027s the simplest explanation I can think of...\n\n§d2 Steam \u003d 1 EU§r\n\nThis one Generator is the only one you can realistically use in LV Age. Later you will unlock more power options.\n\n\n§9Reminder:§r Any machine placed can be rotated with a Wrench. To retrieve a machine (even an electric one), you can simply mine it. Wrenches work, but pickaxes also do.",
+          "desc:8": "§oYes, you will need more Steam production!§r\n\nThe Steam Turbine will help you convert Steam into Electricity. Or so that\u0027s the simplest explanation I can think of...\n\n§d2 Steam \u003d 1 EU§r\n\nThis one Generator type is the only one you can realistically use in LV Age. Later you will unlock more power options.\n\n\n§9Reminder:§r Any machine placed can be rotated with a Wrench. To retrieve a machine (even an electric one), you can simply mine it. Wrenches work, but pickaxes also do.\n\n\n§oQuest rewards will become less generous from now on.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4099,7 +4363,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Lathe lathes... Okay that one is cursed, it\u0027s not even a verb!§r\n\nAn important machine to help shape metals. Thanks to it, you can turn §6one Ingot into two Rods§r, and §6one Bolt into one screw§r. That\u0027s twice the efficiency on those recipes as opposed to crafting.\n\n\n§bLore:§r The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it\u0027s turned off by default.\n\n§bMore Lore:§r The Gregtech 6 Lathe acts like GT5\u0027s but bolts lathe into one screw and one 1/72 pile of dust. Cursed!",
+          "desc:8": "§oThe Lathe lathes... We should probably rename these machines to avoid these terrible quest introductions!§r\n\nAn important machine to help shape metals. Thanks to it, you can turn §6one Ingot into two Rods§r, and §6one Bolt into one screw§r. That\u0027s twice the efficiency on those recipes as opposed to crafting.\n\n\n§bLore:§r The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it\u0027s turned off by default.\nThe Gregtech 6 Lathe acts like GT5\u0027s but bolts lathe into one screw and one 1/72 pile of dust. Cursed!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4473,7 +4737,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oHey you! Yes you! HEY!! Why are you running away!?§r\n\nThis quest is a presentation of the §dFull Scale of regular Ore Processing§r. Why \"regular\" you may ask? Well... some ore are special but that\u0027s for much later. Oh no I\u0027m getting carried away!\n\n\nIf you haven\u0027t noticed the §aOre Byproduct§r Tab in §aJEI§r, press U on any GT ore, and it should be the second rightmost Tab.\nThis tab presents all the Ore Processing recipes! As you can see, Ores can give many §6Byproducts§r, some of which do not exist as an Ore.\n\nWhenever you want to obtain a material, refer to that page to see if you can obtain it, and select the process that you will find to be the most suitable.\n\n\nEach Quest surrounding this one presents a different machine that has some relation to Ore Processing.\n\n\n§cNote:§r Do not get too carried over with Ore Processing yet! It is slow and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain the Byproducts.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4497,7 +4761,12 @@
       },
       "questID:3": 63,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "64:10": {
       "preRequisites:11": [
@@ -4506,7 +4775,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThis machine combines Cauldron washing for simple automation, but also advanced and precise washing for byproducts.§r\n\nWashing a §aCrushed Ore§r will grant a §aPurified Ore§r which can refined further, some useless stone, and more importantly the first §6Byproduct§r.\nAny Ore will give at minimum 2/3 dusts of this Byproduct through washing! So prioritize this step the most.\n\nDistilled Water over Water cuts recipe duration in half, but is also less convenient to produce.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4592,7 +4861,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A rarely used machine. It uses magnetic fields to separate some Magnetic ores and gain additional §6Byproducts§r you would not obtain otherwise.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4643,7 +4912,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§lOutside of Ore Processing:§r\nOh boy this machine does a lot... Decomposition recipes to separate dust types, separating air and many others...\nThe list is too long, let\u0027s just say §cyou need the Centrifuge§r.\n\n\n§lFor Ore Processing:§r\nThis takes §aImpure Dust§r or §aPurified Dust§r to turn them into clean Dust plus added a tiny Dust §6Byproduct§r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of this set to run and to setup on a small scale.\n\n\n§bLore:§r In base GTCE, this was the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4694,7 +4963,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§lOutside of Ore Processing:§r\nThis machine, similarly to the Centrifuge, also does a lot of things...\nAnd I cannot list them! But fortunately it\u0027s one of the cheapest, so get it whenever you want something from it.\n\n\n§lFor Ore Processing:§r\nSo, I lied, it\u0027s not §oexactly§r in the Ore Processing, it\u0027s actually for §aDecomposition of Dusts§r. However most of this style of Decomposition through Electrolysis is locked at MV.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4745,18 +5014,18 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oExcuse me Mr. Questbook Writer, I checked this recipe and it uses MV components, why are you baiting me!?§r\n\nWell... You see, I §ocould§r make you craft a LV Thermal Centrifuge, however the best thing you would be able to do with it would be to display it for show...\nAll the Thermal Centrifuge recipes are §aMV at minimum§r.",
+          "desc:8": "This Thermal Centrifuge is the most energy hungry out of the Ore Processing machines.\nIt takes §aCrushed Ore§r or §aPurified Ore§r to give a different §6Byproduct§r from the Ore Washer, but at the same rate.\n\n\n§bLore:§r The Thermal Centrifuge in GT5 required 48EU/t to run. Yes this is above 32EU/t, but GT5 had special mechanics where certain machines such as this one could accept more than 1 Amp.\nIn GTCE, the Thermal Centrifuge was made to only work at MV with 60EU/t recipes.\nAnd now to be honest with you... it was awful, never worth it. So we buffed the machine to be much more relevant.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 606,
+            "Damage:2": 605,
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Advanced Thermal Centrifuge",
+          "name:8": "Basic Thermal Centrifuge",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -4780,7 +5049,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 606,
+              "Damage:2": 605,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -4796,7 +5065,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThe Fluid Solidifier Solidifies... Or you could say it freezes stuff if you like cursedness.§r\n\nThis machine requires molds and fluids to solidify stuff. It won\u0027t do anything on its own, but perhaps if you had §amolten Rubber§r...?",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4950,7 +5219,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "LV Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have.\n\nBe it either §dSodium§r, §dLithium§r or §dCadmium§r, you will need either an Electrolyzer or a Centrifuge to obtain them. They do not exist as ore.\n\nMy recommendation is Cadmium, obtained from §acentrifuging Impure Chalcopyrite§r (in the form of tiny dusts!).\n\n\nGet §eany§r of the three batteries to complete this quest.",
+          "desc:8": "LV Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have.\n\nBe it either §dSodium§r, §dLithium§r or §dCadmium§r, you will need either an Electrolyzer or a Centrifuge to obtain them. They do not exist as ore.\n\nMy recommendation is: find a Salt vein, and either §aelectrolyze Salt§r for Sodium, or §aOre wash§r Lepidolite for Lithium.\n\n\nGet §eany§r of the three batteries to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4958,7 +5227,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1",
             "tag:10": {
-              "Charge:4": 100000
+              "Charge:4": 120000
             }
           },
           "ismain:1": 1,
@@ -5005,7 +5274,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 735,
+              "Damage:2": 738,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -5022,7 +5291,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 738,
+              "Damage:2": 735,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -5254,20 +5523,24 @@
       }
     },
     "76:10": {
+      "preRequisites:11": [
+        66,
+        67
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIf you wanted to be picky, it would be Dioxygen, or Oxygen Gas. But gameplay convention makes it as simply Oxygen.§r\n\nYou could be spending §ominutes§r in JEI looking for Oxygen recipes given the many ways to obtain it. Various minerals will produce it when electrolyzed.\n\nHowever the best source according to me (!) is §acentrifuging Air§r after making a §dGas Collector§r, which you probably cannot make just yet. This recipe also gives §aNitrogen§r, which can speed up certain §9Electric Blast Furnace§r recipes§r.\n\nThe second best source according to me (!) is §aelectrolyzing Silicon Dioxide§r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust.\n\nThe third best source according to me (!) is §aelectrolyzing Water§r. But that\u0027s more for §aHydrogen§r due to the higher energy cost.\n\nThe fourth best source according to me (!) is §ato not void§r it, ever. Any Oxygen obtained from any source is worth something and should be stored in Tanks, and if you don\u0027t have enough Tanks, make more of them!",
+          "desc:8": "§oIf you wanted to be picky, it would be Dioxygen, or Oxygen Gas. But gameplay convention makes it simply Oxygen.§r\n\nYou could be spending §ominutes§r in JEI looking for Oxygen recipes given the many ways to obtain it. Various minerals will produce it when electrolyzed.\n\nHowever the best source according to me (!) is §acentrifuging Air§r after making a §dGas Collector§r, which you probably cannot make just yet. This recipe also gives §aNitrogen§r, which can speed up certain §9Electric Blast Furnace§r recipes§r.\n\nThe second best source according to me (!) is §aelectrolyzing Silicon Dioxide§r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust.\n\nThe third best source according to me (!) is §aelectrolyzing Water§r. But that\u0027s more for §aHydrogen§r due to the higher energy cost.\n\nThe fourth best source according to me (!) is §ato not void§r it, ever. Any Oxygen obtained from any source is worth something and should be stored in Tanks. The Steel Multiblock Tank is a good candidate for storing Oxygen... Or you can simply make more drums.\n\n\n§9Note:§r Submit a fluid by having it stored in §lany§r tank in your inventory. A bucket will also work.",
           "globalshare:1": 0,
           "icon:10": {
-            "id:8": "forge:bucketfilled",
             "Count:3": 1,
             "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
             "tag:10": {
               "Amount:3": 1000,
               "FluidName:8": "oxygen"
-            },
-            "OreDict:8": ""
+            }
           },
           "ismain:1": 0,
           "issilent:1": 0,
@@ -5283,37 +5556,33 @@
           "visibility:8": "ALWAYS"
         }
       },
+      "questID:3": 76,
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "autoConsume:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
           "requiredFluids:9": {
             "0:10": {
-              "FluidName:8": "oxygen",
-              "Amount:3": 1000
+              "Amount:3": 1000,
+              "FluidName:8": "oxygen"
             }
           },
-          "taskID:8": "bq_standard:fluid",
-          "index:3": 0
+          "taskID:8": "bq_standard:fluid"
         }
-      },
-      "rewards:9": {},
-      "preRequisites:11": [
-        66,
-        67
-      ],
-      "questID:3": 76
+      }
     },
     "77:10": {
       "preRequisites:11": [
-        58
+        26
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech contains a lot of crafting with fluid. Drums allow you to store them. Any drum can be broken and picked up and will §9keep the fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\n\nGet §eeither§r of the proposed Drums to complete this quest.",
+          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech contains a lot of crafting with fluid. Drums allow you to store them. Any Drum can be broken and picked up and will §6keep the Fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\nTo void Fluid contained in a Drum, place it in your crafting grid.\n\n§9Pssst:§r A Screwdriver right-click allows a Drum to drain its content into another container placed under. This is great to keep Lava Boilers fueled for longer.\n\n\n§oDo not attempt to buffer Steam using Drums, §ma massive bomb will be dropped in your base§r§o. Buffering Steam is bad, it\u0027s unethical, I beg you. *sobbing face*§r\n\n\nGet §eeither§r of the proposed Drums to complete this quest.\n\n\n§bLore:§r The drums are actually ported from GregTech 6!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5336,7 +5605,26 @@
         }
       },
       "questID:3": 77,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 24000,
+                  "FluidName:8": "lava"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -5381,7 +5669,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The Sifter takes §dGem type§r §aPurified Ores§r to turn them into high grade gems with §6higher yield§r than other means.\n\n\n§9Note:§r If you crushed Gem Ores (such as Diamond), it is primordial you use this machine to recover the actual gems in non dust form. However this is a rather slow process so you may sometimes want to smelt this type of ore directly into the Gem.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5432,7 +5720,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The Autoclave typically is the last step of Ore Processing, to turn a few select §aGem Dusts§r back regular Gems.\n\nIt is very slow so in general it is not advised to crush gem ores at all, as the recovery process is too expensive.\n\n\n§9Note:§r In this modpack, the Autoclave is required to make Fluix Crystals to progress in Applied Energistics.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5661,7 +5949,8 @@
     },
     "83:10": {
       "preRequisites:11": [
-        70
+        70,
+        69
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5678,7 +5967,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Basic Extractor",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -5718,7 +6007,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oTime to end the misery of hand crafting rotors!§r\n\nUse both your machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes up for §6four Ingots per Rotor§r.\n\n\n§9Note:§r Some metals require higher voltage than LV for Fluid Extraction, so keep that in mind.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5741,7 +6030,26 @@
         }
       },
       "questID:3": 84,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:redstone"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -5759,6 +6067,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -5769,7 +6094,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI know what you\u0027re thinking! Don\u0027t think! I mean... Maintenance in GregTech is not as bad as you think, and looking at multiblocks with this hatch makes me feel happy.§r\n\nMost Multiblocks require a Maintenance Hatch. You will need to do Maintenance for the Multiblock to begin operating.\nThis is done by having a §9Wrench§r, a §9Screwdriver§r, a §9Soft Mallet§r, a §9Hammer§r, a §9Wire Cutter§r, and a §9Crowbar§r in your inventory, opening the Maintenance Hatch and §3clicking the center spot once§r. §cNo need to move tools individually§r. Alternatively you can fix problems with §9Tape§r instead of tools, but I would love to tell you that\u0027s unethical.\n\nMaintenance problems may occur §dafter 30+ real hours of activity§r. Needless to say they are very rare. Each problem increases the recipe durations by 10%. Fixing the problems is done the same way as above.\n\n\nAt HV age, you will unlock other Maintenance Hatches that do not enforce fixing the problems manually.\n\n\n§bLore:§r Maintenance dates back to GregTech 3 for Minecraft 1.5.2. That\u0027s a long time ago! Maintenance problems increased power usage instead.",
+          "desc:8": "§oI know what you\u0027re thinking! Don\u0027t think! I mean... Maintenance in GregTech is not as bad as you think, and looking at multiblocks with this hatch makes me feel happy.§r\n\nMost Multiblocks require a Maintenance Hatch. You will need to do Maintenance for the Multiblock to begin operating.\nThis is done by having a §9Wrench§r, a §9Screwdriver§r, a §9Soft Mallet§r, a §9Hammer§r, a §9Wire Cutter§r, and a §9Crowbar§r in your inventory, opening the Maintenance Hatch and §3clicking the center spot once§r. §cNo need to move tools individually§r.\nAlternatively you can fix problems by placing a §9Tape§r in the Maintenance Hatch, but I would love to tell you that\u0027s unethical.\n\nMaintenance problems may occur §dafter 48 real hours of activity§r. Needless to say they are very rare. Each problem increases the recipe durations by 10%. Fixing the problems is done the same way as above.\n\n\nAt HV age, you will unlock other Maintenance Hatches that do not enforce fixing the problems manually.\n\n\n§bLore:§r Maintenance dates back to GregTech 3 for Minecraft 1.5.2. That\u0027s a long time ago!\nMaintenance problems increased power usage instead of duration. And that caused all sorts of \"happy\" issues. Ah, fun times!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5780,7 +6105,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "This is not as Scary as it looks.",
+          "name:8": "This is not as Scary as it looks #1.",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -5792,11 +6117,38 @@
         }
       },
       "questID:3": 85,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 502,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_tool",
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "titanium"
+                },
+                "display:10": {
+                  "Name:8": "I need no Tape"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5820,7 +6172,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIt is time to stop processing Resin through the Extractor.§r\n\nYou can now centrifuge Resin, which will still give the Raw Rubber, alongside with §aGlue§r (and the less useful Plantball).\n\nMake a lot of Glue. You can use for §6cheaper Resistors§r, §6cheaper Circuit Boards§r, an exclusive Name Tag §din the Assembling Machine§r and more... §oin the next quest§r.",
+          "desc:8": "§oIt is time to stop processing Resin through the Extractor.§r\n\nYou can now centrifuge Resin, which will still give the Raw Rubber, alongside with §aGlue§r (and the less useful Plantball).\n\nMake a lot of Glue. You can use for §6cheaper Resistors§r, §6cheaper Circuit Boards§r, an exclusive Name Tag §din the Assembling Machine§r and more... §oin the next quest§r.\n\n\n§9Note:§r Submit a fluid by having it stored in §lany§r tank in your inventory. A bucket will also work.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5873,7 +6225,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI\u0027m not sure why it\u0027s called \"Good\" Circuit Board, as I consider it rather evil to craft.§r\n\nThis Circuit Board is used to create §dMV Circuits§r!\n\n\n§9Note:§r You have §ltwo§r options to make the Phenolic Circuit Board. Using §aSodium Persulfate§r, making boards takes §6only a quarter of the Gold§r as opposed to the crafting recipe.\n§lHowever§r I personally recommend going in the Nether and mining Magnetite veins as they have a lot of Gold. That way you skip doing chemistry for this tier.\n\nThe Quest for Sodium Persulfate is in the MV chapter, if you are interested in that.",
+          "desc:8": "§oI\u0027m not sure why it\u0027s called \"Good\" Circuit Board, as I consider it rather evil to craft.§r\n\nThis Circuit Board is used to create §dMV Circuits§r!\n\n\n§9Note:§r You have §ltwo§r options to make the Phenolic Circuit Board. Using §aSodium Persulfate§r, making boards takes §6only a quarter of the Gold§r as opposed to the crafting recipe.\n§lHowever§r given how painful it may be for you to obtain these chemicals §oright now§r, you may want to mine for more Gold in Nether Limonite veins or something...\n\n\nThe Quest for Sodium Persulfate is in the MV chapter, if you are interested in that.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5982,7 +6334,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThe Chemical Bath bathes... You thought this was over didn\u0027t you?§r\n\n\n§lOutside of Ore Processing:§r\nYou can make §6Paper out of Wood§r, to throw away your sugar canes. I know you hate them.\nThere are some other less important recipes.\n\n\n§lFor Ore Processing:§r\nSome §aCrushed Ores§r have an alternate recipe on the way to §aPurified Ore§r, involving bathing in either §aMercury§r or §aSodium Persulfate§r. This step is not really important, unless you really want that special §6Byproduct§r. This can be a nice alternate source of Gold.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6029,12 +6381,12 @@
     "90:10": {
       "preRequisites:11": [
         91,
-        67
+        66
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, check the recipe for Tiny Dusts (open that handy material tab in JEI). You can obtain it from §acentrifuging impure dusts§r, either Bauxite or Sphalerite.\nYou can also §aelectrolyze Sphalerite§r, but the yield is really small. Furthermore, you will lose on smelting value the Sphalerite dust into Zinc.\n\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r. The ore is found in Galena veins.",
+          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, you may have to §aelectrolyze Sphalerite§r for a low chance of small dust. If this is the only recipe (including full, small and tiny dusts) to obtain Gallium in LV Age by the time you are playing this, yell at the devs for not hotfixing Ore Byproducts!\n\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6108,7 +6460,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Mixer mixes... What did you expect at this point?§r\n\nPut this machine off until you actually require it for recipes in progression.\n\nMany materials at this stage cam be mixed into dust or directly made in the alloy smelter. Remember to check both!",
+          "desc:8": "§oThis Mixer mixes... What did you expect at this point?§r\n\nPut this machine off until you actually require it for recipes in progression.\n\n\nSome hand alloys can also be made in the mixer, except at higher yield.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6270,16 +6622,19 @@
       }
     },
     "94:10": {
+      "preRequisites:11": [
+        81
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
           "desc:8": "§bAluminium§r is the main ingredient for §bMV§r machine hulls. You will need a lot of it, so be sure to set up a good system for processing §bAluminium Dust§r.\n\nWith LV power, the only way of getting Aluminium Dust is by electrolyzing §9Sapphire§r or §2Green Sapphire§r. Once you setup an §bMV Electrolyzer§r, you can get Aluminium through many other ores. All of this quest\u0027s rewards bear Aluminium.\n\nThe process of smelting Aluminium can be accelerated with §9Nitrogen§r, which is obtained by centrifuging §bAir§r from a Gas Collector.",
           "globalshare:1": 0,
           "icon:10": {
-            "id:8": "gregtech:meta_ingot",
             "Count:3": 1,
             "Damage:2": 2,
-            "OreDict:8": ""
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
           },
           "ismain:1": 1,
           "issilent:1": 0,
@@ -6295,73 +6650,70 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_dust",
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:meta_ingot",
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval",
-          "index:3": 0
-        }
-      },
+      "questID:3": 94,
       "rewards:9": {
         "0:10": {
           "choices:9": {
             "0:10": {
-              "id:8": "gregtech:ore_sodalite_0",
               "Count:3": 18,
               "Damage:2": 0,
-              "OreDict:8": ""
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sodalite_0"
             },
             "1:10": {
-              "id:8": "gregtech:ore_almandine_0",
               "Count:3": 18,
               "Damage:2": 0,
-              "OreDict:8": ""
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_almandine_0"
             },
             "2:10": {
-              "id:8": "gregtech:ore_kyanite_0",
               "Count:3": 24,
               "Damage:2": 0,
-              "OreDict:8": ""
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_kyanite_0"
             },
             "3:10": {
-              "id:8": "gregtech:ore_bauxite_0",
               "Count:3": 24,
               "Damage:2": 0,
-              "OreDict:8": ""
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_bauxite_0"
             },
             "4:10": {
-              "id:8": "gregtech:granite",
               "Count:3": 24,
               "Damage:2": 1,
-              "OreDict:8": ""
+              "OreDict:8": "",
+              "id:8": "gregtech:granite"
             }
           },
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
         }
       },
-      "preRequisites:11": [
-        81
-      ],
-      "questID:3": 94
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "95:10": {
       "preRequisites:11": [
@@ -6536,7 +6888,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis is a Guide to help you form Multiblocks and troubleshoot issues.§r\n\nThere are two really important factors to know when building Multiblocks.\n\n§lCheck the JEI preview:§r This one was probably obvious, but there\u0027s more than just a picture of how the Multiblock looks like! Use your mouse to §drotate§r the preview, §9hover over the parts§r to gain additional informations. The JEI page also contains the amount of blocks to build it.\n\n\n§lThe JEI preview is a suggestion:§r There is no unique way to form the Multiblock. Most of the time, you have complete freedom for the §9tier of Buses/Hatches§r. And you also have the §dfreedom of placement§r.\n\nTaking the EBF as example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere replacing a casing. Fluid Hatches are also optional, though you probably want them to handle recipes with fluid.\n\n\n\nIf a multiblock is formed, but you are having troubles figuring out why it does not run:\n§9-§r Check if the Multiblock is properly powered and its recipe usage, the max EU/t has to be greater.\n§9-§r Fix the Maintenance issues if there are any.\n§9- §rCheck the special requirements the recipe may have (JEI always has some kind of indication for it)\n§9-§r Make sure the recipe is properly input, this is less obvious than in a regular machine because you have to juggle between Input Bus and Input Hatch\n§9-§r Make sure there is space for output. The biggest offender is the Output Hatches being too low tier and having too little capacity!",
+          "desc:8": "§oThis is a Guide to help you form Multiblocks and troubleshoot issues.§r\n\nThere are two really important factors to know when building Multiblocks.\n\n§lCheck the JEI preview:§r This one was probably obvious, but there\u0027s more than just a picture of how the Multiblock looks like! Use your mouse to §drotate§r the preview, §9hover over the parts§r to gain additional informations. The JEI page also contains the amount of blocks to build it. You can also §dright-click§r a block in the preview to get a display of all available blocks in that placement.\n\n\n§lThe JEI preview is a suggestion:§r There is no unique way to form the Multiblock. Most of the time, you have complete freedom for the §9tier of Buses/Hatches§r. And you also have the §dfreedom of placement§r.\n\nTaking the EBF as example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere replacing a casing. Fluid Hatches are also optional, though you probably want them to handle recipes with fluid.\n\n\n\nIf a multiblock is formed, but you are having troubles figuring out why it does not run:\n§9-§r Check if the Multiblock is properly plugged (we all make these mistakes!).\n§9-§r Do the initial Maintenance fix.\n§9-§r Verify the recipe usage, the max EU/t has to be greater.\n§9- §rCheck the special requirements the recipe may have (JEI always has some kind of indication for it)\n§9-§r Make sure the recipe is properly input, this is less obvious than in a regular machine because you have to juggle between Input Bus and Input Hatch\n§9-§r Make sure there is space for output. The biggest offender is the Output Hatches being too low tier and having too little capacity!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6574,7 +6926,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Similarly to the Steam Multiblocks (I hope you made them!), you will need Buses to move items in and out.\nFor fluids, you will need Hatches.\n\nThat\u0027s it!",
+          "desc:8": "Similarly to the Steam Multiblocks (I hope you made them!), you will need Buses to move items in and out.\nFor fluids, you will need Hatches.\n\nThat is it, folks!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6856,7 +7208,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Getting into Applied Energistics at this point is a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§6-§r Charger (to charge FE related items!)\n§6-§r ME Terminal (§onot§r Crafting Terminal)\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§6-§r Portable Cell",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6894,7 +7246,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Multiblock Tanks can store a larger amount of fluid, but aren\u0027t portable like Drums are. The §6Steel Multiblock Tank§r holds §a1,000,000 mB§r of fluid.\n\nFluid input and output goes through the controller block, or through up to 2 additional Valve blocks.\n\nA §6Wooden§r§r version exists which holds §a250,000 mB§r, but it cannot store §chot fluids§r such as Steam.\n\nYou may not need fluid storage at this scale at this point, so if you don\u0027t, feel free to hold off on this quest for now.",
+          "desc:8": "Multiblock Tanks can store a larger amount of fluid, but aren\u0027t portable like Drums are. The §6Steel Multiblock Tank§r holds §a1,000,000 mB§r of fluid.\n\nA §6Wooden§r§r version exists which holds §a250,000 mB§r, but it cannot store §chot fluids§r such as Lava, or §cgases§r such as Oxygen.\n\n\nFluid input and output goes through the controller block, or through up to two additional Valve blocks. Nothing in these tanks auto-inputs or auto-outputs, so you will have to use Pump Covers.\n\n\nThese optional yet fancy Tanks are alternatives to fluid storage until you unlock the greater §9Super Tanks§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6923,7 +7275,7 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 5,
+              "Count:3": 2,
               "Damage:2": 142,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
@@ -6951,6 +7303,1108 @@
               "Damage:2": 4,
               "OreDict:8": "",
               "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "106:10": {
+      "preRequisites:11": [
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Item Pipes are a simple yet very effective way to move items around §dinstantly§r, but with throughput limitations.\nHigher tier pipes provide ridiculously large throughput, a rare sight in modded Minecraft!\n\nItem Pipes §9do not pull§r, but they will push any item inserted into them to other connected inventories, prioritizing §9the closest§r first.\nThe priority stat is less important, but it may come handy for medium size pipe networks.\n\n\nRight now, you can use them in combination with §6Hoppers§r, but you will also be able to use them with Conveyor Module, Output Bus, and machine Auto-Output all in LV age.\n\nYou can use your Wrench to disconnect a side of a pipe.\n\n\n§bLore:§r Oooooh YEAH! Item Pipes were in GregTech 5, and for whatever reason they were not kept for GTCE, so you had to use other mods to transport items. Who does that!? Jokes aside, I hope you love Item Pipes being back in GregTech!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 112,
+            "OreDict:8": "",
+            "id:8": "gregtech:item_pipe_normal"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Item Pipes",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 106,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:hopper"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:item_pipe_small"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "107:10": {
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n\n§5Writer:§r §oCome back at me when you are stronger, young Padawan.§r",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 67,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Universal Macerator",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 107,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 67,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "108:10": {
+      "preRequisites:11": [
+        93
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oSoldering Alloy is used to... solder... things in the Assembler of Circuit Assembler.§r\n\nSoldering Alloy is used solely as a fluid, and in most cases is replaceable with Tin.\nThe choice will be yours, spend more materials? Or spend less time crafting materials?",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 320,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Soldering Alloy",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 108,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 20,
+              "Damage:2": 320,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 10,
+              "Damage:2": 320,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 10,
+              "Damage:2": 320,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "109:10": {
+      "preRequisites:11": [
+        26
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Now that you have Steel, you can make a Hang Glider! This may help tremendously for Nether exploration.\n\nIf you do not have enough Leather yet, make a §9Butchering Knife§r and hunt some cows.\n\n\n§bLore:§r Hang Glider comes from OpenBlocks. Due to great utility of the Hang Glider, it was ported to a separated mod for people who do not want OpenBlocks in their modpack (like us!).",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "openglider:hang_glider_basic"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "It\u0027s a Bird!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 109,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "openglider:hang_glider_basic"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "110:10": {
+      "preRequisites:11": [
+        58,
+        71
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oAlright, making this is quite evolved, this has to be good right?\nAlso, this is not the final item, this is only an Empty Spray Can, filling it with Chemical Dye is even more evolved right now!§r\n\n\nSo, the Spray Cans are functionally useless, but §3visually appealing and useful§r!\n\nAny (or almost) GregTech TileEntity can be painted to one of the 16 colors of your chosing. This is great for screenshots, or to separate different setups for visualization in a Multiplayer base.\n\n\n§oBut oh boy these are not too fun to make, let us know what you think about it.§r",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 69,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "16 Shades of Gray",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 110,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 61,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "111:10": {
+      "preRequisites:11": [
+        72,
+        69,
+        83
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Prospector is an amazing tool to find veins.\n\nIts GUI is interactive, and... I do not have much more to say.\n§6It is great§r.\n\n\n§bLore:§r §oBack in MY days, portable Prospector was locked in LuV.§r",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 466,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 100000
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "This is Hacking",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 111,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 466,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "112:10": {
+      "preRequisites:11": [
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Electric Blast Furnace requires a Muffler Hatch to run. This hatch must be §cunobstructed§r so it can output its beautiful smoke particles.\n\nWhen a recipe is performed, there is a small chance for the Muffler Hatch to give bonus items, typically tiny Dusts of Ash.\n\n§9Note:§r Do not try to automate the extraction of items from the Muffler Hatch, it is not intended.\n\n\n§bLore:§r In GregTech 5, polluting multiblock had Muffler Hatches. The higher tier the hatch, the lower the Pollution.\nPollution had interesting effects such as turbing grass and dirt into sand.\nMuffler Hatches in GTCEu are more about the look (can you deny it looks good!?) and small rewards, rather than punishing game mechanics.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1657,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "This is not as Scary as it looks #2.",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 112,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "113:10": {
+      "preRequisites:11": [
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 128,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "MV Components",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 113,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 128,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "114:10": {
+      "preRequisites:11": [
+        115,
+        116,
+        118
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 261,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Distillation",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 114,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 261,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "115:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1004,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pyrolyse Oven",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 115,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1004,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "116:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "oil"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "America Simulator",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 116,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1530,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 32000,
+              "FluidName:8": "oil_medium"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "117:10": {
+      "preRequisites:11": [
+        114,
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "ethanol"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ethanol",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 117,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "ethanol"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "118:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 439,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Biomass",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 118,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 439,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 440,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "biomass"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "119:10": {
+      "preRequisites:11": [
+        114,
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "light_fuel"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Light Fuel",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 119,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_light_fuel"
+            },
+            "1:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "light_fuel"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "120:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_acid"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sulfuric Acid",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 120,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_acid"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "121:10": {
+      "preRequisites:11": [
+        119
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "severely_steamcracked_light_fuel"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fuel Cracking",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 121,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "severely_steamcracked_light_fuel"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "122:10": {
+      "preRequisites:11": [
+        117,
+        121
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "ethylene"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ethylene",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 122,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "ethylene"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "123:10": {
+      "preRequisites:11": [
+        122
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1012,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_plate"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Polyethylene",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 123,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1012,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "124:10": {
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sodium_persulfate"
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sodium Persulfate",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 124,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sodium_persulfate"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "125:10": {
+      "preRequisites:11": [
+        122
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1007,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_plate"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Polyvinyl Chloride",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 125,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1007,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -7283,197 +8737,197 @@
           "id:3": 4,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
+          "x:3": -48,
           "y:3": -90
         },
         "1:10": {
           "id:3": 19,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -228,
+          "x:3": -234,
           "y:3": -96
         },
         "2:10": {
           "id:3": 20,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": -42
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -114,
+          "y:3": -36
         },
         "3:10": {
           "id:3": 21,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
           "x:3": -174,
-          "y:3": -90
+          "y:3": -96
         },
         "4:10": {
           "id:3": 22,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
           "x:3": -174,
-          "y:3": -138
+          "y:3": -156
         },
         "5:10": {
           "id:3": 23,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -222,
-          "y:3": -42
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -234,
+          "y:3": -36
         },
         "6:10": {
           "id:3": 24,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
           "x:3": -174,
-          "y:3": -42
+          "y:3": -36
         },
         "7:10": {
           "id:3": 25,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": -138
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -114,
+          "y:3": -156
         },
         "8:10": {
           "id:3": 26,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
           "x:3": -180,
-          "y:3": -192
+          "y:3": -234
         },
         "9:10": {
           "id:3": 27,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -174,
-          "y:3": -234
+          "x:3": -168,
+          "y:3": -282
         },
         "10:10": {
           "id:3": 28,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -222,
-          "y:3": -138
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -234,
+          "y:3": -156
         },
         "11:10": {
           "id:3": 29,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": -138
+          "x:3": 72,
+          "y:3": -150
         },
         "12:10": {
           "id:3": 30,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": -186
+          "x:3": 12,
+          "y:3": -222
         },
         "13:10": {
           "id:3": 31,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -234
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 6,
+          "y:3": -288
         },
         "14:10": {
           "id:3": 32,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": -138
+          "x:3": 12,
+          "y:3": -150
         },
         "15:10": {
           "id:3": 33,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": 6
+          "x:3": 12,
+          "y:3": 30
         },
         "16:10": {
           "id:3": 34,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -222,
-          "y:3": -186
+          "x:3": -228,
+          "y:3": -222
         },
         "17:10": {
           "id:3": 35,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -222,
-          "y:3": -234
+          "x:3": -228,
+          "y:3": -282
         },
         "18:10": {
           "id:3": 36,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -222,
-          "y:3": 6
+          "x:3": -228,
+          "y:3": 30
         },
         "19:10": {
           "id:3": 37,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": 6
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -114,
+          "y:3": 24
         },
         "20:10": {
           "id:3": 38,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
           "x:3": -174,
-          "y:3": 6
+          "y:3": 24
         },
         "21:10": {
           "id:3": 39,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
-          "y:3": -186
+          "x:3": -48,
+          "y:3": -222
         },
         "22:10": {
           "id:3": 40,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": -138
+          "x:3": 126,
+          "y:3": -150
         },
         "23:10": {
           "id:3": 41,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
+          "x:3": 12,
           "y:3": -90
         },
         "24:10": {
           "id:3": 42,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": -42
+          "x:3": 72,
+          "y:3": -30
         },
         "25:10": {
           "id:3": 43,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": -90
+          "x:3": 126,
+          "y:3": -96
         },
         "26:10": {
           "id:3": 44,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 60,
-          "y:3": -48
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 114,
+          "y:3": -42
         },
         "27:10": {
           "id:3": 46,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 60,
-          "y:3": -192
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 114,
+          "y:3": -276
         },
         "28:10": {
           "id:3": 47,
@@ -7486,8 +8940,29 @@
           "id:3": 59,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
-          "y:3": 6
+          "x:3": -48,
+          "y:3": 30
+        },
+        "30:10": {
+          "id:3": 77,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -282
+        },
+        "31:10": {
+          "id:3": 106,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -90,
+          "y:3": -90
+        },
+        "32:10": {
+          "id:3": 109,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -282
         }
       }
     },
@@ -7612,7 +9087,7 @@
           "id:3": 61,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 162,
+          "x:3": 168,
           "y:3": -72
         },
         "15:10": {
@@ -7633,8 +9108,8 @@
           "id:3": 64,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": 90
+          "x:3": -36,
+          "y:3": 30
         },
         "18:10": {
           "id:3": 65,
@@ -7647,14 +9122,14 @@
           "id:3": 66,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -126,
+          "x:3": -66,
           "y:3": 126
         },
         "20:10": {
           "id:3": 67,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -66,
+          "x:3": -126,
           "y:3": 126
         },
         "21:10": {
@@ -7682,29 +9157,29 @@
           "id:3": 71,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
+          "x:3": 66,
           "y:3": 18
         },
         "25:10": {
           "id:3": 72,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
+          "x:3": 192,
           "y:3": 18
         },
         "26:10": {
           "id:3": 73,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 174,
-          "y:3": -24
+          "x:3": 192,
+          "y:3": -30
         },
         "27:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 222,
-          "y:3": -24
+          "x:3": 228,
+          "y:3": -18
         },
         "28:10": {
           "id:3": 75,
@@ -7721,200 +9196,228 @@
           "y:3": 132
         },
         "30:10": {
-          "id:3": 77,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": 132
-        },
-        "31:10": {
           "id:3": 78,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": -12
         },
-        "32:10": {
+        "31:10": {
           "id:3": 79,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 30
         },
-        "33:10": {
+        "32:10": {
           "id:3": 80,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 300,
           "y:3": 60
         },
-        "34:10": {
+        "33:10": {
           "id:3": 81,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 342,
           "y:3": 6
         },
-        "35:10": {
+        "34:10": {
           "id:3": 82,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 192
         },
-        "36:10": {
+        "35:10": {
           "id:3": 83,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 300,
           "y:3": 126
         },
-        "37:10": {
+        "36:10": {
           "id:3": 84,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": 54
+          "y:3": 90
         },
-        "38:10": {
+        "37:10": {
           "id:3": 85,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
-          "y:3": 84
+          "y:3": 60
         },
-        "39:10": {
+        "38:10": {
           "id:3": 86,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 192
         },
-        "40:10": {
+        "39:10": {
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 192
         },
-        "41:10": {
+        "40:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 192
         },
-        "42:10": {
+        "41:10": {
           "id:3": 89,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 6
         },
-        "43:10": {
+        "42:10": {
           "id:3": 90,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 192
         },
-        "44:10": {
+        "43:10": {
           "id:3": 91,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 132
         },
-        "45:10": {
+        "44:10": {
           "id:3": 92,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 384,
           "y:3": 180
         },
-        "46:10": {
+        "45:10": {
           "id:3": 93,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 390,
           "y:3": 126
         },
-        "47:10": {
+        "46:10": {
           "id:3": 94,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
-          "y:3": -96
+          "y:3": -102
         },
-        "48:10": {
+        "47:10": {
           "id:3": 95,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 408,
-          "y:3": -90
+          "y:3": -96
         },
-        "49:10": {
+        "48:10": {
           "id:3": 96,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -162,
           "y:3": 192
         },
-        "50:10": {
+        "49:10": {
           "id:3": 97,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 402,
           "y:3": -30
         },
-        "51:10": {
+        "50:10": {
           "id:3": 98,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 420,
           "y:3": 18
         },
-        "52:10": {
+        "51:10": {
           "id:3": 99,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 402,
           "y:3": 66
         },
-        "53:10": {
+        "52:10": {
           "id:3": 100,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 306,
           "y:3": -30
         },
-        "54:10": {
+        "53:10": {
           "id:3": 101,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 222,
+          "x:3": 216,
           "y:3": -102
         },
-        "55:10": {
+        "54:10": {
           "id:3": 102,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 90
         },
-        "56:10": {
+        "55:10": {
           "id:3": 104,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 222,
-          "y:3": 90
+          "x:3": 60,
+          "y:3": 150
         },
-        "57:10": {
+        "56:10": {
           "id:3": 105,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": 168
+          "x:3": 288,
+          "y:3": -96
+        },
+        "57:10": {
+          "id:3": 107,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": 90
+        },
+        "58:10": {
+          "id:3": 108,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 354,
+          "y:3": 156
+        },
+        "59:10": {
+          "id:3": 110,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 102,
+          "y:3": 54
+        },
+        "60:10": {
+          "id:3": 111,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": 54
+        },
+        "61:10": {
+          "id:3": 112,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 354,
+          "y:3": 90
         }
       }
     },
@@ -7950,6 +9453,97 @@
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 0
+        },
+        "2:10": {
+          "id:3": 113,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": -30
+        },
+        "3:10": {
+          "id:3": 114,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": -108
+        },
+        "4:10": {
+          "id:3": 115,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 90,
+          "y:3": -108
+        },
+        "5:10": {
+          "id:3": 116,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": -108
+        },
+        "6:10": {
+          "id:3": 117,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -156
+        },
+        "7:10": {
+          "id:3": 118,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 30,
+          "y:3": -78
+        },
+        "8:10": {
+          "id:3": 119,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 6,
+          "y:3": -156
+        },
+        "9:10": {
+          "id:3": 120,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -156
+        },
+        "10:10": {
+          "id:3": 121,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 6,
+          "y:3": -204
+        },
+        "11:10": {
+          "id:3": 122,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -204
+        },
+        "12:10": {
+          "id:3": 123,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -204
+        },
+        "13:10": {
+          "id:3": 124,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -108
+        },
+        "14:10": {
+          "id:3": 125,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -156
         }
       }
     },
