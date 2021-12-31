@@ -4124,7 +4124,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a Crowbar (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\n\nFor the Covers transferring Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.",
+          "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a Crowbar (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\nFor the Covers transferring Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.\n\nPlacing a cover of a lower voltage tier on a machine is §asafe§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5112,7 +5112,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe Assembling Machine is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developpers also love this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Enegistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r Resistors\n§9-§r Circuit Boards\n§9-§r Cables\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
+          "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe Assembling Machine is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developers also love to use this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Energistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r Resistors\n§9-§r Circuit Boards\n§9-§r Cables\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5509,7 +5509,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1324,
+              "Damage:2": 1326,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -7636,7 +7636,25 @@
       },
       "questID:3": 112,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1657,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "112:10": {
       "preRequisites:11": [
@@ -10845,8 +10863,8 @@
         },
         "16:10": {
           "id:3": 63,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
+          "sizeX:3": 30,
+          "sizeY:3": 30,
           "x:3": -90,
           "y:3": 60
         },
@@ -10854,8 +10872,8 @@
           "id:3": 64,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 30
+          "x:3": -30,
+          "y:3": 24
         },
         "18:10": {
           "id:3": 65,
@@ -10883,7 +10901,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
-          "y:3": 6
+          "y:3": 24
         },
         "22:10": {
           "id:3": 69,
@@ -10946,14 +10964,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
-          "y:3": -12
+          "y:3": 24
         },
         "31:10": {
           "id:3": 79,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": 30
+          "x:3": -162,
+          "y:3": 24
         },
         "32:10": {
           "id:3": 80,
@@ -11008,14 +11026,14 @@
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 108,
+          "x:3": 114,
           "y:3": 192
         },
         "40:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
+          "x:3": 234,
           "y:3": 192
         },
         "41:10": {
@@ -11023,7 +11041,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
-          "y:3": 6
+          "y:3": 24
         },
         "42:10": {
           "id:3": 90,
@@ -11127,8 +11145,8 @@
           "id:3": 107,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": 90
+          "x:3": -162,
+          "y:3": 96
         },
         "57:10": {
           "id:3": 108,
@@ -11162,7 +11180,7 @@
           "id:3": 154,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -96,
+          "x:3": -90,
           "y:3": 168
         }
       }
