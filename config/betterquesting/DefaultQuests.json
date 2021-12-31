@@ -8229,7 +8229,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking Sulfuric Acid is a three step process.\nTo automate this (which you should at some point), you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with one §3LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (...or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §aOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §aOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §aWater§r, to form §aSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
+          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking Sulfuric Acid is a three step process. It is used in many important reactions, so you should automate its production soon.\n\nTo do so, you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with one §3LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (...or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §aOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §aOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §aWater§r, to form §aSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8281,7 +8281,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nTo avoid unnecessary complication, I will just go ahead and tell you the best way to acquire §dEthylene§r.\nSteam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nIf you check the usage of the Severely Steam-Cracked Light Fuel, you will be brought up with the Distillation Tower recipe will looks amazing... but sadly this is not for you yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nTo avoid unnecessary complication, I will just go ahead and tell you the best way to acquire §dEthylene§r.\nSteam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nThe tantalizing §9Distillation Tower§r process for Severely Steam-Cracked Light Fuel is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8489,7 +8489,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\nWhile Polyvinyl Chloride is used a lot less than Polyethylene, it will be useful in a fair amount of recipes.",
+          "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\n§aPolyvinyl Chloride (PVC)§r is the 3rd-most produced plastic in real life. Here, it can be used in place of Polyethylene in production of §aPlastic Circuit Boards§r and other items to increase the yield.\n\nPVC item pipes also have the §6highest throughput§r available for a while, if your setups need it.\n\n§9Pro tip:§r the fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8541,7 +8541,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer now enables you to decompose a lot more Dusts. This will make getting certain materials a lot easier!",
+          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer allows you to decompose §6all§r Dusts. This will make getting materials such as §aAluminium§o§§ a lot easier!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8592,7 +8592,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nAfter this batch, you may want to switch to §aSodalite electrolysis§r which gives similar outputs.\n\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.",
+          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nYou will need §a§ra total of §a416 Clay Dust§r for this quest. You may also want to look into other sources of similar materials, such as §aSodalite§r. Check JEI for some ideas.\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8639,7 +8639,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 416,
+              "Count:3": 64,
               "Damage:2": 2063,
               "OreDict:8": "dustClay",
               "id:8": "gregtech:meta_dust"
@@ -9770,7 +9770,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSuper Tanks are OP!! No but seriously.§r\n\nThis is the end of Fluid storage galore. 4,000 buckets storage in one single block!\n\n",
+          "desc:8": "§oSuper Tanks are OP!! No but seriously.§r\n\nThis is the ultimate portable Fluid storage solution. §64,000 buckets storage§r in one single block! Like Drums, Super Tanks keep their fluids when broken, and can be cleared in the crafting grid.\n\nFor §9even more§r storage, use higher tier Super Tanks or AE2 Fluid Storage Cells.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10252,7 +10252,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11372,7 +11372,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -24,
-          "y:3": -138
+          "y:3": -180
         },
         "5:10": {
           "id:3": 115,
@@ -11385,8 +11385,8 @@
           "id:3": 116,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
-          "y:3": -132
+          "x:3": -60,
+          "y:3": -174
         },
         "7:10": {
           "id:3": 117,
@@ -11400,14 +11400,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -18,
-          "y:3": -174
+          "y:3": -126
         },
         "9:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
-          "y:3": -132
+          "y:3": -126
         },
         "10:10": {
           "id:3": 120,
@@ -11421,21 +11421,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
-          "y:3": -132
+          "y:3": -126
         },
         "12:10": {
           "id:3": 122,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
-          "y:3": -132
+          "y:3": -126
         },
         "13:10": {
           "id:3": 123,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 204,
-          "y:3": -138
+          "y:3": -132
         },
         "14:10": {
           "id:3": 124,
@@ -11595,8 +11595,8 @@
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
-          "y:3": -174
+          "x:3": -60,
+          "y:3": -84
         },
         "37:10": {
           "id:3": 147,
@@ -11607,30 +11607,30 @@
         },
         "38:10": {
           "id:3": 148,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": 18,
-          "y:3": -90
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -84
         },
         "39:10": {
           "id:3": 149,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": 60,
-          "y:3": -90
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 66,
+          "y:3": -84
         },
         "40:10": {
           "id:3": 150,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": -102,
-          "y:3": -90
+          "y:3": -126
         },
         "41:10": {
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
+          "x:3": -102,
           "y:3": -84
         },
         "42:10": {
@@ -11659,7 +11659,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
-          "y:3": -132
+          "y:3": -126
         }
       }
     },
