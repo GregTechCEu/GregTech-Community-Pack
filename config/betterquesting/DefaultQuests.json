@@ -7821,7 +7821,20 @@
         }
       },
       "questID:3": 113,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 274,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -7950,7 +7963,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "The §aPyrolyse Oven§r processes §aWood§r and §aCoal§r products by heating them in an inert environment. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8001,7 +8014,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHave you see the Oil spouts when wandering around?§r\n\nGet a Pump, place it above an Oil spout and Power it! Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\nI recommend you bring up a §3Battery Buffer§r, and a lot of §3Drums§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
+          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\nI recommend you bring up a §3Battery Buffer§r, and a lot of §3Drums§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8125,7 +8138,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nLet\u0027s assume you pick this route. You will need plant matter. §aSaplings§r work and will give you Biomass in the §3Brewery§r at decent rates.\nOthe§rrwise, you may go the §aPlantball§r into §aBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient but obvisouly requires a whole Multiblock.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
+          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nFor this route, you will need plant matter. §aSaplings§r work and will give you Biomass in the §3Brewery§r at decent rates.\nOthe§rrwise, you may go the §aPlantball§r into §aBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient but obvisouly requires a whole Multiblock.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8281,7 +8294,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nTo avoid unnecessary complication, I will just go ahead and tell you the best way to acquire §dEthylene§r.\nSteam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nThe tantalizing §9Distillation Tower§r process for Severely Steam-Cracked Light Fuel is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing.\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nThe tantalizing §9Distillation Tower§r process for Oil processes is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8386,7 +8399,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nAnd then solidify like you would with Rubber.\n\n\n§aPolyethylene§r is the key to unlock §6many new things§r. It used mostly as §dSheets§r or §dFluid§r form.\nNo spoiling here! Let have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
+          "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nThen solidify like you would with Rubber.\n\n\n§aPolyethylene (PE)§r is the key to unlock §6many new things§r. It\u0027s used mostly as §dSheets§r or §dFluid§r form.\nNo spoilers here! Let\u0027s have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9654,7 +9667,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
+          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nStainless Steel is the material for §6HV§r components, like Aluminium for §bMV§r and Steel for §7LV§r. It is also used in the §6Distillation Tower§r.\nIt requires §cChrome§r, obtained mainly from §cRuby§r, and §2Manganese§r, obtained from §2Pyrolusite§r and others in its vein.\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9677,7 +9690,26 @@
         }
       },
       "questID:3": 145,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 22,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 24,
+              "Damage:2": 61,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -11586,10 +11618,10 @@
         },
         "35:10": {
           "id:3": 145,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": 36
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 162,
+          "y:3": 60
         },
         "36:10": {
           "id:3": 146,
