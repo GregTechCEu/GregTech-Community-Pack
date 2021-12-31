@@ -326,7 +326,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navitagate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus than a multiple of 3§r (-5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rocket is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks appart.§r\n\nHowever Ores veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have an issue with the late game!",
+          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navigate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus a multiple of 3§r (-8, -5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rock is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks apart.§r\n\nHowever Ores veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have a resource issue with the late game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7240,6 +7240,64 @@
     },
     "103:10": {
       "preRequisites:11": [
+        90,
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oJust kidding, Silicon Wafers in this mod are perfectly fungible.§r\n\n§9Silicon Boules§r are made in the EBF with lots of §9Silicon Dust§r and a small amount of §9Gallium Arsenide§r. After making the Boule, cut it in the §9Cutting Machine§r to get 16 Silicon Wafers ready for engraving.\n\n§cWarning:§r Each Silicon Boule takes §c7.5 minutes§r to make at 120 EU/t, or §c1,080,000 EU§r! If the EBF loses power midway, the recipe will start to §close progress§r. Be sure you have enough power before starting.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 361,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Silicon Lottery",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 103,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 361,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "104:10": {
+      "preRequisites:11": [
         70
       ],
       "properties:10": {
@@ -7276,7 +7334,7 @@
         }
       }
     },
-    "104:10": {
+    "105:10": {
       "preRequisites:11": [
         77
       ],
@@ -7352,7 +7410,7 @@
         }
       }
     },
-    "105:10": {
+    "106:10": {
       "preRequisites:11": [
         20
       ],
@@ -7416,7 +7474,7 @@
         }
       }
     },
-    "106:10": {
+    "107:10": {
       "preRequisites:11": [
         63
       ],
@@ -7467,7 +7525,7 @@
         }
       }
     },
-    "107:10": {
+    "108:10": {
       "preRequisites:11": [
         93
       ],
@@ -7537,7 +7595,7 @@
         }
       }
     },
-    "108:10": {
+    "109:10": {
       "preRequisites:11": [
         26
       ],
@@ -7588,7 +7646,7 @@
         }
       }
     },
-    "109:10": {
+    "110:10": {
       "preRequisites:11": [
         58,
         71,
@@ -7684,7 +7742,7 @@
         }
       }
     },
-    "110:10": {
+    "111:10": {
       "preRequisites:11": [
         72,
         69,
@@ -7740,7 +7798,7 @@
         }
       }
     },
-    "111:10": {
+    "112:10": {
       "preRequisites:11": [
         81
       ],
@@ -7791,7 +7849,7 @@
         }
       }
     },
-    "112:10": {
+    "113:10": {
       "preRequisites:11": [
         94
       ],
@@ -7885,7 +7943,7 @@
         }
       }
     },
-    "113:10": {
+    "114:10": {
       "preRequisites:11": [
         116,
         151,
@@ -7955,7 +8013,7 @@
         }
       }
     },
-    "114:10": {
+    "115:10": {
       "preRequisites:11": [
         94,
         92
@@ -8007,7 +8065,7 @@
         }
       }
     },
-    "115:10": {
+    "116:10": {
       "preRequisites:11": [
         62
       ],
@@ -8076,7 +8134,7 @@
         }
       }
     },
-    "116:10": {
+    "117:10": {
       "preRequisites:11": [
         114,
         120,
@@ -8130,7 +8188,7 @@
         }
       }
     },
-    "117:10": {
+    "118:10": {
       "preRequisites:11": [
         146,
         115
@@ -8179,7 +8237,7 @@
         }
       }
     },
-    "118:10": {
+    "119:10": {
       "preRequisites:11": [
         114
       ],
@@ -8235,7 +8293,7 @@
         }
       }
     },
-    "119:10": {
+    "120:10": {
       "preRequisites:11": [
         58
       ],
@@ -8287,7 +8345,7 @@
         }
       }
     },
-    "120:10": {
+    "121:10": {
       "preRequisites:11": [
         119
       ],
@@ -8339,7 +8397,7 @@
         }
       }
     },
-    "121:10": {
+    "122:10": {
       "preRequisites:11": [
         117,
         121
@@ -8392,7 +8450,7 @@
         }
       }
     },
-    "122:10": {
+    "123:10": {
       "preRequisites:11": [
         122
       ],
@@ -8443,7 +8501,7 @@
         }
       }
     },
-    "123:10": {
+    "124:10": {
       "preRequisites:11": [
         120
       ],
@@ -8495,7 +8553,7 @@
         }
       }
     },
-    "124:10": {
+    "125:10": {
       "preRequisites:11": [
         123
       ],
@@ -8546,7 +8604,7 @@
         }
       }
     },
-    "125:10": {
+    "126:10": {
       "preRequisites:11": [
         94,
         92
@@ -8598,7 +8656,7 @@
         }
       }
     },
-    "126:10": {
+    "127:10": {
       "preRequisites:11": [
         126
       ],
@@ -8697,7 +8755,7 @@
         }
       }
     },
-    "127:10": {
+    "128:10": {
       "preRequisites:11": [
         94,
         92
@@ -8749,7 +8807,7 @@
         }
       }
     },
-    "128:10": {
+    "129:10": {
       "preRequisites:11": [
         95
       ],
@@ -8819,14 +8877,15 @@
         }
       }
     },
-    "129:10": {
+    "130:10": {
       "preRequisites:11": [
-        129
+        129,
+        103
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oLet\u0027s get ready to work on better circuits!§r\n\n",
+          "desc:8": "The §aLaser Engraver§r engraves patterns into §9Silicon Wafers§r based on the type of §9Lens§r it is given. After the wafers are engraved, they must be passed through a §9Cutting Machine§r to turn them into components ready to be put into Circuits. Higher tier Engravers can etch more complex wafers for more efficient Circuits.\n\nFor now, the §aIntegrated Logic Circuit§r will be the one of interest, but the others will become important for higher tier Circuits.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8890,29 +8949,6 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 361,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 16,
-              "Damage:2": 371,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 3,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -8933,7 +8969,7 @@
         }
       }
     },
-    "130:10": {
+    "131:10": {
       "preRequisites:11": [
         130
       ],
@@ -8984,7 +9020,7 @@
         }
       }
     },
-    "131:10": {
+    "132:10": {
       "preRequisites:11": [
         131
       ],
@@ -9035,7 +9071,7 @@
         }
       }
     },
-    "132:10": {
+    "133:10": {
       "preRequisites:11": [
         132,
         138
@@ -9087,7 +9123,7 @@
         }
       }
     },
-    "133:10": {
+    "134:10": {
       "preRequisites:11": [
         124,
         123
@@ -9145,7 +9181,7 @@
         }
       }
     },
-    "134:10": {
+    "135:10": {
       "preRequisites:11": [
         133
       ],
@@ -9196,7 +9232,7 @@
         }
       }
     },
-    "135:10": {
+    "136:10": {
       "preRequisites:11": [
         135,
         139
@@ -9248,7 +9284,7 @@
         }
       }
     },
-    "136:10": {
+    "137:10": {
       "preRequisites:11": [
         135,
         139
@@ -9300,7 +9336,7 @@
         }
       }
     },
-    "137:10": {
+    "138:10": {
       "preRequisites:11": [
         128,
         123
@@ -9352,7 +9388,7 @@
         }
       }
     },
-    "138:10": {
+    "139:10": {
       "preRequisites:11": [
         138
       ],
@@ -9403,7 +9439,7 @@
         }
       }
     },
-    "139:10": {
+    "140:10": {
       "preRequisites:11": [
         138
       ],
@@ -9454,7 +9490,7 @@
         }
       }
     },
-    "140:10": {
+    "141:10": {
       "preRequisites:11": [
         137,
         140
@@ -9506,7 +9542,7 @@
         }
       }
     },
-    "141:10": {
+    "142:10": {
       "preRequisites:11": [
         141
       ],
@@ -9557,7 +9593,7 @@
         }
       }
     },
-    "142:10": {
+    "143:10": {
       "preRequisites:11": [
         94,
         92
@@ -9609,7 +9645,7 @@
         }
       }
     },
-    "143:10": {
+    "144:10": {
       "preRequisites:11": [
         126
       ],
@@ -9660,7 +9696,7 @@
         }
       }
     },
-    "144:10": {
+    "145:10": {
       "preRequisites:11": [
         153
       ],
@@ -9730,7 +9766,7 @@
         }
       }
     },
-    "145:10": {
+    "146:10": {
       "preRequisites:11": [
         62
       ],
@@ -9795,7 +9831,7 @@
         }
       }
     },
-    "146:10": {
+    "147:10": {
       "preRequisites:11": [
         123
       ],
@@ -9846,7 +9882,7 @@
         }
       }
     },
-    "147:10": {
+    "148:10": {
       "preRequisites:11": [
         115
       ],
@@ -9900,7 +9936,7 @@
         }
       }
     },
-    "148:10": {
+    "149:10": {
       "preRequisites:11": [
         119
       ],
@@ -9954,7 +9990,7 @@
         }
       }
     },
-    "149:10": {
+    "150:10": {
       "preRequisites:11": [
         151
       ],
@@ -10026,7 +10062,7 @@
         }
       }
     },
-    "150:10": {
+    "151:10": {
       "preRequisites:11": [
         94,
         92
@@ -10065,7 +10101,7 @@
         }
       }
     },
-    "151:10": {
+    "152:10": {
       "preRequisites:11": [
         94,
         92
@@ -10136,7 +10172,7 @@
         }
       }
     },
-    "152:10": {
+    "153:10": {
       "preRequisites:11": [
         128,
         130
@@ -10188,7 +10224,7 @@
         }
       }
     },
-    "153:10": {
+    "154:10": {
       "preRequisites:11": [
         66
       ],
@@ -10239,7 +10275,7 @@
         }
       }
     },
-    "154:10": {
+    "155:10": {
       "preRequisites:11": [
         60
       ],
@@ -10277,7 +10313,7 @@
         }
       }
     },
-    "155:10": {
+    "156:10": {
       "preRequisites:11": [
         123
       ],
@@ -10322,6 +10358,74 @@
               "Damage:2": 52,
               "OreDict:8": "",
               "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "157:10": {
+      "preRequisites:11": [
+        61
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§9§aTransformers§r allow you to step up and down Voltage tiers safely. Transformers change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.\n\nApart from running machines on different voltage tiers, Transformers are useful for transporting power across longer distances. Cable loss has less of an effect at higher voltages.\n\nTransformers have 5 low voltage sides, and 1 high voltage side.\n\nThis quest calls for two different types of Transformers; get §eeither§o§r to complete the quest. The §9normal§r Transformer can only do 1A \u003c-\u003e 4A conversion, but §9Adjustable§r Transformers can be changed between 1A \u003c-\u003e 4A, 2A \u003c-\u003e 8A, 4A \u003c-\u003e 16A, and 16A \u003c-\u003e 64A conversions. \n\nUse a §aSoft Hammer§r to change between transform up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1286,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Transformers",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 157,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1271,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1286,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11376,322 +11480,336 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
-          "y:3": 72
+          "y:3": 36
         },
         "1:10": {
           "id:3": 94,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -30,
-          "y:3": -18
+          "y:3": -54
         },
         "2:10": {
           "id:3": 95,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": 72
+          "x:3": -18,
+          "y:3": 36
         },
         "3:10": {
+          "id:3": 103,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 36
+        },
+        "4:10": {
           "id:3": 113,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -42
         },
-        "4:10": {
+        "5:10": {
           "id:3": 114,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -24,
           "y:3": -180
         },
-        "5:10": {
+        "6:10": {
           "id:3": 115,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -18,
           "y:3": -84
         },
-        "6:10": {
+        "7:10": {
           "id:3": 116,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -174
         },
-        "7:10": {
+        "8:10": {
           "id:3": 117,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
           "y:3": -174
         },
-        "8:10": {
+        "9:10": {
           "id:3": 118,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -18,
           "y:3": -126
         },
-        "9:10": {
+        "10:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
           "y:3": -126
         },
-        "10:10": {
+        "11:10": {
           "id:3": 120,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": -174
         },
-        "11:10": {
+        "12:10": {
           "id:3": 121,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": -126
         },
-        "12:10": {
+        "13:10": {
           "id:3": 122,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": -126
         },
-        "13:10": {
+        "14:10": {
           "id:3": 123,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 204,
           "y:3": -132
         },
-        "14:10": {
+        "15:10": {
           "id:3": 124,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": -174
         },
-        "15:10": {
+        "16:10": {
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": -84
         },
-        "16:10": {
+        "17:10": {
           "id:3": 126,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -6
+          "x:3": -60,
+          "y:3": 0
         },
-        "17:10": {
+        "18:10": {
           "id:3": 127,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
-          "y:3": 36
+          "y:3": 0
         },
-        "18:10": {
+        "19:10": {
           "id:3": 128,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
           "y:3": -42
         },
-        "19:10": {
+        "20:10": {
           "id:3": 129,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": 72
-        },
-        "20:10": {
-          "id:3": 130,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 102,
+          "x:3": -18,
           "y:3": 72
         },
         "21:10": {
+          "id:3": 130,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 72
+        },
+        "22:10": {
           "id:3": 131,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 0
         },
-        "22:10": {
+        "23:10": {
           "id:3": 132,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 0
         },
-        "23:10": {
+        "24:10": {
           "id:3": 133,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 0
         },
-        "24:10": {
+        "25:10": {
           "id:3": 134,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 210,
           "y:3": -174
         },
-        "25:10": {
+        "26:10": {
           "id:3": 135,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 36
         },
-        "26:10": {
+        "27:10": {
           "id:3": 136,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 0
         },
-        "27:10": {
+        "28:10": {
           "id:3": 137,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 270,
           "y:3": 0
         },
-        "28:10": {
+        "29:10": {
           "id:3": 138,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": -42
         },
-        "29:10": {
+        "30:10": {
           "id:3": 139,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": -42
         },
-        "30:10": {
+        "31:10": {
           "id:3": 140,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 312,
           "y:3": -42
         },
-        "31:10": {
+        "32:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 312,
           "y:3": 0
         },
-        "32:10": {
+        "33:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 0
         },
-        "33:10": {
+        "34:10": {
           "id:3": 143,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -18,
-          "y:3": 72
+          "y:3": 0
         },
-        "34:10": {
+        "35:10": {
           "id:3": 144,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
+          "x:3": -60,
           "y:3": 36
         },
-        "35:10": {
+        "36:10": {
           "id:3": 145,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 162,
+          "x:3": 120,
           "y:3": 60
         },
-        "36:10": {
+        "37:10": {
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -84
         },
-        "37:10": {
+        "38:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": -84
         },
-        "38:10": {
+        "39:10": {
           "id:3": 148,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -84
         },
-        "39:10": {
+        "40:10": {
           "id:3": 149,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
           "y:3": -84
         },
-        "40:10": {
+        "41:10": {
           "id:3": 150,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -126
         },
-        "41:10": {
+        "42:10": {
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -84
         },
-        "42:10": {
+        "43:10": {
           "id:3": 152,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 30,
+          "x:3": 24,
           "y:3": 0
         },
-        "43:10": {
+        "44:10": {
           "id:3": 153,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
-          "y:3": 36
-        },
-        "44:10": {
-          "id:3": 155,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -66,
           "y:3": 72
         },
         "45:10": {
+          "id:3": 155,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 72
+        },
+        "46:10": {
           "id:3": 156,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": -126
+        },
+        "47:10": {
+          "id:3": 157,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": 72
         }
       }
     },
