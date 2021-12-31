@@ -6,7 +6,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r, known as GTCEu or CEu, a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure Tech modpack, focusing on GregTech and its progression. You will find no better place to learn about this mod and all the features it adds. At any point, feel free to run the command §9/bq_admin edit§r to open any quest (even if you have them locked) and read through them to gather information. §6This questbook is very informative§r, so check it out even if the modpack doesn\u0027t pick your interest that much.\n\n\nIf you feel like some mods are missing, there is no other explanation than this modpack is lightweight! Feel free to add mods to your instances, but don\u0027t add anything that breaks the progression. Promise?",
+          "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r, known as GTCEu or CEu, a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure Tech modpack, focusing on GregTech and its progression. You will find no better place to learn about this mod and all the features it adds. At any point, feel free to run the command §9/bq_admin edit§r to open any quest (even if you have them locked) and read through them to gather information. §6This questbook is very informative§r, so check it out even if the modpack doesn\u0027t pick your interest that much.\n\n\nIf you feel like some mods are missing, the one explanation is that this modpack is lightweight! Feel free to add mods to your instances, but don\u0027t add anything that breaks the progression. Promise?",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -144,7 +144,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Here\u0027s a list of some of the things you\u0027ll be needing for early game. Collect more than in this quest, you will need more.\n\nI would advise doing this quest first and take the reward. That way you can start with tools before any mining.",
+          "desc:8": "Here\u0027s a list of some of the things you\u0027ll be needing for early game. Collect more than in this quest, you will need more.\n\nI would advise doing this quest first and take the §6Reward§r. That way you can start with tools before any mining.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -212,7 +212,7 @@
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:sapling"
+              "id:8": "gregtech:rubber_sapling"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -326,7 +326,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\nPress §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. By default, ore veins generate in a grid, where both the X and Z chunk numbers are §b1 more than a multiple of 3§r. (-5, -2, 1, 4, 7, ...) However ore veins can be deleted by caves, Oil deposits, or other things generating over them.\n\nSurface rocks will indicate the type of veins that are below them. In JEI, press U on the tiny dust corresponding to the surface rock you found to see the vein type below it.\n§cImportant note:§r Surface rocks generate with an offset, so the vein can be up to two chunks away. \n\nIn §6LV Age§r, you can craft an Ore Prospector to assist in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex ore processing, you won\u0027t have an issue with the late game!",
+          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navitagate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus than a multiple of 3§r (-5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rocket is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks appart.§r\n\nHowever Ores veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have an issue with the late game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -846,23 +846,6 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "8:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 8,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "oreBandedIron",
-              "id:8": "gregtech:ore_banded_iron_0"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -1194,7 +1177,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Coke Oven",
@@ -2097,7 +2080,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your first §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. If you do not have a §dMacerator§r yet, this multiblock will be §lfour times as expensive§r.\nUsing the Macerator, you will need 132 Clay, split into 66 Clay Dusts and 66 Brick Dusts.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you used the Coke Oven earlier, as each Steel Ingot only requires §aone Coke§r instead of §aone Coal§r. Otherwise, you can simply use §aCharcoal§r as it is mostly free.\nUsing §aWrought Iron§r cuts the recipe duration significantly... if you have the sanity to smelt thousands of nuggets beforehand.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides Diamond mining level.",
+          "desc:8": "Your first §mbig§r Project! This one is for Steel!\n\nThe Primitive Blast Furnace (PBF) is an inherently §5B A L A N C E D§r multiblock. If you do not have a §3Macerator§r yet, this multiblock will be §lfour times as expensive§r.\nUsing the Macerator, you will need 132 Clay, split into 66 Clay Dusts and 66 Brick Dusts.\n\nBuild the structure using JEI preview.\n\nAs for the Steel recipe, you will be rewarded if you used the Coke Oven earlier, as each Steel Ingot only requires §aone Coke§r instead of §aone Coal§r. Otherwise, you can simply use §aCharcoal§r as it is mostly free.\nUsing §aWrought Iron§r cuts the recipe duration significantly... if you have the sanity to smelt thousands of nuggets beforehand.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides §6Diamond mining level§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2254,7 +2237,7 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 32,
+              "Count:3": 64,
               "Damage:2": 319,
               "OreDict:8": "",
               "id:8": "gregtech:meta_gem"
@@ -2366,7 +2349,7 @@
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 1648,
+              "Damage:2": 1649,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             },
@@ -2378,9 +2361,9 @@
             },
             "3:10": {
               "Count:3": 10,
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_block_frame_101"
+              "id:8": "gregtech:meta_block_frame_103"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2394,7 +2377,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Grow Rubber Trees and cut them down to get Sticky Resin.\n\nDid you think we would force you to use Treetaps...?",
+          "desc:8": "Grow §dRubber Trees§r and cut them down to get §aSticky Resin§r.\n\n§oDid you think we would force you to use Treetaps...?§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2932,7 +2915,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "To its simplest form, Ore Processing in GregTech boils down to §aconverting one ore into two ingots through two dusts§r, like several other tech mods.\n\nThe added spice is the amount of steps, either optional or required. This small guide is an §dintroduction to Ore Processing§r.\nThe main purpose of GregTech Ore Processing is to provide §abyproducts§r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable.\n\n§9The steps available in Steam Age go as follows:§r\nOne Ore (block) §9-\u003e§r Two Crushed Ores (Macerator, or Hammer for 1:1 conversion)\nOne Crushed Ore §9-\u003e§r One Impure Dust (Hammer)\nOne Impure Dust §9-\u003e§r One Dust (§oIn world crafting explained below§r)\nOne Dust §9-\u003e§r One Ingot (Furnace, you should know this one)\n\n\nThe rule bends for ores giving more than two dusts (such as redstone), and for dusts that cannot be smelted (redstone again!). Yet you can still do direct smelting to get half the amount you would from the full processing.\n\n§dJEI does not indicate Impure Dust to Clean Dust conversion§r, so keep that in mind that you should §athrow them into filled cauldrons§r (full stacks at once to use less water).\n\nOre Processing will be explained further once you get into LV Age.\n\n\nThere, get this nice reward for your efforts learning this beautiful mess.",
+          "desc:8": "To its simplest form, Ore Processing in GregTech boils down to §aconverting one ore into two ingots through two dusts§r, like several other tech mods.\n\nThe added spice is the amount of steps, either optional or required. This small guide is an §dintroduction to Ore Processing§r.\nThe main purpose of GregTech Ore Processing is to provide §abyproducts§r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable.\n\n§9The steps available in Steam Age go as follows:§r\nOne Ore (block) §9-\u003e§r Two Crushed Ores (Macerator, or Hammer for 1:1 conversion)\nOne Crushed Ore §9-\u003e§r One Impure Dust (Hammer)\nOne Impure Dust §9-\u003e§r One Dust (§oIn world crafting explained below§r)\nOne Dust §9-\u003e§r One Ingot (Furnace, you should know this one)\n\n\nThe rule bends for ores giving more than two dusts (such as redstone), and for dusts that cannot be smelted (redstone again!). Yet you can still do direct smelting to get half the amount you would from the full processing.\n\n§dJEI does not indicate Impure Dust to Clean Dust conversion§r, so keep that in mind that you should §athrow them into filled cauldrons§r (full stacks at once to use less water).\n\nOre Processing will be explained further once you get into LV Age.\n\n\nThere, take this nice reward for your efforts learning this beautiful mess.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3859,7 +3842,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTo not confound with a certain man.§r\n\nThe fluid pipes have been reworked in GTCEu, and they now work really well. The one issue they have is the limited throughput, which you may encounter as you upgrade to more and more boilers.\n\nPotin Fluid Pipes have a very §6high Throughput§r, for the material tier and cost, you may use this.\n\n\n§bLore:§r Potin Fluid Pipes were originally created in GT++, and were a huge power spike in GT:NH. Despite that fact, everybody seems to be enjoying them, and so we do too.\nOther fun fact: this is an alloy used in coins! Don\u0027t question the logic.",
+          "desc:8": "§oTo not confound with a certain man.§r\n\nThe fluid pipes have been reworked in GTCEu, and they now work really well. The one issue they have is the limited throughput, which you may encounter as you upgrade to more and more boilers.\n\nPotin Fluid Pipes have a very §6high Throughput§r, for the material tier and cost, you may use this.\n\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connection, use your §5Wrench§r on the grid.\n\n\n§bLore:§r Potin Fluid Pipes were originally created in GT++, and were a huge power spike in GT:NH. Despite that fact, everybody seems to be enjoying them, and so we do too.\nOther fun fact: this is an alloy used in coins! Don\u0027t question the logic.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4465,7 +4448,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis of a chemical reaction, either realistic, theorical or invented by the power of video gaming. The Chemical Reactor will create the conditions for it to happen, and TADAAA. You can also call this a magic box, if you want.§r\n\n\nThis Machine will be required for §la lot§r of recipes.\nImmediately though? Yes! One specifically! Guess it by looking at the Quests this unlocks.",
+          "desc:8": "§oThis of a chemical reaction, either realistic, theorical or invented by the power of video gaming. The Chemical Reactor will create the conditions for it to happen, and TADAAA. You can also call this a magic box, if you want.§r\n\n\nThe Chemical Reactor will be required for §la lot§r of recipes.\nRight now in LV age, you can use it to make... take a look at the quest to the right of this one.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4648,11 +4631,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYou can put this quest off and come back to it once you hit MV Age. It will appear in both chapters as well as in the \"Tips and Tricks\" tab. \n\n\n§9Note:§r The Amperage bug, exploit, feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. Now the Energy net works as intended.",
+          "desc:8": "§oYou can put this quest off and come back to it once you hit MV Age. It will appear in both chapters as well as in the \"Tips and Tricks\" tab. \n\n\n§2§lVoltage:§r LV§r... MV... up to UV or even beyond. Similarly to Cables, all machines accepting EU have a maximum §2Voltage§r Input. Machines will §cexplode§r if you try to overvolt them! On this modpack explosion won\u0027t damage anything, but you will still lose your machine. §cDo not connect a LV machine on a MV line!§r\n\nNote that we tend to use the terms \"§9Power§r\" and \"§2Voltage§r\" interchangeably while is is technically incorrect. For example 32EU/t is the §9Power§r, for one §bampere§r of §2LV§r.\nFor simplicity reasons, we will often use the §9Power§r value (EU/t§r) to speak of the §2Voltage§r, with one §bAmp§r being understated.\n\n\n§b§lAmperage:§r In GregTech, Energy is transferred with the §2Voltage§r and §bAmperage§r parameters.\nFor any given §2Voltage§r, there may be several §bAmps§r to provide a specific §9Power§r.\n(Example: 4 generators, each outputting 32EU/t, for 128EU/t production @4A LV)\n\nMachines consume a fix amount of §bAmps§r, which means you will need to use the appropriate §2Voltage§r to be able to meet the §9Power§r requirement.\n\nTo go further into details, regular machines can accept one §bAmp§r by default, and one additional §bAmp§r when the internal Energy buffer is low, for §btwo Amps in§r.\n(Example: 4 generators, each outputting 32EU/t, yet a MV machine will only accept 64EU/t @2A LV)\n\n\n§9§lTL;DR:§r Group up Machines and Generators by §2Voltage§r, and avoid sharing them.\n\n\n§9Note:§r The Amperage bug, exploit, feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. Now the Energy net works as intended.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 112,
+            "Damage:2": 252,
             "OreDict:8": "",
             "id:8": "gregtech:cable_quadruple"
           },
@@ -4674,8 +4657,21 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_quadruple"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -5771,7 +5767,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need a couple stacks of Invar and Steel.",
+          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need a couple stacks of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to 1,800K (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6007,7 +6003,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTime to end the misery of hand crafting rotors!§r\n\nUse both your machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes up for §6four Ingots per Rotor§r.\n\n\n§9Note:§r Some metals require higher voltage than LV for Fluid Extraction, so keep that in mind.",
+          "desc:8": "§oTime to end the misery of hand crafting rotors!§r\n\nUse both your machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes up for §6four Ingots per Rotor§r.\nYou can also do the same for §6Gears§r and §6Small Gears§r, which will then be superseded by the §3MV Extruder§r.\n\n\n§9Note:§r Some metals require higher voltage than LV for Fluid Extraction, so keep that in mind.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6225,7 +6221,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI\u0027m not sure why it\u0027s called \"Good\" Circuit Board, as I consider it rather evil to craft.§r\n\nThis Circuit Board is used to create §dMV Circuits§r!\n\n\n§9Note:§r You have §ltwo§r options to make the Phenolic Circuit Board. Using §aSodium Persulfate§r, making boards takes §6only a quarter of the Gold§r as opposed to the crafting recipe.\n§lHowever§r given how painful it may be for you to obtain these chemicals §oright now§r, you may want to mine for more Gold in Nether Limonite veins or something...\n\n\nThe Quest for Sodium Persulfate is in the MV chapter, if you are interested in that.",
+          "desc:8": "§oI\u0027m not sure why it\u0027s called \"Good\" Circuit Board, as I consider it rather evil to craft.§r\n\nThis Circuit Board is used to create §dMV Circuits§r!\n\n\n§9Note:§r You have §ltwo§r options to make the Phenolic Circuit Board. Using §aSodium Persulfate§r, making boards takes §6only a quarter of the Silver§r as opposed to the crafting recipe.\n§lHowever§r given how painful it may be for you to obtain these chemicals §oright now§r, you may want to simply use more Silver by mining most of a Galena Vein...\n\n\nThe Quest for Sodium Persulfate is in the MV chapter, if you are interested in that.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6730,7 +6726,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Steel Alloys",
@@ -6781,12 +6777,13 @@
     },
     "96:10": {
       "preRequisites:11": [
-        66
+        154,
+        129
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Gas Collector lets you collect Air to use in Centrifuges for Oxygen and Nitrogen.\n\n\n§9Note:§r You will need a Cutting Machine for this.\n\n\n§bLore:§r GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... In here, cell chemistry is no more.",
+          "desc:8": "The Gas Collector collects Air, to centrifuge into §aOxygen§r and §aNitrogen§r.\n\n\n§bLore:§r GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... In here, cell chemistry is no more.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6798,7 +6795,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Basic Gas Collector",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -7057,7 +7054,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Quest in an overview for the Large Bronze Boiler.§r\n\n§9I do §lNOT§r§9 recommend§r getting this until you are done with most - if not all - of the LV Age. It is also §6optional§r, depending on which power options you chose.\n\n\nThe Large Bronze Boiler ultimately is §othe§r option for large scale Steam production. It will run off solid and liquid fuels.\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities.\n\n\nOnce fully heated up, the LBB produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This immense (relative!) power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r More information about Multiblocks are given after you get the Electric Blast Furnace at the end of the LV Age. That\u0027s one way to prevent you from getting this too early!",
+          "desc:8": "§oThis Quest in an overview for the Large Bronze Boiler.§r\n\n§9I do §lNOT§r§9 recommend§r getting this until you are done with most - if not all - of the LV Age. It is also §6optional§r, depending on which power options you chose.\n\n\nThe Large Bronze Boiler ultimately is §othe§r option for large scale Steam production. It will run off solid and liquid fuels.\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities.\n§cWater supply is crucial§r. But simply upgrading the Output Hatch on your §3Primitive Pump§r should be enough.\n\n\nOnce fully heated up, the LBB produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This immense (relative!) power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r More information about Multiblocks are given after you get the Electric Blast Furnace at the end of the LV Age. That\u0027s one way to prevent you from getting this too early!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7150,65 +7147,13 @@
       }
     },
     "103:10": {
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "This modpack §land§r GTCEu are in §cAlpha§r state. This means bugs are expected, and other unexpected behaviors. Make backups!\n\nThe Questbook is not complete yet! I welcome feedback in the GTCEu Discord channels related to the Community Modpack.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 4,
-            "OreDict:8": "",
-            "id:8": "gregtech:warning_sign"
-          },
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "WIP Modpack",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "questID:3": 103,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 467,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1",
-              "tag:10": {
-                "Charge:4": 1600000
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "104:10": {
       "preRequisites:11": [
         70
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Getting into Applied Energistics at this point is a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§6-§r Charger (to charge FE related items!)\n§6-§r ME Terminal (§onot§r Crafting Terminal)\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§6-§r Portable Cell",
+          "desc:8": "Getting into Applied Energistics at this point is a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§6-§r Charger (to charge FE related items!)\n§6-§r ME Terminal\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§6-§r Portable Cell",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7239,7 +7184,7 @@
         }
       }
     },
-    "105:10": {
+    "104:10": {
       "preRequisites:11": [
         77
       ],
@@ -7315,7 +7260,7 @@
         }
       }
     },
-    "106:10": {
+    "105:10": {
       "preRequisites:11": [
         20
       ],
@@ -7379,7 +7324,7 @@
         }
       }
     },
-    "107:10": {
+    "106:10": {
       "preRequisites:11": [
         63
       ],
@@ -7430,7 +7375,7 @@
         }
       }
     },
-    "108:10": {
+    "107:10": {
       "preRequisites:11": [
         93
       ],
@@ -7500,7 +7445,7 @@
         }
       }
     },
-    "109:10": {
+    "108:10": {
       "preRequisites:11": [
         26
       ],
@@ -7551,7 +7496,7 @@
         }
       }
     },
-    "110:10": {
+    "109:10": {
       "preRequisites:11": [
         58,
         71,
@@ -7604,7 +7549,7 @@
         }
       }
     },
-    "111:10": {
+    "110:10": {
       "preRequisites:11": [
         72,
         69,
@@ -7660,7 +7605,7 @@
         }
       }
     },
-    "112:10": {
+    "111:10": {
       "preRequisites:11": [
         81
       ],
@@ -7693,14 +7638,14 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "113:10": {
+    "112:10": {
       "preRequisites:11": [
         94
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the MV Age.\n\nConveyors, Pumps and Robot Arms are upgrades to LV versions if you use them as covers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7738,22 +7683,52 @@
               "Damage:2": 128,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 173,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 143,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 158,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 188,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 218,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "114:10": {
+    "113:10": {
       "preRequisites:11": [
-        115,
         116,
+        151,
         118
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: the §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will want many of them, and as low tier as possible to avoid the Overclock energy losses.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7761,7 +7736,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Distillation",
@@ -7814,7 +7789,7 @@
         }
       }
     },
-    "115:10": {
+    "114:10": {
       "preRequisites:11": [
         94,
         92
@@ -7822,7 +7797,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7830,7 +7805,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Pyrolyse Oven",
@@ -7866,14 +7841,14 @@
         }
       }
     },
-    "116:10": {
+    "115:10": {
       "preRequisites:11": [
         62
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oHave you see the Oil spouts when wandering around?§r\n\nGet a Pump, place it above an Oil spout and Power it! Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\nI recommend you bring up a §3Battery Buffer§r, and a lot of §3Drums§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7935,15 +7910,16 @@
         }
       }
     },
-    "117:10": {
+    "116:10": {
       "preRequisites:11": [
         114,
-        120
+        120,
+        118
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oHey! That\u0027s Alcohol!§r\n\nPut your previously made §aBiomass§r into a §3MV Distillery§r, to make §aEthanol§r.\nYou will need this for §dEthylene§r by reacting it with §aSulfuric Acid§r in a §3Chemical Reactor§r... unless you chose the Oil path.\n\n\nDo not try to use Ethanol as a Power source... You may regret it.\nIf you want plant based §9Power§r, I suggest §dBenzene§r instead!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7988,14 +7964,15 @@
         }
       }
     },
-    "118:10": {
+    "117:10": {
       "preRequisites:11": [
-        146
+        146,
+        115
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nLet\u0027s assume you pick this route. You will need plant matter. §aSaplings§r work and will give you Biomass in the §3Brewery§r at decent rates.\nOthe§rrwise, you may go the §aPlantball§r into §aBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient but obvisouly requires a whole Multiblock.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8007,7 +7984,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Biomass",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -8025,29 +8002,6 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 439,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 440,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 1,
           "requiredFluids:9": {
             "0:10": {
@@ -8059,15 +8013,14 @@
         }
       }
     },
-    "119:10": {
+    "118:10": {
       "preRequisites:11": [
-        114,
-        120
+        114
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oIf you read the previous Quest, this shouldn\u0027t be too bad. If you didn\u0027t... What are you waiting for!?§r\n\nDistillating §aOil§r will give you Fuel that you will need to desulfurize.\n\n§aHydrogen Sulfide§r is perfectly §drecycled§r in an §3Electrolyzer§r.\nIf you automate this process, simply place your Chemical Reactor and your Electrolyzer next to each other.\n\n\n§aLight Fuel§r is a good §9Power§r option. But there is something even greater in a nearby Quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8116,12 +8069,14 @@
         }
       }
     },
-    "120:10": {
-      "preRequisites:11": [],
+    "119:10": {
+      "preRequisites:11": [
+        58
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking Sulfuric Acid is a three step process.\nTo automate this (which you should at some point), you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with one §3LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (...or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §aOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §aOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §aWater§r, to form §aSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8133,7 +8088,7 @@
               "FluidName:8": "sulfuric_acid"
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Sulfuric Acid",
@@ -8166,14 +8121,14 @@
         }
       }
     },
-    "121:10": {
+    "120:10": {
       "preRequisites:11": [
         119
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nTo avoid unnecessary complication, I will just go ahead and tell you the best way to acquire §dEthylene§r.\nSteam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nIf you check the usage of the Severely Steam-Cracked Light Fuel, you will be brought up with the Distillation Tower recipe will looks amazing... but sadly this is not for you yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8218,7 +8173,7 @@
         }
       }
     },
-    "122:10": {
+    "121:10": {
       "preRequisites:11": [
         117,
         121
@@ -8226,7 +8181,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oOne of many hydrocarbons, congratulations on making it here!§r\n\nThe way to obtain this is described in the previous Quest, whichever you did.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8238,7 +8193,7 @@
               "FluidName:8": "ethylene"
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Ethylene",
@@ -8271,14 +8226,14 @@
         }
       }
     },
-    "123:10": {
+    "122:10": {
       "preRequisites:11": [
         122
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nAnd then solidify like you would with Rubber.\n\n\n§aPolyethylene§r is the key to unlock §6many new things§r. It used mostly as §dSheets§r or §dFluid§r form.\nNo spoiling here! Let have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8286,7 +8241,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Polyethylene",
@@ -8322,14 +8277,14 @@
         }
       }
     },
-    "124:10": {
+    "123:10": {
       "preRequisites:11": [
         120
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. While it is completely optional, but pretty rewarding.\n\n\nMaking Sodium Persulfate will give off §aHydrochloric Acid§r. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8341,7 +8296,7 @@
               "FluidName:8": "sodium_persulfate"
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Sodium Persulfate",
@@ -8374,14 +8329,14 @@
         }
       }
     },
-    "125:10": {
+    "124:10": {
       "preRequisites:11": [
-        122
+        123
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\nWhile Polyvinyl Chloride is used a lot less than Polyethylene, it will be useful in a fair amount of recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8425,7 +8380,7 @@
         }
       }
     },
-    "126:10": {
+    "125:10": {
       "preRequisites:11": [
         94,
         92
@@ -8433,7 +8388,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer now enables you to decompose a lot more Dusts. This will make getting certain materials a lot easier!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8441,10 +8396,10 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Advanced Electrolyzer",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8477,14 +8432,14 @@
         }
       }
     },
-    "127:10": {
+    "126:10": {
       "preRequisites:11": [
         126
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nAfter this batch, you may want to switch to §aSodalite electrolysis§r which gives similar outputs.\n\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8507,7 +8462,20 @@
         }
       },
       "questID:3": 127,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 718,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -8563,7 +8531,7 @@
         }
       }
     },
-    "128:10": {
+    "127:10": {
       "preRequisites:11": [
         94,
         92
@@ -8571,7 +8539,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The Assembling Machine is a staple for every Tier, an important goal to unlock more recipes and progress further into the Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8579,7 +8547,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Advanced Assembling Machine",
@@ -8615,14 +8583,14 @@
         }
       }
     },
-    "129:10": {
+    "128:10": {
       "preRequisites:11": [
         95
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oMore upgrades...! you will need the MV Cutting Machine, for... MV recipes, duh!§r\n\n\nI recommend you run this machine with §dLubricant§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8630,10 +8598,10 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Cutting Machine",
+          "name:8": "Advanced Cutting Machine",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8645,7 +8613,26 @@
         }
       },
       "questID:3": 129,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1612,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 16000,
+                  "FluidName:8": "lubricant"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -8666,14 +8653,14 @@
         }
       }
     },
-    "130:10": {
+    "129:10": {
       "preRequisites:11": [
         129
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oLet\u0027s get ready to work on better circuits!§r\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8681,7 +8668,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Laser Engraving",
@@ -8780,14 +8767,14 @@
         }
       }
     },
-    "131:10": {
+    "130:10": {
       "preRequisites:11": [
         130
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "You have unlocked a new Tier of Circuits!\nThe Integrated Logic Circuit is an alternate §aLV Circuit§r, which can be upgraded to §aMV§r, and then §aHV§r.\n\n\n§9Note:§r This is not a strict upgrade to the cost of Circuits, you would need to get to the next Tier for that, just slightly further down in the MV Age.\n\n\n§bLore:§r The circuit progression in GTCEu is mostly based on GT5u\u0027s progression. However it has been rebalanced to not be as painful, specifically this circuit tier which was a complete bait!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8795,7 +8782,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "More LV Circuits",
@@ -8831,14 +8818,14 @@
         }
       }
     },
-    "132:10": {
+    "131:10": {
       "preRequisites:11": [
         131
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The MV Circuit for the Integrated Tier.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8846,7 +8833,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "More MV Circuits",
@@ -8882,7 +8869,7 @@
         }
       }
     },
-    "133:10": {
+    "132:10": {
       "preRequisites:11": [
         132,
         138
@@ -8890,7 +8877,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oAlright, technically HV Circuit and Stainless Steel means you can move to HV... but let\u0027s not rush things.§r\n\nThe first thing you should probably do is a §3MV Circuit Assembler§r, to unlock the new tier of Circuits right away, as they are the §dreal payoff§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8898,7 +8885,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "First HV Circuits!",
@@ -8934,7 +8921,7 @@
         }
       }
     },
-    "134:10": {
+    "133:10": {
       "preRequisites:11": [
         124,
         123
@@ -8942,7 +8929,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "At this point, you have all the tools available to you to make Plastic Boards.\n\nThe recipes are pretty long, so I recommend processing large batches in two dedicated §3Chemical Reactors§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8950,10 +8937,10 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Plastic Boards",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8992,14 +8979,14 @@
         }
       }
     },
-    "135:10": {
+    "134:10": {
       "preRequisites:11": [
         133
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oI\u0027m running out of things to say for these quests... I hope you get the gist of it, and don\u0027t need too many explanations.§r\n\nAs for every Tier goes, the §3Circuit Assembler§r is an essential part of the Progression, to enable a new Tier of circuits.\n\n\nAt this point you should use an §3Extractor§r next to your Circuit Assembler and send off dozens of stacks of §aSoldering Alloy§r Ingots.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9007,7 +8994,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Advanced Circuit Assembler",
@@ -9043,15 +9030,15 @@
         }
       }
     },
-    "136:10": {
+    "135:10": {
       "preRequisites:11": [
         135,
-        134
+        139
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6The best LV Circuits§r! You will be making these for the remainder of the game.\n\nEventually (in EV Age), they will become even cheaper.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9059,7 +9046,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Best LV Circuits",
@@ -9095,16 +9082,15 @@
         }
       }
     },
-    "137:10": {
+    "136:10": {
       "preRequisites:11": [
         135,
-        134,
         139
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6The best MV Circuits§r! You will be making these for the remainder of the game.\n\nEventually (in IV Age), they will become even cheaper.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9112,7 +9098,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Best MV Circuits",
@@ -9148,14 +9134,15 @@
         }
       }
     },
-    "138:10": {
+    "137:10": {
       "preRequisites:11": [
-        128
+        128,
+        123
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A Circuit Component, that you can now make thanks the §3MV Assembler§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9163,7 +9150,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Transistors",
@@ -9199,14 +9186,14 @@
         }
       }
     },
-    "139:10": {
+    "138:10": {
       "preRequisites:11": [
-        128
+        138
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A Circuit Component, that you can now make thanks the §3MV Assembler§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9214,7 +9201,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Capacitors",
@@ -9250,14 +9237,14 @@
         }
       }
     },
-    "140:10": {
+    "139:10": {
       "preRequisites:11": [
-        139
+        138
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A Circuit Component, that you can now make thanks the §3MV Assembler§r.\n\nIf you want to make them cheaper, you may smelt §aNickel-Zinc Ferrite§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9265,7 +9252,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Inductors",
@@ -9301,7 +9288,7 @@
         }
       }
     },
-    "141:10": {
+    "140:10": {
       "preRequisites:11": [
         137,
         140
@@ -9309,7 +9296,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Better HV Circuits, much §6cheaper§r and easier to make than from the previous Tier.\n\n\n§6You should now be ready to move on the HV Chapter§r, unless you still need to scale up Power Production.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9317,7 +9304,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "More HV Circuits",
@@ -9353,14 +9340,14 @@
         }
       }
     },
-    "142:10": {
+    "141:10": {
       "preRequisites:11": [
         141
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "This one will be needed during the HV Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9368,7 +9355,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "First EV Circuits!",
@@ -9404,14 +9391,15 @@
         }
       }
     },
-    "143:10": {
+    "142:10": {
       "preRequisites:11": [
-        94
+        94,
+        92
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oMore complex Alloys require higher Tier machines to mix the Dusts together.§r\n\nThis is the first step to dive deeper in the MV Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9419,7 +9407,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Advanced Mixer",
@@ -9455,14 +9443,14 @@
         }
       }
     },
-    "144:10": {
+    "143:10": {
       "preRequisites:11": [
         126
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThis quest acts as a small tutorial to automate the Electrolyzer easily!§r\n\nThe §9Smart Item Filter§r is a filter based on Recipe Maps. Placed on the side of a machine, this Filter can be selected to Electrolyzer to allow insertion of only Items that can be electrolyzed.\n\nTo circumvent the Electrolyzer getting stuck with not enough inputs, place a §cRobot Arm with a Smart Item Filter§r on your Electrolyzer. Configure it to §dImport§r, §dSupply Exact§r. Now, attach any inventory (a chest will do) on the side where you placed the Robot Arm, and TADAA! You have made automatic smart insertion to handle all Electrolyzer recipes!\n\n§9Note:§r The Robot Arm has to do Item transfer itself for its functionality to work! Inserting directly into the machine will ignore the Robot Arm\u0027s §dSupply Exact§r.\n\n\nNow, as for the output of the Electrolyzer, you may want to route the Fluids to several Tanks, or even §3Super Tanks§r. I highly recommend §cto not void§r the Fluids, except for Water for obvious reasons.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9506,14 +9494,14 @@
         }
       }
     },
-    "145:10": {
+    "144:10": {
       "preRequisites:11": [
-        95
+        153
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9521,7 +9509,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Stainless Steel",
@@ -9557,14 +9545,14 @@
         }
       }
     },
-    "146:10": {
+    "145:10": {
       "preRequisites:11": [
         62
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThe Brewery is used for §9Biomass§r, a path that is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, wrong GregTech version.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9605,34 +9593,43 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "147:10": {
-      "preRequisites:11": [
-        146,
-        114
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "forge:bucketfilled",
-            "tag:10": {
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "lubricant"
             }
           },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "146:10": {
+      "preRequisites:11": [
+        123
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oSuper Tanks are OP!! No but seriously.§r\n\nThis is the end of Fluid storage galore. 4,000 buckets storage in one single block!\n\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1575,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Lubricant",
-          "questlogic:8": "OR",
+          "name:8": "Super Tank",
+          "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -9651,17 +9648,20 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "lubricant"
+              "Count:3": 1,
+              "Damage:2": 1575,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "148:10": {
+    "147:10": {
       "preRequisites:11": [
         115
       ],
@@ -9715,9 +9715,9 @@
         }
       }
     },
-    "149:10": {
+    "148:10": {
       "preRequisites:11": [
-        121
+        119
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9768,6 +9768,380 @@
           "taskID:8": "bq_standard:fluid"
         }
       }
+    },
+    "149:10": {
+      "preRequisites:11": [
+        151
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "natural_gas"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The Church of Natural Farts",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 150,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "refinery_gas"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 32000,
+              "FluidName:8": "methane"
+            },
+            "1:10": {
+              "Amount:3": 32000,
+              "FluidName:8": "lpg"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "150:10": {
+      "preRequisites:11": [
+        94,
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oFluid Rigs are coming up soon in GTCEu, they will pump \"under bedrock\" virtual fluid veins, typically Oil.§r\n\n\nThere are four types of Oil.\n\n§9§lOil:§r your standard Oil, richer in §aLight Fuel§r.\n\n§9§lLight Oil:§r richer in §aRefinery Gas§r, generally considered as the worst.\n\n§9§lHeavy Oil:§r richer in §aHeavy Fuel§r, and requires MV to process.\n\n§9§lRaw Oil:§r essentially the same as §aOil§r, but less dense in Fuel.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1003,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fluid Rigs (Placeholder)",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 151,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "151:10": {
+      "preRequisites:11": [
+        94,
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes metals into (almost!) any form using §aIngots§r. This is great machine to reduce the amount of microcrafting, as well as keeping high conversion ratio.\n\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, §6§6Rings§r at the highest efficiency in one step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (this one however is less efficient).",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 321,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Extruder",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 152,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 55,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 52,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 321,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "152:10": {
+      "preRequisites:11": [
+        128,
+        130
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oA LV Battery Buffer and two LV Energy Hatches are not so convenient, let\u0027s remedy that!§r\n\nUpgrade your Electric Blast Furnace with a §3MV Energy Hatch§r, so you can run it off MV Generators.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1212,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Upgrade your EBF",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 153,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1212,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "153:10": {
+      "preRequisites:11": [
+        66
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThe Cutting Machine... cuts... thanks to lubrification.§r\n\nFor now, you may use §9Water§r over trying to acquire Lubricant.\n\n\nThis is the only way to obtain §aGem Plates§r, which are needed to craft Filters.\n\nYou can also cut §aRods into four Bolts§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 245,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Basic Cutting Machine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 154,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 245,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "154:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself§r.\nOverclocking implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the Overclocking tier. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 8EU/t or below, it would do a classic overclock. However if the recipe consumed more than 8EU/t, every Overclock would be 2.8x faster!\nGTCEu has a config to select the Overclock speed bonus, it is a very sensible value.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:placeholder"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Overclocking",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 155,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "155:10": {
+      "preRequisites:11": [
+        123
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 52,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:material"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pattern",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 156,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 52,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -9781,7 +10155,7 @@
           "desc:8": "No Description",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1019,
+            "Damage:2": 1022,
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
@@ -9908,13 +10282,6 @@
           "sizeY:3": 24,
           "x:3": -78,
           "y:3": 36
-        },
-        "17:10": {
-          "id:3": 103,
-          "sizeX:3": 60,
-          "sizeY:3": 60,
-          "x:3": -258,
-          "y:3": -30
         }
       }
     },
@@ -10046,29 +10413,50 @@
           "id:3": 85,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": 132
+          "x:3": -90,
+          "y:3": 150
         },
         "16:10": {
           "id:3": 97,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 102
+          "x:3": -60,
+          "y:3": 120
         },
         "17:10": {
           "id:3": 98,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": 102
+          "x:3": -120,
+          "y:3": 120
         },
         "18:10": {
           "id:3": 99,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 132
+          "x:3": -60,
+          "y:3": 150
+        },
+        "19:10": {
+          "id:3": 106,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -90,
+          "y:3": 66
+        },
+        "20:10": {
+          "id:3": 112,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": 150
+        },
+        "21:10": {
+          "id:3": 155,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 42,
+          "y:3": 102
         }
       }
     },
@@ -10769,6 +11157,13 @@
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 90
+        },
+        "61:10": {
+          "id:3": 154,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": 168
         }
       }
     },
@@ -10800,10 +11195,10 @@
         },
         "1:10": {
           "id:3": 94,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -6,
-          "y:3": 0
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -30,
+          "y:3": -12
         },
         "2:10": {
           "id:3": 95,
@@ -10824,21 +11219,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
-          "y:3": -138
+          "y:3": -150
         },
         "5:10": {
           "id:3": 115,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -138
+          "x:3": -18,
+          "y:3": -114
         },
         "6:10": {
           "id:3": 116,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -138
+          "x:3": -60,
+          "y:3": -150
         },
         "7:10": {
           "id:3": 117,
@@ -10851,8 +11246,8 @@
           "id:3": 118,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -108
+          "x:3": 96,
+          "y:3": -150
         },
         "9:10": {
           "id:3": 119,
@@ -10900,8 +11295,8 @@
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
-          "y:3": -234
+          "x:3": 222,
+          "y:3": -204
         },
         "16:10": {
           "id:3": 126,
@@ -10971,7 +11366,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": 42
+          "y:3": -48
         },
         "26:10": {
           "id:3": 136,
@@ -10998,7 +11393,7 @@
           "id:3": 139,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
+          "x:3": 252,
           "y:3": 78
         },
         "30:10": {
@@ -11040,22 +11435,22 @@
           "id:3": 145,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -72
+          "x:3": 30,
+          "y:3": 0
         },
         "36:10": {
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -108
+          "x:3": 96,
+          "y:3": -114
         },
         "37:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -108
+          "x:3": 336,
+          "y:3": -234
         },
         "38:10": {
           "id:3": 148,
@@ -11070,6 +11465,48 @@
           "sizeY:3": 24,
           "x:3": -18,
           "y:3": -234
+        },
+        "40:10": {
+          "id:3": 150,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -210
+        },
+        "41:10": {
+          "id:3": 151,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": -150
+        },
+        "42:10": {
+          "id:3": 152,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 6
+        },
+        "43:10": {
+          "id:3": 153,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": 12
+        },
+        "44:10": {
+          "id:3": 155,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": 60
+        },
+        "45:10": {
+          "id:3": 156,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 294,
+          "y:3": -186
         }
       }
     },
