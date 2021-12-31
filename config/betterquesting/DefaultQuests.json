@@ -7683,9 +7683,9 @@
           "choices:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1611,
+              "Damage:2": 79,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Fluid:10": {
                   "Amount:3": 576,
@@ -7695,9 +7695,9 @@
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 1611,
+              "Damage:2": 79,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Fluid:10": {
                   "Amount:3": 576,
@@ -7707,9 +7707,9 @@
             },
             "2:10": {
               "Count:3": 1,
-              "Damage:2": 1611,
+              "Damage:2": 79,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Fluid:10": {
                   "Amount:3": 576,
@@ -10172,7 +10172,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes metals into (almost!) any form using §aIngots§r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio.\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, and §6§6Rings§r at the highest efficiency in a single step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (though less efficiently).",
+          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes solid materials into (almost!) any form using §aIngots§r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio.\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, and §6§6Rings§r at the highest efficiency in a single step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (though less efficiently for Rotors).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10452,7 +10452,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "NORMAL"
         }
       },
@@ -11078,10 +11078,10 @@
         },
         "27:10": {
           "id:3": 46,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 72,
-          "y:3": -228
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 114,
+          "y:3": -234
         },
         "28:10": {
           "id:3": 47,
@@ -11260,8 +11260,8 @@
         },
         "16:10": {
           "id:3": 63,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": -90,
           "y:3": 60
         },
@@ -11269,14 +11269,14 @@
           "id:3": 64,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": 24
+          "x:3": -36,
+          "y:3": 30
         },
         "18:10": {
           "id:3": 65,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -162,
+          "x:3": -156,
           "y:3": 60
         },
         "19:10": {
@@ -11298,7 +11298,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
-          "y:3": 24
+          "y:3": 6
         },
         "22:10": {
           "id:3": 69,
@@ -11361,14 +11361,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
-          "y:3": 24
+          "y:3": -6
         },
         "31:10": {
           "id:3": 79,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": 24
+          "x:3": -144,
+          "y:3": 30
         },
         "32:10": {
           "id:3": 80,
@@ -11438,7 +11438,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
-          "y:3": 24
+          "y:3": 6
         },
         "42:10": {
           "id:3": 90,
@@ -11542,8 +11542,8 @@
           "id:3": 107,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": 96
+          "x:3": -144,
+          "y:3": 90
         },
         "57:10": {
           "id:3": 108,
