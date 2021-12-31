@@ -326,7 +326,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navitagate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus than a multiple of 3§r (-5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rocket is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks appart.§r\n\nHowever Ores veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have an issue with the late game!",
+          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navigate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus a multiple of 3§r (-8, -5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rock is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks apart.§r\n\nHowever Ores veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have a resource issue with the late game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4124,7 +4124,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a Crowbar (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\n\nFor the Covers transferring Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.",
+          "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a Crowbar (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\nFor the Covers transferring Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.\n\nPlacing a cover of a lower voltage tier on a machine is §asafe§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5112,7 +5112,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe Assembling Machine is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developpers also love this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Enegistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r Resistors\n§9-§r Circuit Boards\n§9-§r Cables\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
+          "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe Assembling Machine is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developers also love to use this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Energistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r Resistors\n§9-§r Circuit Boards\n§9-§r Cables\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5480,7 +5480,23 @@
         }
       },
       "questID:3": 75,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 735,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 120000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -5509,7 +5525,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1324,
+              "Damage:2": 1326,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -5790,7 +5806,26 @@
         }
       },
       "questID:3": 80,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 18,
+              "Damage:2": 287,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 18,
+              "Damage:2": 324,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -5842,7 +5877,32 @@
         }
       },
       "questID:3": 81,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 424,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 12000,
+                  "FluidName:8": "nitrogen"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -5893,7 +5953,26 @@
         }
       },
       "questID:3": 82,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 8000,
+                  "FluidName:8": "oxygen"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -6596,7 +6675,20 @@
         }
       },
       "questID:3": 93,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 402,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -6718,7 +6810,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four time as durable§r as Steel for GregTech tools.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
+          "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four time as durable§r as Steel for GregTech tools. The Vanadium comes from §aVanadium Magnetite§r, which you have probably encountered in Magnetite veins.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 4,
@@ -7148,6 +7240,64 @@
     },
     "103:10": {
       "preRequisites:11": [
+        90,
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oJust kidding, Silicon Wafers in this mod are perfectly fungible.§r\n\n§9Silicon Boules§r are made in the EBF with lots of §9Silicon Dust§r and a small amount of §9Gallium Arsenide§r. After making the Boule, cut it in the §9Cutting Machine§r to get 16 Silicon Wafers ready for engraving.\n\n§cWarning:§r Each Silicon Boule takes §c7.5 minutes§r to make at 120 EU/t, or §c1,080,000 EU§r! If the EBF loses power midway, the recipe will start to §close progress§r. Be sure you have enough power before starting.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 361,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Silicon Lottery",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 103,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 361,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "104:10": {
+      "preRequisites:11": [
         70
       ],
       "properties:10": {
@@ -7184,7 +7334,7 @@
         }
       }
     },
-    "104:10": {
+    "105:10": {
       "preRequisites:11": [
         77
       ],
@@ -7260,7 +7410,7 @@
         }
       }
     },
-    "105:10": {
+    "106:10": {
       "preRequisites:11": [
         20
       ],
@@ -7324,7 +7474,7 @@
         }
       }
     },
-    "106:10": {
+    "107:10": {
       "preRequisites:11": [
         63
       ],
@@ -7375,7 +7525,7 @@
         }
       }
     },
-    "107:10": {
+    "108:10": {
       "preRequisites:11": [
         93
       ],
@@ -7445,7 +7595,7 @@
         }
       }
     },
-    "108:10": {
+    "109:10": {
       "preRequisites:11": [
         26
       ],
@@ -7496,7 +7646,7 @@
         }
       }
     },
-    "109:10": {
+    "110:10": {
       "preRequisites:11": [
         58,
         71,
@@ -7528,7 +7678,50 @@
         }
       },
       "questID:3": 110,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 79,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 576,
+                  "FluidName:8": "dye_red"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 79,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 576,
+                  "FluidName:8": "dye_green"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 79,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 576,
+                  "FluidName:8": "dye_blue"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -7549,7 +7742,7 @@
         }
       }
     },
-    "110:10": {
+    "111:10": {
       "preRequisites:11": [
         72,
         69,
@@ -7605,7 +7798,7 @@
         }
       }
     },
-    "111:10": {
+    "112:10": {
       "preRequisites:11": [
         81
       ],
@@ -7636,9 +7829,27 @@
       },
       "questID:3": 112,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1657,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
-    "112:10": {
+    "113:10": {
       "preRequisites:11": [
         94
       ],
@@ -7668,7 +7879,20 @@
         }
       },
       "questID:3": 113,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 274,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -7719,7 +7943,7 @@
         }
       }
     },
-    "113:10": {
+    "114:10": {
       "preRequisites:11": [
         116,
         151,
@@ -7728,7 +7952,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: the §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will want many of them, and as low tier as possible to avoid the Overclock energy losses.",
+          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will want many of them, and as low tier as possible to avoid the energy losses from Overclocking.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7789,7 +8013,7 @@
         }
       }
     },
-    "114:10": {
+    "115:10": {
       "preRequisites:11": [
         94,
         92
@@ -7797,7 +8021,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "The §aPyrolyse Oven§r processes §aorganic§r products by thermal decomposition in an inert environment. Depending on how the Oven is configured, §7Charcoal§r, §7Coke§r, or §7Ashes§r will be produced, as well as one of a multitude of §6organic byproducts§r.§r Those byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\n\nPresently it is used for turning §2Bio Chaff§r into §aBiomass§r, or §6Wood§r into §7Wood Tar§r, which can be processed into §7Benzene§r for power.\n\nYou can §adouble the speed§r of §6Wood§r processes with §bNitrogen§r gas.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7820,7 +8044,26 @@
         }
       },
       "questID:3": 115,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:coal"
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -7841,14 +8084,14 @@
         }
       }
     },
-    "115:10": {
+    "116:10": {
       "preRequisites:11": [
         62
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHave you see the Oil spouts when wandering around?§r\n\nGet a Pump, place it above an Oil spout and Power it! Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\nI recommend you bring up a §3Battery Buffer§r, and a lot of §3Drums§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
+          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\nI recommend you bring up a §3Battery Buffer§r, and a lot of §3Drums§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7910,7 +8153,7 @@
         }
       }
     },
-    "116:10": {
+    "117:10": {
       "preRequisites:11": [
         114,
         120,
@@ -7964,7 +8207,7 @@
         }
       }
     },
-    "117:10": {
+    "118:10": {
       "preRequisites:11": [
         146,
         115
@@ -7972,7 +8215,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nLet\u0027s assume you pick this route. You will need plant matter. §aSaplings§r work and will give you Biomass in the §3Brewery§r at decent rates.\nOthe§rrwise, you may go the §aPlantball§r into §aBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient but obvisouly requires a whole Multiblock.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
+          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nFor this route, you will need plant matter. §aSaplings§r work and will give you Biomass in the §3Brewery§r at decent rates.\nOthe§rrwise, you may go the §aPlantball§r into §aBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient but obvisouly requires a whole Multiblock.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8013,7 +8256,7 @@
         }
       }
     },
-    "118:10": {
+    "119:10": {
       "preRequisites:11": [
         114
       ],
@@ -8069,14 +8312,14 @@
         }
       }
     },
-    "119:10": {
+    "120:10": {
       "preRequisites:11": [
         58
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking Sulfuric Acid is a three step process.\nTo automate this (which you should at some point), you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with one §3LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (...or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §aOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §aOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §aWater§r, to form §aSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
+          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking Sulfuric Acid is a three step process. It is used in many important reactions, so you should automate its production soon.\n\nTo do so, you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with one §3LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (...or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §aOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §aOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §aWater§r, to form §aSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8121,14 +8364,14 @@
         }
       }
     },
-    "120:10": {
+    "121:10": {
       "preRequisites:11": [
         119
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nTo avoid unnecessary complication, I will just go ahead and tell you the best way to acquire §dEthylene§r.\nSteam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nIf you check the usage of the Severely Steam-Cracked Light Fuel, you will be brought up with the Distillation Tower recipe will looks amazing... but sadly this is not for you yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing.\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nThe tantalizing §9Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8173,7 +8416,7 @@
         }
       }
     },
-    "121:10": {
+    "122:10": {
       "preRequisites:11": [
         117,
         121
@@ -8226,14 +8469,14 @@
         }
       }
     },
-    "122:10": {
+    "123:10": {
       "preRequisites:11": [
         122
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nAnd then solidify like you would with Rubber.\n\n\n§aPolyethylene§r is the key to unlock §6many new things§r. It used mostly as §dSheets§r or §dFluid§r form.\nNo spoiling here! Let have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
+          "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nThen solidify like you would with Rubber.\n\n\n§aPolyethylene (PE)§r is the key to unlock §6many new things§r. It\u0027s used mostly as §dSheets§r or §dFluid§r form.\nNo spoilers here! Let\u0027s have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8256,7 +8499,38 @@
         }
       },
       "questID:3": 123,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 32000,
+                  "FluidName:8": "ethanol"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 32000,
+                  "FluidName:8": "light_fuel"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -8277,14 +8551,14 @@
         }
       }
     },
-    "123:10": {
+    "124:10": {
       "preRequisites:11": [
         120
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. While it is completely optional, but pretty rewarding.\n\n\nMaking Sodium Persulfate will give off §aHydrochloric Acid§r. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
+          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. It is completely optional, but pretty rewarding.\n\nMaking Sodium Persulfate will yield §aHydrochloric Acid§r as a coproduct. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8329,14 +8603,14 @@
         }
       }
     },
-    "124:10": {
+    "125:10": {
       "preRequisites:11": [
         123
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\nWhile Polyvinyl Chloride is used a lot less than Polyethylene, it will be useful in a fair amount of recipes.",
+          "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\n§aPolyvinyl Chloride (PVC)§r is the 3rd-most produced plastic in real life. Here, it can be used in place of Polyethylene in production of §aPlastic Circuit Boards§r and other items to increase the yield.\n\nPVC item pipes also have the §6highest throughput§r available for a while, if your setups need it.\n\n§9Pro tip:§r the fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8380,7 +8654,7 @@
         }
       }
     },
-    "125:10": {
+    "126:10": {
       "preRequisites:11": [
         94,
         92
@@ -8388,7 +8662,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer now enables you to decompose a lot more Dusts. This will make getting certain materials a lot easier!",
+          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer allows you to decompose §6all§r Dusts. This will make getting materials such as §aAluminium§o§§ a lot easier!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8432,14 +8706,14 @@
         }
       }
     },
-    "126:10": {
+    "127:10": {
       "preRequisites:11": [
         126
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nAfter this batch, you may want to switch to §aSodalite electrolysis§r which gives similar outputs.\n\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.",
+          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nYou will need §a§ra total of §a416 Clay Dust§r for this quest. You may also want to look into other sources of similar materials, such as §aSodalite§r. Check JEI for some ideas.\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8486,7 +8760,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 416,
+              "Count:3": 64,
               "Damage:2": 2063,
               "OreDict:8": "dustClay",
               "id:8": "gregtech:meta_dust"
@@ -8531,7 +8805,7 @@
         }
       }
     },
-    "127:10": {
+    "128:10": {
       "preRequisites:11": [
         94,
         92
@@ -8583,7 +8857,7 @@
         }
       }
     },
-    "128:10": {
+    "129:10": {
       "preRequisites:11": [
         95
       ],
@@ -8653,14 +8927,15 @@
         }
       }
     },
-    "129:10": {
+    "130:10": {
       "preRequisites:11": [
-        129
+        129,
+        103
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oLet\u0027s get ready to work on better circuits!§r\n\n",
+          "desc:8": "The §aLaser Engraver§r engraves patterns into §9Silicon Wafers§r based on the type of §9Lens§r it is given. After the wafers are engraved, they must be passed through a §9Cutting Machine§r to turn them into components ready to be put into Circuits. Higher tier Engravers can etch more complex wafers for more efficient Circuits.\n\nFor now, the §aIntegrated Logic Circuit§r will be the one of interest, but the others will become important for higher tier Circuits.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8724,29 +8999,6 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 361,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 16,
-              "Damage:2": 371,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 3,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -8767,14 +9019,14 @@
         }
       }
     },
-    "130:10": {
+    "131:10": {
       "preRequisites:11": [
         130
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You have unlocked a new Tier of Circuits!\nThe Integrated Logic Circuit is an alternate §aLV Circuit§r, which can be upgraded to §aMV§r, and then §aHV§r.\n\n\n§9Note:§r This is not a strict upgrade to the cost of Circuits, you would need to get to the next Tier for that, just slightly further down in the MV Age.\n\n\n§bLore:§r The circuit progression in GTCEu is mostly based on GT5u\u0027s progression. However it has been rebalanced to not be as painful, specifically this circuit tier which was a complete bait!",
+          "desc:8": "You have unlocked a new Tier of Circuits!\nThe Integrated Logic Circuit is an alternate §aLV Circuit§r, which can be upgraded to §aMV§r, and then §aHV§r.\n\n\n§9Note:§r This is not a strict upgrade to the cost of Circuits, you would need to get to the next Tier for that, just slightly further down in the MV Age. Why would you need this Circuit type then? You need it to get to §6HV circuits§r.\n\n\n§bLore:§r The circuit progression in GTCEu is mostly based on GT5u\u0027s progression. However it has been rebalanced to not be as painful, specifically this circuit tier which was a complete bait!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8818,7 +9070,7 @@
         }
       }
     },
-    "131:10": {
+    "132:10": {
       "preRequisites:11": [
         131
       ],
@@ -8869,7 +9121,7 @@
         }
       }
     },
-    "132:10": {
+    "133:10": {
       "preRequisites:11": [
         132,
         138
@@ -8921,7 +9173,7 @@
         }
       }
     },
-    "133:10": {
+    "134:10": {
       "preRequisites:11": [
         124,
         123
@@ -8979,7 +9231,7 @@
         }
       }
     },
-    "134:10": {
+    "135:10": {
       "preRequisites:11": [
         133
       ],
@@ -9009,7 +9261,20 @@
         }
       },
       "questID:3": 135,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 40,
+              "Damage:2": 320,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -9030,7 +9295,7 @@
         }
       }
     },
-    "135:10": {
+    "136:10": {
       "preRequisites:11": [
         135,
         139
@@ -9082,7 +9347,7 @@
         }
       }
     },
-    "136:10": {
+    "137:10": {
       "preRequisites:11": [
         135,
         139
@@ -9134,7 +9399,7 @@
         }
       }
     },
-    "137:10": {
+    "138:10": {
       "preRequisites:11": [
         128,
         123
@@ -9186,7 +9451,7 @@
         }
       }
     },
-    "138:10": {
+    "139:10": {
       "preRequisites:11": [
         138
       ],
@@ -9237,7 +9502,7 @@
         }
       }
     },
-    "139:10": {
+    "140:10": {
       "preRequisites:11": [
         138
       ],
@@ -9288,7 +9553,7 @@
         }
       }
     },
-    "140:10": {
+    "141:10": {
       "preRequisites:11": [
         137,
         140
@@ -9340,7 +9605,7 @@
         }
       }
     },
-    "141:10": {
+    "142:10": {
       "preRequisites:11": [
         141
       ],
@@ -9391,7 +9656,7 @@
         }
       }
     },
-    "142:10": {
+    "143:10": {
       "preRequisites:11": [
         94,
         92
@@ -9443,7 +9708,7 @@
         }
       }
     },
-    "143:10": {
+    "144:10": {
       "preRequisites:11": [
         126
       ],
@@ -9494,14 +9759,14 @@
         }
       }
     },
-    "144:10": {
+    "145:10": {
       "preRequisites:11": [
         153
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
+          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nStainless Steel is the material for §6HV§r components, like Aluminium for §bMV§r and Steel for §7LV§r. It is also used in the §6Distillation Tower§r.\nIt requires §cChrome§r, obtained mainly from §cRuby§r, and §2Manganese§r, obtained from §2Pyrolusite§r and others in its vein.\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9524,7 +9789,26 @@
         }
       },
       "questID:3": 145,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 22,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 24,
+              "Damage:2": 61,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -9545,7 +9829,7 @@
         }
       }
     },
-    "145:10": {
+    "146:10": {
       "preRequisites:11": [
         62
       ],
@@ -9610,14 +9894,14 @@
         }
       }
     },
-    "146:10": {
+    "147:10": {
       "preRequisites:11": [
         123
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSuper Tanks are OP!! No but seriously.§r\n\nThis is the end of Fluid storage galore. 4,000 buckets storage in one single block!\n\n",
+          "desc:8": "§oSuper Tanks are OP!! No but seriously.§r\n\nThis is the ultimate portable Fluid storage solution. §64,000 buckets storage§r in one single block! Like Drums, Super Tanks keep their fluids when broken, and can be cleared in the crafting grid.\n\nFor §9even more§r storage, use higher tier Super Tanks or AE2 Fluid Storage Cells.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9661,7 +9945,7 @@
         }
       }
     },
-    "147:10": {
+    "148:10": {
       "preRequisites:11": [
         115
       ],
@@ -9715,7 +9999,7 @@
         }
       }
     },
-    "148:10": {
+    "149:10": {
       "preRequisites:11": [
         119
       ],
@@ -9769,7 +10053,7 @@
         }
       }
     },
-    "149:10": {
+    "150:10": {
       "preRequisites:11": [
         151
       ],
@@ -9841,7 +10125,7 @@
         }
       }
     },
-    "150:10": {
+    "151:10": {
       "preRequisites:11": [
         94,
         92
@@ -9849,7 +10133,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFluid Rigs are coming up soon in GTCEu, they will pump \"under bedrock\" virtual fluid veins, typically Oil.§r\n\n\nThere are four types of Oil.\n\n§9§lOil:§r your standard Oil, richer in §aLight Fuel§r.\n\n§9§lLight Oil:§r richer in §aRefinery Gas§r, generally considered as the worst.\n\n§9§lHeavy Oil:§r richer in §aHeavy Fuel§r, and requires MV to process.\n\n§9§lRaw Oil:§r essentially the same as §aOil§r, but less dense in Fuel.",
+          "desc:8": "§oFluid Rigs are coming up soon in GTCEu, they will pump \"under bedrock\" virtual fluid veins, typically Oil.§r\n\n\nThere are four types of Oil.\n\n§9§lOil:§r your standard Oil, richer in §aLight Fuel§r.\n\n§9§lLight Oil:§r richer in §aRefinery Gas§r, generally considered as the worst.\n\n§9§lHeavy Oil:§r richer in §aHeavy Fuel§r, and requires MV to process.\n\n§9§lRaw Oil:§r essentially a less dense version of §aOil§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9880,7 +10164,7 @@
         }
       }
     },
-    "151:10": {
+    "152:10": {
       "preRequisites:11": [
         94,
         92
@@ -9888,7 +10172,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes metals into (almost!) any form using §aIngots§r. This is great machine to reduce the amount of microcrafting, as well as keeping high conversion ratio.\n\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, §6§6Rings§r at the highest efficiency in one step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (this one however is less efficient).",
+          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes solid materials into (almost!) any form using §aIngots§r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio.\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, and §6§6Rings§r at the highest efficiency in a single step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (though less efficiently for Rotors).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9951,7 +10235,7 @@
         }
       }
     },
-    "152:10": {
+    "153:10": {
       "preRequisites:11": [
         128,
         130
@@ -10003,7 +10287,7 @@
         }
       }
     },
-    "153:10": {
+    "154:10": {
       "preRequisites:11": [
         66
       ],
@@ -10054,7 +10338,7 @@
         }
       }
     },
-    "154:10": {
+    "155:10": {
       "preRequisites:11": [
         60
       ],
@@ -10092,14 +10376,14 @@
         }
       }
     },
-    "155:10": {
+    "156:10": {
       "preRequisites:11": [
         123
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10137,6 +10421,123 @@
               "Damage:2": 52,
               "OreDict:8": "",
               "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "157:10": {
+      "preRequisites:11": [
+        61
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§9§aTransformers§r allow you to step up and down Voltage tiers safely. Transformers change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.\n\nApart from running machines on different voltage tiers, Transformers are useful for transporting power across longer distances. Cable loss has less of an effect at higher voltages.\n\nTransformers have 5 low voltage sides, and 1 high voltage side.\n\nThis quest calls for two different types of Transformers; get §eeither§o§r to complete the quest. The §9normal§r Transformer can only do 1A \u003c-\u003e 4A conversion, but §9Adjustable§r Transformers can be changed between 1A \u003c-\u003e 4A, 2A \u003c-\u003e 8A, 4A \u003c-\u003e 16A, and 16A \u003c-\u003e 64A conversions. \n\nUse a §aSoft Hammer§r to change between transform up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1286,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Transformers",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 157,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1271,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1286,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "158:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "(not final)\nCrates can store more items.\nCrates can take Covers.\nCrates kinda suck because \u003creason\u003e",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1626,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Storage",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 158,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1626,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10457,6 +10858,13 @@
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 102
+        },
+        "22:10": {
+          "id:3": 157,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 66
         }
       }
     },
@@ -10673,7 +11081,7 @@
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 114,
-          "y:3": -276
+          "y:3": -234
         },
         "28:10": {
           "id:3": 47,
@@ -10709,6 +11117,13 @@
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -282
+        },
+        "33:10": {
+          "id:3": 158,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 72,
+          "y:3": -288
         }
       }
     },
@@ -10861,7 +11276,7 @@
           "id:3": 65,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -162,
+          "x:3": -156,
           "y:3": 60
         },
         "19:10": {
@@ -10946,7 +11361,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
-          "y:3": -12
+          "y:3": -6
         },
         "31:10": {
           "id:3": 79,
@@ -11008,14 +11423,14 @@
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 108,
+          "x:3": 114,
           "y:3": 192
         },
         "40:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
+          "x:3": 234,
           "y:3": 192
         },
         "41:10": {
@@ -11162,7 +11577,7 @@
           "id:3": 154,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -96,
+          "x:3": -90,
           "y:3": 168
         }
       }
@@ -11190,323 +11605,337 @@
           "id:3": 61,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": 30
+          "x:3": -102,
+          "y:3": 36
         },
         "1:10": {
           "id:3": 94,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -30,
-          "y:3": -12
+          "y:3": -54
         },
         "2:10": {
           "id:3": 95,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -72
+          "x:3": -18,
+          "y:3": 36
         },
         "3:10": {
+          "id:3": 103,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 36
+        },
+        "4:10": {
           "id:3": 113,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
-          "y:3": -78
-        },
-        "4:10": {
-          "id:3": 114,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -150
+          "x:3": -102,
+          "y:3": -42
         },
         "5:10": {
+          "id:3": 114,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -24,
+          "y:3": -180
+        },
+        "6:10": {
           "id:3": 115,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -18,
-          "y:3": -114
+          "y:3": -84
         },
-        "6:10": {
+        "7:10": {
           "id:3": 116,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
-          "y:3": -150
+          "y:3": -174
         },
-        "7:10": {
+        "8:10": {
           "id:3": 117,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -186
+          "x:3": 66,
+          "y:3": -174
         },
-        "8:10": {
+        "9:10": {
           "id:3": 118,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -150
+          "x:3": -18,
+          "y:3": -126
         },
-        "9:10": {
+        "10:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -186
+          "x:3": 66,
+          "y:3": -126
         },
-        "10:10": {
+        "11:10": {
           "id:3": 120,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
-          "y:3": -186
+          "x:3": 114,
+          "y:3": -174
         },
-        "11:10": {
+        "12:10": {
           "id:3": 121,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -234
+          "x:3": 114,
+          "y:3": -126
         },
-        "12:10": {
+        "13:10": {
           "id:3": 122,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -234
-        },
-        "13:10": {
-          "id:3": 123,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 252,
-          "y:3": -234
+          "x:3": 162,
+          "y:3": -126
         },
         "14:10": {
+          "id:3": 123,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 204,
+          "y:3": -132
+        },
+        "15:10": {
           "id:3": 124,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
-          "y:3": -138
+          "x:3": 162,
+          "y:3": -174
         },
-        "15:10": {
+        "16:10": {
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 222,
-          "y:3": -204
+          "x:3": 162,
+          "y:3": -84
         },
-        "16:10": {
+        "17:10": {
           "id:3": 126,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -6,
-          "y:3": 60
+          "x:3": -60,
+          "y:3": 0
         },
-        "17:10": {
+        "18:10": {
           "id:3": 127,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 42,
-          "y:3": 60
+          "x:3": -102,
+          "y:3": 0
         },
-        "18:10": {
+        "19:10": {
           "id:3": 128,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": 78
+          "x:3": 66,
+          "y:3": -42
         },
-        "19:10": {
+        "20:10": {
           "id:3": 129,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -72
+          "x:3": -18,
+          "y:3": 72
         },
-        "20:10": {
+        "21:10": {
           "id:3": 130,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -36
+          "x:3": 24,
+          "y:3": 72
         },
-        "21:10": {
+        "22:10": {
           "id:3": 131,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": 0
-        },
-        "22:10": {
-          "id:3": 132,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 138,
+          "x:3": 102,
           "y:3": 0
         },
         "23:10": {
-          "id:3": 133,
+          "id:3": 132,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 180,
+          "x:3": 144,
           "y:3": 0
         },
         "24:10": {
+          "id:3": 133,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 186,
+          "y:3": 0
+        },
+        "25:10": {
           "id:3": 134,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
-          "y:3": -138
+          "x:3": 210,
+          "y:3": -174
         },
-        "25:10": {
+        "26:10": {
           "id:3": 135,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": -48
+          "y:3": 36
         },
-        "26:10": {
+        "27:10": {
           "id:3": 136,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 0
         },
-        "27:10": {
+        "28:10": {
           "id:3": 137,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
+          "x:3": 270,
           "y:3": 0
         },
-        "28:10": {
+        "29:10": {
           "id:3": 138,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": 78
+          "x:3": 186,
+          "y:3": -42
         },
-        "29:10": {
+        "30:10": {
           "id:3": 139,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
-          "y:3": 78
+          "x:3": 228,
+          "y:3": -42
         },
-        "30:10": {
+        "31:10": {
           "id:3": 140,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
-          "y:3": 78
+          "x:3": 312,
+          "y:3": -42
         },
-        "31:10": {
+        "32:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
-          "y:3": 0
-        },
-        "32:10": {
-          "id:3": 142,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 372,
+          "x:3": 312,
           "y:3": 0
         },
         "33:10": {
+          "id:3": 142,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 354,
+          "y:3": 0
+        },
+        "34:10": {
           "id:3": 143,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -36
+          "x:3": -18,
+          "y:3": 0
         },
-        "34:10": {
+        "35:10": {
           "id:3": 144,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 42,
-          "y:3": 96
-        },
-        "35:10": {
-          "id:3": 145,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 30,
-          "y:3": 0
+          "x:3": -60,
+          "y:3": 36
         },
         "36:10": {
+          "id:3": 145,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 120,
+          "y:3": 60
+        },
+        "37:10": {
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -114
+          "x:3": -60,
+          "y:3": -84
         },
-        "37:10": {
+        "38:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 336,
-          "y:3": -234
+          "x:3": 114,
+          "y:3": -84
         },
-        "38:10": {
+        "39:10": {
           "id:3": 148,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -18,
-          "y:3": -186
+          "x:3": 24,
+          "y:3": -84
         },
-        "39:10": {
+        "40:10": {
           "id:3": 149,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -18,
-          "y:3": -234
+          "x:3": 66,
+          "y:3": -84
         },
-        "40:10": {
+        "41:10": {
           "id:3": 150,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -210
+          "x:3": -102,
+          "y:3": -126
         },
-        "41:10": {
+        "42:10": {
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
-          "y:3": -150
+          "y:3": -84
         },
-        "42:10": {
+        "43:10": {
           "id:3": 152,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 6
+          "x:3": 24,
+          "y:3": 0
         },
-        "43:10": {
+        "44:10": {
           "id:3": 153,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": 12
+          "x:3": 66,
+          "y:3": 72
         },
-        "44:10": {
+        "45:10": {
           "id:3": 155,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": 60
+          "x:3": -60,
+          "y:3": 72
         },
-        "45:10": {
+        "46:10": {
           "id:3": 156,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 294,
-          "y:3": -186
+          "x:3": 258,
+          "y:3": -126
+        },
+        "47:10": {
+          "id:3": 157,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": 72
         }
       }
     },
