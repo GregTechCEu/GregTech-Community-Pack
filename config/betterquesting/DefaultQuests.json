@@ -8509,7 +8509,7 @@
               "id:8": "gregtech:machine",
               "tag:10": {
                 "Fluid:10": {
-                  "Amount:3": 10000,
+                  "Amount:3": 32000,
                   "FluidName:8": "ethanol"
                 }
               }
@@ -8521,7 +8521,7 @@
               "id:8": "gregtech:machine",
               "tag:10": {
                 "Fluid:10": {
-                  "Amount:3": 10000,
+                  "Amount:3": 32000,
                   "FluidName:8": "light_fuel"
                 }
               }
@@ -8558,7 +8558,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. It is completely optional, but pretty rewarding.\n\n\nMaking Sodium Persulfate will give off §aHydrochloric Acid§r. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
+          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. It is completely optional, but pretty rewarding.\n\nMaking Sodium Persulfate will yield §aHydrochloric Acid§r as a coproduct. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10172,7 +10172,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes metals into (almost!) any form using §aIngots§r. This is great machine to reduce the amount of microcrafting, as well as keeping high conversion ratio.\n\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, §6§6Rings§r at the highest efficiency in one step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (this one however is less efficient).",
+          "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes metals into (almost!) any form using §aIngots§r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio.\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, and §6§6Rings§r at the highest efficiency in a single step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r (though less efficiently).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
