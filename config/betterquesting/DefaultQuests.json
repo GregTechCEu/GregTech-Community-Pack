@@ -6810,7 +6810,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four time as durable§r as Steel for GregTech tools.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
+          "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four time as durable§r as Steel for GregTech tools. The Vanadium comes from §aVanadium Magnetite§r, which you have probably encountered in Magnetite veins.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 4,
@@ -7952,7 +7952,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: the §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will want many of them, and as low tier as possible to avoid the Overclock energy losses.",
+          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will want many of them, and as low tier as possible to avoid the energy losses from Overclocking.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8021,7 +8021,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §aPyrolyse Oven§r processes §aWood§r and §aCoal§r products by heating them in an inert environment. ",
+          "desc:8": "The §aPyrolyse Oven§r processes §aorganic§r products by thermal decomposition in an inert environment. Depending on how the Oven is configured, §7Charcoal§r, §7Coke§r, or §7Ashes§r will be produced, as well as one of a multitude of §6organic byproducts§r.§r Those byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\n\nPresently it is used for turning §2Bio Chaff§r into §aBiomass§r, or §6Wood§r into §7Wood Tar§r, which can be processed into §7Benzene§r for power.\n\nYou can §adouble the speed§r of §6Wood§r processes with §bNitrogen§r gas.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8044,7 +8044,26 @@
         }
       },
       "questID:3": 115,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:coal"
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -8352,7 +8371,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing.\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nThe tantalizing §9Distillation Tower§r process for Oil processes is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing.\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene. Once in HV Age, you will have the option to do this recipe in the §3Cracking Unit§r.\n\nThe tantalizing §9Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8480,7 +8499,38 @@
         }
       },
       "questID:3": 123,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 10000,
+                  "FluidName:8": "ethanol"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1611,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 10000,
+                  "FluidName:8": "light_fuel"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -8508,7 +8558,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. While it is completely optional, but pretty rewarding.\n\n\nMaking Sodium Persulfate will give off §aHydrochloric Acid§r. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
+          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. It is completely optional, but pretty rewarding.\n\n\nMaking Sodium Persulfate will give off §aHydrochloric Acid§r. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8976,7 +9026,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You have unlocked a new Tier of Circuits!\nThe Integrated Logic Circuit is an alternate §aLV Circuit§r, which can be upgraded to §aMV§r, and then §aHV§r.\n\n\n§9Note:§r This is not a strict upgrade to the cost of Circuits, you would need to get to the next Tier for that, just slightly further down in the MV Age.\n\n\n§bLore:§r The circuit progression in GTCEu is mostly based on GT5u\u0027s progression. However it has been rebalanced to not be as painful, specifically this circuit tier which was a complete bait!",
+          "desc:8": "You have unlocked a new Tier of Circuits!\nThe Integrated Logic Circuit is an alternate §aLV Circuit§r, which can be upgraded to §aMV§r, and then §aHV§r.\n\n\n§9Note:§r This is not a strict upgrade to the cost of Circuits, you would need to get to the next Tier for that, just slightly further down in the MV Age. Why would you need this Circuit type then? You need it to get to §6HV circuits§r.\n\n\n§bLore:§r The circuit progression in GTCEu is mostly based on GT5u\u0027s progression. However it has been rebalanced to not be as painful, specifically this circuit tier which was a complete bait!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9211,7 +9261,20 @@
         }
       },
       "questID:3": 135,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 40,
+              "Damage:2": 320,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -10070,7 +10133,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFluid Rigs are coming up soon in GTCEu, they will pump \"under bedrock\" virtual fluid veins, typically Oil.§r\n\n\nThere are four types of Oil.\n\n§9§lOil:§r your standard Oil, richer in §aLight Fuel§r.\n\n§9§lLight Oil:§r richer in §aRefinery Gas§r, generally considered as the worst.\n\n§9§lHeavy Oil:§r richer in §aHeavy Fuel§r, and requires MV to process.\n\n§9§lRaw Oil:§r essentially the same as §aOil§r, but less dense in Fuel.",
+          "desc:8": "§oFluid Rigs are coming up soon in GTCEu, they will pump \"under bedrock\" virtual fluid veins, typically Oil.§r\n\n\nThere are four types of Oil.\n\n§9§lOil:§r your standard Oil, richer in §aLight Fuel§r.\n\n§9§lLight Oil:§r richer in §aRefinery Gas§r, generally considered as the worst.\n\n§9§lHeavy Oil:§r richer in §aHeavy Fuel§r, and requires MV to process.\n\n§9§lRaw Oil:§r essentially a less dense version of §aOil§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10746,6 +10809,13 @@
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 102
+        },
+        "22:10": {
+          "id:3": 157,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 66
         }
       }
     },
