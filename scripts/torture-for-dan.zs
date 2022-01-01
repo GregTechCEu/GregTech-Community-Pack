@@ -388,14 +388,6 @@ for i, lens in lenses {
         .duration(2400)
         .EUt(60)
         .buildAndRegister();
-
-    lathe.recipeBuilder()
-        .inputs(lens_plates[i])
-        .outputs(lens)
-        .outputs(lens_dusts_small[i] * 2)
-        .duration(1200)
-        .EUt(60)
-        .buildAndRegister();
 }
 
 // lossy magnesium chloride
