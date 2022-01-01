@@ -329,6 +329,14 @@ recipes.addShaped(<meta_tile_entity:gregtech:multi_furnace>.name, <meta_tile_ent
     [<ore:cableGtSingleAnnealedCopper>, <ore:circuitAdvanced>, <ore:cableGtSingleAnnealedCopper>]
 ]);
 
+// horrible mv lathe
+recipes.remove(<meta_tile_entity:gregtech:lathe.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:lathe.mv>.name, <meta_tile_entity:gregtech:lathe.mv>, [
+    [<ore:cableGtSingleCopper>, <ore:circuitGood>, <ore:cableGtSingleCopper>],
+    [<metaitem:electric.motor.mv>, <meta_tile_entity:gregtech:hull.mv>, <ore:gemFlawlessDiamond>],
+    [<ore:circuitGood>, <ore:cableGtSingleCopper>, <metaitem:electric.piston.mv>]
+]);
+
 // horrible lenses
 val lenses as IItemStack[] = [
     <metaitem:lensGlass>,
@@ -378,7 +386,7 @@ for i, lens in lenses {
         .outputs(lens)
         .outputs(lens_dusts[i] * 2)
         .duration(2400)
-        .EUt(30)
+        .EUt(60)
         .buildAndRegister();
 
     lathe.recipeBuilder()
