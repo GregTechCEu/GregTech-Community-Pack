@@ -301,16 +301,16 @@ assembler.recipeBuilder()
 recipes.remove(<meta_tile_entity:gregtech:electric_blast_furnace>);
 recipes.addShaped(<meta_tile_entity:gregtech:electric_blast_furnace>.name, <meta_tile_entity:gregtech:electric_blast_furnace>, [
     [<meta_tile_entity:gregtech:electric_furnace.lv>, <meta_tile_entity:gregtech:electric_furnace.lv>, <meta_tile_entity:gregtech:electric_furnace.lv>],
-    [<ore:circuitGood>, <gregtech:metal_casing:2>, <ore:circuitGood>],
-    [<ore:cableGtSingleTin>, <ore:circuitGood>, <ore:cableGtSingleTin>]
+    [<ore:circuitAdvanced>, <gregtech:metal_casing:2>, <ore:circuitAdvanced>],
+    [<ore:cableGtSingleTin>, <ore:circuitAdvanced>, <ore:cableGtSingleTin>]
 ]);
 
 // horrible mv extruder
 recipes.remove(<meta_tile_entity:gregtech:extruder.mv>);
 recipes.addShaped(<meta_tile_entity:gregtech:extruder.mv>.name, <meta_tile_entity:gregtech:extruder.mv>, [
-    [<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitAdvanced>],
+    [<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitGood>],
     [<metaitem:electric.piston.mv>, <meta_tile_entity:gregtech:hull.mv>, <ore:pipeHugeFluidChrome>],
-    [<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitAdvanced>]
+    [<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitGood>]
 ]);
 
 // horrible mv electrolyzer
@@ -318,5 +318,67 @@ recipes.remove(<meta_tile_entity:gregtech:electrolyzer.mv>);
 recipes.addShaped(<meta_tile_entity:gregtech:electrolyzer.mv>.name, <meta_tile_entity:gregtech:electrolyzer.mv>, [
     [<ore:wireGtQuadrupleGold>, <gregtech:transparent_casing>, <ore:wireGtQuadrupleGold>],
     [<ore:wireGtQuadrupleGold>, <meta_tile_entity:gregtech:hull.mv>, <ore:wireGtQuadrupleGold>],
-    [<ore:circuitAdvanced>, <ore:cableGtSingleCopper>, <ore:circuitAdvanced>]
+    [<ore:circuitGood>, <ore:cableGtSingleCopper>, <ore:circuitGood>]
 ]);
+
+// horrible multismelter
+recipes.remove(<meta_tile_entity:gregtech:multi_furnace>);
+recipes.addShaped(<meta_tile_entity:gregtech:multi_furnace>.name, <meta_tile_entity:gregtech:multi_furnace>, [
+    [<meta_tile_entity:gregtech:electric_furnace.mv>, <meta_tile_entity:gregtech:electric_furnace.mv>, <meta_tile_entity:gregtech:electric_furnace.mv>],
+    [<ore:circuitAdvanced>, <gregtech:metal_casing:2>, <ore:circuitAdvanced>],
+    [<ore:cableGtSingleAnnealedCopper>, <ore:circuitAdvanced>, <ore:cableGtSingleAnnealedCopper>]
+]);
+
+// horrible lenses
+val lenses as IItemStack[] = [
+    <metaitem:lensGlass>,
+    <metaitem:lensSapphire>,
+    <metaitem:lensRuby>,
+    <metaitem:lensEmerald>,
+    <metaitem:lensDiamond>
+];
+
+val lens_dusts as IItemStack[] = [
+    <metaitem:dustSmallGlass>,
+    <metaitem:dustSmallSapphire>,
+    <metaitem:dustSmallRuby>,
+    <metaitem:dustSmallEmerald>,
+    <metaitem:dustSmallDiamond>
+];
+
+val lens_gems as IItemStack[] = [
+    <metaitem:gemExquisiteGlass>,
+    <metaitem:gemExquisiteSapphire>,
+    <metaitem:gemExquisiteRuby>,
+    <metaitem:gemExquisiteEmerald>,
+    <metaitem:gemExquisiteDiamond>
+];
+
+for i, lens in lenses {
+    helpers.removeRecipeByOutput(assembler, [lens, lens_dusts[i] * 2], null, true);
+    lathe.recipeBuilder()
+        .inputs(lens_gems[i])
+        .outputs(lens)
+        .outputs(lens_dusts[i] * 2)
+        .duration(2400)
+        .EUt(64)
+        .buildAndRegister();
+
+    helpers.removeRecipeByOutput(lathe, [lens, lens_dusts[i] * 2], null, true);
+}
+
+// lossy magnesium chloride
+electrolyzer.findRecipe(30, [<metaitem:dustMagnesiumChloride> * 3], null).remove();
+// correct: 2MgCl2 + 4Na -> 4NaCl + 2Mg
+// lossy:   2MgCl2 + 4Na -> 3NaCl + 2Mg
+chemical_reactor.recipeBuilder()
+    .inputs(<ore:dustMagnesiumChloride> * 3)
+    .inputs(<ore:dustSodium> * 2)
+    .outputs(<metaitem:dustSalt> * 3)
+    .outputs(<metaitem:dustMagnesium>)
+    .duration(300)
+    .EUt(240)
+    .buildAndRegister();
+
+// only borosilicate for fiber epoxy
+chemical_bath.findRecipe(16, [<metaitem:carbon.fibers>], [<liquid:epoxy> * 144]).remove();
