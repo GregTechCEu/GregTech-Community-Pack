@@ -301,8 +301,8 @@ assembler.recipeBuilder()
 recipes.remove(<meta_tile_entity:gregtech:electric_blast_furnace>);
 recipes.addShaped(<meta_tile_entity:gregtech:electric_blast_furnace>.name, <meta_tile_entity:gregtech:electric_blast_furnace>, [
     [<meta_tile_entity:gregtech:electric_furnace.lv>, <meta_tile_entity:gregtech:electric_furnace.lv>, <meta_tile_entity:gregtech:electric_furnace.lv>],
-    [<ore:circuitAdvanced>, <gregtech:metal_casing:2>, <ore:circuitAdvanced>],
-    [<ore:cableGtSingleTin>, <ore:circuitAdvanced>, <ore:cableGtSingleTin>]
+    [<ore:circuitGood>, <gregtech:metal_casing:2>, <ore:circuitGood>],
+    [<ore:cableGtSingleTin>, <ore:circuitGood>, <ore:cableGtSingleTin>]
 ]);
 
 // horrible mv extruder
@@ -338,7 +338,7 @@ val lenses as IItemStack[] = [
     <metaitem:lensDiamond>
 ];
 
-val lens_dusts as IItemStack[] = [
+val lens_dusts_small as IItemStack[] = [
     <metaitem:dustSmallGlass>,
     <metaitem:dustSmallSapphire>,
     <metaitem:dustSmallRuby>,
@@ -354,17 +354,40 @@ val lens_gems as IItemStack[] = [
     <metaitem:gemExquisiteDiamond>
 ];
 
+val lens_dusts as IItemStack[] = [
+    <metaitem:dustGlass>,
+    <metaitem:dustSapphire>,
+    <metaitem:dustRuby>,
+    <metaitem:dustEmerald>,
+    <metaitem:dustDiamond>
+];
+
+val lens_plates as IItemStack[] = [
+    <metaitem:plateGlass>,
+    <metaitem:plateSapphire>,
+    <metaitem:plateRuby>,
+    <metaitem:plateEmerald>,
+    <metaitem:plateDiamond>
+];
+
 for i, lens in lenses {
-    helpers.removeRecipeByOutput(assembler, [lens, lens_dusts[i] * 2], null, true);
+    helpers.removeRecipeByOutput(assembler, [lens, lens_dusts_small[i] * 2], null, true);
+    helpers.removeRecipeByOutput(lathe, [lens, lens_dusts_small[i] * 2], null, true);
     lathe.recipeBuilder()
         .inputs(lens_gems[i])
         .outputs(lens)
         .outputs(lens_dusts[i] * 2)
         .duration(2400)
-        .EUt(64)
+        .EUt(30)
         .buildAndRegister();
 
-    helpers.removeRecipeByOutput(lathe, [lens, lens_dusts[i] * 2], null, true);
+    lathe.recipeBuilder()
+        .inputs(lens_plates[i])
+        .outputs(lens)
+        .outputs(lens_dusts_small[i] * 2)
+        .duration(1200)
+        .EUt(60)
+        .buildAndRegister();
 }
 
 // lossy magnesium chloride
