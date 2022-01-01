@@ -92,16 +92,9 @@ assembler.recipeBuilder()
     .buildAndRegister();
     
 // Bones
-recipes.addShapeless("bones", <minecraft:bone>, [<ore:gtceMortars>, <ore:dirt>]);
-
-sifter.recipeBuilder()
+extractor.recipeBuilder()
     .inputs(<ore:dirt>)
     .outputs(<minecraft:bone>)
-    .chancedOutput(<minecraft:bone>, 2500, 0)
-    .chancedOutput(<minecraft:bone>, 3300, 0)
-    .chancedOutput(<minecraft:bone>, 6000, 0)
-    .chancedOutput(<minecraft:bone>, 8000, 0)
-    .chancedOutput(<minecraft:bone>, 9000, 0)
     .duration(100)
     .EUt(16)
     .buildAndRegister();
