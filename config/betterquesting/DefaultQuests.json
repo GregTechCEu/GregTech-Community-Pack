@@ -2208,7 +2208,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSteel, the Shrödinger alloy of all alloys. Made with a very small percentage of carbon in mass, it is significantly tougher than Iron or Wrought Iron.§r\n\nOne PBF will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can §dshare walls§r? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four PBFs. It just depends on how much of an innate speedrunner you are.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 300 seconds in the PBF!\nPollution was also a thing, and four of these bad boys would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
+          "desc:8": "§oSteel, the Shrödinger alloy of all alloys. Made with a very small percentage of carbon in mass, it is significantly tougher than Iron or Wrought Iron.§r\n\nOne PBF will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can §dshare walls§r? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four PBFs. It just depends on how much of an innate speedrunner you are.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 360 seconds in the PBF when using Coal or Charcoal!\nPollution was also a thing, and four of these bad boys would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4448,7 +4448,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis of a chemical reaction, either realistic, theorical or invented by the power of video gaming. The Chemical Reactor will create the conditions for it to happen, and TADAAA. You can also call this a magic box, if you want.§r\n\n\nThe Chemical Reactor will be required for §la lot§r of recipes.\nRight now in LV age, you can use it to make... take a look at the quest to the right of this one.",
+          "desc:8": "§oThis of a chemical reaction, either realistic, theorical or invented by the power of video gaming. The Chemical Reactor will create the conditions for it to happen, and TADAAA. You can also call this a magic box, if you want.§r\n\n\nThe §3Chemical Reactor§r will be required for §la lot§r of recipes.\n\n\nThen, use your freshly made Chemical Reactor to unlock a new, §6better recipe for Rubber§r. It is §dunusable§r as a Fluid, so you will need to make another machine next.\n\nMake an §3Solidifier§r to solidify directly into §aRubber Sheets§r. You want this.\n\nMake an §3Assembling Machine§r to use the molten Rubber for §aCables§r. Not important for Tin Cables.\n\n\n§9Note:§r Submit a fluid by having it stored in §lany§r tank in your inventory. A bucket will also work.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4489,6 +4489,20 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1296,
+              "FluidName:8": "rubber"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -4602,19 +4616,19 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 8,
               "Damage:2": 112,
               "OreDict:8": "",
               "id:8": "gregtech:wire_single"
             },
             "1:10": {
-              "Count:3": 16,
+              "Count:3": 8,
               "Damage:2": 112,
               "OreDict:8": "",
               "id:8": "gregtech:cable_single"
             },
             "2:10": {
-              "Count:3": 4,
+              "Count:3": 2,
               "Damage:2": 112,
               "OreDict:8": "",
               "id:8": "gregtech:cable_quadruple"
@@ -5061,7 +5075,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Fluid Solidifier Solidifies... Or you could say it freezes stuff if you like cursedness.§r\n\nThis machine requires molds and fluids to solidify stuff. It won\u0027t do anything on its own, but perhaps if you had §amolten Rubber§r...?",
+          "desc:8": "§oThe Fluid Solidifier Solidifies... Or you could say it freezes stuff if you like cursedness.§r\n\nBuild this machine next to your §3Chemical Reactor§r. Then, §dwrench§r the side of your Chemical Reactor",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5112,7 +5126,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe Assembling Machine is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developers also love to use this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Energistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r Resistors\n§9-§r Circuit Boards\n§9-§r Cables\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
+          "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe Assembling Machine is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developers also love to use this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Energistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r §6Vacuum Tubes§r\n§9-§r §6Resistors§r\n§9-§r §6Circuit Boards§r\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5930,7 +5944,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe description of the machine refers to metallurgy where Blast Furnace and Arc Furnace serve a similar purpose, not exactly here though!§r\n\nThe Arc Furnace uses a little bit of Oxygen to smelt items in a different fashion than Furnaces.\n\nYou can use it to make easier §aWrought Iron§r, §aGlass§r, and gain access to §aAnnealed Copper§r.\nIt can also recycle various components and machines back to their original material.\n\n\n§bLore:§r Previous versions had both the Arc Furnace and the Plasma Arc Furnace. But why not use one machine for both? Recipes using Plasma are available only after Fusion is unlocked.",
+          "desc:8": "§oThe description of the machine refers to metallurgy where Blast Furnace and Arc Furnace serve a similar purpose, not exactly here though!§r\n\nThe Arc Furnace uses a little bit of Oxygen to smelt items in a different fashion than Furnaces.\n\nYou can use it to make easier §aWrought Iron§r, §aGlass§r, and gain access to §aAnnealed Copper§r.\nIt can also recycle various components and machines back to their original material.\n\n\n§bLore:§r Previous versions had both the Arc Furnace and the Plasma Arc Furnace. But why not use one machine for both? That\u0027s what we decided, but then we decided to remove one of the two plasma recipes. And then the other plasma recipe... Enough rambling that just means the Plasma Arc Furnace is gone. RIP.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7197,18 +7211,18 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Use your freshly made Chemical Reactor to unlock a new, §6better recipe for Rubber§r. It is in the form of fluid though.\n\nMake an §dSolidifier§r (Quest just above!) to solidify directly into §aRubber Sheets§r.\n\nMake an §dAssembling Machine§r (Quest just below!) to use the molten Rubber for §aCables§r.\n\n\nIf I were you, I would make this machine adjacent to the Fluid Solidifier to automatically make Sheets. Sheets can be melted back (more on that on a later Quest...).\n\n\n§9Note:§r Submit a fluid by having it stored in §lany§r tank in your inventory. A bucket will also work.",
+          "desc:8": "§oGTCE killed Cell Chemistry... GTCE killed Cells!§r\n\n... So let\u0027s have GTCEu revive them back! Nonono, not the Cell Chemistry, the Cells.\n\nCells hold one bucket of Fluid and are stackable.\n\nUniversal Cells hold up to one bucket, but also can store fractions of Buckets. Ideal to store leftover Fluid without spending a whole Drum.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1068,
+            "Damage:2": 79,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_plate"
+            "id:8": "gregtech:meta_item_1"
           },
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Rubber v2.0",
+          "name:8": "Dead Cells",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7216,7 +7230,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "questID:3": 102,
@@ -7228,13 +7242,22 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "rubber"
+              "Count:3": 4,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 79,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -7481,7 +7504,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n\n§5Writer:§r §oCome back at me when you are stronger, young Padawan.§r",
+          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n\n§5Writer:§r §oCome back at to when you are stronger, young Padawan.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7947,7 +7970,8 @@
       "preRequisites:11": [
         116,
         151,
-        118
+        118,
+        159
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8021,7 +8045,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §aPyrolyse Oven§r processes §aorganic§r products by thermal decomposition in an inert environment. Depending on how the Oven is configured, §7Charcoal§r, §7Coke§r, or §7Ashes§r will be produced, as well as one of a multitude of §6organic byproducts§r.§r Those byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\n\nPresently it is used for turning §2Bio Chaff§r into §aBiomass§r, or §6Wood§r into §7Wood Tar§r, which can be processed into §7Benzene§r for power.\n\nYou can §adouble the speed§r of §6Wood§r processes with §bNitrogen§r gas.",
+          "desc:8": "§oThe Pyrolyse Oven processes organic products by thermal decomposition in an inert environment.§r\n\nThe §3Pyrolyse Oven§r is an electric equivalent of the §3Coke Oven§r. It can produce §9Coal Coke§r and §9Charcoal§r with a §9Creosote§r byproduct just as before, but also has additional §6Organic Byproducts§r. The most beneficial of these are §aWood Tar§r and §aCharcoal Byproducts§r. Charcoal Byproducts isn\u0027t useful right now, but Wood Tar is (more in the Benzene Quest).\nAnother product is §aBiomass§r, which is more pertinent for progression §oright now§r.\n\nThose byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\nYou will need to read the §9Distillation§r Quest to hopefully understand the full scale...\n\n\nYou can §ddouble the speed§r of some recipes using §aNitrogen§r. However I would not recommend it, as that requires two §3LV Centrifuges§r, and brings the §3Pyrolyse Oven§r outside out the §d64EU/t§r range which is achievable with one single §3LV Energy Hatch§r.\n\n\nRemember that the Coils used in the structure determine the speed. The §3Cupronickel Coils§r are still good enough, but you may want to upgrade eventually.\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r In GT5u, the structure for the pyrolyse is a giant box with only 9 coils inside. Players usually spend several minutes debugging what is wrong due to the lack of JEI preview.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8054,7 +8078,7 @@
               "id:8": "minecraft:coal"
             },
             "1:10": {
-              "Count:3": 64,
+              "Count:3": 128,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:log"
@@ -8106,7 +8130,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "America Simulator",
+          "name:8": "US Simulator",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8504,21 +8528,21 @@
           "choices:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1611,
+              "Damage:2": 81,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Fluid:10": {
-                  "Amount:3": 32000,
+                  "Amount:3": 16000,
                   "FluidName:8": "ethanol"
                 }
               }
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 1611,
+              "Damage:2": 81,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Fluid:10": {
                   "Amount:3": 32000,
@@ -8558,7 +8582,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSodium Persulfate is used to etch Copper on Circuit Boards... Something like that, among other things.§r\n\nSodium Persulfate can be used to make cheaper §aGood Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nIt is also required to make §aPlastic Circuit Boards§r, as the Iron III Chloride recipe is locked behind HV.\n\nSodium Persulfate can also be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. It is completely optional, but pretty rewarding.\n\nMaking Sodium Persulfate will yield §aHydrochloric Acid§r as a coproduct. You can store it for future uses or electrolyze it to recover Chlorine and Hydrogen.",
+          "desc:8": "§oThese acids are used to etch Copper off Circuit Boards... or something like that.§r\n\n§aSodium Persulfate§r can be used in §9Ore Processing§r in the §3Chemical Bath§r, to get various bonus outputs you would not normally obtained. It is completely optional, but pretty rewarding.\n\n\nBut the real topic of this Quest is here:\n§aSodium Persulfate§r and §aIron III Chloride§r are used to make cheaper §9Good Circuit Boards§r, as it cuts the Silver amount by a factor of four.\nThey are also §drequired§r to make §9Plastic Circuit Boards§r.\n\nMaking §aSodium Persulfate§r will yield §aHydrochloric Acid§r as a coproduct, which you may re-use to make §aIron III Chloride§r. This should the best approach line right now, but the decision is entirely yours.\nWith more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path.\n\n\nThis Quest can be completed with §eeither§r Fluid.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8573,7 +8597,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Sodium Persulfate",
+          "name:8": "Sodium Persulfate / Iron III Chloride",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8597,6 +8621,20 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "sodium_persulfate"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "iron_iii_chloride"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -8813,7 +8851,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Assembling Machine is a staple for every Tier, an important goal to unlock more recipes and progress further into the Age.",
+          "desc:8": "The §3Assembling Machine§r is a staple for every Tier, an important goal to unlock more recipes and progress further into the Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9351,7 +9389,8 @@
     "137:10": {
       "preRequisites:11": [
         135,
-        139
+        139,
+        134
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9506,7 +9545,7 @@
     },
     "140:10": {
       "preRequisites:11": [
-        138
+        139
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9839,7 +9878,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThe Brewery is used for §9Biomass§r, a path that is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, wrong GregTech version.§r",
+          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThe Brewery makes §aBiomass§r, a path that is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, wrong GregTech version.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10546,6 +10585,2147 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "159:10": {
+      "preRequisites:11": [
+        62
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The underground has pure Oilsands veins. You may §aelectrolyze§r the Dust to get §aOil§r.\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_oilsands_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "America Simulator",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 159,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_oilsands_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1597,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 16000,
+              "FluidName:8": "oil"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "160:10": {
+      "preRequisites:11": [
+        152
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Aluminium Cells, a very big upgrade over the Universal Cells.\n\nThey can hold any fraction of Fluid, up to 32 buckets.\nThey are also stackable.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 81,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Large Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 160,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 81,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "161:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "An Iron Gold vein hybrid.\n\nThis should be your primary destination for Iron expeditions, so you can get that bonus Gold.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_magnetite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Magnetite - Source of Iron, Gold, Vanadium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 161,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_magnetite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_vanadium_magnetite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_gold_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "162:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A standard Iron vein, good target when you need to refill.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_yellow_limonite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Limonite - Source of Iron, Copper",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 162,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_brown_limonite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_yellow_limonite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_banded_iron_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_malachite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "163:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your number one vein for sources of Chlorine.\n\nLithium can be obtained from Lepidolite Ore Processing.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_salt_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Gamer Rage - Source of Salt, Chlorine, Lithium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 163,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_salt_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_rock_salt_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_lepidolite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_spodumene_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "164:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your classic Redstone vein.\n\nRuby is the very important as it will give Chrome through Ore Processing.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_redstone_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Redstone - Source of Redstone, Ruby, Chrome, Mercury",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 164,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_redstone_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_ruby_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_cinnabar_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "165:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Both Sapphires are your primary source of Aluminium until you can unlock other electrolysis recipes in MV.\n\nThe other two gems are mediocre at best.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_sapphire_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sapphire - Source of Aluminium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 165,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_almandine_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pyrope_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sapphire_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_green_sapphire_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "166:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This vein is only ever good for Magnesium starting in the mid game.\n\n... And maybe some Olivine as it can substitute Emerald.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_olivine_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Olivine - Source of Magnesium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 166,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_bentonite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_magnesite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_olivine_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_glauconite_sand_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "167:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "oil",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_oilsands_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Oilsands - Source of American Dreams",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 167,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_oilsands_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "168:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your one and only trusty source for Nickel.\n\nCobalt is also an excellent early game material for tools.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_nickel_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Nickel - Source of Nickel, Cobalt",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 168,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_garnierite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_nickel_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_cobaltite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pentlandite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "169:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "An Iron vein, good in the early game, that\u0027s about it.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_basaltic_mineral_sand_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Mineral Sand - Source of Iron",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 169,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_basaltic_mineral_sand_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_granitic_mineral_sand_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_fullers_earth_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_gypsum_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "170:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Put this off for a while, and mine this for Bauxite for your first ever source of Titanium.\n\nKyanite, Mica have decent decompositions, but not great.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_mica_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Mica - Source of GT:NH Hatred",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 170,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_kyanite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_mica_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_bauxite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pollucite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "171:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Pyrolusite is what you are here for. It smelts directly into Manganese whic his needed for the HV Age.\n\nTantalite eventually becomes extremely valuable thanks to Niobium byproducts.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_pyrolusite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pyrolusite - Source of Manganese",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 171,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_grossular_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_spessartine_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pyrolusite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tantalite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "172:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A decent alternative to the pure Tin vein, if you did not find it.\n\nThe other ores are as good as decoration.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_cassiterite_sand_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Cassiterite Sand - Source of Tin",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 172,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_cassiterite_sand_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_garnet_sand_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_asbestos_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_diatomite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "173:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "It\u0027s shiny, you wish you could make jewelry out of it.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_garnet_red_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Garnet - Source of Necklaces",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 173,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_garnet_red_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_garnet_yellow_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_amethyst_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_opal_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "174:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your standard Lapis vein.\n\nSodalite is the most valuable Ore here, thanks to its electrolysis in the MV Age.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_lapis_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Lapis - Source of Lapis Lazuli, Aluminium, Chlorine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 174,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_lazurite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sodalite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:lapis_ore"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_calcite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "175:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This one\u0027s nothing but a meme. Seriously, check the vein name in JEI.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_soapstone_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Soapstone - Source of Lubricant",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 175,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_soapstone_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_talc_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_glauconite_sand_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pentlandite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "176:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The most consistent source of Lead and Silver.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_galena_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Galena - Source of Lead, Silver",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 176,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_galena_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_silver_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_lead_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "177:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your only source of Diamond!\n\nDiamond and Graphite both electrolyze to a lot of Carbon.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_graphite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Graphite - Source of Diamond, Carbon",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 177,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_graphite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_diamond_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_coal_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "178:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "An excellent Iron Copper hybrid vein.\n\nChalcopyrite will play an essential role in the late game.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_pyrite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pyrite - Source of Copper, Iron",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 178,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_chalcopyrite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_iron_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pyrite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_copper_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "179:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A great vein for the early game, containing Copper and Tin, to make Bronze.\n\nRealgar will be your first source of Arsenic.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_chalcopyrite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Chalcopyrite - Source of Copper, Tin",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 179,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_chalcopyrite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_zeolite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_cassiterite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_realgar_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "180:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Coal as an ore is barely worth it, but this is a classic.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_coal_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Coal - Source of",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 180,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_coal_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "181:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A pure Tin vein, excellent for early game.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_cassiterite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Cassiterite - Source of Tin",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 181,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tin_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_cassiterite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "182:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oYour Forestry compatibility mineral, Apatite!§r\n\nThis is pretty much the one vein you want to tap in for Phosphorus, which requires quite a few steps of processing to obtain.\n\nPyrochlore will eventually become extremely valuable, as it is a source of Niobium.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_apatite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Apatite - Source of Calcium, Phosphorus, Niobium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 182,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_apatite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tricalcium_phosphate_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pyrochlore_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "183:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Both Topaz ores give Fluorine through electrolysis.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_blue_topaz_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Topaz - Source of Copper, Fluorine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 183,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_blue_topaz_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_topaz_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_chalcocite_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_bornite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "184:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Almost a pure Copper vein.\n\nStibnite smelts directly into Antimony, which you will want in the LV Age.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_tetrahedrite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Tetrahedrite - Source of Copper, Antimony",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 184,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tetrahedrite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_copper_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_stibnite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "185:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Electrotine is important for progression in the HV Age. It electrolyses into Electrum which doubles as a Gold Silver hybrid source.\n\nThe other ores are mediocre at best.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_saltpeter_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Saltpeter - Source of Potassium, Electrum",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 185,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_saltpeter_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_diatomite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_electrotine_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_alunite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "186:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your classic Nether Quartz vein.\n\nSilicon is never really hard to obtain, but this can be one of the ways through Quartzite.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_nether_quartz_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Quartz - Source of Nether Quartz, Silicon",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 186,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_nether_quartz_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_quartzite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "187:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your first Nether expedition will be for Sulfur, which is found in this vein!\n\nSphalerite is extremely valuable, as its ore processing gives Gallium. It also smelts directly into Zinc.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_sulfur_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sulfur - Source of Sulfur, Iron, Zinc",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 187,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sulfur_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_pyrite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sphalerite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "188:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Rare Earths vein, for progression in the EV age and onwards.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_bastnasite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Bastnatite - Source of Rare Earths, Neodymium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 188,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_bastnasite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_monazite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_neodymium_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "189:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This vein is very rare!\n\nIt is basically Molybdenum, plus less important materials.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_molybdenum_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Molybdenum - Source of Molybdenum",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 189,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_wulfenite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_molybdenite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_molybdenum_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_powellite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "190:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The one way to get into Applied Energistics is to mine Certus Quartz.\n\nBarite electrolyses into Bairum, which you will need at some point.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_certus_quartz_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Certus Quartz - Source of Applied Energistics, Barium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 190,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_quartzite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_certus_quartz_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_barite_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "191:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This won\u0027t be needed for a very long while, except for some low amount of Emerald perhaps.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_beryllium_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Emerald - Source of Beryllium, Emerald, Thorium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 191,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_beryllium_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_emerald_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_thorium_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -10755,7 +12935,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
-          "y:3": 30
+          "y:3": 12
         },
         "7:10": {
           "id:3": 31,
@@ -10772,97 +12952,104 @@
           "y:3": 30
         },
         "9:10": {
+          "id:3": 47,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -90,
+          "y:3": 48
+        },
+        "10:10": {
           "id:3": 52,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": -24
         },
-        "10:10": {
+        "11:10": {
           "id:3": 60,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 30
         },
-        "11:10": {
+        "12:10": {
           "id:3": 61,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 66
         },
-        "12:10": {
+        "13:10": {
           "id:3": 63,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -18,
           "y:3": 66
         },
-        "13:10": {
+        "14:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": 30
         },
-        "14:10": {
+        "15:10": {
           "id:3": 77,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -24
         },
-        "15:10": {
+        "16:10": {
           "id:3": 85,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": 150
         },
-        "16:10": {
+        "17:10": {
           "id:3": 97,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 120
         },
-        "17:10": {
+        "18:10": {
           "id:3": 98,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 120
         },
-        "18:10": {
+        "19:10": {
           "id:3": 99,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": 150
         },
-        "19:10": {
+        "20:10": {
           "id:3": 106,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
-          "y:3": 66
+          "y:3": 84
         },
-        "20:10": {
+        "21:10": {
           "id:3": 112,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 150
         },
-        "21:10": {
+        "22:10": {
           "id:3": 155,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 102
         },
-        "22:10": {
+        "23:10": {
           "id:3": 157,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -11305,10 +13492,10 @@
         },
         "22:10": {
           "id:3": 69,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 54
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 162,
+          "y:3": 48
         },
         "23:10": {
           "id:3": 70,
@@ -11426,14 +13613,14 @@
           "id:3": 87,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
+          "x:3": 108,
           "y:3": 192
         },
         "40:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
+          "x:3": 228,
           "y:3": 192
         },
         "41:10": {
@@ -11524,7 +13711,7 @@
           "id:3": 102,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
+          "x:3": 126,
           "y:3": 90
         },
         "54:10": {
@@ -11609,7 +13796,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 36
+          "y:3": 54
         },
         "1:10": {
           "id:3": 94,
@@ -11622,288 +13809,288 @@
           "id:3": 95,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": 102
+          "x:3": 30,
+          "y:3": 120
         },
         "3:10": {
           "id:3": 103,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 36
+          "x:3": 168,
+          "y:3": 78
         },
         "4:10": {
           "id:3": 113,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -30,
-          "y:3": -132
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -72
         },
         "5:10": {
           "id:3": 114,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -24,
-          "y:3": -180
+          "x:3": -30,
+          "y:3": -174
         },
         "6:10": {
           "id:3": 115,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -48
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 36,
+          "y:3": -90
         },
         "7:10": {
           "id:3": 116,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
-          "y:3": -90
+          "y:3": -132
         },
         "8:10": {
           "id:3": 117,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -126
+          "x:3": 42,
+          "y:3": -168
         },
         "9:10": {
           "id:3": 118,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -90
+          "x:3": 42,
+          "y:3": -132
         },
         "10:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -162
+          "x:3": 42,
+          "y:3": -204
         },
         "11:10": {
           "id:3": 120,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
-          "y:3": -126
+          "x:3": 420,
+          "y:3": -168
         },
         "12:10": {
           "id:3": 121,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -162
+          "x:3": 126,
+          "y:3": -204
         },
         "13:10": {
           "id:3": 122,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 174,
-          "y:3": -138
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 126,
+          "y:3": -168
         },
         "14:10": {
           "id:3": 123,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
           "x:3": 204,
-          "y:3": -132
+          "y:3": -180
         },
         "15:10": {
           "id:3": 124,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
-          "y:3": -126
+          "x:3": 378,
+          "y:3": -168
         },
         "16:10": {
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": -168
+          "x:3": 258,
+          "y:3": -210
         },
         "17:10": {
           "id:3": 126,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -30,
-          "y:3": 48
+          "y:3": 66
         },
         "18:10": {
           "id:3": 127,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 102
+          "y:3": 120
         },
         "19:10": {
           "id:3": 128,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -60
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 120,
+          "y:3": -90
         },
         "20:10": {
           "id:3": 129,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 102,
-          "y:3": 96
+          "x:3": 72,
+          "y:3": 114
         },
         "21:10": {
           "id:3": 130,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 102,
-          "y:3": 48
+          "x:3": 120,
+          "y:3": 114
         },
         "22:10": {
           "id:3": 131,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": 0
+          "x:3": 216,
+          "y:3": 120
         },
         "23:10": {
           "id:3": 132,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 180,
-          "y:3": -6
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 60
         },
         "24:10": {
           "id:3": 133,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
+          "x:3": 216,
           "y:3": 0
         },
         "25:10": {
           "id:3": 134,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 234,
-          "y:3": -126
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 318,
+          "y:3": -174
         },
         "26:10": {
           "id:3": 135,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 234,
-          "y:3": 0
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 264,
+          "y:3": -6
         },
         "27:10": {
           "id:3": 136,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
-          "y:3": -30
+          "x:3": 324,
+          "y:3": -24
         },
         "28:10": {
           "id:3": 137,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 276,
-          "y:3": -6
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 324,
+          "y:3": 24
         },
         "29:10": {
           "id:3": 138,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
-          "y:3": -60
+          "x:3": 216,
+          "y:3": -84
         },
         "30:10": {
           "id:3": 139,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
-          "y:3": -60
+          "x:3": 324,
+          "y:3": -84
         },
         "31:10": {
           "id:3": 140,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 342,
-          "y:3": -60
+          "x:3": 378,
+          "y:3": 0
         },
         "32:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 384,
-          "y:3": 0
+          "x:3": 324,
+          "y:3": 72
         },
         "33:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 354,
-          "y:3": 0
+          "x:3": 324,
+          "y:3": 120
         },
         "34:10": {
           "id:3": 143,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": 54
+          "x:3": 30,
+          "y:3": 72
         },
         "35:10": {
           "id:3": 144,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 54,
-          "y:3": 48
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": 120
         },
         "36:10": {
           "id:3": 145,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 120,
-          "y:3": 60
+          "x:3": 72,
+          "y:3": 30
         },
         "37:10": {
           "id:3": 146,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -90
+          "x:3": 126,
+          "y:3": -132
         },
         "38:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -168
+          "x:3": 174,
+          "y:3": -210
         },
         "39:10": {
           "id:3": 148,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -126
+          "x:3": -72,
+          "y:3": -168
         },
         "40:10": {
           "id:3": 149,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -162
+          "x:3": -72,
+          "y:3": -204
         },
         "41:10": {
           "id:3": 150,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -90
+          "x:3": -72,
+          "y:3": -132
         },
         "42:10": {
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
-          "y:3": -48
+          "y:3": -72
         },
         "43:10": {
           "id:3": 152,
@@ -11916,7 +14103,7 @@
           "id:3": 153,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 126,
           "y:3": 0
         },
         "45:10": {
@@ -11924,14 +14111,28 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 66
+          "y:3": 84
         },
         "46:10": {
           "id:3": 156,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
-          "y:3": -174
+          "x:3": 216,
+          "y:3": -216
+        },
+        "47:10": {
+          "id:3": 159,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -102
+        },
+        "48:10": {
+          "id:3": 160,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -42
         }
       }
     },
@@ -12142,6 +14343,13 @@
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 0
+        },
+        "7:10": {
+          "id:3": 115,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 6,
+          "y:3": 84
         }
       }
     },
@@ -12166,17 +14374,234 @@
       "quests:9": {
         "0:10": {
           "id:3": 5,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": 6
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 78,
+          "y:3": 0
         },
         "1:10": {
           "id:3": 31,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 300,
+          "y:3": 0
+        },
+        "2:10": {
+          "id:3": 161,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": 6
+        },
+        "3:10": {
+          "id:3": 162,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 90
+        },
+        "4:10": {
+          "id:3": 163,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": 102
+        },
+        "5:10": {
+          "id:3": 164,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -36
+        },
+        "6:10": {
+          "id:3": 165,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 90
+        },
+        "7:10": {
+          "id:3": 166,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 180,
+          "y:3": -24
+        },
+        "8:10": {
+          "id:3": 167,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -24
+        },
+        "9:10": {
+          "id:3": 168,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -54
+        },
+        "10:10": {
+          "id:3": 169,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 114,
+          "y:3": -90
+        },
+        "11:10": {
+          "id:3": 170,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -90
+        },
+        "12:10": {
+          "id:3": 171,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -54
+        },
+        "13:10": {
+          "id:3": 172,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 114
+        },
+        "14:10": {
+          "id:3": 173,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -78
+        },
+        "15:10": {
+          "id:3": 174,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -102
+        },
+        "16:10": {
+          "id:3": 175,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -78
+        },
+        "17:10": {
+          "id:3": 176,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 36
+        },
+        "18:10": {
+          "id:3": 177,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 66
+        },
+        "19:10": {
+          "id:3": 178,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -36
+        },
+        "20:10": {
+          "id:3": 179,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 114,
+          "y:3": 102
+        },
+        "21:10": {
+          "id:3": 180,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 66
+        },
+        "22:10": {
+          "id:3": 181,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 180,
+          "y:3": 36
+        },
+        "23:10": {
+          "id:3": 182,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 6
+        },
+        "24:10": {
+          "id:3": 183,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
+          "y:3": 48
+        },
+        "25:10": {
+          "id:3": 184,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 306,
+          "y:3": 66
+        },
+        "26:10": {
+          "id:3": 185,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 366,
           "y:3": 6
+        },
+        "27:10": {
+          "id:3": 186,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 246,
+          "y:3": 6
+        },
+        "28:10": {
+          "id:3": 187,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 264,
+          "y:3": 48
+        },
+        "29:10": {
+          "id:3": 188,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 258,
+          "y:3": -30
+        },
+        "30:10": {
+          "id:3": 189,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 324,
+          "y:3": -54
+        },
+        "31:10": {
+          "id:3": 190,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 354,
+          "y:3": -30
+        },
+        "32:10": {
+          "id:3": 191,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 288,
+          "y:3": -54
         }
       }
     }
