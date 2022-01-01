@@ -10,3 +10,7 @@ MaterialBuilder(32000, "fluix")
     .flags(["generate_plate", "disable_decomposition", "no_smelting", "crystallizable"])
     .components([<material:certus_quartz> * 1, <material:nether_quartz> * 1, <material:redstone> * 1])
     .build();
+
+<material:certus_quartz>.addFlags("generate_rod");
+<material:nether_quartz>.addFlags("generate_rod");
+<material:iron>.addFlags("generate_dense");
