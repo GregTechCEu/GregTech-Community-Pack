@@ -7504,7 +7504,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n\n§5Writer:§r §oCome back at to when you are stronger, young Padawan.§r",
+          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n§cNote:§r Unlike in GTCE, the §bMV§r Macerator in GTCEu does §cnot§r have a second slot!\n\n\n§5Writer:§r §oCome back at to when you are stronger, young Padawan.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10476,7 +10476,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§9§aTransformers§r allow you to step up and down Voltage tiers safely. Transformers change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.\n\nApart from running machines on different voltage tiers, Transformers are useful for transporting power across longer distances. Cable loss has less of an effect at higher voltages.\n\nTransformers have 5 low voltage sides, and 1 high voltage side.\n\nThis quest calls for two different types of Transformers; get §eeither§o§r to complete the quest. The §9normal§r Transformer can only do 1A \u003c-\u003e 4A conversion, but §9Adjustable§r Transformers can be changed between 1A \u003c-\u003e 4A, 2A \u003c-\u003e 8A, 4A \u003c-\u003e 16A, and 16A \u003c-\u003e 64A conversions. \n\nUse a §aSoft Hammer§r to change between transform up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.",
+          "desc:8": "§9§aTransformers§r allow you to step up and down Voltage tiers safely. Transformers change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.\n\nApart from running machines on different voltage tiers, Transformers are useful for transporting power across longer distances. Cable loss has less of an effect at higher voltages.\n\nTransformers have 5 low voltage sides, and 1 high voltage side.\n\nThis quest calls for two different types of Transformers; get §eeither§o§r to complete the quest. The §9normal§r Transformer can only do 1A \u003c-\u003e 4A conversion, but §9Adjustable§r Transformers can be changed between 1A \u003c-\u003e 4A, 2A \u003c-\u003e 8A, 4A \u003c-\u003e 16A, and 16A \u003c-\u003e 64A conversions. \n\nUse a §aSoft Hammer§r to change between transform up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.\n\nHigher tier Transformers require §9Coils§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12808,11 +12808,37 @@
         }
       },
       "questID:3": 193,
-      "rewards:9": {},
-      "tasks:9": {
+      "rewards:9": {
         "0:10": {
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 625,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 988,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -12982,7 +13008,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §9Distilleries§r, you had to pick only one product to output. DTs output all of it at once!\n\nNote the special placement rules: Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.",
+          "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §9Distilleries§r, you had to pick only one product to output. DTs output all of it at once!\n\nNote the special placement rules: Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.\n\nThe DT can form at any height from §c§c3§r to §c13§r blocks, allowing 2 to 12 Fluid Outputs. However, if the DT does not have enough Outputs for a given recipe, the excess fluids will be §cvoided§r from the highest first. Each DT recipe always has the same Fluids coming from the same Outputs.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13656,7 +13682,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Blaze Powder can only be obtained with an HV or better chemical reactor.",
+          "desc:8": "If you\u0027ve killed a Blaze before, you may have noticed it dropped §eSulfur Dust§r instead of a §cBlaze Rod§r. In order to get §6Blaze Powder§r, you must instead combine §7Carbon Dust§r and §eSulfur Dust§r in an §6HV §9Chemical Reactor§\u003d.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13707,7 +13733,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §9Implosion Compressor§r turns the Dust form of Gems into their Gem form. §cTNT§r or §cDynamite§r can be used. It is required to get §9Ender Pearls§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13759,7 +13785,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Ender Pearls can only be obtained with an Implosion Compressor.",
+          "desc:8": "If you\u0027ve killed an Enderman before, you may have noticed it dropped §bEnderpearl Dust§r instead of an Ender Pearl. In order to get §9Ender Pearls§r, you must make them from Enderpearl Dust in the §cImplosion Compressor§r.\n\nCollect 16 Enderpearl Dust and implode them into 12 Ender Pearls.\n§9Pro tip 1§r: Trapping Endermen in Boats makes them much easier to kill!\n§9Pro tip 2§r: Use a §9Butchery Knife§r to kill Endermen for the Looting 3 bonus.\n§9Pro tip 3§r: If you can\u0027t find enough Endermen, or if you\u0027re playing on Peaceful, you can make Enderpearl Dust in an §6HV§r §9Mixer§r with §2Beryllium§r, §bPotassium§r (from Rock Salt or other sources), and §bNitrogen§r.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13782,7 +13808,31 @@
         }
       },
       "questID:3": 211,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:enchanted_book",
+              "tag:10": {
+                "StoredEnchantments:9": {
+                  "0:10": {
+                    "id:2": 16,
+                    "lvl:2": 5
+                  }
+                },
+                "display:10": {
+                  "Name:8": ":)"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13793,7 +13843,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:ender_pearl"
@@ -13810,7 +13860,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§cTNT§r (Trinitrotoluene) can\u0027t be prepared with the usual Gunpowder and Sand anymore. Instead, make §aGelled Toluene§r and react it with Sulfuric Acid to make TNT.\n\nTNT is used in the §9Implosion Compressor§r to make Gems. It also blows stuff up.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15710,7 +15760,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 54
+          "y:3": 24
         },
         "1:10": {
           "id:3": 94,
@@ -15737,8 +15787,8 @@
           "id:3": 113,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": -72
+          "x:3": 42,
+          "y:3": 0
         },
         "5:10": {
           "id:3": 114,
@@ -16011,7 +16061,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -78,
-          "y:3": -6
+          "y:3": -36
         },
         "44:10": {
           "id:3": 153,
@@ -16035,18 +16085,25 @@
           "y:3": -216
         },
         "47:10": {
+          "id:3": 157,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 54
+        },
+        "48:10": {
           "id:3": 159,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -102
         },
-        "48:10": {
+        "49:10": {
           "id:3": 160,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": -42
+          "y:3": -72
         }
       }
     },
