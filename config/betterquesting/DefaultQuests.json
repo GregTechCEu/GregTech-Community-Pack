@@ -12849,7 +12849,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oVacuums actually make things hotter...§r\n\nThe §3Vacuum Freezer§r is a multiblock used to cool down §9Hot Ingots§r. All ingots made in the ebf with a temperature above §d1750K§r will need it.\n\nMost of the time, your §bElectric Blast Furnace§r will be the bottleneck, so you don\u0027t need to worry about overclocking your freezer.\n\nSince §9Hot Ingots§r hurt you when held, item routing will be very useful. A popular trick is to use an §9Ore Dictionary Filter§r on an §3Input Bus§r, set to §dingotHot*§r whitelist, and an AE §9Storage Bus§r on top of that. Any hot ingots entering your ME system will automatically be moved into the freezer.",
+          "desc:8": "§oVacuums actually make things hotter...§r\n\nThe §3Vacuum Freezer§r is a multiblock used to cool down §9Hot Ingots§r. All ingots made in the EBF with a temperature above §d1750K§r will need it.\n\nMost of the time, your §bElectric Blast Furnace§r will be the bottleneck, so you don\u0027t need to worry about overclocking your freezer.\n\nSince §9Hot Ingots§r hurt you when held, item routing will be very useful. A popular trick is to use an §9Ore Dictionary Filter§r on an §3Input Bus§r, set to §dingotHot*§r whitelist, and an AE §9Storage Bus§r on top of that. Any hot ingots entering your ME system will automatically be moved into the freezer.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13003,7 +13003,8 @@
     },
     "197:10": {
       "preRequisites:11": [
-        145
+        145,
+        142
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13161,7 +13162,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The first IV circuit.\n\nThis will be used in the EV tier.",
+          "desc:8": "The first §1IV§r circuit. Congratulations on making it this far!\n\nThis will be used in the §5EV§r tier.\n\n§bLore:§r The texture for the Mainframes is taken from an image of an IBM zEnterprise mainframe. https://www.datacenterknowledge.com/archives/2010/07/22/roundup-ibms-new-zenterprise-mainframe",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13595,7 +13596,8 @@
     "208:10": {
       "preRequisites:11": [
         195,
-        205
+        205,
+        194
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13716,7 +13718,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:blaze_powder"
@@ -13932,7 +13934,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §6Ender Dragon§r to return to the Overworld safely. Prepare yourself with a bow, a few arrows, and some beds. Or use MC-123081 to skip the fight... we won\u0027t judge in this tech-focused pack!\n\n§6The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are worth two Overworld ores.\n\nThis quest\u0027s reward will print the §alocation of the nearest Stronghold§r in chat. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13955,7 +13957,18 @@
         }
       },
       "questID:3": 213,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "asScript:1": 1,
+          "command:8": "#Script Comment\nlocate Stronghold",
+          "description:8": "Locate nearest Stronghold",
+          "hideBlockIcon:1": 1,
+          "index:3": 0,
+          "rewardID:8": "bq_standard:command",
+          "title:8": "bq_standard.reward.command",
+          "viaPlayer:1": 1
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13966,29 +13979,13 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:ender_eye"
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "biome:8": "",
-          "dimension:3": 1,
-          "hideInfo:1": 0,
-          "index:3": 1,
-          "invert:1": 0,
-          "name:8": "The End",
-          "posX:3": 0,
-          "posY:3": 0,
-          "posZ:3": 0,
-          "range:3": -1,
-          "structure:8": "",
-          "taskID:8": "bq_standard:location",
-          "taxiCabDist:1": 0,
-          "visible:1": 0
         }
       }
     },
@@ -14368,7 +14365,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Platinum and Palladium can be obtained from the end, but you will need to process Platinum Group Sludge for Osmium, Iridium, Rhodium, and Ruthenium.",
+          "desc:8": "The §eplatinum group metals§r are six rare metals with useful catalytic properties. They are §3Ruthenium§r, §dRhodium§r, §7Palladium§r, §9Osmium§r, §bIridium§r, and §ePlatinum§r.\n\nIf you\u0027ve been around, you may have heard of the infamous §bGregTech: New Horizons §eplatinum group processing chain§r, or §eplatline§r. GTCEu has its own platline, but fret not - it is far from as complex!\n\nTo begin, treat various PGM-bearing Purified Crushed Ores with §eNitric Acid§r to produce §8Platinum Group Sludge§r. Then, electrolyze it with §6Aqua Regia§r to produce the various PGM salts. Finally, process those salts into the elemental metals.\n\n§ePlatinum§r and §7Palladium§r can also be obtained from The End or through normal Ore Processing.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14379,7 +14376,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Platinum Processing",
+          "name:8": "Platinum Group Processing",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -14391,7 +14388,50 @@
         }
       },
       "questID:3": 221,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 20,
+              "Damage:2": 265,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "1:10": {
+              "Count:3": 20,
+              "Damage:2": 327,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "2:10": {
+              "Count:3": 20,
+              "Damage:2": 348,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "3:10": {
+              "Count:3": 20,
+              "Damage:2": 347,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "4:10": {
+              "Count:3": 20,
+              "Damage:2": 380,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "5:10": {
+              "Count:3": 10,
+              "Damage:2": 273,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -14507,7 +14547,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Time to throw away your §4Primitive Water Pumps§r. Place this on the side of a machine to give it §616 buckets§o§r§r of Water every second!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14553,7 +14593,8 @@
     },
     "224:10": {
       "preRequisites:11": [
-        201
+        201,
+        211
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14660,7 +14701,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "PLACEHOLDER Quest",
+          "desc:8": "The Cleanroom is not implemented into GTCEu yet",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16130,43 +16171,43 @@
           "id:3": 136,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": -144
+          "x:3": -138,
+          "y:3": -138
         },
         "1:10": {
           "id:3": 137,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -96
+          "x:3": -84,
+          "y:3": -90
         },
         "2:10": {
           "id:3": 139,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -144
+          "x:3": -84,
+          "y:3": -138
         },
         "3:10": {
           "id:3": 140,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": -144
+          "x:3": -42,
+          "y:3": -138
         },
         "4:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": -96
+          "x:3": -42,
+          "y:3": -90
         },
         "5:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": -96
+          "x:3": 0,
+          "y:3": -90
         },
         "6:10": {
           "id:3": 145,
@@ -16179,92 +16220,92 @@
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -114,
-          "y:3": 6
+          "x:3": -90,
+          "y:3": -54
         },
         "8:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 60
+          "x:3": -120,
+          "y:3": -18
         },
         "9:10": {
           "id:3": 194,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 150,
-          "y:3": -102
+          "x:3": 48,
+          "y:3": -96
         },
         "10:10": {
           "id:3": 195,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -42
+          "x:3": 114,
+          "y:3": -90
         },
         "11:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -6,
-          "y:3": -36
+          "x:3": 18,
+          "y:3": -12
         },
         "12:10": {
           "id:3": 197,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -114,
+          "x:3": -6,
           "y:3": -54
         },
         "13:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
-          "y:3": -78
+          "x:3": 114,
+          "y:3": -138
         },
         "14:10": {
           "id:3": 199,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -144
+          "x:3": 0,
+          "y:3": -138
         },
         "15:10": {
           "id:3": 200,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 192,
-          "y:3": -150
+          "x:3": 48,
+          "y:3": -144
         },
         "16:10": {
           "id:3": 201,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
+          "x:3": -42,
           "y:3": 60
         },
         "17:10": {
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
+          "x:3": -84,
           "y:3": 102
         },
         "18:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
-          "y:3": -6
+          "x:3": 156,
+          "y:3": -138
         },
         "19:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -150,
-          "y:3": 102
+          "x:3": -84,
+          "y:3": 60
         },
         "20:10": {
           "id:3": 205,
@@ -16291,7 +16332,7 @@
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 42,
+          "x:3": 102,
           "y:3": -54
         },
         "24:10": {
@@ -16305,22 +16346,22 @@
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
+          "x:3": 6,
           "y:3": 144
         },
         "26:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
+          "x:3": 6,
           "y:3": 102
         },
         "27:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": 102
+          "x:3": -42,
+          "y:3": 144
         },
         "28:10": {
           "id:3": 213,
@@ -16333,21 +16374,21 @@
           "id:3": 214,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
-          "y:3": -42
+          "x:3": 156,
+          "y:3": -90
         },
         "30:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
-          "y:3": -6
+          "x:3": 192,
+          "y:3": -138
         },
         "31:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
+          "x:3": -42,
           "y:3": 102
         },
         "32:10": {
@@ -16380,45 +16421,45 @@
         },
         "36:10": {
           "id:3": 221,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": 144
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 96,
+          "y:3": 138
         },
         "37:10": {
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": 60
+          "x:3": -120,
+          "y:3": 12
         },
         "38:10": {
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -150,
-          "y:3": 42
+          "x:3": 6,
+          "y:3": 30
         },
         "39:10": {
           "id:3": 224,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -150,
-          "y:3": 72
+          "x:3": 6,
+          "y:3": 60
         },
         "40:10": {
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 60
+          "x:3": -120,
+          "y:3": 42
         },
         "41:10": {
           "id:3": 226,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -48,
-          "y:3": -102
+          "y:3": -54
         }
       }
     },
