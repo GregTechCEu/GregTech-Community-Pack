@@ -13127,7 +13127,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The next Circuit Assembler, used for making the fourth tier of Circuits.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13514,7 +13514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§aPolytetrafluoroethylene (PTFE)§r is what you may know as Teflon. Strong bonds between Fluorine and Carbon atoms make it very non-reactive, and thus it is used in non-stick coating, lubricants, and in certain medical uses.\n\nSimilarly to PVC, PTFE can be used to increase the yield of Plastic Circuit Boards and other crafts. It is also used to make §dPackage Holders§r. Most presently though, it is used to make the walls of §aLarge Chemical Reactors§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13565,7 +13565,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §9§aLarge Chemical Reactor (LCR)§r is a multiblock Chemical Reactor with five Fluid and three Item inputs, compared to three Fluids and two Items in a normal Chemical Reactor. \n\nThe LCR can perform some exclusive reactions which allow you to combine multiple normal Chemical Reactor steps into a single step, such as the production of §6Epichlorohydrin§r. It is also required to make some complex fluids, such as §6High-Octane Gasoline§r. Any other recipe which could be done in a normal Chemical Reactor can also be done in an LCR.\n\nAll overclocks in the LCR are §a100% efficient§r; each overclock will quadruple will quadruple both the §9energy usage§r and §5processing speed§r, instead of quadrupling the energy usage and doubling the processing speed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13637,7 +13637,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§dTitanium§r has the highest corrosion resistance and strength-to-density ratio of any metallic element. Like §8§7Stainless Steel§r, §bAluminium§r, and §8Steel§r for their respective tiers, Titanium is the main material for §5EV§r machines.\n\nTitanium requires a slightly more involved process than the previous materials to process. First you need §cRutile§r, obtained from its own ore or from §7Ilmenite§r and §6Bauxite§r. Rutile must then be reduced to §5Titanium Tetrachloride§r in an §6HV§r §aChemical Reactor§r, and then reduced again in the EBF with §dMagnesium§r to finally arrive at the §dTitanium§r metal.\n\nThe §7Carbon§r, §3Chlorine§r, §bOxygen§r, and §dMagnesium§r used in the process can be recovered from the byproduct §1Carbon Monoxide§r and §5Magnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile!\n\n§5Titanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §5TiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14825,7 +14825,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Electric Blast Furnace§r, §3Pyrolyse Oven, §b§aMulti Smelter§r, and §3Cracking Unit§r all require heating Coils. But what are the advantages of using higher tier coils?\n\nThe latter three are quite straightforward. Higher tier coils reduce the §eprocessing time§r of the Pyrolyse Oven, reduce the §9energy usage§r of the Cracking Unit, and increase the §anumber of parallel smelts§r and reduce the §9energy usage§r of the Multi Smelter.\n\nFor the EBF, things get slightly more complicated. The EBF smelts items at a certain §dtemperature§r. This is mainly determined by the tier of heating coil used - §6§r§6Cupronickel§r is §d1800K§r, §bKanthal§r is §e§d2700K§r, etc. Additionally, starting from §6HV§r, each tier of energy adds §d100K§r to the temperature.\n\nEach EBF recipe has a certain base temperature, for example, §bAluminium§r is smelted at §d1700K§r. If the EBF temperature is not high enough, the recipe can\u0027t be done. If the EBF temperature is high enough, 2 different bonuses are applied:\n- For every §d900K§r above the recipe temperature, the amount of energy required is multiplied by §a0.95x§r, which stacks.\n- For every §d1800K§r above the recipe temperature, one additional overclock will be §a100% efficient§r; in other words, it will only §9double§r the energy consumption per tick instead of §9quadruple§r. ",
+          "desc:8": "The §3Electric Blast Furnace§r, §3Pyrolyse Oven, §b§aMulti Smelter§r, and §3Cracking Unit§r all require heating Coils. But what are the advantages of using higher tier coils?\n\nThe latter three are quite straightforward. Higher tier coils reduce the §eprocessing time§r of the Pyrolyse Oven, reduce the §9energy usage§r of the Cracking Unit, and increase the §anumber of parallel smelts§r and reduce the §9energy usage§r of the Multi Smelter.\n\nFor the EBF, things get slightly more complicated. The EBF smelts items at a certain §dtemperature§r. This is mainly determined by the tier of heating coil used - §6§r§6Cupronickel§r is §d1800K§r, §bKanthal§r is §e§d2700K§r, etc. Additionally, starting from §6HV§r, each tier of energy adds §d100K§r to the temperature.\n\nEach EBF recipe has a certain base temperature, for example, §bAluminium§r is smelted at §d1700K§r. If the EBF temperature is not high enough, the recipe can\u0027t be done. If the EBF temperature is high enough, 2 different bonuses are applied:\n- For every §d900K§r above the recipe temperature, the amount of energy required is multiplied by §a0.95x§r, which stacks.\n- For every §d1800K§r above the recipe temperature, one additional overclock will be §a100% efficient§r; in other words, it will quadruple both the §9energy usage§r and §5processing speed§r, instead of quadrupling the energy usage and doubling the processing speed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
