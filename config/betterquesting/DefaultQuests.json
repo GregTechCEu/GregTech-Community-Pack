@@ -7230,7 +7230,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 102,
@@ -7288,7 +7288,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 103,
@@ -10495,7 +10495,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "OR",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 157,
@@ -10561,7 +10561,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 158,
@@ -10612,7 +10612,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 159,
@@ -10683,7 +10683,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 160,
@@ -10734,7 +10734,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 161,
@@ -10797,7 +10797,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 162,
@@ -10866,7 +10866,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 163,
@@ -10935,7 +10935,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 164,
@@ -10998,7 +10998,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 165,
@@ -11067,7 +11067,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 166,
@@ -11136,7 +11136,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 167,
@@ -11187,7 +11187,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 168,
@@ -11256,7 +11256,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 169,
@@ -11325,7 +11325,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 170,
@@ -11394,7 +11394,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 171,
@@ -11463,7 +11463,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 172,
@@ -11532,7 +11532,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 173,
@@ -11601,7 +11601,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 174,
@@ -11670,7 +11670,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 175,
@@ -11739,7 +11739,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 176,
@@ -11802,7 +11802,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 177,
@@ -11865,7 +11865,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 178,
@@ -11934,7 +11934,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 179,
@@ -12003,7 +12003,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 180,
@@ -12054,7 +12054,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 181,
@@ -12111,7 +12111,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 182,
@@ -12174,7 +12174,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 183,
@@ -12243,7 +12243,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 184,
@@ -12306,7 +12306,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 185,
@@ -12375,7 +12375,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 186,
@@ -12432,7 +12432,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 187,
@@ -12495,7 +12495,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 188,
@@ -12558,7 +12558,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 189,
@@ -12627,7 +12627,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 190,
@@ -12690,7 +12690,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 191,
