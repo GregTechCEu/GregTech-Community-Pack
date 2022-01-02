@@ -13032,7 +13032,20 @@
         }
       },
       "questID:3": 197,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 143,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13229,7 +13242,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §6HV§r §aAssembling Machine§r is the next step in progression, but it also unlocks a handful of useful utilities.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14855,6 +14868,165 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "229:10": {
+      "preRequisites:11": [
+        205
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "nitrobenzene"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Benzene Nitro",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 229,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "nitrobenzene"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "230:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 472,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "HV Mixer",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 230,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 472,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "231:10": {
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "nitro_fuel"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Cetane-Boosted Diesel",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 231,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "nitro_fuel"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -16299,305 +16471,298 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 136,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -138,
-          "y:3": -138
-        },
-        "1:10": {
-          "id:3": 137,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -90
-        },
-        "2:10": {
-          "id:3": 139,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -138
-        },
-        "3:10": {
-          "id:3": 140,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": -138
-        },
-        "4:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -42,
+          "x:3": -84,
           "y:3": -90
         },
-        "5:10": {
+        "1:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
+          "x:3": -42,
           "y:3": -90
         },
-        "6:10": {
+        "2:10": {
           "id:3": 145,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -54,
           "y:3": 0
         },
-        "7:10": {
+        "3:10": {
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -90,
-          "y:3": -54
+          "x:3": -126,
+          "y:3": -30
         },
-        "8:10": {
+        "4:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
-          "y:3": -18
+          "y:3": 6
         },
-        "9:10": {
+        "5:10": {
           "id:3": 194,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 48,
           "y:3": -96
         },
-        "10:10": {
+        "6:10": {
           "id:3": 195,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": -90
         },
-        "11:10": {
+        "7:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": -12
+          "x:3": -120,
+          "y:3": 78
         },
-        "12:10": {
+        "8:10": {
           "id:3": 197,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -6,
+          "x:3": -48,
           "y:3": -54
         },
-        "13:10": {
+        "9:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": -138
         },
-        "14:10": {
+        "10:10": {
           "id:3": 199,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
+          "x:3": -42,
           "y:3": -138
         },
-        "15:10": {
+        "11:10": {
           "id:3": 200,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 48,
           "y:3": -144
         },
-        "16:10": {
+        "12:10": {
           "id:3": 201,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": 60
         },
-        "17:10": {
+        "13:10": {
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
+          "x:3": -48,
           "y:3": 102
         },
-        "18:10": {
+        "14:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -138
         },
-        "19:10": {
+        "15:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": 60
+          "x:3": -72,
+          "y:3": 102
         },
-        "20:10": {
+        "16:10": {
           "id:3": 205,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 12
         },
-        "21:10": {
+        "17:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 12
         },
-        "22:10": {
+        "18:10": {
           "id:3": 207,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 144,
           "y:3": 66
         },
-        "23:10": {
+        "19:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 102,
           "y:3": -60
         },
-        "24:10": {
+        "20:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 60
         },
-        "25:10": {
+        "21:10": {
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 144
         },
-        "26:10": {
+        "22:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 102
         },
-        "27:10": {
+        "23:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": 144
         },
-        "28:10": {
+        "24:10": {
           "id:3": 213,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 48,
           "y:3": 96
         },
-        "29:10": {
+        "25:10": {
           "id:3": 214,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -114
         },
-        "30:10": {
+        "26:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -138
         },
-        "31:10": {
+        "27:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -42,
+          "x:3": -24,
           "y:3": 102
         },
-        "32:10": {
+        "28:10": {
           "id:3": 217,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 12
         },
-        "33:10": {
+        "29:10": {
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 60
         },
-        "34:10": {
+        "30:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 102
         },
-        "35:10": {
+        "31:10": {
           "id:3": 220,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 144
         },
-        "36:10": {
+        "32:10": {
           "id:3": 221,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 96,
           "y:3": 138
         },
-        "37:10": {
+        "33:10": {
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
-          "y:3": 12
+          "y:3": 30
         },
-        "38:10": {
+        "34:10": {
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": 30
+          "x:3": -96,
+          "y:3": 102
         },
-        "39:10": {
+        "35:10": {
           "id:3": 224,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 60
         },
-        "40:10": {
+        "36:10": {
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
-          "y:3": 42
+          "y:3": 54
         },
-        "41:10": {
+        "37:10": {
           "id:3": 226,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -48,
-          "y:3": -54
+          "x:3": -126,
+          "y:3": -66
         },
-        "42:10": {
+        "38:10": {
           "id:3": 228,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -90
+        },
+        "39:10": {
+          "id:3": 229,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -24
+        },
+        "40:10": {
+          "id:3": 230,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -24
+        },
+        "41:10": {
+          "id:3": 231,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -54
         }
       }
     },
