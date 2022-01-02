@@ -7504,7 +7504,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n\n§5Writer:§r §oCome back at to when you are stronger, young Padawan.§r",
+          "desc:8": "§5Player:§r §oThat\u0027s it, I give up, you are going insane! We are in LV Age but you present me a HV machine!?§r\n\n§5Writer:§r §oHold on... There must have been a reason. Ah! Let me grab my script.§r\n\n\nYes! This is indeed not completable yet, which is also why this quest appears in the HV Chapter.\n\nRemember the thing about Macerator I told you that made you feel unxtremely sad and disappointed? Well... that disappointment is gonna keep going until then.\n\n§6The Macerator will unlock its second and third slot at HV§r. And this will be great for Ore Processing. In fact if you check the Ore Processing JEI page, you will see that one byproduct is absolutely locked by this, after the Thermal Centrifuge step.\n\n§cNote:§r Unlike in GTCE, the §bMV§r Macerator in GTCEu does §cnot§r have a second slot!\n\n\n§5Writer:§r §oCome back at to when you are stronger, young Padawan.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10476,7 +10476,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§9§aTransformers§r allow you to step up and down Voltage tiers safely. Transformers change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.\n\nApart from running machines on different voltage tiers, Transformers are useful for transporting power across longer distances. Cable loss has less of an effect at higher voltages.\n\nTransformers have 5 low voltage sides, and 1 high voltage side.\n\nThis quest calls for two different types of Transformers; get §eeither§o§r to complete the quest. The §9normal§r Transformer can only do 1A \u003c-\u003e 4A conversion, but §9Adjustable§r Transformers can be changed between 1A \u003c-\u003e 4A, 2A \u003c-\u003e 8A, 4A \u003c-\u003e 16A, and 16A \u003c-\u003e 64A conversions. \n\nUse a §aSoft Hammer§r to change between transform up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.",
+          "desc:8": "§9§aTransformers§r allow you to step up and down Voltage tiers safely. Transformers change the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.\n\nApart from running machines on different voltage tiers, Transformers are useful for transporting power across longer distances. Cable loss has less of an effect at higher voltages.\n\nTransformers have 5 low voltage sides, and 1 high voltage side.\n\nThis quest calls for two different types of Transformers; get §eeither§o§r to complete the quest. The §9normal§r Transformer can only do 1A \u003c-\u003e 4A conversion, but §9Adjustable§r Transformers can be changed between 1A \u003c-\u003e 4A, 2A \u003c-\u003e 8A, 4A \u003c-\u003e 16A, and 16A \u003c-\u003e 64A conversions. \n\nUse a §aSoft Hammer§r to change between transform up and down, and a §aScrewdriver§r on Adjustable Transformers to change the amperage.\n\nHigher tier Transformers require §9Coils§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12808,11 +12808,37 @@
         }
       },
       "questID:3": 193,
-      "rewards:9": {},
-      "tasks:9": {
+      "rewards:9": {
         "0:10": {
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 625,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 988,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -12823,7 +12849,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oVacuums actually make things hotter...§r\n\nThe §3Vacuum Freezer§r is a multiblock used to cool down §9Hot Ingots§r. All ingots made in the ebf with a temperature above §d1750K§r will need it.\n\nMost of the time, your §bElectric Blast Furnace§r will be the bottleneck, so you don\u0027t need to worry about overclocking your freezer.\n\nSince §9Hot Ingots§r hurt you when held, item routing will be very useful. A popular trick is to use an §9Ore Dictionary Filter§r on an §3Input Bus§r, set to §dingotHot*§r whitelist, and an AE §9Storage Bus§r on top of that. Any hot ingots entering your ME system will automatically be moved into the freezer.",
+          "desc:8": "§oVacuums actually make things hotter...§r\n\nThe §3Vacuum Freezer§r is a multiblock used to cool down §9Hot Ingots§r. All ingots made in the EBF with a temperature above §d1750K§r will need it.\n\nMost of the time, your §bElectric Blast Furnace§r will be the bottleneck, so you don\u0027t need to worry about overclocking your freezer.\n\nSince §9Hot Ingots§r hurt you when held, item routing will be very useful. A popular trick is to use an §9Ore Dictionary Filter§r on an §3Input Bus§r, set to §dingotHot*§r whitelist, and an AE §9Storage Bus§r on top of that. Any hot ingots entering your ME system will automatically be moved into the freezer.\n\nThe Vacuum Freezer is also used to freeze §bAir§r from the three dimensions into §3Liquid Air§r, which allows you to get different types of gases from it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12874,7 +12900,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIs it getting hot in here?§r\n\n§aKanthal Heating Coils§r are the next major step in progression. This allows you to smelt new materials in your §3Blast Furnace§r, and may make old ones faster (read the EBF tooltip!).\n\n§bLore:§r In GregTech 5, there were only three types of coils. This was the second tier, after Cupronickel.",
+          "desc:8": "§oIs it getting hot in here?§r\n\n§aKanthal Heating Coils§r are the next major step in progression. This increases the temperature of your §3Blast Furnace§r to §d2,700K§r, allowing you to process new materials. They may also §eaccelerate§r less hot recipes - check the next quest for details.\n\n§bLore:§r In GregTech 5, there were only three types of coils. This was the second tier, after Cupronickel.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12977,12 +13003,13 @@
     },
     "197:10": {
       "preRequisites:11": [
-        145
+        145,
+        142
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §9Distilleries§r, you had to pick only one product to output. DTs output all of it at once!\n\nNote the special placement rules: Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.",
+          "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §9Distilleries§r, you had to pick only one product to output. DTs output all of it at once!\n\nNote the special placement rules: Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.\n\nThe DT can form at any height from §c§c3§r to §c13§r blocks, allowing 2 to 12 Fluid Outputs. However, if the DT does not have enough Outputs for a given recipe, the excess fluids will be §cvoided§r from the highest first. Each DT recipe always has the same Fluids coming from the same Outputs.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13005,7 +13032,20 @@
         }
       },
       "questID:3": 197,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 143,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13033,7 +13073,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While you technically do not need these until EV tier, they yield more wafers when engraved!",
+          "desc:8": "§cDoping§r is the process of intentionally introducing §cimpurities§r into semiconductors to change their properties. §7Silicon§r can be doped with small amounts of §eGlowstone§r to make a better §eSilicon Boule§r.\n\nGlowstone-doped Silicon Boules yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.\n\n§cWarning:§r Like the non-doped Boule, this requires a huge amount of energy. 1 Glowstone-doped Boule takes §c10 minutes§r to process at 480 EU/t, totaling §c5,760,000 EU§r for a single boule!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13056,7 +13096,23 @@
         }
       },
       "questID:3": 198,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 737,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 1800000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13084,7 +13140,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The next Circuit Assembler, used for making the fourth tier of Circuits.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13135,7 +13191,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The first IV circuit.\n\nThis will be used in the EV tier.",
+          "desc:8": "The first §1IV§r circuit. Congratulations on making it this far!\n\nThis will be used in the §5EV§r tier.\n\n§bLore:§r The texture for the Mainframes is taken from an image of an IBM zEnterprise mainframe. https://www.datacenterknowledge.com/archives/2010/07/22/roundup-ibms-new-zenterprise-mainframe",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13186,7 +13242,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §6HV§r §aAssembling Machine§r is the next step in progression, but it also unlocks a handful of useful utilities.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13471,7 +13527,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§aPolytetrafluoroethylene (PTFE)§r is what you may know as Teflon. Strong bonds between Fluorine and Carbon atoms make it very non-reactive, and thus it is used in non-stick coating, lubricants, and in certain medical uses.\n\nSimilarly to PVC, PTFE can be used to increase the yield of Plastic Circuit Boards and other crafts. It is also used to make §dPackage Holders§r. Most presently though, it is used to make the walls of §aLarge Chemical Reactors§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13522,7 +13578,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §9§aLarge Chemical Reactor (LCR)§r is a multiblock Chemical Reactor with five Fluid and three Item inputs, compared to three Fluids and two Items in a normal Chemical Reactor. \n\nThe LCR can perform some exclusive reactions which allow you to combine multiple normal Chemical Reactor steps into a single step, such as the production of §6Epichlorohydrin§r. It is also required to make some complex fluids, such as §6High-Octane Gasoline§r. Any other recipe which could be done in a normal Chemical Reactor can also be done in an LCR.\n\nAll overclocks in the LCR are §a100% efficient§r; each overclock will quadruple will quadruple both the §9energy usage§r and §5processing speed§r, instead of quadrupling the energy usage and doubling the processing speed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13545,7 +13601,26 @@
         }
       },
       "questID:3": 207,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 81,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 32000,
+                  "FluidName:8": "sulfuric_acid"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13569,12 +13644,13 @@
     "208:10": {
       "preRequisites:11": [
         195,
-        205
+        205,
+        194
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§dTitanium§r has the highest corrosion resistance and strength-to-density ratio of any metallic element. Like §8§7Stainless Steel§r, §bAluminium§r, and §8Steel§r for their respective tiers, Titanium is the main material for §5EV§r machines.\n\nTitanium requires a slightly more involved process than the previous materials to process. First you need §cRutile§r, obtained from its own ore or from §7Ilmenite§r and §6Bauxite§r. Rutile must then be reduced to §5Titanium Tetrachloride§r in an §6HV§r §aChemical Reactor§r, and then reduced again in the EBF with §dMagnesium§r to finally arrive at the §dTitanium§r metal.\n\nThe §7Carbon§r, §3Chlorine§r, §bOxygen§r, and §dMagnesium§r used in the process can be recovered from the byproduct §1Carbon Monoxide§r and §5Magnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile!\n\n§5Titanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §5TiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13656,7 +13732,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Blaze Powder can only be obtained with an HV or better chemical reactor.",
+          "desc:8": "If you\u0027ve killed a Blaze before, you may have noticed it dropped §eSulfur Dust§r instead of a §cBlaze Rod§r. In order to get §6Blaze Powder§r, you must instead combine §7Carbon Dust§r and §eSulfur Dust§r in an §6HV §9Chemical Reactor§\u003d.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13690,7 +13766,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:blaze_powder"
@@ -13707,7 +13783,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §9Implosion Compressor§r turns the Dust form of Gems into their Gem form. §cTNT§r or §cDynamite§r can be used. It is required to get §3Ender Pearls§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13759,7 +13835,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Ender Pearls can only be obtained with an Implosion Compressor.",
+          "desc:8": "If you\u0027ve killed an Enderman before, you may have noticed it dropped §bEnderpearl Dust§r instead of an Ender Pearl. In order to get §3Ender Pearls§r, you must make them from Enderpearl Dust in the §cImplosion Compressor§r.\n\nCollect 16 Enderpearl Dust and implode them into 12 Ender Pearls.\n§9Pro tip 1§r: Trapping Endermen in Boats makes them much easier to kill!\n§9Pro tip 2§r: Use a §9Butchery Knife§r to kill Endermen for the Looting 3 bonus.\n§9Pro tip 3§r: If you can\u0027t find enough Endermen, or if you\u0027re playing on Peaceful, you can make Enderpearl Dust in an §6HV§r §9Mixer§r with §2Beryllium§r, §bPotassium§r (from Rock Salt or other sources), and §bNitrogen§r.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13782,7 +13858,31 @@
         }
       },
       "questID:3": 211,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:enchanted_book",
+              "tag:10": {
+                "StoredEnchantments:9": {
+                  "0:10": {
+                    "id:2": 16,
+                    "lvl:2": 5
+                  }
+                },
+                "display:10": {
+                  "Name:8": ":)"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13793,7 +13893,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:ender_pearl"
@@ -13810,7 +13910,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§cTNT§r (Trinitrotoluene) can\u0027t be prepared with the usual Gunpowder and Sand anymore. Instead, make §aGelled Toluene§r and react it with Sulfuric Acid to make TNT.\n\nTNT is used in the §9Implosion Compressor§r to make Gems. It also blows stuff up.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13882,7 +13982,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §6Ender Dragon§r to return to the Overworld safely. Prepare yourself with a bow, a few arrows, and some beds. Or use MC-123081 to skip the fight... we won\u0027t judge in this tech-focused pack!\n\n§6The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are worth two Overworld ores.\n\nThis quest\u0027s reward will print the §alocation of the nearest Stronghold§r in chat. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13905,7 +14005,18 @@
         }
       },
       "questID:3": 213,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "asScript:1": 1,
+          "command:8": "#Script Comment\nlocate Stronghold",
+          "description:8": "Locate nearest Stronghold",
+          "hideBlockIcon:1": 1,
+          "index:3": 0,
+          "rewardID:8": "bq_standard:command",
+          "title:8": "bq_standard.reward.command",
+          "viaPlayer:1": 1
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13916,29 +14027,13 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 16,
+              "Count:3": 12,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:ender_eye"
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "biome:8": "",
-          "dimension:3": 1,
-          "hideInfo:1": 0,
-          "index:3": 1,
-          "invert:1": 0,
-          "name:8": "The End",
-          "posX:3": 0,
-          "posY:3": 0,
-          "posZ:3": 0,
-          "range:3": -1,
-          "structure:8": "",
-          "taskID:8": "bq_standard:location",
-          "taxiCabDist:1": 0,
-          "visible:1": 0
         }
       }
     },
@@ -14318,7 +14413,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Platinum and Palladium can be obtained from the end, but you will need to process Platinum Group Sludge for Osmium, Iridium, Rhodium, and Ruthenium.",
+          "desc:8": "The §eplatinum group metals§r are six rare metals with useful catalytic properties. They are §3Ruthenium§r, §dRhodium§r, §7Palladium§r, §9Osmium§r, §bIridium§r, and §ePlatinum§r.\n\nIf you\u0027ve been around, you may have heard of the infamous §bGregTech: New Horizons §eplatinum group processing chain§r, or §eplatline§r. GTCEu has its own platline, but fret not - it is far from as complex!\n\nTo begin, treat various PGM-bearing Purified Crushed Ores with §eNitric Acid§r to produce §8Platinum Group Sludge§r. Then, electrolyze it with §6Aqua Regia§r to produce the various PGM salts. Finally, process those salts into the elemental metals.\n\n§ePlatinum§r and §7Palladium§r can also be obtained from The End or through normal Ore Processing.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14329,7 +14424,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Platinum Processing",
+          "name:8": "Platinum Group Processing",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -14341,7 +14436,50 @@
         }
       },
       "questID:3": 221,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 20,
+              "Damage:2": 265,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "1:10": {
+              "Count:3": 20,
+              "Damage:2": 327,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "2:10": {
+              "Count:3": 20,
+              "Damage:2": 348,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "3:10": {
+              "Count:3": 20,
+              "Damage:2": 347,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "4:10": {
+              "Count:3": 20,
+              "Damage:2": 380,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            },
+            "5:10": {
+              "Count:3": 10,
+              "Damage:2": 273,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed_purified"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -14457,7 +14595,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Time to throw away your §4Primitive Water Pumps§r. Place this on the side of a machine to give it §616 buckets§o§r§r of Water every second!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14503,12 +14641,13 @@
     },
     "224:10": {
       "preRequisites:11": [
-        201
+        201,
+        211
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§aEnder Fluid Link Covers§r are a way of transporting Fluids wirelessly. Each Cover sends their fluids through a frequency defined by an §68-digit hexadecimal number§r. That gives you §64.29 billion§r channels to work with! Ender Fluid Link Covers work as long as their chunk is loaded - regardless of distance or dimension.\n\nThey don\u0027t come cheap though, so consider setting up an Enderman farm in The End for your Enderpearl needs.\n\nSetting the mode to Import will §opull§r fluids from the world location it is attached to, while Export will §opush§r fluids to the world. You must turn the I/O to Enabled for it to start working. Each channel has a buffer of 64 buckets.\n\nThe \"Virtual Tank Viewer\" app in your §9Terminal§r allows you to see the contents of all Ender Fluid Link channels. Regardless, I recommend you set up a system to organise all those channels. I would also advise against using the default channel (FFFFFFFF) in all cases.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14610,7 +14749,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "PLACEHOLDER Quest",
+          "desc:8": "The Cleanroom is not implemented into GTCEu yet",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14638,6 +14777,254 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "227:10": {
+      "preRequisites:11": [
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aMulti Smelter§o§r might be the most powerful Furnace in modded Minecraft. At its lowest power, it smelts 32 items in just 12 seconds - equivalent to 26.7 Furnaces, or 3.3 Steam Ovens! Not to mention, it can be §coverclocked§r and higher tier coils increase the amount of items it can smelt in parallel!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1006,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ultimate Smelter",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 227,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1006,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "228:10": {
+      "preRequisites:11": [
+        195
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §3Electric Blast Furnace§r, §3Pyrolyse Oven, §b§aMulti Smelter§r, and §3Cracking Unit§r all require heating Coils. But what are the advantages of using higher tier coils?\n\nThe latter three are quite straightforward. Higher tier coils reduce the §eprocessing time§r of the Pyrolyse Oven, reduce the §9energy usage§r of the Cracking Unit, and increase the §anumber of parallel smelts§r and reduce the §9energy usage§r of the Multi Smelter.\n\nFor the EBF, things get slightly more complicated. The EBF smelts items at a certain §dtemperature§r. This is mainly determined by the tier of heating coil used - §6§r§6Cupronickel§r is §d1800K§r, §bKanthal§r is §e§d2700K§r, etc. Additionally, starting from §6HV§r, each tier of energy adds §d100K§r to the temperature.\n\nEach EBF recipe has a certain base temperature, for example, §bAluminium§r is smelted at §d1700K§r. If the EBF temperature is not high enough, the recipe can\u0027t be done. If the EBF temperature is high enough, 2 different bonuses are applied:\n- For every §d900K§r above the recipe temperature, the amount of energy required is multiplied by §a0.95x§r, which stacks.\n- For every §d1800K§r above the recipe temperature, one additional overclock will be §a100% efficient§r; in other words, it will quadruple both the §9energy usage§r and §5processing speed§r, instead of quadrupling the energy usage and doubling the processing speed.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": "",
+            "id:8": "gregtech:wire_coil"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Coils Behaviour",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 228,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "229:10": {
+      "preRequisites:11": [
+        205
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "nitrobenzene"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Benzene Nitro",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 229,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "nitrobenzene"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "230:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 472,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "HV Mixer",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 230,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 472,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "231:10": {
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "nitro_fuel"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Cetane-Boosted Diesel",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 231,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "nitro_fuel"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     }
@@ -15710,7 +16097,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 54
+          "y:3": 24
         },
         "1:10": {
           "id:3": 94,
@@ -15737,8 +16124,8 @@
           "id:3": 113,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": -72
+          "x:3": 42,
+          "y:3": 0
         },
         "5:10": {
           "id:3": 114,
@@ -16011,7 +16398,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -78,
-          "y:3": -6
+          "y:3": -36
         },
         "44:10": {
           "id:3": 153,
@@ -16035,18 +16422,32 @@
           "y:3": -216
         },
         "47:10": {
+          "id:3": 157,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 54
+        },
+        "48:10": {
           "id:3": 159,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -102
         },
-        "48:10": {
+        "49:10": {
           "id:3": 160,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": -42
+          "y:3": -72
+        },
+        "50:10": {
+          "id:3": 227,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 270,
+          "y:3": -48
         }
       }
     },
@@ -16070,298 +16471,298 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 136,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": -144
-        },
-        "1:10": {
-          "id:3": 137,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -96
-        },
-        "2:10": {
-          "id:3": 139,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": -144
-        },
-        "3:10": {
-          "id:3": 140,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": -144
-        },
-        "4:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": -96
+          "x:3": -84,
+          "y:3": -90
         },
-        "5:10": {
+        "1:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": -96
+          "x:3": -42,
+          "y:3": -90
         },
-        "6:10": {
+        "2:10": {
           "id:3": 145,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -54,
           "y:3": 0
         },
-        "7:10": {
+        "3:10": {
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -48,
-          "y:3": 90
+          "x:3": -126,
+          "y:3": -30
         },
-        "8:10": {
+        "4:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": 12
+          "x:3": -120,
+          "y:3": 6
         },
-        "9:10": {
+        "5:10": {
           "id:3": 194,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 150,
-          "y:3": -102
+          "x:3": 48,
+          "y:3": -96
         },
-        "10:10": {
+        "6:10": {
           "id:3": 195,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -42
+          "x:3": 114,
+          "y:3": -90
         },
-        "11:10": {
+        "7:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -6,
-          "y:3": -36
+          "x:3": -120,
+          "y:3": 78
         },
-        "12:10": {
+        "8:10": {
           "id:3": 197,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": -42
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -48,
+          "y:3": -54
         },
-        "13:10": {
+        "9:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": -42
+          "x:3": 114,
+          "y:3": -138
         },
-        "14:10": {
+        "10:10": {
           "id:3": 199,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": -96
+          "x:3": -42,
+          "y:3": -138
         },
-        "15:10": {
+        "11:10": {
           "id:3": 200,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 240,
-          "y:3": -102
+          "x:3": 48,
+          "y:3": -144
         },
-        "16:10": {
+        "12:10": {
           "id:3": 201,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": 12
+          "x:3": -42,
+          "y:3": 60
         },
-        "17:10": {
+        "13:10": {
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -132,
-          "y:3": 30
+          "x:3": -48,
+          "y:3": 102
         },
-        "18:10": {
+        "14:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": -42
+          "x:3": 156,
+          "y:3": -138
         },
-        "19:10": {
+        "15:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -132,
-          "y:3": -6
+          "x:3": -72,
+          "y:3": 102
         },
-        "20:10": {
+        "16:10": {
           "id:3": 205,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 12
         },
-        "21:10": {
+        "17:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 12
         },
-        "22:10": {
+        "18:10": {
           "id:3": 207,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 144,
           "y:3": 66
         },
-        "23:10": {
+        "19:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 42,
-          "y:3": -54
+          "x:3": 102,
+          "y:3": -60
         },
-        "24:10": {
+        "20:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 60
         },
-        "25:10": {
+        "21:10": {
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
+          "x:3": 6,
           "y:3": 144
         },
-        "26:10": {
+        "22:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
+          "x:3": 6,
           "y:3": 102
         },
-        "27:10": {
+        "23:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": 60
+          "x:3": -42,
+          "y:3": 144
         },
-        "28:10": {
+        "24:10": {
           "id:3": 213,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 48,
           "y:3": 96
         },
-        "29:10": {
+        "25:10": {
           "id:3": 214,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": -42
+          "x:3": 156,
+          "y:3": -114
         },
-        "30:10": {
+        "26:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 264,
-          "y:3": -42
+          "x:3": 192,
+          "y:3": -138
         },
-        "31:10": {
+        "27:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": 54
+          "x:3": -24,
+          "y:3": 102
         },
-        "32:10": {
+        "28:10": {
           "id:3": 217,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 12
         },
-        "33:10": {
+        "29:10": {
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 60
         },
-        "34:10": {
+        "30:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 102
         },
-        "35:10": {
+        "31:10": {
           "id:3": 220,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 144
         },
-        "36:10": {
+        "32:10": {
           "id:3": 221,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": 144
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 96,
+          "y:3": 138
         },
-        "37:10": {
+        "33:10": {
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -18,
-          "y:3": 60
+          "x:3": -120,
+          "y:3": 30
         },
-        "38:10": {
+        "34:10": {
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
-          "y:3": -30
+          "x:3": -96,
+          "y:3": 102
         },
-        "39:10": {
+        "35:10": {
           "id:3": 224,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -30
+          "x:3": 6,
+          "y:3": 60
         },
-        "40:10": {
+        "36:10": {
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
-          "y:3": 60
+          "x:3": -120,
+          "y:3": 54
         },
-        "41:10": {
+        "37:10": {
           "id:3": 226,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -48,
-          "y:3": -102
+          "x:3": -126,
+          "y:3": -66
+        },
+        "38:10": {
+          "id:3": 228,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": -90
+        },
+        "39:10": {
+          "id:3": 229,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -24
+        },
+        "40:10": {
+          "id:3": 230,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -24
+        },
+        "41:10": {
+          "id:3": 231,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": -54
         }
       }
     },
