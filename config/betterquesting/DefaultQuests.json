@@ -6475,7 +6475,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gallium and Arsenic do not exist as Ore!\n\n\nFor §dGallium§r, you may:\n§9- §aElectrolyze Sphalerite§r for a low chance of small dust (worst solution).\n§9-§r Put §aCrushed Bauxite in the Chemical Bath§r, but that requires Sodium Persulfate.\n§9-§r Obtain it as a Byproduct of §aSphalerite§r Ore Processing, in the §aThermal Centrifuge§r or Centrifuge (best solution).\n\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r.",
+          "desc:8": "Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are among these materials.\n\nFor §dGallium§r, you may:\n§9- §aElectrolyze Sphalerite§r for a low chance of small dust (worst solution).\n§9-§r Put §aCrushed Bauxite in the Chemical Bath§r, but that requires Sodium Persulfate.\n§9-§r Obtain it as a Byproduct of §aSphalerite§r Ore Processing, in the §aThermal Centrifuge§r or Centrifuge (best solution).\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7879,7 +7879,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the MV Age.\n\nConveyors, Pumps and Robot Arms are upgrades to LV versions if you use them as covers.",
+          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the MV Age. To alleviate the pain, be sure to autocraft or bulk-craft these parts, especially §6Motors§r.\n\nConveyors, Pumps and Robot Arms are upgrades to LV versions if you use them as covers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9167,7 +9167,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAlright, technically HV Circuit and Stainless Steel means you can move to HV... but let\u0027s not rush things.§r\n\nThe first thing you should probably do is a §3MV Circuit Assembler§r, to unlock the new tier of Circuits right away, as they are the §dreal payoff§r.",
+          "desc:8": "§oAlright, technically HV Circuit and Stainless Steel means you can move to HV... but let\u0027s not rush things.§r\n\nThe first thing you should probably make with them is a §3MV Circuit Assembler§r, to unlock the new tier of Circuits right away; they are the §dreal payoff§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12850,7 +12850,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oVacuums actually make things hotter... No questions asked.§r\n\nThe §3Vacuum Freezer§r is a multiblock used to cool down §9Hot Ingots§r. All ingots made in the EBF with a temperature above §d1750K§r will need it.\n\nMost of the time, your §3Electric Blast Furnace§r will be the bottleneck, so you don\u0027t need to worry about overclocking your freezer.\n\nSince §9Hot Ingots§r §churt you§r when held, item routing will be very useful. More information on the next quest.",
+          "desc:8": "§oVacuums actually make things hotter... No questions asked.§r\n\nThe §3Vacuum Freezer§r is a multiblock used to cool down §eHot Ingots§r. All ingots made in the EBF with a temperature above §d1750K§r will need it.\n\nMost of the time, your §3Electric Blast Furnace§r will be the bottleneck, so you don\u0027t need to worry about overclocking your freezer.\n\nSince §eHot Ingots§r §churt you§r when held, item routing will be very useful. More information on the next quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12969,7 +12969,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oLet\u0027s get cracking, shall we?§r\n\nThe §3Oil Cracking Unit§r is a multiblock meant to make cracked fluids. It has all the recipes of §3Chemical Reactor§r Cracking, but it is §6lossless§r.\n\nThis multiblock is §doptional§r, but it save a lot of Fuel in the long term!\n\nHigher Coil tiers provide small energy discount, not too important.",
+          "desc:8": "§oLet\u0027s get cracking, shall we?§r\n\nThe §3Oil Cracking Unit§r is a multiblock meant to make cracked fluids. It has all the recipes of §3Chemical Reactor§r Cracking, but it is §6lossless§r.\n\nThis multiblock is §doptional§r, but it saves a lot of Fuel in the long term!\n\nHigher Coil tiers provide small energy discount, not too important.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13323,7 +13323,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAlternate components! Smaller, better, cheaper!§r\n\nThe SMD Compoennts be required for the next tier of circuits (§5Nano§r).\n\nOf course they are more complicated to make, this is GregTech! What did you expect?\n\n§aPlatinum§r (needed for SMD Diodes) has its own dedicated quest.",
+          "desc:8": "§oAlternate components! Smaller, better, cheaper!§r\n\nThe §eSMD§r (surface-mount device) §eComponents§r are required for the next tier of circuits (§5Nano§r). They can also be used in place of their non-SMD counterparts in most recipes.\n\nOf course they are more complicated to make, this is GregTech! What did you expect?\n\n§aPlatinum§r (needed for SMD Diodes) has its own dedicated quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14043,7 +14043,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, and some beds (?). Or use MC-123081 (infamous Minecraft bug) to skip the fight... we won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\nThis quest\u0027s reward will print the §alocation of the nearest Stronghold§r in chat. ",
+          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, a blade, and some beds. Or use §7MC-123081§r to skip the fight... we won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\nThis quest will §cconsume 1 Eye of Ender§r to print the §alocation of the nearest Stronghold§r in chat. It is §erepeatable§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14057,7 +14057,7 @@
           "name:8": "The End",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -14081,14 +14081,14 @@
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
-          "consume:1": 0,
+          "consume:1": 1,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 12,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:ender_eye"
@@ -14105,7 +14105,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Very unlikely you will need those at this point. But hey here they are!\n\nThe 4Amps limit may be appealing.",
+          "desc:8": "§a4 Amps§r MV energy transmission may be appealing, but you probably don\u0027t need these at this point. The option is there though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14207,7 +14207,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Central Monitor§r is an §doptional§r yet extremely charming structure.\n\nIt acts as a §6display screen§r for machine information, machine GUI, and more!\nUsing it, you can also §9remote access§r machines, given the right configuration.\n\nIts mechanics are explain in the §4Terminal§r.",
+          "desc:8": "The §3Central Monitor§r is an §doptional§r yet extremely charming structure.\n\nIt acts as a §6display screen§r for machine information, machine GUI, and more!\nUsing it, you can also §9remotely access§r machines, given the right configuration.\n\nIts mechanics are explained in the §4Terminal§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14769,7 +14769,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§cWarning:§r Do not use GT tools in AE2 autocrafting! \u003cinsert reason\u003e",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14820,7 +14820,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Cleanroom is not implemented into GTCEu yet.§r\n\nCleanrooms is a well isolated space, with little to no air particles, bacterias and other.\n\nThey will be used for nanoscale productions of higher tier circuits. The mechanics will not be as punishing as they were in GregTech 5, so stay in touch with us.",
+          "desc:8": "§oThe Cleanroom is not implemented into GTCEu yet.§r\n\nThe Cleanroom is a well isolated space, with little to no airborne particles, bacteria and other contaminants.\n\nThey will be used for producing nano-scale components of higher tier circuits. The mechanics will not be as punishing as they were in GregTech 5, so stay in touch with us.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14996,6 +14996,60 @@
     },
     "230:10": {
       "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 741,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 6400000
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Super Battery",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 230,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 741,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "231:10": {
+      "preRequisites:11": [
         219
       ],
       "properties:10": {
@@ -15048,7 +15102,7 @@
         }
       }
     },
-    "231:10": {
+    "232:10": {
       "preRequisites:11": [
         194
       ],
@@ -15099,14 +15153,14 @@
         }
       }
     },
-    "232:10": {
+    "233:10": {
       "preRequisites:11": [
         145
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Just like in §bMV§r, more higher-tier components.\n\nThe §dSensor§r makes a reappearance as a required piece here.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15129,7 +15183,26 @@
         }
       },
       "questID:3": 233,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 12,
+              "Damage:2": 22,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_stick"
+            },
+            "1:10": {
+              "Count:3": 24,
+              "Damage:2": 277,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -15180,6 +15253,253 @@
               "Damage:2": 234,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "234:10": {
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_bauxite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Bauxite",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 234,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "235:10": {
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_magnetite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Magnetite",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 235,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "236:10": {
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_naquadah_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Naquadah",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 236,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "237:10": {
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_pitchblende_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pitchblende",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 237,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "238:10": {
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_scheelite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Scheelite",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 238,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "239:10": {
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_cooperite_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sheldonite",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 239,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "240:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 920,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Digital Miner",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 240,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 920,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -16899,7 +17219,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
-          "y:3": 60
+          "y:3": 66
         },
         "36:10": {
           "id:3": 225,
@@ -16930,20 +17250,27 @@
           "y:3": 114
         },
         "40:10": {
+          "id:3": 230,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 102
+        },
+        "41:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 66
         },
-        "41:10": {
+        "42:10": {
           "id:3": 232,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 66,
-          "y:3": -66
+          "y:3": -84
         },
-        "42:10": {
+        "43:10": {
           "id:3": 233,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -17070,7 +17397,29 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "quests:9": {}
+      "quests:9": {
+        "0:10": {
+          "id:3": 104,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 24
+        },
+        "1:10": {
+          "id:3": 156,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 48
+        },
+        "2:10": {
+          "id:3": 225,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 0
+        }
+      }
     },
     "12:10": {
       "lineID:3": 12,
@@ -17218,228 +17567,305 @@
           "y:3": 0
         },
         "1:10": {
+          "id:3": 9,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -102
+        },
+        "2:10": {
           "id:3": 31,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 300,
           "y:3": 0
         },
-        "2:10": {
+        "3:10": {
+          "id:3": 74,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 222,
+          "y:3": -102
+        },
+        "4:10": {
+          "id:3": 111,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 282,
+          "y:3": -102
+        },
+        "5:10": {
           "id:3": 161,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": 6
         },
-        "3:10": {
+        "6:10": {
           "id:3": 162,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 90
         },
-        "4:10": {
+        "7:10": {
           "id:3": 163,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 102
         },
-        "5:10": {
+        "8:10": {
           "id:3": 164,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -36
         },
-        "6:10": {
+        "9:10": {
           "id:3": 165,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 90
         },
-        "7:10": {
+        "10:10": {
           "id:3": 166,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -24
         },
-        "8:10": {
+        "11:10": {
           "id:3": 167,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -24
         },
-        "9:10": {
+        "12:10": {
           "id:3": 168,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -54
         },
-        "10:10": {
+        "13:10": {
           "id:3": 169,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": -90
         },
-        "11:10": {
+        "14:10": {
           "id:3": 170,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": -90
         },
-        "12:10": {
+        "15:10": {
           "id:3": 171,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -54
         },
-        "13:10": {
+        "16:10": {
           "id:3": 172,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 114
         },
-        "14:10": {
+        "17:10": {
           "id:3": 173,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -78
         },
-        "15:10": {
+        "18:10": {
           "id:3": 174,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -102
         },
-        "16:10": {
+        "19:10": {
           "id:3": 175,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -78
         },
-        "17:10": {
+        "20:10": {
           "id:3": 176,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 36
         },
-        "18:10": {
+        "21:10": {
           "id:3": 177,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 66
         },
-        "19:10": {
+        "22:10": {
           "id:3": 178,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -36
         },
-        "20:10": {
+        "23:10": {
           "id:3": 179,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": 102
         },
-        "21:10": {
+        "24:10": {
           "id:3": 180,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 66
         },
-        "22:10": {
+        "25:10": {
           "id:3": 181,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": 36
         },
-        "23:10": {
+        "26:10": {
           "id:3": 182,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 6
         },
-        "24:10": {
+        "27:10": {
           "id:3": 183,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
           "y:3": 48
         },
-        "25:10": {
+        "28:10": {
           "id:3": 184,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 306,
           "y:3": 66
         },
-        "26:10": {
+        "29:10": {
           "id:3": 185,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 366,
           "y:3": 6
         },
-        "27:10": {
+        "30:10": {
           "id:3": 186,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 246,
           "y:3": 6
         },
-        "28:10": {
+        "31:10": {
           "id:3": 187,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 48
         },
-        "29:10": {
+        "32:10": {
           "id:3": 188,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": -30
         },
-        "30:10": {
+        "33:10": {
           "id:3": 189,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -54
         },
-        "31:10": {
+        "34:10": {
           "id:3": 190,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": -30
         },
-        "32:10": {
+        "35:10": {
           "id:3": 191,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": -54
+        },
+        "36:10": {
+          "id:3": 213,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 486,
+          "y:3": 0
+        },
+        "37:10": {
+          "id:3": 234,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 426,
+          "y:3": 6
+        },
+        "38:10": {
+          "id:3": 235,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 456,
+          "y:3": -54
+        },
+        "39:10": {
+          "id:3": 236,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 528,
+          "y:3": -54
+        },
+        "40:10": {
+          "id:3": 237,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 558,
+          "y:3": 6
+        },
+        "41:10": {
+          "id:3": 238,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 528,
+          "y:3": 66
+        },
+        "42:10": {
+          "id:3": 239,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 456,
+          "y:3": 66
+        },
+        "43:10": {
+          "id:3": 240,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 252,
+          "y:3": -102
         }
       }
     }
