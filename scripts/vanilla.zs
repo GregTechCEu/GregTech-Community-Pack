@@ -147,3 +147,17 @@ compressor.recipeBuilder()
     .duration(200)
     .EUt(2)
     .buildAndRegister();
+
+// Blaze Powder
+recipes.removeByRecipeName("minecraft:blaze_powder");
+
+// Fire Resistance
+recipes.addShaped("fire_resistance_short", <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}), [
+    [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:dustSugar>, <ore:dustStone>],
+    [<ore:dustLead>, null, null]
+]);
+
+recipes.addShaped("fire_resistance_long", <minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"}), [
+    [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:dustRedstone>, <ore:dustSugar>],
+    [<ore:dustStone>, <ore:dustLead>, null]
+]);

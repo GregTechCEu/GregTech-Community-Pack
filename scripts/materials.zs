@@ -14,3 +14,4 @@ MaterialBuilder(32000, "fluix")
 <material:certus_quartz>.addFlags("generate_rod");
 <material:nether_quartz>.addFlags("generate_rod");
 <material:iron>.addFlags("generate_dense");
+<material:brass>.addFlags("generate_spring");
