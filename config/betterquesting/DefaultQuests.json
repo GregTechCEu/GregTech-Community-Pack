@@ -227,7 +227,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oGlass, at last!§r\n\nUse Mortars or a Macerator (your choice!) to microcraft your way to Glass Dust, which you can then turn into §aGlass block§r.\nGlass will be easier later on. I am certain you have noticed that juicy Arc Furnace recipe.\n\nGlass tubes will be required for Electronic Circuits, so make some!",
+          "desc:8": "§oGlass, at last!§r\n\nUse Mortars or a Macerator (your choice!) to microcraft your way to Glass Dust, which you can then turn into a §aGlass block§r.\nGlass will be easier later on. I am certain you have noticed that juicy Arc Furnace recipe.\n\nGlass tubes will be required for Electronic Circuits, so make some!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1105,7 +1105,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oMaybe you thought forcing crafting with tools would make your life painful. I shall present you the solution: the Crafting Station.§r\n\nThe Crafting Station is a highly §9advanced Crafting Table§r, with inventory slots for item and tools. Put the recipes either by dropping ghost items, or using the §a+§r in JEI. Crafting the items will use the items and tools in the inventory. The 9 slots on the right are saved up recipes so you can re-use them without re-opening JEI.\n\nThe most important part making the Crafting Station amazing, is the fact that §6it can use adjacent inventories§r in addition to its own inventory. This is essentially a mini ME Crafting Terminal.\n\n\n§bLore:§r Did you know the reason Omnifactory had Forestry in its modlist was primarily due to the Worktable? Since GTCE added the Crafting Station, they have started working on phasing out Forestry.",
+          "desc:8": "§oMaybe you thought forcing crafting with tools would make your life painful. I shall present you the solution: the Crafting Station.§r\n\nThe Crafting Station is a highly §9advanced Crafting Table§r, with inventory slots for item and tools. Put the recipes either by dropping ghost items, or using the §a+§r in JEI. Crafting the items will use the items and tools in the inventory. The 9 slots on the right are saved up recipes so you can re-use them without re-opening JEI.\n\nThe most important part making the Crafting Station amazing, is the fact that §6it can use adjacent inventories§r in addition to its own inventory. This is essentially a mini ME Crafting Terminal.\n\n\n§bLore:§r The reason Omnifactory had Forestry in its modlist was primarily due to its Worktable, which has a similar function. Aside from it and a couple of items, basically the whole mod\u0027s functionality was disabled! Since GTCE added the Crafting Station, they have started working on phasing out Forestry.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1627,7 +1627,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWhy is this chapter called Steam Age again? I can\u0027t be due to this machine, can it?§r\n\nAnyways... The Coal Boiler is the only available Boiler for now, due to the Glass recipe. Make one, or two.\n\n§cImportant:§r Boilers can §cexplode§r! Water does not mess too well with high temperatures, and a steam explosion may occur under the following conditions:\n§9-§r The Boiler is hot, shown by the red bar in the GUI\n§9AND\n-§r The Boiler has no water, signified by the absence of blue bar\n§9AND\n-§r The Boiler receives water§r\n\nYou can be perfectly safe by filling the boiler with water before heating it up, and making sure it has water constantly. The drain is slow, so you don\u0027t have to worry too much.\n\nThe boiler will auto eject steam on all faces except bottom. For automated water input, use the bottom face.\n\n\n§9Note 1:§r In this modpack, explosions are configured to not damage any block or entity, but you still lose your machine!\n\n§9Note 2: §rYou may have noticed the unit L (Litres) used in certain places. 1 L is equivalent to, and used interchangeably with 1 mB.",
+          "desc:8": "§oWhy is this chapter called Steam Age again? It can\u0027t be due to this machine, can it?§r\n\nAnyways... The Coal Boiler is the only available Boiler for now, as the Glass needed for the others is not available. Make one, or two.\n\n§cImportant:§r Boilers can §cexplode§r! Water does not mess too well with high temperatures, and a steam explosion may occur under the following conditions:\n§9-§r The Boiler is hot, shown by the red bar in the GUI\n§9AND\n-§r The Boiler has no water, signified by the absence of blue bar\n§9AND\n-§r The Boiler receives water§r\n\nYou can be perfectly safe by filling the boiler with water before heating it up, and making sure it has water constantly. The drain is slow - §a1 mB§r of Water boils into §a160 mB§r of Steam - so you don\u0027t have to worry too much.\n\nThe boiler will auto eject steam on all faces except bottom. For automated water input, use the bottom face.\n\n\n§9Note:§r In this modpack, explosions are configured to not damage any block or entity, but you still lose your machine!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2016,7 +2016,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Steam Extractor extracts... I cannot believe my own words.§r\n\nNot many recipes are in the Extractor, but it is used for rubber, which you will need soon!",
+          "desc:8": "§oThe Steam Extractor extracts... I cannot believe my own words.§r\n\nNot many recipes are in the Extractor, but it is used for §7Rubber§r, which you will need soon!\n\nYou can also process Dirt in the Extractor for §aBones§r, which makes §aBone Meal§r for crops.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2441,7 +2441,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Hopefully this shouldn\u0027t take too long. Mine some sulfur from the Nether.\n\n\n§bLore:§r With the existence of Small Ores randomly scattered in GregTech 5, you could at some point mine enough in the Overworld to avoid the Nether Vein. It did require some dedication, though.",
+          "desc:8": "Hopefully this shouldn\u0027t take too long. Mine some §eSulfur§r from the Nether.\n\n§6Blazes§r and §6Magma Cubes§r drop §eSulfur Dust§r instead of their normal drops in this pack, but it won\u0027t be enough at all.\n\n§bLore:§r With the existence of Small Ores randomly scattered in GregTech 5, you could at some point mine enough in the Overworld to avoid the Nether Vein. It did require some dedication, though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2514,7 +2514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the Nether.\nYou could also light the Nether portal using alternative means... you dirty cheater...\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on Peaceful yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n§9Note:§r The Blaze and Enderman loot tables have been changed to Sulfur Dust and Ender Pearl Dust respectively, so you can\u0027t just rush the End.",
+          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the Nether.\nYou could also light the Nether portal using alternative means... you dirty cheater...\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on Peaceful yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n§9Note:§r In this pack, the Blaze and Enderman loot tables have been changed to §eSulfur Dust§r and §bEnderpearl Dust§r respectively, so you can\u0027t just rush the End.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3309,7 +3309,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o*insert black\u0026white paper gif*§r\n\nObtaining paper is more difficult than in vanilla, but also less efficient.\n\n\nYou will need to grind §aSugar Canes§r into §aChad§r, and then press and dry it with some weight, notably Stone.\n§9Note 1:§r Stone slabs are not consumed in the recipe.\n\n\n§9Note 2:§r Make a Sugar Cane manual farm.\n\n\n§9Note 3:§r In LV Age, you will be able to make Paper from Wood, if you want more.\n\n\n§9Note 4:§r The Crafting Station makes this microcrafting absolutely trivial, use it!\n\n\n§9Note 5:§r Paper will be used as a poor wrapping material for the upcoming resistors.\n\n\n§9Note 6:§r I have a pleasure to share this moment with you, fellow Greg enjoyer.\n\n\n§9Note 7:§r If you didn\u0027t notice the meme reference in the quest title and the italics... Nothing will happen, let\u0027s move on.",
+          "desc:8": "§o*insert black\u0026white paper gif*§r\n\nObtaining paper is both more difficult and less efficient than in vanilla.\n\nYou will need to grind §aSugar Canes§r into §aChad§r, and then press and dry it with some weight, notably Stone.\n\n§9Note 1:§r Stone slabs are not consumed in the recipe.\n\n§9Note 2:§r Make a Sugar Cane manual farm.\n\n§9Note 3:§r As a reminder, Bone Meal can be used on Sugar Canes.\n\n§9Note 4:§r In LV Age, you will be able to make Paper from Wood, if you want more.\n\n§9Note 5:§r The Crafting Station makes this microcrafting absolutely trivial, use it!\n\n§9Note 6:§r Paper will be used as a poor wrapping material for the upcoming resistors.\n\n§9Note 7:§r I have a pleasure to share this moment with you, fellow Greg enjoyer.\n\n§9Note 8:§r If you didn\u0027t notice the meme reference in the quest title and the italics... Nothing will happen, let\u0027s move on.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4600,7 +4600,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYou can always come back to this quest later to read what you missed. It will appear in the \"Tips and Tricks\" tab.§r\n\nWires and Cables are used to transport EU from Generators to Consumers.\n\nThere are four important mechanics to learn about the wires:\n§9-§r Insulation\n§9- §rVoltage\n§9-§r Amperage\n§9-§r EU/t loss\n\n\n§9§lInsulation:§r This is the difference between §dWires§r and §dCables§r. Wires will §celectrocute§r you if they conduct energy, unless they are §6Superconductors§r. So you §oshould§r use Cables or Superconductors. They also have lower loss, more on that below.\n\n§9§lVoltage:§r If your Generator\u0027s Voltage Output is higher than what the Cable can support, it will §cburn§r and you will lose them! Voltage is LV, MV, HV... refer to the Chapter names.\n\n§9§lAmperage:§r All Wires and Cables have an §dAmperage limit§r, if they transport above that limit, they will §cburn§r and you will lose them! Generally, it is highly advised to use Cables with an Amperage limit matching your Generators. More details on the Amperage description quest.\n\n§9§lEU/t loss:§r Each time an Energy packet (32EU for LV) passes through a cable, it loses Energy corresponding to the Cable loss. What this means is you should try to build machines pretty close to your Generator! This loss will be less relevant in future voltages. §6Superconductors§r are lossless.\n\n\n§9Note:§r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. The Energy network now works as intended.",
+          "desc:8": "§oYou can always come back to this quest later to read what you missed. It will appear in the \"Tips and Tricks\" tab.§r\n\nElectricity in GregTech is §cnot as simple§r as the RF you may be used to using in modded Minecraft! EU mechanics have a depth to them and are not dissimilar to real electricity. It can also be §4dangerous§r if mishandled.\n\nThus, electricity mechanics have been split into these §afive quests§r, each corresponding to a certain mechanic of energy transportation:\n§\n§9- §rVoltage\n§9-§r Amperage\n§9-§r Wires and Cables\n§9-§r EU/t loss\n\nWires and Cables are used to transport EU from Generators to Consumers.\n§9\n\n§9§lInsulation:§r This is the difference between §dWires§r and §dCables§r. Wires will §celectrocute§r you if they conduct energy, unless they are §6Superconductors§r. So you §oshould§r use Cables or Superconductors. They also have lower loss, more on that below.\n\n§9§lVoltage:§r If your Generator\u0027s Voltage Output is higher than what the Cable can support, it will §cburn§r and you will lose them! Voltage is LV, MV, HV... refer to the Chapter names.\n\n§9§lAmperage:§r All Wires and Cables have an §dAmperage limit§r, if they transport above that limit, they will §cburn§r and you will lose them! Generally, it is highly advised to use Cables with an Amperage limit matching your Generators. More details on the Amperage description quest.\n\n§9§lEU/t loss:§r Each time an Energy packet (32EU for LV) passes through a cable, it loses Energy corresponding to the Cable loss. What this means is you should try to build machines pretty close to your Generator! This loss will be less relevant in future voltages. §6Superconductors§r are lossless.\n\n\n§9Note:§r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. The Energy network now works as intended.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4611,7 +4611,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Electric Energy Transportation",
+          "name:8": "Electricity Mechanics",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -5815,7 +5815,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need a couple stacks of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to 1,800K (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
+          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need a couple stacks of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5886,7 +5886,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Quest explains the core mechanic of the Electric Blast Furnace, while other Quests will explain the mechanics of the Parts, so be sure to refer to them!§r\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120EU/t§r! This is why it was locked behind the Battery Quests.\n\nYou will use the EBF to make §aAluminium§r and progress to §dMV Age§r.",
+          "desc:8": "§oThis Quest explains the core mechanic of the Electric Blast Furnace, while other Quests will explain the mechanics of the Parts, so be sure to refer to them!§r\n\nThe §3Electric Blast Furnace (EBF)§r is your first electric multiblock! It is used to process materials at high temperatures.\n\nYou will use the EBF to make §aAluminium§r and progress to §d§bMV Age§r.\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120 EU/t§r! That\u0027s slightly under 4 §7LV§r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6201,7 +6201,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI know what you\u0027re thinking! Don\u0027t think! I mean... Maintenance in GregTech is not as bad as you think, and looking at multiblocks with this hatch makes me feel happy.§r\n\nMost Multiblocks require a §3Maintenance Hatch§r. You will need to do Maintenance for the Multiblock to begin operating.\nThis is done by having a §9Wrench§r, a §9Screwdriver§r, a §9Soft Mallet§r, a §9Hammer§r, a §9Wire Cutter§r, and a §9Crowbar§r in your inventory, opening the Maintenance Hatch and §eclicking the center spot once§r. §cNo need to move tools individually§r.\nAlternatively you can fix problems by placing a §9Tape§r in the Maintenance Hatch, but I would love to tell you that\u0027s unethical.\n\nMaintenance problems may occur §dafter 48 real hours of activity§r. Needless to say they are very rare. Each problem increases the recipe durations by 10%. Fixing the problems is done the same way as above.\n\n\nAt HV age, you will unlock other Maintenance Hatches that do not enforce fixing the problems manually.\n\n\n§bLore:§r Maintenance dates back to GregTech 3 for Minecraft 1.5.2. That\u0027s a long time ago!\nMaintenance problems increased power usage instead of duration. And that caused all sorts of \"happy\" issues. Ah, fun times!",
+          "desc:8": "§oI know what you\u0027re thinking! Don\u0027t think! I mean... Maintenance in GregTech is not as bad as you think, and looking at multiblocks with this hatch makes me feel happy.§r\n\nMost Multiblocks require a §3Maintenance Hatch§r. You will need to do Maintenance for the Multiblock to begin operating.\nThis is done by having a §9Wrench§r, a §9Screwdriver§r, a §9Soft Mallet§r, a §9Hammer§r, a §9Wire Cutter§r, and a §9Crowbar§r in your inventory, opening the Maintenance Hatch and §eclicking the center spot once§r. §cNo need to move tools individually§r.\nAlternatively you can fix problems by placing a §9Tape§r in the Maintenance Hatch, but I would love to tell you that\u0027s unethical.\n\nMaintenance problems may occur after §d48 real hours of activity§r. Needless to say they are very rare. Each problem increases the recipe durations by 10%. Fixing the problems is done the same way as above.\n\n\nAt §6HV§r age, you will unlock other Maintenance Hatches that do not enforce fixing the problems manually.\n\n\n§bLore:§r Maintenance dates back to GregTech 3 for Minecraft 1.5.2. That\u0027s a long time ago!\nMaintenance problems increased power usage instead of duration. And that caused all sorts of \"happy\" issues. Ah, fun times!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6493,7 +6493,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are among these materials.\n\nFor §dGallium§r, you may, ranged from worst to best:\n§9- §aElectrolyze Sphalerite§r for a low chance of small dust.\n§9-§r Put §aCrushed Bauxite in the Chemical Bath§r, but that requires Sodium Persulfate.\n§9-§r Obtain it as a Byproduct of §aSphalerite§r Ore Processing, in the §aThermal Centrifuge§r or Centrifuge.\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r.",
+          "desc:8": "Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are among these materials.\n\nFor §dGallium§r, you may, ranged from worst to best:\n§9- §aElectrolyze Sphalerite§r for a low chance of small dust.\n§9-§r Put §aCrushed Bauxite§r in the §aChemical Bath§r, but that requires Sodium Persulfate.\n§9-§r Obtain it as a Byproduct of §aSphalerite§r Ore Processing, in the §aThermal Centrifuge§r or Centrifuge.\n\nFor §dArsenic§r, you will have to mine and §acentrifuge Realgar§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7361,11 +7361,37 @@
         }
       },
       "questID:3": 104,
-      "rewards:9": {},
-      "tasks:9": {
+      "rewards:9": {
         "0:10": {
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 10,
+              "Damage:2": 32000,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 35,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -7637,7 +7663,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Now that you have Steel, you can make a Hang Glider! This may help tremendously for Nether exploration.\n\nIf you do not have enough Leather yet, make a §9Butchering Knife§r and hunt some cows.\n\n\n§bLore:§r Hang Glider comes from OpenBlocks. Due to great utility of the Hang Glider, it was ported to a separated mod for people who do not want OpenBlocks in their modpack (like us!).",
+          "desc:8": "Now that you have Steel, you can make a Hang Glider! This may help tremendously for Nether exploration.\n\nIf you do not have enough Leather yet, make a §9Butchering Knife§r and hunt some cows.\n\n\n§bLore:§r The Hang Glider comes from OpenBlocks. Due to great utility of the Hang Glider, it was ported to a separated mod for people who do not want OpenBlocks in their modpack (like us!).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10344,8 +10370,7 @@
     },
     "154:10": {
       "preRequisites:11": [
-        66,
-        241
+        66
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10401,7 +10426,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself§r.\nOverclocking implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the Overclocking tier. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 8EU/t or below, it would do a classic overclock. However if the recipe consumed more than 8EU/t, every Overclock would be 2.8x faster!\nGTCEu has a config to select the Overclock speed bonus, it is a very sensible value.",
+          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself§r.\nOverclocking implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the maximum voltage tier it will Overclock to. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 8EU/t or below, it would do a classic overclock. However if the recipe consumed more than 8EU/t, every Overclock would be 2.8x faster!\nGTCEu has a config to select the Overclock speed bonus, it is a very sensible value.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10558,7 +10583,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "In theory, Crates are better better than chests. A single block space that stores more items.\n\nThe sad truth however is... they do not support movement shortcut well. A work will be in the fix.\n\nWhere they shine however is the fact that they §6accept Covers§r, making them perfect candidates for buffers in automation.",
+          "desc:8": "In theory, Crates are better than chests. A single block space that stores more items.\n\nThe sad truth however is... they do not support movement shortcuts well. A work will be in the fix.\n\nWhere they shine however is the fact that they §6accept Covers§r, making them perfect candidates for buffers in automation.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15709,7 +15734,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "With LV power, the only way of getting §aAluminium Dust§r is by electrolyzing §9Sapphire§r or §2Green Sapphire§r.\n\nI could advise to get enough Sapphire to electrolyze into one full stack of §aAluminium dust§r, that §lwill§r be helpful. Plus the bonus Oxygen is always nice.",
+          "desc:8": "With LV power, the only way of getting §aAluminium Dust§r is by electrolyzing §9Sapphire§r or §2Green Sapphire§r. Aluminium is the main §bMV§r material.\n\nI could advise to get enough Sapphire to electrolyze into one full stack of §aAluminium Dust§r, that §lwill§r be helpful. Plus the bonus Oxygen is always nice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16080,7 +16105,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, Iron Bolts are gonna be required very soon.§r\n\nI will you a nice §6Reward§r for achieving this.\n\n§aBone Meal§r can be used a Sugar Canes thanks to Random Tweaks.",
+          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, Iron Bolts are gonna be required very soon.§r\n\nI will you a nice §6Reward§r for achieving this.\n\n§aBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16102,7 +16127,6 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "questID:3": 247,
       "rewards:9": {
         "0:10": {
           "index:3": 0,
@@ -16789,7 +16813,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "LV - Low Voltage",
+          "name:8": "§7LV§r - Low Voltage",
           "visibility:8": "ALWAYS"
         }
       },
@@ -17265,7 +17289,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "MV - Medium Voltage",
+          "name:8": "§bMV§r - Medium Voltage",
           "visibility:8": "ALWAYS"
         }
       },
@@ -17657,7 +17681,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "HV - High Voltage",
+          "name:8": "§6HV§r - High Voltage",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18000,7 +18024,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "EV - Extreme Voltage",
+          "name:8": "§5EV§r - Extreme Voltage",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18028,7 +18052,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "IV - Insane Voltage",
+          "name:8": "§1IV§r - Insane Voltage",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18048,7 +18072,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "LuV - Ludicrous Voltage",
+          "name:8": "§dLuV§r - Ludicrous Voltage",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18088,7 +18112,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "UV - Ultimate Voltage",
+          "name:8": "§3UV§r - Ultimate Voltage",
           "visibility:8": "ALWAYS"
         }
       },
