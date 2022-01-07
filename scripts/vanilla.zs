@@ -161,3 +161,8 @@ recipes.addShaped("fire_resistance_long", <minecraft:potion>.withTag({Potion: "m
     [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:dustRedstone>, <ore:dustSugar>],
     [<ore:dustStone>, <ore:dustLead>, null]
 ]);
+
+// XP Bottle
+recipes.addShaped("xp_bottle", <minecraft:experience_bottle>, [
+    [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:dustSugar>, <ore:dustTinyGold>]
+]);
