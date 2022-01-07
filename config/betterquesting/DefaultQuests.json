@@ -10506,7 +10506,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself§r.\nOverclocking implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the maximum voltage tier it will Overclock to. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 8EU/t or below, it would do a classic overclock. However if the recipe consumed more than 8EU/t, every Overclock would be 2.8x faster!\nGTCEu has a config to select the Overclock speed bonus, it is a very sensible value.",
+          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself.§r\nEach tier above the recipe tier allows one overclock. Each overclock implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-\u003e§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the maximum voltage tier it will Overclock to. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 8EU/t or below, it would do a classic overclock. However if the recipe consumed more than 8EU/t, every Overclock would be 2.8x faster!\nGTCEu has a config to select the Overclock speed bonus, it is a very sensible value.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19612,6 +19612,57 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "310:10": {
+      "preRequisites:11": [
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aPortable Scanner§r, or §aTricorder§r, is GTCEu\u0027s debug tool. It shows you a block\u0027s details, the details of the energy network, its current status and contents, and its load on your CPU. It also shows you the contents of fluid veins below Bedrock for Fluid Rigs.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 470,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Tricorder",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 310,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 469,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -21201,6 +21252,13 @@
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": 78
+        },
+        "53:10": {
+          "id:3": 310,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 78,
+          "y:3": 0
         }
       }
     },
