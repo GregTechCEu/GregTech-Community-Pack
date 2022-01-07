@@ -166,3 +166,14 @@ recipes.addShaped("fire_resistance_long", <minecraft:potion>.withTag({Potion: "m
 recipes.addShaped("xp_bottle", <minecraft:experience_bottle>, [
     [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:dustSugar>, <ore:dustTinyGold>]
 ]);
+
+// Nether Star
+chemical_reactor.recipeBuilder()
+    .inputs(<ore:dustDiamond>)
+    .inputs(<ore:dustIridium>)
+    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .fluidInputs([<liquid:nether_air> * 8000])
+    .outputs(<metaitem:dustNetherStar> * 2)
+    .duration(200)
+    .EUt(7680)
+    .buildAndRegister();
