@@ -522,7 +522,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Here\u0027s your Introduction to GregTech tools. Something that may confuse you is how JEI displays Neutronium tools. But in fact you can make the tools off §dmany materials§r. The first one being Iron...! Or Wrought Iron if you read that quest.\n\n\n§9§lHammer:§r A crafting tool used to for a lot of early game recipes. It also works as a mining tool for ores to crush them, more information on that later. Its last function is to mute machines by §msmacking§r right-clicking them.\n\nAs an additional on §lall§r GregTech tools. You can §6repair§r them in an §6Anvil§r using the material of the tool itself, like any vanilla tool!\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "desc:8": "Here\u0027s your Introduction to GregTech tools. Something that may confuse you is how JEI displays Neutronium tools. But in fact you can make the tools off §dmany materials§r. The first one being Iron...! Or Wrought Iron if you read that quest.\n\n\n§9§lHammer:§r A crafting tool used to for a lot of early game recipes. It also works as a mining tool for ores to crush them, more information on that later. Its last function is to mute machines by §msmacking§r right-clicking them.\n\nAs an additional on §lall§r GregTech tools. You can §6repair§r them in an §6Anvil§r using the material of the tool itself, like any vanilla tool! §eBottles o\u0027 Enchanting§r are craftable too.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2514,7 +2514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the Nether.\nYou could also light the Nether portal using alternative means... you dirty cheater...\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n\nIf you are not playing on Peaceful yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n§9Note:§r In this pack, the Blaze and Enderman loot tables have been changed to §eSulfur Dust§r and §bEnderpearl Dust§r respectively, so you can\u0027t just rush the End.",
+          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the Nether.\nYou could also light the Nether portal using alternative means... you dirty cheater...\n\nThe Nether has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\nTo keep yourself safe from §cLava§r, §6Potions of Fire Resistance§r are craftable.\n\n\nIf you are not playing on Peaceful yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n\n§9Note:§r In this pack, the Blaze and Enderman loot tables have been changed to §eSulfur Dust§r and §bEnderpearl Dust§r respectively, so you can\u0027t just rush the End.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7003,7 +7003,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis is a Guide to help you form Multiblocks and troubleshoot issues.§r\n\nThere are two really important factors to know when building Multiblocks.\n\n§lCheck the JEI preview:§r This one was probably obvious, but there\u0027s more than just a picture of how the Multiblock looks like! Use your mouse to §drotate§r the preview, §9hover over the parts§r to gain additional informations. The JEI page also contains the amount of blocks to build it. You can also §dright-click§r a block in the preview to get a display of all available blocks in that placement.\n\n\n§lThe JEI preview is a suggestion:§r There is no unique way to form the Multiblock. Most of the time, you have complete freedom for the §9tier of Buses/Hatches§r. And you also have the §dfreedom of placement§r.\n\nTaking the EBF as example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere replacing a casing. Fluid Hatches are also optional, though you probably want them to handle recipes with fluid.\n\n\n\nIf a multiblock is formed, but you are having troubles figuring out why it does not run:\n§9-§r Check if the Multiblock is properly plugged in (we all make these mistakes!).\n§9-§r Do the initial Maintenance fix.\n§9-§r Verify the recipe usage, the max EU/t has to be greater than that of the recipe.\n§9- §rCheck the special requirements the recipe may have (JEI always has some kind of indication for it)\n§9-§r Make sure the recipe is properly input, this is less obvious than in a regular machine because you have to juggle between Input Bus and Input Hatch\n§9-§r Make sure there is space for output. The biggest offender is the Output Hatches being too low tier and having too little capacity!",
+          "desc:8": "§oThis is a Guide to help you form Multiblocks and troubleshoot issues.§r\n\nThere are two really important factors to know when building Multiblocks.\n\n§lCheck the JEI preview:§r This one was probably obvious, but there\u0027s more than just a picture of how the Multiblock looks like! Use your mouse to §drotate§r the preview, §9hover over the parts§r to gain additional informations. The JEI page also contains the amount of blocks to build it. You can also §dright-click§r a block in the preview to get a display of all available blocks in that placement.\n\n\n§lThe JEI preview is a suggestion:§r There is no unique way to form the Multiblock. Most of the time, you have complete freedom for the §9tier of Buses/Hatches§r. And you also have the §dfreedom of placement§r.\n\nTaking the EBF as example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere replacing a casing. Fluid Hatches are also optional, though you probably want them to handle recipes with fluid.\n\nAdditionally, you can §dsneak right-click§r the multiblock controller for an in-world preview, or use the §4Terminal§r\u0027s Multiblock Helper.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8923,7 +8923,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Assembling Machine§r is a staple for every Tier, an important goal to unlock more recipes and progress further into the Age.",
+          "desc:8": "The §3Assembling Machine§r is a staple for every Tier, an important goal to unlock more recipes and progress further into the Age.\n\nThe §bMV §3Assembling Machine§r unlocks §eTransistors§§, §eCapacitors§r and §eInductors§r, used for the next tiers of Circuits.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9531,7 +9531,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Transistors",
+          "name:8": "Moore\u0027s Law",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10544,7 +10544,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r.",
+          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14884,7 +14884,20 @@
         }
       },
       "questID:3": 224,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_compressed_26"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -14912,7 +14925,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r now imply you can automate just about anything.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! AE2 will attempt to craft new tools when they break, which can end up causing severe TPS issues.",
+          "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r automate table crafting recipes, which now implies you can automate just about anything.\n\nTo maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.\n\nUsing higher-tier materials yields more Molecular Assemblers.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! AE2 will attempt to craft new tools when they break, which can end up causing severe TPS issues.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15090,7 +15103,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Nitrobenzene is nearly four times as energy dense as Benzene!",
+          "desc:8": "Nitrobenzene is §d3.64 times§r as energy dense as Benzene!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15216,7 +15229,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aCetane-Boosted Diesel§r is almost twice as energy dense as regular §eDiesel§r, and only requires 1 part §9Tetranitromethane (TNM)§r for every 50 parts §eDiesel§r. What a deal, right?\n\nThe catch comes in the complexity of making §9TNM§r. In order to make it, you must react §eNitric Acid§r with either §9Ethenone§r or §6Methyl Acetate§r, both of which have quite an involved process themselves.",
+          "desc:8": "§aCetane-Boosted Diesel§r is 50% more energy dense than regular §eDiesel§r, and only requires 1 part §9Tetranitromethane (TNM)§r for every 50 parts §eDiesel§r. What a deal, right?\n\nThe catch comes in the complexity of making §9TNM§r. In order to make it, you must react §eNitric Acid§r with either §9Ethenone§r or §6Methyl Acetate§r, both of which have quite an involved process themselves.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17639,7 +17652,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§7Styrene-Butadiene Rubber (SBR)§r is an enhanced type of Rubber. It can be used in place of Rubber in most recipes, and is §dfour times§r more efficient at insulating Cables. It is also strictly required for certain higher-tier recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18136,7 +18149,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §aDiode§r (block, not item component) accepts energy inputs from 5 sides, but only outputs through a single side. This is a niche component which could be useful in some compact setups.\n\nYou can use a §9Soft Hammer§r to change the Amperage limit of the output. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18160,7 +18173,25 @@
       },
       "questID:3": 281,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1301,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "282:10": {
       "preRequisites:11": [
@@ -18169,7 +18200,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §aItem Collector§o§r collects dropped items in its radius. Useful for something like a mob farm.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18220,7 +18251,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §aTurbo Charger§r charges EU items such as §9Drills§r extremely quickly. It accepts up to §c16 Amps§r of its tier of power!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18244,7 +18275,25 @@
       },
       "questID:3": 283,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1376,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "284:10": {
       "preRequisites:11": [],
@@ -18289,6 +18338,284 @@
               "Damage:2": 1394,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "285:10": {
+      "preRequisites:11": [
+        98
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "If a multiblock is formed, but you are having troubles figuring out why it does not run:\n§9-§r Check if the Multiblock is properly plugged in (we all make these mistakes!).\n\n§9-§r Do the initial Maintenance fix.\n\n§9-§r Verify the recipe usage, the max EU/t has to be greater than that of the recipe.\n\n§9- §rCheck the special requirements the recipe may have (JEI always has some kind of indication for it)\n\n§9-§r Make sure the recipe is properly input, this is less obvious than in a regular machine because you have to juggle between Input Bus and Input Hatch\n\n§9-§r Make sure there is space for output. The biggest offender is the Output Hatches being too low tier and having too little capacity!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": "",
+            "id:8": "gregtech:metal_casing"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Multiblock Troubleshooting",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 285,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "286:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThis quest will cover all the units you will encounter in GregTech.§r\n\n- §dFluids§r are measured in millibuckets, or mB. 1 mB is equivalent to 1 L (Litre), which is sometimes used.\nOne nugget or tiny dust of material is 16 mB, one ingot is 144 mB, one gem is 250 mB, one bucket is 1000 mB, and one block is 1296 mB. \n- §dTime§r is measured in ticks, or t, each of which is 1/20 of an in-game second.\n- §dEnergy§r is measured in Energy Units, or EU. 1 EU is equivalent to 4 RF or 2 mB of Steam.\nVery occasionally hours (h) will be used, which is 3600 seconds, or 72k ticks.\n- §dPower§r is measured in EU per tick (EU/t). §dVoltage§r is measured in volts (V), which are EU/t per amp.\n\n§bLore§r: Before EU and RF, there were Minecraft Joules (MJ), the native energy system for BuildCraft. When EU was introduced, it was calculated that 2.5 EU \u003d 1 MJ based on how much energy their coal generators made. Then when RF was introduced with Thermal Expansion 3, it was defined that 10 RF \u003d 1 MJ. Therefore 1 EU \u003d 4 RF by default.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 470,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Units Overview",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 286,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "287:10": {
+      "preRequisites:11": [
+        102
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Flying is cool. This §ajetpack§r will grant you flight, if you desire.\n\nIt does require a §ecombustible liquid fuel§r to run though, which you probably don\u0027t have.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Flight",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 287,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "288:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Stainless Steel Cells can hold up to §d64 buckets§r of fluid.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 82,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Stainless Steel Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 288,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "289:10": {
+      "preRequisites:11": [
+        208
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Titanium Cells can hold up to §d128 buckets§r of fluid!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 83,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Titanium Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 289,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 83,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "290:10": {
+      "preRequisites:11": [
+        253
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The largest Cells. Tungstensteel Cells can store up to §d512 buckets§r of fluid!\nThey only stack to §a32§r, though.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 84,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Tungstensteel Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 290,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -18707,6 +19034,20 @@
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 120
+        },
+        "35:10": {
+          "id:3": 285,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -90,
+          "y:3": 120
+        },
+        "36:10": {
+          "id:3": 286,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": 12
         }
       }
     },
@@ -19328,7 +19669,7 @@
           "id:3": 98,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 420,
+          "x:3": 396,
           "y:3": 18
         },
         "50:10": {
@@ -19356,7 +19697,7 @@
           "id:3": 102,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 138,
+          "x:3": 126,
           "y:3": 96
         },
         "54:10": {
@@ -19449,6 +19790,13 @@
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": -96
+        },
+        "67:10": {
+          "id:3": 285,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 426,
+          "y:3": 18
         }
       }
     },
@@ -19888,15 +20236,15 @@
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -162,
-          "y:3": -60
+          "x:3": 18,
+          "y:3": -24
         },
         "4:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -18
+          "x:3": -126,
+          "y:3": -36
         },
         "5:10": {
           "id:3": 194,
@@ -19917,7 +20265,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
-          "y:3": -78
+          "y:3": -36
         },
         "8:10": {
           "id:3": 197,
@@ -20084,8 +20432,8 @@
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 12
+          "x:3": -96,
+          "y:3": -6
         },
         "32:10": {
           "id:3": 223,
@@ -20105,8 +20453,8 @@
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 42
+          "x:3": -126,
+          "y:3": -6
         },
         "35:10": {
           "id:3": 226,
@@ -20119,36 +20467,36 @@
           "id:3": 227,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -162,
-          "y:3": 132
+          "x:3": -108,
+          "y:3": -84
         },
         "37:10": {
           "id:3": 228,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
-          "y:3": -114
+          "y:3": -156
         },
         "38:10": {
           "id:3": 229,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
-          "y:3": 114
+          "x:3": 228,
+          "y:3": 168
         },
         "39:10": {
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": -42
+          "x:3": -96,
+          "y:3": 54
         },
         "40:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
-          "y:3": 66
+          "x:3": 180,
+          "y:3": 168
         },
         "41:10": {
           "id:3": 232,
@@ -20161,8 +20509,8 @@
           "id:3": 233,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 72
+          "x:3": -96,
+          "y:3": 24
         },
         "43:10": {
           "id:3": 242,
@@ -20175,8 +20523,8 @@
           "id:3": 247,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 102
+          "x:3": -126,
+          "y:3": 24
         },
         "45:10": {
           "id:3": 274,
@@ -20184,6 +20532,20 @@
           "sizeY:3": 24,
           "x:3": 66,
           "y:3": 66
+        },
+        "46:10": {
+          "id:3": 288,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -126,
+          "y:3": 54
+        },
+        "47:10": {
+          "id:3": 289,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 66,
+          "y:3": -36
         }
       }
     },
@@ -20287,7 +20649,7 @@
           "id:3": 254,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 42,
+          "x:3": 24,
           "y:3": -48
         },
         "12:10": {
@@ -20306,10 +20668,10 @@
         },
         "14:10": {
           "id:3": 257,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": 54
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 90,
+          "y:3": 48
         },
         "15:10": {
           "id:3": 258,
@@ -20362,10 +20724,10 @@
         },
         "22:10": {
           "id:3": 266,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 12,
-          "y:3": 42
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 18,
+          "y:3": 48
         },
         "23:10": {
           "id:3": 267,
@@ -20420,7 +20782,7 @@
           "id:3": 275,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 42,
+          "x:3": 24,
           "y:3": -18
         },
         "31:10": {
@@ -20429,6 +20791,13 @@
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": 96
+        },
+        "32:10": {
+          "id:3": 290,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 12
         }
       }
     },
@@ -20450,7 +20819,22 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "quests:9": {}
+      "quests:9": {
+        "0:10": {
+          "id:3": 253,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 0
+        },
+        "1:10": {
+          "id:3": 284,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 24
+        }
+      }
     },
     "8:10": {
       "lineID:3": 8,
@@ -20605,7 +20989,7 @@
           "id:3": 28,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
+          "x:3": -102,
           "y:3": 42
         },
         "3:10": {
@@ -20627,63 +21011,91 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
-          "y:3": 42
+          "y:3": 0
         },
         "6:10": {
           "id:3": 101,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": 0
+          "x:3": -102,
+          "y:3": 138
         },
         "7:10": {
+          "id:3": 105,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": 42
+        },
+        "8:10": {
           "id:3": 115,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
-          "y:3": 84
+          "y:3": 42
         },
-        "8:10": {
+        "9:10": {
           "id:3": 194,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": 42
         },
-        "9:10": {
-          "id:3": 196,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 114,
-          "y:3": 84
-        },
         "10:10": {
-          "id:3": 197,
+          "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": 84
         },
         "11:10": {
+          "id:3": 197,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 6,
+          "y:3": 84
+        },
+        "12:10": {
           "id:3": 207,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": 42
         },
-        "12:10": {
+        "13:10": {
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 114,
           "y:3": 0
         },
-        "13:10": {
+        "14:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": 0
+        },
+        "15:10": {
+          "id:3": 255,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": 138
+        },
+        "16:10": {
+          "id:3": 257,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 114,
+          "y:3": 84
+        },
+        "17:10": {
+          "id:3": 258,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 6,
+          "y:3": 138
         }
       }
     },
