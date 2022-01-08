@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # if there is a problem with building, please let htmlcsjs know
 import os
 import shutil
