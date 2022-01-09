@@ -144,7 +144,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Here\u0027s a list of some of the things you\u0027ll be needing for early game. Collect more than in this quest, you will need more.\n\nI would advise doing this quest first and take the §6Reward§r. That way you can do a little bit of main Progression §obefore§r being required to go mining.",
+          "desc:8": "Here\u0027s a list of some of the things you\u0027ll be needing for early game. Collect more than in this quest, you will need more.\n\nI would advise doing this quest first and take the §6Reward§r. That way you can do a little bit of main Progression §obefore§r being required to go mining.\n\n§c8§r Furnaces might seem excessive, but it really isn\u0027t! The early game of GregTech involves §oa lot§r of smelting. More than likely you will want double that or even more!\n\n§cDo not§r craft your Clay balls into Clay blocks, they are not equivalent! You will have to place and break the Clay blocks to retrieve the Clay.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -213,6 +213,12 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "gregtech:rubber_sapling"
+            },
+            "4:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:furnace"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -326,7 +332,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech Ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navigate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus a multiple of 3§r (-8, -5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rock is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks apart.§r\n\nHowever Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n\nPut §dWaypoints§r whenever you find a vein as you may want to come back to it several times.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have a resource issue with the late game!",
+          "desc:8": "The Ore Generation is very different from your usual modpacks. Vanilla ores are disabled. And GregTech Ores generate in §dhuge veins§r.\n\nThe veins and their details can be found in §aJEI§r. They contain up to four different ores, and the total amount of ores per vein can go to four digits. Yes! This much.\n\nSurface rocks will indicate the type of veins that are below them. In §aJEI§r, press U on the Tiny Dust you mined from the rock and navigate to the §aOre Page§r.\n\nOre veins generate in a §4Grid§r. Every vein is spaced by 3 chunks from one to another in a cardinal direction.\nTo check if you find yourself in a vein, press §4F3§r and look at the Chunk line. The second set of numbers tells you the §9chunk section§r. You want both the X and Z chunk numbers to be at §b1 plus a multiple of 3§r (-8, -5, -2, 1, 4, 7, ...).\nAlternatively, you may check if a rock is in the exact center of a chunk (X\u003d8, Z\u003d8). If it is, you are highly likely to have a vein under your feet.\n\n§2Once you find a vein, you will know other veins spawn 3 chunks apart.§r\n\nHowever Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.\n\nPut §dWaypoints§r whenever you find a vein as you may want to come back to it several times.\n§\n\n\nIn §6LV Age§r, you can craft an Ore Prospector to assist yourself in finding ores.\n\n\nThere is no \"void\" ore generation in this modpack, but due to the large size of vein and complex Ore Processing, you won\u0027t have a resource issue with the late game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -446,7 +452,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWrought Iron has a very low carbon content and is tougher than regular Iron.§r\n\nGregTech Tools made of Wrought Iron will have §650% additional durability§r compared to regular Iron.\n\nYou can make it from §asmelting Iron Nuggets§r, and §arecombining the Nuggets§r. Do not convert all your Iron as it is not interchangeable.",
+          "desc:8": "§oWrought Iron has a very low carbon content, but that\u0027s enough to make it tougher than regular Iron.§r\n\nGregTech Tools made of Wrought Iron will have §650% additional durability§r compared to regular Iron.\n\nYou can make it from §asmelting Iron Nuggets§r, and §arecombining the Nuggets§r. Do not convert all your Iron as it is not interchangeable.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -596,7 +602,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis hammer is very different. It\u0027s a pickaxe, but also not. It\u0027s a 3x3 pickaxe!§r\n\nDefinitively use this, do it! You want it, I know it! This bad boy will give you so many ores in no time, given you are in a vein.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "desc:8": "§oThis hammer is very different. It\u0027s a pickaxe, but also not. It\u0027s a 3x3 pickaxe!§r\n\nMake good use of this! You want it, I know it! This bad boy will give you so many ores in no time, given you are in a vein.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5247,7 +5253,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "LV Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have.\n\nBe it either §dSodium§r, §dLithium§r or §dCadmium§r, you will need either an Electrolyzer or a Centrifuge to obtain them. They do not exist as ore.\n\nMy recommendation is: find a Salt vein, and either §aelectrolyze Salt§r for §dSodium§r, or §aOre wash Lepidolite§r for §dLithium§r.\n\n\nGet §eany§r of the three batteries to complete this quest.",
+          "desc:8": "§aBatteries§r for storing energy! They can be put into the energy slot at the bottom middle of machine GUIs, or in a §9Battery Buffer§r. Each battery accepts up to §atwo amps§r, and outputs up to §aone amp§r.\n\n§7LV§r, §bMV§r, and §6HV§r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. §2Lithium§r has the best capacity, followed by §7Cadmium§r, then §9Sodium§r.\n\nBe it either §dSodium§r, §dLithium§r or §dCadmium§r, you will need either an Electrolyzer or a Centrifuge to obtain them. They do not exist as ore.\n\nMy recommendation is: find a Salt vein, and either §aelectrolyze Salt§r for §dSodium§r, or §aOre wash Lepidolite§r for §dLithium§r.\n\n\nGet §eany§r of the three batteries to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5713,7 +5719,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Sifter takes §dGem type§r §aPurified Ores§r to turn them into high grade gems with §6higher yield§r than other means.\n\n\n§9Note:§r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However this is a rather slow process so you may sometimes want to smelt this type of ore directly into the Gem.",
+          "desc:8": "The Sifter sifts §dGem type§r §aPurified Ores§r to find §aExquisite§r and §aFlawless§r Gems, which can be cut into normal Gems. It also finds §aPurified Dusts§r of that gem. Overall this gives a §6higher yield§r than other means.\n\nA small amount of §aFlawless Emerald§r will be required soon for §bMV§r §aEmitters§r and §aSensors§r.\n\nEach higher tier of Sifter increases the chance of all Gem types to be found. Therefore, you should run this machine at the §6highest tier§r you can.\n\n§9Note:§r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However this is a rather slow process, so you may sometimes want to smelt this type of ore directly into the Gem.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7121,7 +7127,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oCheck the recipe from the wire, and then in the Material JEI page, check the recipe for the dust. Handy isn\u0027t it?§r\n\nNow is probably time to put some lossless wires everywhere! Don\u0027t get too addicted, they do not come cheap.\n\n\n§bNote:§r No version of GregTech had actual Superconductors for LV up until Gregicality and GTCEu. Though some modpacks had lossless cables.",
+          "desc:8": "§oCheck the recipe from the wire, and then in the Material JEI page, check the recipe for the dust. Handy isn\u0027t it?§r\n\n§6Superconductors§r are special Wires available for each Voltage tier. They do not have any Cable counterpart, but they have §6no cable loss§r! They also don\u0027t damage you when you touch them.\n\nNow is probably time to put some §6lossless§r wires everywhere! Don\u0027t get too addicted, they do not come cheap.\n\nSuperconductors are also used to craft their tier\u0027s §aField Generators§r, a special crafting component used in some niche recipes.\n\n§bNote:§r No version of GregTech had actual Superconductors for LV up until Gregicality and GTCEu. Though some modpacks had lossless cables.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7951,7 +7957,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the MV Age. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nConveyors, Pumps and Robot Arms are upgrades to LV versions if you use them as covers.",
+          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the §bMV Age§r. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nThe §9§bMV §9Emitter§r (and §9Sensor§r) will require a §aFlawless Emerald§r. With §bMV§r power, those must be obtained from passing §aPurified Emerald Ore§r through the §9Sifter§r. At §6HV§r, they can be constructed from normal §aEmeralds§r.\n\nConveyors, Pumps and Robot Arms are upgrades to §7LV§r versions if you use them as covers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7976,16 +7982,22 @@
       "questID:3": 113,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
               "Count:3": 48,
               "Damage:2": 274,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 3,
+              "Damage:2": 278,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem_flawless"
             }
-          }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
         }
       },
       "tasks:9": {
@@ -8117,7 +8129,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Pyrolyse Oven processes organic products by thermal decomposition in an inert environment.§r\n\nThe §3Pyrolyse Oven§r is an electric equivalent of the §3Coke Oven§r. It can produce §9Coal Coke§r and §9Charcoal§r with a §9Creosote§r byproduct just as before, but also has additional §6Organic Byproducts§r. The most beneficial of these are §aWood Tar§r and §aCharcoal Byproducts§r. Charcoal Byproducts isn\u0027t useful right now, but Wood Tar is (more in the Benzene Quest).\nAnother product is §aBiomass§r, which is more pertinent for progression §oright now§r.\n\nThose byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\nYou will need to read the §9Distillation§r Quest to hopefully understand the full scale...\n\n\nYou can §ddouble the speed§r of some recipes using §aNitrogen§r. However I would not recommend it, as that requires two §3LV Centrifuges§r, and brings the §3Pyrolyse Oven§r outside of the §d64EU/t§r range, which is achievable with one single §3LV Energy Hatch§r.\n\n\nThe §3Cupronickel Coils§r are more than enough to get started, but you may want to upgrade eventually.\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r In GT5u, the structure for the pyrolyse is a giant box with only 9 coils inside. Players usually spend several minutes debugging what is wrong due to the lack of JEI preview.",
+          "desc:8": "§oThe Pyrolyse Oven processes organic products by thermal decomposition in an inert environment.§r\n\nThe §3Pyrolyse Oven§r is an electric equivalent of the §3Coke Oven§r. It can produce §9Coal Coke§r and §9Charcoal§r with a §9Creosote§r byproduct just as before, but also has additional §6Organic Byproducts§r. The most beneficial of these are §aWood Tar§r and §aCharcoal Byproducts§r. Charcoal Byproducts isn\u0027t useful right now, but Wood Tar is (more in the Benzene Quest).\nAnother product is §aBiomass§r, which is more pertinent for progression §oright now§r.\n\nThose byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\nYou will need to read the §9Distillation§r Quest to hopefully understand the full scale..\n\n§bNitrogen§r can optionally be used in certain recipes. This increases the energy usage from §d64 EU/t§r to §596 EU/t§r, but §ddoubles the speed§r. This requires an additional §7LV §3Centrifuge§r, and brings it out of the range of a single §7LV §3Energy Hatch§r.\nThis is probably not worth doing for now, but later you can make your choice.\n\n\nThe §3Cupronickel Coils§r are more than enough to get started, but you may want to upgrade eventually.\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r In GT5u, the structure for the Pyrolyse Oven is a giant box with only 9 coils inside. Players usually spend several minutes debugging what is wrong due to the lack of JEI preview.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8974,7 +8986,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oMore upgrades...! you will need the MV Cutting Machine, for... MV recipes, duh!§r\n\n\nI recommend you run this machine with §dLubricant§r.",
+          "desc:8": "§oMore upgrades...! §r\n\nThe §bMV§a Cutting Machine§r is required to cut §7Silicon Boules§r to prepare them for §aLaser Engraving§r.\n\nI recommend you run this machine with §dLubricant§r, to cut down on the processing time. Lubricant can be brewed from an Oil and §aTalc§r, §2Soapstone§r or §cRedstone§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9004,12 +9016,12 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1612,
+              "Damage:2": 79,
               "OreDict:8": "",
-              "id:8": "gregtech:machine",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Fluid:10": {
-                  "Amount:3": 16000,
+                  "Amount:3": 1000,
                   "FluidName:8": "lubricant"
                 }
               }
@@ -9778,7 +9790,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oMore complex Alloys require higher Tier machines to mix the Dusts together.§r\n\nThe first step to dive deeper into the MV Age starts here.",
+          "desc:8": "§oMore complex Alloys require higher Tier machines to mix the Dusts together.§r\n\nThe first step to dive deeper into the §bMV Age§r starts here.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13846,7 +13858,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTitanium has the highest corrosion resistance and strength-to-density ratio of any metallic element.§r\n\nLike §8§7Stainless Steel§r, §bAluminium§r, and §8Steel§r for their respective tiers, Titanium is the main material for §5EV§r machine.\n\nTo get yourself Titanium, §dRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §7Carbon§r, §3Chlorine§r, §bOxygen§r, and §dMagnesium§r used in the process can be perfectly recovered from the byproduct §1Carbon Monoxide§r and §5Magnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r.\n\n\n§c⚠ Quests EV and above are not completed yet! Only rough progression is outlined in the quests.",
+          "desc:8": "§oTitanium has the highest corrosion resistance and strength-to-density ratio of any metallic element.§r\n\nLike §8§7Stainless Steel§r, §bAluminium§r, and §8Steel§r for their respective tiers, Titanium is the main material for §5EV§r machines.\n\nTo get yourself Titanium, §dRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §7Carbon§r, §3Chlorine§r, §bOxygen§r, and §dMagnesium§r used in the process can be perfectly recovered from the byproduct §1Carbon Monoxide§r and §5Magnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r.\n\n\n§c⚠ Quests EV and above are not completed yet! Only rough progression is outlined in the quests.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14113,7 +14125,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cTNT§r (Trinitrotoluene) can\u0027t be prepared with the usual Gunpowder and Sand anymore. Instead, make §aGelled Toluene§r and react it with Sulfuric Acid to make TNT.\n\nI do not have any tips to give you for §aToluene§r. No matter what you do, it will be painful!\n\n§cTNT§r is used in the §3Implosion Compressor§r to make Gems. It also blows stuff up.\nTechnically Dynamite could also be used... but that\u0027s extremely inconvenient to obtain.",
+          "desc:8": "§cTNT§r (Trinitrotoluene) can\u0027t be prepared with the usual Gunpowder and Sand anymore. Instead, make §aGelled Toluene§r and react it with Sulfuric Acid to make TNT.\n\nI do not have any tips to give you for §aToluene§r. No matter what you do, it will be painful!\n§aToluene§r will also be used in the §5EV Age§r to make §cGasoline§r.\n\n§cTNT§r is used in the §3Implosion Compressor§r to make Gems. It also blows stuff up.\nTechnically Dynamite could also be used... but that\u0027s extremely inconvenient to obtain.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15334,7 +15346,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Just like in §bMV§r, more higher-tier components.\n\nThe §dSensor§r makes a reappearance as a required piece here.",
+          "desc:8": "Just like in §bMV§r, more higher-tier components. At least there\u0027s no painful §aFlawless Gems§r here.\n\nThe §dSensor§r makes a reappearance as a required piece here.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15788,7 +15800,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§5Player:§r §oI hate mining!§r\n\n§5Writer:§r §oBut I gave you Mining Hammers!§r\n\n§5Player:§r §oI hate mining!§r\n\nA solution for you - albeit relatively slow for the LV variant - is the §3Miner§r!\n\nGet a charged Battery, or multiple Batteries and a Battery Buffer, and place the §3Miner§r above a vein to make this kind soul make an entire vein for you!\nVertical range is unlimited. Horizontal range is written on the tooltip.\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Tip:§r I highly suggest you put an §3ME Chest§r as the output inventory to make transporting the ores back home a simple task. The §3ME Chest§r can be powered with EU directly.",
+          "desc:8": "§5Player:§r §oI hate mining!§r\n\n§5Writer:§r §oBut I gave you Mining Hammers!§r\n\n§5Player:§r §oI hate mining!§r\n\nA solution for you - albeit relatively slow for the LV variant - is the §3Miner§r!\n\nGet a charged Battery, or multiple Batteries and a Battery Buffer, and place the §3Miner§r above a vein to make this kind soul mine an entire vein for you!\nVertical range is unlimited. Horizontal range is written on the tooltip.\n\nDo not forget to §dchunkload§r with FTB:Utilities (claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Tip:§r I highly suggest you put an §3ME Chest§r as the output inventory to make transporting the ores back home a simple task. The §3ME Chest§r can be powered with EU directly.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16106,7 +16118,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Making §aAE2 Presses§r will unlock all the §9Processors§r from AE2, opening more content, better recipes and automation.",
+          "desc:8": "Making §aAE2 Presses§r will unlock all the §9Processors§r from AE2, opening more content, better recipes and automation.\n\nAE2 §9Printed Circuits§r are made in the §aForming Press§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17871,7 +17883,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis one isn\u0027t a crafting component in anything! It\u0027s exclusively a cover.§r\n\nThe §aFluid Regulator§r is sort of the equivalent to a Robot Arm for fluids. It can transfer fluids, but it can also supply an exact amount of fluid or keep an exact amount of fluid in its target inventory.\n\n§bLore§r: Yes, the texture for this is simply the Fluid Pump texture reflected around the vertical axis.",
+          "desc:8": "§oA crafting component, but also a cover!§r\n\nThe §aFluid Regulator§r is sort of the equivalent to a Robot Arm for fluids. It can transfer fluids, but it can also supply an exact amount of fluid or keep an exact amount of fluid in its target inventory.\n\n§bLore§r: Yes, the texture for this is simply the Fluid Pump texture reflected around the vertical axis.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18149,7 +18161,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §aDiode§r (block, not item component) accepts energy inputs from 5 sides, but only outputs through a single side. This is a niche component which could be useful in some compact setups.\n\nYou can use a §9Soft Hammer§r to change the Amperage limit of the output. ",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §aDiode§r (block, not item component) accepts energy inputs from 5 sides, but only outputs through a single side. Its main use is to act as a repeater to boost energy levels back to full across lossy cables, but it could also be useful in some compact setups.\n\nYou can use a §9Soft Hammer§r to change the Amperage limit of the output. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18387,7 +18399,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest will cover all the units you will encounter in GregTech.§r\n\n- §dFluids§r are measured in millibuckets, or mB. 1 mB is equivalent to 1 L (Litre), which is sometimes used.\nOne nugget or tiny dust of material is 16 mB, one ingot is 144 mB, one gem is 250 mB, one bucket is 1000 mB, and one block is 1296 mB. \n- §dTime§r is measured in ticks, or t, each of which is 1/20 of an in-game second.\n- §dEnergy§r is measured in Energy Units, or EU. 1 EU is equivalent to 4 RF or 2 mB of Steam.\nVery occasionally hours (h) will be used, which is 3600 seconds, or 72k ticks.\n- §dPower§r is measured in EU per tick (EU/t). §dVoltage§r is measured in volts (V), which are EU/t per amp.\n\n§bLore§r: Before EU and RF, there were Minecraft Joules (MJ), the native energy system for BuildCraft. When EU was introduced, it was calculated that 2.5 EU \u003d 1 MJ based on how much energy their coal generators made. Then when RF was introduced with Thermal Expansion 3, it was defined that 10 RF \u003d 1 MJ. Therefore 1 EU \u003d 4 RF by default.",
+          "desc:8": "§oThis quest will cover all the units you will encounter in GregTech.§r\n\n- §dFluids§r are measured in millibuckets, or mB. 1 mB is equivalent to 1 L (Litre), which is sometimes used.\nOne nugget or tiny dust of material is 16 mB, one ingot is 144 mB, one gem is 250 mB, one bucket is 1000 mB, and one block is 1296 mB. \n\n- §dTime§r is measured in ticks, or t, each of which is 1/20 of an in-game second.\nVery occasionally hours (h) will be used, which is 3600 seconds, or 72k ticks.\n\n- §dEnergy§r is measured in Energy Units, or EU. 1 EU is equivalent to 4 RF or 2 mB of Steam. Energy is transferred in Packets, or p.\n\n- §dPower§r is measured in EU per tick (EU/t). §dVoltage§r is measured in volts (V), which are EU/p. §dAmperage§r is measured in amperes (A), which are p/t.\n\n§bLore§r: Before EU and RF, there were Minecraft Joules (MJ), the native energy system for BuildCraft. When EU was introduced, it was calculated that 2.5 EU \u003d 1 MJ based on how much energy their coal generators made. Then when RF was introduced with Thermal Expansion 3, it was defined that 10 RF \u003d 1 MJ. Therefore 1 EU \u003d 4 RF by default.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18629,7 +18641,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Additional types of resources will be needed for the §6Steam Age§r. \n\n§\n§cRedstone§r and §bNickel§r are found in their own veins underground.",
+          "desc:8": "Additional types of resources will be needed for the §6Steam Age§r. \n\n§\n§cRedstone§r, §5Lead§r, and §bNickel§r are found in their own veins underground.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18668,7 +18680,7 @@
               "id:8": "minecraft:sand"
             },
             "2:10": {
-              "Count:3": 24,
+              "Count:3": 48,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:redstone"
@@ -18676,6 +18688,12 @@
             "3:10": {
               "Count:3": 24,
               "Damage:2": 69,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "4:10": {
+              "Count:3": 24,
+              "Damage:2": 55,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
@@ -18694,26 +18712,26 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 64,
+              "Count:3": 32,
               "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:clay_ball"
+              "OreDict:8": "logWood",
+              "id:8": "minecraft:log"
             },
             "1:10": {
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "sand",
-              "id:8": "minecraft:sand"
-            },
-            "2:10": {
               "Count:3": 32,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:redstone"
             },
-            "3:10": {
+            "2:10": {
               "Count:3": 32,
               "Damage:2": 69,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "3:10": {
+              "Count:3": 32,
+              "Damage:2": 55,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
@@ -19663,6 +19681,96 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "311:10": {
+      "preRequisites:11": [
+        145
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oIf you\u0027re still running off Steam, here is a solution for you!§r\n\nThe §aLarge Steam Turbine§r is a multiblock Steam Turbine for §6HV§r power. The power output isn\u0027t quite on the level of the other §6HV§r options, but it is relatively cheap and simple to set up. You will probably need many §3Large Boilers§r to keep up with its Steam consumption.\n\nEach Large Turbine will require a §9Turbine Rotor§r and a §9Rotor Holder§r. The type of Rotor can affect the §eefficiency§r and §dpower output§r of the Large Turbine. More details are explained in the Large Turbine Mechanics quest.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1010,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Large Steam Turbine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 311,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1010,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "312:10": {
+      "preRequisites:11": [
+        311,
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 711,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Large Turbine Mechanics",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 312,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -19878,7 +19986,7 @@
           "id:3": 13,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
+          "x:3": -30,
           "y:3": -24
         },
         "6:10": {
@@ -19899,7 +20007,7 @@
           "id:3": 36,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
+          "x:3": -30,
           "y:3": 12
         },
         "9:10": {
@@ -19913,42 +20021,42 @@
           "id:3": 52,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": -24
         },
         "11:10": {
           "id:3": 60,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": 12
         },
         "12:10": {
           "id:3": 61,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": 48
         },
         "13:10": {
           "id:3": 63,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
+          "x:3": -30,
           "y:3": 48
         },
         "14:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
+          "x:3": 102,
           "y:3": 12
         },
         "15:10": {
           "id:3": 77,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": -24
         },
         "16:10": {
@@ -19983,15 +20091,15 @@
           "id:3": 105,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": -24
         },
         "21:10": {
           "id:3": 106,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": 84
+          "x:3": -120,
+          "y:3": 48
         },
         "22:10": {
           "id:3": 112,
@@ -20004,28 +20112,28 @@
           "id:3": 144,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": 120
+          "x:3": -120,
+          "y:3": 84
         },
         "24:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
+          "x:3": 102,
           "y:3": -24
         },
         "25:10": {
           "id:3": 155,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": 84
         },
         "26:10": {
           "id:3": 157,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": 48
         },
         "27:10": {
@@ -20039,15 +20147,15 @@
           "id:3": 228,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
+          "x:3": 102,
           "y:3": 84
         },
         "29:10": {
           "id:3": 232,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": 150
+          "x:3": -90,
+          "y:3": 84
         },
         "30:10": {
           "id:3": 244,
@@ -20060,42 +20168,42 @@
           "id:3": 279,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": 120
         },
         "32:10": {
           "id:3": 280,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": 150
         },
         "33:10": {
           "id:3": 281,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
+          "x:3": 12,
           "y:3": 120
         },
         "34:10": {
           "id:3": 282,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": 150
         },
         "35:10": {
           "id:3": 283,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": 150
         },
         "36:10": {
           "id:3": 284,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
+          "x:3": 72,
           "y:3": 120
         },
         "37:10": {
@@ -20111,6 +20219,13 @@
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 12
+        },
+        "39:10": {
+          "id:3": 312,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 120
         }
       }
     },
@@ -21314,7 +21429,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -126,
-          "y:3": -36
+          "y:3": -18
         },
         "5:10": {
           "id:3": 194,
@@ -21335,7 +21450,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
-          "y:3": -36
+          "y:3": -18
         },
         "8:10": {
           "id:3": 197,
@@ -21503,7 +21618,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
-          "y:3": -6
+          "y:3": 12
         },
         "32:10": {
           "id:3": 223,
@@ -21524,7 +21639,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -126,
-          "y:3": -6
+          "y:3": 12
         },
         "35:10": {
           "id:3": 226,
@@ -21558,8 +21673,8 @@
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": 54
+          "x:3": -156,
+          "y:3": -18
         },
         "40:10": {
           "id:3": 231,
@@ -21580,7 +21695,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
-          "y:3": 24
+          "y:3": 42
         },
         "43:10": {
           "id:3": 242,
@@ -21594,7 +21709,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -126,
-          "y:3": 24
+          "y:3": 42
         },
         "45:10": {
           "id:3": 274,
@@ -21607,8 +21722,8 @@
           "id:3": 288,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": 54
+          "x:3": -156,
+          "y:3": 12
         },
         "47:10": {
           "id:3": 289,
@@ -21616,6 +21731,13 @@
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -114
+        },
+        "48:10": {
+          "id:3": 311,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 42
         }
       }
     },
@@ -21868,6 +21990,13 @@
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": 12
+        },
+        "33:10": {
+          "id:3": 312,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -48
         }
       }
     },
