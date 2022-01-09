@@ -7229,7 +7229,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oGTCE killed Cell Chemistry... GTCE killed Cells!§r\n\n... So let\u0027s have GTCEu revive them! Nonono, not the Cell Chemistry, the Cells.\n\nCells hold §done bucket§r of Fluid and are stackable§r.\n\nUniversal Cells hold up to §done bucket§r, but also can store §9fractions§r of Buckets. Ideal to store leftover Fluid without spending a whole Drum. Universal Cells with the same type and amount of Fluid inside them stack.\n\nSteel Cells are like Universal Cells, but hold up to §d8 buckets§r.",
+          "desc:8": "§oGTCE killed Cell Chemistry... GTCE killed Cells!§r\n\n... So let\u0027s have GTCEu revive them! Nonono, not the Cell Chemistry, the §9Cells§r.\n\nAll Cell types with the same type and amount of Fluid inside them stack.\n\nCells hold §done bucket§r of Fluid and are stackable§r.\n\nUniversal Cells hold up to §done bucket§r, but also can store §9fractions§r of Buckets. Ideal to store leftover Fluid without spending a whole Drum. \n\nSteel Cells are like Universal Cells, but hold up to §d8 buckets§r. Cells made from higher tier materials can hold even more fluid.\n\nLike Drums, Cells can be placed into a crafting grid to clear their contents.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7263,14 +7263,20 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 4,
+              "Count:3": 1,
               "Damage:2": 78,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
             "1:10": {
-              "Count:3": 4,
+              "Count:3": 1,
               "Damage:2": 79,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 80,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -8199,7 +8205,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\nI recommend you bring up a §3Battery Buffer§r, and a lot of §3Drums§r or a §3Steel Multiblock Tank§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
+          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil! I recommend you bring a §3Battery Buffer§r, and a lot of §3Drums§r or §3Steel Multiblock Tanks§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB Utilities (claim the chunk with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10797,7 +10803,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Aluminium Cells, a very big upgrade over the Universal Cells.\n\nThey can hold any fraction of Fluid, up to §d32 buckets§r.\nThey are also stackable.",
+          "desc:8": "Aluminium Cells, a big upgrade over the Steel Cells.\n\nThey can hold any fraction of Fluid, up to §d32 buckets§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
