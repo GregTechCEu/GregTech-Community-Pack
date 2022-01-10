@@ -15,3 +15,11 @@ assembler.recipeBuilder()
     .EUt(15)
     .buildAndRegister();
 
+// chlorine colour wash
+chemical_bath.recipeBuilder()
+    .inputs(<ore:blockElevator>)
+    .fluidInputs(<liquid:chlorine> * 50)
+    .outputs(<elevatorid:elevator_gray>)
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
