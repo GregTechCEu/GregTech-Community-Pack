@@ -6072,7 +6072,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Steam Extractor extracts... Wait no this was in the line one chapter ago!§r\n\nThe reason I did not present LV versions of Steam machines is because they are not required! You may not want to invest into an upgrade that virtually does nothing. Except for §othis one§r specifically because it does more.\n\n\nThe §3Basic Extractor§r gains Fluid capabilities, which enables §aFluid Extraction§r. Use it to melt Rubber that you previously solidified, to §dmelt Soldering Alloy§r for your circuits, to §dmelt Redstone Alloy§r for the §6best Vacuum Tube recipe§r in the §3Assembler§r!\n\n\n§bLore:§r Did you notice this machine is both an Extractor and a Fluid Extractor? The two of them were separated in previous versions of GregTech.",
+          "desc:8": "§oThe Steam Extractor extracts... Wait no this was in the line one chapter ago!§r\n\nThe reason I did not present LV versions of Steam machines is because they are not required! You may not want to invest into an upgrade that virtually does nothing. Except for §othis one§r specifically because it does more.\n\n\nThe §3Basic Extractor§r gains Fluid capabilities, which enables §aFluid Extraction§r. Use it to melt Rubber that you previously solidified, to §dmelt Soldering Alloy§r for your circuits, to §dmelt Red Alloy§r for the §6best Vacuum Tube recipe§r in the §3Assembler§r!\n\n\n§bLore:§r Did you notice this machine is both an Extractor and a Fluid Extractor? The two of them were separated in previous versions of GregTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9909,7 +9909,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nStainless Steel is the material for §6HV§r components, like Aluminium for §bMV§r and Steel for §7LV§r. It is also used in high quantities for the §3Distillation Tower§r.\nIt requires §cChrome§r, obtained mainly from §cRuby§r, and §2Manganese§r, obtained from §2Pyrolusite§r and others in its vein.\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
+          "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nStainless Steel is the material for §6HV§r components, like Aluminium for §bMV§r and Steel for §7LV§r. It is also used in high quantities for the §3Distillation Tower§r. It unlocks a lot of §6nice stuff§r as well!\n\nIt requires §cChrome§r, obtained mainly from §cRuby§r, and §2Manganese§r, obtained from §2Pyrolusite§r and others in its vein.\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14213,7 +14213,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!). \nOr abuse §7MC-123081§r and place an §dEnd Crystal§r immediately upon spawning in the End to skip the flight. We won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\nThis quest will print the §alocation of the nearest Stronghold§r in chat. Note it, or don\u0027t note it and locate the Stronghold the vanilla way...",
+          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!). \nOr abuse §7MC-123081§r and place an §dEnd Crystal§r immediately upon spawning in the End to skip the flight. We won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\n§aEyes of Ender§r are additionally used in crafting certain components, or for creating §5Quantum Eyes§r.\n\nThis quest will print the §alocation of the nearest Stronghold§r in chat. Note it, or don\u0027t note it and locate the Stronghold the vanilla way...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15362,7 +15362,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Just like in §bMV§r, more higher-tier components. At least there\u0027s no painful §aFlawless Gems§r here.\n\nThe §dSensor§r makes a reappearance as a required piece here.",
+          "desc:8": "Just like in §bMV§r, more higher-tier components. At least there\u0027s no painful §aFlawless Gems§r here.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
