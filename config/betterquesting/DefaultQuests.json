@@ -1826,10 +1826,10 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 6,
-              "Damage:2": 260,
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:fluid_pipe_small"
+              "id:8": "gregtech:steam_casing"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3139,8 +3139,7 @@
     },
     "38:10": {
       "preRequisites:11": [
-        24,
-        37
+        47
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3391,7 +3390,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe harder component for circuits§r\n\nVacuum Tubes are painful to make, hehe.\nWires and Sticks are sadly very expensive right now, but they will get cheaper in LV Age.\n\nVacuum Tubes are also technically your first Ultra Low Voltage (ULV) Circuit! You won\u0027t find very much use for these by themselves though.",
+          "desc:8": "§oThe harder component for circuits§r\n\nVacuum Tubes are painful to make, hehe.\nWires and Sticks are sadly very expensive right now, but they will get cheaper in §7LV§r Age.\n\nVacuum Tubes are also technically your first Ultra Low Voltage (§8ULV§r) Circuit! You won\u0027t find very much use for these by themselves though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3866,7 +3865,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTo not confound with a certain man.§r\n\nThe fluid pipes have been reworked in GTCEu, and they now work really well. The one issue they have is the limited throughput, which you may encounter as you upgrade to more and more boilers.\n\nPotin Fluid Pipes have a very §6high Throughput§r, for the material tier and cost, you may use this.\n\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connection, use your §5Wrench§r on the grid.\n\n\n§bLore:§r Potin Fluid Pipes were originally created in GT++, and were a huge power spike in GT:NH. Despite that fact, everybody seems to be enjoying them, and so we do too.\nOther fun fact: this is an alloy used in coins! Don\u0027t question the logic.",
+          "desc:8": "§oTo not confound with a certain man.§r\n\nThe one issue you may have with your §6Bronze§r pipes is the limited throughput, which you may encounter as you upgrade to more and more boilers.\n\n§6Potin§r Fluid Pipes have a very §6high Throughput§r, for the material tier and cost, you may use this.\n\nThis quest calls for either the small or normal version, get §eeither§r to complete the quest.\n\n§bLore 1:§r Potin Fluid Pipes were originally created in GT++, and were a huge power spike in GT:NH. Despite that fact, everybody seems to be enjoying them, and so we do too.\n\n§bLore 2:§r this is an alloy used in coins! Don\u0027t question the logic.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3884,7 +3883,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -3916,15 +3915,20 @@
               "Count:3": 1,
               "Damage:2": 2037,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 2037,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
-            },
-            "2:10": {
+              "id:8": "gregtech:fluid_pipe_small"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 2037,
               "OreDict:8": "",
@@ -19950,6 +19954,87 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "316:10": {
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNot just limited to Steam§r\n\n§9Fluid Pipes§r will transport Steam (and other fluids) between machines for you. They have been reworked in GTCEu, and they now work really well - no more sloshing!\n\nEach pipe has a certain §9throughput§r in L/s (mB/s), and a §9buffer§r equivalent to its throughput in half a second. For example, a normal Bronze Fluid Pipe transfers 2,400 L/s, and has a 1,200 L buffer.\n\nGet §eeither§r a Small, or Normal Bronze Fluid Pipe to complete this quest.\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your §5Wrench§r on the grid.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 260,
+            "OreDict:8": "",
+            "id:8": "gregtech:fluid_pipe_normal"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Steam Pipes",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 316,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:golden_apple"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:fluid_pipe_small"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:fluid_pipe_normal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -20431,7 +20516,7 @@
           "id:3": 19,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -234,
+          "x:3": -294,
           "y:3": -96
         },
         "2:10": {
@@ -20445,14 +20530,14 @@
           "id:3": 21,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -174,
+          "x:3": -234,
           "y:3": -96
         },
         "4:10": {
           "id:3": 22,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -174,
+          "x:3": -234,
           "y:3": -156
         },
         "5:10": {
@@ -20473,28 +20558,28 @@
           "id:3": 25,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -114,
+          "x:3": -174,
           "y:3": -156
         },
         "8:10": {
           "id:3": 26,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -180,
+          "x:3": -240,
           "y:3": -234
         },
         "9:10": {
           "id:3": 27,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -168,
+          "x:3": -228,
           "y:3": -282
         },
         "10:10": {
           "id:3": 28,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -234,
+          "x:3": -294,
           "y:3": -156
         },
         "11:10": {
@@ -20536,14 +20621,14 @@
           "id:3": 34,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
+          "x:3": -288,
           "y:3": -222
         },
         "17:10": {
           "id:3": 35,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
+          "x:3": -288,
           "y:3": -282
         },
         "18:10": {
@@ -20564,8 +20649,8 @@
           "id:3": 38,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -174,
-          "y:3": 24
+          "x:3": -114,
+          "y:3": -96
         },
         "21:10": {
           "id:3": 39,
@@ -20620,7 +20705,7 @@
           "id:3": 47,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -126,
+          "x:3": -168,
           "y:3": -90
         },
         "29:10": {
@@ -20634,22 +20719,29 @@
           "id:3": 77,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
+          "x:3": -168,
           "y:3": -282
         },
         "31:10": {
           "id:3": 106,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": -90
+          "x:3": -168,
+          "y:3": 30
         },
         "32:10": {
           "id:3": 109,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
+          "x:3": -108,
           "y:3": -282
+        },
+        "33:10": {
+          "id:3": 316,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -288,
+          "y:3": -30
         }
       }
     },
