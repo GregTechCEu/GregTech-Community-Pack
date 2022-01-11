@@ -4673,7 +4673,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYou can put this quest off and come back to it once you hit MV Age. It will appear in both chapters as well as in the \"Tips and Tricks\" tab. §r\n\nThis quest will go into the energy mechanics in more detail. If you have a basic understanding of electricity in §ereal life§r, the GTEU system is not too different! An even more in-depth guide can be found on the GTCEu wiki.\n\nElectrical energy in §dGregTech§r is measured in §dEnergy Units (EU)§r. They are transported down connections in §e§dpackets (p)§r. Packet transfer has two parameters: §2Voltage§r is the amount of EU in each packet §2(EU/p, or V)§r, and §2Amperage§r is the number of packets which pass a point per tick §2(p/t, or A)§r.\n\nThink of Cables in a network as a §ehighway§r, with packets being the cars on it: §2voltage§r is analogous to the §aspeed§r of each car, and §2amperage§r is like the §anumber of cars§r which pass through the highway per unit of time. (This applies to real life too!)\n\n§2§rThe product of §2Voltage§r and §2Amperage (V x A, or EU/p x p/t)§r is §dpower§r, or §dEU/t§r. This is what machines list their energy consumption as. For example, the §3EBF §bAluminium§r recipe calls for §d120 EU/t§r, and this can be supplied as §d30V x 4A§r (4A of §7LV§r), or §d120V x 1A§r (1A of §bMV§r). \n\nHere comes the §4dangerous§r part: \n- Cables and Wires which receive higher §2voltage§r than their rating will §cburn§r! Cables and Wires will also §cburn§r if too many §2amps§r pass through them.\n- Machines which receive higher §2voltage§r than their tier will §cexplode§r! Putting extra §3§2amps§r into a machine is §asafe§r, however.\n\n§9§lTL;DR:§r Group up Machines and Generators by §2Voltage§r, and avoid sharing them.\n\n§9Note:§r The Amperage bug, exploit, feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. Now the Energy net works as intended.",
+          "desc:8": "§oYou can put this quest off and come back to it once you hit MV Age. It will appear in both chapters as well as in the \"Tips and Tricks\" tab. §r\n\nThis quest will go into the energy mechanics in more detail. If you have a basic understanding of electricity in §ereal life§r, the GTEU system is not too different! An even more in-depth guide can be found on the GTCEu wiki.\n\nElectrical energy in §dGregTech§r is measured in §dEnergy Units (EU)§r. They are transported down connections in §e§dpackets (p)§r. Packet transfer has two parameters: §2Voltage§r is the amount of EU in each packet §2(EU/p, or V)§r, and §2Amperage§r is the number of packets which pass a point per tick §2(p/t, or A)§r.\n\nThink of Cables in a network as a §ehighway§r, with packets being the cars on it: §2voltage§r is analogous to the §aspeed§r of each car, and §2amperage§r is like the §anumber of cars§r which pass through the highway per unit of time. (This applies to real life too!)\n\n§2§rThe product of §2Voltage§r and §2Amperage (V x A, or EU/p x p/t)§r is §dpower§r, or §dEU/t§r. This is what machines list their energy consumption as. For example, the §3EBF §bAluminium§r recipe calls for §d120 EU/t§r, and this can be supplied as §d30V x 4A§r (supplied as 4A of §7LV§r), or §d120V x 1A§r (supplied as 1A of §bMV§r). \n\nHere comes the §4dangerous§r part: \n- Cables and Wires which receive higher §2voltage§r than their rating will §cburn§r! Cables and Wires will also §cburn§r if too many §2amps§r pass through them.\n- Machines which receive higher §2voltage§r than their tier will §cexplode§r! Putting extra §3§2amps§r into a machine is §asafe§r, however.\n\n§9§lTL;DR:§r Group up Machines and Generators by §2Voltage§r, and avoid sharing them.\n\n§9Note:§r The Amperage bug, exploit, feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. Now the Energy net works as intended.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7967,7 +7967,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the §bMV Age§r. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nThe §9§bMV §9Emitter§r (and §9Sensor§r) will require a §aFlawless Emerald§r. With §bMV§r power, those must be obtained from passing §aPurified Emerald Ore§r through the §9Sifter§r. At §6HV§r, they can be constructed from normal §aEmeralds§r.\n\nConveyors, Pumps and Robot Arms are upgrades to §7LV§r versions if you use them as covers.",
+          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the §bMV Age§r. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nThe §9§bMV §9Emitter§r and §9Sensor§r will require a §aFlawless Emerald§r, which is pretty painful to get at this stage. With §bMV§r power, those must be obtained from passing §aPurified Emerald Ore§r through the §9Sifter§r. At §6HV§r, they can be constructed from normal §aEmeralds§r.\n\nConveyors, Pumps and Robot Arms are upgrades to §7LV§r versions if you use them as covers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8052,6 +8052,12 @@
             "5:10": {
               "Count:3": 1,
               "Damage:2": 218,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 233,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -19643,7 +19649,7 @@
     },
     "310:10": {
       "preRequisites:11": [
-        94
+        133
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20030,6 +20036,108 @@
               "Damage:2": 260,
               "OreDict:8": "",
               "id:8": "gregtech:fluid_pipe_normal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "317:10": {
+      "preRequisites:11": [
+        201
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 312,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Digital Interface Cover",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 317,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 312,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "318:10": {
+      "preRequisites:11": [
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "There are a few new power options available for the §9§bMV§r age - check above this quest for the options. But for your initial §bMV§r power, you\u0027ll need to make an Advanced §9Steam Turbine§r.\n\nHigher-tier Generators will increase their fuel consumption proportionally to their Generation rate. The Advanced Steam Turbine will use §d2,560 mB Steam§r per second, equivalent to 128 mB/t.\n\nGiven enough fuel, you could also just continue to run off Steam with §3Large Boilers§r... your choice.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 951,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "First MV Power",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 318,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 951,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -21266,7 +21374,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 48
+          "y:3": 36
         },
         "1:10": {
           "id:3": 94,
@@ -21286,14 +21394,14 @@
           "id:3": 103,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 78
+          "x:3": 78,
+          "y:3": 72
         },
         "4:10": {
           "id:3": 113,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
+          "x:3": 78,
           "y:3": 0
         },
         "5:10": {
@@ -21427,7 +21535,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 216,
-          "y:3": 60
+          "y:3": 72
         },
         "24:10": {
           "id:3": 133,
@@ -21595,7 +21703,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 84
+          "y:3": 72
         },
         "48:10": {
           "id:3": 159,
@@ -21629,14 +21737,21 @@
           "id:3": 245,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 78,
-          "y:3": 78
+          "x:3": 168,
+          "y:3": 72
         },
         "53:10": {
           "id:3": 310,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 78,
+          "x:3": 270,
+          "y:3": 72
+        },
+        "54:10": {
+          "id:3": 318,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
           "y:3": 0
         }
       }
@@ -21685,8 +21800,8 @@
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 60,
-          "y:3": -42
+          "x:3": 6,
+          "y:3": 60
         },
         "4:10": {
           "id:3": 193,
@@ -21755,8 +21870,8 @@
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": 168
+          "x:3": -96,
+          "y:3": 102
         },
         "14:10": {
           "id:3": 203,
@@ -21769,7 +21884,7 @@
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -96,
+          "x:3": -42,
           "y:3": 168
         },
         "16:10": {
@@ -21854,7 +21969,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
-          "y:3": 114
+          "y:3": 72
         },
         "28:10": {
           "id:3": 217,
@@ -21888,8 +22003,8 @@
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": 66
+          "x:3": -96,
+          "y:3": 132
         },
         "33:10": {
           "id:3": 224,
@@ -21917,7 +22032,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -102,
-          "y:3": 72
+          "y:3": 162
         },
         "37:10": {
           "id:3": 228,
@@ -21937,8 +22052,8 @@
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -18
+          "x:3": -96,
+          "y:3": -48
         },
         "40:10": {
           "id:3": 231,
@@ -21986,8 +22101,8 @@
           "id:3": 288,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 12
+          "x:3": -126,
+          "y:3": -48
         },
         "47:10": {
           "id:3": 289,
@@ -22000,8 +22115,8 @@
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 42
+          "x:3": -126,
+          "y:3": 72
         },
         "49:10": {
           "id:3": 313,
@@ -22009,6 +22124,13 @@
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": -78
+        },
+        "50:10": {
+          "id:3": 317,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -126,
+          "y:3": 102
         }
       }
     },
