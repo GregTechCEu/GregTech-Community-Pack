@@ -26,22 +26,22 @@ chemical_bath.recipeBuilder()
 
 // dyeing
 val dyes = [
-    <liquid:dye_white> * 54,
-    <liquid:dye_orange> * 54,
-    <liquid:dye_magenta> * 54,
-    <liquid:dye_light_blue> * 54,
-    <liquid:dye_yellow> * 54,
-    <liquid:dye_lime> * 54,
-    <liquid:dye_pink> * 54,
-    <liquid:dye_gray> * 54,
-    <liquid:dye_light_gray> * 54,
-    <liquid:dye_cyan> * 54,
-    <liquid:dye_purple> * 54,
-    <liquid:dye_blue> * 54,
-    <liquid:dye_brown> * 54,
-    <liquid:dye_green> * 54,
-    <liquid:dye_red> * 54,
-    <liquid:dye_black> * 54
+    <liquid:dye_white> * 18,
+    <liquid:dye_orange> * 18,
+    <liquid:dye_magenta> * 18,
+    <liquid:dye_light_blue> * 18,
+    <liquid:dye_yellow> * 18,
+    <liquid:dye_lime> * 18,
+    <liquid:dye_pink> * 18,
+    <liquid:dye_gray> * 18,
+    <liquid:dye_light_gray> * 18,
+    <liquid:dye_cyan> * 18,
+    <liquid:dye_purple> * 18,
+    <liquid:dye_blue> * 18,
+    <liquid:dye_brown> * 18,
+    <liquid:dye_green> * 18,
+    <liquid:dye_red> * 18,
+    <liquid:dye_black> * 18
 ] as ILiquidStack[];
 
 val elevators = [
