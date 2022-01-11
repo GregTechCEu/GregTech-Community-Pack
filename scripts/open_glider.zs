@@ -26,9 +26,9 @@ recipes.addShaped("glider_scaffolding", <openglider:hang_glider_part:2>, [
 // Hang Glider
 recipes.removeByRecipeName("openglider:glider_basic");
 recipes.addShaped("glider_basic", <openglider:hang_glider_basic>, [
-    [<ore:screwSteel>, <ore:screwSteel>, <ore:screwSteel>],
+    [<ore:screwIron>, <ore:screwIron>, <ore:screwIron>],
     [<openglider:hang_glider_part>, <openglider:hang_glider_part:2>, <openglider:hang_glider_part:1>],
-    [<ore:screwSteel>, <ore:screwSteel>, <ore:screwSteel>]
+    [<ore:screwIron>, <ore:screwIron>, <ore:screwIron>]
 ]);
 
 // Advanced Hang Glider
