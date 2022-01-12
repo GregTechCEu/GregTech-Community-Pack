@@ -44,13 +44,13 @@ var seeds = [
 ] as IItemStack[];
 
 var plants = [
-    <minecraft:pumpkin>,
-    <minecraft:beetroot> * 2,
-    <minecraft:wheat>,
-    <minecraft:melon_block>,
-    <minecraft:brown_mushroom_block>,
-    <minecraft:red_mushroom_block>,
-    <minecraft:nether_wart_block>
+    <minecraft:pumpkin> * 3,
+    <minecraft:beetroot> * 12,
+    <minecraft:wheat> * 12,
+    <minecraft:melon_block> * 3,
+    <minecraft:brown_mushroom_block> * 4,
+    <minecraft:red_mushroom_block> * 4,
+    <minecraft:nether_wart_block> * 2
 ] as IItemStack[];
 
 for i, seed in seeds {
