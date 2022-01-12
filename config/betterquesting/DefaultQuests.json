@@ -20100,7 +20100,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "There are a few new power options available for the §9§bMV§r age - check above this quest for the options. But for your initial §bMV§r power, you\u0027ll need to make an Advanced §9Steam Turbine§r.\n\nHigher-tier Generators will increase their fuel consumption proportionally to their Generation rate. The Advanced Steam Turbine will use §d2,560 mB Steam§r per second, equivalent to 128 mB/t.\n\nGiven enough fuel, you could also just continue to run off Steam with §3Large Boilers§r... your choice.\n",
+          "desc:8": "There are a few new power options available for the §9§bMV§r age - check above this quest for the options. But for your initial §bMV§r power, you\u0027ll need to make an §bAdvanced §9Steam Turbine§r.\n\nHigher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The Advanced Steam Turbine will use §d5,120 mB Steam§r per second, equivalent to 256 mB/t.\n\nGiven enough fuel, you could also just continue to run off Steam with §3Large Boilers§r... your choice.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
