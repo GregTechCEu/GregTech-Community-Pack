@@ -988,6 +988,14 @@ recipes.addShaped("booster_card_new", <ae2wtlib:infinity_booster_card>, [
     [<metaitem:emitter.luv>, <ore:gtceScrewdrivers>]
 ]);
 
+// Portable Cell
+recipes.removeByRecipeName("appliedenergistics2:tools/network_portable_cell");
+recipes.addShaped("network_portable_cell_new", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 4000000.0, internalCurrentPower: 4000000.0}), [
+    [<ore:boltRedAlloy>, <ore:paneGlass> , <ore:boltRedAlloy>],
+    [<ore:circuitPrimitive>, <minecraft:chest>, <ore:circuitPrimitive>],
+    [<ore:plateWroughtIron>, <ore:wireGtSingleRedAlloy>, <ore:plateWroughtIron>]
+]);
+
 // Glass Cables
 val glass_cables = [
     <appliedenergistics2:part>,
