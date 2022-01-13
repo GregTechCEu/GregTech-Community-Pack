@@ -32,6 +32,11 @@ recipes.removeByRecipeName("appliedenergistics2:network/blocks/inscribers");
 
 // Charger
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_charger");
+recipes.addShaped("ae2_charger_new", <appliedenergistics2:charger>, [
+    [<ore:screwSteel>, <ore:plateSteel>, null],
+    [<ore:plateSteel>, <ore:cableGtSingleTin>, null],
+    [<ore:circuitBasic>, <ore:plateSteel>, null]
+]);
 
 // Certus Quartz Pillar Uncraft
 recipes.removeByRecipeName("appliedenergistics2:misc/deconstruction_certus_quartz_pillar");
