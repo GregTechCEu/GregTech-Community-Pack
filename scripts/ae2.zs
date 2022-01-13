@@ -929,13 +929,14 @@ recipes.addShaped("planes_annihilation_fluid", <appliedenergistics2:part:302>, [
 ]);
 
 // ME Terminal
-recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
+recipes.addShaped("terminals_base", <appliedenergistics2:part:380>, [
     [<ore:boltNetherQuartz>, <ore:circuitBasic>, <ore:boltNetherQuartz>],
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
 assembler.recipeBuilder()
     .inputs(<ore:circuitBasic> * 3)
+    .inputs(<ore:boltNetherQuartz> * 2)
     .inputs(<ore:itemIlluminatedPanel>)
     .inputs(<ore:plateDoubleSteel>)
     .outputs(<appliedenergistics2:part:380>)
