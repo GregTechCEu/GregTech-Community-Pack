@@ -929,6 +929,7 @@ recipes.addShaped("planes_annihilation_fluid", <appliedenergistics2:part:302>, [
 ]);
 
 // ME Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals");
 recipes.addShaped("terminals_base", <appliedenergistics2:part:380>, [
     [<ore:boltNetherQuartz>, <ore:circuitBasic>, <ore:boltNetherQuartz>],
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
