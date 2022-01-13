@@ -7233,7 +7233,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oGTCE killed Cell Chemistry... GTCE killed Cells!§r\n\n... So let\u0027s have GTCEu revive them! Nonono, not the Cell Chemistry, the §9Cells§r.\n\nCells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them §6stack§r.\n\nCells hold §done bucket§r of Fluid.\n\nUniversal Cells hold up to §done bucket§r, but also can store §9fractions§r of Buckets. Ideal to store leftover Fluid without spending a whole Drum. \n\nSteel Cells are like Universal Cells, but hold up to §d8 buckets§r. Cells made from higher tier materials can hold even more fluid.\n\nLike Drums, Cells can be placed into a crafting grid to clear their contents.",
+          "desc:8": "§oGTCE killed Cell Chemistry... GTCE killed Cells!§r\n\n... So let\u0027s have GTCEu revive them! Nonono, not the Cell Chemistry, the §9Cells§r.\n\nCells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them §6stack§r. They can be automatically filled with a §aCanning Machine§r.\n\nCells hold §done bucket§r of Fluid.\n\nUniversal Cells hold up to §done bucket§r, but also can store §9fractions§r of Buckets. Ideal to store leftover Fluid without spending a whole Drum. \n\nCells made from higher tier materials can hold even more fluid, but §9Drums§r and §9Super Tanks§r will hold more by then.\n\nLike Drums, Cells can be placed into a crafting grid to clear their contents.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7256,7 +7256,26 @@
         }
       },
       "questID:3": 102,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 79,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1,
+                  "FluidName:8": "neutronium"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -7275,12 +7294,6 @@
             "1:10": {
               "Count:3": 1,
               "Damage:2": 79,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 80,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -22098,34 +22111,20 @@
           "y:3": 66
         },
         "46:10": {
-          "id:3": 288,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -126,
-          "y:3": -48
-        },
-        "47:10": {
-          "id:3": 289,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -114
-        },
-        "48:10": {
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -126,
           "y:3": 72
         },
-        "49:10": {
+        "47:10": {
           "id:3": 313,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": -78
         },
-        "50:10": {
+        "48:10": {
           "id:3": 317,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -22378,20 +22377,13 @@
           "y:3": 96
         },
         "32:10": {
-          "id:3": 290,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 12
-        },
-        "33:10": {
           "id:3": 312,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -216,
           "y:3": -48
         },
-        "34:10": {
+        "33:10": {
           "id:3": 314,
           "sizeX:3": 24,
           "sizeY:3": 24,
