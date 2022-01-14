@@ -997,7 +997,7 @@ recipes.addShaped("booster_card_new", <ae2wtlib:infinity_booster_card>, [
 
 // Portable Cell
 recipes.removeByRecipeName("appliedenergistics2:tools/network_portable_cell");
-recipes.addShaped("network_portable_cell_new", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 4000000.0, internalCurrentPower: 4000000.0}), [
+recipes.addShaped("network_portable_cell_new", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 200000.0, internalCurrentPower: 200000.0}), [
     [<ore:boltRedAlloy>, <ore:paneGlass> , <ore:boltRedAlloy>],
     [<ore:circuitPrimitive>, <minecraft:chest>, <ore:circuitPrimitive>],
     [<ore:plateWroughtIron>, <ore:wireGtSingleRedAlloy>, <ore:plateWroughtIron>]
