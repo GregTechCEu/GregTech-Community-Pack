@@ -20062,7 +20062,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §9Digital Interface Cover (DIC)§r is a visual Cover. It can show useful things like the status and progress of Machines, or the amount of fluids stored in a Super Tank.\n\nIt can be upgraded to a §dWireless §9Digital Interface Cover§r in order to link the Cover and machine to the §aCentral Monitor§r.\n\nThe full extent of the §9DIC§r\u0027s capabilities are listed in the GTCEu Wiki and the §4Terminal§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
