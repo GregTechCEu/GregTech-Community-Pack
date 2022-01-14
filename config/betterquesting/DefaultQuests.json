@@ -20166,7 +20166,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oA higher-tech backpack!§r\n\nThe §9Portable Cell§r can hold items for you! It holds up to §a27§r types of items.\n\nWhat\u0027s more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an §aME Drive§r or §b§aME IO Port§r for convenience.\n\nWith §64M AE§r stored in it by default, you shouldn\u0027t worry about it running out of energy.\n\n§cWarning§r: Try not to store items with long NBT tags (such as the Clipboard) in AE2 cells. ",
+          "desc:8": "§oA higher-tech backpack!§r\n\nThe §9Portable Cell§r can hold items for you! It holds up to §a27§r types of items.\n\nWhat\u0027s more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an §aME Drive§r or §b§aME IO Port§r for convenience.\n\nThe Portable Cell's energy only drains when it's open. With §6167 minutes§r of juice stored in it by default, you shouldn\u0027t worry about it running out of energy.\n\n§cWarning§r: Try not to store items with long NBT tags (such as the Clipboard) in AE2 cells. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
