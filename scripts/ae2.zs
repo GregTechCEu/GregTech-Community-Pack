@@ -669,45 +669,49 @@ assembler.recipeBuilder()
 // 1k Fluid Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_1k_part");
 assembler.recipeBuilder()
-    .inputs(<metaitem:plate.central_processing_unit>)
-    .inputs(<ore:plateLapis>)
-    .inputs(<ore:circuitBasic>)
+    .inputs(<metaitem:plate.simple_system_on_chip>)
+    .inputs(<ore:plateLapis> * 3)
+    .inputs(<ore:circuitExtreme> * 2)
+    .inputs(<metaitem:fluid.regulator.lv>)
     .outputs(<appliedenergistics2:material:54>)
     .duration(200)
-    .EUt(30)
+    .EUt(480)
     .buildAndRegister();
 
 // 4k Fluid Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part");
 assembler.recipeBuilder()
-    .inputs(<metaitem:plate.random_access_memory>)
+    .inputs(<metaitem:plate.system_on_chip>)
     .inputs(<appliedenergistics2:material:54> * 3)
-    .inputs(<ore:circuitGood>)
+    .inputs(<ore:circuitExtreme> * 2)
+    .inputs(<metaitem:fluid.regulator.mv>)
     .outputs(<appliedenergistics2:material:55>)
     .duration(200)
-    .EUt(30)
+    .EUt(480)
     .buildAndRegister();
 
 // 16k Fluid Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_16k_part");
 assembler.recipeBuilder()
-    .inputs(<metaitem:plate.ultra_low_power_integrated_circuit>)
+    .inputs(<metaitem:plate.power_integrated_circuit>)
     .inputs(<appliedenergistics2:material:55> * 3)
-    .inputs(<ore:circuitAdvanced>)
+    .inputs(<ore:circuitElite> * 2)
+    .inputs(<metaitem:fluid.regulator.hv>)
     .outputs(<appliedenergistics2:material:56>)
     .duration(200)
-    .EUt(120)
+    .EUt(1920)
     .buildAndRegister();
 
 // 64k Fluid Storage
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_64k_part");
 assembler.recipeBuilder()
-    .inputs(<metaitem:plate.power_integrated_circuit>)
+    .inputs(<metaitem:plate.high_power_integrated_circuit>)
     .inputs(<appliedenergistics2:material:56> * 3)
-    .inputs(<ore:circuitExtreme>)
+    .inputs(<ore:circuitMaster> * 2)
+    .inputs(<metaitem:fluid.regulator.ev>)
     .outputs(<appliedenergistics2:material:57>)
     .duration(200)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 // Blank Pattern
