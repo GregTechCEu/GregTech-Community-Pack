@@ -2,23 +2,40 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
 // remove
-recipes.removeByMod("elevatorid");
+val elevator_recipes = [
+    "elevatorid:elevator_white",
+    "elevatorid:elevator_orange",
+    "elevatorid:elevator_magenta",
+    "elevatorid:elevator_light_blue",
+    "elevatorid:elevator_yellow",
+    "elevatorid:elevator_lime",
+    "elevatorid:elevator_pink",
+    "elevatorid:elevator_gray",
+    "elevatorid:elevator_silver",
+    "elevatorid:elevator_cyan",
+    "elevatorid:elevator_purple",
+    "elevatorid:elevator_blue",
+    "elevatorid:elevator_brown",
+    "elevatorid:elevator_green",
+    "elevatorid:elevator_red",
+    "elevatorid:elevator_black"
+] as string[];
+
+for i, name in elevator_recipes {
+    recipes.removeByRecipeName(elevator_recipes[i]);
+}
 
 // Gray Elevator (Base)
-assembler.recipeBuilder()
-    .inputs(<ore:frameGtInvar> * 2)
-    .inputs(<gregtech:turbine_casing:1>)
-    .inputs(<metaitem:electric.motor.lv> * 2)
-    .inputs(<metaitem:emitter.lv>)
-    .outputs(<elevatorid:elevator_gray> * 4)
-    .duration(200)
-    .EUt(15)
-    .buildAndRegister();
+recipes.addShaped("elevator_gray", <elevatorid:elevator_gray> * 4, [
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [<ore:gearSmallSteel>, <ore:frameGtSteel>, <ore:gearSmallSteel>],
+    [<ore:plateSteel>, <metaitem:emitter.lv>, <ore:plateSteel>]
+]);
 
 // chlorine colour wash
 chemical_bath.recipeBuilder()
     .inputs(<ore:blockElevator>)
-    .fluidInputs(<liquid:chlorine> * 54)
+    .fluidInputs(<liquid:chlorine> * 50)
     .outputs(<elevatorid:elevator_gray>)
     .duration(400)
     .EUt(2)
