@@ -151,6 +151,9 @@ compressor.recipeBuilder()
 // Blaze Powder
 recipes.removeByRecipeName("minecraft:blaze_powder");
 
+//Eye of Ender
+recipes.removeByRecipeName("minecraft:ender_eye");
+
 // Fire Resistance
 recipes.addShaped("fire_resistance_short", <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}), [
     [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:dustSugar>, <ore:dustStone>],
