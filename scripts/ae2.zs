@@ -32,9 +32,9 @@ recipes.removeByRecipeName("appliedenergistics2:network/blocks/inscribers");
 
 // Charger
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_charger");
-recipes.addShaped("ae2_charger_new", <appliedenergistics2:charger>, [
+recipes.addShaped("crystal_processing_charger", <appliedenergistics2:charger>, [
     [<ore:screwSteel>, <ore:plateSteel>, null],
-    [<ore:plateSteel>, <ore:cableGtSingleTin>, null],
+    [<ore:plateSteel>, <ore:cableGtSingleTin>, <ores:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateSteel>, null]
 ]);
 
@@ -318,11 +318,11 @@ recipes.addShaped("wct", <wct:wct>, [
 ]);
 
 // Creative Wireless Crafting Terminal
-//recipes.removeByRecipeName("wct:wct");
-//recipes.addShaped("wct_creative", <wct:wct_creative>, [
-//    [<wct:wct>, <metaitem:field.generator.luv>],
-//    [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
-//]);
+recipes.removeByRecipeName("wct:wct");
+recipes.addShaped("wct_creative", <wct:wct_creative>, [
+    [<wct:wct>, <metaitem:field.generator.luv>],
+    [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
+]);
 
 // Biometric Card
 recipes.removeByRecipeName("appliedenergistics2:tools/network_biometric_card");
@@ -930,11 +930,12 @@ recipes.addShaped("planes_annihilation_fluid", <appliedenergistics2:part:302>, [
 
 // ME Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals");
-recipes.addShaped("terminals_base", <appliedenergistics2:part:380>, [
+recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
     [<ore:boltNetherQuartz>, <ore:circuitBasic>, <ore:boltNetherQuartz>],
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
+
 assembler.recipeBuilder()
     .inputs(<ore:circuitBasic> * 3)
     .inputs(<ore:boltNetherQuartz> * 2)
@@ -997,10 +998,10 @@ recipes.addShaped("booster_card_new", <ae2wtlib:infinity_booster_card>, [
 
 // Portable Cell
 recipes.removeByRecipeName("appliedenergistics2:tools/network_portable_cell");
-recipes.addShaped("network_portable_cell_new", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 200000.0, internalCurrentPower: 200000.0}), [
+recipes.addShaped("network_portable_cell", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 200000.0, internalCurrentPower: 200000.0}), [
     [<ore:boltRedAlloy>, <ore:paneGlass> , <ore:boltRedAlloy>],
     [<ore:circuitPrimitive>, <minecraft:chest>, <ore:circuitPrimitive>],
-    [<ore:plateWroughtIron>, <ore:wireGtSingleRedAlloy>, <ore:plateWroughtIron>]
+    [<ore:plateWroughtIron>, <ore:cableGtSingleRedAlloy>, <ore:plateWroughtIron>]
 ]);
 
 // Glass Cables
