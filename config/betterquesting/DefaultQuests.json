@@ -4610,7 +4610,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYou can always come back to this quest later to read what you missed. It will appear in the \"Tips and Tricks\" tab.§r\n\nElectricity in GregTech is §cnot as simple§r as the RF you may be used to using in modded Minecraft! EU mechanics have a depth to them and are not dissimilar to real electricity. It can also be §4dangerous§r if mishandled. But it also allows you to do some §6cool things§r with it, if harnessed well.\n\nMore details about the energy system are explained in the next quest over. For now, craft some §9Tin Cables§r to transport §7LV§r energy around. The reason why you want §9Cables§r over §9Wires§r is that they have lower §cenergy loss§r, and don\u0027t §cdamage§r you when touched.\n\nFor §7LV§r purposes, the §aAmperage§r of the Cables, increased by crafting them to higher thicknesses, determines how many energy inputs from generators they can handle. If you have 2 Steam Turbines, for example, you will need 2 Amp cables; if you upgrade to 3 or 4, you will need 4 Amp cables. Cables that transport too many Amps will §cburn§r!\n\n§9Note 1:§r GT6-style Cables are §denabled§r. It means that placing Cables connect them only to the block they were placed against. To open more connections, use your §5Wire Cutter§r on the grid.\n\n§9Note 2:§r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. The Energy network now works as intended.\n\n§9Note 3:§r GTCEu cables now have native RF support! You can plug any RF appliance into an EU source and it will automatically convert. The ratio is §a4 : 1§r EU : RF.",
+          "desc:8": "§oYou can always come back to this quest later to read what you missed. It will appear in the \"Tips and Tricks\" tab.§r\n\nElectricity in GregTech is §cnot as simple§r as the RF you may be used to using in modded Minecraft! EU mechanics have a depth to them and are not dissimilar to real electricity. It can also be §4dangerous§r if mishandled. But it also allows you to do some §6cool things§r with it, if harnessed well.\n\nMore details about the energy system are explained in the next quest over. For now, craft some §9Tin Cables§r to transport §7LV§r energy around. The reason why you want §9Cables§r over §9Wires§r is that they have lower §cenergy loss§r, and don\u0027t §cdamage§r you when touched.\n\nFor §7LV§r purposes, the §aAmperage§r of the Cables, increased by crafting them to higher thicknesses, determines how many energy inputs from generators they can handle. If you have 2 Steam Turbines, for example, you will need 2 Amp cables; if you upgrade to 3 or 4, you will need 4 Amp cables. Cables that transport too many Amps will §cburn§r!\n\n§9Note 1:§r GT6-style Cables are §denabled§r. It means that placing Cables connect them only to the block they were placed against. To open more connections, use your §5Wire Cutter§r on the grid.\n\n§9Note 2:§r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. The Energy network now works as intended.\n\n§9Note 3:§r GTCEu cables now have native RF support! You can plug any RF appliance into an EU source and it will automatically convert. The ratio is §a4 : 1§r RF : EU.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12897,7 +12897,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oShredding your Ores with Byproducts§r\n\nThe §3HV Macerator§r finally unlocks more of the slots shown in JEI. With this the first §9three§r slots are now available. This allows you to receive the §6unique ore Byproduct§r from macerating Thermal §dCentrifuged Ore§r.\n\n\n§bLore:§r In GregTech 5u, the HV macerator only gave two slots. Who needed that stone dust anyways?",
+          "desc:8": "§oShredding your Ores with Byproducts§r\n\nThe §3HV Macerator§r finally unlocks more of the slots shown in JEI. With this the first §9three§r slots are now available. This allows you to receive the §6unique ore Byproduct§r from macerating §dThermal §dCentrifuged Ore§r.\n\n\n§bLore:§r In GregTech 5u, the HV macerator only gave two slots. Who needed that stone dust anyways?",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13665,17 +13665,23 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "Damage:2": 247,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
               "Damage:2": 578,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "1:10": {
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 603,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "2:10": {
+            "3:10": {
               "Count:3": 1,
               "Damage:2": 1213,
               "OreDict:8": "",
