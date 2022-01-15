@@ -5413,7 +5413,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe mining drill is a nice Mining Tool, it comes in different tiers. The LV Drill may not be too appealing, but later drills can mine 3x3x3, 5x5x5, and up to 9x9x9 to make huge holes!§r\n\nThis suggested drill is with a Diamond tip, which might be the best material for it right now.\n\n\n§9Note:§r All Electric Tools have a lot more durability than indicated, as they use Energy to prevent damage from being applied! On top of that, they can be enchanted as Pickaxes can.\n\n§9Other note:§r Batteries in your inventory can be shift right-clicked to §denable charging§r your EU items. Don\u0027t do it §owhile§r mining though, as your item will be constantly updated and it will keep resetting the mining progress. \n\n\nYou may make hold off and make a MV drill §einstead§r. That one will be completely worth it.\n\n\n§bLore:§r Up until GTCEu, Electric tools required Stainless Steel, which made them locked until almost HV age.",
+          "desc:8": "§oThe mining drill is a nice Mining Tool, it comes in different tiers. The LV Drill may not be too appealing, but later drills can mine 3x3x3, 5x5x5, and up to 9x9x9 to make huge holes!§r\n\nThis suggested drill is with a Diamond tip, which might be the best material for it right now.\n\nYou may make hold off and make an §bMV§r drill §einstead§r. That one will be completely worth it.\n\n§9Note 1:§r All Electric Tools have a lot more durability than indicated, as they use Energy to prevent damage from being applied! On top of that, they can be enchanted as Pickaxes can.\n\n§9Note 2:§r Batteries in your inventory can be shift right-clicked to §denable charging§r your EU items. Don\u0027t do it §owhile§r mining though, as your item will be constantly updated and it will keep resetting the mining progress. \n\n§bLore:§r Up until GTCEu, Electric tools required Stainless Steel, which made them locked until almost HV age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10940,7 +10940,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A standard Iron vein, good target when you need to refill.",
+          "desc:8": "A standard Iron vein, good target when you need to refill.\n\nYou actually want to directly smelt these instead of processing them, as the metal yield is better.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11078,7 +11078,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your classic Redstone vein.\n\nRuby is the very important as it will give Chrome through Ore Processing.",
+          "desc:8": "Your classic Redstone vein.\n\nRuby is very important for the Chrome it contains.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11399,7 +11399,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An Iron vein, good in the early game, that\u0027s about it.",
+          "desc:8": "An Iron vein, good in the early game, that\u0027s about it.\n\nIt\u0027s far better to directly smelt Basaltic and Granitic Mineral Sands to Iron than to process them.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11468,7 +11468,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Put this off for a while, and mine this for Bauxite for your first ever source of Titanium.\n\nKyanite, Mica have decent decompositions, but not great.",
+          "desc:8": "A source of Bauxite for your first ever source of Titanium.\n\nKyanite and Mica have decent decompositions, but there are better options.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11537,7 +11537,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Pyrolusite is what you are here for. It smelts directly into Manganese whic his needed for the HV Age.\n\nTantalite eventually becomes extremely valuable thanks to Niobium byproducts.",
+          "desc:8": "Pyrolusite is what you are here for. It smelts directly into Manganese which is needed for the HV Age.\n\nTantalite eventually becomes extremely valuable thanks to Niobium byproducts.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12077,7 +12077,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A great vein for the early game, containing Copper and Tin, to make Bronze.\n\nRealgar will be your first source of Arsenic.",
+          "desc:8": "A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12197,7 +12197,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A pure Tin vein, excellent for early game.",
+          "desc:8": "A pure, very rich Tin vein, excellent for early game.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12833,7 +12833,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This won\u0027t be needed for a very long while, except for some low amount of Emerald perhaps.",
+          "desc:8": "This won\u0027t be needed for a very long while, except for some Emeralds for MV Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15502,7 +15502,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This is much more sane vein to mine to get Aluminium and Titanium vein over the Overworld Mica vein.",
+          "desc:8": "This is a much more sane vein to mine to get Aluminium and Titanium over the Overworld Mica vein.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15565,7 +15565,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You may already have Iron, but don\u0027t sleep on this vein.\n\nChromite is an excellent source of Chrome, and Vanadium is needed is higher quantities in the late game.",
+          "desc:8": "You may already have Iron, but don\u0027t sleep on this vein.\n\nChromite is an excellent source of Chrome, and Vanadium is needed in higher quantities in the late game.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15634,7 +15634,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Naquadah from the TV series Stargate! An essential material in the late game.\n\nPlutonium is used to start the Radon loop, required in IV Age.",
+          "desc:8": "Naquadah from the TV series Stargate! An essential material from LuV Age onwards.\n\nNaquadah can be processed in LuV Age for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!\n\nPlutonium is used to start the Radon loop, required in IV Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15645,7 +15645,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Naquadah - Source of Naquadah, Plutonium, Radon",
+          "name:8": "Naquadah - Source of Naquadah, Enriched Naquadah, Naquadria, Trinium, Titanium, Barium, Gallium, Indium, Phosphorus, Plutonium, Radon",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -15691,7 +15691,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The one and only vein for Uranium!\n\n§9Note:§r Uranium does not have many uses in GTCEu yet. Nuclear Reactors are planned in the future... keep your eyes peeled.",
+          "desc:8": "The one and only vein for Uranium!\n\nUranium has a few minor uses in EV Age and beyond. Nuclear Reactors are planned for GTCEu in the future... keep your eyes peeled.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15748,7 +15748,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your one and only Tunsgten source!\n\nAn extremely important vein as Tungsten is used a vast amounts starting with IV Age.",
+          "desc:8": "Your one and only Tunsgten source! (You could technically get Tungstate from macerating End Stone... but the yield is tiny.)\n\nAn extremely important vein as Tungsten is used in vast amounts in IV Age and onwards.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15772,7 +15772,37 @@
       },
       "questID:3": 238,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_scheelite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tungstate_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_lithium_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "239:10": {
       "preRequisites:11": [
@@ -15781,7 +15811,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Platinum starts getting used in EV.\n\nPlatinum Group Sludge chain starts being required in IV, and Sheldonite is the best ore for that.\n\n\n§bLore:§r The actual name for Sheldonite ore is actually Cooperite. GregoriusT thought it was haha funny to make jokes about Sheldon Cooper, despite §lnot§r being the person the ore was named after! And so we kept the haha funny joke going.",
+          "desc:8": "Platinum starts getting used in EV.\n\nThe Platinum Group Sludge chain starts being required in IV, and Sheldonite is the best ore for that.\n\n§bLore:§r The actual name for Sheldonite ore is actually Cooperite. GregoriusT thought it was haha funny to make jokes about Sheldon Cooper, despite §lnot§r being the person the ore was named after! And so we kept the haha funny joke going.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
