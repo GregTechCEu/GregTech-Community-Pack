@@ -2,23 +2,23 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
 // remove
-val elevator_recipes = [
-    "elevatorid:elevator_white",
-    "elevatorid:elevator_orange",
-    "elevatorid:elevator_magenta",
-    "elevatorid:elevator_light_blue",
-    "elevatorid:elevator_yellow",
-    "elevatorid:elevator_lime",
-    "elevatorid:elevator_pink",
-    "elevatorid:elevator_gray",
-    "elevatorid:elevator_silver",
-    "elevatorid:elevator_cyan",
-    "elevatorid:elevator_purple",
-    "elevatorid:elevator_blue",
-    "elevatorid:elevator_brown",
-    "elevatorid:elevator_green",
-    "elevatorid:elevator_red",
-    "elevatorid:elevator_black"
+val colors = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "silver",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black"
 ] as string[];
 
 for color in colors {
