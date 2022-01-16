@@ -320,7 +320,7 @@ recipes.addShaped("wct", <wct:wct>, [
 // Creative Wireless Crafting Terminal
 recipes.removeByRecipeName("wct:wct");
 recipes.addShaped("wct_creative", <wct:wct_creative>, [
-    [<wct:wct>, <metaitem:field.generator.luv>],
+    [<wct:wct>, <metaitem:field.generator.uv>],
     [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
 ]);
 
