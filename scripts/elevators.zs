@@ -21,8 +21,8 @@ val elevator_recipes = [
     "elevatorid:elevator_black"
 ] as string[];
 
-for i, name in elevator_recipes {
-    recipes.removeByRecipeName(elevator_recipes[i]);
+for color in colors {
+    recipes.removeByRecipeName("elevatorid:elevator_" ~ color);
 }
 
 // Gray Elevator (Base)
