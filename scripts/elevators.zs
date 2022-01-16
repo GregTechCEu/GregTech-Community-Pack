@@ -26,10 +26,10 @@ for color in colors {
 }
 
 // Gray Elevator (Base)
-recipes.addShaped("elevator_gray", <elevatorid:elevator_gray> * 4, [
+recipes.addShaped("elevator_gray", <elevatorid:elevator_gray> * 2, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:gearSmallSteel>, <ore:frameGtSteel>, <ore:gearSmallSteel>],
-    [<ore:plateSteel>, <metaitem:emitter.lv>, <ore:plateSteel>]
+    [<ore:plateSteel>, <metaitem:electric.motor.lv>, <ore:plateSteel>]
 ]);
 
 // chlorine colour wash
