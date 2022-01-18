@@ -17640,7 +17640,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA NOR gate takes two input signals, and outputs a high signal only if both input signals are low.§r\n\nThis doesn\u0027t matter for now though, and it\u0027s simply a more complex wafer. It\u0027s used for the §aData Orb§r, and in §bNano§r circuit production.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17697,7 +17697,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA NAND gate takes two signals, and outputs a high signal except if both input signals are high.§r\n\nThis doesn\u0027t matter for now though, and it\u0027s simply a more complex wafer. It is needed for the §aData Orb§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17857,7 +17857,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, and then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r, no way around it.",
+          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, but then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r, no way around it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19968,6 +19968,12 @@
               "Damage:2": 1010,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1228,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -20489,7 +20495,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You can engrave §9Simple Systems on Chip (SoC)§r to make the cheapest §8ULV§r Circuits, as well as §b1k Fluid Storage§r in §5EV§r Age.\n\n§8ULV§r circuits are used in some AE2 recipes, such as the §aAnnihilation Core§r and §aFormation Core§r.\n\n",
+          "desc:8": "You can engrave §9Simple Systems on Chip (SoC)§r to make the cheapest §8ULV§r Circuits, as well as §b1k Fluid Storage§r.\n\n§8ULV§r circuits are used in some AE2 recipes, such as the §aAnnihilation Core§r and §aFormation Core§r.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20768,7 +20774,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you\u0027re still running off the §3Large Bronze Boiler§r, you may want to upgrade to the §3Large Steel Boiler§r.\n\nIt is slightly more efficient than the §3LBB§r, and produce §d900EU/t worth of Steam§r.\n\nOther Power options are more recommendable at this point, though.",
+          "desc:8": "If you\u0027re still running off the §3Large Bronze Boiler§r, you may want to upgrade to the §3Large Steel Boiler§r.\n\nIt is slightly more efficient than the §3LBB§r, and produces §d900 EU/t worth of Steam§r.\n\nOther Power options are more advisable at this point, though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20819,7 +20825,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for all the late game. These multiblocks are improved version of single block machines, a must have for large scale automation.\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r formerly known as Gregicality, is a huge addon. It extends the lategame with 5 additional voltage tiers and even extend the content of previous tiers. If you want to play with it, you may chose a different modpack, though.\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for the late game. These multiblocks are improved versions of single block machines which can perform many parallel recipes. A must have for large scale automation.\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r formerly known as Gregicality, is a huge addon. It extends the lategame with 5 additional voltage tiers and even extend the content of previous tiers. If you want to play with it, you may chose a different modpack, though.\n\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
