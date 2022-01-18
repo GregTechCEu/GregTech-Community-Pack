@@ -20432,8 +20432,7 @@
     "319:10": {
       "preRequisites:11": [
         33,
-        41,
-        4
+        41
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20489,7 +20488,7 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -21578,7 +21577,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 339,
@@ -21630,7 +21629,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 340,
@@ -21700,7 +21699,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 341,
@@ -21974,7 +21973,7 @@
           "id:3": 21,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
+          "x:3": -120,
           "y:3": 12
         },
         "7:10": {
@@ -22209,27 +22208,34 @@
           "y:3": 48
         },
         "40:10": {
+          "id:3": 319,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 102,
+          "y:3": 48
+        },
+        "41:10": {
           "id:3": 322,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -222,
           "y:3": 60
         },
-        "41:10": {
+        "42:10": {
           "id:3": 325,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -216,
           "y:3": 12
         },
-        "42:10": {
+        "43:10": {
           "id:3": 326,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": 150
         },
-        "43:10": {
+        "44:10": {
           "id:3": 328,
           "sizeX:3": 24,
           "sizeY:3": 24,
