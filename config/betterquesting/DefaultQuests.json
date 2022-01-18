@@ -679,7 +679,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIron is very abundant! And not just in the form of pure Iron Ore. In reality, Iron is found in a lot of oxide forms or minerals.§r\n\nAny of these Ores can be smelted directly to Iron. That is §dfour veins§r that virtually have Iron Ore. Consult the ore tab for a list of all the veins available.\n\nDo not bother about ore processing yet. §aDirect smelting will be the most efficient for a while§r, given how easy it is to obtain a lot of ores.\n\n\nGather §eany§r of the Iron yielding Ore to complete this quest.",
+          "desc:8": "§oIron is very abundant! And not just in the form of pure Iron Ore. In reality, Iron is found in a lot of oxide forms or minerals.§r\n\nThe §dOre Generation§r tab in this questbook tells you which types of materials come from which ore veins. The Ore Spawn Information and Ore Byproduct List tabs in JEI list them as well.\n\nTake a look at those tabs for §b§aIron§r. Any of the Ores listed here can be smelted directly to Iron. That is §dfour different veins§r that virtually have Iron Ore.\n\nDo not bother about ore processing yet. §aDirect smelting will be the most efficient for a while§r, given how easy it is to obtain a lot of ores.\n\n\nGather §eany§r of the Iron yielding Ore to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -964,7 +964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. Right click on specific machines allows for special configuration.\n\n§9§lWire Cutter:§r A crafting tool. If the config for GT6-style wire connection is enabled, this is needed to connect wires together. Right click on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. Right click on specific machines allows for special configuration.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1175,7 +1175,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. While Charcoal smelting is enabled here, you will want this multiblock for §eCreosote§r.\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to Creosote as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for the creation of §dTreated Wood Planks§r (does that make you think of another mod?)\n\n\nMaking this Multiblock requires §a117 clay§r, and§a 195 sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded. Back in 1.4 Minecraft, Railcraft introduced the Coke Oven, this was revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. While Charcoal smelting is enabled here, you will want this multiblock for §eCreosote§r.\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for the creation of §dTreated Wood Planks§r (rings a bell?)\n\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Back in Minecraft 1.4, Railcraft introduced the Coke Oven; this was revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1200,16 +1200,22 @@
       "questID:3": 14,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "Count:3": 32,
-              "Damage:2": 319,
+              "Count:3": 40,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_gem"
+              "id:8": "minecraft:coal"
+            },
+            "1:10": {
+              "Count:3": 40,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
             }
-          }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
         }
       },
       "tasks:9": {
@@ -1285,7 +1291,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gather more resources, namely §aCopper§r and §aTin§r.\n\nCheck the ore tab to find out which veins they are coming from.\n\nThis quest requires §eeither§r §aCopper§r or §aTin§r, so you can claim as reward the metal you\u0027re missing. You will however need a lot of both to go through the Steam Age.",
+          "desc:8": "Gather more resources, namely §aCopper§r and §aTin§r.\n\nCheck the ore tab to find out which veins they come from.\n\nYou can tell at a glance the element types within most ores (and most other materials) with the §emolecular formula§r in the tooltip. Copper is §dCu§r, Tin is §dSn§r, Iron is §dFe§r, and you can consult a §dperiodic table§r for most of the others.\n\nThis quest can be completed with §eeither§r metal, so you can claim as the reward the metal you\u0027re missing. Be sure to find a source of both soon though, as you will need a lot of both to get through the Steam Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1338,7 +1344,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 24,
+              "Count:3": 32,
               "Damage:2": 25,
               "OreDict:8": "ingotCopper",
               "id:8": "gregtech:meta_ingot"
@@ -1355,9 +1361,9 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 24,
+              "Count:3": 32,
               "Damage:2": 112,
-              "OreDict:8": "ingotTin",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -1372,7 +1378,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Grind down some Copper and Tin into dust. You will need a Mortar from the \"More Tools\" quest.\n\nMake much more than just 3 §aBronze ingots§r. The Steam Age machines need a lot more.\n\n§6The progression now continues in the Steam Age chapter.§r",
+          "desc:8": "§oHumanity\u0027s first Alloy, and yours too!§r\n\n§6Bronze§r is an alloy of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. You will need a Mortar from the \"More Tools\" quest.\n\nMake many more §aBronze Ingots§r than what is called for here. This will be your main material for the Steam Age, and you will need lots of it.\n\n§6The progression now continues in the Steam Age chapter.§r\n\n§bLore§r: Bronze in real life is closer to 7 parts Copper and 1 part Tin. Here (and in most of the rest of modded Minecraft) it sadly has to be changed for game balance. Many more such cases!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1446,11 +1452,22 @@
               "Damage:2": 260,
               "OreDict:8": "dustBronze",
               "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
-              "Count:3": 3,
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 24,
               "Damage:2": 260,
-              "OreDict:8": "ingotBronze",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -1988,7 +2005,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Macerator macerates... I am done with this.§r\n\nThis means you can stop ruining your hands and destroying mortars grinding dusts by yourself, at the cost of time.\n\nWhat this also means is §6Ore Processing§r, but that\u0027s a scary topic presented in the next quest.\n§cThe macerator will output only the first item shown in recipes from JEI!§r The other slots are locked until much later in the game (HV Age to be precise).\n\n\n§9My (important!) advice:§r it is better to keep directly smelting ores for now! The efficiency loss is made up with fast mining.",
+          "desc:8": "§oThe Macerator macerates... I am done with this. (He isn\u0027t)§r\n\nThis means you can stop ruining your hands and destroying mortars grinding dusts by yourself, at the cost of time.\n\nWhat this also means is §6Ore Processing§r, but that\u0027s a scary topic presented in the next quest.\n§cThe macerator will output only the first item shown in recipes from JEI!§r The other slots are locked until much later in the game (§6HV§r Age to be precise).\n\n\n§9My (important!) advice:§r it is better to keep directly smelting ores for now! The efficiency loss is made up with fast mining.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2684,7 +2701,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oRed Alloy is... well, completely fictional.§r\nIt is an alloy of copper and redstone used for conductivity.\n\nYou will need some for §9Electronic Circuits§r.\n\n\n§bLore:§r This material originally comes from RedPower, what a throwback!",
+          "desc:8": "§oRed Alloy is... well, completely fictional.§r\n\nIt is an alloy of Copper and Redstone used for conductivity.\n\nYou will need some for §9Electronic Circuits§r.\n\n§bLore:§r This material originally comes from RedPower, what a throwback!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2956,7 +2973,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "To its simplest form, Ore Processing in GregTech boils down to §aconverting one ore into two ingots through two dusts§r, like several other tech mods.\n\nThe added spice is the amount of steps, either optional or required. This small guide is an §dintroduction to Ore Processing§r.\nThe main purpose of GregTech Ore Processing is to provide §abyproducts§r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable.\n\n§9The steps available in Steam Age go as follows:§r\nOne Ore (block) §9-\u003e§r Two Crushed Ores (Macerator, or Hammer for 1:1 conversion)\nOne Crushed Ore §9-\u003e§r One Impure Dust (Hammer)\nOne Impure Dust §9-\u003e§r One Dust (§oIn world crafting explained below§r)\nOne Dust §9-\u003e§r One Ingot (Furnace, you should know this one)\n\n\nThe rule bends for ores giving more than two dusts (such as redstone), and for dusts that cannot be smelted (redstone again!). Yet you can still do direct smelting to get half the amount you would from the full processing.\n\n§dJEI does not indicate Impure Dust to Clean Dust conversion§r, so keep that in mind that you should §athrow them into filled cauldrons§r (full stacks at once to use less water).\n\nOre Processing will be explained further once you get into LV Age.\n\n\nThere, take this nice reward for your efforts learning this beautiful mess.",
+          "desc:8": "To its simplest form, Ore Processing in GregTech boils down to §aconverting one ore into two ingots through two dusts§r, like several other tech mods.\n\nThe added spice is the amount of steps, either optional or required. This small guide is an §dintroduction to Ore Processing§r.\nThe main purpose of GregTech Ore Processing is to provide §abyproducts§r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable.\n\n§9The steps available in Steam Age go as follows:§r\nOne Ore (block) §9-\u003e§r Two Crushed Ores (Macerator)\nOne Crushed Ore §9-\u003e§r One Impure Dust (Hammer)\nOne Impure Dust §9-\u003e§r One Dust (§oIn world crafting explained below§r)\nOne Dust §9-\u003e§r One Ingot (Furnace, you should know this one)\n\nA pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio. The Fortune enchantment can increase this ratio, to 2x with Fortune III.\n\nThe rule bends for ores giving more than two dusts (such as redstone), and for dusts that cannot be smelted (redstone again!). Yet you can still do direct smelting to get half the amount you would from the full processing.\n\n§dJEI does not indicate Impure Dust to Clean Dust conversion§r, so keep that in mind that you should §athrow them into filled cauldrons§r (full stacks at once to use less water).\n\nOre Processing will be explained further once you get into LV Age.\n\n\nThere, take this nice reward for your efforts learning this beautiful mess.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3067,7 +3084,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Steam Grinder\u0027s big brother. Or little brother, don\u0027t let him know.§r\n\nThe Steam Oven is a great multiblock to §6effortlessly smelt large quantities of items.§r No more lines of furnaces that you have to manually empty and refuel.\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Busses and Hatches automatically import/export (depending on context) through their front face. This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cOther note:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock - despite being very similar to the Grinder - is not ported from a GregTech version or addon. Its actual origin is the Steam Oven from Railcraft, which datesback to 1.4.7!",
+          "desc:8": "§oThe Steam Grinder\u0027s big brother. Or little brother, don\u0027t let him know.§r\n\nThe Steam Oven is a great multiblock to §6effortlessly smelt large quantities of items.§r No more lines of furnaces that you have to manually empty and refuel.\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Busses and Hatches automatically import/export (depending on context) through their front face. This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cWarning:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock - despite being very similar to the Grinder - is not ported from a GregTech version or addon. Its actual origin is the Steam Oven from Railcraft, which datesback to 1.4.7!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3161,7 +3178,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Steam Oven\u0027s elder brother. Or perhaps it was the opposite?§r\n\nThe Steam Grinder is §lthe§r reason you will start doing Ore Processing. §6It can pulverize large batches of items fast and effortlessly.§r\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Busses and Hatches automatically import/export (depending on context) through their front face. This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cOther note:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze.",
+          "desc:8": "§oThe Steam Oven\u0027s elder brother. Or perhaps it was the opposite?§r\n\nThe Steam Grinder is §lthe§r reason you will start doing Ore Processing. §6It can pulverize large batches of items fast and effortlessly.§r\n\n\nAs always, check JEI for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Buses and Hatches automatically import/export (depending on context) through their front face. This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cWarning:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4710,7 +4727,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe concepts presented are for the curious players. Don\u0027t read past the TL;DR if you are not interested.§r\n\n§6§lTL;DR:§r For safety, match the §2Voltage§r for every Consumers and Producers, unless you like §cfireworks§r...\n\nThis Quest will go into the Energy mechanics in more detail. If you have a basic understanding of electricity in §ereal life§r, the GTEU system is not too different! An even more in-depth will be found on the GTCEu wiki in Github.\n\n§8Resistance§r is an excluded concept in GregTech, it is instead simulated partially with cable losses.\n\nThe laws of physics:\n° §9Power§r \u003d §2Voltage§r * §dAmperage§r\n° §1Energy§r \u003d §9Power§r * §6Time§r\n\nThe units:\n- §1EU§r is the §1Energy§r.\n- §9EU/t§r is the §9Power§r.\n- §dA§r or §dAmp§r is the §dAmperage§r.\n- §2V§r would be the §2Voltage§r, but we prefer referring to it as §7LV§r, §bMV§r, §6HV§r... as those are the relevant values for gameplay (technically, §7LV§r \u003d 32V \u003d 32EU/t/A).\n\nHere comes the §4dangerous§r part:\n§9-§r §aCables§r and §aWires§r which receive §2higher Voltage§r than their rating will §cburn§r, in additions to burning from too many §dAmps§r.\n§9-§r §3Machines§r which receive §2higher Voltage§r than their Tier will §cexplode§r! Extra §dAmps§r are not affecting them, as they consume only what they need.\n\n\nEvery §6tick§r, §1EU§r §apackets§r are being attempted to be transferred from Energy Producers to Consumers. These §apackets§r have two parameters: §2Voltage§r determined by the tier of the Producer, and §dAmperage§r. This determines how much §9Power§r can actually be transferred. There are no partial Amps, and Energy is transferred only if the full Amp §apacket§r can be received.\nIn summary, Energy is transported in §apackets§r of §132EU§r for §7LV§r, §1128EU§r for §bMV§r... Energy that is actually received can be lower with cable loss.\n\nMachine Energy Input is limited by §2Voltage§r (too high and boom), and by §dAmperage§r. Thus, a §bMV§r Machine with §d2A§r Input connected to a §7LV§r line will never accept more than §964EU/t§r.\nIt is still possible to run §bMV§r Machines on §7LV§r lines, but only if the recipes are low enough §9Power§r, or if you have a §3MV Battery§r in the charging slot. The machine will only accept §d1A§r when idle, and so the §3Battery§r will recharge only at §932EU/t§r.",
+          "desc:8": "§oThe concepts presented are for the curious players. Don\u0027t read past the TL;DR if you are not interested.§r\n\n§6§lTL;DR:§r For safety, match the §2Voltage§r for every Consumer and Producer, unless you like §cfireworks§r...\n\nThis Quest will go into the Energy mechanics in more detail. If you have a basic understanding of electricity in §ereal life§r, the GTEU system is not too different! An even more in-depth walkthrough will be found on the GTCEu wiki in Github.\n\nThe laws of physics:\n° §9Power§r \u003d §2Voltage§r * §dAmperage§r\n° §1Energy§r \u003d §9Power§r * §6Time§r\n§8Resistance§r is an excluded concept in GregTech, it is instead simulated partially with cable losses.\n\nThe units:\n- §1EU§r is the §1Energy§r.\n- §9EU/t§r is the §9Power§r.\n- §dA§r or §dAmp§r is the §dAmperage§r.\n- §2V§r would be the §2Voltage§r, but we prefer referring to it as §7LV§r, §bMV§r, §6HV§r... as those are the relevant values for gameplay (technically, §7LV§r \u003d 32V \u003d 32EU/t/A).\n\nHere comes the §4dangerous§r part:\n§9-§r §aCables§r and §aWires§r which receive §2higher Voltage§r than their rating will §cburn§r, in additions to burning from too many §dAmps§r.\n§9-§r §3Machines§r which receive §2higher Voltage§r than their Tier will §cexplode§r! Extra §dAmps§r are not affecting them, as they consume only what they need.\n\n\nEvery §6tick§r, §1EU§r §apackets§r are being attempted to be transferred from Energy Producers to Consumers. These §apackets§r have two parameters: §2Voltage§r determined by the tier of the Producer, and §dAmperage§r. This determines how much §9Power§r can actually be transferred. There are no partial Amps, and Energy is transferred only if the full Amp §apacket§r can be received.\nIn summary, Energy is transported in §apackets§r of §132EU§r for §7LV§r, §1128EU§r for §bMV§r... Energy that is actually received can be lower with cable loss.\n\nMachine Energy Input is limited by §2Voltage§r (too high and boom), and by §dAmperage§r. Thus, a §bMV§r Machine with §d2A§r Input connected to a §7LV§r line will never accept more than §964EU/t§r.\nIt is still possible to run §bMV§r Machines on §7LV§r lines, but only if the recipes are low enough §9Power§r, or if you have a §3MV Battery§r in the charging slot. The machine will only accept §d1A§r when idle, and so the §3Battery§r will recharge only at §932EU/t§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5025,7 +5042,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§lOutside of Ore Processing:§r\nThis machine, similarly to the Centrifuge, also does a lot of things...\nAnd I cannot list them! But fortunately it\u0027s one of the cheapest, so get it whenever you want something from it.\n\n\n§lFor Ore Processing:§r\nSo, I lied, it\u0027s not §oexactly§r in the Ore Processing, it\u0027s actually for §aDecomposition of Dusts§r. However most of this style of Decomposition through Electrolysis is locked at MV.\n\nBut do not be fooled. Due to how ores work, §ddirect smelting§r Dusts into Ingots is still superior in a lot of cases.",
+          "desc:8": "§lOutside of Ore Processing:§r\nThis machine, similarly to the Centrifuge, also does a lot of things...\nAnd I cannot list them! But fortunately it\u0027s one of the cheapest, so get it whenever you want something from it.\n\n§lFor Ore Processing:§r\nSo, I lied, it\u0027s not §oexactly§r in the Ore Processing, it\u0027s actually for §aDecomposition of Dusts§r. However, most of this style of Decomposition through Electrolysis is locked at §bMV§r.\nYou can see the §emolecular formula§r in Dust tooltips to see at a glance what you can get from them.\n\n§cTake caution!§r Due to how ores work, Dusts which can be §ddirectly smelted§r into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide for yourself on each case.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5874,7 +5891,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need a couple stacks of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
+          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need about a stack each of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7232,7 +7249,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Quest in an overview for the Large Bronze Boiler.§r\n\n§9I do §lNOT§r§9 recommend§r getting this until you are done with most - if not all - of the LV Age. It is also §6optional§r, depending on which power options you chose.\n\n\nThe §3Large Boilers§r ultimately are §othe§r option for large scale Steam production. They will run off solid and liquid fuels.\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities.\n§cWater supply is crucial§r. But simply upgrading the §3Output Hatch§r on your §3Primitive Pump§r should be enough.\n\n\nOnce fully heated up, the §3LBB§r produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This immense (relative!) power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r More information about Multiblocks are given after you get the Electric Blast Furnace at the end of the LV Age. That\u0027s one way to prevent you from getting this too early!",
+          "desc:8": "§oThis Quest in an overview for the Large Bronze Boiler.§r\n\n§9I do §lNOT§r§9 recommend§r getting this until you are done with most - if not all - of the LV Age. It is also §6optional§r, depending on which power options you chose.\n\n\nThe §3Large Boilers§r ultimately are §othe§r option for large scale Steam production. They will run off solid and liquid fuels.\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities.\n§cWater supply is crucial§r. But simply upgrading the §3Output Hatch§r on your §3Primitive Pump§r should be enough.\n\n\nOnce fully heated up, the §3LBB§r produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This (relatively!) immense power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r More information about Multiblocks are given after you get the Electric Blast Furnace at the end of the LV Age. That\u0027s one way to prevent you from getting this too early!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8331,7 +8348,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil! I recommend you bring a §3Battery Buffer§r, and a lot of §3Drums§r or §3Steel Multiblock Tanks§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
+          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil! I recommend you bring a §3Battery Buffer§r, and a lot of §3Drums§r or §3Steel Multiblock Tanks§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This path is §doptional§r.. for now. This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n§a§r§aOil§r processing also grants a power source in the form of §eDiesel§r and later §cGasoline§r, as well as a whole host of organic materials, which are useful soon. However, they are not strictly required until late §6HV§r age\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10855,7 +10872,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The underground has pure Oilsands veins. You may §aelectrolyze§r the Dust to get §aOil§r.\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.",
+          "desc:8": "The underground has pure Oilsands veins. You may §aelectrolyze§r the Dust to get §aOil§r.\n\n§9Note:§r This path is §doptional§r.. for now. This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n§a§r§aOil§r processing also grants a power source in the form of §eDiesel§r and later §cGasoline§r, as well as a whole host of organic materials, which are useful soon. However, they are not strictly required until late §6HV§r age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11040,7 +11057,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A standard Iron vein, good target when you need to refill.\n\nYou actually want to directly smelt these instead of processing them, as the metal yield is better.",
+          "desc:8": "A standard Iron vein, good target when you need to refill.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11499,7 +11516,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An Iron vein, good in the early game, that\u0027s about it.\n\nIt\u0027s far better to directly smelt Basaltic and Granitic Mineral Sands to Iron than to process them.",
+          "desc:8": "An Iron vein, good in the early game, that\u0027s about it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12562,7 +12579,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Electrotine is important for progression in the HV Age. It electrolyses into Electrum which doubles as a Gold Silver hybrid source.\n\nThe other ores are mediocre at best.\n\n\n§bLore:§r Does Nikolite ring a bell? It was the ancestor of Electrotine, in RedPower.",
+          "desc:8": "Electrotine is important for progression in the HV Age. It centrifuges into Electrum, a source of Gold and Silver, and Redstone.\n\nThe other ores are mediocre at best.\n\n§bLore:§r Does Nikolite ring a bell? It was the ancestor of Electrotine, in RedPower.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13446,7 +13463,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The next §3Circuit Assembler§r, used to make your first ever §aMainframe§r.\n\nYou can put this off until §5EV§r.",
+          "desc:8": "The next §3Circuit Assembler§r. This tier of Circuit Assembler is only used to make one type of Circuit! It is used to make your first ever §aMainframe§r.\n\nYou can put this off until §5EV§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16667,8 +16684,7 @@
     },
     "252:10": {
       "preRequisites:11": [
-        251,
-        249
+        340
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16710,12 +16726,6 @@
               "Count:3": 1,
               "Damage:2": 115,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 115,
-              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -16725,13 +16735,14 @@
     },
     "253:10": {
       "preRequisites:11": [
-        252,
-        203
+        203,
+        341,
+        340
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The main IV Material!",
+          "desc:8": "The main §1IV§r Material! §9\n\nTungstensteel§r is used in §1IV§r machines, as a §9Coil§r material, in §aHSS-G§r (which is used in §2HSS-E§r and §4HSS-S§r), in its own tier of §9Crates§r, §9Drums§r, §9Cells§r, in the §3Processing Array§r, §3Extreme Combustion Engine§r, §3Large Plasma Turbine§r... suffice to say you will need §clots§r of this.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16765,6 +16776,12 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2013,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 2013,
               "OreDict:8": "",
@@ -17104,7 +17121,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gasoline is extremely powerful combustion fuel. It\u0027s better than Cetane Diesel!",
+          "desc:8": "Gasoline is an extremely powerful combustion fuel. It\u0027s §62.22 times § as energy dense as Cetane-Boosted Diesel!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17640,7 +17657,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA NOR gate takes two input signals, and outputs a high signal only if both input signals are low.§r\n\nThis doesn\u0027t matter for now though, and it\u0027s simply a more complex wafer. It\u0027s used for the §aData Orb§r, and in §bNano§r circuit production.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17697,7 +17714,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA NAND gate takes two signals, and outputs a high signal except if both input signals are high.§r\n\nThis doesn\u0027t matter for now though, and it\u0027s simply a more complex wafer. It is needed for the §aData Orb§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17857,7 +17874,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, and then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r, no way around it.",
+          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, but then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r, no way around it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17958,7 +17975,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §aData Orb§r is currently only used in crafting the §3Processing Array§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18357,7 +18374,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Diode§r (block, not item component) accepts energy inputs from 5 sides, but only outputs through a single side.\n\nIts main purpose is to §dlimit Amperage§r. It is useful for centralised Power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers...\n\nYou can use a §5Soft Hammer§r to change the Amperage limit of the output. ",
+          "desc:8": "The §3Diode§r (block, not item component) accepts energy inputs from 5 sides, but only outputs through a single side.\n\nIts main purpose is to §dlimit Amperage§r. It is useful for regulating centralised Power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers...\n\nYou can use a §5Soft Hammer§r to change the Amperage limit of the output. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19968,6 +19985,12 @@
               "Damage:2": 1010,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1228,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -20489,7 +20512,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You can engrave §9Simple Systems on Chip (SoC)§r to make the cheapest §8ULV§r Circuits, as well as §b1k Fluid Storage§r in §5EV§r Age.\n\n§8ULV§r circuits are used in some AE2 recipes, such as the §aAnnihilation Core§r and §aFormation Core§r.\n\n",
+          "desc:8": "You can engrave §9Simple Systems on Chip (SoC)§r to make §8ULV§r Circuits much more efficiently, as well as §b1k Fluid Storage§r.\n\n§8ULV§r circuits are used in some AE2 recipes, such as the §aAnnihilation Core§r and §aFormation Core§r.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20661,7 +20684,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSadly, offering a questbook refresh as quest reward crashes on dedicated servers... so read this through.§r\n\nWhenever you §dupdate the modpack§r, run the Command §9§l/bq_admin default load§r.\nThis quest does §cnot run it§r, you have to type it yourself.\n\nBe sure to §4not forget§r it, as there are frequent changes to the Questbook.\n\n§oYes, I repeated myself several times, I know. But that way you won\u0027t forget... right? *pleading_face*§r",
+          "desc:8": "§oSadly, offering a questbook refresh as quest reward crashes on dedicated servers... so read this through.§r\n\nWhenever you §dupdate the modpack§r, run the Command §9§l/bq_admin default load§r.\nThis quest §cdoes §cnot run it§r, you have to type it yourself.\n\nBe sure to §4not forget§r it, as there are frequent changes to the Questbook.\n\n§oYes, I repeated myself several times, I know. But that way you won\u0027t forget... right? *pleading_face*§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20768,7 +20791,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you\u0027re still running off the §3Large Bronze Boiler§r, you may want to upgrade to the §3Large Steel Boiler§r.\n\nIt is slightly more efficient than the §3LBB§r, and produce §d900EU/t worth of Steam§r.\n\nOther Power options are more recommendable at this point, though.",
+          "desc:8": "If you\u0027re still running off the §3Large Bronze Boiler§r, you may want to upgrade to the §3Large Steel Boiler§r.\n\nIt is slightly more efficient than the §3LBB§r, and produces §d900 EU/t worth of Steam§r.\n\nOther Power options are more advisable at this point, though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20819,7 +20842,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for all the late game. These multiblocks are improved version of single block machines, a must have for large scale automation.\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r formerly known as Gregicality, is a huge addon. It extends the lategame with 5 additional voltage tiers and even extend the content of previous tiers. If you want to play with it, you may chose a different modpack, though.\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for the late game. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A must have for large scale automation.\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply Gregicality, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20950,7 +20973,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIf you love GregTech Pipes, you may have realised these pipes exist.§r\n\n§3Nonuple Fluid Pipes§r can transport up to 9 Fluids at a time! Not much else to say... It\u0027s very good in the combination of the output of the §3Distillation Tower§r.",
+          "desc:8": "§oIf you love GregTech Pipes, you may have realised these pipes exist.§r\n\n§3Nonuple Fluid Pipes§r can transport up to 9 types of Fluids at a time! Not much else to say... It\u0027s very good in the combination of the output of the §3Distillation Tower§r.\n\nThere are also §3Quadruple Fluid Pipes§r, transporting 4 Fluid types, for less demanding use cases.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21527,6 +21550,179 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "339:10": {
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThe Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk, for smelting.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "minecraft:coal"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Charcoal",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 339,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "340:10": {
+      "preRequisites:11": [
+        251,
+        249
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You can now make §7Tungsten Dust§r. It can be smelted to Tungsten Ingots, or mixed to §9Tungstensteel§r or §1Tungsten Carbide§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 115,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Tungsten Dust",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 340,
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 12,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_scheelite_0"
+            },
+            "1:10": {
+              "Count:3": 12,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tungstate_0"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 115,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "341:10": {
+      "preRequisites:11": [
+        242
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §5EV§r Mixer is required for §9Tungstensteel§r.\n\nIf §6Gregicality: Multiblocks§r is installed, you can now make §3Tantalum Carbide§r and other materials required to make the §3Alloy Blast Smelter§r. This can smelt Dust mixtures into molten alloys, which need to be cooled, essentially swapping the Mixer step with a Vacuum Freezer step. It is required to make the advanced alloys for making the other multiblocks, but those are only available in §1IV§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 473,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Extreme Mixing",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 341,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 473,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -21589,7 +21785,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -78,
-          "y:3": -60
+          "y:3": 36
         },
         "6:10": {
           "id:3": 8,
@@ -21659,7 +21855,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -78,
-          "y:3": 36
+          "y:3": -60
         },
         "16:10": {
           "id:3": 244,
@@ -21701,6 +21897,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
+          "y:3": 84
+        },
+        "22:10": {
+          "id:3": 339,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -78,
           "y:3": 84
         }
       }
@@ -22302,7 +22505,7 @@
           "id:3": 319,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -18,
+          "x:3": 12,
           "y:3": -30
         }
       }
@@ -23668,28 +23871,28 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
-          "y:3": -90
+          "y:3": -120
         },
         "10:10": {
           "id:3": 250,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
-          "y:3": -90
+          "y:3": -120
         },
         "11:10": {
           "id:3": 251,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
-          "y:3": -90
+          "y:3": -120
         },
         "12:10": {
           "id:3": 252,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 90,
-          "y:3": -96
+          "y:3": -126
         },
         "13:10": {
           "id:3": 253,
@@ -23857,7 +24060,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
-          "y:3": -90
+          "y:3": -120
         },
         "37:10": {
           "id:3": 327,
@@ -23871,14 +24074,28 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -216,
-          "y:3": -90
+          "y:3": -120
         },
         "39:10": {
           "id:3": 329,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -174,
-          "y:3": -90
+          "y:3": -120
+        },
+        "40:10": {
+          "id:3": 340,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -120
+        },
+        "41:10": {
+          "id:3": 341,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -78
         }
       }
     },
