@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-    <lines at="middleleft">
+    <lines at="topleft">
         <line>
             <if>
                 <and>
@@ -10,7 +10,7 @@
                                 <var>chunkx</var>
                                 <num>3</num>
                             </modi>
-                            <num>-1</num>
+                            <num>-2</num>
                         </equal>
                         <equal>
                             <modi>
@@ -26,7 +26,7 @@
                                 <var>chunkz</var>
                                 <num>3</num>
                             </modi>
-                            <num>-1</num>
+                            <num>-2</num>
                         </equal>
                         <equal>
                             <modi>
@@ -54,53 +54,46 @@
                 <and>
                     <equal>
                         <var>chunkoffsetx</var>
-                        <num>7</num>
+                        <num>8</num>
                     </equal>
                     <equal>
                         <var>chunkoffsetz</var>
-                        <num>7</num>
+                        <num>8</num>
                     </equal>
-                </and>
-                <concat>
-                    <if>
-                        <and>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                        </and>
-                        <str>      </str>
-                    </if>
-                    <str>  You are at the $4center$f of the chunk.</str>
-                </concat>
+					<or>
+						<equal>
+							<modi>
+								<var>chunkx</var>
+								<num>3</num>
+							</modi>
+							<num>-2</num>
+						</equal>
+						<equal>
+							<modi>
+								<var>chunkx</var>
+								<num>3</num>
+							</modi>
+							<num>1</num>
+						</equal>
+					</or>
+					<or>
+						<equal>
+							<modi>
+								<var>chunkz</var>
+								<num>3</num>
+							</modi>
+							<num>-2</num>
+						</equal>
+						<equal>
+							<modi>
+								<var>chunkz</var>
+								<num>3</num>
+							</modi>
+							<num>1</num>
+						</equal>
+					</or>
+				</and>
+				<str>        You are at the $4center$f of the chunk.</str>
             </if>
         </line>
     </lines>
