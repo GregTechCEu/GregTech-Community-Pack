@@ -679,7 +679,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIron is very abundant! And not just in the form of pure Iron Ore. In reality, Iron is found in a lot of oxide forms or minerals.§r\n\nThe Ore Spawn Information and Ore Byproduct List tabs in JEI can tell you which types of materials come from which ores.\n\nTake a look at those tabs for §b§aIron Ingots§r. Any of these Ores can be smelted directly to Iron. That is §dfour veins§r that virtually have Iron Ore.\n\nDo not bother about ore processing yet. §aDirect smelting will be the most efficient for a while§r, given how easy it is to obtain a lot of ores.\n\n\nGather §eany§r of the Iron yielding Ore to complete this quest.",
+          "desc:8": "§oIron is very abundant! And not just in the form of pure Iron Ore. In reality, Iron is found in a lot of oxide forms or minerals.§r\n\nThe §dOre Generation§r tab in this questbook tells you which types of materials come from which ore veins. The Ore Spawn Information and Ore Byproduct List tabs in JEI list them as well.\n\nTake a look at those tabs for §b§aIron§r. Any of the Ores listed here can be smelted directly to Iron. That is §dfour different veins§r that virtually have Iron Ore.\n\nDo not bother about ore processing yet. §aDirect smelting will be the most efficient for a while§r, given how easy it is to obtain a lot of ores.\n\n\nGather §eany§r of the Iron yielding Ore to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -964,7 +964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. Right click on specific machines allows for special configuration.\n\n§9§lWire Cutter:§r A crafting tool. If the config for GT6-style wire connection is enabled, this is needed to connect wires together. Right click on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. Right click on specific machines allows for special configuration.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1175,7 +1175,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. While Charcoal smelting is enabled here, you will want this multiblock for §eCreosote§r.\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to Creosote as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for the creation of §dTreated Wood Planks§r (does that make you think of another mod?)\n\n\nMaking this Multiblock requires §a117 clay§r, and§a 195 sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded. Back in 1.4 Minecraft, Railcraft introduced the Coke Oven, this was revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. While Charcoal smelting is enabled here, you will want this multiblock for §eCreosote§r.\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for the creation of §dTreated Wood Planks§r (rings a bell?)\n\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Back in Minecraft 1.4, Railcraft introduced the Coke Oven; this was revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1200,16 +1200,22 @@
       "questID:3": 14,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
-              "Count:3": 32,
-              "Damage:2": 319,
+              "Count:3": 40,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_gem"
+              "id:8": "minecraft:coal"
+            },
+            "1:10": {
+              "Count:3": 40,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:log"
             }
-          }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
         }
       },
       "tasks:9": {
@@ -1285,7 +1291,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Gather more resources, namely §aCopper§r and §aTin§r.\n\nCheck the ore tab to find out which veins they are coming from.\n\nThis quest requires §eeither§r §aCopper§r or §aTin§r, so you can claim as reward the metal you\u0027re missing. You will however need a lot of both to go through the Steam Age.",
+          "desc:8": "Gather more resources, namely §aCopper§r and §aTin§r.\n\nCheck the ore tab to find out which veins they come from.\n\nYou can tell at a glance the element types within most ores (and most other materials) with the §emolecular formula§r in the tooltip. Copper is §dCu§r, Tin is §dSn§r, Iron is §dFe§r, and you can consult a §dperiodic table§r for most of the others.\n\nThis quest can be completed with §eeither§r metal, so you can claim as the reward the metal you\u0027re missing. Be sure to find a source of both soon though, as you will need a lot of both to get through the Steam Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1338,7 +1344,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 24,
+              "Count:3": 32,
               "Damage:2": 25,
               "OreDict:8": "ingotCopper",
               "id:8": "gregtech:meta_ingot"
@@ -1355,9 +1361,9 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 24,
+              "Count:3": 32,
               "Damage:2": 112,
-              "OreDict:8": "ingotTin",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -1372,7 +1378,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Grind down some Copper and Tin into dust. You will need a Mortar from the \"More Tools\" quest.\n\nMake much more than just 3 §aBronze ingots§r. The Steam Age machines need a lot more.\n\n§6The progression now continues in the Steam Age chapter.§r",
+          "desc:8": "§oHumanity\u0027s first Alloy, and yours too!§r\n\n§6Bronze§r is an alloy of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. You will need a Mortar from the \"More Tools\" quest.\n\nMake many more §aBronze Ingots§r than what is called for here. This will be your main material for the Steam Age, and you will need lots of it.\n\n§6The progression now continues in the Steam Age chapter.§r\n\n§bLore§r: Bronze in real life is closer to 7 parts Copper and 1 part Tin. Here (and in most of the rest of modded Minecraft) it sadly has to be changed for game balance. Many more such cases!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1446,11 +1452,22 @@
               "Damage:2": 260,
               "OreDict:8": "dustBronze",
               "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
-              "Count:3": 3,
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 24,
               "Damage:2": 260,
-              "OreDict:8": "ingotBronze",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -5025,7 +5042,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§lOutside of Ore Processing:§r\nThis machine, similarly to the Centrifuge, also does a lot of things...\nAnd I cannot list them! But fortunately it\u0027s one of the cheapest, so get it whenever you want something from it.\n\n\n§lFor Ore Processing:§r\nSo, I lied, it\u0027s not §oexactly§r in the Ore Processing, it\u0027s actually for §aDecomposition of Dusts§r. However most of this style of Decomposition through Electrolysis is locked at MV.\n\nTake caution! Due to how ores work, Dusts which can be §ddirectly smelted§r into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide for yourself on each case.",
+          "desc:8": "§lOutside of Ore Processing:§r\nThis machine, similarly to the Centrifuge, also does a lot of things...\nAnd I cannot list them! But fortunately it\u0027s one of the cheapest, so get it whenever you want something from it.\n\n§lFor Ore Processing:§r\nSo, I lied, it\u0027s not §oexactly§r in the Ore Processing, it\u0027s actually for §aDecomposition of Dusts§r. However, most of this style of Decomposition through Electrolysis is locked at §bMV§r.\nYou can see the §emolecular formula§r in Dust tooltips to see at a glance what you can get from them.\n\n§cTake caution!§r Due to how ores work, Dusts which can be §ddirectly smelted§r into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide for yourself on each case.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5874,7 +5891,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need a couple stacks of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
+          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need about a stack each of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20825,7 +20842,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for the late game. These multiblocks are improved versions of single block machines which can perform many parallel recipes. A must have for large scale automation.\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r formerly known as Gregicality, is a huge addon. It extends the lategame with 5 additional voltage tiers and even extend the content of previous tiers. If you want to play with it, you may chose a different modpack, though.\n\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for the late game. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A must have for large scale automation.\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply Gregicality, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21541,7 +21558,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r, for smelting.",
+          "desc:8": "§oThe Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk, for smelting.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
