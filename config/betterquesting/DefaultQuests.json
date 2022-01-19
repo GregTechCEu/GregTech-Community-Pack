@@ -12062,7 +12062,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your only source of Diamond!\n\nDiamond has §6five times more durability§r than Iron for tools. However you may need diamond plates for some of them, which is locked behind the Cutting Machine.\n\nDiamond and Graphite both electrolyze to a lot of Carbon.\n\n§cNote:§r Avoid macerating Diamonds. Recoving gem dusts into the actual gem can not be done for a while.",
+          "desc:8": "Your only source of Diamond!\n\nDiamond has §6five times more durability§r than Iron for tools. However you may need Diamond Plates for some of them, which is locked behind the Cutting Machine.\n\nDiamond and Graphite both electrolyze to a lot of Carbon.\n\n§cNote:§r Avoid macerating Diamonds in the early game. Recovering gem dusts into the actual gem cannot be done for a while.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12092,9 +12092,9 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 276,
+              "Damage:2": 800,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_tool_head_axe"
+              "id:8": "gregtech:meta_item_1"
             }
           }
         }
