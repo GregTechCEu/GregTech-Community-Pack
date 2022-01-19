@@ -14752,7 +14752,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "How to get Platinum:\n§9-§r From §aNickel Ore§r byproduct, either §3Chemical Bath§r of §3HV Macerator§r (be sure to remember to check the ore byproduct JEI page!)\n§9-§r From §aSheldonite vein§r in the End\n§9-§r From §aPlatinum Group Sludge§r, a complicated chain granting many Platinum Group metals. Highly §cunrecommended until IV Age§r, but eventually required, as with many chains.\n\n\nPlatinum is needed in small amounts for §dSMD Diodes§r, and for diverse recipes in EV and IV Age.\n\n\n§bLore:§r Mekanism\u0027s primary material was planned to be Platinum. However GregoriusT complained about it being such a rare material that would be spread all over the world.",
+          "desc:8": "How to get Platinum:\n§9-§r From §aNickel Ore§r byproduct, either §3Chemical Bath§r of §3HV Macerator§r (be sure to remember to check the ore byproduct JEI page!)\n§9-§r From §aSheldonite vein§r in the End\n§9-§r From §aPlatinum Group Sludge§r, a complicated chain granting all Platinum Group metals. Highly §cunrecommended until IV Age§r, but eventually required, as with many chains.\n\n\nPlatinum is needed in small amounts for §dSMD Diodes§r, and for diverse recipes in EV and IV Age.\n\n\n§bLore:§r Mekanism\u0027s primary material was planned to be Platinum. However GregoriusT complained about it being such a rare material that would be spread all over the world.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14790,6 +14790,12 @@
               "Damage:2": 80,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 80,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -17487,7 +17493,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§aNano CPU Wafers§r are made by infusing regular CPU Wafers with §eGlowstone§r and §7Raw Carbon Fibers§r. They will be needed in large quantities for making the Nano line of Circuits.\n\nHigher-tier polymers will increase your yield of Raw Carbon Fibers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17522,11 +17528,17 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 569,
+              "Damage:2": 499,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
             "1:10": {
+              "Count:3": 1,
+              "Damage:2": 569,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 594,
               "OreDict:8": "",
