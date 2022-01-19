@@ -964,7 +964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. Right click on specific machines allows for special configuration.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. It is used for special configuration of machines and Covers.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\nThere are a few other tools which are less important, but deserve a mention.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n§9§lSense:§r A powerful farming tool, automatically breaks and re-plants crops in a large area.\n\n§9§lPlunger:§r A tool to clear stuck fluids from GregTech machines.\n\n§9§lButchery Knife:§r A weapon pre-enchanted with Looting III. Useful for getting extra food, Leather, Ender Pearls...\n\n§9§lBranch Cutter:§r It could be a crafting tool, but nothing uses it by default. So they\u0027re just fancy Shears.\n\n§9§lTurbine Rotor:§r Technically a tool, used in Large Turbines. Different materials grant different bonuses to power and efficiency.\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1085,17 +1085,6 @@
                   "HarvestLevel:3": 1,
                   "Material:8": "wood",
                   "MaxDurability:3": 48
-                }
-              }
-            },
-            "5:10": {
-              "Count:3": 1,
-              "Damage:2": 10,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_tool",
-              "tag:10": {
-                "GT.ToolStats:10": {
-                  "Material:8": "iron"
                 }
               }
             }
@@ -7984,7 +7973,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Prospector is an amazing tool to find veins.\n\nIts GUI is interactive, and... I do not have much more to say.\n§6It is great§r.\n\n\n§bLore:§r §oBack in MY days, the portable Prospector was locked to LuV.§r",
+          "desc:8": "The Prospector is an amazing tool to find veins.\n\nIts GUI is interactive, and... I do not have much more to say.\n§6It is great§r.\n\n\n§bLore:§r §oBack in MY days, the portable Prospector was locked to §d§oLuV§r.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
