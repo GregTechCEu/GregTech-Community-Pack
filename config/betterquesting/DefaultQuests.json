@@ -1164,7 +1164,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nSome GregTech modpacks disable Charcoal furnace smelting, which forces the Coke Oven. While Charcoal smelting is enabled here, you will want this multiblock for §eCreosote§r.\n\nYou can use it to make §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for the creation of §dTreated Wood Planks§r (rings a bell?)\n\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Back in Minecraft 1.4, Railcraft introduced the Coke Oven; this was revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?) It can also be burned as fuel in §9Small Liquid Boilers§r.\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Back in Minecraft 1.4, Railcraft introduced the Coke Oven; this was revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2543,7 +2543,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the §4Nether§r.\n§oYou could also light the Nether portal using alternative means... you dirty cheater...§r\n\nThe §4Nether§r has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\nFinding veins in the §4Nether§r will take more effort than in the §2Overworld§r. Thanksfully the §dSurface Rocks§r (now §oAnywhere Rocks§r) still spawn. Keep using Waypoints!\n\n\nIf you are not playing on §dPeaceful§r yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n\n§9Note:§r In this pack, the Blaze, Magma Cubes and Enderman loot tables have been changed to §5Sulfur Dust§r and §5Enderpearl Dust§r respectively, so you can\u0027t just rush the End.",
+          "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the §4Nether§r.\n§oYou could also light the Nether portal using alternative means... you dirty cheater...§r\n\nThe §4Nether§r has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n§4Nether§r veins will take more effort to find - and are more dangerous - than §2Overworld§r veins. Thankfully the §dSurface Rocks§r (now §oAnywhere Rocks§r) still spawn. Keep using Waypoints!\n\nIf you are not playing on §dPeaceful§r yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n\n§9Note:§r In this pack, the Blaze, Magma Cubes and Enderman loot tables have been changed to §5Sulfur Dust§r and §5Enderpearl Dust§r respectively, so you can\u0027t just rush the End.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11505,7 +11505,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An Iron vein, good in the early game, that\u0027s about it.",
+          "desc:8": "The worst Iron vein, good in the early game, that\u0027s about it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11850,7 +11850,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your standard Lapis vein.\n\nSodalite is the most valuable Ore here, thanks to its electrolysis in the MV Age.",
+          "desc:8": "Did you know Lazurite and Sodalite can be used as Lapis in enchanting?\n\nSodalite is the most valuable Ore here, thanks to its electrolysis in the MV Age.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11861,7 +11861,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Lapis - Source of Lapis Lazuli, Aluminium, Chlorine",
+          "name:8": "Lapis - Source of Lapis Lazuli, Aluminium, Sodium, Chlorine",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -12196,7 +12196,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much.",
+          "desc:8": "A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much.\n\n§bLore:§r Due to auto-generated recipes, Zeolite used to be electrolyzed in batches of 141. Oops!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12568,7 +12568,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Electrotine is important for progression in the HV Age. It centrifuges into Electrum, a source of Gold and Silver, and Redstone.\n\nThe other ores are mediocre at best.\n\n§bLore:§r Does Nikolite ring a bell? It was the ancestor of Electrotine, in RedPower.",
+          "desc:8": "Electrotine is important for progression in the HV Age. It centrifuges into Electrum, a source of Gold and Silver, and Redstone.\n\nSaltpeter is used in a few reactions, and the other two are pretty bad.\n\n§bLore:§r Does Nikolite ring a bell? It was the ancestor of Electrotine, in RedPower.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12952,7 +12952,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This won\u0027t be needed for a very long while, except for some Emeralds for MV Age.",
+          "desc:8": "Emerald is the useful ore here. It\u0027s used in small quantities in MV Age, and is a part of the Crystal process for Crystal and Wetware circuits much later on.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14362,7 +14362,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!). \nOr abuse §7MC-123081§r and place an §dEnd Crystal§r immediately upon spawning in the End to skip the flight. We won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\n§aEyes of Ender§r are additionally used in crafting certain components, or for creating §5Quantum Eyes§r.\n\nThis quest will print the §alocation of the nearest Stronghold§r in chat. Note it, or don\u0027t note it and locate the Stronghold the vanilla way...",
+          "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!). \nOr abuse §7MC-123081§r and place an §dEnd Crystal§r immediately upon spawning in the End to skip the fight. We won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\n§aEyes of Ender§r are additionally used in crafting certain components, or for creating §5Quantum Eyes§r.\n\nThis quest will print the §alocation of the nearest Stronghold§r in chat. Note it, or don\u0027t note it and locate the Stronghold the vanilla way...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20575,7 +20575,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, Iron Bolts are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
+          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, they are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20660,6 +20660,12 @@
               "Damage:2": 51,
               "OreDict:8": "",
               "id:8": "gregtech:meta_bolt"
+            },
+            "1:10": {
+              "Count:3": 12,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -24720,8 +24726,8 @@
           "id:3": 167,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -24
+          "x:3": -12,
+          "y:3": 90
         },
         "12:10": {
           "id:3": 168,
@@ -24755,8 +24761,8 @@
           "id:3": 172,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 90
+          "x:3": 180,
+          "y:3": -24
         },
         "17:10": {
           "id:3": 173,
@@ -24769,15 +24775,15 @@
           "id:3": 174,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": -78
+          "x:3": -48,
+          "y:3": 36
         },
         "19:10": {
           "id:3": 175,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": -54
+          "x:3": -36,
+          "y:3": 66
         },
         "20:10": {
           "id:3": 176,
@@ -24804,8 +24810,8 @@
           "id:3": 179,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": 36
+          "x:3": 144,
+          "y:3": -78
         },
         "24:10": {
           "id:3": 180,
@@ -24818,8 +24824,8 @@
           "id:3": 181,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 66
+          "x:3": 168,
+          "y:3": -54
         },
         "26:10": {
           "id:3": 182,
