@@ -964,7 +964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. It is used for special configuration of machines and Covers.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\nThere are a few other tools which are less important, but deserve a mention.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n§9§lSense:§r A powerful farming tool, automatically breaks and re-plants crops in a large area.\n\n§9§lPlunger:§r A tool to clear stuck fluids from GregTech machines.\n\n§9§lButchery Knife:§r A weapon pre-enchanted with Looting III. Useful for getting extra food, Leather, Ender Pearls...\n\n§9§lBranch Cutter:§r It could be a crafting tool, but nothing uses it by default. So they\u0027re just fancy Shears.\n\n§9§lTurbine Rotor:§r Technically a tool, used in Large Turbines. Different materials grant different bonuses to power and efficiency.\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "desc:8": "More tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. It is used for special configuration of machines and Covers.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\nThere are a few §dother Tools§r which are less important, but deserve a mention.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n§9§lSense:§r A powerful farming tool, automatically breaks and re-plants crops in a large area.\n\n§9§lPlunger:§r A tool to clear stuck fluids from GregTech machines.\n\n§9§lButchery Knife:§r A weapon pre-enchanted with Looting III. Useful for getting extra food, Leather...\n\n§9§lBranch Cutter:§r It could be a crafting tool, but nothing uses it by default. So they\u0027re just fancy Shears.\n\n§9§lTurbine Rotor:§r Technically a tool, used in Large Turbines. Different materials grant different bonuses to power and efficiency.\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1164,7 +1164,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?) It can also be burned as fuel in §9Small Liquid Boilers§r.\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Back in Minecraft 1.4, Railcraft introduced the Coke Oven; this was revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?).\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Back in Minecraft 1.4, Railcraft introduced the Coke Oven; this was revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2754,7 +2754,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§3High Pressure Boilers§r will be a better source of Steam to power your Steam machines.\n\nKeep in mind energy conversion will use Steam to also power your Electric machines in the LV age.\n\n§cNote:§r You will need more than a handful of §3HP Boilers§r. The more you make, the easier it will be.\n\nDo you want a recommendation...? Well, you\u0027re out of luck, all of them are really good while having their own drawback. But I can tell you this: you will love the Advancement name from making an HP Solar Boiler.\n\n\nGet §eany§r of the three proposed boilers to complete this quest.",
+          "desc:8": "§3High Pressure Boilers§r will be a better source of Steam to power your Steam machines.\n\nKeep in mind energy conversion will use Steam to also power your Electric machines in the LV age.\n\n§cNote:§r You will need more than a handful of §3HP Boilers§r. The more you make, the easier it will be.\n\nThe §3Solid Boiler§r burns solid Fuel. It\u0027s self explanatory.\n\nThe §3Liquid Boiler§r burns either §dLava§r or §dCreosote§r.\n\nThe §3Solar Boiler§r burns nothing, it works on solar energy.\n\nDo you want a recommendation...? Well, you\u0027re out of luck, all of them are really good while having their own drawback. But I can tell you this: you will love the Advancement name from making an HP Solar Boiler.\n\n\nGet §eany§r of the three proposed boilers to complete this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3068,7 +3068,6 @@
     },
     "37:10": {
       "preRequisites:11": [
-        20,
         59
       ],
       "properties:10": {
@@ -4357,7 +4356,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oArgueably the second best LV machine to craft, but the choice is yours!§r\n\nThis helps converting one §6Ingot into one Plate§r, which is a better ratio than the Forge Hammer.\n\nYou will need a §dProgrammed Circuit§r for recipes. That would be nice if the questbook designer gave one for free, wouldn\u0027t it?\n\nYou can right click the Programmed Circuit in your hand or within the machine\u0027s §aConfiguration Slot§r to change the configuration number.",
+          "desc:8": "§oArgueably the second best LV machine to craft, but the choice is yours!§r\n\nThis helps converting one §6Ingot into one Plate§r, which is a better ratio than the Forge Hammer.\n\nYou will need a §dProgrammed Circuit§r for recipes. That would be nice if the questbook designer gave one for free, wouldn\u0027t it?\n\nYou can right click the Programmed Circuit in your hand or within the machine\u0027s §aConfiguration Slot§r to change the configuration number. Note that at the time of writing, this slot is §cnot detected§r for recipes!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5530,7 +5529,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oBy itself, the Battery Buffer does nothing. What it does, however, is accept batteries in its inventory, to act as a... buffer... with the... batteries. I hope you got it!§r\n\nThe §3Battery Buffer§r handles §9two Amps in§r, and §9one Amp out§r §dper Battery§r. Output side has the dot, all other sides are inputs. It will also §dcharge§r EU and RF tools inside it.\n\nThis is a must have if you don\u0027t have unlimited power at hand.\n\nGet §eeither§r a four slot, or an eight slot Battery Buffer. A sixteen slot variant also exists but that\u0027s overkill right now.\n\n§9Note:§r Do not loop your lossy Cables back to your Battery Buffer, you will end up voiding energy!\n\n§bLore:§r To be frank with you, the GTCE Battery Buffer was mediocre. It has been reworked by yours truly to provide a mix between GT5 and GTCE\u0027s functionality. Energy now splits evenly across all batteries!",
+          "desc:8": "§oBy itself, the Battery Buffer does nothing. What it does, however, is accept batteries in its inventory, to act as a... buffer... with the... batteries. I hope you got it!§r\n\nThe §3Battery Buffer§r handles §9two Amps in§r, and §9one Amp out§r §dper Battery§r. Output side has the dot, all other sides are inputs.\n§6It will also charge both EU and RF Tools inside it§r.\n\nThis is a must have if you don\u0027t have unlimited power at hand.\n\nGet §eeither§r a four slot, or an eight slot Battery Buffer. A sixteen slot variant also exists but that\u0027s overkill right now.\n\n§9Note:§r Do not loop your lossy Cables back to your Battery Buffer, you will end up voiding energy!\n\n§bLore:§r To be frank with you, the GTCE Battery Buffer was mediocre. It has been reworked by yours truly to provide a mix between GT5 and GTCE\u0027s functionality. Energy now splits evenly across all batteries!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6815,7 +6814,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aAluminium§r is the main ingredient for §bMV§r machine hulls. Check aaaall the way to the other side for Sapphire Quest if you haven\u0027t acquired §aAluminium Dust§r yet.\n\nOnce you setup an §3MV Electrolyzer§r, you can get §aAluminium§r through many other ores. All of this quest\u0027s rewards bear §aAluminium§r.\n\nThe process of smelting Aluminium can be accelerated with §9Nitrogen§r, which is obtained by centrifuging §9Air§r from a §3Gas Collector§r.\n\n\n§6You will still need MV Circuits in order to make MV machines.§r",
+          "desc:8": "§aAluminium§r is the main ingredient for §bMV§r machine hulls. Check aaaall the way to the other side for §2Sapphire Quest§r if you haven\u0027t acquired §aAluminium Dust§r yet.\n\nOnce you setup an §3MV Electrolyzer§r, you can get §aAluminium§r through many other ores. All of this quest\u0027s rewards bear §aAluminium§r.\n\nThe process of smelting Aluminium can be accelerated with §9Nitrogen§r, which is obtained by centrifuging §9Air§r from a §3Gas Collector§r.\n\n\n§6You will still need MV Circuits in order to make MV machines.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8561,12 +8560,13 @@
     },
     "120:10": {
       "preRequisites:11": [
-        58
+        58,
+        76
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking §eSulfuric Acid§r is a three step process. It is used in many important reactions, so you should automate its production soon.\n\nTo automate it, you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with §3one LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (... or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §bOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §bOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §bWater§r, to form §eSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
+          "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking §eSulfuric Acid§r is a three step process. It is used in many important reactions, so you should automate its production soon.\n\nTo automate it, you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with §3one LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (... or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §bOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §bOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §bWater§r, to form §eSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8800,7 +8800,9 @@
     },
     "124:10": {
       "preRequisites:11": [
-        120
+        58,
+        66,
+        91
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10230,7 +10232,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o§a§oBenzene§ §r§o causes leukemia even at low concentrations.§r But it\u0027s also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
+          "desc:8": "§o§a§oBenzene§ §r§o causes leukemia even at low concentrations.§r\n\nIt is a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17286,12 +17288,13 @@
     },
     "263:10": {
       "preRequisites:11": [
-        58
+        58,
+        67
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oDid you know this acid was present in your stomach as part of the gastric acid?§r\n\nObtain §9Hydrochloric Acid§r by mixing §aHydrogen§r and §aChlorine§r.\nThis acid is also obtained from as waste from a lot of reactions involving §aChlorine§r. Depending on your setups, you may never need to produce it directly.\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18492,7 +18495,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Turbo Charger§r charges RF and EU items such as §9Drills§r extremely quickly.\nIt accepts up to 4 Amps for every item it charges, making it §6twice as fast§r as the §3Battery Buffer§r. It cannot discharge, though.",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Turbo Charger§r charges §6RF and EU§r items such as §9Drills§r extremely quickly.\nIt accepts up to 4 Amps for every item it charges, making it §6twice as fast§r as the §3Battery Buffer§r. It cannot discharge, though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20453,7 +20456,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oA higher-tech backpack! Also seriously undervalued.§r\n\nThe §9Portable Cell§r can hold items for you! It holds up to §a27§r types of items.\n\nWhat\u0027s more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an §aME Drive§r or §b§aME IO Port§r for convenience.\n\nThe Portable Cell\u0027s energy only drains when it\u0027s open. With §6167 minutes§r of juice stored in it thanks to changed config, you shouldn\u0027t worry about it running out of energy. Regardless, you can charge it in machine Charger slots, Turbo Chargers or Battery Buffers.\n\n§\n§cWarning§r: Attempting to store items with very large NBT Tags may result in them getting §cstuck§r. So far it seems that the Building Gadgets, Terminal and Clipboards are safe, but we never know what could happen.\nIf something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest. Then place your Portable Cell inside the IO Port.",
+          "desc:8": "§oA higher-tech backpack! Also seriously undervalued.§r\n\nThe §9Portable Cell§r can hold items for you! It holds up to §a27§r types of items.\n\nWhat\u0027s more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an §aME Drive§r or §b§aME IO Port§r for convenience.\n\nThe Portable Cell\u0027s energy only drains when it\u0027s open. With §6167 minutes§r of juice stored in it thanks to changed config, you shouldn\u0027t worry about it running out of energy.\nRegardless, you will be able to §dcharge§r it in §7LV§r Age in §3machine Charger slots§r, §3Turbo Chargers§r or §3Battery Buffers§r.\n\n§\n§cWarning§r: Attempting to store items with very large NBT Tags may result in them getting §cstuck§r. So far it seems that the Building Gadgets, Terminal and Clipboards are safe, but we never know what could happen.\nIf something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest. Then place your Portable Cell inside the IO Port.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20689,8 +20692,8 @@
               "id:8": "gregtech:meta_bolt"
             },
             "1:10": {
-              "Count:3": 12,
-              "Damage:2": 25,
+              "Count:3": 8,
+              "Damage:2": 51,
               "OreDict:8": "",
               "id:8": "gregtech:meta_plate"
             }
@@ -21018,20 +21021,7 @@
         }
       },
       "questID:3": 327,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 12,
-              "Damage:2": 2036,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_plate"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -21779,7 +21769,7 @@
     },
     "342:10": {
       "preRequisites:11": [
-        253
+        275
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21803,7 +21793,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 342,
@@ -21880,7 +21870,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 343,
@@ -21931,7 +21921,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 344,
@@ -21982,7 +21972,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 345,
@@ -22033,7 +22023,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 346,
@@ -22756,7 +22746,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 132,
-          "y:3": -30
+          "y:3": -210
         },
         "23:10": {
           "id:3": 41,
@@ -22791,13 +22781,13 @@
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 60,
-          "y:3": -42
+          "y:3": -222
         },
         "28:10": {
           "id:3": 47,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -372,
+          "x:3": -348,
           "y:3": -90
         },
         "29:10": {
@@ -22811,8 +22801,8 @@
           "id:3": 77,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -336,
-          "y:3": -132
+          "x:3": -348,
+          "y:3": -150
         },
         "31:10": {
           "id:3": 105,
@@ -22839,8 +22829,8 @@
           "id:3": 316,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -336,
-          "y:3": -90
+          "x:3": -348,
+          "y:3": -30
         },
         "35:10": {
           "id:3": 319,
@@ -23463,14 +23453,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 372,
-          "y:3": -216
+          "y:3": -222
         },
         "16:10": {
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 318,
-          "y:3": -216
+          "y:3": -222
         },
         "17:10": {
           "id:3": 126,
@@ -23623,8 +23613,8 @@
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 222,
-          "y:3": -216
+          "x:3": 228,
+          "y:3": -222
         },
         "39:10": {
           "id:3": 148,
@@ -23732,20 +23722,27 @@
           "y:3": 72
         },
         "54:10": {
+          "id:3": 263,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 432,
+          "y:3": -222
+        },
+        "55:10": {
           "id:3": 310,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": 42
         },
-        "55:10": {
+        "56:10": {
           "id:3": 318,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 36,
           "y:3": -78
         },
-        "56:10": {
+        "57:10": {
           "id:3": 327,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -24100,7 +24097,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
-          "y:3": 120
+          "y:3": 114
         },
         "47:10": {
           "id:3": 320,
@@ -25363,272 +25360,279 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 16,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 354,
+          "y:3": 18
+        },
+        "1:10": {
           "id:3": 27,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 54
         },
-        "1:10": {
+        "2:10": {
           "id:3": 41,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 18
         },
-        "2:10": {
+        "3:10": {
           "id:3": 44,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 54
         },
-        "3:10": {
+        "4:10": {
           "id:3": 92,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 90
         },
-        "4:10": {
+        "5:10": {
           "id:3": 94,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 90
         },
-        "5:10": {
+        "6:10": {
           "id:3": 131,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 90,
           "y:3": 54
         },
-        "6:10": {
+        "7:10": {
           "id:3": 132,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 90,
           "y:3": 90
         },
-        "7:10": {
+        "8:10": {
           "id:3": 133,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 90,
           "y:3": 126
         },
-        "8:10": {
+        "9:10": {
           "id:3": 136,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": 54
         },
-        "9:10": {
+        "10:10": {
           "id:3": 137,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": 90
         },
-        "10:10": {
+        "11:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": 126
         },
-        "11:10": {
+        "12:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": 162
         },
-        "12:10": {
+        "13:10": {
           "id:3": 145,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 126
         },
-        "13:10": {
+        "14:10": {
           "id:3": 200,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": 198
         },
-        "14:10": {
+        "15:10": {
           "id:3": 208,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 162
         },
-        "15:10": {
+        "16:10": {
           "id:3": 220,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 390,
           "y:3": 162
         },
-        "16:10": {
+        "17:10": {
           "id:3": 252,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 390,
           "y:3": 198
         },
-        "17:10": {
+        "18:10": {
           "id:3": 253,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 198
         },
-        "18:10": {
+        "19:10": {
           "id:3": 266,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 126
         },
-        "19:10": {
+        "20:10": {
           "id:3": 269,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 162
         },
-        "20:10": {
+        "21:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 198
         },
-        "21:10": {
+        "22:10": {
           "id:3": 273,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 234
         },
-        "22:10": {
+        "23:10": {
           "id:3": 292,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 162
         },
-        "23:10": {
+        "24:10": {
           "id:3": 293,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 198
         },
-        "24:10": {
+        "25:10": {
           "id:3": 294,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 234
         },
-        "25:10": {
+        "26:10": {
           "id:3": 295,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 270
         },
-        "26:10": {
+        "27:10": {
           "id:3": 298,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 234
         },
-        "27:10": {
+        "28:10": {
           "id:3": 299,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 306
         },
-        "28:10": {
+        "29:10": {
           "id:3": 302,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 270
         },
-        "29:10": {
+        "30:10": {
           "id:3": 304,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 270,
           "y:3": 342
         },
-        "30:10": {
+        "31:10": {
           "id:3": 305,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 306
         },
-        "31:10": {
+        "32:10": {
           "id:3": 307,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 342
         },
-        "32:10": {
+        "33:10": {
           "id:3": 320,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": 18
         },
-        "33:10": {
+        "34:10": {
           "id:3": 330,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 270
         },
-        "34:10": {
+        "35:10": {
           "id:3": 331,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 234
         },
-        "35:10": {
+        "36:10": {
           "id:3": 332,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 198
         },
-        "36:10": {
+        "37:10": {
           "id:3": 333,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 270,
           "y:3": 306
         },
-        "37:10": {
+        "38:10": {
           "id:3": 334,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 270,
           "y:3": 270
         },
-        "38:10": {
+        "39:10": {
           "id:3": 335,
           "sizeX:3": 24,
           "sizeY:3": 24,
