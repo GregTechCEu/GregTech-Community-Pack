@@ -315,7 +315,7 @@ recipes.addShaped("wct", <wct:wct>, [
 // Creative Wireless Crafting Terminal
 recipes.removeByRecipeName("wct:wct");
 recipes.addShaped("wct_creative", <wct:wct_creative>, [
-    [<wct:wct>, <metaitem:field.generator.luv>],
+    [<wct:wct>, <metaitem:field.generator.uv>],
     [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
 ]);
 
@@ -928,11 +928,22 @@ recipes.addShaped("planes_annihilation_fluid", <appliedenergistics2:part:302>, [
 ]);
 
 // ME Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals");
 recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
     [<ore:boltNetherQuartz>, <ore:circuitBasic>, <ore:boltNetherQuartz>],
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
+
+assembler.recipeBuilder()
+    .inputs(<ore:circuitBasic> * 3)
+    .inputs(<ore:boltNetherQuartz> * 2)
+    .inputs(<ore:itemIlluminatedPanel>)
+    .inputs(<ore:plateDoubleSteel>)
+    .outputs(<appliedenergistics2:part:380>)
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
 
 // ME Crafting Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_crafting");
@@ -978,9 +989,18 @@ recipes.addShaped("wireless_booster", <appliedenergistics2:material:42>, [
 ]);
 
 // Infinity Booster
+recipes.removeByRecipeName("ae2wtlib:booster_card_old");
 recipes.addShaped("booster_card_new", <ae2wtlib:infinity_booster_card>, [
     [<appliedenergistics2:material:42>, <metaitem:sensor.luv>],
     [<metaitem:emitter.luv>, <ore:gtceScrewdrivers>]
+]);
+
+// Portable Cell
+recipes.removeByRecipeName("appliedenergistics2:tools/network_portable_cell");
+recipes.addShaped("network_portable_cell", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 200000.0, internalCurrentPower: 200000.0}), [
+    [<ore:boltRedAlloy>, <ore:paneGlass> , <ore:boltRedAlloy>],
+    [<ore:circuitPrimitive>, <minecraft:chest>, <ore:circuitPrimitive>],
+    [<ore:plateWroughtIron>, <ore:cableGtSingleRedAlloy>, <ore:plateWroughtIron>]
 ]);
 
 // Glass Cables

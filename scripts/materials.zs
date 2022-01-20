@@ -11,7 +11,7 @@ MaterialBuilder(32000, "fluix")
     .components([<material:certus_quartz> * 1, <material:nether_quartz> * 1, <material:redstone> * 1])
     .build();
 
-<material:certus_quartz>.addFlags("generate_rod");
-<material:nether_quartz>.addFlags("generate_rod");
+<material:certus_quartz>.addFlags("generate_rod", "generate_bolt_screw");
+<material:nether_quartz>.addFlags("generate_rod", "generate_bolt_screw");
 <material:iron>.addFlags("generate_dense");
 <material:brass>.addFlags("generate_spring");
