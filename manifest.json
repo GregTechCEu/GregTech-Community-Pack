@@ -14,11 +14,6 @@
     "version": "1.0",
     "author": "GregTech Community Pack Dev Team",
     "externalDeps":[
-        {
-            "url" : "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v43/appliedenergistics2-rv6-stable-7.omni-fixes-v43h.jar",
-            "hash" : "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "name": "Applied Energistics 2 Trousers Edition"
-        }
     ],
     "name": "GregTech Community Pack",
     "files":[
@@ -465,6 +460,11 @@
         {
             "projectID": 223275,
             "fileID": 2458763,
+            "required": true
+        },
+        {
+            "projectID": 570458,
+            "fileID": 3614447,
             "required": true
         }
     ]
