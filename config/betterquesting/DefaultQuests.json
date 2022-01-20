@@ -80,7 +80,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oA minecraft adventure starting with Wood!? This is truly unoriginal, I want a refund...§r\n\nIf you\u0027re familiar with §2GregTech§r, you may be aware of nerfed vanilla recipes. This modpack features very few of them, and Wood won\u0027t be a chore!\n\nHere, get some food. If you\u0027re playing on Peaceful, put it on a display.",
+          "desc:8": "§oA minecraft adventure starting with Wood!? This is truly unoriginal, I want a refund...§r\n\nIf you\u0027re familiar with §2GregTech§r, you may be aware of nerfed vanilla recipes. We have a few of them. However Wood to Planks is unchanged, rejoice!\n\nHere, get some food. If you\u0027re playing on Peaceful, put it on a display.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -447,7 +447,7 @@
     },
     "7:10": {
       "preRequisites:11": [
-        2
+        339
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7760,7 +7760,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSoldering Alloy is used to... solder... things in the Assembler of Circuit Assembler.§r\n\n§aSoldering Alloy§r is used solely as a fluid, and in most cases is §dinterchangeable with more Tin§r.\n\nThe choice will be yours, save more materials? Make Soldering Alloy.\nOr spend less time crafting materials? Use Tin.",
+          "desc:8": "§oSoldering Alloy is used to... solder... things in the Assembler of Circuit Assembler.§r\n\n§aSoldering Alloy§r is used solely as a §9Fluid§r, and in most cases is §dinterchangeable with more Tin§r.\n\nThe choice will be yours, save more materials? Make Soldering Alloy.\nOr spend less time crafting materials? Use Tin.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7967,8 +7967,7 @@
     "111:10": {
       "preRequisites:11": [
         72,
-        69,
-        83
+        69
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10305,7 +10304,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically.\n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
+          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically.\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14791,7 +14790,20 @@
         }
       },
       "questID:3": 220,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 92,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -17893,7 +17905,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, but then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r - if you\u0027ve been putting it off, there\u0027s unfortunately no choice anymore.",
+          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making SBR until you get the §3Distillation Tower§r, but then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r - if you\u0027ve been putting it off, there\u0027s unfortunately no choice anymore.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21596,12 +21608,12 @@
     },
     "339:10": {
       "preRequisites:11": [
-        7
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o[Placeholder] The Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.",
+          "desc:8": "§o[Placeholder] The Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.\n\n§4Charcoal smelting in Furnace is disabled§r. But §dWooden Planks§r are still a very good Furnace Fuel.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21631,17 +21643,30 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 16,
-              "Damage:2": 0,
+              "Damage:2": 1,
               "OreDict:8": "",
-              "id:8": "minecraft:log"
+              "id:8": "minecraft:coal"
             }
           }
         }
       },
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 48,
+              "Damage:2": 0,
+              "OreDict:8": "logWood",
+              "id:8": "minecraft:log"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -22047,6 +22072,203 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "347:10": {
+      "preRequisites:11": [
+        72
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oWhy can\u0027t these items I mine behave and enter my inventory!? This magnet should solve it, even if it makes no sense!§r\n\nCharge the Magnet while you would with a §9Battery§r, and §dsneak right-click§r when in hand to activate it. Do it again to deactivate. It will work from anywhere in your inventory.\n\n§9Note:§r If are you worried about getting overwhelmed by Cobblestone or Netherrack, open the trash can from FTB:Utilities in the top left corner to void them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 471,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 100000
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Magnet",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 347,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 471,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "348:10": {
+      "preRequisites:11": [
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Voiding Covers are coming up soon. They will enable voiding. What else did you expect?",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 310,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Voiding Cover (Placeholder)",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 348,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "349:10": {
+      "preRequisites:11": [
+        119
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Jetpack takes most §aCombustion Fuel§r to enable a primitive form of flight.\n\nFill it like you would fill a Drum.\n\nPress §4H§r (default) to enable Hover Mode.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "I believe I can fly",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 349,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "350:10": {
+      "preRequisites:11": [
+        128
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This jetpack enables flight, and requires energy. §oWhat do you mean a jetpack is supposed to work of propellants?§r\n\nCharge it like you would charge a Battery.\n\nPress §4H§r (default) to enable Hover Mode.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor",
+            "tag:10": {
+              "Charge:4": 1000000
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "I believe I can cheat flight",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 350,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -22109,7 +22331,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -78,
-          "y:3": 36
+          "y:3": 84
         },
         "6:10": {
           "id:3": 8,
@@ -22228,7 +22450,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -78,
-          "y:3": 84
+          "y:3": 36
         }
       }
     },
@@ -23033,13 +23255,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": -30
+          "y:3": -60
         },
         "25:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
+          "x:3": 210,
           "y:3": -30
         },
         "26:10": {
@@ -23088,7 +23310,7 @@
           "id:3": 82,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -168,
+          "x:3": -162,
           "y:3": 198
         },
         "33:10": {
@@ -23102,7 +23324,7 @@
           "id:3": 84,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
+          "x:3": 240,
           "y:3": 102
         },
         "35:10": {
@@ -23256,7 +23478,7 @@
           "id:3": 111,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
+          "x:3": 210,
           "y:3": 60
         },
         "57:10": {
@@ -23321,6 +23543,20 @@
           "sizeY:3": 36,
           "x:3": 258,
           "y:3": -102
+        },
+        "66:10": {
+          "id:3": 347,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 174,
+          "y:3": -30
+        },
+        "67:10": {
+          "id:3": 348,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -78,
+          "y:3": -48
         }
       }
     },
@@ -23746,8 +23982,22 @@
           "id:3": 327,
           "sizeX:3": 24,
           "sizeY:3": 24,
+          "x:3": 174,
+          "y:3": -210
+        },
+        "58:10": {
+          "id:3": 349,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": 120,
           "y:3": -210
+        },
+        "59:10": {
+          "id:3": 350,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 174,
+          "y:3": -138
         }
       }
     },
