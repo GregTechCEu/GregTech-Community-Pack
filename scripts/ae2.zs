@@ -502,8 +502,8 @@ recipes.addShapeless("cardspeed", <appliedenergistics2:material:30>, [
 recipes.removeByRecipeName("wct:magnet_card");
 recipes.addShaped("magnet_card", <wct:magnet_card>, [
     [<ore:dyeRed>, <appliedenergistics2:part:300>, <ore:dyeBlue>],
-    [<ore:plateDoubleAluminium>, <ore:plateDoubleNeodymiumMagnetic>, <ore:plateDoubleAluminium>],
-    [<ore:plateAluminium>, <ore:plateDoubleAluminium>, <ore:plateAluminium>]
+    [<ore:plateDoubleTitanium>, <metaitem:item_magnet.hv>, <ore:plateDoubleTitanium>],
+    [<ore:plateTitanium>, <ore:plateDoubleTitanium>, <ore:plateTitanium>]
 ]);
 
 // Basic Card
