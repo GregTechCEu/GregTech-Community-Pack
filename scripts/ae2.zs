@@ -934,16 +934,10 @@ recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:circuitBasic> * 3)
-    .inputs(<ore:boltNetherQuartz> * 2)
-    .inputs(<ore:itemIlluminatedPanel>)
-    .inputs(<ore:plateDoubleSteel>)
-    .outputs(<appliedenergistics2:part:380>)
-    .duration(40)
-    .EUt(7)
-    .buildAndRegister();
+recipes.addShaped("terminals_crafting", <appliedenergistics2:part:380>, [
+    [<ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>],
+    [<appliedenergistics2:material:22>, <ore:gtceScrewdrivers>]
+]);
 
 // ME Crafting Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_crafting");
