@@ -6902,7 +6902,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four time as durable§r as Steel for GregTech tools. The Vanadium comes from §aVanadium Magnetite§r, which you have probably encountered in Magnetite veins.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
+          "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four times as durable§r as Steel for GregTech tools. The Vanadium comes from §aVanadium Magnetite§r, which you have probably encountered in Magnetite veins.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 4,
@@ -7423,7 +7423,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Getting into Applied Energistics at this point is possible, but also a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§6-§r Charger (to charge FE related items!)\n§6-§r ME Terminal\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§6-§r Portable Cell\n\n§9Note:§r This pack uses §5Fluix Crystals§r generated as a GT material rather than the default AE2 Fluix Crystals. To get them, put §dFluix Dust§r in the §aAutoclave§r, which is made from §7Certus Quartz Dust§r, §eNether Quartz Dust§o§r and §cRedstone§r in a §aMixer§r. No need to charge the Certus Quartz. It gets charged in the Mixer... or something.",
+          "desc:8": "Getting into Applied Energistics at this point is possible, but also a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§\n§6-§r ME Terminal\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§\n\n§9Note:§r This pack uses §5Fluix Crystals§r generated as a GT material rather than the default AE2 Fluix Crystals. To get them, put §dFluix Dust§r in the §aAutoclave§r, which is made from §7Certus Quartz Dust§r, §eNether Quartz Dust§o§r and §cRedstone§r in a §aMixer§r. No need to charge the Certus Quartz. It gets charged in the Mixer... or something.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7760,7 +7760,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSoldering Alloy is used to... solder... things in the Assembler of Circuit Assembler.§r\n\n§aSoldering Alloy§r is used solely as a §9Fluid§r, and in most cases is §dinterchangeable with more Tin§r.\n\nThe choice will be yours, save more materials? Make Soldering Alloy.\nOr spend less time crafting materials? Use Tin.",
+          "desc:8": "§oSoldering Alloy is used to... solder... things in the Assembler of Circuit Assembler.§r\n\n§aSoldering Alloy§r is used solely as a §9Fluid§r, and in most cases is §dinterchangeable§r with more Tin§r.\n\nThe choice will be yours. Save more materials? Make Soldering Alloy.\nOr spend less time crafting materials? Use Tin.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7785,16 +7785,22 @@
       "questID:3": 108,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
+          "choices:9": {
             "0:10": {
               "Count:3": 20,
               "Damage:2": 320,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 40,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
             }
-          }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
         }
       },
       "tasks:9": {
@@ -10231,7 +10237,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o§a§oBenzene§ §r§o causes leukemia even at low concentrations.§r\n\nIt is a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
+          "desc:8": "§o§a§oBenzene§ §r§o causes leukemia even at low concentrations.§r But it's also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10583,7 +10589,20 @@
         }
       },
       "questID:3": 153,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 24,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13467,7 +13486,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The next §3Circuit Assembler§r. This tier of Circuit Assembler is only used to make one type of Circuit! It is used to make your first ever §aMainframe§r.\n\nYou can put this off until §5EV§r.",
+          "desc:8": "The next §3Circuit Assembler§r. This tier of Circuit Assembler is only required for one type of Circuit! It is used to make your first ever §aMainframe§r.\n\nYou can put this off until §5EV§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16348,7 +16367,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Making §aAE2 Presses§r will unlock all the §9Processors§r from AE2, opening more content, better recipes and automation.\n\nAE2 §9Printed Circuits§r are made in the §3Forming Press§r.",
+          "desc:8": "§oWho likes meteor hunting anyway?§r\n\nMaking §aAE2 Presses§r will unlock all the §9Processors§r from AE2. This opens up §9ME Drives§r, §9ME Interfaces,§r §9ME Crafting CPUs§r... almost the rest of AE2!\n\nAE2 §9Printed Circuits§r are made in the §3Forming Press§r.\n\nLook in the §e§dAE2 quest tab§r for more details on how to use each piece (once it\u0027s done).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17306,7 +17325,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDid you know this acid was present in your stomach as part of the gastric acid?§r\n\nObtain §9Hydrochloric Acid§r by mixing §aHydrogen§r and §aChlorine§r.\nThis acid is also obtained from as waste from a lot of reactions involving §aChlorine§r. Depending on your setups, you may never need to produce it directly.\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.",
+          "desc:8": "§oWe can guarantee you have a sample of this with you right now! It\u0027s in your stomach as part of gastric acid.§r\n\nObtain §9Hydrochloric Acid§r by mixing §aHydrogen§r and §aChlorine§r.\nThis acid is also obtained from as waste from a lot of reactions involving §aChlorine§r. Depending on your setups, you may never need to produce it directly.\n\n\n§cNote:§r We have a bot command on our Discord, called $medicine: \"Do not attempt this in real life, it is not only illegal but also stupidly dangerous\".\nThis applies to toying with chemicals. Please don\u0027t do it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17905,7 +17924,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making SBR until you get the §3Distillation Tower§r, but then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r - if you\u0027ve been putting it off, there\u0027s unfortunately no choice anymore.",
+          "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, but then it becomes great. This also requires §dOil Processing§r and §dFuel Cracking§r - if you\u0027ve been putting it off, there\u0027s unfortunately no choice anymore.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21613,7 +21632,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o[Placeholder] The Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.\n\n§4Charcoal smelting in Furnace is disabled§r. But §dWooden Planks§r are still a very good Furnace Fuel.",
+          "desc:8": "§oThe Charcoal Pit is not implemented into GTCEu yet. §r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.\n\n§4Charcoal smelting in Furnace is disabled§r. But §dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22223,7 +22242,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This jetpack enables flight, and requires energy. §oWhat do you mean a jetpack is supposed to work of propellants?§r\n\nCharge it like you would charge a Battery.\n\nPress §4H§r (default) to enable Hover Mode.",
+          "desc:8": "This jetpack enables flight, and requires energy. §oWhat do you mean a jetpack is supposed to work off propellants?§r\n\nCharge it like you would charge a Battery.\n\nPress §4H§r (default) to enable Hover Mode.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24669,14 +24688,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -240,
-          "y:3": -102
+          "y:3": -90
         },
         "39:10": {
           "id:3": 329,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -186,
-          "y:3": -102
+          "y:3": -90
         },
         "40:10": {
           "id:3": 340,
