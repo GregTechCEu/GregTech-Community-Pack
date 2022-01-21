@@ -12,20 +12,19 @@ var saplings = [
 ] as IItemStack[];
 
 var logs = [
-    <minecraft:log> * 64,
-    <minecraft:log:1> * 64,
-    <minecraft:log:2> * 64,
-    <minecraft:log:3> * 64,
-    <minecraft:log2> * 64,
-    <minecraft:log2:1> * 64,
-    <gregtech:rubber_log> * 64
+    <minecraft:log> * 32,
+    <minecraft:log:1> * 32,
+    <minecraft:log:2> * 32,
+    <minecraft:log:3> * 32,
+    <minecraft:log2> * 32,
+    <minecraft:log2:1> * 32,
+    <gregtech:rubber_log> * 32
 ] as IItemStack[];
 
 for i, sapling in saplings {
     chemical_reactor.recipeBuilder()
         .notConsumable(sapling)
         .fluidInputs([<liquid:water> * 1000])
-        .outputs(logs[i])
         .outputs(logs[i])
         .duration(1200)
         .EUt(16)
