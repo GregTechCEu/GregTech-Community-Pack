@@ -7423,7 +7423,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Getting into Applied Energistics at this point is possible, but also a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§6-§r Charger (to charge FE related items!)\n§6-§r ME Terminal\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§6-§r Portable Cell\n\n§9Note:§r This pack uses §5Fluix Crystals§r generated as a GT material rather than the default AE2 Fluix Crystals. To get them, put §dFluix Dust§r in the §aAutoclave§r, which is made from §7Certus Quartz Dust§r, §eNether Quartz Dust§o§r and §cRedstone§r in a §aMixer§r. No need to charge the Certus Quartz. It gets charged in the Mixer... or something.",
+          "desc:8": "Getting into Applied Energistics at this point is possible, but also a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§\n§6-§r ME Terminal\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§\n\n§9Note:§r This pack uses §5Fluix Crystals§r generated as a GT material rather than the default AE2 Fluix Crystals. To get them, put §dFluix Dust§r in the §aAutoclave§r, which is made from §7Certus Quartz Dust§r, §eNether Quartz Dust§o§r and §cRedstone§r in a §aMixer§r. No need to charge the Certus Quartz. It gets charged in the Mixer... or something.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21613,7 +21613,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o[Placeholder] The Charcoal Pit is not implemented into GTCEu yet. For now, smelt Wood in a Furnace like in vanilla for Charcoal.§r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.\n\n§4Charcoal smelting in Furnace is disabled§r. But §dWooden Planks§r are still a very good Furnace Fuel.",
+          "desc:8": "§oThe Charcoal Pit is not implemented into GTCEu yet. §r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.\n\n§4Charcoal smelting in Furnace is disabled§r. But §dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
