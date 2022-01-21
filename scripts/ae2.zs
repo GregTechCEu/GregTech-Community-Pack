@@ -976,9 +976,9 @@ recipes.addShaped("terminals_fluid", <appliedenergistics2:part:520>, [
 // P2P Tunnel
 recipes.removeByRecipeName("appliedenergistics2:network/parts/tunnels_me");
 recipes.addShaped("tunnels_me", <appliedenergistics2:part:460> * 2, [
-    [null, <ore:plateSteel>, null],
-    [<ore:plateSteel>, <appliedenergistics2:material:24>, <ore:plateSteel>],
-    [<ore:plateSteel>, <appliedenergistics2:part:16>, <ore:plateSteel>]
+    [null, <ore:plateStainlessSteel>, null],
+    [<ore:plateStainlessSteel>, <appliedenergistics2:material:24>, <ore:plateStainlessSteel>],
+    [<ore:plateStainlessSteel>, <appliedenergistics2:part:16>, <ore:plateStainlessSteel>]
 ]);
 
 // Wireless Booster
