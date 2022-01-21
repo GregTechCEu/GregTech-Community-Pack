@@ -934,7 +934,7 @@ recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
-recipes.addShaped("terminals_crafting", <appliedenergistics2:part:380>, [
+recipes.addShaped("terminals_simple", <appliedenergistics2:part:380>, [
     [<ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>],
     [<appliedenergistics2:material:22>, <ore:gtceScrewdrivers>]
 ]);
