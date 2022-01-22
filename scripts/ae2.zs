@@ -69,7 +69,7 @@ recipes.addShaped("security_station", <appliedenergistics2:security_station>, [
 
 // Quantum Ring
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_ring");
-recipes.addShaped("quantum_ring", <appliedenergistics2:quantum_ring> * 4, [
+recipes.addShaped("quantum_ring", <appliedenergistics2:quantum_ring> * 2, [
     [<ore:plateTitanium>, <appliedenergistics2:material:22>, <ore:plateTitanium>],
     [<appliedenergistics2:material:24>, <metaitem:emitter.hv>, <appliedenergistics2:material:24>],
     [<ore:plateTitanium>, <appliedenergistics2:material:22>, <ore:plateTitanium>]
