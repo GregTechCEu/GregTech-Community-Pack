@@ -69,7 +69,7 @@ recipes.addShaped("security_station", <appliedenergistics2:security_station>, [
 
 // Quantum Ring
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_ring");
-recipes.addShaped("quantum_ring", <appliedenergistics2:quantum_ring>, [
+recipes.addShaped("quantum_ring", <appliedenergistics2:quantum_ring> * 2, [
     [<ore:plateTitanium>, <appliedenergistics2:material:22>, <ore:plateTitanium>],
     [<appliedenergistics2:material:24>, <metaitem:emitter.hv>, <appliedenergistics2:material:24>],
     [<ore:plateTitanium>, <appliedenergistics2:material:22>, <ore:plateTitanium>]
@@ -79,7 +79,7 @@ recipes.addShaped("quantum_ring", <appliedenergistics2:quantum_ring>, [
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_link");
 recipes.addShaped("quantum_link", <appliedenergistics2:quantum_link>, [
     [<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:9>, <appliedenergistics2:quartz_glass>],
-    [<appliedenergistics2:material:9>, <metaitem:field.generator.ev>, <appliedenergistics2:material:9>],
+    [<appliedenergistics2:material:9>, <metaitem:field.generator.hv>, <appliedenergistics2:material:9>],
     [<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:9>, <appliedenergistics2:quartz_glass>]
 ]);
 
@@ -502,8 +502,8 @@ recipes.addShapeless("cardspeed", <appliedenergistics2:material:30>, [
 recipes.removeByRecipeName("wct:magnet_card");
 recipes.addShaped("magnet_card", <wct:magnet_card>, [
     [<ore:dyeRed>, <appliedenergistics2:part:300>, <ore:dyeBlue>],
-    [<ore:plateDoubleAluminium>, <ore:plateDoubleNeodymiumMagnetic>, <ore:plateDoubleAluminium>],
-    [<ore:plateAluminium>, <ore:plateDoubleAluminium>, <ore:plateAluminium>]
+    [<ore:plateDoubleTitanium>, <metaitem:item_magnet.hv>, <ore:plateDoubleTitanium>],
+    [<ore:plateTitanium>, <ore:plateDoubleTitanium>, <ore:plateTitanium>]
 ]);
 
 // Basic Card
@@ -934,16 +934,10 @@ recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
     [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
 ]);
-
-assembler.recipeBuilder()
-    .inputs(<ore:circuitBasic> * 3)
-    .inputs(<ore:boltNetherQuartz> * 2)
-    .inputs(<ore:itemIlluminatedPanel>)
-    .inputs(<ore:plateDoubleSteel>)
-    .outputs(<appliedenergistics2:part:380>)
-    .duration(40)
-    .EUt(7)
-    .buildAndRegister();
+recipes.addShaped("terminals_simple", <appliedenergistics2:part:380>, [
+    [<ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>],
+    [<appliedenergistics2:material:22>, <ore:gtceScrewdrivers>]
+]);
 
 // ME Crafting Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_crafting");
@@ -976,9 +970,9 @@ recipes.addShaped("terminals_fluid", <appliedenergistics2:part:520>, [
 // P2P Tunnel
 recipes.removeByRecipeName("appliedenergistics2:network/parts/tunnels_me");
 recipes.addShaped("tunnels_me", <appliedenergistics2:part:460> * 2, [
-    [null, <ore:plateSteel>, null],
-    [<ore:plateSteel>, <appliedenergistics2:material:24>, <ore:plateSteel>],
-    [<ore:plateSteel>, <appliedenergistics2:part:16>, <ore:plateSteel>]
+    [null, <ore:plateTungstenSteel>, null],
+    [<ore:plateTungstenSteel>, <appliedenergistics2:material:24>, <ore:plateTungstenSteel>],
+    [<ore:plateTungstenSteel>, <appliedenergistics2:part:16>, <ore:plateTungstenSteel>]
 ]);
 
 // Wireless Booster
