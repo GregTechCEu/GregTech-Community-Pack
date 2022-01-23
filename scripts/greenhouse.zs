@@ -37,17 +37,3 @@ val greenhouse_multiblock = Builder.start(loc, id)
     .withRecipeMap(greenhouse)
     .withBaseTexture(<cube_renderer:SOLID_STEEL_CASING>)
     .buildAndRegister();
-
-// possibly in lang
-game.setLocalization(
-    "multiblocktweaker.machine.greenhouse.name",
-    "Greenhouse"
-);
-game.setLocalization(
-    "multiblocktweaker.machine.greenhouse.description",
-    "The Greenhouse grows plants internally"
-);
-game.setLocalization(
-    "recipemap.greenhouse.name",
-    "Greenhouse"
-);
