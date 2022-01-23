@@ -1,6 +1,8 @@
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
+// Greenhouse
+
 var saplings = [
     <minecraft:sapling>,
     <minecraft:sapling:1>,
@@ -12,25 +14,38 @@ var saplings = [
 ] as IItemStack[];
 
 var logs = [
-    <minecraft:log> * 32,
-    <minecraft:log:1> * 32,
-    <minecraft:log:2> * 32,
-    <minecraft:log:3> * 32,
-    <minecraft:log2> * 32,
-    <minecraft:log2:1> * 32,
-    <gregtech:rubber_log> * 32
+    <minecraft:log> * 64,
+    <minecraft:log:1> * 64,
+    <minecraft:log:2> * 64,
+    <minecraft:log:3> * 64,
+    <minecraft:log2> * 64,
+    <minecraft:log2:1> * 64,
+    <gregtech:rubber_log> * 64
 ] as IItemStack[];
 
 for i, sapling in saplings {
-    chemical_reactor.recipeBuilder()
+    greenhouse.recipeBuilder()
         .notConsumable(sapling)
+        .circuit(1)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(logs[i])
-        .duration(1200)
-        .EUt(16)
+        .outputs(sapling.withAmount(6))
+        .duration(2400)
+        .EUt(40)
+        .buildAndRegister();
+
+    greenhouse.recipeBuilder()
+        .notConsumable(sapling)
+        .circuit(2)
+        .inputs(<ore:dustBone>)
+        .fluidInputs([<liquid:water> * 1000])
+        .outputs(logs[i])
+        .outputs(logs[i])
+        .outputs(sapling.withAmount(12))
+        .duration(2400)
+        .EUt(60)
         .buildAndRegister();
 }
-
 
 var seeds = [
     <minecraft:pumpkin_seeds>,
@@ -53,22 +68,22 @@ var plants = [
 ] as IItemStack[];
 
 for i, seed in seeds {
-    chemical_reactor.recipeBuilder()
+    greenhouse.recipeBuilder()
         .notConsumable(seed)
         .circuit(1)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(plants[i])
         .duration(1200)
-        .EUt(16)
+        .EUt(40)
         .buildAndRegister();
 
-    chemical_reactor.recipeBuilder()
+    greenhouse.recipeBuilder()
         .notConsumable(seed)
         .circuit(2)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(seed.withAmount(8))
         .duration(1200)
-        .EUt(16)
+        .EUt(40)
         .buildAndRegister();
 }
 
