@@ -1,7 +1,7 @@
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
-// Greenhouse
+// Greenhouse Trees
 
 var saplings = [
     <minecraft:sapling>,
@@ -9,8 +9,7 @@ var saplings = [
     <minecraft:sapling:2>,
     <minecraft:sapling:3>,
     <minecraft:sapling:4>,
-    <minecraft:sapling:5>,
-    <gregtech:rubber_sapling>
+    <minecraft:sapling:5>
 ] as IItemStack[];
 
 var logs = [
@@ -19,14 +18,13 @@ var logs = [
     <minecraft:log:2> * 64,
     <minecraft:log:3> * 64,
     <minecraft:log2> * 64,
-    <minecraft:log2:1> * 64,
-    <gregtech:rubber_log> * 64
+    <minecraft:log2:1> * 64
 ] as IItemStack[];
 
 for i, sapling in saplings {
     greenhouse.recipeBuilder()
-        .notConsumable(sapling)
         .circuit(1)
+        .notConsumable(sapling)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(logs[i])
         .outputs(sapling.withAmount(6))
@@ -35,9 +33,9 @@ for i, sapling in saplings {
         .buildAndRegister();
 
     greenhouse.recipeBuilder()
-        .notConsumable(sapling)
         .circuit(2)
-        .inputs(<ore:dustBone>)
+        .notConsumable(sapling)
+        .inputs(<ore:dustBone> * 4)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(logs[i])
         .outputs(logs[i])
@@ -47,43 +45,79 @@ for i, sapling in saplings {
         .buildAndRegister();
 }
 
+// Greenhouse Rubber
+
+greenhouse.recipeBuilder()
+    .circuit(1)
+    .notConsumable(<gregtech:rubber_sapling>)
+    .fluidInputs([<liquid:water> * 1000])
+    .outputs(<gregtech:rubber_log> * 32)
+    .outputs(<gregtech:rubber_sapling> * 6)
+    .outputs(<metaitem:rubber_drop> * 16)
+    .duration(2400)
+    .EUt(40)
+    .buildAndRegister();
+
+greenhouse.recipeBuilder()
+    .circuit(2)
+    .notConsumable(<gregtech:rubber_sapling>)
+    .inputs(<ore:dustBone> * 4)
+    .fluidInputs([<liquid:water> * 1000])
+    .outputs(<gregtech:rubber_log> * 64)
+    .outputs(<gregtech:rubber_sapling> * 12)
+    .outputs(<metaitem:rubber_drop> * 32)
+    .duration(2400)
+    .EUt(60)
+    .buildAndRegister();
+
+// Greenhouse Plants
+
 var seeds = [
     <minecraft:pumpkin_seeds>,
     <minecraft:beetroot_seeds>,
     <minecraft:wheat_seeds>,
     <minecraft:melon_seeds>,
+    <minecraft:carrot>,
+    <minecraft:potato>,
+    <minecraft:reeds>,
+    <minecraft:cactus>,
     <minecraft:brown_mushroom>,
     <minecraft:red_mushroom>,
     <minecraft:nether_wart>
 ] as IItemStack[];
 
 var plants = [
-    <minecraft:pumpkin> * 3,
-    <minecraft:beetroot> * 12,
-    <minecraft:wheat> * 12,
-    <minecraft:melon_block> * 3,
-    <minecraft:brown_mushroom_block> * 4,
-    <minecraft:red_mushroom_block> * 4,
-    <minecraft:nether_wart_block> * 2
+    <minecraft:pumpkin> * 6,
+    <minecraft:beetroot> * 16,
+    <minecraft:wheat> * 16,
+    <minecraft:melon_block> * 6,
+    <minecraft:carrot> * 12,
+    <minecraft:potato> * 12,
+    <minecraft:reeds> * 12,
+    <minecraft:cactus> * 12,
+    <minecraft:brown_mushroom> * 12,
+    <minecraft:red_mushroom> * 12,
+    <minecraft:nether_wart> * 12
 ] as IItemStack[];
 
 for i, seed in seeds {
     greenhouse.recipeBuilder()
-        .notConsumable(seed)
         .circuit(1)
+        .notConsumable(seed)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(plants[i])
-        .duration(1200)
+        .duration(2400)
         .EUt(40)
         .buildAndRegister();
 
     greenhouse.recipeBuilder()
-        .notConsumable(seed)
         .circuit(2)
+        .notConsumable(seed)
+        .inputs(<ore:dustBone> * 4)
         .fluidInputs([<liquid:water> * 1000])
-        .outputs(seed.withAmount(8))
-        .duration(1200)
-        .EUt(40)
+        .outputs(plants[i].withAmount(plants[i].amount * 4))
+        .duration(2400)
+        .EUt(60)
         .buildAndRegister();
 }
 
