@@ -4,7 +4,7 @@ recipes.removeByRecipeName("buildinggadgets:buildingtool");
 recipes.addShaped("buildingtool", <buildinggadgets:buildingtool>, [
     [<ore:plateSteel>, <ore:plateLapis>, <ore:plateSteel>],
     [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
-    [<ore:plateSteel>, <ore:cableGtTin>, <ore:plateSteel>]
+    [<ore:plateSteel>, <ore:cableGtSingleTin>, <ore:plateSteel>]
 ]);
 
 // Exchanging Gadget
@@ -12,7 +12,7 @@ recipes.removeByRecipeName("buildinggadgets:exchangingtool");
 recipes.addShaped("exchangertool", <buildinggadgets:exchangertool>, [
     [<ore:plateSteel>, <ore:plateGold>, <ore:plateSteel>],
     [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
-    [<ore:plateSteel>, <ore:cableGtTin>, <ore:plateSteel>]
+    [<ore:plateSteel>, <ore:cableGtSingleTin>, <ore:plateSteel>]
 ]);
 
 // Copy-Paste Gadget
@@ -20,7 +20,7 @@ recipes.removeByRecipeName("buildinggadgets:copypastetool");
 recipes.addShaped("copypastetool", <buildinggadgets:copypastetool>, [
     [<ore:plateSteel>, <ore:plateRedstone>, <ore:plateSteel>],
     [<ore:plateEmerald> | <ore:plateOlivine>, <ore:circuitBasic>, <ore:plateEmerald> | <ore:plateOlivine>],
-    [<ore:plateSteel>, <ore:cableGtTin>, <ore:plateSteel>]
+    [<ore:plateSteel>, <ore:cableGtSingleTin>, <ore:plateSteel>]
 ]);
 
 // Template Manager
