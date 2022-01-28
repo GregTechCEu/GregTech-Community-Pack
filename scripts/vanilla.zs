@@ -28,7 +28,7 @@ for i, sapling in saplings {
         .fluidInputs([<liquid:water> * 1000])
         .outputs(logs[i])
         .outputs(sapling.withAmount(6))
-        .duration(2400)
+        .duration(1200)
         .EUt(40)
         .buildAndRegister();
 
@@ -40,7 +40,7 @@ for i, sapling in saplings {
         .outputs(logs[i])
         .outputs(logs[i])
         .outputs(sapling.withAmount(12))
-        .duration(2400)
+        .duration(900)
         .EUt(60)
         .buildAndRegister();
 }
@@ -54,7 +54,7 @@ greenhouse.recipeBuilder()
     .outputs(<gregtech:rubber_log> * 32)
     .outputs(<gregtech:rubber_sapling> * 6)
     .outputs(<metaitem:rubber_drop> * 16)
-    .duration(2400)
+    .duration(1200)
     .EUt(40)
     .buildAndRegister();
 
@@ -66,7 +66,7 @@ greenhouse.recipeBuilder()
     .outputs(<gregtech:rubber_log> * 64)
     .outputs(<gregtech:rubber_sapling> * 12)
     .outputs(<metaitem:rubber_drop> * 32)
-    .duration(2400)
+    .duration(900)
     .EUt(60)
     .buildAndRegister();
 
@@ -106,7 +106,7 @@ for i, seed in seeds {
         .notConsumable(seed)
         .fluidInputs([<liquid:water> * 1000])
         .outputs(plants[i])
-        .duration(2400)
+        .duration(1200)
         .EUt(40)
         .buildAndRegister();
 
@@ -115,8 +115,8 @@ for i, seed in seeds {
         .notConsumable(seed)
         .inputs(<ore:dustBone> * 4)
         .fluidInputs([<liquid:water> * 1000])
-        .outputs(plants[i].withAmount(plants[i].amount * 4))
-        .duration(2400)
+        .outputs(plants[i].withAmount(plants[i].amount * 2))
+        .duration(900)
         .EUt(60)
         .buildAndRegister();
 }
