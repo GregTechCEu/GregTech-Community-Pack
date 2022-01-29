@@ -2324,7 +2324,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Primitive Water Pump is your first way to automatically generate water for your boilers. It does not pump water from the world, instead it just creates it.\n\nIt is a multiblock, so consult §2JEI§r for the structure.\nIts functionality is fully explained in the description page in §2JEI§r.\n\nSmall tip for you: no need to worry about biome for now, as the boilers need very little water to keep up.\n\nThe Output Hatch is where water will be generated, you may have it face up or down to auto-output water into your pipes.\n§9Reminder:§r Use a §5Wrench§r to rotate GregTech blocks (sneak right-click).\n\n\n§bLore:§r This Multiblock was ported from IMPACT, a 1.7.10 GregTech modpack which we appreciate greatly.",
+          "desc:8": "The §3Primitive Water Pump§r is your first way to automatically generate water for your boilers. It does not pump water from the world, instead it just creates it.\n\nIt is a multiblock, so consult §2JEI§r for the structure. Also, multiblocks can be §6previewed in world§r if you sneak right-click the main Block with an empty hand.\nIts functionality is fully explained in the description page in §2JEI§r.\n\nSmall tip for you: no need to worry about Biome for now, as the boilers need very little water to keep up.\n\nThe §3Output Hatch§r is where water will be generated, you may have it face up or down to auto-output water into your pipes.\n§9Reminder:§r Use a §5Wrench§r to rotate GregTech blocks (sneak right-click).\n\n\n§bLore:§r This Multiblock was ported from IMPACT, a 1.7.10 GregTech modpack which we appreciate greatly.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3883,7 +3883,7 @@
     },
     "47:10": {
       "preRequisites:11": [
-        21
+        316
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5951,7 +5951,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Quest explains the core mechanic of the Electric Blast Furnace, while other Quests will explain the mechanics of the Parts, so be sure to refer to them!§r\n\nThe §3Electric Blast Furnace (EBF)§r is your first electric multiblock! It is used to process materials at high temperatures.\n\nYou will use the EBF to make §aAluminium§r and progress to §d§bMV Age§r. It can also make §7Steel§r faster than a PBF.\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120 EU/t§r! That\u0027s slightly under 4 §7LV§r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.",
+          "desc:8": "§oThis Quest explains the core mechanic of the Electric Blast Furnace, while other Quests will explain the mechanics of the Parts, so be sure to refer to them!§r\n\nThe §3Electric Blast Furnace (EBF)§r is your first electric multiblock! It is used to process materials at high temperatures.\n\nYou will use the EBF to make §aAluminium§r and progress to §d§bMV Age§r. It can also make §7Steel§r faster than a PBF.\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120 EU/t§r! That\u0027s slightly under 4 §7LV§r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.\n\n\n§bLore:§r We have a config \"casingsActiveEmissiveTextures\" which enables bloom on the Coils of the EBF when it is running. Feel free to enable it, no need to restart the game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7187,7 +7187,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oCheck the recipe from the wire, and then in the Material JEI page, check the recipe for the dust. Handy isn\u0027t it?§r\n\n§6Superconductors§r are special Wires available for each Voltage tier. They do not have any Cable counterpart, but they have §6no cable loss§r! They also don\u0027t damage you when you touch them.\n\nNow is probably time to put some §6lossless§r wires everywhere! Don\u0027t get too addicted, they do not come cheap.\n\nSuperconductors are also used to craft their tier\u0027s §aField Generators§r, a special crafting component used in some niche recipes.\n\n§bLore:§r No version of GregTech had actual Superconductors for LV up until Gregicality and GTCEu. Though some modpacks had lossless cables.",
+          "desc:8": "§oCheck the recipe from the wire, and then in the Material JEI page, check the recipe for the dust. Handy isn\u0027t it?§r\n\n§6Superconductors§r are special Wires available for each Voltage tier. They do not have any Cable counterpart, but they have absolutely §6no cable loss§r! They also don\u0027t damage you when you touch them.\nThe 1x variant also covers 2 Amps! Isn\u0027t that nice?\n\nNow is a good time to replace your crappy §aTin Cables§r. Recycle them in the §3Packager§r to recover both Tin and Rubber.\n\n§bLore:§r No version of GregTech had actual Superconductors for LV up until Gregicality and GTCEu. Though some modpacks had lossless cables.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7366,7 +7366,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJust kidding, Silicon Wafers in this mod are perfectly fungible.§r\n\n§9Silicon Boules§r are made in the EBF with lots of §9Silicon Dust§r and a small amount of §9Gallium Arsenide§r. After making the Boule, cut it in the §9Cutting Machine§r to get 16 Silicon Wafers ready for engraving.\n\n§cWarning:§r Each Silicon Boule takes §c7.5 minutes§r to make at 120 EU/t, or §c1,080,000 EU§r! If the EBF loses power midway, the recipe will start to §close progress§r. Be sure you have enough power before starting.",
+          "desc:8": "§oJust kidding, Silicon Wafers in this mod are perfectly fungible.§r\n\n§9Silicon Boules§r are made in the §3EBF§r with lots of §aSilicon Dust§r and a small amount of §aGallium Arsenide§r.\nAfter making the Boule, cut it in the §3Cutting Machine§r to get 16 Silicon Wafers ready for engraving.\n\nThe best §aSilicon§r source at this point shall be either §dGlass Dust§r, or §dSodalite§r.\n\n§cWarning:§r Each Silicon Boule takes 7.5 minutes to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to §close progress§r. Be sure you have enough power before starting.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7400,14 +7400,25 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 32,
-              "Damage:2": 99,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
               "Count:3": 1,
               "Damage:2": 361,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 371,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -7972,8 +7983,7 @@
     },
     "111:10": {
       "preRequisites:11": [
-        72,
-        69
+        72
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8083,7 +8093,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the §bMV§r Age. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nNote the appearance of the §aEmitter§r? This one requires a §dFlawless Emerald§r which will be only attainable with the §3Sifting Machine§r for now.\n\nConveyors, Pumps and Robot Arms are upgrades to §7LV§r versions if you use them as covers.\n\nFinally, §aAnnealed Copper Wires§r appear here as their §aCables§r are the best §bMV§r Cables to transport EU. Don\u0027t forget to §4insulate§r them.\nAs for the MV Superconductors, they are unlocked... much later.",
+          "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the §bMV§r Age. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nNote the appearance of the §aEmitter§r? This one requires a §dFlawless Emerald§r which will be only attainable with the §3Sifting Machine§r for now.\n\nConveyors, Pumps and Robot Arms are upgrades to §7LV§r versions if you use them as covers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8173,23 +8183,6 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 252,
-              "OreDict:8": "",
-              "id:8": "gregtech:wire_single"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -8203,7 +8196,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will want many of them, and as low tier as possible to avoid the energy losses from Overclocking.",
+          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will probably want many of them, and as low tier as possible to avoid the energy losses from Overclocking.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8272,7 +8265,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Pyrolyse Oven processes organic products by thermal decomposition in an inert environment.§r\n\nThe §3Pyrolyse Oven§r is an electric equivalent of the §3Coke Oven§r. It can produce §9Coal Coke§r and §9Charcoal§r with a §9Creosote§r byproduct just as before, but also has additional §6Organic Byproducts§r. The most beneficial of these are §aWood Tar§r and §aCharcoal Byproducts§r. Charcoal Byproducts isn\u0027t useful right now, but Wood Tar is (more in the Benzene Quest).\nAnother product is §aBiomass§r, which is more pertinent for progression §oright now§r.\n\nThose byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\nYou will need to read the §9Distillation§r Quest to hopefully understand the full scale..\n\n§bNitrogen§r can optionally be used in certain recipes. This increases the energy usage from §d64 EU/t§r to §596 EU/t§r, but §ddoubles the speed§r. This requires an additional §7LV §3Centrifuge§r, and brings it out of the range of a single §7LV §3Energy Hatch§r.\nThis is probably not worth doing for now, but later you can make your choice.\n\n\nThe §3Cupronickel Coils§r are more than enough to get started, but you may want to upgrade eventually.\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThis path is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r In GT5u, the structure for the Pyrolyse Oven is a giant box with only 9 coils inside. Players usually spend several minutes debugging what is wrong due to the lack of JEI preview.",
+          "desc:8": "§oThe Pyrolyse Oven processes organic products by thermal decomposition in an inert environment.§r\n\nThe §3Pyrolyse Oven§r is an electric equivalent of the §3Coke Oven§r. It can produce §9Coal Coke§r and §9Charcoal§r with a §9Creosote§r byproduct just as before, but also has additional §6Organic Byproducts§r. The most beneficial of these being §aWood Tar§r.\nAnother product is §aBiomass§r, which is more pertinent for progression §oright now§r.\n\nThose byproducts can be Distilled for an array of organic resources, with different byproducts giving different ratios of different chemicals.\nYou will need to read the §9Distillation§r Quest to hopefully understand the full scale..\n\n§\nThere are recipes that can accept §bNitrogen§r to double the speed. This is not quite worth right now.\nYou will be fine with just one §3LV Energy Hatch§r and Superconductors to supply a steady §d64 EU/t§r.\n\nThe §3Cupronickel Coils§r are more than enough to get started, but you may want to upgrade eventually.\n\n\n§\n§9§lNote:§r§l The Plant path is one path towards §9§lEthylene§r§l. The other path involves Oil.§r§r\nThe Pyrolyse Oven remains §doptional§r. But it is great to have either for Power, or for the various Byproducts.\n\n\n§bLore:§r In GT5u, the structure for the Pyrolyse Oven is a giant box with only 9 coils inside. Players usually spend several minutes debugging what is wrong due to the lack of JEI preview.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8342,7 +8335,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§, \n\nGet a Pump, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil! I recommend you bring a §3Battery Buffer§r, and a lot of §3Drums§r or a on-site §3Steel Multiblock Tank§r. A Super Tank would be better, but that\u0027s not quite available yet!\n\nDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Note:§r This path is §doptional§r.. for now. This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n§a§r§aOil§r processing also grants a power source in the form of §eDiesel§r and later §cGasoline§r, as well as a whole host of organic materials, which are useful soon. However, they are not strictly required until late §6HV§r age\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
+          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§,§r\n\nGet a §3Pump§r, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil, which is huge! Refining the Oil§r onsite into either §aLight Fuel§r or §aDiesel§r (or both) is perfectly viable. Next Quests explain what they are good for.\nStore this into §3Drums§r, but you will truly want to use a §3Super Tank§r as soon as you unlock it.\n\n§cWarning: §rDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§\n§9§lNote:§r§l The Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOil spouts are a §6great starting point§r, they will help transition to Fluid Drilling Rigs.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8466,7 +8459,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nFor this route, you will need §9plant matter§r. §aSaplings§r work will give you Biomass in the §3Brewery§r at decent rates.\n\nOthe§rrwise, you may go the §dPlantball§r into §dBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
+          "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nFor this route, you will need §9plant matter§r.\n\n§aSaplings§r work fine in §3Brewery§r for a decent yield, but are slow.\nOthe§rrwise, you may go the §dPlantball§r into §dBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient.\n\n§9Note:§r Only one Bio Chaff can be obtained from the maceration§r step until the §3HV Macerator§r.\n\n\n§bLore:§r Plantball and Bio Chaff orignate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9892,7 +9885,8 @@
     },
     "142:10": {
       "preRequisites:11": [
-        141
+        141,
+        355
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10121,7 +10115,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n\n§9Note:§r This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age.\nThe Brewery makes §aBiomass§r, a path that is §doptional§r. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, wrong GregTech version.§r",
+          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n§\n§9Note:§r The Brewery enables the Biomass path towards §9Ethylene§r. The same can be done in the §3Pyrolyse Oven§r. The other path invovles Oil.§r\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, that\u0027s GregTech 6.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10237,7 +10231,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o§a§oBenzene§ §r§o causes leukemia even at low concentrations.§r But it\u0027s also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
+          "desc:8": "§oBenzene causes leukemia even at low concentrations.§r\n\n§aBenzene§r is also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10383,7 +10377,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This path awaits for the Fluid Rig to be released to be worth considering.\n\nStay tuned!\n\n§aRefinery Gas§r, §aLPG§r and §aMethane§r are all burned in a §3Gas Turbine§r. They cannot be refined further, but are easy to obtain.\n§aMethane§r can also be obtained from a few §anatural sources§r, which you may wish to explore.",
+          "desc:8": "§oLPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances.§r\n\n§aRefinery Gas§r, §aLPG§r and §aMethane§r are §9Gas Fuels§r.\n\nRefinery Gas is obtained either through §dNatural Gas§r or §dLight Oil§r, the latter yielding more yet requiring a distillation step.\n\nThe §3Centrifuge§r step to separate into §aLPG§r and §aMethane§r should always be done, as it is extremely free.\n\n\n§a§aLPG§r and §aMethane§r are burned in a §3Gas Turbine§r. Among the other fuel options, they are the easier to set up which makes them excellent to get started. However they cannot be refined further.\n\n§aMethane§r can also be obtained from a few §anatural sources§r. Between you and me, they are memes, but you can explore them if you wish. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10456,7 +10450,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFluid Rigs are coming up soon in GTCEu§r\n\nThe §3Fluid Rig§r pumps fluids from underneath bedrock. Note that the fluids aren\u0027t actually there, instead they are simulated.\n\nIn the §aOverworld§r:\n\n§9§lOil:§r your standard Oil, richer in §aLight Fuel§r.\n\n§9§lLight Oil:§r richer in §aRefinery Gas§r, generally considered as the worst Oil.\n\n§9§lHeavy Oil:§r richer in §aHeavy Fuel§r, and requires MV to process.\n\n§9§lRaw Oil:§r essentially a less dense version of §aOil§r.\n\n§9§lNatural Gas:§r grants §aRefinery Gas§r without requiring a Distillation step.\n\n§l§9§lSalt Water:§r grants §aSodium§r and §aChlorine§r, not much else.\n\nIn the §cNether§r, it will be able to pump §9Natural Gas§r or §9Lava§r.",
+          "desc:8": "§oFinally, Fluid Drilling Rigs in GTCEu!§r\n\nIt is quite an investment to get to run a §3Fluid Drilling Rig§r, but it is by far the most prominent §6source of Oil§r.\nIt pumps fluids from underneath Bedrock. Note that the fluids aren\u0027t actually there, instead they are simulated.\n\nFluid veins are stored within regions of §48x8 chunks§r. Each vein has a different fluid, but they are mostly types Oil.\nYou are not able to do prospection for fluid veins §oyet§r, this will come in the §6HV§r Age.\n\nEach vein generates with a different base yield. This is typically between §d150L§r to §d300L per second§r.\n\nWhen drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time, until it reaches its depletion yield. At that point you should move the Rig to somewhere else.\nA §3Basic Fluid Drilling Rig§r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for §6well over 10,000§r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate.\n\n\nWhat you can find in the §2Overworld§r:\n§9Oil:§r richer in §aLight Fuel§r, the most appreciated variant.\n§9Light Oil:§r richer in §aRefinery Gas§r, usable for power.\n§9Heavy Oil:§r richer in §aHeavy Fuel§r, which has uses that are more niche.\n§9Raw Oil:§r essentially a less dense version of §aOil§r, the least appreciated.\n§9Natural Gas:§r grants §aRefinery Gas§r with no distillation required.\n§l§9Salt Water:§r grants §aSodium§r and §aChlorine§r, useful later.\n\n§rWhat you can find in the §cNether§r:\n§9Natural Gas:§r grants §aRefinery Gas§r but with higher yield than the Overworld vein.\n§9Lava:§r you know what this is.\n\n\nFor starters you may have to tap randomly until you find something you like. Whatever you pump can be used to refuel your Fluid Rig.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10467,7 +10461,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Fluid Drilling Rigs (Placeholder)",
+          "name:8": "Fluid Drilling Rigs",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10482,8 +10476,21 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1032,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -10648,7 +10655,8 @@
     },
     "154:10": {
       "preRequisites:11": [
-        66
+        66,
+        241
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10895,7 +10903,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The underground has pure Oilsands veins. You may §aelectrolyze§r the Dust to get §aOil§r.\n\n§9Note:§r This path is §doptional§r.. for now. This Quest is an entry point towards §9Polyethylene§r, an important goal for the MV Age. Basically, you have two choices to get to §9Polyethylene§r, either §aBiomass§r or §aOil§r.\n§a§r§aOil§r processing also grants a power source in the form of §eDiesel§r and later §cGasoline§r, as well as a whole host of organic materials, which are useful soon. However, they are not strictly required until late §6HV§r age.",
+          "desc:8": "The underground has pure Oilsands ore veins. You may §3electrolyze§r the Dust to get §aOil§r.\n\n\n§9§lNote:§r§l The Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOilsands is a §6mediocre but easy starting point§r, it may help transition to Fluid Drilling Rigs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12310,7 +12318,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Coal - Source of",
+          "name:8": "Coal - Source of Pollution",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -12470,7 +12478,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Both Topaz ores give Fluorine through electrolysis.",
+          "desc:8": "Both Topaz ores are absolutely excellent for electrolysis.\n\nThe best Fluorine source.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13217,7 +13225,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIs it getting hot in here?§r\n\n§aKanthal Heating Coils§r are the next major step in progression. This increases the temperature of your §3Blast Furnace§r to §d2,700K§r, allowing you to process new materials. They may also §eaccelerate§r less hot recipes - check the next quest for details.\n\n\n§bLore:§r In original GregTech 5, there were only three types of coils. This was the second tier, after Cupronickel.",
+          "desc:8": "§oIs it getting hot in here?§r\n\n§3Kanthal Heating Coils§r are the next major step in progression. This increases the temperature of your §3Blast Furnace§r to §d2,700K§r, allowing you to process new materials. They may also §eaccelerate§r less hot recipes - check the next quest for details.\n\nYou will need §a128 Ingots§r, which will take easily over an hour. You can move on to other projects while your §3EBF§r is hard at work.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13401,7 +13409,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cDoping§r is the process of intentionally introducing §cimpurities§r into semiconductors to change their properties. §7Silicon§r can be doped with small amounts of §eGlowstone§r to make a better §eSilicon Boule§r.\n\nGlowstone-doped Silicon Boules yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.\n\n§cWarning:§r Like the non-doped Boule, this requires a huge amount of energy. 1 Glowstone-doped Boule takes §c10 minutes§r to process at 480 EU/t, totaling §c5,760,000 EU§r for a single boule!",
+          "desc:8": "§oDoping is the process of intentionally introducing impurities into semiconductors to change their properties.§r\n\n§7Silicon§r can be doped with small amounts of §eGlowstone§r to make a better §eSilicon Boule§r.\n\nGlowstone-doped Silicon Boules typically yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13704,7 +13712,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTrying to match the heat of the Sun huh? But still a long wayto go.§r\n\n§aNichrome Heating Coils§r increase the temperature of your §3Blast Furnace§r to §d3,600K§r.\n\nDespite not being required §oyet§r, it still is a good idea to upgrade your primary §3EBF§r for the sweet §6Coils bonuses§r.",
+          "desc:8": "§oTrying to match the heat of the Sun huh? But still a long wayto go.§r\n\n§3Nichrome Heating Coils§r increase the temperature of your §3Blast Furnace§r to §d3,600K§r.\n\nDespite not being required §oyet§r, it still is a good idea to upgrade your primary §3EBF§r for the sweet §6Coils bonuses§r.\n\n\n§bLore:§r In original GregTech 5, there were only three types of coils. This was the last tier.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13768,7 +13776,8 @@
     "204:10": {
       "preRequisites:11": [
         201,
-        323
+        323,
+        195
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14054,7 +14063,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTitanium has the highest corrosion resistance and strength-to-density ratio of any metallic element.§r\n\nLike §8§7Stainless Steel§r, §bAluminium§r, and §8Steel§r for their respective tiers, Titanium is the main material for §5EV§r machines.\n\nTo get yourself Titanium, §dRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §7Carbon§r, §3Chlorine§r, §bOxygen§r, and §dMagnesium§r used in the process can be perfectly recovered from the byproduct §1Carbon Monoxide§r and §5Magnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r.\n\n§cWarning:§r §aTitanium Tetrachloride§r is a §chot Fluid§r. Transporting it in pipes that do not have enough heat capacity will §cburn§r them. Fluid heat is currently displayed only when in machines (we\u0027re working on improving that!). Steel Pipes are safe for this Fluid.\n\n\n§c⚠ Quests EV and above are not completed yet! Only rough progression is outlined in the quests.",
+          "desc:8": "§oTitanium has the highest corrosion resistance and strength-to-density ratio of any metallic element.§r\n\nLike §8§7Stainless Steel§r, §bAluminium§r, and §8Steel§r for their respective tiers, Titanium is the main material for §5EV§r machines.\n\nTo get yourself Titanium, §dRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §7Carbon§r, §3Chlorine§r, §bOxygen§r, and §dMagnesium§r used in the process can be perfectly recovered from the byproduct §1Carbon Monoxide§r and §5Magnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r.\n\n§cWarning:§r §aTitanium Tetrachloride§r is a §chot Fluid§r. Transporting it in pipes that do not have enough heat capacity will §cburn§r them.\n\n\n§c⚠ Quests EV and above are not completed yet! Only rough progression is outlined in the quests.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14509,7 +14518,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "By this point, normal Cables with insulation have a near insignificant loss.\n\nYou can use those for good looks!",
+          "desc:8": "By this point, normal Cables with insulation have a near insignificant loss.\n\nYou can use those for good looks!\n\nSuperconductors are still required to craft §aField Generators§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15514,7 +15523,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the §3Input Bus§r of your §3Vacuum Freezer§r, open it and set to §dingotHot*§r whitelist. Try §dtesting§r it by dragging ingots from JEI!\n\nFrom here, you have the option to route either with §9Item Pipes§r or §9AE2§r.\n\n§9With Item Pipes§r, connect the output of your §3EBF(s)§r to the input of your §3Vacuum Freezer§r and the output dump (Chest, Crate, or ME Interface).\nMake sure the Cover is on the face the pipe is connected. You can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Vacuum Freezer will be prioritized.\n\n§9With AE2§r, place a §3ME Storage Bus§r on top of your Cover and set to very §dhigh priority§r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, you can enable \"§dOre Dictionary Tooltips§r\" in the config options for \"§dJEI Integration§r\", or with admin permissions, use the command §d/ct hand§r.",
+          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the §3Input Bus§r of your §3Vacuum Freezer§r, open it and set to §dingotHot*§r whitelist.\nThe slot is to §dtest§r items to make sure you configured the Filter properly, drag ingots from JEI!\n\nFrom here, you have the option to route either with §9Item Pipes§r or §9AE2§r.\n\n§2With Item Pipes§r, connect the output of your §3EBF(s)§r to the input of your §3Vacuum Freezer§r and the output dump (Chest, Crate, or ME Interface).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Vacuum Freezer will be prioritized.\n\n§2With AE2§r, place a §3ME Storage Bus§r on top of your Cover and set to very §dhigh priority§r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16044,12 +16053,13 @@
     },
     "240:10": {
       "preRequisites:11": [
-        75
+        92,
+        94
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§5Player:§r §oI hate mining!§r\n\n§5Writer:§r §oBut I gave you Mining Hammers!§r\n\n§5Player:§r §oI hate mining!§r\n\nA solution for you - albeit relatively slow for the LV variant - is the §3Miner§r!\n\nGet a charged Battery, or multiple Batteries and a Battery Buffer, and place the §3Miner§r above a vein to make this kind soul mine an entire vein for you!\nVertical range is unlimited. Horizontal range is written on the tooltip.\n\nDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Tip:§r I highly suggest you put an §3ME Chest§r as the output inventory to make transporting the ores back home a simple task. The §3ME Chest§r can be powered with EU directly.",
+          "desc:8": "§5Player:§r §oI hate mining!§r\n\n§5Writer:§r §oBut I gave you Mining Hammers!§r\n\n§5Player:§r §oI hate mining!§r\n\n§5Writer:§r §oA solution for you, is the §3§oMiner§r§o!§r\n\nThis kind soul§r will mine ores for you when placed above a vein.\nVertical range is unlimited. Horizontal range is written on the tooltip.\n\nThe §bMV§r variant may not have the range to mine a full vein. However the §6HV§r variant does! So you may hold off on it for now. Get §eeither§r to complete this Quest.\n\nYou will need §9Power§r. §aCharged Batteries§r may work but they may also run out which is a bit inconvenient.\nMy top suggestion is to use a filled §3Drum§r of some kind of fuel (if you are using Steam, out of luck!) and a §3Generator§r. Place the Drum above your Generator and right-click it with a §5Screwdriver§r to auto-output into the Generator. §oYou had forgotten about that feature didn\u0027t you?§r\n\n\n§cNote:§r Do not forget to §dchunkload§r all 9 chunks of the ore vein with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§9Tip:§r You can either a §3ME Chest§r or a §32x2 Drawer§r as the output inventory to make transporting the ores back home a simple task. The §3ME Chest§r can be powered with EU directly.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16067,7 +16077,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -16084,7 +16094,24 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 920,
+              "Damage:2": 921,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 922,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -16324,7 +16351,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Tablet device you spawned with is very valuable to do plenty of tasks in GregTech.§r\n\nThis Quest explains how you can use the §4Terminal§.. §bThis is merely basic information, you can skip this for a while§r.\n\nThe Terminal runs on §4GregOS™§r (not an actual Trademark), an operating system which works with §5Applications§r.\n\n\n§9Machines Guides§r, §9Multiblock Guides§r, §9Item Guides§r, §9§9Tutorials§r are what they sound like. Note that they are currently incomplete.\n\n§9Guide Editor§r is used to write Guides! Just as above. The GTCEu wiki has some small instructions for how to write them. If you are filling like helping us with filling up guides, please go ahead and message us on our §8Discord§r (link is in the Curseforge page) with the work you\u0027ve put.\n\n§9System Settings§r changes... settings (duh) related to the Terminal. You can §bset your own background picture§r, remove the double confirmation on exit, and more. Most of the keybinds apply to the §5Home§r button. Double clicking by default exists the Application.\n\n§9Multiblock Helper§r is split into two functionalities.\nThe first one requires a requires a §dLV§r Battery and a §dCamera§r mounted to enable §bVR visualization§r of multiblock structures.\nThe upgrade unlocked at §6HV§r allows you to §6debug§r and §6auto-build§r.\n\n§9Battery Manager§r, assuming you have a Battery mounted, checks the Energy level and indicates energy usage of other Apps.\n\n§9Hardware Manager§r is used to mount Hardwares, such as Battery, to enable other Apps.\n\n§9App Store§r (not exactly a Store) adds Apps to your collection, and allows upgrades for some of them. Keep in mind Apps may still require specific mounted devices to function.\n\n§9Pong§r, §9Theseus\u0027 Escape§r, §9Minesweeper§r are minigame Apps. Don\u0027t forget to play GregTech, too!\n\n§9Ore Prospector§r works the same way as the portable §dProspector§r and can be upgraded several times.\n\n§9Recipe Chart§r is a wonderful chart planner to build Recipe Chains and visualize them.\n\n§9GT Console§r configures machines as if you were using regular tools, but without using them! This is similar to the remote access from the §3Central Monitor§r.\n\n§9World Prospector§r is a §dX-Ray VR§r for filtered blocks.\n\n§9Virtual Tank Viewer§r is used in combination with §3Ender Fluid Covers§r. It stores information about all your §dVirtual Tanks§r.",
+          "desc:8": "§oThe Tablet device you spawned with is very valuable to do plenty of tasks in GregTech.§r\n\nThis Quest explains how you can use the §4Terminal§.. §bThis is merely basic information, you can skip this for a while as the Terminal isn\u0027t used much in the early game§r.\n\nThe Terminal runs on §4GregOS™§r (not an actual Trademark), an operating system which works with §5Applications§r.\n\n\n§9Machines Guides§r, §9Multiblock Guides§r, §9Item Guides§r, §9§9Tutorials§r are what they sound like. Note that they are currently still being worked on.\n\n§9Guide Editor§r is used to write Guides! Just as above. The GTCEu wiki has some small instructions for how to write them. If you are feeling like helping us with filling up guides, please go ahead and message us on our §8Discord§r (link is in the Curseforge page) with the work you\u0027ve put, or contribute to our §7GitHub§r.\n\n§9System Settings§r changes... settings (duh) related to the Terminal. You can §bset your own background picture§r, remove the double confirmation on exit, and more. Most of the keybinds apply to the §5Home§r button. Double clicking by default exists any open Application.\n\n§9Multiblock Helper§r is split into two functionalities.\nThe first one requires a requires a §dLV§r Battery and a §dCamera§r mounted to enable §bVR visualization§r of multiblock structures.\nThe upgrade unlocked at §6HV§r allows you to §6debug§r and §6auto-build§r.\n\n§9Battery Manager§r, assuming you have a Battery mounted, checks the Energy level and indicates energy usage of other Apps.\n\n§9Hardware Manager§r is used to mount Hardwares, such as Battery, to enable other Apps.\n\n§9App Store§r (not exactly a Store) adds Apps to your collection, and allows upgrades for some of them. Keep in mind Apps may still require specific mounted devices to function.\n\n§9Pong§r, §9Theseus\u0027 Escape§r, §9Minesweeper§r are minigame Apps. Don\u0027t forget to play GregTech, too!\n\n§9Ore Prospector§r works the same way as the portable §dProspector§r and can be upgraded several times.\n\n§9Fluid Prospector§r works the same way as the portable §dProspector§r (but for fluids!) and can be upgraded several times.\n\n§9Recipe Chart§r is a wonderful chart planner to build Recipe Chains and visualize them.\n\n§9GT Console§r configures machines as if you were using regular tools, but without using them! This is similar to the remote access from the §3Central Monitor§r.\n\n§9World Prospector§r is a §dX-Ray VR§r for filtered blocks.\n\n§9Virtual Tank Viewer§r is used in combination with §3Ender Fluid Covers§r. It stores information about all your §dVirtual Tanks§r.\n\n§9Cape Selector§r lets you become fancy! You can have your characters wear a fancy §dCape§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16472,7 +16499,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This prospector has a §6higher range§r than the LV one.\n\n§oNot yet implemented: Shift right-click switches the mod to Fluid Prospection, which lets you scan bedrock veins for your Fluid Rigs!§r",
+          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one.\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\n\n§oNot yet implemented: Shift right-click switches the mod to Fluid Prospection, which lets you scan bedrock veins for your Fluid Rigs!§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18307,7 +18334,7 @@
     },
     "280:10": {
       "preRequisites:11": [
-        19
+        62
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19946,7 +19973,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §aPortable Scanner§r, or §aTricorder§r, is GTCEu\u0027s debug tool.\nIt shows you a block\u0027s details, the details of the energy network, its current status and contents, and its impact on performance.\n\n§oTo use if you are curious!§r\n\n\n§bLore:§r This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information was given by GUIs or Waila.",
+          "desc:8": "The §aPortable Scanner§r, or §aTricorder§r, is GTCEu\u0027s debug tool.\nIt shows you a block\u0027s details, the details of the energy network, its current status and contents, and its impact on performance.\n\nUsing this anywhere will also display a percentage of fluid remaining in the fluid vein, for the §3Fluid Rigs§r.\n\n§oTo use if you are curious!§r\n\n\n§bLore:§r This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information was given by GUIs or Waila.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20036,8 +20063,19 @@
               "Damage:2": 1010,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 1228,
               "OreDict:8": "",
@@ -20217,7 +20255,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The ore generation in §2GregTech§r is very different to vanilla or normal modded Minecraft. All ores generate in §6huge veins§r which can contain §dthousands§o§r of ore blocks!\n\nThe full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:\n\n§9-§r Ore veins generate in a §4Grid§r. Every vein is §9spaced by 3 chunks§r from one to another in a cardinal direction. We have added §2In Game Info§r to display if you are located in an Ore vein in the top-left corner of your screen, as seen in GregTech: New Horizons.\n\n§9-§r §dSurface Rocks§r indicate a nearby type of vein. Pick one up and check §c§r§5JEI§r (press U) to see the types of ores beneath it.\n\n§9-§r It\u0027s a good practice to make §dWaypoints§r to every vein you find, and to label their type. You may want to come back to it several times.",
+          "desc:8": "The ore generation in §2GregTech§r is very different to vanilla or normal modded Minecraft. All ores generate in §6huge veins§r which can contain §dthousands§o§r of ore blocks!\n\nThe full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:\n\n§9-§r Ore veins generate in a §4Grid§r. Every vein is §9spaced by 3 chunks§r from one to another in a cardinal direction. We have added §2In Game Info§r to display if you are located in an Ore vein in the top-left corner of your screen, as seen in GregTech: New Horizons.\n\n§9-§r §dSurface Rocks§r indicate a nearby type of vein. Pick one up and check §c§r§5JEI§r (press U) to see the types of ores beneath it.\n\n§9-§r It\u0027s a good practice to make §dWaypoints§r (default §4B§r, keybind conflicts with Baubles) to every vein you find, and to label their type. You may want to come back to it several times.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20268,7 +20306,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oLiquids, Gases... It\u0027s all the same here.§r\n\n§3Fluid Pipes§r will transport Steam between machines for you.\n\nEach Pipe has a certain §dthroughput§r in L/s (mB/s), and a Temperature Limit (this is only relevant right now for Steam, as it will burn Wooden Pipes).\nEach material has several §dsizes§r for Pipes. The bigger the Pipe, the higher the throughput.\n\nFor example, a normal Bronze Fluid Pipe transfers 2,400 L/s. It also has a 1,200 L internal buffer.\n\n§9Reminder:§r 1 second \u003d 20 ticks. Assuming the server does not lag.\n\n\nGet §eeither§r a Small, or Normal Bronze Fluid Pipe to complete this quest.\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your §5Wrench§r on the grid.\nYou can also shift-right click with your §5Wrench§r to disable input from a side. This can help counteract sloshing.",
+          "desc:8": "§oLiquids, Gases... It\u0027s all the same here.§r\n\n§3Fluid Pipes§r will transport Steam between machines for you.\n\nEach Pipe has a certain §dthroughput§r in L/s (mB/s), and a Temperature Limit (this is only relevant right now for Steam, as it will burn Wooden Pipes).\nEach material has several §dsizes§r for Pipes. The bigger the Pipe, the higher the throughput.\n\nFor example, a normal Bronze Fluid Pipe transfers 2,400 L/s. It also has a 1,200 L internal buffer.\n\n§9Reminder:§r 1 second \u003d 20 ticks. Assuming the server does not lag.\n\n\nGet §eeither§r a Small, or Normal Bronze Fluid Pipe to complete this quest. Both are used in crafting.\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your §5Wrench§r on the grid.\nYou can also shift-right click with your §5Wrench§r to disable input from a side. This can help counteract sloshing.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20898,7 +20936,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for the late game. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A must have for large scale automation.\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Options§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) for the late game. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A must have for large scale automation.\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread or Coffee won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(unreleased for CEu)§r adds a modular armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21543,7 +21581,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Quests for Higher Tiers are work in Progress.\n\nProgress in GTCEu is just fine, but Quests take a lot of work.\n\nDon\u0027t worry, they will come up probably even before you reach these tiers! Don\u0027t forget the fabled §9/bq_admin default load§r once you update the modpack to make new Quests appear. There, I said it again.",
+          "desc:8": "Quests for Higher Tiers are work in Progress.\n\n§2GTCEu§r is §6fully playable for all tiers§r, but Quests are just for rough progression outline §ofor now§r.\n\nDon\u0027t worry, they will come up probably even before you reach these tiers! Don\u0027t forget the fabled §9/bq_admin default load§r once you update the modpack to make new Quests appear. There, I said it again.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22248,15 +22286,12 @@
             "Count:3": 1,
             "Damage:2": 3,
             "OreDict:8": "",
-            "id:8": "gregtech:gt_armor",
-            "tag:10": {
-              "Charge:4": 1000000
-            }
+            "id:8": "gregtech:gt_armor"
           },
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "I believe I can cheat flight",
+          "name:8": "I believe I can fly 2",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -22283,6 +22318,312 @@
               "Damage:2": 3,
               "OreDict:8": "",
               "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "351:10": {
+      "preRequisites:11": [
+        200,
+        195
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oQuite a bit of a microcrafting project, but this is worth it!§r\n\nThe Advanced Nano Chestplate combines protection, a personal battery and a jetpack, all in one.\n\nTo enable charging, shift right-click it when it is in your hand.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 30,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Better Flight",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 351,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 30,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "352:10": {
+      "preRequisites:11": [
+        230
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNot an actual TradeMark.§r\n\nYou probably don\u0027t have mobs to fight, but this armor provides nice QoL that you may enjoy!\n\n§9Helmet:§r Provides §dNight vision§r (default keybind §4M§r but check for conflicts)\n\n§9Chestplate:§r Provides nothing interesting, but can be further upgraded into the §aAdvanced§r version at the end of §6HV§r Age.\n\n§9Leggings:§r Provides nothing special, perhaps we should have given it a small speed boost?\n\n§9Boots:§r Provides §dStep Assist§r. You read that right!\n\n\n§bLore:§r This armor is originally inspired by IndustrialCraft, but its first implementation within the GTCE environment came with Nuke Powered Utils, an addon mod to GTCE.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 21,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "NanoMuscle™",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 352,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 21,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 23,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "353:10": {
+      "preRequisites:11": [
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Nether Limonite vein variant is not to be slept on. Thanks to the 2x yield, this is an excellent source of Iron and Gold.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:ore_gold_0"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Limonite - Source of Iron, Gold",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 353,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_brown_limonite_0"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_yellow_limonite_0"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_banded_iron_0"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_gold_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "354:10": {
+      "preRequisites:11": [
+        94,
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oGregTech cannot yet provide ways to farm plants or trees, so here we come with a custom multiblock for the modpack!§r\n\nThe multiblock §3Greenhouse§r will be your source of §aWood§r, and other plants if you wish.\n\nThe §aWood§r production is enough to keep running §32 Pyrolyse Oven§r at their lowest Power.\nYou can also use this for automated §aResin§r. The yields are kept low to incentivize other rubber sources, later in the game.\n\nAt §d40EU/t§r, it can run off a single LV Energy Hatch.\n\n§9Note:§r The structure requires a lot of §9Wrought Iron§r. Make sure you have an §3Arc Furnace§r for that.\n\n\n§bLore:§r We originally implemented a Chemical Reactor recipe for wood in the modpack to give options to the players. However they turned out to be completely busted, so we decided that a rebalance was due. I wonder if that\u0027s still busted? Probably less than the Fluid Rig!\nSpecial thanks to the MBT dev for releasing a version that is working with GTCEu.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:sapling"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Greenhouse",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 354,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine_casing"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32000,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "355:10": {
+      "preRequisites:11": [
+        62
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aBlue Alloy§r is an excellent Cable material for §6HV§r voltage.\nNothing prevents you from using it for §bMV§r voltage too! Beware of not overvolting your machines, though.\nSuperconductors for both MV and HV are unlocked... much later.\n\n§aElectrotine§r is obtained from the §cNether§r, so don\u0027t craft it in the Mixer!\n\nIt can also be separated for §dElectrum§r and §dRedstone§r. If you need 8 whole dusts as input, that\u0027s for balance reasons.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2527,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 355,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2527,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -23029,7 +23370,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
-          "y:3": -90
+          "y:3": -30
         },
         "29:10": {
           "id:3": 59,
@@ -23071,7 +23412,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
-          "y:3": -30
+          "y:3": -90
         },
         "35:10": {
           "id:3": 319,
@@ -23522,55 +23863,48 @@
           "y:3": -48
         },
         "60:10": {
-          "id:3": 240,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 264,
-          "y:3": -30
-        },
-        "61:10": {
           "id:3": 241,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -210,
           "y:3": 138
         },
-        "62:10": {
+        "61:10": {
           "id:3": 277,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": 90
         },
-        "63:10": {
+        "62:10": {
           "id:3": 278,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": -96
         },
-        "64:10": {
+        "63:10": {
           "id:3": 285,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": 36
         },
-        "65:10": {
+        "64:10": {
           "id:3": 290,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 258,
           "y:3": -102
         },
-        "66:10": {
+        "65:10": {
           "id:3": 347,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
           "y:3": -30
         },
-        "67:10": {
+        "66:10": {
           "id:3": 348,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -23666,14 +24000,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
-          "y:3": -138
+          "y:3": -132
         },
         "10:10": {
           "id:3": 119,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
-          "y:3": -210
+          "y:3": -216
         },
         "11:10": {
           "id:3": 120,
@@ -23687,7 +24021,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
-          "y:3": -210
+          "y:3": -216
         },
         "13:10": {
           "id:3": 122,
@@ -23708,14 +24042,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 372,
-          "y:3": -222
+          "y:3": -216
         },
         "16:10": {
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 318,
-          "y:3": -222
+          "x:3": 312,
+          "y:3": -216
         },
         "17:10": {
           "id:3": 126,
@@ -23862,14 +24196,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
-          "y:3": -138
+          "y:3": -132
         },
         "38:10": {
           "id:3": 147,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": -222
+          "y:3": -216
         },
         "39:10": {
           "id:3": 148,
@@ -23883,7 +24217,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -162,
-          "y:3": -210
+          "y:3": -216
         },
         "41:10": {
           "id:3": 150,
@@ -23925,7 +24259,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 270,
-          "y:3": -222
+          "y:3": -216
         },
         "47:10": {
           "id:3": 157,
@@ -23963,60 +24297,81 @@
           "y:3": -42
         },
         "52:10": {
+          "id:3": 240,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 126
+        },
+        "53:10": {
           "id:3": 243,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 0
         },
-        "53:10": {
+        "54:10": {
           "id:3": 245,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 72
         },
-        "54:10": {
+        "55:10": {
           "id:3": 263,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
-          "y:3": -222
+          "y:3": -216
         },
-        "55:10": {
+        "56:10": {
           "id:3": 310,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": 42
         },
-        "56:10": {
+        "57:10": {
           "id:3": 318,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 36,
           "y:3": -78
         },
-        "57:10": {
+        "58:10": {
           "id:3": 327,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
-          "y:3": -210
+          "y:3": -216
         },
-        "58:10": {
+        "59:10": {
           "id:3": 349,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": -210
+          "x:3": 102,
+          "y:3": -216
         },
-        "59:10": {
+        "60:10": {
           "id:3": 350,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
+          "y:3": -132
+        },
+        "61:10": {
+          "id:3": 354,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 96,
           "y:3": -138
+        },
+        "62:10": {
+          "id:3": 355,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 432,
+          "y:3": 126
         }
       }
     },
@@ -24043,22 +24398,22 @@
           "id:3": 60,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": 174
+          "x:3": 78,
+          "y:3": 186
         },
         "1:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 312,
-          "y:3": -186
+          "x:3": 396,
+          "y:3": -192
         },
         "2:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 312,
-          "y:3": -138
+          "x:3": 396,
+          "y:3": -144
         },
         "3:10": {
           "id:3": 145,
@@ -24085,36 +24440,36 @@
           "id:3": 194,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 48,
-          "y:3": -144
+          "x:3": 12,
+          "y:3": -150
         },
         "7:10": {
           "id:3": 195,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -6,
-          "y:3": -144
+          "x:3": 72,
+          "y:3": -150
         },
         "8:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -96,
-          "y:3": -138
+          "x:3": -120,
+          "y:3": -144
         },
         "9:10": {
           "id:3": 199,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 276,
-          "y:3": -84
+          "x:3": 360,
+          "y:3": -90
         },
         "10:10": {
           "id:3": 200,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 336,
-          "y:3": -84
+          "x:3": 420,
+          "y:3": -90
         },
         "11:10": {
           "id:3": 201,
@@ -24127,127 +24482,127 @@
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 174
+          "x:3": 18,
+          "y:3": 186
         },
         "13:10": {
           "id:3": 203,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -6,
-          "y:3": -192
+          "x:3": 72,
+          "y:3": -198
         },
         "14:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 78,
           "y:3": 132
         },
         "15:10": {
           "id:3": 205,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 120,
+          "x:3": 204,
           "y:3": 6
         },
         "16:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 126,
+          "x:3": 210,
           "y:3": 90
         },
         "17:10": {
           "id:3": 207,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 114,
-          "y:3": 162
+          "x:3": 198,
+          "y:3": 174
         },
         "18:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 114,
-          "y:3": -150
+          "x:3": 198,
+          "y:3": -156
         },
         "19:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 204,
+          "x:3": 288,
           "y:3": 12
         },
         "20:10": {
           "id:3": 210,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 336,
+          "x:3": 420,
           "y:3": 84
         },
         "21:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 282,
+          "x:3": 366,
           "y:3": 90
         },
         "22:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 282,
+          "x:3": 366,
           "y:3": 132
         },
         "23:10": {
           "id:3": 213,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 276,
+          "x:3": 360,
           "y:3": 6
         },
         "24:10": {
           "id:3": 214,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -168,
-          "y:3": -138
+          "x:3": 126,
+          "y:3": -192
         },
         "25:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -132,
-          "y:3": -186
+          "x:3": 162,
+          "y:3": -192
         },
         "26:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
-          "y:3": 174
+          "y:3": 186
         },
         "27:10": {
           "id:3": 217,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
-          "y:3": -42
+          "x:3": 174,
+          "y:3": -48
         },
         "28:10": {
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 204,
+          "x:3": 288,
           "y:3": 90
         },
         "29:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 204,
-          "y:3": 174
+          "x:3": 288,
+          "y:3": 186
         },
         "30:10": {
           "id:3": 222,
@@ -24267,8 +24622,8 @@
           "id:3": 226,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 204,
-          "y:3": -78
+          "x:3": 288,
+          "y:3": -84
         },
         "33:10": {
           "id:3": 227,
@@ -24279,38 +24634,38 @@
         },
         "34:10": {
           "id:3": 228,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": -138
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 120,
+          "y:3": -102
         },
         "35:10": {
           "id:3": 229,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 342,
-          "y:3": 174
+          "x:3": 426,
+          "y:3": 186
         },
         "36:10": {
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
-          "y:3": -78
+          "y:3": -114
         },
         "37:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 282,
-          "y:3": 174
+          "x:3": 366,
+          "y:3": 186
         },
         "38:10": {
           "id:3": 232,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": -186
+          "x:3": 18,
+          "y:3": -192
         },
         "39:10": {
           "id:3": 233,
@@ -24323,22 +24678,22 @@
           "id:3": 242,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 126,
-          "y:3": -186
+          "x:3": 210,
+          "y:3": -192
         },
         "41:10": {
           "id:3": 247,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 342,
+          "x:3": 426,
           "y:3": 36
         },
         "42:10": {
           "id:3": 274,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -42
+          "x:3": 246,
+          "y:3": -48
         },
         "43:10": {
           "id:3": 281,
@@ -24358,7 +24713,7 @@
           "id:3": 313,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
+          "x:3": 18,
           "y:3": 72
         },
         "46:10": {
@@ -24372,14 +24727,14 @@
           "id:3": 320,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": -42
+          "x:3": 18,
+          "y:3": -48
         },
         "48:10": {
           "id:3": 323,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 48,
+          "x:3": 72,
           "y:3": 6
         },
         "49:10": {
@@ -24393,8 +24748,22 @@
           "id:3": 326,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 342,
+          "x:3": 426,
           "y:3": -18
+        },
+        "51:10": {
+          "id:3": 351,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 456,
+          "y:3": -144
+        },
+        "52:10": {
+          "id:3": 352,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -168,
+          "y:3": -114
         }
       }
     },
@@ -25209,62 +25578,69 @@
           "y:3": 42
         },
         "9:10": {
-          "id:3": 194,
+          "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 102,
           "y:3": 42
         },
         "10:10": {
-          "id:3": 196,
+          "id:3": 194,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 102,
           "y:3": 84
         },
         "11:10": {
+          "id:3": 196,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": 84
+        },
+        "12:10": {
           "id:3": 197,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 84
         },
-        "12:10": {
+        "13:10": {
           "id:3": 207,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
+          "x:3": 150,
           "y:3": 42
         },
-        "13:10": {
+        "14:10": {
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
-          "y:3": 0
-        },
-        "14:10": {
-          "id:3": 227,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 102,
           "y:3": 0
         },
         "15:10": {
+          "id:3": 227,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": 0
+        },
+        "16:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 54,
           "y:3": 138
         },
-        "16:10": {
+        "17:10": {
           "id:3": 257,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 114,
+          "x:3": 150,
           "y:3": 84
         },
-        "17:10": {
+        "18:10": {
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -25485,14 +25861,14 @@
           "id:3": 183,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 318,
-          "y:3": -24
+          "x:3": 324,
+          "y:3": -30
         },
         "28:10": {
           "id:3": 184,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
+          "x:3": 294,
           "y:3": -6
         },
         "29:10": {
@@ -25513,8 +25889,8 @@
           "id:3": 187,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 234,
-          "y:3": -24
+          "x:3": 228,
+          "y:3": -30
         },
         "32:10": {
           "id:3": 188,
@@ -25606,6 +25982,13 @@
           "sizeY:3": 24,
           "x:3": 384,
           "y:3": 78
+        },
+        "45:10": {
+          "id:3": 353,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 258,
+          "y:3": -6
         }
       }
     },
