@@ -960,6 +960,13 @@ recipes.addShaped("terminals_pattern", <appliedenergistics2:part:340>, [
     [<appliedenergistics2:material:24>, <ore:gtceScrewdrivers>]
 ]);
 
+// ME Extanded Pattern Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/parts/terminal_expanded_processing");
+recipes.addShaped("terminals_extended_pattern", <appliedenergistics2:part:341>, [
+    [<appliedenergistics2:part:340>, <metaitem:sensor.luv>],
+    [<metaitem:emitter.luv>, <ore:gtceScrewdrivers>]
+]);
+
 // ME Interface Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_interface");
 recipes.addShaped("terminals_interface", <appliedenergistics2:part:480>, [
