@@ -13,7 +13,7 @@ import mods.gregtech.recipe.RecipeMap;
 global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
         .minInputs(2)
         .maxInputs(3)
-        .minOutputs(2)
+        .minOutputs(1)
         .maxOutputs(4)
         .maxFluidInputs(1)
         .maxFluidOutputs(0)
