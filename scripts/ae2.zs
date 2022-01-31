@@ -865,6 +865,13 @@ recipes.addShaped("storage_bus", <appliedenergistics2:part:220>, [
     [<appliedenergistics2:interface>, <metaitem:electric.piston.lv>, <appliedenergistics2:part:16>]
 ]);
 
+// ME Ore Dictionary Storage Bus
+recipes.removeByRecipeName("appliedenergistics2:network/parts/oredict_storage_bus");
+recipes.removeByRecipeName("appliedenergistics2:network/parts/oredict_storage_bus_alt");
+recipes.addShapeless("oredict_storage_bus", <appliedenergistics2:part:222>, [
+    <appliedenergistics2:part:220>, <metaitem:ore_dictionary_filter>
+]);
+
 // ME Fluid Storage Bus
 recipes.removeByRecipeName("appliedenergistics2:network/parts/storage_bus_fluid");
 recipes.addShaped("storage_bus_fluid", <appliedenergistics2:part:221>, [
