@@ -16499,7 +16499,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one.\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\n\n§oNot yet implemented: Shift right-click switches the mod to Fluid Prospection, which lets you scan bedrock veins for your Fluid Rigs!§r",
+          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one. You definitively want this!\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\nThis will tell you the base §dyield§r of Fluid veins, along with how full they are.\n\n§9Reminder:§r The yield of §3Fluid Drilling Rigs§r is proportional to the fullness of the vein. When low enoug, it defaults to yield defined in the json file.\nWhen the fullness drops below 40% (rough estimation), you can consider moving to another vein.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22522,7 +22522,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oGregTech cannot yet provide ways to farm plants or trees, so here we come with a custom multiblock for the modpack!§r\n\nThe multiblock §3Greenhouse§r will be your source of §aWood§r, and other plants if you wish.\n\nThe §aWood§r production is enough to keep running §32 Pyrolyse Oven§r at their lowest Power.\nYou can also use this for automated §aResin§r. The yields are kept low to incentivize other rubber sources, later in the game.\n\nAt §d40EU/t§r, it can run off a single LV Energy Hatch.\n\n§9Note:§r The structure requires a lot of §9Wrought Iron§r. Make sure you have an §3Arc Furnace§r for that.\n\n\n§bLore:§r We originally implemented a Chemical Reactor recipe for wood in the modpack to give options to the players. However they turned out to be completely busted, so we decided that a rebalance was due. I wonder if that\u0027s still busted? Probably less than the Fluid Rig!\nSpecial thanks to the MBT dev for releasing a version that is working with GTCEu.",
+          "desc:8": "§oGregTech cannot yet provide ways to farm plants or trees, so here we come with a custom multiblock for the modpack!§r\n\nThe multiblock §3Greenhouse§r will be your source of §aWood§r, and other plants if you wish.\n\nThe §aWood§r production is enough to keep running §32 Pyrolyse Ovens§r at their lowest Power.\nYou can also use this for automated §aResin§r. The yields are kept low to incentivize other rubber sources, later in the game.\n\nAt §d40EU/t§r, it can run off a single LV Energy Hatch.\n\n§9Note:§r The structure requires a lot of §9Wrought Iron§r. Make sure you have an §3Arc Furnace§r for that.\n\n\n§bLore:§r We originally implemented a Chemical Reactor recipe for wood in the modpack to give options to the players. However they turned out to be completely busted, so we decided that a rebalance was due. I wonder if that\u0027s still busted? Probably less than the Fluid Rig!\nSpecial thanks to the MBT dev for releasing a version that is working with GTCEu.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25646,6 +25646,13 @@
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 138
+        },
+        "19:10": {
+          "id:3": 354,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": 42
         }
       }
     },
