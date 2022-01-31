@@ -459,7 +459,7 @@ recipes.addShaped("empty_storage_cell", <appliedenergistics2:material:39>, [
 // Fluix Dust
 mixer.recipeBuilder()
     .inputs(<ore:dustNetherQuartz>)
-    .inputs(<ore:dustRegularCertusQuartz>)
+    .inputs(<ore:dustCertusQuartz>)
     .inputs(<ore:dustRedstone>)
     .outputs(<metaitem:dustFluix> * 3)
     .EUt(16)
