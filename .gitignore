@@ -1,3 +1,5 @@
 config/jei/worldSettings.cfg
 config/oauth.cfg
 .DS_Store
+buildOut/
+local/

@@ -1,39 +1,94 @@
 #!/usr/bin/env python3
 
+"""build client & server bundles"""
+
 # if there is a problem with building, please let htmlcsjs know
 import os
+import sys
 import shutil
 import subprocess
 import requests
 import json
 import hashlib
+import argparse
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(prog="build", description=__doc__)
+    parser.add_argument("--sha", action="store_true", help="append git hash to zips")
+    parser.add_argument("--name", type=str, help="append name to zips")
+    parser.add_argument("--retries", type=int, default=3, help="download attempts before failure")
+    parser.add_argument("--clean", action="store_true", help="clean output dirs")
+    parser.add_argument("--dev_build", action="store_true", help="makes a folder with all the files symlinked for development. probally only works on linux")
+    return parser.parse_args()
+
+
+args = parse_args()
+
 
 modlist = []
-basePath = os.path.realpath(__file__)[:-7] + ".."
+basePath = os.path.normpath(os.path.realpath(__file__)[:-7] + "..")
 copyDirs = ["/scripts", "/resources", "/config", "/mods", "/structures"]
 serverCopyDirs = ["/scripts", "/config", "/mods", "/structures"]
 modURLlist = []
+modClientOnly = []
+
+if args.clean:
+    shutil.rmtree(basePath + "/buildOut/client/overrides", ignore_errors=True)
+    shutil.rmtree(basePath + "/buildOut/server", ignore_errors=True)
+    shutil.rmtree(basePath + "/mods", ignore_errors=True)
+    sys.exit(0)
+
+sha = ""
+if args.sha:
+    try:
+        p = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, cwd=basePath)
+        sha = p.stdout.strip().decode("utf-8")
+    except Exception as e:
+        print("could not determine git sha, skipping")
 
 with open(basePath + "/manifest.json") as file:
     manifest = json.load(file)
 
-try:
-    os.makedirs(basePath + "/buildOut/client/overrides")
-    os.makedirs(basePath + "/buildOut/server")
-    os.makedirs(basePath + "/mods")
-    print("make directories")
-except Exception as e:
-    print("Directory exists, skipping")
+cachepath = os.path.join(basePath, "buildOut", "modcache")
+
+
+def mkdirs(path):
+    try:
+        os.makedirs(path)
+    except Exception as e:
+        print("%s exists, skipping" % (path))
+
+
+mkdirs(basePath + "/buildOut/client/overrides")
+mkdirs(basePath + "/buildOut/server")
+mkdirs(basePath + "/mods")
+mkdirs(cachepath)  # /buildOut/modcach
+
+# if we downloaded mods before, add them to the cache
+prev = basePath + "/buildOut/server/mods"
+cached = 0
+if os.path.isdir(prev):
+    for f in os.listdir(prev):
+        # don't waste time copying mods to the cache that are already there
+        if os.path.exists(os.path.join(cachepath, f)):
+            continue
+        cached += 1
+        shutil.copy2(os.path.join(prev, f), os.path.join(cachepath, f))
+
+if cached > 0:
+    print("cached %d mod downloads in %s" % (cached, cachepath))
 
 for mod in manifest["externalDeps"]:
     with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
-        for i in range(1,100):
-            r = requests.get(mod["url"])
-            if i == 99:
+        for i in range(args.retries + 1):
+            if i == args.retries:
                 raise Exception("Download failed")
 
+            r = requests.get(mod["url"])
+
             hash = hashlib.sha256(jar.read()).hexdigest()
-            if True: #str(hash) == mod["hash"]: TODO fix
+            if str(hash) == mod["hash"]:
                 jar.write(r.content)
                 modlist.append(mod["name"])
                 print("hash succsessful")
@@ -50,25 +105,34 @@ for dir in copyDirs:
         print("Directory exists, skipping")
 print("directories copied to buildOut/client")
 
+archive = "buildOut/client"
+if sha:
+    archive = "%s-%s" % (archive, sha)
+
 shutil.copy(basePath + "/manifest.json", basePath + "/buildOut/client/manifest.json")
-shutil.make_archive("buildOut/client", "zip", basePath + "/buildOut/client")
-print("client zip made")
+shutil.make_archive(archive, "zip", basePath + "/buildOut/client")
+print('client zip "%s.zip"  made' % (archive))
 
 for mod in manifest["files"]:
-    url = "https://cursemeta.dries007.net/" + \
-        str(mod["projectID"]) + "/" + str(mod["fileID"]) + ".json"
+    url = "https://cursemeta.dries007.net/" + str(mod["projectID"]) + "/" + str(mod["fileID"]) + ".json"
     r = requests.get(url)
     metadata = json.loads(r.text)
     modlist.append(metadata["FileName"])
     modURLlist.append(metadata["DownloadURL"])
+    try:
+        modClientOnly.append(mod["clientOnly"])
+    except:
+        modClientOnly.append(False)
+
 print("modlist compiled")
 
 with open(basePath + "/buildOut/modlist.html", "w") as file:
-    data = "<html><body><h1>Supersymmetry modlist</h1><ul>"
+    data = "<html><body><h1>Modlist</h1><ul>"
     for mod in modlist:
         data += "<li>" + mod + "</li>"
     data += "</ul></body></html>"
     file.write(data)
+
 print("modlist.html done")
 
 shutil.copy(basePath + "/manifest.json", basePath + "/buildOut/server/manifest.json")
@@ -83,8 +147,17 @@ for dir in serverCopyDirs:
         print("Directory exists, skipping")
 print("directories copied to buildOut/server")
 
-for mod in modURLlist:
-    with open(basePath + "/buildOut/server/mods/" + mod.split("/")[-1], "w+b") as jar:
+for i, mod in enumerate(modURLlist):
+    jarname = mod.split("/")[-1]
+    if (modClientOnly[i] == True):
+        break
+
+    if os.path.exists(os.path.join(cachepath, jarname)):
+        shutil.copy2(os.path.join(cachepath, jarname), os.path.join(basePath, "buildOut", "server", "mods", jarname))
+        print("%s loaded from cache" % (mod))
+        continue
+
+    with open(basePath + "/buildOut/server/mods/" + jarname, "w+b") as jar:
         r = requests.get(mod)
         jar.write(r.content)
         print(mod + " Downloaded")
@@ -93,32 +166,79 @@ print("Mods Downloaded")
 with open(basePath + "/buildOut/server/forge-installer.jar", "w+b") as jar:
     forgeVer = manifest["minecraft"]["modLoaders"][0]["id"].split("-")[-1]
     mcVer = manifest["minecraft"]["version"]
-    url = "https://maven.minecraftforge.net/net/minecraftforge/forge/" + \
-        mcVer + "-" + forgeVer + "/forge-" + mcVer + "-" + forgeVer + "-installer.jar"
+    url = (
+        "https://maven.minecraftforge.net/net/minecraftforge/forge/"
+        + mcVer
+        + "-"
+        + forgeVer
+        + "/forge-"
+        + mcVer
+        + "-"
+        + forgeVer
+        + "-installer.jar"
+    )
     r = requests.get(url)
     jar.write(r.content)
 print("Forge installer Downloaded")
 
 # TODO: make a portable version between versions
 
-with open(basePath + "/buildOut/server/minecraft_server.1.12.2.jar", "w+b") as jar:
-    url = "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar"
-    r = requests.get(url)
-    jar.write(r.content)
-print("Vanilla Downloaded")
+vanilla = basePath + "/buildOut/server/minecraft_server.1.12.2.jar"
+
+if not os.path.isfile(vanilla):
+    with open(basePath + "/buildOut/server/minecraft_server.1.12.2.jar", "w+b") as jar:
+        url = "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar"
+        r = requests.get(url)
+        jar.write(r.content)
+    print("Vanilla Downloaded")
 
 subprocess.run(["java", "-jar", "forge-installer.jar", "--installServer"], cwd=basePath + "/buildOut/server/")
 print("Forge Installed")
 
 try:
-    os.remove(basePath + "/buildout/server/forge-installer.jar")
+    os.remove(basePath + "/buildOut/server/forge-installer.jar")
 except Exception as e:
-    print("Couldn't delete forge-installer.jar")
+    print("Couldn't delete forge-installer.jar: %s" % (e))
 try:
-    os.remove(basePath + "/buildout/server/forge-installer.jar.log")
+    os.remove(basePath + "/buildOut/server/forge-installer.jar.log")
 except Exception as e:
-    print("Couldn't delete forge-installer.jar.log")
+    print("Couldn't delete forge-installer.jar.log: %s" % (e))
 
-shutil.make_archive("buildOut/server", "zip", basePath + "/buildOut/server")
-print("server zip made")
+archive = "buildOut/server"
+if sha:
+    archive = "%s-%s" % (archive, sha)
+shutil.make_archive(archive, "zip", basePath + "/buildOut/server")
+print('server zip "%s.zip" made' % (archive))
+
+if (args.dev_build):
+    mkdirs(basePath + "/buildOut/mmc/minecraft")
+    try:
+        shutil.rmtree(basePath + "/buildOut/mmc/minecraft/mods/")
+    except:
+        pass
+    shutil.copytree(basePath + "/buildOut/server/mods/", basePath + "/buildOut/mmc/minecraft/mods/")
+    for dir in copyDirs:
+        try:
+            os.symlink(basePath + dir, basePath + "/buildOut/mmc/minecraft/" + dir)
+        except Exception as e:
+            print("Directory exists, skipping")
+        print("directories copied to buildOut/mmc/minecraft")
+
+    for i, mod in enumerate(modURLlist):
+        jarname = mod.split("/")[-1]
+        if (modClientOnly[i] == False):
+            break
+
+        with open(basePath + "/buildOut/mmc/minecraft/mods/" + jarname, "w+b") as jar:
+            r = requests.get(mod)
+            jar.write(r.content)
+            print(mod + " Downloaded")
+
+    shutil.copy(basePath + "/mmc-instance-data.json", basePath + "/buildOut/mmc/mmc-pack.json")
+    instanceFolder = input("What is your MultiMC instance folder:")
+    instanceName = input("What do you want to call the instance:")
+    os.symlink(basePath + "/buildOut/mmc/", instanceFolder + "/" + instanceName)
+    print("you might need to add an instance.cfg for mmc to reconise it")
+
+
 print("done")
