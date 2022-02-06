@@ -107,19 +107,19 @@ recipes.addShaped("interfaces_interface", <appliedenergistics2:interface>, [
     [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>]
 ]);
 
-recipes.addShaped("interfaces_interface_mv", <appliedenergistics2:interface> * 4, [
+recipes.addShaped("interfaces_interface_mv", <appliedenergistics2:interface> * 2, [
     [<ore:plateAluminium>, <ore:blockGlass>, <ore:plateAluminium>],
     [<appliedenergistics2:material:44>, <metaitem:conveyor.module.mv>, <appliedenergistics2:material:43>],
     [<ore:plateAluminium>, <ore:blockGlass>, <ore:plateAluminium>]
 ]);
 
-recipes.addShaped("interfaces_interface_hv", <appliedenergistics2:interface> * 16, [
+recipes.addShaped("interfaces_interface_hv", <appliedenergistics2:interface> * 4, [
     [<ore:plateStainlessSteel>, <ore:blockGlass>, <ore:plateStainlessSteel>],
     [<appliedenergistics2:material:44>, <metaitem:conveyor.module.hv>, <appliedenergistics2:material:43>],
     [<ore:plateStainlessSteel>, <ore:blockGlass>, <ore:plateStainlessSteel>]
 ]);
 
-recipes.addShaped("interfaces_interface_ev", <appliedenergistics2:interface> * 64, [
+recipes.addShaped("interfaces_interface_ev", <appliedenergistics2:interface> * 8, [
     [<ore:plateTitanium>, <ore:blockGlass>, <ore:plateTitanium>],
     [<appliedenergistics2:material:44>, <metaitem:conveyor.module.ev>, <appliedenergistics2:material:43>],
     [<ore:plateTitanium>, <ore:blockGlass>, <ore:plateTitanium>]
@@ -336,7 +336,7 @@ recipes.addShaped("network_memory_card", <appliedenergistics2:memory_card>, [
 // Network Tool
 recipes.removeByRecipeName("appliedenergistics2:tools/network_tool");
 recipes.addShaped("network_tool", <appliedenergistics2:network_tool>, [
-    [<ore:itemQuartzWrench>, <ore:circuitBasic>],
+    [<ore:gtceWrenches>, <ore:circuitBasic>],
     [<appliedenergistics2:material:23>, <ore:itemIlluminatedPanel>]
 ]);
 
@@ -583,7 +583,7 @@ circuit_assembler.recipeBuilder()
     .inputs(<ore:circuitBasic>)
     .inputs(<ore:componentResistor>)
     .inputs(<ore:wireFineTin> * 2)
-    .outputs(<appliedenergistics2:material:22> * 2)
+    .outputs(<appliedenergistics2:material:22> * 4)
     .duration(200)
     .EUt(30)
     .buildAndRegister();
@@ -595,7 +595,7 @@ circuit_assembler.recipeBuilder()
     .inputs(<ore:circuitBasic>)
     .inputs(<ore:componentResistor>)
     .inputs(<ore:wireFineTin> * 2)
-    .outputs(<appliedenergistics2:material:24> * 2)
+    .outputs(<appliedenergistics2:material:24> * 4)
     .duration(200)
     .EUt(30)
     .buildAndRegister();
@@ -607,7 +607,7 @@ circuit_assembler.recipeBuilder()
     .inputs(<ore:circuitBasic>)
     .inputs(<ore:componentResistor>)
     .inputs(<ore:wireFineTin> * 2)
-    .outputs(<appliedenergistics2:material:23> * 2)
+    .outputs(<appliedenergistics2:material:23> * 4)
     .duration(200)
     .EUt(30)
     .buildAndRegister();
@@ -849,7 +849,7 @@ lathe.recipeBuilder()
 
 // Illuminated Panel
 recipes.removeByRecipeName("appliedenergistics2:network/parts/panels_semi_dark_monitor");
-recipes.addShaped("panels_semi_dark_monitor", <appliedenergistics2:part:180>, [
+recipes.addShaped("panels_semi_dark_monitor", <appliedenergistics2:part:180> * 3, [
     [<ore:wireFineTin>, <metaitem:cover.screen>, <appliedenergistics2:quartz_vibrant_glass>]
 ]);
 
@@ -1122,7 +1122,6 @@ recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix_cle
 recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix");
 assembler.recipeBuilder()
     .inputs(<appliedenergistics2:part:16>)
-    .circuit(24)
     .fluidInputs([<liquid:rubber> * 144])
     .outputs(<appliedenergistics2:part:36>)
     .duration(150)
@@ -1131,7 +1130,6 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<appliedenergistics2:part:16>)
-    .circuit(24)
     .fluidInputs([<liquid:styrene_butadiene_rubber> * 72])
     .outputs(<appliedenergistics2:part:36>)
     .duration(150)
@@ -1140,7 +1138,6 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(<appliedenergistics2:part:16>)
-    .circuit(24)
     .fluidInputs([<liquid:silicone_rubber> * 36])
     .outputs(<appliedenergistics2:part:36>)
     .duration(150)
