@@ -1673,7 +1673,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWhy is this chapter called Steam Age again? It can\u0027t be due to this machine, can it?§r\n\nAnyways... The Coal Boiler is the only available Boiler for now, as the Glass needed for the others is not available. Make one, or two.\n\n§cImportant:§r Boilers can §cexplode§r! Water does not mess too well with high temperatures, and a steam explosion may occur under the following conditions:\n§9-§r The Boiler is hot, shown by the red bar in the GUI\n§9AND\n-§r The Boiler has no water, signified by the absence of blue bar\n§9AND\n-§r The Boiler receives water§r\n\nYou can be perfectly safe by filling the boiler with water before heating it up, and making sure it has water constantly. The drain is slow - §a1 mB§r of Water boils into §a160 mB§r of Steam - so you don\u0027t have to worry too much.\n\nThe boiler will auto eject steam on all faces except bottom. For automated water input, use the bottom face.\n\n\n§9Note:§r In this modpack, explosions are configured to not damage any block or entity, but you still lose your machine!",
+          "desc:8": "§oWhy is this chapter called Steam Age again? It can\u0027t be due to this machine, can it?§r\n\nAnyways... The §3Solid Boiler§r is the only available Boiler for now, as the Glass needed for the others is not available. Make one, or two.\n\n§cImportant:§r Boilers can §cexplode§r! Water does not mess too well with high temperatures, and a steam explosion may occur under the following conditions:\n§9-§r The Boiler is hot, shown by the red bar in the GUI\n§9AND\n-§r The Boiler has no water, signified by the absence of blue bar\n§9AND\n-§r The Boiler receives water§r\n\nYou can be perfectly safe by filling the boiler with water before heating it up, and making sure it has water constantly. The drain is slow - §a1 mB§r of Water boils into §a160 mB§r of Steam - so you don\u0027t have to worry too much.\n\nThe Boiler will auto eject steam on all faces except bottom. For automated Water input, use the bottom face.\n\n\n§9Note:§r In this modpack, explosions are configured to not damage any block or entity, but you still lose your machine!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5666,7 +5666,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech has a lot of Fluids. §3Drums§r allow you to store them. Any §3Drum§r can be broken and picked up and will §6keep the Fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\nTo void Fluid contained in a Drum, place it in your crafting grid.\n\n§9Pssst:§r A §5Screwdriver§r right-click allows a Drum to §ddrain§r its content into another container placed under it. This is great to keep Lava Boilers fueled for longer.\n\n\n§oDo not attempt to store Steam using Drums, §ma massive Creeper will be dropped in your base§r§o. Buffering Steam is largely overrated, and it\u0027s unethical, I beg you. *sobbing face*§r\n\n\n§bLore:§r The Drums are actually ported from GregTech 6!",
+          "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech has a lot of Fluids. §3Drums§r allow you to store them. Any §3Drum§r can be broken and picked up and will §6keep the Fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\nTo void Fluid contained in a Drum, place it in your crafting grid.\n\n§9Pssst:§r A §5Screwdriver§r right-click allows a Drum to §ddrain§r its content into another container placed under it. This is great to keep Liquid Boilers fueled for longer.\n\n\n§oDo not attempt to store Steam using Drums, §ma massive Creeper will be dropped in your base§r§o. Buffering Steam is largely overrated, and it\u0027s unethical, I beg you. *sobbing face*§r\n\n\n§bLore:§r The Drums are actually ported from GregTech 6!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10846,7 +10846,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "In theory, Crates are better than chests. A single block space that stores more items.\n\nThe sad truth however is... they do not support movement shortcuts well. A work will be in the fix.\n\nWhere they shine however is the fact that they §6accept Covers§r, making them perfect candidates for buffers in automation.",
+          "desc:8": "In theory, Crates are better than chests. A single block space that stores more items.\n\nThe sad truth however is... they do not support item movement shortcuts well. We are planning on making them great again.\n\nWhere they shine however is the fact that they §6accept Covers§r, making them perfect candidates for buffers in automation.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13848,7 +13848,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3HV Chemical Reactor§r unlocks new recipes, for always more advanced Chemistry!\n\n§9Note:§r A lot of things are unlocked by the §6HV§r Age. However not all of them are useful just yet! It would make HV too dense to include all of them here.\nGo check out the §5EV§r Chapter for what you have available!",
+          "desc:8": "The §3HV Chemical Reactor§r unlocks new recipes, for the ever growing demand on more advanced Chemistry!\n\n§9Note:§r A lot of things are unlocked by the §6HV§r Age. However not all of them are useful just yet! It would make HV too dense to include all of them here.\nGo check out the §5EV§r Chapter for what you have available!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13982,7 +13982,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Large Chemical Reactor (LCR)§r is a multiblock §3Chemical Reactor§r with more input/output slots, which can handle more recipes thanks to Teflon.\n\nThe §3LCR§r can perform some exclusive reactions which allow you to combine multiple normal §3Chemical Reactor§r steps into a §6single step§r. Examples below:\n§9-§r §aNitrogen Dioxide§r (for Nitric Acid and Dinitrogen Tetroxide)\n§9- §r§aSulfuric Acid§r\n§9-§r §aPhenol§r\n§9-§r §aEpichlorohydrin§r (you need it for Epoxy§r!)\n§9-§r §aEpoxy§r\n\n\nThere are also §3LCR§r exclusive recipes. For example §aRadon§r requires it.\n\nAll §dOverclocks§r in the §3LCR§r are §6100% efficient§r; each overclock will §5quadruple the speed§r, as opposed to doubling it.\n\n\n§9Tip:§r Given the amount of LCRs you may end up using, I would recommend using the §dwallsharing§r to its full potential.\nYou may share one 2A (standard) §3Energy Hatch§r with 2 LCRs.\nYou may share §3Input/Output Hatches§r, but be careful to not make them run the wrong recipes.\nKeep in mind Maintenance is not sharable.\n\n\nThe §3LCR§r has yet another §6advantage§r. You can use §32 Energy Hatches§r to make it run recipe of the §5next tier§r, similarly to how you did it with the §3Electric Blast Furnace§r.",
+          "desc:8": "The §3Large Chemical Reactor (LCR)§r is a multiblock §3Chemical Reactor§r with more input/output slots, which can handle more recipes thanks to Teflon.\n\nThe §3LCR§r can perform some exclusive reactions which allow you to combine multiple normal §3Chemical Reactor§r steps into a §6single step§r. Examples below:\n§9-§r §aNitrogen Dioxide§r (for Nitric Acid and Dinitrogen Tetroxide)\n§9-§r §aSulfuric Acid§r\n§9-§r §aPhenol§r\n§9-§r §aEpichlorohydrin§r (you need it for Epoxy§r!)\n§9-§r §aEpoxy§r\n\n\nThere are also §3LCR§r exclusive recipes. For example §aRadon§r requires it.\n\nAll §dOverclocks§r in the §3LCR§r are §6100% efficient§r; each overclock will §5quadruple the speed§r, as opposed to doubling it.\n\n\n§9Tip:§r Given the amount of LCRs you may end up using, I would recommend using the §dwallsharing§r to its full potential.\nYou may share one 2A (standard) §3Energy Hatch§r with 2 LCRs.\nYou may share §3Input/Output Hatches§r, but be careful to not make them run the wrong recipes.\nKeep in mind Maintenance is not sharable.\n\n\nThe §3LCR§r has yet another §6advantage§r. You can use §32 Energy Hatches§r to make it run recipe of the §5next tier§r, similarly to how you did it with the §3Electric Blast Furnace§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15464,7 +15464,7 @@
               "Charge:4": 6400000
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Super Batteries",
@@ -15561,7 +15561,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the §3Input Bus§r of your §3Vacuum Freezer§r, open it and set to §dingotHot*§r whitelist.\nThe slot is to §dtest§r items to make sure you configured the Filter properly, drag ingots from JEI!\n\nFrom here, you have the option to route either with §9Item Pipes§r or §9AE2§r.\n\n§2With Item Pipes§r, connect the output of your §3EBF(s)§r to the input of your §3Vacuum Freezer§r and the output dump (Chest, Crate, or ME Interface).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Vacuum Freezer will be prioritized.\n\n§2With AE2§r, place a §3ME Storage Bus§r on top of your Cover and set to very §dhigh priority§r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
+          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the §3Input Bus§r of your §3Vacuum Freezer§r, open it and set to §e§lingotHot*§r whitelist.\nThe slot is to §dtest§r items to make sure you configured the Filter properly, drag ingots from JEI!\n\nFrom here, you have the option to route either with §9Item Pipes§r or §9AE2§r.\n\n§2With Item Pipes§r, connect the output of your §3EBF(s)§r to the input of your §3Vacuum Freezer§r and the output dump (Chest, Crate, or ME Interface).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Vacuum Freezer will be prioritized.\n\n§2With AE2§r, place a §3ME Storage Bus§r on top of your Cover and set to very §dhigh priority§r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16389,7 +16389,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Tablet device you spawned with is very valuable to do plenty of tasks in GregTech.§r\n\nThis Quest explains how you can use the §4Terminal§.. §bThis is merely basic information, you can skip this for a while as the Terminal isn\u0027t used much in the early game§r.\n\nThe Terminal runs on §4GregOS™§r (not an actual Trademark), an operating system which works with §5Applications§r.\n\n\n§9Machines Guides§r, §9Multiblock Guides§r, §9Item Guides§r, §9§9Tutorials§r are what they sound like. Note that they are currently still being worked on.\n\n§9Guide Editor§r is used to write Guides! Just as above. The GTCEu wiki has some small instructions for how to write them. If you are feeling like helping us with filling up guides, please go ahead and message us on our §8Discord§r (link is in the Curseforge page) with the work you\u0027ve put, or contribute to our §7GitHub§r.\n\n§9System Settings§r changes... settings (duh) related to the Terminal. You can §bset your own background picture§r, remove the double confirmation on exit, and more. Most of the keybinds apply to the §5Home§r button. Double clicking by default exists any open Application.\n\n§9Multiblock Helper§r is split into two functionalities.\nThe first one requires a requires a §dLV§r Battery and a §dCamera§r mounted to enable §bVR visualization§r of multiblock structures.\nThe upgrade unlocked at §6HV§r allows you to §6debug§r and §6auto-build§r.\n\n§9Battery Manager§r, assuming you have a Battery mounted, checks the Energy level and indicates energy usage of other Apps.\n\n§9Hardware Manager§r is used to mount Hardwares, such as Battery, to enable other Apps.\n\n§9App Store§r (not exactly a Store) adds Apps to your collection, and allows upgrades for some of them. Keep in mind Apps may still require specific mounted devices to function.\n\n§9Pong§r, §9Theseus\u0027 Escape§r, §9Minesweeper§r are minigame Apps. Don\u0027t forget to play GregTech, too!\n\n§9Ore Prospector§r works the same way as the portable §dProspector§r and can be upgraded several times.\n\n§9Fluid Prospector§r works the same way as the portable §dProspector§r (but for fluids!) and can be upgraded several times.\n\n§9Recipe Chart§r is a wonderful chart planner to build Recipe Chains and visualize them.\n\n§9GT Console§r configures machines as if you were using regular tools, but without using them! This is similar to the remote access from the §3Central Monitor§r.\n\n§9World Prospector§r is a §dX-Ray VR§r for filtered blocks.\n\n§9Virtual Tank Viewer§r is used in combination with §3Ender Fluid Covers§r. It stores information about all your §dVirtual Tanks§r.\n\n§9Cape Selector§r lets you become fancy! You can have your characters wear a fancy §dCape§r.",
+          "desc:8": "§oThe Tablet device you spawned with is very valuable to do plenty of tasks in GregTech.§r\n\nThis Quest explains how you can use the §4Terminal§.. §bThis is merely basic information, you can skip this for a while as the Terminal isn\u0027t used much in the early game§r.\n\nThe Terminal runs on §4GregOS™§r (not an actual Trademark), an operating system which works with §5Applications§r.\n\n\n§9Machines Guides§r, §9Multiblock Guides§r, §9Item Guides§r, §9§9Tutorials§r are what they sound like. Note that they are currently still being worked on.\n\n§9Guide Editor§r is used to write Guides! Just as above. The GTCEu wiki has some small instructions for how to write them. If you are feeling like helping us with filling up guides, please go ahead and message us on our §8Discord§r (link is in the Curseforge page) with the work you\u0027ve put, or contribute to our §7GitHub§r.\n\n§9System Settings§r changes... settings (duh) related to the Terminal. You can §bset your own background picture§r, remove the double confirmation on exit, and more. Most of the keybinds apply to the §5Home§r button. Double clicking by default exists any open Application.\n\n§9Multiblock Helper§r is split into two functionalities.\nA couple devices are required to be mounted, which enable §bVR visualization§r of multiblock structures.\nThe upgrade unlocked at §6HV§r allows you to §6debug§r and §6auto-build§r.\n\n§9Battery Manager§r, assuming you have a Battery mounted, checks the Energy level and indicates energy usage of other Apps.\n\n§9Hardware Manager§r is used to mount Hardwares, such as Battery, to enable other Apps.\n\n§9App Store§r (not exactly a Store) adds Apps to your collection, and allows upgrades for some of them. Keep in mind Apps may still require specific mounted devices to function.\n\n§9Pong§r, §9Theseus\u0027 Escape§r, §9Minesweeper§r are minigame Apps. Don\u0027t forget to play GregTech, too!\n\n§9Ore Prospector§r works the same way as the portable §dProspector§r and can be upgraded several times.\n\n§9Fluid Prospector§r works the same way as the portable §dProspector§r (but for fluids!) and can be upgraded several times.\n\n§9Recipe Chart§r is a wonderful chart planner to build Recipe Chains and visualize them.\n\n§9GT Console§r configures machines as if you were using regular tools, but without using them! This is similar to the remote access from the §3Central Monitor§r.\n\n§9World Prospector§r is a §dX-Ray VR§r for filtered blocks.\n\n§9Virtual Tank Viewer§r is used in combination with §3Ender Fluid Covers§r. It stores information about all your §dVirtual Tanks§r.\n\n§9Cape Selector§r lets you become fancy! You can have your characters wear a fancy §dCape§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16654,7 +16654,7 @@
               "Charge:4": 25000000
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Extreme Batteries",
@@ -16709,7 +16709,7 @@
               "Charge:4": 420000
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Better Batteries",
@@ -16771,7 +16771,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§o250 Million EU in a Battery, 25Min of Power when drained constantly!? That\u0027s amazing!§r\n\nThe §aLapotronic Energy Orb§r should be the beginning of the end of your energy storage struggles.\nPerfect if your Power Generation is inconsistent, or if you need to buffer large amounts due to the nature of §3Large Turbines§r.\n\nIt does not come quite cheap though. The §dEngraved Lapotron Crystal Chips§r are worth 8 ",
+          "desc:8": "§o250 Million EU in a Battery, 25Min of Power when drained constantly!? That\u0027s amazing!§r\n\nThe §aLapotronic Energy Orb§r should be the beginning of the end of your energy storage struggles.\nThis Energy Storage is perfectly suited if your Power Generation is inconsistent, or if you need to buffer large amounts due to the nature of §3Large Turbines§r.\n\nIt does not come quite cheap though. The §dEngraved Lapotron Crystal Chips§r are worth §a8 Lapotron Crystals§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16820,8 +16820,7 @@
     },
     "252:10": {
       "preRequisites:11": [
-        340,
-        203
+        340
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16872,7 +16871,6 @@
     },
     "253:10": {
       "preRequisites:11": [
-        203,
         341
       ],
       "properties:10": {
@@ -17050,7 +17048,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Large Combustion Engine§r is a multiblock able to burn §dCombustion Fuels§r for even more Power Generation!\n\nIt\u0027s default production outputs 2048 EU/t, which is simply the same as 4 §3Turbo Combustion Generators§r.\n\nWhere it shines is the ability to §6boost§r it with §aOxygen§r.\nThis will double the fuel consumption, but §9triple the power generation§r for 6144 EU/t!\nThis results in §6150% Fuel efficiency§r.\n\nIt also requires a small amount of §aLubricant§r, nothing too crazy.\n\nThe §3LCE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the 3 EV Amps output when boosted, you will need an IV Energy Hatch, which is unfortunate. 4A Dynamo Hatches are coming in the next GTCEu update!",
+          "desc:8": "The §3Large Combustion Engine§r is a multiblock able to burn §dCombustion Fuels§r for even more Power Generation!\n\nIt\u0027s default production outputs 2048 EU/t, which is simply the same as 4 §3Turbo Combustion Generators§r.\n\nWhere it shines is the ability to §6boost§r it with §aOxygen§r.\nThis will double the fuel consumption, but §9triple the power generation§r for 6144 EU/t!\nThis results in §6150% Fuel efficiency§r.\n\nIt also requires a small amount of §aLubricant§r, nothing too crazy.\n\nThe §3LCE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the 6144 EU/t Power output, you will need a §34A EV Dynamo Hatch§r, or an §3IV Dynamo Hatch§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17174,7 +17172,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThe Processing Array does nothing... except that it does a lot!§r\n\nThe §3Processing Array§r is a power §6automation tool§r.\nIt combines several single block machines into one single multiblock.\nPlace up to §d16§r Machines into the §3Machine Access Interface§r.\n\nThe §3PA§r will now §asimulate§r all the machines you put inside, as if they were running at the same time.\nThis means recipes can now be performed up to §d16§r at a time, this is called §4parallel§r.\n\nPower cost is based on the current recipe being run, times the number of §4parallel§r being performed.\nAs an §9example§r, §316 LV Distilleries§r will require an §3HV Energy Hatch§r in order to run effectively.\n\n\n§eWhere or why is the Processing Array useful?§r\n§9-§r §4Parallelization is superior§r to oveclocking. Use it for passive setups such as Ore Processing or Oil Distilling.\n§9-§r §6Distinct buses§r: a §3PA§r can accept up to 10 §3Input Buses§r. Use it for your pattern automation with §3Extruder§r, §3Engraver§r, and many other.\n\n\n§9Note:§r With §2Gregicality Multiblocks§r installed, the §3PA§r can be fully replaced with all the specialized Multiblocks instead. That\u0027s for you if you hate 3x3 blue cubes, or if you hate crafting numerous low tier machines.\n\n\n§bLore:§r In GregTech 5, the Data Orb was used to Matter Replicator to store data of the material you wanted to replicate. There is no replication here, the Orb is just a crafting component.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17259,7 +17257,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Large Gas Turbine§r may not be so impressive in the §5EV§r Age, but it has the ability to scale really well, to §9better production§r than the base 4096 EU/t, and §9greater efficiency§r.\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the Power output when using a Rotor having more than 100% Power stats, you will need an IV Energy Hatch, which is unfortunate. 4A Dynamo Hatches are coming in the next GTCEu update!\nTurbines §cvoid§r energy that they can not output.",
+          "desc:8": "The §3Large Gas Turbine§r may not be so impressive in the §5EV§r Age, but it has the ability to scale really well, to §9better production§r than the base 4096 EU/t, and §9greater efficiency§r.\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the Power output when using a Rotor having more than 100% Power stats, you will need a §34A EV Dynamo Hatch§r or an §3IV Dynamo Hatch§r.\nTurbines §cvoid§r energy that they can not output.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18260,9 +18258,9 @@
     },
     "275:10": {
       "preRequisites:11": [
-        253,
         248,
-        203
+        203,
+        341
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18399,7 +18397,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Packager§r compresses §aTiny Dusts§r and §aSmall Dusts§r into §afull Dusts§r, and Nuggets into Ingots. It can also work in reverse, change between sizes of Wires, and more...\nUnpacking Cables back into Wires and Rubber will be appreciated once you rework your Energy Network.\n\nWe will present a guide later on how to set it up in the middle of §dOre Processing§r.\nThe short explanation is: you can use a§9 Robot Arm§r set to §dSupply Exact§r §59§r to prevent non-whole amounts of Tiny Dusts clogging the Packager.\n\n§bLore§r: In GTCE, the reverse operation required a separate machine, the Unpackager.",
+          "desc:8": "The §3Packager§r compresses §aTiny Dusts§r and §aSmall Dusts§r into §afull Dusts§r into Ingots.\n\nIt can also work in reverse, change between sizes of Wires, and more...\nUnpacking Cables back into Wires and Rubber will be appreciated once you rework your Energy Network.\n\n\n§oI know...§r the compacting recipes do not sound useful because the crafting tables recipes exist. This machine exists for §9automation§r purposes.\n\nFor the §9automated§r setup, route the §aTiny Dusts§r in a buffer inventory (a chest will do) next to your §3Packager§r.\nThen, place a §3Robot Arm§r and configure it to §dImport§r, §dSupply Exact 9§r. Finally, use the Machine auto-output on another side.\n\n\n§bLore§r: In GTCE, the reverse operation required a separate machine, the Unpackager.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18429,9 +18427,9 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 144,
-              "Damage:2": 0,
+              "Damage:2": 41,
               "OreDict:8": "",
-              "id:8": "minecraft:gold_nugget"
+              "id:8": "gregtech:meta_dust_tiny"
             }
           }
         }
@@ -19410,7 +19408,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper.\nThis requires §9PBI§r and Aloys locked behind §aHSS-S Coils§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19461,7 +19459,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Better IV Circuits, so progressing within the IV Age doesn\u0027t feel as painful.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19512,7 +19510,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "LuV Circuits that aren\u0027t mainframes!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19563,7 +19561,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §aZPM Mainframe§r is used to make the §3LuV Circuit Assembler§r (of course), but also §3Fusion§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19617,7 +19615,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oNo. The Assembly Line is not just a big Assembler, it\u0027s a lot more than that!\nYou can also call it the Assline. Do not feel guilt.§r\n\nMaking §dLuV§r Components will require more work.\nThe §3Assembly Line§r is an entry point towards late game.\n\nThis Multiblock has a §evariable size§r§r. Each §3ULV Input Bus§r accepts a different stack of items.\nYou will want to build this with a size of §d10§r to get started, or of a size of §d14§r to accept all possible recipes.\n\nRecipes require §aFluids§r, so it is a good idea to keep the §3Input Hatches§r permanently filled with §dSoldering Alloy§r, §dLubricant§r and §dStyrene-Butadienne Rubber§r.\n\nMy recommendation of Assembly Line automation goes as follows:\nHave your Interface face an §3Item P2P§r. Set two output P2Ps, into the first §3Input Bus§r, and into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n\n§bLots of Lore:§r GT5\u0027s Assembly Line is a massive project to work towards, even more so than here. You are required to scan items to put their construction data into a Data Stick. That Data Stick is then required to fit into a Data Hatch which has limited slots on the Assembly Line.\n\nThe recipe could only be viewed by printing a book with the Data Stick! It was then made to display in NEI once you acquire the item.\nTecTech made a nice machine which acts as a recipe viewer for the Data Stick (this mod is so great...).\n\nFurthermore, Item and Fluid inputs are required to be ordered the same way as the recipe indicates it. This makes automation of the Assembly Line a nice challenge which can be solved using other mods, redstone, GT item pipes... you pick it.\n\nWe are planning to port some of the GT5 features, as the Assembly Line §lshould be a challenge§r for the player.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19749,8 +19747,7 @@
     },
     "298:10": {
       "preRequisites:11": [
-        400,
-        275
+        400
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20268,7 +20265,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Ultimate Batteries!",
@@ -21541,7 +21538,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis is a placeholder Quest, this will be a tutorial to setup Ore Processing on large scale.§r",
+          "desc:8": "§oIV Age is truly the Age of automation, and finally this should be worth to automate all the ores... if you wish, that is.§r\n\nWhat you will §4§lneed§r to automate §6Ore Processing§r on a large scale:\n§9-§r One or few §3IV Macerators§r (or higher tier).\n§9-§r A few §3Processing Arrays§r (PA), to place your low tier machines inside, §eor§r use the §2Gregicality Multiblocks§r variants.\n§9-§r 16 LV §3Thermal Centrifuges§r in a PA (upgradable to 64 with the Advanced PA).\n§9-§r One or a few MV §3Electrolyzers§r, possibly in a PA.\n§9-§r A §3Multi Smelter§r.\n§9-§r A §3Packager§r of any tier.\n§9-§r Inventories acting as a large buffer, such as §3TungstenSteel Crates§r.\n§9-§r §3ME Storage Buses§r or a lot of §3Item Pipes§r + §aFilters§r covers, §aOreDict Filters§r and possibly §aSmart Filter§r.\n\nWhat you may §eoptionally§r add:\n§\n§9-§r A few LV §3Ore Washers§r for quick washing purposes.\n§9-§r Up to 16 LV §3Ore Washers§r in a PA, accompanied with a set of §3Distilleries§r for §dDistilled Water§r.\n§9-§r Up to 16 LV §3Centrifuges§r in a PA, for impure/purified dusts.\n§9-§r §3§3Chemical Baths§r for the special Byproducts using §dMercury§r or §dSodium Persulfate§r.\n§9-§r §3Sifters§r of any tier (higher tier \u003d better chanced output), for gem ores.\n§9-§r §3Electromagnetic Separators§r.\n\n\nTo answer questions:\n\n§d-§r Why §7LV§r Machines? Overclocking is not energy efficient, which is why it is generally better to go for low tier machines in passive setups. One could also argue they are cheaper.\n§3Processing Arrays§r make up for the sheer amount of machines you are making. If you wish, you can still use higher tier machines, but the power draw will be bigger.\nIf you have §2Gregicality Multiblocks§r, just use those instead.\n\n§d-§r Optional things? Yes. Obtaining most Byproducts or getting better yields are completely up to you.\n§3Thermal Centrifuges§r are close to mandatory, as they unlock a §6unique Byproduct§r from the maceration step.\n\n§d-§r What ores should I prioritise? There are crucial ores and Byproducts to not miss out.\nChalcopyrite, Chalcocite, Bornite, Tetrahedrite, Pentlandite and Sheldonite ores should all be turned into §dPurified Crushed§r and sent to the §6Platinum Group Metal§r chain.\nPurified Crushed Galena and Sphalerite may be reserved for Indium, until you have the Naquadah chain.\n§aGallium§r, §aChrome§r, §aNiobium§r, §aRare Earths§r, §aGlowstone§r are §6Byproducts§r you want to prioritise (§oif I am missing any, hit us up on Discord and I may add it!§r).\n\n§d-§r Storage Buses? As you may know, automating with AE2 is very powerful.\n§3ME Storage Buses§r can route items effortlessly. They also have a huge whitelist or blacklist configuration. Put them on the §3TungstenSteel Crates§r to prevent overflow into your main storage... or use a dedicated AE2 network, you choose.\nYou will want a §3Storage Bus§r on high priority paired with an §dOre Dict§r filter for §e§ldustTiny*§r. (Or you can reverse this... using a ME OreDict Storage Bus and a Filter cover... Up to you!)\n\n\nMore things to note:\nThe §aSmart Filter§r§r can be used for Electrolyzable items (refer back to the \"200 IQ Quest\" with the Smart Filter), but you may prefer setting up filter §emanually§r for that.\nThe §aSmart Filter§r can also be used to be configured to filter §dsiftable Purified Crushed Ores§r.\nFor ores that you want to process but don\u0027t want the Byproducts as it would take too long in the machines, prioritize filtering them for quick washing.\nThe typically \"best\" path is: Macerator -\u003e Ore Washing -\u003e Thermal Centrifuge -\u003e Macerator. If you deviate from it for various reasons, you will have to set filters §emanually§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22139,7 +22136,8 @@
         220,
         208,
         142,
-        213
+        213,
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22377,7 +22375,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Ultimate Combustion fuel Generator!§r\n\nTo run the §3Extreme Combustion Engine§r, you will most likely want to boost it (§oelse why would you bother...§r).\nYou will want a §34A IV Dynamo Hatch§r as the output, and one §5EV§r Powered §3Vacuum Freezer§r for §aLiquid Oxygen§r.\n\nYou can now harness the equivalent of 1 §dLuV§r Amp, while burning fuel at §6200% efficiency§r!\n\nDon\u0027t forge to keep it supplied with a small amount of §aLubricant§r.\n\nThe §3ECE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§bLore:§r The ECE comes from GT:NH. However... the story is not so great. The stats on the tooltip looked similar to this one, so far so good.\nHowever if you made calculations, you ended up realizing you needed to run around 16 whole HV Vacuum Freezers to keep up with Liquid Oxygen...\nThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but it was a lie! The efficiency remained 100%!\nThe GT:NH team recently decided to rework the ECE among other power options, phew!",
+          "desc:8": "§oThe Ultimate Combustion fuel Generator!§r\n\nTo run the §3Extreme Combustion Engine§r, you will most likely want to boost it (§oelse why would you bother...§r).\nYou will want a §34A IV Dynamo Hatch§r as the output, and one §3Vacuum Freezer§r for §aLiquid Oxygen§r.\n\nYou can now harness the equivalent of 1 §dLuV§r Amp, while burning fuel at §6200% efficiency§r!\n\nDon\u0027t forge to keep it supplied with a small amount of §aLubricant§r.\n\nThe §3ECE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§bLore:§r The ECE comes from GT:NH. However... the story is not so great. The stats on the tooltip looked similar to this one, so far so good.\nHowever if you made calculations, you ended up realizing you needed to run around 16 whole HV Vacuum Freezers to keep up with Liquid Oxygen...\nThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but it was a lie! The efficiency remained 100%!\nThe GT:NH team recently decided to rework the ECE among other power options, phew!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23299,7 +23297,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNothing to see here... just normal progression.§r",
+          "desc:8": "§oNothing to see here... just normal progression.§r\n\nStarting from here, §3Energy§r and §3Dynamo Hatches§r can be upgraded to a §d4Amps§r variant.\nThis is extremely useful for Multiblock Generators.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23627,7 +23625,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "On this line you can see §4UHV§r equivalents.",
+          "desc:8": "On this line you can see §4UHV§r equivalents, formerly known as MAX in GTCE.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24285,7 +24283,8 @@
     },
     "384:10": {
       "preRequisites:11": [
-        301
+        301,
+        251
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -24301,7 +24300,7 @@
               "Charge:4": 1000000000
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Ludicrous Batteries",
@@ -24355,7 +24354,7 @@
               "Charge:4": 4000000000
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Mega Batteries",
@@ -24409,7 +24408,7 @@
               "Charge:4": 20000000000
             }
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Ultimate Batteries?",
@@ -24514,7 +24513,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Shredding your Ores with forever more Byproducts",
@@ -24608,7 +24607,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIndium has uses as a semiconductor.§r\n\nGetting §aIndium§r requires a lot of §dSulfuric Acid§r, and two different ores: Galena and Sphalerite.\n\n§dSulfuric Acid§r can be produced in large scale in the §3Large Chemical Reactor§r, or obtained as a waste from the §9Platinum Group Sludge§r process.\n\nIn §dLuV§r, the mandatory §9Naquadah chain§r will grant §aIndium§r too, which means this setup will have a limited life.\n\n§bLore:§r Another small chain inherited from GregTech 5. However this used to yield one tiny Dust instead, which was very painful.",
+          "desc:8": "§oIndium has uses as a semiconductor.§r\n\nGetting §aIndium§r requires a lot of §dSulfuric Acid§r, and two different ores: Galena and Sphalerite.\n\n§dSulfuric Acid§r can be produced in large scale in the §3Large Chemical Reactor§r, or obtained as a waste from the §9Platinum Group Sludge§r process.\n\nIn §dLuV§r, the mandatory §9Naquadah chain§r will grant §aIndium§r too, which means this setup will have a limited life.\n\n\n§bLore:§r Another small chain inherited from GregTech 5. However this used to yield one tiny Dust instead, which was very painful.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24822,7 +24821,8 @@
     "393:10": {
       "preRequisites:11": [
         342,
-        275
+        275,
+        284
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -24924,12 +24924,99 @@
     },
     "395:10": {
       "preRequisites:11": [
+        253
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§1IV§r Components - fortunately for you - are not a big step up in terms of complexity.\n\nThe amount of required §dTungsten§r is huge.\n\n§aEmitters§r and §aSensors§r are another topic though... as they require §dNether Star§r and §dIridium§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 131,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "There is not limit to \"fun\"",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 395,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 131,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 176,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 146,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 161,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 191,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 236,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 221,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "396:10": {
+      "preRequisites:11": [
         218
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oRocket Fuel mostly exists for compatibility with other mods. Modpack devs love it! As an actual fuel for power though? Terrible!§r\n\n§aRocket Fuel§r in this modpack is required to obtain §dNether Stars§r (§oplease don\u0027t farm Withers!§r).\n\nAutomating it may be a big sink for your resources, but you can safely batch craft using an overclocked §3Large Chemical Reactor§r, if you desire.",
+          "desc:8": "§oRocket Fuel mostly exists for compatibility with other mods. Modpack devs love it!\nAs an actual fuel for power though? Terrible!§r\n\n§aRocket Fuel§r in this modpack is required to obtain §dNether Stars§r (§oplease don\u0027t farm Withers!§r).\n\nAutomating it may be a big sink for your resources, but you can safely batch craft using an overclocked §3Large Chemical Reactor§r, if you desire.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24974,7 +25061,7 @@
         }
       }
     },
-    "396:10": {
+    "397:10": {
       "preRequisites:11": [
         396,
         398
@@ -25043,7 +25130,7 @@
         }
       }
     },
-    "397:10": {
+    "398:10": {
       "preRequisites:11": [
         221,
         207,
@@ -25130,7 +25217,7 @@
         }
       }
     },
-    "398:10": {
+    "399:10": {
       "preRequisites:11": [
         398,
         397,
@@ -25184,11 +25271,12 @@
         }
       }
     },
-    "399:10": {
+    "400:10": {
       "preRequisites:11": [
         221,
         207,
-        204
+        204,
+        275
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25271,7 +25359,7 @@
         }
       }
     },
-    "400:10": {
+    "401:10": {
       "preRequisites:11": [
         393
       ],
@@ -25322,7 +25410,7 @@
         }
       }
     },
-    "401:10": {
+    "402:10": {
       "preRequisites:11": [
         297,
         393
@@ -25435,7 +25523,7 @@
         }
       }
     },
-    "402:10": {
+    "403:10": {
       "preRequisites:11": [
         390,
         380,
@@ -25488,7 +25576,7 @@
         }
       }
     },
-    "403:10": {
+    "404:10": {
       "preRequisites:11": [
         363,
         207,
@@ -25542,7 +25630,7 @@
         }
       }
     },
-    "404:10": {
+    "405:10": {
       "preRequisites:11": [
         404,
         398
@@ -25611,7 +25699,7 @@
         }
       }
     },
-    "405:10": {
+    "406:10": {
       "preRequisites:11": [
         393
       ],
@@ -25662,7 +25750,7 @@
         }
       }
     },
-    "406:10": {
+    "407:10": {
       "preRequisites:11": [
         406
       ],
@@ -25713,7 +25801,7 @@
         }
       }
     },
-    "407:10": {
+    "408:10": {
       "preRequisites:11": [
         256
       ],
@@ -25764,7 +25852,7 @@
         }
       }
     },
-    "408:10": {
+    "409:10": {
       "preRequisites:11": [
         393
       ],
@@ -25815,7 +25903,7 @@
         }
       }
     },
-    "409:10": {
+    "410:10": {
       "preRequisites:11": [
         393,
         398
@@ -25867,7 +25955,7 @@
         }
       }
     },
-    "410:10": {
+    "411:10": {
       "preRequisites:11": [
         393,
         412
@@ -25919,7 +26007,7 @@
         }
       }
     },
-    "411:10": {
+    "412:10": {
       "preRequisites:11": [
         208
       ],
@@ -26017,7 +26105,7 @@
         }
       }
     },
-    "412:10": {
+    "413:10": {
       "preRequisites:11": [
         303,
         407
@@ -28642,7 +28730,7 @@
           "id:3": 251,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
+          "x:3": 204,
           "y:3": 30
         },
         "2:10": {
@@ -28657,7 +28745,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
-          "y:3": 66
+          "y:3": 72
         },
         "4:10": {
           "id:3": 284,
@@ -28670,35 +28758,35 @@
           "id:3": 288,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
+          "x:3": 204,
           "y:3": -132
         },
         "6:10": {
           "id:3": 292,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 246,
+          "x:3": 252,
           "y:3": -138
         },
         "7:10": {
           "id:3": 293,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
+          "x:3": 258,
           "y:3": -78
         },
         "8:10": {
           "id:3": 294,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
+          "x:3": 258,
           "y:3": -24
         },
         "9:10": {
           "id:3": 295,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
+          "x:3": 258,
           "y:3": 30
         },
         "10:10": {
@@ -28719,7 +28807,7 @@
           "id:3": 298,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 240,
+          "x:3": 246,
           "y:3": -216
         },
         "13:10": {
@@ -28727,7 +28815,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
-          "y:3": 72
+          "y:3": 78
         },
         "14:10": {
           "id:3": 342,
@@ -28748,7 +28836,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
-          "y:3": 72
+          "y:3": 78
         },
         "17:10": {
           "id:3": 390,
@@ -28768,94 +28856,101 @@
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 198,
+          "x:3": 204,
           "y:3": -78
         },
         "20:10": {
+          "id:3": 395,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -66,
+          "y:3": 12
+        },
+        "21:10": {
           "id:3": 396,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
-          "y:3": -60
+          "y:3": 12
         },
-        "21:10": {
+        "22:10": {
           "id:3": 397,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -66
         },
-        "22:10": {
+        "23:10": {
           "id:3": 398,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -138
         },
-        "23:10": {
+        "24:10": {
           "id:3": 399,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 144,
           "y:3": -138
         },
-        "24:10": {
+        "25:10": {
           "id:3": 400,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -204
         },
-        "25:10": {
+        "26:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -60
         },
-        "26:10": {
+        "27:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -132
         },
-        "27:10": {
+        "28:10": {
           "id:3": 404,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -60
         },
-        "28:10": {
+        "29:10": {
           "id:3": 405,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": -60
         },
-        "29:10": {
+        "30:10": {
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -132
         },
-        "30:10": {
+        "31:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -204
         },
-        "31:10": {
+        "32:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -204
         },
-        "32:10": {
+        "33:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -29286,7 +29381,7 @@
           "id:3": 81,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
+          "x:3": -6,
           "y:3": 0
         },
         "6:10": {
@@ -29307,85 +29402,155 @@
           "id:3": 115,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
+          "x:3": -6,
           "y:3": 42
         },
         "9:10": {
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": 42
+          "x:3": 90,
+          "y:3": 0
         },
         "10:10": {
           "id:3": 194,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
+          "x:3": 90,
           "y:3": 84
         },
         "11:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": 84
         },
         "12:10": {
           "id:3": 197,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
+          "x:3": -6,
           "y:3": 84
         },
         "13:10": {
           "id:3": 207,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 150,
+          "x:3": 138,
           "y:3": 42
         },
         "14:10": {
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": 0
+          "x:3": 90,
+          "y:3": 42
         },
         "15:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": 0
         },
         "16:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": -6,
           "y:3": 138
         },
         "17:10": {
           "id:3": 257,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 150,
+          "x:3": 138,
           "y:3": 84
         },
         "18:10": {
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
+          "x:3": 42,
           "y:3": 138
         },
         "19:10": {
+          "id:3": 296,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 186,
+          "y:3": 42
+        },
+        "20:10": {
+          "id:3": 301,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 186,
+          "y:3": 84
+        },
+        "21:10": {
+          "id:3": 303,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 234,
+          "y:3": 42
+        },
+        "22:10": {
+          "id:3": 306,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 234,
+          "y:3": 84
+        },
+        "23:10": {
+          "id:3": 311,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 90,
+          "y:3": 138
+        },
+        "24:10": {
+          "id:3": 312,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 138,
+          "y:3": 138
+        },
+        "25:10": {
+          "id:3": 314,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 138,
+          "y:3": 0
+        },
+        "26:10": {
+          "id:3": 324,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": 138
+        },
+        "27:10": {
+          "id:3": 345,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 186,
+          "y:3": 138
+        },
+        "28:10": {
           "id:3": 354,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
+          "x:3": 42,
           "y:3": 42
+        },
+        "29:10": {
+          "id:3": 389,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 186,
+          "y:3": 0
         }
       }
     },
@@ -30239,14 +30404,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 522,
-          "y:3": 270
+          "y:3": 234
         },
         "70:10": {
           "id:3": 385,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 522,
-          "y:3": 234
+          "y:3": 270
         },
         "71:10": {
           "id:3": 386,
