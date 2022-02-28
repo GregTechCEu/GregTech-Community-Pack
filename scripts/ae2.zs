@@ -133,19 +133,19 @@ recipes.addShaped("fluid_interfaces_interface", <appliedenergistics2:fluid_inter
     [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>]
 ]);
 
-recipes.addShaped("fluid_interfaces_interface_mv", <appliedenergistics2:fluid_interface> * 4, [
+recipes.addShaped("fluid_interfaces_interface_mv", <appliedenergistics2:fluid_interface> * 2, [
     [<ore:plateAluminium>, <ore:blockGlass>, <ore:plateAluminium>],
     [<appliedenergistics2:material:43>, <metaitem:electric.pump.mv>, <appliedenergistics2:material:44>],
     [<ore:plateAluminium>, <ore:blockGlass>, <ore:plateAluminium>]
 ]);
 
-recipes.addShaped("fluid_interfaces_interface_hv", <appliedenergistics2:fluid_interface> * 16, [
+recipes.addShaped("fluid_interfaces_interface_hv", <appliedenergistics2:fluid_interface> * 4, [
     [<ore:plateStainlessSteel>, <ore:blockGlass>, <ore:plateStainlessSteel>],
     [<appliedenergistics2:material:43>, <metaitem:electric.pump.hv>, <appliedenergistics2:material:44>],
     [<ore:plateStainlessSteel>, <ore:blockGlass>, <ore:plateStainlessSteel>]
 ]);
 
-recipes.addShaped("fluid_interfaces_interface_ev", <appliedenergistics2:fluid_interface> * 64, [
+recipes.addShaped("fluid_interfaces_interface_ev", <appliedenergistics2:fluid_interface> * 8, [
     [<ore:plateTitanium>, <ore:blockGlass>, <ore:plateTitanium>],
     [<appliedenergistics2:material:43>, <metaitem:electric.pump.ev>, <appliedenergistics2:material:44>],
     [<ore:plateTitanium>, <ore:blockGlass>, <ore:plateTitanium>]
