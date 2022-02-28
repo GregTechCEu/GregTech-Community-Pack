@@ -3797,7 +3797,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "All machines typically have one §cFront Face§r, and one §9Output Face§r.\nThe §cFront Face§r should be obvious.\nThe §9Output Face§r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it.\n\nMachines can §aauto-output§r through their output face. To turn on auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §dFilters§r and §dCovers§r, which are explained in the quest to the left of this one.\n\nRight-clicking a machine with a §5Wrench§r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side §ccannot§r also be the output side! \n\nBy default, items and fluids cannot be inserted through the output side, but this can be toggled with a §5Screwdriver§r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output.",
+          "desc:8": "All machines typically have one §7Front Face§r, and one §9Output Face§r.\nThe §7Front Face§r should be obvious.\nThe §9Output Face§r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it.\n\nMachines can §aauto-output§r through their output face. To turn on auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §dFilters§r and §dCovers§r, which are explained in the quest to the left of this one.\n\nRight-clicking a machine with a §5Wrench§r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side §ccannot§r also be the output side! \n\nBy default, items and fluids cannot be inserted through the output side, but this can be toggled with a §5Screwdriver§r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output.\n\n\nThere are unique machines that do not process recipes, such as the §3Pump§r, §3Miner§r, §3Fisher§r, §3Item Collector§r...\nThese machines will output on their Front Face (which is still marked as a dot).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10655,7 +10655,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Cutting Machine... cuts... thanks to lubrification.§r\n\nFor now, you may use §9Water§r over trying to acquire Lubricant.\n\nThe §3Cutting Machine§r enables converting §6Rods into four Bolts§r.\n\nThis machine is the only way to obtain §dGem Plates§r, which are needed to craft Filters, and by extension the §9Air Collector§r.",
+          "desc:8": "§oThe Cutting Machine... cuts... thanks to lubrification.§r\n\nFor now, you may use §9Water§r over trying to acquire Lubricant.\n\nThe §3Cutting Machine§r enables converting §6Rods into four Bolts§r.\n\nThis machine is the only way to obtain §dGem Plates§r, which are needed to craft Filters, and by extension the §3Gas Collector§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10897,7 +10897,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The underground has pure Oilsands ore veins. You may §3electrolyze§r the Dust to get §aOil§r.\n\n\n§9§lNote:§r§l The Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOilsands is a §6mediocre but easy starting point§r, it may help transition to Fluid Drilling Rigs.",
+          "desc:8": "The underground has pure Oilsands ore veins. You may §3centrifuge§r the Dust to get §aOil§r.\n\n\n§9§lNote:§r §lThe Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOilsands is a §6mediocre but easy starting point§r, it may help transition to Fluid Drilling Rigs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18935,7 +18935,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Nothing special here... §3IV Assembler§r and §3IV Cutting Machine§r are required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.",
+          "desc:8": "Nothing special here... §3IV Assembler§r and §3IV Cutting Machine§r are required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nYou may also click on the §eCheckbox§r if you are building §2Gregicality Multiblocks§r instead.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18953,7 +18953,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18993,6 +18993,10 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "index:3": 2,
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
@@ -19615,7 +19619,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNo. The Assembly Line is not just a big Assembler, it\u0027s a lot more than that!\nYou can also call it the Assline. Do not feel guilt.§r\n\nMaking §dLuV§r Components will require more work.\nThe §3Assembly Line§r is an entry point towards late game.\n\nThis Multiblock has a §evariable size§r§r. Each §3ULV Input Bus§r accepts a different stack of items.\nYou will want to build this with a size of §d10§r to get started, or of a size of §d14§r to accept all possible recipes.\n\nRecipes require §aFluids§r, so it is a good idea to keep the §3Input Hatches§r permanently filled with §dSoldering Alloy§r, §dLubricant§r and §dStyrene-Butadienne Rubber§r.\n\nMy recommendation of Assembly Line automation goes as follows:\nHave your Interface face an §3Item P2P§r. Set two output P2Ps, into the first §3Input Bus§r, and into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n\n§bLots of Lore:§r GT5\u0027s Assembly Line is a massive project to work towards, even more so than here. You are required to scan items to put their construction data into a Data Stick. That Data Stick is then required to fit into a Data Hatch which has limited slots on the Assembly Line.\n\nThe recipe could only be viewed by printing a book with the Data Stick! It was then made to display in NEI once you acquire the item.\nTecTech made a nice machine which acts as a recipe viewer for the Data Stick (this mod is so great...).\n\nFurthermore, Item and Fluid inputs are required to be ordered the same way as the recipe indicates it. This makes automation of the Assembly Line a nice challenge which can be solved using other mods, redstone, GT item pipes... you pick it.\n\nWe are planning to port some of the GT5 features, as the Assembly Line §lshould be a challenge§r for the player.",
+          "desc:8": "§oNo. The Assembly Line is not just a big Assembler, it\u0027s a lot more than that!\nYou can also call it the Assline. Do not feel guilt.§r\n\nMaking §dLuV§r Components will require more work.\nThe §3Assembly Line§r is an entry point towards late game.\n\nThis Multiblock has a §evariable size§r§r. Each §3ULV Input Bus§r accepts a different stack of items.\nYou will want to build this with a size of §d10§r to get started, or of a size of §d14§r to accept all possible recipes.\n\nRecipes require §aFluids§r, so it is a good idea to keep the §3Input Hatches§r permanently filled with §dSoldering Alloy§r, §dLubricant§r and §dStyrene-Butadienne Rubber§r.\n\nMy recommendation of Assembly Line §4automation§r goes as follows:\nHave your Interface face an §3Item P2P§r. Set two output P2Ps, into the first §3Input Bus§r, and into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n\n§bLots of Lore:§r GT5\u0027s Assembly Line is a massive project to work towards, even more so than here. You are required to scan items to put their construction data into a Data Stick. That Data Stick is then required to fit into a Data Hatch which has limited slots on the Assembly Line.\n\nThe recipe could only be viewed by printing a book with the Data Stick! It was then made to display in NEI once you acquire the item.\nTecTech made a nice machine which acts as a recipe viewer for the Data Stick (this mod is so great...).\n\nFurthermore, Item and Fluid inputs are required to be ordered the same way as the recipe indicates it. This makes automation of the Assembly Line a nice challenge which can be solved using other mods, redstone, GT item pipes... you pick it.\n\nWe are planning to port some of the GT5 features, as the Assembly Line §lshould be a challenge§r for the player.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19849,7 +19853,7 @@
     },
     "300:10": {
       "preRequisites:11": [
-        298
+        405
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20514,7 +20518,8 @@
     "312:10": {
       "preRequisites:11": [
         311,
-        258
+        258,
+        345
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23658,7 +23663,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSince channels are disabled, you are not required to use P2P Tunnels to allocate them efficiently.§r\n\n§2AE2 Unofficial Extended Life§r comes up with §6GTEU P2P Tunnels§r.\nThat\u0027s right - if you wish - you can transport EU from one location to another without using electric Cables.\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r. Then use the Memory Card like you would with other Tunnels.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n§9Note:§r If you use §34A Energy Hatches§r after a P2P, the multiblock may end up periodically §clacking energy§r.\nUse a §3Diode§r configured to §d8A§r in front of your Energy Hatch to circumvent this, as it will properly accept 5A to account for losses.\n\n\n\nOn another topic, §aItem P2P Tunnels§r are also great for automation involving more than inventory (example: making Hulls in the Assembler).\nThey work with §dblocking mode§r from §3ME Interfaces§r.\n\nAdd the material you will liquefy to your §dPattern§r.\n\nThen, place your P2P input on a face of the Interface, and the P2P outputs face both an §3Extractor§r and the §3Assembling Machine§r.\nThen, use §dOre Dictionary Filters§r on both machines and set them to §9ingot*§r, with whitelist on the Extractor, and blacklist on the Assembler.\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars. But you can do the same with regular filters, that\u0027s just less fancy.§r",
+          "desc:8": "§oChannels may disabled, but P2P Tunnels are still extremely important automation tools!§r\n\n\n§2AE2 Unofficial Extended Life§r comes up with §6GTEU P2P Tunnels§r.\nThat\u0027s right - if you wish - you can transport EU from one location to another without using electric Cables.\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r. Then use the Memory Card like you would with other Tunnels.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n§9Note:§r If you use §34A Energy Hatches§r after a P2P, the multiblock may end up periodically §clacking energy§r.\nUse a §3Diode§r configured to §d8A§r in front of your Energy Hatch to circumvent this, as it will properly accept 5A to account for losses.\n\n\n\nOn another topic, §aItem P2P Tunnels§r are also great for automation involving more than inventory (example: making Hulls in the Assembler).\nThey work with §dblocking mode§r from §3ME Interfaces§r.\n\nAdd the material you will liquefy to your §dPattern§r.\n\nThen, place your P2P input on a face of the Interface, and the P2P outputs face both an §3Extractor§r and the §3Assembling Machine§r.\nThen, use §dOre Dictionary Filters§r on both machines and set them to §9ingot*§r, with whitelist on the Extractor, and blacklist on the Assembler.\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars. But you can do the same with regular filters, that\u0027s just less fancy.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24516,7 +24521,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Shredding your Ores with forever more Byproducts",
+          "name:8": "Shredding your Ores with further more Byproducts",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -24929,7 +24934,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§1IV§r Components - fortunately for you - are not a big step up in terms of complexity.\n\nThe amount of required §dTungsten§r is huge.\n\n§aEmitters§r and §aSensors§r are another topic though... as they require §dNether Star§r and §dIridium§r.",
+          "desc:8": "§1IV§r Components - fortunately for you - are not a big step up in terms of complexity.\n\nThe amount of required §dTungsten§r is huge.\n\n§aEmitters§r and §aSensors§r are another topic though... as they require §dNether Star§r and §dIridium§r, both of which have their own dedicated Quests.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25227,7 +25232,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWoah! Let\u0027s be honest, fair game that no new polymer is required for Circuits, right? This was tough to get here, I\u0027m sure you thought the same!§r\n\nThe §3IV Circuit Assembler§r unlocks the §1Quantum§r Circuit line.\n\nThis also unlocks the §6best recipe§r for §dMV Circuits§r.",
+          "desc:8": "§oWoah! Let\u0027s be honest, this was tough to get here, I\u0027m sure you thought the same! You will appreciate not having to make a new polymer for Circuits Boards.§r\n\nThe §3IV Circuit Assembler§r unlocks the §1Quantum§r Circuit line.\n\nThis also unlocks the §6best recipe§r for §dMV Circuits§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25532,7 +25537,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNot much of these CPUs is Quantum related... you know. The name is just fancy.§r\n\nWas getting this by §dIndium§r§r unfair...? §oNot really§r, the other recipe uses a lot more Radon and Ender Pearls and Gallium Arsenide...\n\n§aQubit CPUs§r are used in the production of §1Quantum§r Processors.",
+          "desc:8": "§oNot much of these CPUs is Quantum related... you know. The name is just fancy.§r\n\nI know, I gated this behind §dIndium§r§r, I\u0027m unfair... But it\u0027s the better recipe you know!\n\n§aQubit CPUs§r are used in the production of §1Quantum§r Processors.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26154,6 +26159,44 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "414:10": {
+      "preRequisites:11": [
+        298
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThe chances you are having TPS issues playing this modpack are slim, this Quest is more suited for late game bases with GregTech and AE2, and the tips apply to other modpacks.§r\n\nIf you run the command §9/forge tps§r, you will be given the current §4TPS§r and the §4tick time§r in milliseconds.\nIf the tick time exceeds 50ms, the server is under too much load, and won\u0027t be able to keep up with a steady 20 TPS.\n\nAny machine will add up to the tick time, but don\u0027t be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.\n\nThings to §cavoid§r in general:\n§9-§r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thanksfully this is should not be an issue in this modpack.\n§9-§r Building everything packed together in a small space. Note that this does §onot§r affect TPS, but you will suffer FPS drops instead.\n§9-§r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.\n\nThings to§c avoid§r with AE2:\n§9-§r ME Import and Export Buses on large networks. Use ME Interfaces instead.\n§9-§r Crafting Cards to passively do large requests. Note that this is not as bad as it used to be, thanks to the optimizations from AE2 Unofficial.\n§9-§r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.\n\nThings to §cavoid§r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy the TPS, as with any mod):\n§9-§r X Producers to Y Consumers. Use a Diode or Battery Buffer to separate your line of generators to your line of machines.\n§9-§r Large amounts of Fluid Pipes. They are §onot§r laggy individually, but they can add up if you have thousands of them.\n§9-§r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": "",
+            "id:8": "gregtech:warning_sign"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Combatting Lag",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 414,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     }
@@ -28982,106 +29025,120 @@
           "id:3": 289,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
+          "x:3": -192,
           "y:3": -90
         },
         "1:10": {
+          "id:3": 298,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -90
+        },
+        "2:10": {
           "id:3": 299,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
+          "x:3": -84,
           "y:3": -126
         },
-        "2:10": {
+        "3:10": {
           "id:3": 300,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -90
-        },
-        "3:10": {
-          "id:3": 301,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
+          "x:3": -84,
           "y:3": -90
         },
         "4:10": {
-          "id:3": 302,
+          "id:3": 301,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
+          "x:3": -228,
           "y:3": -90
         },
         "5:10": {
+          "id:3": 302,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -54
+        },
+        "6:10": {
           "id:3": 330,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -120,
+          "y:3": -126
+        },
+        "7:10": {
+          "id:3": 331,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -126
         },
-        "6:10": {
-          "id:3": 331,
+        "8:10": {
+          "id:3": 332,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -126
         },
-        "7:10": {
-          "id:3": 332,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -126
-        },
-        "8:10": {
+        "9:10": {
           "id:3": 337,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -294,
           "y:3": -102
         },
-        "9:10": {
+        "10:10": {
           "id:3": 344,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -54
         },
-        "10:10": {
+        "11:10": {
           "id:3": 345,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -54
+          "x:3": -228,
+          "y:3": -126
         },
-        "11:10": {
+        "12:10": {
           "id:3": 346,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -54
+          "x:3": -228,
+          "y:3": -18
         },
-        "12:10": {
+        "13:10": {
           "id:3": 384,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -54
         },
-        "13:10": {
-          "id:3": 401,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -18
-        },
         "14:10": {
-          "id:3": 406,
+          "id:3": 401,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -18
+        },
+        "15:10": {
+          "id:3": 406,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -192,
+          "y:3": -18
+        },
+        "16:10": {
+          "id:3": 414,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -54
         }
       }
     },
