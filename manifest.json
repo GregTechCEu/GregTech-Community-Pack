@@ -18,6 +18,11 @@
     "name": "GregTech Community Pack",
     "files":[
         {
+            "projectID": 306187,
+            "fileID": 2634364,
+            "required": true
+        },
+        {
             "projectID": 557549,
             "fileID": 3568778,
             "required": true
