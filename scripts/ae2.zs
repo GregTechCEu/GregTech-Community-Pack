@@ -87,7 +87,7 @@ recipes.addShaped("quantum_link", <appliedenergistics2:quantum_link>, [
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/storage_drive");
 recipes.addShaped("storage_drive", <appliedenergistics2:drive>, [
     [<ore:plateSteel>, <appliedenergistics2:material:24>, <ore:plateSteel>],
-    [<appliedenergistics2:part:16>, <ore:circuitBasic>, <appliedenergistics2:part:16>],
+    [<appliedenergistics2:part:16>, <ore:circuitLv>, <appliedenergistics2:part:16>],
     [<ore:plateSteel>, <appliedenergistics2:material:24>, <ore:plateSteel>]
 ]);
 
@@ -133,19 +133,19 @@ recipes.addShaped("fluid_interfaces_interface", <appliedenergistics2:fluid_inter
     [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>]
 ]);
 
-recipes.addShaped("fluid_interfaces_interface_mv", <appliedenergistics2:fluid_interface> * 2, [
+recipes.addShaped("fluid_interfaces_interface_mv", <appliedenergistics2:fluid_interface> * 4, [
     [<ore:plateAluminium>, <ore:blockGlass>, <ore:plateAluminium>],
     [<appliedenergistics2:material:43>, <metaitem:electric.pump.mv>, <appliedenergistics2:material:44>],
     [<ore:plateAluminium>, <ore:blockGlass>, <ore:plateAluminium>]
 ]);
 
-recipes.addShaped("fluid_interfaces_interface_hv", <appliedenergistics2:fluid_interface> * 4, [
+recipes.addShaped("fluid_interfaces_interface_hv", <appliedenergistics2:fluid_interface> * 16, [
     [<ore:plateStainlessSteel>, <ore:blockGlass>, <ore:plateStainlessSteel>],
     [<appliedenergistics2:material:43>, <metaitem:electric.pump.hv>, <appliedenergistics2:material:44>],
     [<ore:plateStainlessSteel>, <ore:blockGlass>, <ore:plateStainlessSteel>]
 ]);
 
-recipes.addShaped("fluid_interfaces_interface_ev", <appliedenergistics2:fluid_interface> * 8, [
+recipes.addShaped("fluid_interfaces_interface_ev", <appliedenergistics2:fluid_interface> * 64, [
     [<ore:plateTitanium>, <ore:blockGlass>, <ore:plateTitanium>],
     [<appliedenergistics2:material:43>, <metaitem:electric.pump.ev>, <appliedenergistics2:material:44>],
     [<ore:plateTitanium>, <ore:blockGlass>, <ore:plateTitanium>]
@@ -171,7 +171,7 @@ recipes.addShaped("io_port", <appliedenergistics2:io_port>, [
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/io_condenser");
 recipes.addShaped("io_condenser", <appliedenergistics2:condenser>, [
     [<ore:plateStainlessSteel>, <metaitem:electric.piston.hv>, <ore:plateStainlessSteel>],
-    [<metaitem:electric.piston.hv>, <ore:circuitAdvanced>, <metaitem:electric.piston.hv>],
+    [<metaitem:electric.piston.hv>, <ore:circuitHv>, <metaitem:electric.piston.hv>],
     [<ore:plateStainlessSteel>, <metaitem:electric.piston.hv>, <ore:plateStainlessSteel>]
 ]);
 
@@ -215,7 +215,7 @@ compressor.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/crafting/cpu_crafting_unit");
 recipes.addShaped("cpu_crafting_unit", <appliedenergistics2:crafting_unit>, [
     [<ore:plateAluminium>, <appliedenergistics2:material:23>, <ore:plateAluminium>],
-    [<appliedenergistics2:part:16>, <ore:circuitGood>, <appliedenergistics2:part:16>],
+    [<appliedenergistics2:part:16>, <ore:circuitMv>, <appliedenergistics2:part:16>],
     [<ore:plateAluminium>, <appliedenergistics2:material:22>, <ore:plateAluminium>]
 ]);
 
@@ -301,7 +301,7 @@ recipes.addShaped("molecular_assembler_iv", <appliedenergistics2:molecular_assem
 recipes.removeByRecipeName("appliedenergistics2:network/wireless_terminal");
 recipes.addShaped("wireless_terminal", <appliedenergistics2:wireless_terminal>, [
     [<ore:gtceWrenches>, <appliedenergistics2:material:41>, <ore:gtceScrewdrivers>],
-    [<ore:circuitAdvanced>, <appliedenergistics2:part:380>, <ore:circuitAdvanced>],
+    [<ore:circuitHv>, <appliedenergistics2:part:380>, <ore:circuitHv>],
     [<appliedenergistics2:part:16>, <metaitem:lapotron_crystal>, <appliedenergistics2:part:16>]
 ]);
 
@@ -329,14 +329,14 @@ recipes.addShaped("network_biometric_card", <appliedenergistics2:biometric_card>
 // Memory Card
 recipes.removeByRecipeName("appliedenergistics2:tools/network_memory_card");
 recipes.addShaped("network_memory_card", <appliedenergistics2:memory_card>, [
-    [<appliedenergistics2:material:23>, <ore:circuitBasic>],
+    [<appliedenergistics2:material:23>, <ore:circuitLv>],
     [<ore:wireFineGold>, <ore:plateIron>]
 ]);
 
 // Network Tool
 recipes.removeByRecipeName("appliedenergistics2:tools/network_tool");
 recipes.addShaped("network_tool", <appliedenergistics2:network_tool>, [
-    [<ore:gtceWrenches>, <ore:circuitBasic>],
+    [<ore:gtceWrenches>, <ore:circuitLv>],
     [<appliedenergistics2:material:23>, <ore:itemIlluminatedPanel>]
 ]);
 
@@ -452,7 +452,7 @@ canner.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/empty_storage_cell");
 recipes.addShaped("empty_storage_cell", <appliedenergistics2:material:39>, [
     [<appliedenergistics2:quartz_glass>, <ore:plateSteel>, <appliedenergistics2:quartz_glass>],
-    [<ore:wireFineRedAlloy>, <ore:circuitBasic>, <ore:wireFineRedAlloy>],
+    [<ore:wireFineRedAlloy>, <ore:circuitLv>, <ore:wireFineRedAlloy>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
@@ -470,7 +470,7 @@ mixer.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:materials/advancedcard");
 recipes.addShaped("advancedcard", <appliedenergistics2:material:28> * 2, [
     [<ore:wireFineRedAlloy>, <ore:plateStainlessSteel>, null],
-    [<appliedenergistics2:material:23>, <ore:circuitAdvanced>, <ore:plateStainlessSteel>],
+    [<appliedenergistics2:material:23>, <ore:circuitHv>, <ore:plateStainlessSteel>],
     [<ore:wireFineSilver>, <ore:plateStainlessSteel>, null]
 ]);
 
@@ -489,13 +489,13 @@ recipes.addShapeless("cardinverter", <appliedenergistics2:material:31>, [
 // Pattern Expansion Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardpatternexpansion");
 recipes.addShapeless("cardpatternexpansion", <appliedenergistics2:material:58>, [
-    <appliedenergistics2:material:28>, <appliedenergistics2:interface>, <ore:circuitAdvanced>
+    <appliedenergistics2:material:28>, <appliedenergistics2:interface>, <ore:circuitHv>
 ]);
 
 // Acceleration Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardspeed");
 recipes.addShapeless("cardspeed", <appliedenergistics2:material:30>, [
-    <appliedenergistics2:material:28>, <ore:circuitGood>
+    <appliedenergistics2:material:28>, <ore:circuitMv>
 ]);
 
 // Magnet Card
@@ -510,20 +510,20 @@ recipes.addShaped("magnet_card", <wct:magnet_card>, [
 recipes.removeByRecipeName("appliedenergistics2:materials/basiccard");
 recipes.addShaped("basiccard", <appliedenergistics2:material:25> * 2, [
     [<ore:wireFineRedAlloy>, <ore:plateAluminium>, null],
-    [<appliedenergistics2:material:23>, <ore:circuitGood>, <ore:plateAluminium>],
+    [<appliedenergistics2:material:23>, <ore:circuitMv>, <ore:plateAluminium>],
     [<ore:wireFineGold>, <ore:plateAluminium>, null]
 ]);
 
 // Capacity Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardcapacity");
 recipes.addShapeless("cardcapacity", <appliedenergistics2:material:27>, [
-    <appliedenergistics2:material:28>, <ore:circuitBasic>
+    <appliedenergistics2:material:28>, <ore:circuitLv>
 ]);
 
 // Crafting Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardcrafting");
 recipes.addShapeless("cardcrafting", <appliedenergistics2:material:53>, [
-    <appliedenergistics2:material:28>, <ore:circuitExtreme>
+    <appliedenergistics2:material:28>, <ore:circuitEv>
 ]);
 
 // Redstone Card
@@ -580,7 +580,7 @@ forming_press.recipeBuilder()
 circuit_assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:20>)
     .inputs(<appliedenergistics2:material:18>)
-    .inputs(<ore:circuitBasic>)
+    .inputs(<ore:circuitLv>)
     .inputs(<ore:componentResistor>)
     .inputs(<ore:wireFineTin> * 2)
     .outputs(<appliedenergistics2:material:22> * 4)
@@ -592,7 +592,7 @@ circuit_assembler.recipeBuilder()
 circuit_assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:20>)
     .inputs(<appliedenergistics2:material:17>)
-    .inputs(<ore:circuitBasic>)
+    .inputs(<ore:circuitLv>)
     .inputs(<ore:componentResistor>)
     .inputs(<ore:wireFineTin> * 2)
     .outputs(<appliedenergistics2:material:24> * 4)
@@ -604,7 +604,7 @@ circuit_assembler.recipeBuilder()
 circuit_assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:20>)
     .inputs(<appliedenergistics2:material:16>)
-    .inputs(<ore:circuitBasic>)
+    .inputs(<ore:circuitLv>)
     .inputs(<ore:componentResistor>)
     .inputs(<ore:wireFineTin> * 2)
     .outputs(<appliedenergistics2:material:23> * 4)
@@ -617,7 +617,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.central_processing_unit>)
     .inputs(<ore:plateCertusQuartz>)
-    .inputs(<ore:circuitBasic>)
+    .inputs(<ore:circuitLv>)
     .outputs(<appliedenergistics2:material:35>)
     .duration(200)
     .EUt(30)
@@ -626,7 +626,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs(<metaitem:component.resistor> * 16)
     .inputs(<ore:plateCertusQuartz>)
-    .inputs(<ore:circuitBasic> * 2)
+    .inputs(<ore:circuitLv> * 2)
     .fluidInputs([<liquid:red_alloy> * 288])
     .outputs(<appliedenergistics2:material:35>)
     .duration(200)
@@ -638,7 +638,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.random_access_memory>)
     .inputs(<appliedenergistics2:material:35> * 3)
-    .inputs(<ore:circuitGood>)
+    .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:36>)
     .duration(200)
     .EUt(30)
@@ -649,7 +649,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.ultra_low_power_integrated_circuit>)
     .inputs(<appliedenergistics2:material:36> * 3)
-    .inputs(<ore:circuitAdvanced>)
+    .inputs(<ore:circuitHv>)
     .outputs(<appliedenergistics2:material:37>)
     .duration(200)
     .EUt(120)
@@ -660,7 +660,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.power_integrated_circuit>)
     .inputs(<appliedenergistics2:material:37> * 3)
-    .inputs(<ore:circuitExtreme>)
+    .inputs(<ore:circuitEv>)
     .outputs(<appliedenergistics2:material:38>)
     .duration(200)
     .EUt(480)
@@ -671,7 +671,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_comp
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.simple_system_on_chip>)
     .inputs(<ore:plateLapis> * 3)
-    .inputs(<ore:circuitExtreme> * 2)
+    .inputs(<ore:circuitEv> * 2)
     .inputs(<metaitem:fluid.regulator.lv>)
     .outputs(<appliedenergistics2:material:54>)
     .duration(200)
@@ -683,7 +683,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_comp
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.system_on_chip>)
     .inputs(<appliedenergistics2:material:54> * 3)
-    .inputs(<ore:circuitExtreme> * 2)
+    .inputs(<ore:circuitEv> * 2)
     .inputs(<metaitem:fluid.regulator.mv>)
     .outputs(<appliedenergistics2:material:55>)
     .duration(200)
@@ -695,7 +695,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_comp
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.power_integrated_circuit>)
     .inputs(<appliedenergistics2:material:55> * 3)
-    .inputs(<ore:circuitElite> * 2)
+    .inputs(<ore:circuitIv> * 2)
     .inputs(<metaitem:fluid.regulator.hv>)
     .outputs(<appliedenergistics2:material:56>)
     .duration(200)
@@ -707,7 +707,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_comp
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.high_power_integrated_circuit>)
     .inputs(<appliedenergistics2:material:56> * 3)
-    .inputs(<ore:circuitMaster> * 2)
+    .inputs(<ore:circuitLuv> * 2)
     .inputs(<metaitem:fluid.regulator.ev>)
     .outputs(<appliedenergistics2:material:57>)
     .duration(200)
@@ -720,7 +720,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateSteel> * 3)
     .inputs(<ore:platePlastic> * 2)
     .inputs(<ore:wireFineRedAlloy> * 4)
-    .inputs(<ore:circuitGood>)
+    .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:52>)
     .duration(200)
     .EUt(120)
@@ -730,7 +730,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateSteel> * 3)
     .inputs(<ore:platePolyvinylChloride> * 2)
     .inputs(<ore:wireFineRedAlloy> * 4)
-    .inputs(<ore:circuitGood>)
+    .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:52> * 4)
     .duration(200)
     .EUt(120)
@@ -740,7 +740,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateSteel> * 3)
     .inputs(<ore:platePolytetrafluoroethylene> * 2)
     .inputs(<ore:wireFineRedAlloy> * 4)
-    .inputs(<ore:circuitGood>)
+    .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:52> * 16)
     .duration(200)
     .EUt(480)
@@ -750,7 +750,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateSteel> * 3)
     .inputs(<ore:platePolybenzimidazole> * 2)
     .inputs(<ore:wireFineRedAlloy> * 4)
-    .inputs(<ore:circuitGood>)
+    .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:52> * 64)
     .duration(200)
     .EUt(480)
@@ -769,7 +769,7 @@ chemical_reactor.recipeBuilder()
 // Wireless Reciever
 recipes.removeByRecipeName("appliedenergistics2:network/wireless_part");
 recipes.addShaped("wireless_part", <appliedenergistics2:material:41>, [
-    [<ore:circuitExtreme>, <ore:pearlFluix>, <ore:circuitExtreme>],
+    [<ore:circuitEv>, <ore:pearlFluix>, <ore:circuitEv>],
     [<ore:stickTitanium>, <metaitem:sensor.hv>, <ore:stickTitanium>]
 ]);
 
@@ -855,7 +855,7 @@ recipes.addShaped("panels_semi_dark_monitor", <appliedenergistics2:part:180> * 3
 
 recipes.addShaped("panels_semi_dark_monitor_lv", <appliedenergistics2:part:180>, [
     [<ore:gtceSoftHammers>, <ore:wireFineCopper>, <ore:plateGlass>],
-    [<ore:wireFineTin>, <ore:circuitBasic>, <appliedenergistics2:quartz_vibrant_glass>],
+    [<ore:wireFineTin>, <ore:circuitLv>, <appliedenergistics2:quartz_vibrant_glass>],
     [<ore:gtceWireCutters>, <ore:wireFineCopper>, <ore:plateGlass>]
 ]);
 
@@ -937,9 +937,9 @@ recipes.addShaped("planes_annihilation_fluid", <appliedenergistics2:part:302>, [
 // ME Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals");
 recipes.addShaped("terminals", <appliedenergistics2:part:380>, [
-    [<ore:boltNetherQuartz>, <ore:circuitBasic>, <ore:boltNetherQuartz>],
+    [<ore:boltNetherQuartz>, <ore:circuitLv>, <ore:boltNetherQuartz>],
     [<ore:gtceWireCutters>, <ore:itemIlluminatedPanel>, <ore:gtceScrewdrivers>],
-    [<ore:circuitBasic>, <ore:plateDoubleSteel>, <ore:circuitBasic>]
+    [<ore:circuitLv>, <ore:plateDoubleSteel>, <ore:circuitLv>]
 ]);
 recipes.addShaped("terminals_simple", <appliedenergistics2:part:380>, [
     [<ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>],
