@@ -22633,30 +22633,31 @@
     },
     "348:10": {
       "preRequisites:11": [
-        52
+        83,
+        70
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Voiding Covers are coming up soon. They will enable voiding. What else did you expect?",
+          "desc:8": "§oThe best mechanic, making an item or fluid disappear, poof!§r\n\n§3Voiding Covers§r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don\u0027t want, fancy!\n\nFor machines, it will only void in the Output slots. The Input slots are ignored.\nYou can attach a §aFilter§r for more precise voiding.\n\nAn advanced version also exists, which requires a §dMV Circuit§r. It enables voiding above a set threshold (great for for overflow control).\n\n§9Note:§r They default as being turned off, to prevent accidental voiding. Right-click them with a §5Soft Mallet§r to activate them.\n\nObtaining §eany§r Voiding Cover will complete this Quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 310,
+            "Damage:2": 316,
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Voiding Cover (Placeholder)",
+          "name:8": "Voiding Covers",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -22664,8 +22665,38 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 316,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -27503,8 +27534,8 @@
           "id:3": 104,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 258,
-          "y:3": 168
+          "x:3": 162,
+          "y:3": 186
         },
         "53:10": {
           "id:3": 107,
@@ -27601,8 +27632,8 @@
           "id:3": 348,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -78,
-          "y:3": -48
+          "x:3": 240,
+          "y:3": 168
         }
       }
     },
