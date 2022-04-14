@@ -569,7 +569,7 @@ recipes.addShaped("framed_drawer_half4", <storagedrawers:customdrawers:4>, [
 // Drawer Controller
 recipes.removeByRecipeName("storagedrawers:controller");
 recipes.addShaped("drawer_controller", <storagedrawers:controller>, [
-    [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
+    [<ore:plateDiamond>, <ore:circuitLv>, <ore:plateDiamond>],
     [<ore:cableGtSingleRedAlloy>, <ore:drawerBasic>, <ore:cableGtSingleRedAlloy>],
     [<ore:plateObsidian>, <ore:plateDiamond>, <ore:plateObsidian>]
 ]);
@@ -579,7 +579,7 @@ recipes.removeByRecipeName("storagedrawers:controller_slave");
 recipes.addShaped("drawer_controller_slave", <storagedrawers:controllerslave>, [
     [<ore:plateObsidian>, <ore:plateDiamond>, <ore:plateObsidian>],
     [<ore:cableGtSingleRedAlloy>, <ore:drawerBasic>, <ore:cableGtSingleRedAlloy>],
-    [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>]
+    [<ore:plateDiamond>, <ore:circuitLv>, <ore:plateDiamond>]
 ]);
 
 // Upgrade Template

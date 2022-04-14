@@ -3,7 +3,7 @@
 recipes.removeByRecipeName("buildinggadgets:buildingtool");
 recipes.addShaped("buildingtool", <buildinggadgets:buildingtool>, [
     [<ore:plateSteel>, <ore:plateLapis>, <ore:plateSteel>],
-    [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
+    [<ore:plateDiamond>, <ore:circuitLv>, <ore:plateDiamond>],
     [<ore:plateSteel>, <ore:cableGtSingleTin>, <ore:plateSteel>]
 ]);
 
@@ -11,7 +11,7 @@ recipes.addShaped("buildingtool", <buildinggadgets:buildingtool>, [
 recipes.removeByRecipeName("buildinggadgets:exchangingtool");
 recipes.addShaped("exchangertool", <buildinggadgets:exchangertool>, [
     [<ore:plateSteel>, <ore:plateGold>, <ore:plateSteel>],
-    [<ore:plateDiamond>, <ore:circuitBasic>, <ore:plateDiamond>],
+    [<ore:plateDiamond>, <ore:circuitLv>, <ore:plateDiamond>],
     [<ore:plateSteel>, <ore:cableGtSingleTin>, <ore:plateSteel>]
 ]);
 
@@ -19,23 +19,23 @@ recipes.addShaped("exchangertool", <buildinggadgets:exchangertool>, [
 recipes.removeByRecipeName("buildinggadgets:copypastetool");
 recipes.addShaped("copypastetool", <buildinggadgets:copypastetool>, [
     [<ore:plateSteel>, <ore:plateRedstone>, <ore:plateSteel>],
-    [<ore:plateEmerald> | <ore:plateOlivine>, <ore:circuitBasic>, <ore:plateEmerald> | <ore:plateOlivine>],
+    [<ore:plateEmerald> | <ore:plateOlivine>, <ore:circuitLv>, <ore:plateEmerald> | <ore:plateOlivine>],
     [<ore:plateSteel>, <ore:cableGtSingleTin>, <ore:plateSteel>]
 ]);
 
 // Template Manager
 recipes.removeByRecipeName("buildinggadgets:templatemanager");
 recipes.addShaped("templatemanager", <buildinggadgets:templatemanager>, [
-    [<ore:cableGtSingleTin>, <ore:circuitBasic>, <ore:cableGtSingleTin>],
-    [<ore:circuitBasic>, <meta_tile_entity:gregtech:hull.lv>, <ore:circuitBasic>],
-    [<ore:cableGtSingleTin>, <ore:circuitBasic>, <ore:cableGtSingleTin>]
+    [<ore:cableGtSingleTin>, <ore:circuitLv>, <ore:cableGtSingleTin>],
+    [<ore:circuitLv>, <meta_tile_entity:gregtech:hull.lv>, <ore:circuitLv>],
+    [<ore:cableGtSingleTin>, <ore:circuitLv>, <ore:cableGtSingleTin>]
 ]);
 
 // Destruction Gadget
 recipes.removeByRecipeName("buildinggadgets:destructiontool");
 recipes.addShaped("destructiontool", <buildinggadgets:destructiontool>, [
     [<ore:plateAluminium>, <ore:plateNetherQuartz>, <ore:plateAluminium>],
-    [<ore:plateEnderPearl>, <ore:circuitGood>, <ore:plateEnderPearl>],
+    [<ore:plateEnderPearl>, <ore:circuitMv>, <ore:plateEnderPearl>],
     [<ore:plateAluminium>, <ore:cableGtSingleCopper>, <ore:plateAluminium>]
 ]);
 

@@ -43,6 +43,6 @@ Builder.start(loc, id)
 
 recipes.addShaped("greenhouse", <metaitem:multiblocktweaker:greenhouse>, [
     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
-    [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
+    [<ore:circuitMv>, <metaitem:hull.mv>, <ore:circuitMv>],
     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
 ]);
