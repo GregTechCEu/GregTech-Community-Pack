@@ -95,7 +95,7 @@ recipes.addShaped("storage_drive", <appliedenergistics2:drive>, [
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/storage_chest");
 recipes.addShaped("storage_chest", <appliedenergistics2:chest>, [
     [<ore:blockGlass>, <appliedenergistics2:part:380>, <ore:blockGlass>],
-    [<appliedenergistics2:part:16>, <ore:circuitPrimitive>, <appliedenergistics2:part:16>],
+    [<appliedenergistics2:part:16>, <ore:circuitUlv>, <appliedenergistics2:part:16>],
     [<ore:plateSteel>, <ore:crystalFluix>, <ore:plateSteel>]
 ]);
 
@@ -322,7 +322,7 @@ recipes.addShaped("wct_creative", <wct:wct_creative>, [
 // Biometric Card
 recipes.removeByRecipeName("appliedenergistics2:tools/network_biometric_card");
 recipes.addShaped("network_biometric_card", <appliedenergistics2:biometric_card>, [
-    [<appliedenergistics2:material:24>, <ore:circuitPrimitive>],
+    [<appliedenergistics2:material:24>, <ore:circuitUlv>],
     [<ore:wireFineGold>, <ore:plateIron>]
 ]);
 
@@ -477,7 +477,7 @@ recipes.addShaped("advancedcard", <appliedenergistics2:material:28> * 2, [
 // Fuzzy Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardfuzzy");
 recipes.addShapeless("cardfuzzy", <appliedenergistics2:material:29>, [
-    <appliedenergistics2:material:28>, <ore:circuitPrimitive>
+    <appliedenergistics2:material:28>, <ore:circuitUlv>
 ]);
 
 // Inverter Card
@@ -776,13 +776,13 @@ recipes.addShaped("wireless_part", <appliedenergistics2:material:41>, [
 // Annihilation Core
 recipes.removeByRecipeName("appliedenergistics2:materials/annihilationcore");
 recipes.addShaped("annihilationcore", <appliedenergistics2:material:44>, [
-    [<ore:circuitPrimitive>, <appliedenergistics2:material:22>, <ore:boltNetherQuartz>]
+    [<ore:circuitUlv>, <appliedenergistics2:material:22>, <ore:boltNetherQuartz>]
 ]);
 
 // Formation Core
 recipes.removeByRecipeName("appliedenergistics2:materials/formationcore");
 recipes.addShaped("formationcore", <appliedenergistics2:material:43>, [
-    [<ore:circuitPrimitive>, <appliedenergistics2:material:22>, <ore:boltCertusQuartz>]
+    [<ore:circuitUlv>, <appliedenergistics2:material:22>, <ore:boltCertusQuartz>]
 ]);
 
 // Inscriber Silicon Press
@@ -1007,7 +1007,7 @@ recipes.addShaped("booster_card_new", <ae2wtlib:infinity_booster_card>, [
 recipes.removeByRecipeName("appliedenergistics2:tools/network_portable_cell");
 recipes.addShaped("network_portable_cell", <appliedenergistics2:portable_cell>.withTag({internalMaxPower: 200000.0, internalCurrentPower: 200000.0}), [
     [<ore:boltRedAlloy>, <ore:paneGlass> , <ore:boltRedAlloy>],
-    [<ore:circuitPrimitive>, <minecraft:chest>, <ore:circuitPrimitive>],
+    [<ore:circuitUlv>, <minecraft:chest>, <ore:circuitUlv>],
     [<ore:plateWroughtIron>, <ore:cableGtSingleRedAlloy>, <ore:plateWroughtIron>]
 ]);
 
