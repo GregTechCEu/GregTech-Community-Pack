@@ -20737,7 +20737,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oLiquids, Gases... It\u0027s all the same here.§r\n\n§3Fluid Pipes§r will transport Steam between machines for you.\n\nEach Pipe has a certain §dthroughput§r in L/s (mB/s), and a Temperature Limit (this is only relevant right now for Steam, as it will burn Wooden Pipes).\nEach material has several §dsizes§r for Pipes. The bigger the Pipe, the higher the throughput.\n\nFor example, a normal Bronze Fluid Pipe transfers 2,400 L/s. It also has a 1,200 L internal buffer.\n\n§9Reminder:§r 1 second \u003d 20 ticks. Assuming the server does not lag.\n\n\nGet §eeither§r a Small, or Normal Bronze Fluid Pipe to complete this quest. Both are used in crafting.\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your §5Wrench§r on the grid.\nYou can also shift-right click with your §5Wrench§r to disable input from a side. This can help counteract sloshing.",
+          "desc:8": "§oLiquids, Gases... It\u0027s all the same here.§r\n\n§3Fluid Pipes§r will transport Steam between machines for you.\n\nEach Pipe has a certain §dthroughput§r in L/t (mB/t), and a Temperature Limit (this is only relevant right now for Steam, as it will burn Wooden Pipes). Some pipes have other attributes you don\u0027t need to worry about for now.\n\nEach material has several §dsizes§r for Pipes. The bigger the Pipe, the higher the throughput.\n\nFor example, a normal Bronze Fluid Pipe transfers 120 L/t. It also has a 1,200 L internal buffer.\n\n§9Reminder:§r 1 second \u003d 20 ticks. Assuming the server does not lag.\n\n\nGet §eeither§r a Small, or Normal Bronze Fluid Pipe to complete this quest. Both are used in crafting.\n\n§9Note:§r GT6-style Pipes are §denabled§r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your §5Wrench§r on the grid.\nYou can also shift-right click with your §5Wrench§r to disable input from a side. This can help counteract sloshing.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22477,12 +22477,12 @@
     },
     "345:10": {
       "preRequisites:11": [
-        301
+        419
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cWarning§r: §9Plasmas§r are §cextremely hot§r, with temperatures exceeding §d30 kK§r! Only §9Duranium Fluid Pipes§r can transport them.",
+          "desc:8": "Use this turbine to extract very large amounts of power from plasma!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24117,12 +24117,13 @@
     },
     "381:10": {
       "preRequisites:11": [
+        418,
         197
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aLiquid Air§r is a great way to get large amounts of §aNitrogen§r and §aOxygen§r, at the cost of using more energy than §3LV Centrifuges§r.\n\nHowever, this will also give you both §6Helium§r and §6Argon§r which are great to boost smelting in the §3Electric Blast Furnace§r.\n\n\n§cNote:§r You will need at least §3HV Input \u0026 Output Hatches§r to be able to run recipes.",
+          "desc:8": "§aLiquid Air§r is a great way to get large amounts of §aNitrogen§r and §aOxygen§r, at the cost of using more energy than §3LV Centrifuges§r.\n\nHowever, this will also give you both §6Helium§r and §6Argon§r which are great to boost smelting in the §3Electric Blast Furnace§r.\n\n\n§cNote:§r You will need at least §3HV Input \u0026 Output Hatches§r to be able to run this recipe.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26353,6 +26354,159 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "417:10": {
+      "preRequisites:11": [
+        120,
+        263
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You may notice that some fluids say they are \"Acidic\", with §9Sulfuric Acid§r being one of them.\n\nThis means that many fluid pipes will not be able to transport them safely! At MV, the cheapest pipes for acid transportation are probably §aGold§r, with the more expensive §aVanadium Steel§r or §aChrome§r pipes taking second place and third place.\n\nYou have two options for acid storage at around this point: §dGlass Vials§r or §dSuper Tanks§r. Glass Vials are like §9Fluid Cells§r, and are made to store acids. Super Tanks will be unlocked after §9Polyethylene§r, and can store any fluid without restriction.\n\n§cWARNING:§r Acids in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r The acid transportation and storage mechanics originate from GregTech 6. Fun!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 41,
+            "OreDict:8": "",
+            "id:8": "gregtech:fluid_pipe_normal"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "It will melt your flesh",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 417,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "418:10": {
+      "preRequisites:11": [
+        194
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Some specific fluids are §dCryogenic§r, which are too cold for ordinary pipes. \n\nYou need to pick the right pipe for the job!\n\nNot many pipes support cold fluids, so give §aStainless Steel§r or §aIridium§r a try. Later on you can use §aNaquadah§r or most of the fusion materials when you get there.\n\nWARNING:§r Cryogenics in the wrong pipes will cause §cvoiding§r, §cpipe freezing§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r This is the first time GregTech has cryogenic mechanics, a GTCEu-original feature!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 323,
+            "OreDict:8": "",
+            "id:8": "gregtech:fluid_pipe_large"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "This isn\u0027t Cryotheum!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 418,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "419:10": {
+      "preRequisites:11": [
+        301
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§cWarning§r: §9Plasmas§r are §cextremely hot§r, with temperatures exceeding §d10 kK§r! \n\nHowever, this does §6§lnot§r mean that you need pipes to support that heat! Plasmas are treated slightly differently and break the rules a bit.\n\nFluid pipes supporting plasmas, such as §aTungsten§r, §aNaquadah§r, or §aDuranium§r can hold any plasma §6regardless of temperature§r! This means they will §lnot§r melt under the heat of the plasma!\n\n\nWARNING:§r Plasmas in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and §lvery high§r rates of §cdeath§r! Be careful!\n\n§bLore:§r This mechanic originates from GT6, just like the acids!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 124,
+            "OreDict:8": "",
+            "id:8": "gregtech:fluid_pipe_huge"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fluid of the Stars",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 419,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "420:10": {
+      "preRequisites:11": [
+        316
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oEver wanted your pipes to look §leven§r§o cooler? Now you can!§r\n\nFluid and Item Pipes can be placed inside of Frameboxes, giving them an §6absolutely breathtaking§r appearance!\n\nSimply Right Click a frame onto a pipe or a pipe onto a frame, and you\u0027re done!\n\n§bLore:§r This is a GTCEu-original mechanic!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_block_frame_20"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Aesthetic Ultra",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 420,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -26871,6 +27025,27 @@
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 120
+        },
+        "45:10": {
+          "id:3": 417,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 48
+        },
+        "46:10": {
+          "id:3": 418,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 12
+        },
+        "47:10": {
+          "id:3": 419,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -90,
+          "y:3": 12
         }
       }
     },
@@ -27144,6 +27319,13 @@
           "sizeY:3": 24,
           "x:3": -18,
           "y:3": -60
+        },
+        "36:10": {
+          "id:3": 420,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -390,
+          "y:3": -90
         }
       }
     },
@@ -28103,6 +28285,13 @@
           "sizeY:3": 24,
           "x:3": 432,
           "y:3": 126
+        },
+        "64:10": {
+          "id:3": 417,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 474,
+          "y:3": -174
         }
       }
     },
@@ -28894,6 +29083,13 @@
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 102
+        },
+        "54:10": {
+          "id:3": 418,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 288
         }
       }
     },
@@ -29264,7 +29460,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
-          "y:3": -126
+          "y:3": -162
         },
         "12:10": {
           "id:3": 346,
@@ -29300,6 +29496,13 @@
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": -54
+        },
+        "17:10": {
+          "id:3": 419,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -126
         }
       }
     },
