@@ -24123,7 +24123,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aLiquid Air§r is a great way to get large amounts of §aNitrogen§r and §aOxygen§r, at the cost of using more energy than §3LV Centrifuges§r.\n\nHowever, this will also give you both §6Helium§r and §6Argon§r which are great to boost smelting in the §3Electric Blast Furnace§r.\n\n\n§cNote:§r You will need at least §3HV Input \u0026 Output Hatches§r to be able to run this recipe.\n\n§cNote:§r Liquid Air is §dCryogenic§r, which means you need adequate pipes! Try §9Stainless Steel§r, or if you\u0027re rich enough: §9Iridium§r.",
+          "desc:8": "§aLiquid Air§r is a great way to get large amounts of §aNitrogen§r and §aOxygen§r, at the cost of using more energy than §3LV Centrifuges§r.\n\nHowever, this will also give you both §6Helium§r and §6Argon§r which are great to boost smelting in the §3Electric Blast Furnace§r.\n\n\n§cNote:§r You will need at least §3HV Input \u0026 Output Hatches§r to be able to run this recipe.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
