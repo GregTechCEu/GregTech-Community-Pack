@@ -243,9 +243,9 @@ assembler.recipeBuilder()
 // Birch
 recipes.removeByRecipeName("storagedrawers:basicdrawers_fulldrawers4_birch");
 recipes.addShaped("basicdrawers_fulldrawers4_birch", <storagedrawers:basicdrawers:2>.withTag({material: "birch"}), [
-    [<minecraft:planks:1>, <ore:gtceSaws>, <minecraft:planks:1>],
-    [<minecraft:planks:1>, <ore:chestWood>, <minecraft:planks:1>],
-    [<minecraft:planks:1>, <ore:gtceSoftHammers>, <minecraft:planks:1>]
+    [<minecraft:planks:2>, <ore:gtceSaws>, <minecraft:planks:2>],
+    [<minecraft:planks:2>, <ore:chestWood>, <minecraft:planks:2>],
+    [<minecraft:planks:2>, <ore:gtceSoftHammers>, <minecraft:planks:2>]
 ]);
 
 
