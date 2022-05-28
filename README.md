@@ -5,7 +5,8 @@ Repository for the GregTech Community Modpack - a minecraft modpack for 1.12.2 h
 ## Playing
 
 Go to [Releases](https://github.com/GregTechCEu/GregTech-Community-Pack/releases) and download `client.zip`.
-Drag and drop the archive file into MultiMC or another launcher of your choice.
+~~Drag and drop the archive file into MultiMC or another launcher of your choice.~~
+Due to Curseforge API change, you will have to use their launcher, or download most things manually, until a (hopefully) better option shows up.
 
 ## Building
 
