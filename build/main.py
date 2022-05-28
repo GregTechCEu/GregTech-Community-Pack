@@ -79,8 +79,6 @@ if os.path.isdir(prev):
 if cached > 0:
     print("cached %d mod downloads in %s" % (cached, cachepath))
 
-#Rest of the code is commented as CurseForge API breaks mod download required for server build
-"""
 
 for mod in manifest["externalDeps"]:
     with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
@@ -115,6 +113,9 @@ if sha:
 shutil.copy(basePath + "/manifest.json", basePath + "/buildOut/client/manifest.json")
 shutil.make_archive(archive, "zip", basePath + "/buildOut/client")
 print('client zip "%s.zip"  made' % (archive))
+
+#Rest of the code is commented as CurseForge API breaks mod download required for server build
+"""
 
 for mod in manifest["files"]:
     url = "https://cursemeta.dries007.net/" + str(mod["projectID"]) + "/" + str(mod["fileID"]) + ".json"
@@ -242,7 +243,5 @@ if (args.dev_build):
     os.symlink(basePath + "/buildOut/mmc/", instanceFolder + "/" + instanceName)
     print("you might need to add an instance.cfg for mmc to reconise it")
 
-
-print("done")
-
 """
+print("done")
