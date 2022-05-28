@@ -1181,7 +1181,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?).\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r Creosote into connected fluid containers, and it will also accept item insertion/extraction (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Think of IndustrialCraft 2\u0027s Nuclear Reactor, or Railcraft\u0027s Coke Oven; they were revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?).\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r both Fluid and Items with it! It also works for insertion into the Coke Oven (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Think of IndustrialCraft 2\u0027s Nuclear Reactor, or Railcraft\u0027s Coke Oven; they were revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5529,7 +5529,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oBy itself, the Battery Buffer does nothing. What it does, however, is accept batteries in its inventory, to act as a... buffer... with the... batteries. I hope you got it!§r\n\nThe §3Battery Buffer§r handles §9two Amps in§r, and §9one Amp out§r §dper Battery§r. Output side has the dot, all other sides are inputs.\n§6It will also charge both EU and RF Tools inside it§r.\n\nThis is a must have if you don\u0027t have unlimited power at hand.\n\nGet §eeither§r a four slot, or an eight slot Battery Buffer. A sixteen slot variant also exists but that\u0027s overkill right now.\n\n§9Note:§r Do not loop your lossy Cables back to your Battery Buffer, you will end up voiding energy!\n\n§bLore:§r To be frank with you, the GTCE Battery Buffer was mediocre. It has been reworked by yours truly to provide a mix between GT5 and GTCE\u0027s functionality. Energy now splits evenly across all batteries!",
+          "desc:8": "§oBy itself, the Battery Buffer does nothing. What it does, however, is accept batteries in its inventory, to act as a... buffer... with the... batteries. I hope you got it!§r\n\nThe §3Battery Buffer§r handles §9two Amps in§r, and §9one Amp out§r §dper Battery§r. Output side has the dot, all other sides are inputs.\n§6It will also charge both EU and RF Tools inside it§r.\n\nThis is a must have if you don\u0027t have unlimited power at hand.\n\nGet §eany§r LV Battery Buffer. However the 16 slots variant is a bit overkill at this stage.\n\n§9Note:§r Do not loop your lossy Cables back to your Battery Buffer, you will end up voiding energy!\n\n§bLore:§r To be frank with you, the GTCE Battery Buffer was mediocre. It has been reworked by yours truly to provide a mix between GT5 and GTCE\u0027s functionality. Energy now splits evenly across all batteries!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5598,6 +5598,23 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 1326,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1336,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -8616,7 +8633,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r with no loss.\n\nThe tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r. The recipes you are doing with the Chemical Reactor have 50% loss!\n\nThe tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8987,7 +9004,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nYou will need §a§ra total of §a416 Clay Dust§r for this quest. You may also want to look into other sources of similar materials, such as §aSodalite§r. Check JEI for some ideas.\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.\n\nAll this useless §dWater§r you are getting... Voiding Covers are soon to be implemented in GTCEu.",
+          "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nYou will need §a§ra total of §a416 Clay Dust§r for this quest. You may also want to look into other sources of similar materials, such as §aSodalite§r. Check JEI for some ideas.\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.\n\nAll this useless §dWater§r you are getting... Make use of a §3Voiding Cover§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13288,7 +13305,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oLet\u0027s get cracking, shall we?§r\n\nThe §3Oil Cracking Unit§r is a multiblock meant to make cracked fluids. It has all the recipes of §3Chemical Reactor§r Cracking, but it is §6lossless§r.\n\nThis multiblock is §doptional§r, but it saves a lot of Fuel in the long term!\n\nHigher Coil tiers provide small energy discount, not too important.",
+          "desc:8": "§oLet\u0027s get cracking, shall we?§r\n\nThe §3Oil Cracking Unit§r is a multiblock meant to make cracked fluids. It has all the recipes of §3Chemical Reactor§r Cracking, but it is §6lossless§r.\n\nA great way to save a lot of Fuel in the long term!\n\nHigher Coil tiers provide small energy discount, up to 70% with the best Coils available.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13340,7 +13357,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §3Distilleries§r, you had to pick only one product to output. DTs output §6all of it at once§r!\n\n§9Note the special placement rules:§r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.\n\nThe §3DT§r can form at any height from §c§c3§r to §c13§r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in §2JEI§r.\n\nIt is a good idea to use §3Super Tanks§r as the output for every layer.\n\n§5Soon to be coming:§r The §3DT§r will be able to ignore fluids outputs if built short. For example you will be able to build a 4 blocks tall Tower to run Fermented Biomass and void all fluids after Ethanol... Not saying that you should do that, just that it will be a possibility.\n\n\n§cNote:§r Using the §3Distillation Tower§r for Oil -\u003e Fuel -\u003e Diesel is §cnot§r worth it! You will spend more energy Overclocking the Multiblock, than what the extra outputs will provide. You may instead look at the §3Processing Array§r (§1IV§r) for large scale Diesel production.\nIt is however §6very worth§r for Cracked Fuels and Pyrolyse products.",
+          "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §3Distilleries§r, you had to pick only one product to output. DTs output §6all of it at once§r!\n\n§9Note the special placement rules:§r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.\n\nThe §3DT§r can form at any height from §c§c3§r to §c13§r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in §2JEI§r.\nThe §3DT§r has one more §9special§r rule. You can deliberately build it too short, and it will §cvoid§r whichever Fluid should have been output at the top layers that were removed. Useful in niche situations.\n\nIt is a good idea to use §3Super Tanks§r as the output for every layer.\n\n§cNote:§r Using the §3Distillation Tower§r for Oil -\u003e Fuel -\u003e Diesel is §cnot§r worth it! You will spend more energy Overclocking the Multiblock, than what the extra outputs will provide. You may instead look at the §3Processing Array§r (§1IV§r) for large scale Diesel production.\nIt is however §6very worth§r for Cracked Fuels and Pyrolyse products.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13848,7 +13865,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3HV Chemical Reactor§r unlocks new recipes, for the ever growing demand on more advanced Chemistry!\n\n§9Note:§r A lot of things are unlocked by the §6HV§r Age. However not all of them are useful just yet! It would make HV too dense to include all of them here.\nGo check out the §5EV§r Chapter for what you have available!",
+          "desc:8": "The §3HV Chemical Reactor§r unlocks new recipes, for the ever growing demand on more advanced Chemistry!\n\n§9Note:§r A lot of content is unlocked by the §6HV§r Age. However not all of them are useful just yet! It would make HV too dense to include all of them here.\nGo check out the §5EV§r Chapter for what you have available!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16537,7 +16554,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one. You definitively want this!\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\nThis will tell you the base §dyield§r of Fluid veins, along with how full they are.\n\n§9Reminder:§r The yield of §3Fluid Drilling Rigs§r is proportional to the fullness of the vein. When low enoug, it defaults to yield defined in the json file.\nWhen the fullness drops below 30% (rough estimation), you can consider moving to another vein... unless you have an §3Advanced Fluid Drilling Rig§r which does not care much about the fullness due to the huge boost it gives.",
+          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one. You definitively want this!\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\nThis will tell you the base §dyield§r of Fluid veins, along with how full they are.\n\n§9Reminder:§r The yield of §3Fluid Drilling Rigs§r is proportional to the fullness of the vein. When low enough, it defaults to yield defined in the json file.\n\n§9Tip:§r When the fullness drops below 30% (rough estimation), you can consider moving to another vein. Aiming for the §3Advanced Fluid Drilling Rig§r in §5EV§r will be a nice goal, as not only it boosts the output significantly, but it also reduces the drain rate.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17364,7 +17381,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While the §aWood Vinegar§r Distillation gives §aAcetone§r, the yield is low and might not suffice.\n\nThere is a direct §3LCR§r recipe from §aAcetic Acid§r to obtain §aAcetone§r.\n\nIf you want to be fancy, you can also the good old §aAcetic Acid§r -\u003e §dDissolved Calcium Acetate§r -\u003e §aAcetone§r loop, which does not require a §3LCR§r, but still recycles the Calcium compound perfectly.\n\n\nFinally, if you are lacking §aAcetic Acid§r, it can be simply obtained from §dEthylene§r or §dHydrogen§r, and §dOxygen§r.",
+          "desc:8": "While the §aWood Vinegar§r Distillation gives §aAcetone§r, the yield is low and might not suffice.\n\nThere is a direct §3LCR§r recipe from §aAcetic Acid§r to obtain §aAcetone§r.\n\nIf you want to be fancy, you can also the good old §aAcetic Acid§r -\u003e §dDissolved Calcium Acetate§r -\u003e §aAcetone§r loop, which does not require a §3LCR§r, but still recycles the Calcium compound perfectly.\n\n\n§oI\u0027ve been talking about Acetic Acid... but I haven\u0027t mentionned how to obtain it, wouldn\u0027t that be great?§r\n§aAcetic Acid§r can be synthesized in the §3Chemical Reactor§r. My favorite recipe is from §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18014,7 +18031,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Here are the four most relevant §dHydrocarbons§r you will be obtaining §6all at once§r from distilling Steam-Cracked Fuels.\n\nYou will §lwant§r to set this up somewhere during the §5EV§r Age.\n\n§aSteam-Cracked Light Fuel§r as input is the most favorable, but you are free to experiment.",
+          "desc:8": "Here are the four most relevant §dHydrocarbons§r you will be obtaining §6all at once§r from distilling Steam-Cracked Fuels.\n\nYou will §lwant§r to set this up §lbefore§r moving to the §1IV§r Age.\n\n§aSteam-Cracked Light Fuel§r as input is the most favorable, but you are free to experiment.\n\n\n§oI know what you are thinking, that Carbon output is infuriating it gets in the way of the automation!§r\nEnable Item Voiding (in the controller GUI) if you don\u0027t want to build an Output Bus.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19412,7 +19429,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper.\nThis requires §9PBI§r and Aloys locked behind §aHSS-S Coils§r.",
+          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper.\nThis requires §9PBI§r and Alloys locked behind §aHSS-S Coils§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22079,7 +22096,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Charcoal Pit is not implemented into GTCEu yet. §r\n\nThe §aCharcoal Pit Igniter§r will turn your Wood into §9Charcoal§r in bulk. Better than Furnaces, at the cost of manual labour.\n\n§4Charcoal smelting in Furnace is disabled§r, you will need the §3Coke Oven§r.\n§dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.\n\nIf you want to enable Charcoal smelting regardless, you can head to GregTech configs.",
+          "desc:8": "§4Charcoal smelting in Furnace is disabled§r, you will need the §3Coke Oven§r.\n§dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.\n\nIf you want to enable Charcoal smelting regardless, you can head to GregTech configs.\n\n\n§bLore:§r There are plans to port the Charcoal Pile Igniter from GT5, a primitive way to get Charcoal at great yield, but at the cost of manual labor.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26239,7 +26256,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oBy this point I should be rambling on how important it is to automate everything and... yeah, do it, embrace the pain!§r\n\n§aLaminated Glass§r is the Glass tier for §1IV§r and onwards. It is made in the §3Forming Press§r using a new Polymer: §dPolyvinyl Butaryl§r.\n\nNone of the steps should be particularly difficult if you already have the §3Distillation Tower§r for Cracked Fuels, and you have also automated Epoxy.\n\n\n§9Note:§r §dPolyvinyl Acetate§r (required for the Glass) can also be used for §aGlue§r, if you ever care about that...",
+          "desc:8": "§oBy this point I should be rambling on how important it is to automate everything and... yeah, do it, embrace the pain!§r\n\n§aLaminated Glass§r is the Glass tier for §1IV§r and onwards. It is made in the §3Forming Press§r using a new Polymer: §dPolyvinyl Butyral§r.\n\nNone of the steps should be particularly difficult if you already have the §3Distillation Tower§r for Cracked Fuels, and you have also automated Epoxy.\nIf you do not have both, you know what to do!\n\n\n§9Note:§r §dPolyvinyl Acetate§r (required for the Glass) can also be used for §aGlue§r, if you ever care about that...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
