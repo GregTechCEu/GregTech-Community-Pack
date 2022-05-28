@@ -79,6 +79,9 @@ if os.path.isdir(prev):
 if cached > 0:
     print("cached %d mod downloads in %s" % (cached, cachepath))
 
+#Rest of the code is commented as CurseForge API breaks mod download required for server build
+"""
+
 for mod in manifest["externalDeps"]:
     with open(basePath + "/mods/" + mod["url"].split("/")[-1], "w+b") as jar:
         for i in range(args.retries + 1):
@@ -241,3 +244,5 @@ if (args.dev_build):
 
 
 print("done")
+
+"""
