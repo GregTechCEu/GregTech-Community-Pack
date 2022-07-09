@@ -6,7 +6,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r (also known as §2GTCEu§r or §2CEu§r), a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure §4Tech§r modpack, focusing on GregTech and its progression.\n\nYou will find no better place to learn about this mod and all the features it adds!\n\n§6This questbook is very informative§r, so check it out to learn anything new about the mod. You may run §9/bq_admin edit§r to read quests ahead of time.\n\n\n§bLore:§r At the time of writing this, the main Questbook author reached LuV Age by playtesting in survival. This is blast! This mod really is what GTCE should have been.",
+          "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r (also known as §2GTCEu§r or §2CEu§r), a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure §4Tech§r modpack, focusing on GregTech and its progression.\n\nYou will find no better place to learn about this mod and all the features it adds!\n\n§6This questbook is very informative§r, so check it out to learn anything new about the mod. Click on the Eye§r icon to toggle §9View Mode§r to read any quest ahead of time. This is one of many features added by §2Better Questing Unofficial§r, yet another great port of a mod.\n\n\n§bLore:§r At the time of writing this, a few players have already completed the modpack. They thoroughly enjoyed it! GTCEu really is what GTCE should have been.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8208,12 +8208,13 @@
         116,
         151,
         118,
-        159
+        159,
+        115
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Before we start, here\u0027s something to consider:\nWith the §aOil§r route, you will need a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will probably want many of them, and as low tier as possible to avoid the energy losses from Overclocking.",
+          "desc:8": "Before we start, here\u0027s something to consider, to get to glorious Ethylene:\nWith the §aOil§r route, you will need at least a §3LV Distillery§r.\nWith the §aBiomass§r route, you will need a §3MV Distillery§r.\nGet §eeither§r to complete this quest.\n\n\n\nNow, let\u0027s discuss a complex topic: §9Distillation§r. This guide will help you understand how and why the §aJEI§r recipes are the way they are, so stick with me!\n\nNearly all the §3Distillery§r recipes are duplicates from the §3Distillation Tower§r, except that they only have one Fluid output, and void everything else.\nIn other words, you could argue the §3Distillery§r is an §dinferior§r §3Distillation Tower§r.\n\nThis doesn\u0027t mean that the §3Distillery§r is always inferior though. It is unlocked earlier. It is §dsmaller§r, §dcheaper§r, and §dmore energy efficient§r per recipe.\nIn many cases, you won\u0027t even mind losing the other Fluids.\n\n\n§3Distilleries§r are an essential component for power generation, whether you pick §aDiesel§r or §aBenzene§r.\nYou will probably want many of them, and as low tier as possible to avoid the energy losses from Overclocking.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8224,7 +8225,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Distillation",
+          "name:8": "Distillery",
           "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8633,7 +8634,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r. The recipes you are doing with the Chemical Reactor have 50% loss!\n\nThe tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r at 100% efficiency. The recipes you are doing with the Chemical Reactor have §450% loss§r!\n\n\n§9Note:§r All of this looks terribly inefficient, I hope that\u0027s a good motivation for you to tier up! The tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10132,7 +10133,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n§\n§9Note:§r The Brewery enables the Biomass path towards §9Ethylene§r. The same can be done in the §3Pyrolyse Oven§r. The other path invovles Oil.§r\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, that\u0027s GregTech 6.§r",
+          "desc:8": "The Brewery can be used to make §aLubricant§r from §aRedstone§r and §aCreosote§r/§aOil§r.\n\nLubricant has its uses here and there, but is mostly for the §3Cutting Machine§r. That significantly reduces duration of recipes.\n\n\n§\n§9Note:§r The Brewery enables the Biomass path towards §9Ethylene§r. The same can be done in the §3Pyrolyse Oven§r. The other path involves Oil.§r\n\n\n§bLore:§r §oYou can make a Brewery if you want to build up a company and start selling Booze... Oh wait nevermind, that\u0027s GregTech 6.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10248,7 +10249,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oBenzene causes leukemia even at low concentrations.§r\n\n§aBenzene§r is also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
+          "desc:8": "§oBenzene causes leukemia even at low concentrations.§r\n\n§aBenzene§r is also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10321,7 +10322,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically.\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn order to be as Power positive as possible, §4Overclock as little as possible§r. Just use more machines instead.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
+          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically.\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13368,7 +13369,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "True Distillation",
+          "name:8": "Distillation Tower",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -15238,7 +15239,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r automate table crafting recipes, which now implies you can automate just about anything.\n\nTo maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.\n\nUsing higher-tier materials yields more Molecular Assemblers.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! AE2 will attempt to craft new tools when they break, which can end up causing severe TPS issues.",
+          "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r automate table crafting recipes, which now implies you can automate just about anything.\n\nTo maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.\n\nUsing higher-tier materials yields more Molecular Assemblers.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! It does cause quite a few bugs... You may or may not destroy the TPS, or end up having thousands of tools being crafted as soon as one of them breaks.\nIf you §oreally§r want to use GT tools in AE2 autocrafting, dump some of them with high durability, but do not setup autocrafting for the tools themselves.\nInstead, use the alternate §3Assembling Machine§r recipes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16406,7 +16407,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Tablet device you spawned with is very valuable to do plenty of tasks in GregTech.§r\n\nThis Quest explains how you can use the §4Terminal§.. §bThis is merely basic information, you can skip this for a while as the Terminal isn\u0027t used much in the early game§r.\n\nThe Terminal runs on §4GregOS™§r (not an actual Trademark), an operating system which works with §5Applications§r.\n\n\n§9Machines Guides§r, §9Multiblock Guides§r, §9Item Guides§r, §9§9Tutorials§r are what they sound like. Note that they are currently still being worked on.\n\n§9Guide Editor§r is used to write Guides! Just as above. The GTCEu wiki has some small instructions for how to write them. If you are feeling like helping us with filling up guides, please go ahead and message us on our §8Discord§r (link is in the Curseforge page) with the work you\u0027ve put, or contribute to our §7GitHub§r.\n\n§9System Settings§r changes... settings (duh) related to the Terminal. You can §bset your own background picture§r, remove the double confirmation on exit, and more. Most of the keybinds apply to the §5Home§r button. Double clicking by default exists any open Application.\n\n§9Multiblock Helper§r is split into two functionalities.\nA couple devices are required to be mounted, which enable §bVR visualization§r of multiblock structures.\nThe upgrade unlocked at §6HV§r allows you to §6debug§r and §6auto-build§r.\n\n§9Battery Manager§r, assuming you have a Battery mounted, checks the Energy level and indicates energy usage of other Apps.\n\n§9Hardware Manager§r is used to mount Hardwares, such as Battery, to enable other Apps.\n\n§9App Store§r (not exactly a Store) adds Apps to your collection, and allows upgrades for some of them. Keep in mind Apps may still require specific mounted devices to function.\n\n§9Pong§r, §9Theseus\u0027 Escape§r, §9Minesweeper§r are minigame Apps. Don\u0027t forget to play GregTech, too!\n\n§9Ore Prospector§r works the same way as the portable §dProspector§r and can be upgraded several times.\n\n§9Fluid Prospector§r works the same way as the portable §dProspector§r (but for fluids!) and can be upgraded several times.\n\n§9Recipe Chart§r is a wonderful chart planner to build Recipe Chains and visualize them.\n\n§9GT Console§r configures machines as if you were using regular tools, but without using them! This is similar to the remote access from the §3Central Monitor§r.\n\n§9World Prospector§r is a §dX-Ray VR§r for filtered blocks.\n\n§9Virtual Tank Viewer§r is used in combination with §3Ender Fluid Covers§r. It stores information about all your §dVirtual Tanks§r.\n\n§9Cape Selector§r lets you become fancy! You can have your characters wear a fancy §dCape§r.",
+          "desc:8": "§oThe Tablet device you spawned with is very valuable to do plenty of tasks in GregTech.§r\n\nThis Quest explains how you can use the §4Terminal§.. §bThis is merely basic information, you can skip this for a while as the Terminal isn\u0027t used much in the early game§r.\n\nThe Terminal runs on §4GregOS™§r (not an actual Trademark), an operating system which works with §5Applications§r.\n\n\n§9Machines Guides§r, §9Multiblock Guides§r, §9Item Guides§r, §9§9Tutorials§r are what they sound like. Note that they are currently still being worked on.\n\n§9Guide Editor§r is used to write Guides! Just as above. The GTCEu wiki has some small instructions for how to write them. If you are feeling like helping us with filling up guides, please go ahead and message us on our §8Discord§r (link is in the Curseforge page) with the work you\u0027ve put, or contribute to our §7GitHub§r.\n\n§9System Settings§r changes... settings (duh) related to the Terminal. You can §bset your own background picture§r, remove the double confirmation on exit, and more. Most of the keybinds apply to the §5Home§r button. Double clicking by default exists any open Application.\n\n§9Multiblock Helper§r is split into two functionalities.\nA couple devices are required to be mounted, which enable §bVR visualization§r of multiblock structures.\nThe upgrade unlocked at §6HV§r allows you to §6debug§r and §6auto-build§r.\n\n§9Battery Manager§r, assuming you have a Battery mounted, checks the Energy level and indicates energy usage of other Apps.\n\n§9Hardware Manager§r is used to mount Hardwares, such as Battery, to enable other Apps.\n\n§9App Store§r (not exactly a Store) adds Apps to your collection, and allows upgrades for some of them. Keep in mind Apps may still require specific mounted devices to function.\n\n§9Pong§r, §9Theseus\u0027 Escape§r, §9Minesweeper§r are minigame Apps. Don\u0027t forget to play GregTech, too!\n\n§9Ore Prospector§r works the same way as the portable §dProspector§r and can be upgraded several times.\n\n§9Fluid Prospector§r works the same way as the portable §dProspector§r (but for fluids!) and can be upgraded several times.\n\n§9Recipe Chart§r is a wonderful chart planner to build Recipe Chains and visualize them.\n\n§9GT Console§r configures machines as if you were using regular tools, but without using them! This is similar to the remote access from the §3Central Monitor§r.\n\n§9World Prospector§r is a §dX-Ray VR§r for filtered blocks.\n\n§9Virtual Tank Viewer§r is used in combination with §3Ender Fluid Covers§r. It stores information about all your §dVirtual Tanks§r.\n\n§9Cape Selector§r lets you become fancy! You can have your characters wear a fancy §dCape§r.\n\n§9Teleporter§r is what it sounds like. It creates a portal frame to teleport from anywhere to anywhere. This is a lategame toy, though.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17274,7 +17275,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Large Gas Turbine§r may not be so impressive in the §5EV§r Age, but it has the ability to scale really well, to §9better production§r than the base 4096 EU/t, and §9greater efficiency§r.\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the Power output when using a Rotor having more than 100% Power stats, you will need a §34A EV Dynamo Hatch§r or an §3IV Dynamo Hatch§r.\nTurbines §cvoid§r energy that they can not output.",
+          "desc:8": "The §3Large Gas Turbine§r may not be so impressive in the §5EV§r Age, but it has the ability to scale really well, to §9better production§r than the base 4096 EU/t, and §9greater efficiency§r.\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest §eonly§r requires the Controller, but you still need all the multiblock parts.\nTo harness the Power output when using a Rotor having more than 100% Power stats, you will need a §34A EV Dynamo Hatch§r or an §3IV Dynamo Hatch§r.\nTurbines §cvoid§r energy that they can not output.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17320,25 +17321,8 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1641,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
@@ -17346,19 +17330,14 @@
               "Damage:2": 1229,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1641,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 711,
               "OreDict:8": "",
@@ -17370,7 +17349,7 @@
               }
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -17540,7 +17519,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Obtain §aPhenol§r from:\n§91 -§r §aWood Tar§r distillation.\n§92 -§r Reacting §aBenzene§r with §dChlorine§r and §dSodium Hydroxide§r (§3LCR§r, Chlorine is perfectly looped).\n§93 -§r Doing the above shortcut recipe which skips using §dSodium Hydroxide§r, but is lossy on §dChlorine§r.\n§94 -§r Reacting §aBenzene§r, §dPropene§r and §dOxygen§r using a small amount of §4Phosphoric Acid§r.\n§95 -§r Reacting §aBenzene§r and §dOxygen§r (requires §5EV§r).\n\nThe choice is yours:\n§91 -§r Great if you have §3Pyrolyse§r + §3Distillation Tower§r combo.\n§92 -§r My preference, you can use the §dSalt§r to make §dSalt Water§r and electrolyze it as a loop.\n§93 -§r Great if you have infinite supply of §dChlorine§r thanks to a §3Fluid Drilling Rig§r on Salt Water.\n§94 -§r §4Phosphoric Acid§r is a pain to produce and not required anywhere else in GTCEu, unrecommended.\n§95 -§r Convenient if you have the energy to spare.\n\n\n§bLore:§r The Benzene + Oxygen recipe was added in GTCE as part of chemical fixes as the Large Chemical Reactor didn\u0027t exist. Now that there are more realistic option, that recipe might go away.",
+          "desc:8": "Obtain §aPhenol§r from:\n§91 -§r §aWood Tar§r distillation.\n§92 -§r Reacting §aBenzene§r with §dChlorine§r and §dSodium Hydroxide§r (§3LCR§r, Chlorine is perfectly looped).\n§93 -§r Doing the above shortcut recipe which skips using §dSodium Hydroxide§r, but is lossy on §dChlorine§r.\n§94 -§r Reacting §aBenzene§r, §dPropene§r and §dOxygen§r using a small amount of §4Phosphoric Acid§r, normally a catalyst, but consumed in small quantity for... reasons. This is called the Cumene process.\n\nThe choice is yours:\n§91 -§r Great if you have §3Pyrolyse§r + §3Distillation Tower§r combo.\n§92 -§r My preference, you can use the §dSalt§r to make §dSalt Water§r and electrolyze it as a loop.\n§93 -§r Great if you have infinite supply of §dChlorine§r thanks to a §3Fluid Drilling Rig§r on Salt Water.\n§94 -§r §4Phosphoric Acid§r is a pain to produce and not required anywhere else in GTCEu, unrecommended.\n\n\n§bLore:§r The Benzene + Oxygen recipe was added in GTCE as part of chemical fixes as the Large Chemical Reactor didn\u0027t exist. Now that there are more realistic option, that recipe might go away.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18650,7 +18629,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Rock Breaker§r generates different types of igneous Rocks. In order to operate, §9Water§r and §cLava§r (doesn\u0027t need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials.\n\nCertain rocks, such as §b§cRed Granite§r, need up to §5EV§r power to generate.\n\n§bLore§r: Obsidian requiring Redstone to generate is in reference to an ancient Minecraft bug, §7MC-4239§r. Placing Redstone where the Cobblestone would go in a cobble generator would make it generate Obsidian instead. This bug was resolved in snapshot 14w25b for Minecraft 1.8, over 7 years ago at the time of writing!",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Rock Breaker§r generates different types of igneous Rocks. In order to operate, §9Water§r and §cLava§r (doesn\u0027t need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials.\n\nCertain rocks, such as §b§cRed Granite§r, need up to §5EV§r power to generate.\n\n§eAny§r Rock Breaker will complete this Quest.\n\n§bLore§r: Obsidian requiring Redstone to generate is in reference to an ancient Minecraft bug, §7MC-4239§r. Placing Redstone where the Cobblestone would go in a cobble generator would make it generate Obsidian instead. This bug was resolved in snapshot 14w25b for Minecraft 1.8, over 7 years ago at the time of writing!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18668,7 +18647,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18747,6 +18726,57 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 665,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 666,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 667,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 668,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -18899,7 +18929,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Turbo Charger§r charges §6RF and EU§r items such as §9Drills§r extremely quickly.\nIt accepts up to 4 Amps for every item it charges, making it §6twice as fast§r as the §3Battery Buffer§r. It cannot discharge, though.",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Turbo Charger§r charges §6RF and EU§r items such as §9Drills§r extremely quickly.\nIt accepts up to 4 Amps for every item it charges, making it §6twice as fast§r as the §3Battery Buffer§r. It cannot discharge, though.\n\n§eAny§r Charger will complete this Quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18917,7 +18947,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -18940,6 +18970,57 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1377,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1378,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1379,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -18952,7 +19033,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Nothing special here... §3IV Assembler§r and §3IV Cutting Machine§r are required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nYou may also click on the §eCheckbox§r if you are building §2Gregicality Multiblocks§r instead.",
+          "desc:8": "Nothing special here... §3IV Assembler§r and §3IV Cutting Machine§r are required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nUpgrading them to §2Gregicality Multiblocks§r is a wise decision, if you added the mod.\n\n\n§bLore:§r I often get asked why is GcyM not included in the modpack. My reasoning is to show how robust GTCEu is by itself.\nDid you know that GTCE\u0027s content stopped at EV, and the content up to UV was always gapped with Shadows of Greg, a third party mod?\nOf course GcyM should still be included in any greedier modpack, because it is a great QoL mod.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18970,7 +19051,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -19010,10 +19091,6 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "index:3": 2,
-          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
@@ -20432,7 +20509,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIf you\u0027re still running off Steam, here is a solution for you!§r\n\nThe §3Large Steam Turbine§r is a multiblock Steam Turbine for §6HV§r power. It is a quite expensive multiblock to generate 1024 EU/t, but it also the ability to scale to §9higher Power Production and higher Effiency§r.\n\nThe Turbine will output §dDistilled Water§r given an §3Output Hatch§r, so you can loop it back to your §3Large Boilers§r.\nNot completely recommend, as your Boilers will end up exploding if the system fails...\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTurbines §cvoid§r energy that they can not output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat.",
+          "desc:8": "§oIf you\u0027re still running off Steam, here is a solution for you! But if I wanted to be honest... Steam as a power option really isn\u0027t worth it at this point anymore. Stay tuned for when/if we rework it.§r\n\nThe §3Large Steam Turbine§r is a multiblock Steam Turbine for §6HV§r power. It is a quite expensive multiblock to generate 1024 EU/t, but it also the ability to scale to §9higher Power Production and higher Effiency§r.\n\nThe Turbine will output §dDistilled Water§r given an §3Output Hatch§r, so you can loop it back to your §3Large Boilers§r.\nNot completely recommend, as your Boilers will end up exploding if the system fails...\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest §eonly§r requires the Controller, but you still need all the multiblock parts.\nTurbines §cvoid§r energy that they can not output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20450,7 +20527,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -20478,25 +20555,8 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1640,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
+          "ignoreNBT:1": 1,
+          "index:3": 4,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
@@ -20504,19 +20564,14 @@
               "Damage:2": 1228,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1640,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 711,
               "OreDict:8": "",
@@ -20528,7 +20583,7 @@
               }
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -21361,7 +21416,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs, and it is perfectly playable as is. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) mostly starting with the §1IV§r Age. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A really fancy way to scale your automation on a large scale!\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §e(released, WIP)§r adds a Modular Armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs, and it is perfectly playable as is. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) mostly starting with the §1IV§r Age. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A really fancy way to scale your automation on a large scale!\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §6(released)§r adds a Modular Armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23711,7 +23766,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oChannels may disabled, but P2P Tunnels are still extremely important automation tools!§r\n\n\n§2AE2 Unofficial Extended Life§r comes up with §6GTEU P2P Tunnels§r.\nThat\u0027s right - if you wish - you can transport EU from one location to another without using electric Cables.\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r. Then use the Memory Card like you would with other Tunnels.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n§9Note:§r If you use §34A Energy Hatches§r after a P2P, the multiblock may end up periodically §clacking energy§r.\nUse a §3Diode§r configured to §d8A§r in front of your Energy Hatch to circumvent this, as it will properly accept 5A to account for losses.\n\n\n\nOn another topic, §aItem P2P Tunnels§r are also great for automation involving more than inventory (example: making Hulls in the Assembler).\nThey work with §dblocking mode§r from §3ME Interfaces§r.\n\nAdd the material you will liquefy to your §dPattern§r.\n\nThen, place your P2P input on a face of the Interface, and the P2P outputs face both an §3Extractor§r and the §3Assembling Machine§r.\nThen, use §dOre Dictionary Filters§r on both machines and set them to §9ingot*§r, with whitelist on the Extractor, and blacklist on the Assembler.\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars. But you can do the same with regular filters, that\u0027s just less fancy.§r",
+          "desc:8": "§oChannels may disabled, but P2P Tunnels are still extremely important automation tools! Especially the Item P2P and the GTEU P2P.§r\n\n§9Note:§r There are great resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. They are linked using a Memory Card.\nThis Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit.\n\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r.\n\nThis is ideal in lategame situations, to avoid spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.\n\nThere is supposed to be a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\nHowever... the implementation is broken and is actually lossless! Whoops!\nDon\u0027t worry, somebody will fix the exploit at some point. :wink:\n\n\n\nAnd now, the other §ltopic§r. §aItem P2P Tunnels§r are great for automation involving more than one single inventory.\nTo turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.\nThe way they are useful is a bit abstract so I will explain with an example.\n\n§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.\nYou could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).\n\nNow, you may think the next step is just to dump the items in a Buffer and route the items with Pipes, however this system will eventually §4jam§r due to the incompability with AE2 Interface blocking mode! Trust me.\nPlace the input of the §aItem P2P§r on your §3ME Interface§r, and one output on the §3Extractor§r, one on the §3Assembler§r.\nThen, use Filter covers where the outputs are connected. §dOre Dictionary Filters§r are better, since you can configure them to §9ingot*§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots, that\u0027s a design decision in GregTech). \nDo not forget §dBlocking Mode§r on your Interface.\n\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26524,6 +26579,68 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "421:10": {
+      "preRequisites:11": [
+        154,
+        129
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oDo you know what this is? Shame if you do not.§r\n\nA fancy tool to help with base building, has different modes.\nAlso check out the §3Destruction Gadget§r and the §3Copy Paste Gadget§r.\n\nCharge this in the charger slot of any GregTech machine.\n\nTell me... do not use it to make a cobble platform, please! At least chisel it first.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "buildinggadgets:buildingtool",
+            "tag:10": {
+              "blockstate:10": {
+                "Name:8": "minecraft:air"
+              }
+            }
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Building Gadgets",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 421,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "buildinggadgets:buildingtool",
+              "tag:10": {
+                "blockstate:10": {
+                  "Name:8": "minecraft:air"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -26838,7 +26955,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
-          "y:3": 150
+          "y:3": 156
         },
         "16:10": {
           "id:3": 97,
@@ -26859,7 +26976,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
-          "y:3": 150
+          "y:3": 156
         },
         "19:10": {
           "id:3": 105,
@@ -26880,7 +26997,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
-          "y:3": 150
+          "y:3": 156
         },
         "22:10": {
           "id:3": 144,
@@ -26922,7 +27039,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
-          "y:3": 84
+          "y:3": 120
         },
         "28:10": {
           "id:3": 232,
@@ -26950,7 +27067,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 18,
-          "y:3": 150
+          "y:3": 156
         },
         "32:10": {
           "id:3": 281,
@@ -26964,14 +27081,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
-          "y:3": 150
+          "y:3": 156
         },
         "34:10": {
           "id:3": 283,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
-          "y:3": 150
+          "y:3": 156
         },
         "35:10": {
           "id:3": 285,
@@ -27027,7 +27144,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
-          "y:3": 150
+          "y:3": 156
         },
         "43:10": {
           "id:3": 328,
@@ -27041,7 +27158,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
-          "y:3": 120
+          "y:3": 156
         },
         "45:10": {
           "id:3": 417,
@@ -27063,6 +27180,13 @@
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": 12
+        },
+        "48:10": {
+          "id:3": 421,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 84
         }
       }
     },
@@ -27833,6 +27957,13 @@
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 168
+        },
+        "67:10": {
+          "id:3": 421,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 174
         }
       }
     },
@@ -30898,7 +31029,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
