@@ -29,6 +29,7 @@ jobs:
     - run: java -version
     - name: Run Build
       run: |
+        export CFAPIKEY=${{ secrets.CFAPIKEY }}
         python build/main.py
     - name: Automatic Releases
       uses: marvinpinto/action-automatic-releases@v1.1.1
