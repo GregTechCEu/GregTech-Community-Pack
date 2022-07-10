@@ -2,15 +2,16 @@
 
 """build client & server bundles"""
 
+import argparse
+import hashlib
+import json
 # if there is a problem with building, please let htmlcsjs know
 import os
-import sys
 import shutil
 import subprocess
+import sys
+
 import requests
-import json
-import hashlib
-import argparse
 
 
 def parse_args():
@@ -19,7 +20,8 @@ def parse_args():
     parser.add_argument("--name", type=str, help="append name to zips")
     parser.add_argument("--retries", type=int, default=3, help="download attempts before failure")
     parser.add_argument("--clean", action="store_true", help="clean output dirs")
-    parser.add_argument("--dev_build", action="store_true", help="makes a folder with all the files symlinked for development. probally only works on linux")
+    parser.add_argument("--dev_build", action="store_true",
+                        help="makes a folder with all the files symlinked for development. probally only works on linux")
     return parser.parse_args()
 
 
@@ -98,9 +100,24 @@ def build(args):
     shutil.copy(basePath + "/manifest.json", basePath + "/buildOut/client/manifest.json")
     shutil.make_archive(archive, "zip", basePath + "/buildOut/client")
     print('client zip "%s.zip"  made' % (archive))
+    cringe = []
+    headers = {'Accept': 'application/json', 'x-api-key': os.getenv("CFAPIKEY")}
     for mod in manifest["files"]:
-        r = requests.get('https://api.curseforge.com/v1/mods/{0}/files/{1}/download-url'.format(mod["projectID"], mod["fileID"]), headers={'Accept': 'application/json', 'x-api-key': os.getenv("CFAPIKEY")})
-        metadata = json.loads(r.text)
+        r = requests.get(
+            'https://api.curseforge.com/v1/mods/{0}/files/{1}/download-url'.format(mod["projectID"], mod["fileID"]),
+            headers=headers)
+        try:
+            metadata = json.loads(r.text)
+        except:
+            print(
+                'https://api.curseforge.com/v1/mods/{0}/files/{1}/download-url'.format(mod["projectID"], mod["fileID"]))
+            cringe_r = requests.get('https://api.curseforge.com/v1/mods/{0}'.format(mod["projectID"]), headers=headers)
+            data = json.loads(cringe_r.text)["data"]
+            cringe.append(
+                "https://www.curseforge.com/minecraft/mc-mods/{0}/files/{1}".format(data["slug"], mod["fileID"])
+            )
+            continue
+
         if "name" in mod:
             name = mod["name"]
             if name[-4:] != ".jar":
@@ -173,6 +190,16 @@ def build(args):
         print("Vanilla Downloaded")
     subprocess.run(["java", "-jar", "forge-installer.jar", "--installServer"], cwd=basePath + "/buildOut/server/")
     print("Forge Installed")
+    if len(cringe) != 0 or os.path.exists(basePath + "/README_SERVER.md"):
+        with open(basePath + "/buildOut/server/README_SERVER.md", "w") as f:
+            if os.path.exists(basePath + "/README_SERVER.md"):
+                with open(basePath + "/README_SERVER.md") as g:
+                    f.write(g.read())
+            if len(cringe) != 0:
+                f.write("\n# YOU NEED TO MANUALLY DOWNLOAD THESE MODS\n")
+                for i in cringe:
+                    f.write(i + "\n")
+
     try:
         os.remove(basePath + "/buildOut/server/forge-installer.jar")
     except Exception as e:
