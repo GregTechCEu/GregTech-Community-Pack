@@ -112,7 +112,7 @@ def build(args):
             print(
                 'https://api.curseforge.com/v1/mods/{0}/files/{1}/download-url'.format(mod["projectID"], mod["fileID"]))
             cringe_r = requests.get('https://api.curseforge.com/v1/mods/{0}'.format(mod["projectID"]), headers=headers)
-            data = json.loads(cringe_r.text)["data"]
+            data = cringe_r.json()["data"]
             cringe.append(
                 "https://www.curseforge.com/minecraft/mc-mods/{0}/files/{1}".format(data["slug"], mod["fileID"])
             )
