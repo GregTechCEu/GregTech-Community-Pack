@@ -112,10 +112,12 @@ def build(args):
             print(
                 'https://api.curseforge.com/v1/mods/{0}/files/{1}/download-url'.format(mod["projectID"], mod["fileID"]))
             cringe_r = requests.get('https://api.curseforge.com/v1/mods/{0}'.format(mod["projectID"]), headers=headers)
-            data = cringe_r.json()["data"]
-            cringe.append(
-                "https://www.curseforge.com/minecraft/mc-mods/{0}/files/{1}".format(data["slug"], mod["fileID"])
-            )
+            try:
+                data = cringe_r.json()["data"]
+                cringe.append("https://www.curseforge.com/minecraft/mc-mods/{0}/files/{1}".format(data["slug"], mod["fileID"]))
+            except:
+                print('This is the raw mod id and file id, the cf api was being mega fucked: `{0}`, `{1}`'.format(mod["projectID"], mod["fileID"]))
+
             continue
 
         if "name" in mod:
