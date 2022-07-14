@@ -116,7 +116,7 @@ def build(args):
                 data = cringe_r.json()["data"]
                 cringe.append("https://www.curseforge.com/minecraft/mc-mods/{0}/files/{1}".format(data["slug"], mod["fileID"]))
             except:
-                print('This is the raw mod id and file id, the cf api was being mega fucked: `{0}`, `{1}`'.format(mod["projectID"], mod["fileID"]))
+                cringe.append('This is the raw mod id and file id, the cf api was being mega fucked: `{0}`, `{1}`'.format(mod["projectID"], mod["fileID"]))
 
             continue
 
