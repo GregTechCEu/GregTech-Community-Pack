@@ -41,3 +41,4 @@ jobs:
 
           files: |
             buildOut/client.zip
+            buildOut/server.zip
