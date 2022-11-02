@@ -14,6 +14,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -50,6 +51,7 @@
             "OreDict:8": "",
             "id:8": "betterquesting:placeholder"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -88,6 +90,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:log"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -169,6 +172,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:reeds"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -258,6 +262,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:glass"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -357,6 +362,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_cobaltite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -404,6 +410,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -477,6 +484,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -526,8 +534,19 @@
               "Damage:2": 335,
               "OreDict:8": "",
               "id:8": "gregtech:meta_nugget"
-            },
-            "2:10": {
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 335,
               "OreDict:8": "",
@@ -558,6 +577,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -632,6 +652,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -704,6 +725,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:iron_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -892,6 +914,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -994,6 +1017,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1125,6 +1149,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1181,7 +1206,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §eCreosote§r as bonus§r output.\n§eCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?).\n\nMaking this Multiblock requires a total of §a117 Clay Balls§r and§a 195 Sand§r. The Wooden Form is not consumed.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r both Fluid and Items with it! It also works for insertion into the Coke Oven (you can use Hoppers).\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Think of IndustrialCraft 2\u0027s Nuclear Reactor, or Railcraft\u0027s Coke Oven; they were revolutionary at the time.",
+          "desc:8": "§oThis will be the first Project, or will it be?§r\n\nThe §3Coke Oven§r makes §aCoke from Coal§r, or §aCharcoal from Wood§r, in addition to §dCreosote§r as bonus§r output.\n§dCreosote§r can be used as furnace fuel to§6 smelt 32 items§r, and is required for making §dTreated Wood Planks§r (rings a bell?).\n\nThe amount of resources required is listed in the first §eoptional§r task.\nCheck the §2JEI Multiblock Preview§r for the structure pattern.\n\n§9Note:§r §lAny§r Brick block can be replaced with a §3Coke Oven Hatch§r as seen in the last §eoptional§r task. You can have up to five of them.\nThe Hatch allows for automation. It will §dauto-export§r both Fluid and Items with it! It also works for insertion into the Coke Oven (you can use Hoppers).\n\n\nIf the Coke Oven happens to fully fill up on Creosote that you are not using, break and replace the Coke Oven block. Automated fluid voiding is available later in the game.\n\n\n§bLore:§r The concept of Multiblocks is very old in modded Minecraft. Think of IndustrialCraft 2\u0027s Nuclear Reactor, or Railcraft\u0027s Coke Oven; they were revolutionary at the time.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1189,6 +1214,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1251,19 +1277,31 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 117,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:clay_ball"
+            },
+            "1:10": {
+              "Count:3": 195,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:sand"
+            },
+            "2:10": {
+              "Count:3": 116,
               "Damage:2": 350,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "1:10": {
-              "Count:3": 1,
+            "3:10": {
+              "Count:3": 116,
               "Damage:2": 353,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -1287,6 +1325,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1018,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -1305,6 +1360,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1367,7 +1423,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 32,
+              "Count:3": 16,
               "Damage:2": 112,
               "OreDict:8": "ingotTin",
               "id:8": "gregtech:meta_ingot"
@@ -1392,6 +1448,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1431,19 +1488,19 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 3,
+              "Count:3": 24,
               "Damage:2": 25,
               "OreDict:8": "dustCopper",
               "id:8": "gregtech:meta_dust"
             },
             "1:10": {
-              "Count:3": 1,
+              "Count:3": 8,
               "Damage:2": 112,
               "OreDict:8": "dustTin",
               "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -1454,13 +1511,13 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 3,
+              "Count:3": 24,
               "Damage:2": 260,
               "OreDict:8": "dustBronze",
               "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -1496,6 +1553,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:bucket"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1543,11 +1601,11 @@
             "0:10": {
               "Count:3": 3,
               "Damage:2": 51,
-              "OreDict:8": "",
+              "OreDict:8": "plateIron",
               "id:8": "gregtech:meta_plate"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -1583,6 +1641,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1681,6 +1740,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1751,6 +1811,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1821,6 +1882,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:steam_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1891,6 +1953,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -1955,6 +2018,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2019,6 +2083,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2070,6 +2135,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2126,7 +2192,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYour first §mbig§r§o Project! This one is for Steel!§r\n\nThe §3Primitive Blast Furnace§r (§3PBF§r) is an inherently §5B A L A N C E D§r multiblock. If you do not have a §3Macerator§r yet, this multiblock will be §lfour times as expensive§r.\nUsing the §3Macerator§r, you will need §d132 Clay§r, split into §d66 Clay Dusts§r and §d66 Brick Dusts§r.\n\nBuild the structure using §4JEI preview§r.\n\nAs for the Steel recipe, you will be rewarded if you used the §3Coke Oven§r earlier, as each Steel Ingot only requires §aone Coke§r instead of §atwo Coal§r. Otherwise, you can simply use §aCharcoal§r as it is mostly free.\nUsing §aWrought Iron§r cuts the recipe duration significantly... if you have the sanity to smelt thousands of nuggets beforehand.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides §6Diamond mining level§r.",
+          "desc:8": "§oYour first §mbig§r§o Project! This one is for Steel!§r\n\nThe §3Primitive Blast Furnace§r (§3PBF§r) is an inherently §5B A L A N C E D§r multiblock. If you do not have a §3Macerator§r yet, this multiblock will be §lfour times as expensive§r.\nUsing the §3Macerator§r, you will need §d132 Clay§r, split into §d66 Clay Dusts§r and §d66 Brick Dusts§r, as seen in the §eoptional§r task.\n\nBuild the structure using §4JEI preview§r.\n\nAs for the Steel recipe, you will be rewarded if you used the §3Coke Oven§r earlier, as each Steel Ingot only requires §aone Coke§r instead of §atwo Coal§r. Otherwise, you can simply use §aCharcoal§r as it is mostly free.\nUsing §aWrought Iron§r cuts the recipe duration significantly... if you have the sanity to smelt thousands of nuggets beforehand.\n\n\nSteel will be §9extremely important throughout the entire game§r, make a lot of it!\nSteel also has §6double the durability§r compared to regular Iron for GregTech tools. It also provides §6Diamond mining level§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2134,6 +2200,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2173,37 +2240,43 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 33,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:clay"
+            },
+            "1:10": {
+              "Count:3": 66,
               "Damage:2": 2063,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
             },
-            "1:10": {
-              "Count:3": 1,
+            "2:10": {
+              "Count:3": 66,
               "Damage:2": 2524,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
             },
-            "2:10": {
-              "Count:3": 1,
+            "3:10": {
+              "Count:3": 132,
               "Damage:2": 2525,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
             },
-            "3:10": {
-              "Count:3": 1,
+            "4:10": {
+              "Count:3": 132,
               "Damage:2": 351,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
-            "4:10": {
-              "Count:3": 1,
+            "5:10": {
+              "Count:3": 132,
               "Damage:2": 352,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -2254,7 +2327,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oSteel, the Shrödinger alloy of all alloys. Made with a very small percentage of carbon in mass, it is significantly tougher than Iron or Wrought Iron.§r\n\nOne §3PBF§r will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can §dshare walls§r? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four §3PBFs§r. It just depends on how much of an innate speedrunner you are.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 360 seconds in the PBF when using Coal or Charcoal!\nPollution was also a thing, and four of these bad boys would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
+          "desc:8": "§oSteel, the Shrödinger alloy of all alloys. Made with a very small percentage of carbon in mass, it is significantly tougher than Iron or Wrought Iron.§r\n\nOne §3PBF§r will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can §dshare walls§r? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four §3PBFs§r. It just depends on how much of an innate speedrunner you are.\n\n§9Note:§r The §3PBF§r cannot be reasonably automated, but putting blocks of Iron and Coke/Charcoal will guarantee it will run for a long time without any care.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 360 seconds in the PBF when using Coal or Charcoal!\nPollution was also a thing, and four of these bad boys would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2262,6 +2335,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2349,6 +2423,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2431,6 +2506,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2495,6 +2571,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2568,6 +2645,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:netherrack"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2639,6 +2717,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2715,6 +2794,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2779,6 +2859,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2889,6 +2970,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -2987,6 +3069,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_crushed"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3098,6 +3181,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3192,6 +3276,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3280,6 +3365,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3362,6 +3448,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:paper"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3438,6 +3525,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3470,7 +3558,7 @@
               "id:8": "gregtech:meta_stick"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -3493,7 +3581,7 @@
               "id:8": "gregtech:wire_single"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -3530,6 +3618,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3574,7 +3663,7 @@
               "id:8": "gregtech:meta_item_1"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -3597,7 +3686,7 @@
               "id:8": "gregtech:wire_single"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -3634,6 +3723,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3678,7 +3768,7 @@
               "id:8": "gregtech:meta_wire_fine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -3710,7 +3800,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest technically requires all the previous quests it depends on, not just one. But I made it this way if you are a fast crafter and skipped some tasks. This is also a pretty big quest, so I figured it would be nice if you could see all the requirements ahead of time.§r\n\nYour first §aElectronic Circuit§r!! YEEEEEEEEHAAAAAW!!\nJust kidding, you actually need three Circuits to get started anywhere relevant in LV Age. Thanksfully for you, a generous donator under the name of Mr. Questbook Writer decided to give you the third Circuit.\n\nHere, I\u0027m also throwing a §aLV Machine Hull§r in this quest. That\u0027s what you need to make any LV machine! I am feeling so generous, that this quest will grant you a second hull, free of charge!\n\n§6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.§r",
+          "desc:8": "§oThis quest technically requires all the previous quests it depends on, not just one. I figured it would be nice if you could see all the requirements ahead of time.§r\n\nYour first §aElectronic Circuit§r!! YEEEEEEEEHAAAAAW!!\nJust kidding, you actually need three Circuits to get started anywhere relevant in the §7LV§r Age. Thankfully for you, a generous donator under the name of Mr. Questbook Writer decided to give you the third Circuit.\n\nHere, I\u0027m also throwing a §aLV Machine Hull§r in this quest. That\u0027s what you need to make any §7LV§r machine! I am feeling so generous, that this quest will grant you a second hull, free of charge!\n\n§6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3718,6 +3808,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3805,6 +3896,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:hopper"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3843,6 +3935,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3913,6 +4006,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:fluid_pipe_normal"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -3994,6 +4088,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4058,6 +4153,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4109,6 +4205,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4160,6 +4257,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4213,6 +4311,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4265,6 +4364,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4280,20 +4380,7 @@
         }
       },
       "questID:3": 53,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 9,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -4322,7 +4409,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTechnically, you could make more or less any LV Machine, but I specifically want you to make the best one of them all first! I know, I know... You\u0027re asking where is your freedom of choice.§r\n\nNo more painful wires! This machine lets you make §6two Wires from one Ingot§r, that should be three times cheaper than what you were doing up until now!\n\nTo the right of this Quest are more important machines which will help you a lot to get cheaper intermediates.\n\n\n§9Note:§r Recipes inside §3LV Machines§r go up to §aUsage: 32 EU/t (LV)§r. Anything higher than that and you will need a MV or even better machine instead. Needless to say that\u0027s for later.\n\n\n§oThis Quest\u0027s reward is wonderful. It\u0027s called freedom!\nOverall rewards will also be less generous.§r",
+          "desc:8": "§oTechnically, you could make more or less any LV Machine, but I specifically want you to make the best one of them all first! I know, I know... You\u0027re asking where is your freedom of choice.§r\n\nNo more painful wires! This machine lets you make §6two Wires from one Ingot§r, that should be three times cheaper than what you were doing up until now!\n\nTo the right of this Quest are more important machines which will help you a lot to get cheaper intermediates.\n\n\n§9Note:§r Recipes inside §3LV Machines§r go up to §aUsage: 32 EU/t (LV)§r. Anything higher than that and you will need a MV or even better machine instead. Needless to say that\u0027s for later.\n\n\n§oThis Quest\u0027s reward is wonderful. It\u0027s called freedom!\nOverall rewards will also be less generous from now on.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4330,6 +4417,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4381,6 +4469,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4448,6 +4537,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4499,6 +4589,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4550,6 +4641,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4615,6 +4707,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4684,6 +4777,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4741,6 +4835,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:tnt"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4779,6 +4874,7 @@
             "OreDict:8": "",
             "id:8": "betterquesting:placeholder"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4830,6 +4926,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_crushed_purified"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4868,6 +4965,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -4954,6 +5052,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5005,6 +5104,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5056,6 +5156,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5107,6 +5208,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5158,6 +5260,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5209,6 +5312,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5260,6 +5364,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5315,6 +5420,7 @@
               "Charge:4": 120000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5383,6 +5489,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5457,6 +5564,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5537,6 +5645,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5643,6 +5752,7 @@
               "FluidName:8": "oxygen"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5691,6 +5801,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5761,6 +5872,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5854,6 +5966,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5905,6 +6018,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -5968,7 +6082,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Quest explains the core mechanic of the Electric Blast Furnace, while other Quests will explain the mechanics of the Parts, so be sure to refer to them!§r\n\nThe §3Electric Blast Furnace (EBF)§r is your first electric multiblock! It is used to process materials at high temperatures.\n\nYou will use the EBF to make §aAluminium§r and progress to §d§bMV Age§r. It can also make §7Steel§r faster than a PBF.\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120 EU/t§r! That\u0027s slightly under 4 §7LV§r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.\n\n\n§bLore:§r We have a config \"casingsActiveEmissiveTextures\" which enables bloom on the Coils of the EBF when it is running. Feel free to enable it, no need to restart the game!",
+          "desc:8": "This Quest explains the core mechanic of the §3Electric Blast Furnace§r, while other Quests after it will explain the mechanics of the Multiblock Parts that you will also need, so be sure to refer to them!§r\n\nThe §3EBF§r is your first electric multiblock! It is used to process materials at high temperatures.\n\nYou will use the EBF to make §aAluminium§r and progress to §d§bMV Age§r. It can also make §7Steel§r faster than a PBF.\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120 EU/t§r! That\u0027s slightly under 4 §7LV§r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.\n\n\n§bLore:§r We have a config \"casingsActiveEmissiveTextures\" which enables bloom on the Coils of the EBF when it is running. Feel free to enable it, no need to restart the game!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5976,6 +6090,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6052,6 +6167,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6152,6 +6268,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6204,6 +6321,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6291,6 +6409,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6373,6 +6492,7 @@
               "FluidName:8": "glue"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6422,6 +6542,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6480,6 +6601,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6531,6 +6653,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6583,6 +6706,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6657,6 +6781,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6710,6 +6835,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6775,6 +6901,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6839,6 +6966,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6927,6 +7055,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -6992,6 +7121,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7043,6 +7173,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7094,6 +7225,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:metal_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7132,6 +7264,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7212,6 +7345,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_single"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7250,12 +7384,12 @@
     },
     "101:10": {
       "preRequisites:11": [
-        53
+        75
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis Quest in an overview for the Large Bronze Boiler.§r\n\n§9I do §lNOT§r§9 recommend§r getting this until you are done with most - if not all - of the LV Age. It is also §6optional§r, depending on which power options you chose.\n\n\nThe §3Large Boilers§r ultimately are §othe§r option for large scale Steam production. They will run off solid and liquid fuels.\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities.\n§cWater supply is crucial§r. But simply upgrading the §3Output Hatch§r on your §3Primitive Pump§r should be enough.\n\n\nOnce fully heated up, the §3LBB§r produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This (relatively!) immense power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r More information about Multiblocks are given after you get the Electric Blast Furnace at the end of the LV Age. That\u0027s one way to prevent you from getting this too early!",
+          "desc:8": "§oThe §3Large Boiler§r is an §6optional§r big boy variant of the Small Boilers. It runs off solid or liquid fuel.\n\nIf you want Steam-based power production, this will be your choice. Other power options are listed in the §bMV§r Chapter.\n\n\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities on this modpack.\n§cWater supply is crucial§r. Dedicate a §3Primitive Pump§r with a LV Output Hatch in the §lsame chunk§r as the Boiler. Any biome will still be enough to supply enough water.\n\n\nOnce fully heated up, the §3LBB§r produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This (relatively!) immense power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r Informations about Multiblocks are given after you get the §3Electric Blast Furnace§r. I recommend you get that first.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7263,6 +7397,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7314,6 +7449,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7391,6 +7527,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7459,6 +7596,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:energy_acceptor"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7523,6 +7661,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7634,6 +7773,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:item_pipe_normal"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7732,6 +7872,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7796,6 +7937,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7866,6 +8008,7 @@
             "OreDict:8": "",
             "id:8": "openglider:hang_glider_basic"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7911,7 +8054,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAlright, making this is quite involved, this has to be good right?\nAlso, this is only an Empty Spray Can, which you have to fill with Chemical Dye.§r\n\nSo, the Spray Cans do not provide any functionality for machines, but are quite §bvisually appealing and useful§r!\n\nAny (or almost) GregTech TileEntity can be §6painted§r to one of the 16 colors of your chosing. This is great for screenshots, or to separate different setups for visualization in a Multiplayer base. They also help with distinguishing between pipelines and cables.\n\n\n§oBut oh boy these are not too fun to make, let us know what you think about it.§r",
+          "desc:8": "§oAlright, making this is quite involved, this has to be good right?\nAlso, this is only an Empty Spray Can, which you have to fill with Chemical Dye.§r\n\nSo, the §aSpray Cans§r do not provide any functionality for machines, but are quite §bvisually appealing and useful§r!\n\nAny (or almost) GregTech TileEntity (machine, pipe, cable...) can be §6painted§r to one of the 16 colors of your chosing. This is great for screenshots, or to separate different setups for visualization in a Multiplayer base. They also help with distinguishing between pipelines and cables.\n\nHolding the §aSpray Can§r in the offhand will automatically paint the block you place.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7919,6 +8062,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -7995,6 +8139,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 76,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -8016,6 +8177,7 @@
               "Charge:4": 100000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8067,6 +8229,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8118,6 +8281,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8222,6 +8386,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8291,6 +8456,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8365,6 +8531,7 @@
               "FluidName:8": "oil"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8436,6 +8603,7 @@
               "FluidName:8": "ethanol"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8485,6 +8653,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8537,6 +8706,7 @@
               "FluidName:8": "light_fuel"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8594,6 +8764,7 @@
               "FluidName:8": "sulfuric_acid"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8646,6 +8817,7 @@
               "FluidName:8": "severely_steamcracked_light_fuel"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8699,6 +8871,7 @@
               "FluidName:8": "ethylene"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8747,6 +8920,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8835,6 +9009,7 @@
               "FluidName:8": "sodium_persulfate"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8910,6 +9085,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -8962,6 +9138,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9013,6 +9190,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:clay_ball"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9113,6 +9291,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9164,6 +9343,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9235,6 +9415,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9326,6 +9507,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9377,6 +9559,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9430,6 +9613,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9482,6 +9666,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9539,6 +9724,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9605,6 +9791,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9658,6 +9845,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9710,6 +9898,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9762,6 +9951,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9813,6 +10003,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9865,6 +10056,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9904,7 +10096,8 @@
     "142:10": {
       "preRequisites:11": [
         141,
-        355
+        355,
+        226
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9917,6 +10110,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -9969,6 +10163,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10020,6 +10215,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10071,6 +10267,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10141,6 +10338,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10206,6 +10404,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10263,6 +10462,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10336,6 +10536,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10409,6 +10610,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10476,6 +10678,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10528,6 +10731,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10599,6 +10803,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10681,6 +10886,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10732,6 +10938,7 @@
             "OreDict:8": "",
             "id:8": "betterquesting:placeholder"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10770,6 +10977,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:material"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10821,6 +11029,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10872,6 +11081,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10923,6 +11133,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_oilsands_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -10994,6 +11205,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11045,6 +11257,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_magnetite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11108,6 +11321,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_yellow_limonite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11177,6 +11391,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_salt_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11246,6 +11461,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_redstone_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11309,6 +11525,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_sapphire_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11378,6 +11595,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_olivine_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11447,6 +11665,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_oilsands_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11498,6 +11717,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_nickel_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11567,6 +11787,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_basaltic_mineral_sand_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11636,6 +11857,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_mica_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11705,6 +11927,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_pyrolusite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11774,6 +11997,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_cassiterite_sand_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11843,6 +12067,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_garnet_red_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11912,6 +12137,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_lapis_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -11981,6 +12207,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_soapstone_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12050,6 +12277,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_galena_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12113,6 +12341,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_graphite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12189,6 +12418,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_pyrite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12258,6 +12488,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_chalcopyrite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12327,6 +12558,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_coal_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12378,6 +12610,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_cassiterite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12435,6 +12668,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_apatite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12498,6 +12732,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_blue_topaz_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12567,6 +12802,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_tetrahedrite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12630,6 +12866,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_saltpeter_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12699,6 +12936,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_nether_quartz_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12756,6 +12994,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_sulfur_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12819,6 +13058,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_bastnasite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12882,6 +13122,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_molybdenum_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -12951,6 +13192,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_certus_quartz_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13014,6 +13256,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_beryllium_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13078,6 +13321,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13129,6 +13373,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13194,6 +13439,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13246,6 +13492,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13314,6 +13561,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13366,6 +13614,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13436,6 +13685,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13507,7 +13757,6 @@
     },
     "199:10": {
       "preRequisites:11": [
-        142,
         213
       ],
       "properties:10": {
@@ -13521,6 +13770,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13559,7 +13809,6 @@
     },
     "200:10": {
       "preRequisites:11": [
-        199,
         142
       ],
       "properties:10": {
@@ -13573,6 +13822,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13625,6 +13875,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13676,6 +13927,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13739,6 +13991,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13795,12 +14048,14 @@
     "204:10": {
       "preRequisites:11": [
         201,
+        226,
+        323,
         195
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDo you notice a pattern?§r\n\n§3HV Energy Hatches§r will be nice to run your Multiblocks (mainly Electric Blast Furnace and Large Chemical Reactor) off §6HV§r directly.\n\nUpgrading the EBF to §5EV§r with 2 Energy Hatches won\u0027t be necessary this time around, phew!",
+          "desc:8": "§oDo you notice a pattern?§r\n\nThe §aLow Power Integrated Circuit§r requires an §3HV Cutting Machine§r inside your §3Cleanroom§r.\n\n§3HV Energy Hatches§r will be nice to run your Multiblocks (mainly Electric Blast Furnace and Large Chemical Reactor) off §6HV§r directly.\n\nUpgrading the EBF to §5EV§r with 2 Energy Hatches won\u0027t be necessary this time around, phew!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13808,6 +14063,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13831,6 +14087,29 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 821,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 603,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
@@ -13839,12 +14118,12 @@
           },
           "taskID:8": "bq_standard:fluid"
         },
-        "1:10": {
+        "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
+          "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
@@ -13874,6 +14153,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -13926,6 +14206,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14008,6 +14289,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14107,6 +14389,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14177,6 +14460,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:blaze_powder"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14221,7 +14505,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Implosion Compressor§r turns the Dust form of Gems into their Gem form.\n\nIt is required to get §aEnder Pearls§r.\n§cTNT§r or §cDynamite§r can be used for the Implosion.\n\n§9Note:§r Aluminium Cables are §5EV§r Cables. Don\u0027t question why they are here (!), but §5EV§r Cables §arequire PVC§r to insulate.",
+          "desc:8": "The §3Implosion Compressor§r turns the Dust form of Gems into their Gem form.\n\nIt is required to get §aEnder Pearls§r.\n§cTNT§r or §cDynamite§r can be used for the Implosion.\n\n§9Note:§r Aluminium Cables are §5EV§r Cables. Don\u0027t question why they are in the Implosion Compressor recipe, but §5EV§r Cables §arequire PVC§r to insulate.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14229,6 +14513,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14281,6 +14566,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:ender_pearl"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14363,6 +14649,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:tnt"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14436,6 +14723,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:end_portal_frame"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14498,6 +14786,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_single"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14549,6 +14838,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_single"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14600,6 +14890,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14670,6 +14961,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14757,6 +15049,7 @@
               "FluidName:8": "ammonia"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14810,6 +15103,7 @@
               "FluidName:8": "nitric_acid"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14860,6 +15154,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -14931,6 +15226,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15062,6 +15358,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15130,6 +15427,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15182,6 +15480,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15247,6 +15546,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:molecular_assembler"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15290,18 +15590,19 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Cleanroom is not implemented into GTCEu yet.§r\n\nThe Cleanroom is a well isolated space, with little to no airborne particles, bacteria and other contaminants.\n\nThey will be used for producing nano-scale components of higher tier circuits. The mechanics will not be as punishing as they were in GregTech 5, so stay in touch with us.",
+          "desc:8": "§oThe Cleanroom is a well isolated space, with little to no airborne particles, bacteria and other contaminants.§r\n\n§9Note:§r If you dislike the Cleanroom mechanics, it can be toggled off in the config file.\n\nThe §3Cleanroom§r is a hollow multiblock free of contaminants. Going forward, most new §acircuit-related recipes§r, as well as some unique things like §3Fusion Casings§r, will need to be run in machines inside a Cleanroom.\n\nCreating it will put a test to your §aPolyethylene§r automation for all the §dPlascrete§r and/or §dCleanroom Glass§r you will make.\n\n\n§2§lThe Structure:§r\n\nBe sure to check the §9tooltip§r (a lot of information in there!).\nThe Controller always has to be in the center. The rest of the top layer has to be §dFilter Casings§r.\nAll edges have to be §dPlascrete§r, and the sides can be §dCleanroom Glass§r.\nPlacing §3Generators§r or §3Mufflers§r inside is §cnot allowed§r. The Cleanroom will unform.\nDo not forget the §3Maintenance Hatch§r.\nIf the structure refuses to form, rotate or replace the Controller, it can be a bit finicky.\nWe will start off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped inside. It does not have to be a cube.\n\n§2§lGetting things in and out:§r\n\nTransfer EU using §3Hulls§r or §3Diodes§r.\nItem and Fluid automation can be done using §3Passthrough Hatches§r.\n§3Machine Hulls§r count as ME Cables to extend your ME Network inside your Cleanroom.\nThe §dDoor(s)§r can remain open (not very realistic, but convenient).\n\n§2§lThe Mechanics:§r\n\nThe Cleanroom starts §4contaminated§r. While contamined, machines will not be able to operate.\nThe Cleanroom will drain 30EU/t and slowly increase the cleanliness.\nOnce §9Clean§r, recipes can run. At that point it will draw 4EU/t, so you have to keep it powered at all times.\nBigger Cleanrooms take longer to become Clean.\n\n\n§bLore:§r The Cleanroom comes from GregTech 5. But as with many features, it is more punishing in that version. The recipes would simply run, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding! Furthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means voiding 10% of items!\nGTCEu Cleanroom will §6never void§r recipe outputs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1035,
             "OreDict:8": "",
-            "id:8": "minecraft:concrete"
+            "id:8": "gregtech:machine"
           },
-          "ismain:1": 0,
+          "ignoresview:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "The Cleanroom (Placeholder)",
+          "name:8": "The Cleanroom",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -15316,8 +15617,97 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1035,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:cleanroom_casing"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:iron_door"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 40,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:cleanroom_casing"
+            },
+            "1:10": {
+              "Count:3": 10,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:transparent_casing"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1211,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1303,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 986,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1402,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 1403,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -15336,6 +15726,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15387,6 +15778,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15431,6 +15823,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15482,6 +15875,7 @@
               "Charge:4": 6400000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15539,6 +15933,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15587,6 +15982,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15638,6 +16034,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15744,6 +16141,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_bauxite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15807,6 +16205,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_magnetite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15876,6 +16275,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_naquadah_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15933,6 +16333,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_pitchblende_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -15990,6 +16391,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_scheelite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16053,6 +16455,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_cooperite_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16123,6 +16526,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16192,6 +16596,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16273,6 +16678,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16341,6 +16747,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16420,6 +16827,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16458,6 +16866,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:material"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16517,7 +16926,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAE2 Quests take a lot of effort to write if we want to explain the mechanics properly. They will be done last.§r\n\nFor now, consult videos for the mechanics of §2Applied Energistics§r if you don\u0027t know them already. And use §aJEI§r for all the custom recipes we have added.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r The version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
+          "desc:8": "Explaining §2Applied Energistics§r mechanics would almost need its own entire Quest Book, which is too much effort for what it\u0027s worth.\n\nThere are great resources online and excellent video tutorials for all the mechanics in §2AE2§r, which I invite you to check out.\nThe Quests focus on on major milestones, and tricks that are not widely known.\n\nMake sure to use §aJEI§r for all the exper-style modified recipes, which remain fairly accessible.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r The version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16525,10 +16934,11 @@
             "OreDict:8": "",
             "id:8": "gregtech:warning_sign"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "AE2 Quests are WIP",
+          "name:8": "AE2 Quests are only uncommon tips \u0026 tricks",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -16555,7 +16965,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one. You definitively want this!\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\nThis will tell you the base §dyield§r of Fluid veins, along with how full they are.\n\n§9Reminder:§r The yield of §3Fluid Drilling Rigs§r is proportional to the fullness of the vein. When low enough, it defaults to yield defined in the json file.\n\n§9Tip:§r When the fullness drops below 30% (rough estimation), you can consider moving to another vein. Aiming for the §3Advanced Fluid Drilling Rig§r in §5EV§r will be a nice goal, as not only it boosts the output significantly, but it also reduces the drain rate.",
+          "desc:8": "This prospector has a §6higher range§r than the §7LV§r one. You definitively want this!\n\nShift right-clicking on it will change the mod to §6Fluid Prospection§r.\nThis will tell you the base §dyield§r of Fluid veins, along with how full they are.\n\n§9Reminder:§r The yield of §3Fluid Drilling Rigs§r is proportional to the fullness of the vein. When low enough, it defaults to yield defined in the json file.\n\n§9Tip:§r When the fullness drops below 30% (rough estimation), you can consider moving to another vein for the sake of power to yield efficiency. Aiming for the §3Advanced Fluid Drilling Rig§r in §5EV§r will be a nice goal, as not only it boosts the output significantly, but it also reduces the drain rate.\n\n§cCaution:§r Due to a bug, the prospector is offset by one chunk, so avoid placing your rig in the corners of the 8x8 chunk area, or you may end up pumping from another vein!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16566,6 +16976,7 @@
               "Charge:4": 1600000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16618,6 +17029,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16672,6 +17084,7 @@
               "Charge:4": 25000000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16727,6 +17140,7 @@
               "Charge:4": 420000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16800,6 +17214,7 @@
               "Charge:4": 250000000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16851,6 +17266,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16902,6 +17318,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -16971,6 +17388,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17074,6 +17492,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17145,6 +17564,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17190,7 +17610,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Processing Array does nothing... except that it does a lot!§r\n\nThe §3Processing Array§r is a power §6automation tool§r.\nIt combines several single block machines into one single multiblock.\nPlace up to §d16§r Machines into the §3Machine Access Interface§r.\n\nThe §3PA§r will now §asimulate§r all the machines you put inside, as if they were running at the same time.\nThis means recipes can now be performed up to §d16§r at a time, this is called §4parallel§r.\n\nPower cost is based on the current recipe being run, times the number of §4parallel§r being performed.\nAs an §9example§r, §316 LV Distilleries§r will require an §3HV Energy Hatch§r in order to run effectively.\n\n\n§eWhere or why is the Processing Array useful?§r\n§9-§r §4Parallelization is superior§r to oveclocking. Use it for passive setups such as Ore Processing or Oil Distilling.\n§9-§r §6Distinct buses§r: a §3PA§r can accept up to 10 §3Input Buses§r. Use it for your pattern automation with §3Extruder§r, §3Engraver§r, and many other.\n\n\n§9Note:§r With §2Gregicality Multiblocks§r installed, the §3PA§r can be fully replaced with all the specialized Multiblocks instead. That\u0027s for you if you hate 3x3 blue cubes, or if you hate crafting numerous low tier machines.\n\n\n§bLore:§r In GregTech 5, the Data Orb was used to Matter Replicator to store data of the material you wanted to replicate. There is no replication here, the Orb is just a crafting component.",
+          "desc:8": "§oThe Processing Array does nothing... except that it does a lot!§r\n\nThe §3Processing Array§r is a power §6automation tool§r.\nIt combines several single block machines into one single multiblock.\nPlace up to §d16§r Machines into the §3Machine Access Interface§r.\n\nThe §3PA§r will now §asimulate§r all the machines you put inside, as if they were running at the same time.\nThis means recipes can now be performed up to §d16§r at a time, this is called §4parallel§r.\n\nPower cost is based on the current recipe being run, times the number of §4parallel§r being performed.\nAs an §9example§r, §316 LV Distilleries§r will require an §3HV Energy Hatch§r in order to run effectively.\n\n\n§eWhere or why is the Processing Array useful?§r\n§9-§r §4Parallelization is superior§r to oveclocking. Use it for passive setups such as Ore Processing or Oil Distilling.\n§9-§r §6Distinct buses§r: a §3PA§r can accept up to 10 §3Input Buses§r. Use it for your pattern automation with §3Extruder§r, §3Engraver§r, and many other.\n\n\n§9Note:§r With §2Gregicality Multiblocks§r installed, the §3PA§r can be fully replaced with all the specialized Multiblocks instead. That\u0027s for you if you hate 3x3 blue cubes, or if you hate crafting numerous low tier machines.\n\n\n§bLore:§r In GregTech 5, the Data Orb was used to Matter Replicator to store data of the material you wanted to replicate. There is no replication here, the Orb is just a crafting component.\nAdditionally GregTech 5\u0027s PA and other Multiblocks acted as a Cleanroom. There is no such thing here. You will need to place Multiblocks in the Cleanroom.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17198,6 +17618,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17283,6 +17704,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17372,6 +17794,7 @@
               "FluidName:8": "acetone"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17425,6 +17848,7 @@
               "FluidName:8": "gasoline"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17476,6 +17900,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17531,6 +17956,7 @@
               "FluidName:8": "phenol"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17584,6 +18010,7 @@
               "FluidName:8": "hydrochloric_acid"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17636,6 +18063,7 @@
               "FluidName:8": "epichlorohydrin"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17684,6 +18112,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17738,6 +18167,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17789,6 +18219,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17864,6 +18295,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17916,6 +18348,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -17967,6 +18400,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18022,6 +18456,7 @@
               "FluidName:8": "oil"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18083,6 +18518,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18134,6 +18570,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18185,6 +18622,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18269,6 +18707,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18320,6 +18759,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18401,6 +18841,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18465,6 +18906,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18516,6 +18958,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18637,6 +19080,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18801,6 +19245,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18886,6 +19331,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -18937,6 +19383,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19041,6 +19488,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19110,6 +19558,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:metal_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19146,6 +19595,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19184,6 +19634,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:gt_armor"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19235,6 +19686,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19286,6 +19738,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19337,6 +19790,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:cable_quadruple"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19388,6 +19842,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19506,7 +19961,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper.\nThis requires §9PBI§r and Alloys locked behind §aHSS-S Coils§r.",
+          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper.\nThis requires §9PBI§r and Alloys locked behind §aHSS-G Coils§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19514,6 +19969,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19565,6 +20021,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19616,6 +20073,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19667,6 +20125,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19708,7 +20167,8 @@
         397,
         380,
         275,
-        404
+        404,
+        415
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19721,6 +20181,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19776,6 +20237,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19858,6 +20320,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19909,6 +20372,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -19960,6 +20424,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20000,7 +20465,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThe power of the stars... and also particle accelerator because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. It will also overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20008,6 +20473,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20059,6 +20525,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20110,6 +20577,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20161,6 +20629,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20212,6 +20681,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20260,6 +20730,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20311,6 +20782,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20355,7 +20827,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The amount of EU stored is the max value of a Long in Java.\nDon\u0027t try to win Minecraft, you can\u0027t.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20363,6 +20835,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20406,7 +20879,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A goal if you like memes.\nIt takes almost real 10 days in an UV machine.\nIf you overclock a Gregicality Multiblock to UEV (4A UHV hatch), it will still take 2.5 days!\n\n§bLore:§r The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20414,6 +20887,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20465,6 +20939,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20503,8 +20978,7 @@
     },
     "311:10": {
       "preRequisites:11": [
-        201,
-        376
+        201
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20517,6 +20991,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20596,7 +21071,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Large Turbines are the most complex Multiblock Generators there exists in GTCEu in the present day.§r\n\nLet\u0027s start with the §4drawbacks§r of §3Large Turbines§r:\n§9-§r They work off §eInertia§r, which requires continuous running to achieve maximum Power.\n§9-§r Any excess unconsumed Energy produced will be §cvoided§r. So ideally you want to use large Energy buffers, and possibly control your Turbines with a redstone RS latch type of deal.\n§9-§r They require a §aRotor§r which loses durability over time and eventually §cbreak§r.\n§9-§r A little bit of Math is required to get the expected results.\n\n\nNow, with the §6upsides§r:\n§9-§r They can scale §9Power§r production substancially higher than the base output thanks to tiered §3Rotor Holders§r.\n§9-§r The §aRotor§r can give a huge boost to §dFuel efficiency§r, and §9Power§r production.\n§9-§r Self satisfaction for setting them up properly (yay!).\n\n\n§3Rotor Holders§r above the tier of the §3Large Turbine§r will §6double§r the production for every tier, multiplicatively.\n§3Rotor Holders§r above the tier of the §3Large Turbine§r will increase the efficiency by 10% for every tier, additively.\n\n§aRotors§r have a §9Power§r, §dEfficiency§r and §4Durability§r that are based on tool stats.\n§9Power§r multiplies the production of the §3Turbine§r. This stacks multiplicatively with the §3Rotor Holder§r.\n§dEfficiency§r reduces the fuel consumption. This stacks multiplicatively with the §3Rotor Holder§r.\n§4Durability§r is the lifetime of the §aRotor§r in seconds, when the §3Turbine§r§r is active.\n\n\n§2§lIn summary:§r\n\nThe §9Power§r output affects both the fuel consumption and the EU/t generation. It is calculated with the following formula:\n§eproduction \u003d baseEUt * rotorPower * 2^(rotorHolderTier - turbineTier)§r\n\nThe §dEfficiency§r reduces the fuel consumption, but does not alter the EU/t generation. It is calculated with the following formula:\n§eefficiency \u003d rotorEfficiency * (1 + 0.1 * (rotorHolderTier - turbineTier))§r\n\n\n§2§lSome examples:§r\n\nLarge Steam Turbine, with Ultimet Rotor and EV Rotor Holder:\nProduction \u003d 1024 * 1.60 * 2 \u003d 3276 EU/t\nEfficiency \u003d 1.30 * 1.10 \u003d 143%\n(Steam consumption \u003d 4582 L/t, this is above a Titanium Boiler, or a TungstenSteel Boiler with ~70% throttle)\n\nLarge Gas Turbine, with Chrome Rotor and EV Rotor Holder:\nProduction \u003d 4096 * 1.70 * 1 \u003d 5325 EU/t\nEfficiency \u003d 1.55 * 1.00 \u003d 155%\n(The same fuel consumption would produce 3435 EU/t using 6.7 Turbo Gas Turbines)\n\nLarge Plasma Turbine, with HSS-S Rotor and ZPM Rotor Holder:\nProduction \u003d 16834 * 2.50 * 4 \u003d 168340 EU/t\nEfficiency \u003d 1.80 * 1.20 \u003d 216%\n(This is more than a ZPM Amp!)",
+          "desc:8": "§oThe Large Turbines are the most complex Multiblock Generators there exists in GTCEu in the present day.§r\n\nLet\u0027s start with the §4drawbacks§r of §3Large Turbines§r:\n§9-§r They work off §eInertia§r, which requires continuous running to achieve maximum Power.\n§9-§r Any excess unconsumed Energy produced will be §cvoided§r. You §lwill§r want to use large Energy Buffers, and an §3Advanced Energy Detector§r.\n§9-§r They require a §aRotor§r which loses durability over time and eventually §cbreak§r.\n§9-§r A little bit of Math is required to get the expected results.\n\n\nNow, with the §6upsides§r:\n§9-§r They can scale §9Power§r production substancially higher than the base output thanks to tiered §3Rotor Holders§r.\n§9-§r The §aRotor§r can give a huge boost to §dFuel efficiency§r, and §9Power§r production.\n§9-§r Self satisfaction for setting them up properly (yay!).\n\n\n§3Rotor Holders§r above the tier of the §3Large Turbine§r will §6double§r the production for every tier, multiplicatively.\n§3Rotor Holders§r above the tier of the §3Large Turbine§r will increase the efficiency by 10% for every tier, additively.\n\n§aRotors§r have a §9Power§r, §dEfficiency§r and §4Durability§r that are based on tool stats.\n§9Power§r multiplies the production of the §3Turbine§r. This stacks multiplicatively with the §3Rotor Holder§r.\n§dEfficiency§r reduces the fuel consumption. This stacks multiplicatively with the §3Rotor Holder§r.\n§4Durability§r is the lifetime of the §aRotor§r in seconds, when the §3Turbine§r§r is active.\n\n\n§2§lIn summary:§r\n\nThe §9Power§r output affects both the fuel consumption and the EU/t generation. It is calculated with the following formula:\n§eproduction \u003d baseEUt * rotorPower * 2^(rotorHolderTier - turbineTier)§r\n\nThe §dEfficiency§r reduces the fuel consumption, but does not alter the EU/t generation. It is calculated with the following formula:\n§eefficiency \u003d rotorEfficiency * (1 + 0.1 * (rotorHolderTier - turbineTier))§r\n\n\n§2§lSome examples:§r\n\nLarge Steam Turbine, with Ultimet Rotor and EV Rotor Holder:\nProduction \u003d 1024 * 1.60 * 2 \u003d 3276 EU/t\nEfficiency \u003d 1.30 * 1.10 \u003d 143%\n(Steam consumption \u003d 4582 L/t, this is above a Titanium Boiler, or a TungstenSteel Boiler with ~70% throttle)\n\nLarge Gas Turbine, with Chrome Rotor and EV Rotor Holder:\nProduction \u003d 4096 * 1.70 * 1 \u003d 5325 EU/t\nEfficiency \u003d 1.55 * 1.00 \u003d 155%\n(The same fuel consumption would produce 3435 EU/t using 6.7 Turbo Gas Turbines)\n\nLarge Plasma Turbine, with HSS-S Rotor and ZPM Rotor Holder:\nProduction \u003d 16834 * 2.50 * 4 \u003d 168340 EU/t\nEfficiency \u003d 1.80 * 1.20 \u003d 216%\n(This is more than a ZPM Amp!)",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20604,6 +21079,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20630,7 +21106,7 @@
     "313:10": {
       "preRequisites:11": [
         201,
-        376
+        423
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20644,6 +21120,7 @@
             "id:8": "appliedenergistics2:fluid_storage_cell_1k",
             "tag:10": {}
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20696,6 +21173,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20766,6 +21244,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_diamond_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20817,6 +21296,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:fluid_pipe_normal"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20898,6 +21378,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -20950,6 +21431,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21040,6 +21522,7 @@
               "internalMaxPower:6": 200000.0
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21098,7 +21581,7 @@
     "320:10": {
       "preRequisites:11": [
         130,
-        376
+        423
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21111,6 +21594,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21162,6 +21646,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:dye"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21264,8 +21749,13 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "questbook:itemquestbook"
+            "id:8": "betterquesting:placeholder",
+            "tag:10": {
+              "orig_id:8": "questbook:itemquestbook",
+              "orig_meta:3": 0
+            }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21290,10 +21780,14 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "questbook:itemquestbook",
+              "id:8": "betterquesting:placeholder",
               "tag:10": {
-                "display:10": {
-                  "Name:8": "TYPE IN CHAT /bq_admin default load"
+                "orig_id:8": "questbook:itemquestbook",
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "display:10": {
+                    "Name:8": "TYPE IN CHAT /bq_admin default load"
+                  }
                 }
               }
             }
@@ -21322,6 +21816,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21373,6 +21868,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21416,7 +21912,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs, and it is perfectly playable as is. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) mostly starting with the §1IV§r Age. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A really fancy way to scale your automation on a large scale!\n\n§9-§r §dGregicality Science§r §e(unreleased for CEu)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(released, WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §6(released)§r adds a Modular Armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs, and it is perfectly playable as is. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) mostly starting with the §1IV§r Age. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A really fancy way to scale your automation on a large scale!\n\n§9-§r §dGregicality Science§r §e(currently in Alpha)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(very WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §6(released)§r adds a Modular Armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21424,6 +21920,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:structure_void"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21462,6 +21959,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21555,6 +22053,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:fluid_pipe_nonuple"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21623,6 +22122,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_crushed_centrifuged"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21662,6 +22162,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21713,6 +22214,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21764,6 +22266,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21816,6 +22319,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21867,6 +22371,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21918,6 +22423,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -21969,6 +22475,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22008,7 +22515,8 @@
     "336:10": {
       "preRequisites:11": [
         301,
-        302
+        302,
+        424
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22021,6 +22529,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22070,6 +22579,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:warning_sign"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22108,6 +22618,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22159,6 +22670,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:coal"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22227,6 +22739,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22320,6 +22833,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22371,6 +22885,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22452,7 +22967,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Ultimate Combustion fuel Generator!§r\n\nTo run the §3Extreme Combustion Engine§r, you will most likely want to boost it (§oelse why would you bother...§r).\nYou will want a §34A IV Dynamo Hatch§r as the output, and one §3Vacuum Freezer§r for §aLiquid Oxygen§r.\n\nYou can now harness the equivalent of 1 §dLuV§r Amp, while burning fuel at §6200% efficiency§r!\n\nDon\u0027t forge to keep it supplied with a small amount of §aLubricant§r.\n\nThe §3ECE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§bLore:§r The ECE comes from GT:NH. However... the story is not so great. The stats on the tooltip looked similar to this one, so far so good.\nHowever if you made calculations, you ended up realizing you needed to run around 16 whole HV Vacuum Freezers to keep up with Liquid Oxygen...\nThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but it was a lie! The efficiency remained 100%!\nThe GT:NH team recently decided to rework the ECE among other power options, phew!",
+          "desc:8": "§oThe Ultimate Combustion fuel Generator!§r\n\nTo run the §3Extreme Combustion Engine§r, you will most likely want to boost it (§oelse why would you bother...§r).\nYou will want a §34A IV Dynamo Hatch§r as the output, and one §3Vacuum Freezer§r for §aLiquid Oxygen§r.\n\nYou can now harness the equivalent of 1 §dLuV§r Amp, while burning fuel at §6200% efficiency§r!\n\nDon\u0027t forget to keep it supplied with a small amount of §aLubricant§r.\n\nThe §3ECE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§bLore:§r The ECE comes from GT:NH. However... the story is not so great. The stats on the tooltip looked similar to this one, so far so good.\nHowever if you made calculations, you ended up realizing you needed to run around 16 whole HV Vacuum Freezers to keep up with Liquid Oxygen...\nThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but it was a lie! The efficiency remained 100%!\nThe GT:NH team recently decided to rework the ECE among other power options, phew!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22460,6 +22975,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22511,6 +23027,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22562,6 +23079,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22613,6 +23131,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_foil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22667,6 +23186,7 @@
               "Charge:4": 100000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22719,6 +23239,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22787,6 +23308,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:gt_armor"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22838,6 +23360,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:gt_armor"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22891,6 +23414,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:gt_armor"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -22920,7 +23444,8 @@
               "Count:3": 1,
               "Damage:2": 30,
               "OreDict:8": "",
-              "id:8": "gregtech:gt_armor"
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -22942,6 +23467,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:gt_armor"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23011,6 +23537,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:ore_gold_0"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23081,6 +23608,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:sapling"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23145,6 +23673,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23194,6 +23723,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:steam_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23225,6 +23755,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23256,6 +23787,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23287,6 +23819,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23318,6 +23851,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23349,6 +23883,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23380,6 +23915,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23413,6 +23949,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23462,6 +23999,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23493,6 +24031,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23524,6 +24063,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23555,6 +24095,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23586,6 +24127,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23617,6 +24159,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23648,6 +24191,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23679,6 +24223,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23710,6 +24255,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23741,6 +24287,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 1,
           "lockedprogress:1": 0,
@@ -23766,7 +24313,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oChannels may disabled, but P2P Tunnels are still extremely important automation tools! Especially the Item P2P and the GTEU P2P.§r\n\n§9Note:§r There are great resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. They are linked using a Memory Card.\nThis Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit.\n\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r.\n\nThis is ideal in lategame situations, to avoid spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.\n\nThere is supposed to be a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\nHowever... the implementation is broken and is actually lossless! Whoops!\nDon\u0027t worry, somebody will fix the exploit at some point. :wink:\n\n\n\nAnd now, the other §ltopic§r. §aItem P2P Tunnels§r are great for automation involving more than one single inventory.\nTo turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.\nThe way they are useful is a bit abstract so I will explain with an example.\n\n§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.\nYou could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).\n\nNow, you may think the next step is just to dump the items in a Buffer and route the items with Pipes, however this system will eventually §4jam§r due to the incompability with AE2 Interface blocking mode! Trust me.\nPlace the input of the §aItem P2P§r on your §3ME Interface§r, and one output on the §3Extractor§r, one on the §3Assembler§r.\nThen, use Filter covers where the outputs are connected. §dOre Dictionary Filters§r are better, since you can configure them to §9ingot*§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots, that\u0027s a design decision in GregTech). \nDo not forget §dBlocking Mode§r on your Interface.\n\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
+          "desc:8": "§oChannels may disabled, but P2P Tunnels are still extremely important automation tools! Especially the Item P2P and the GTEU P2P.§r\n\n§9Note:§r There are great resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. They are linked using a Memory Card.\nThis Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit.\n\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r.\n\nThis is ideal in lategame situations, to avoid spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n\n\n\nAnd now, the other §ltopic§r. §aItem P2P Tunnels§r are great for automation involving more than one single inventory.\nTo turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.\nThe way they are useful is a bit abstract so I will explain with an example.\n\n§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.\nYou could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).\n\nNow, you may think the next step is just to dump the items in a Buffer and route the items with Pipes, however this system will eventually §4jam§r due to the incompability with AE2 Interface blocking mode! Trust me.\nPlace the input of the §aItem P2P§r on your §3ME Interface§r, and one output on the §3Extractor§r, one on the §3Assembler§r.\nThen, use Filter covers where the outputs are connected. §dOre Dictionary Filters§r are better, since you can configure them to §9ingot*§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots, that\u0027s a design decision in GregTech). \nDo not forget §dBlocking Mode§r on your Interface.\n\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23774,6 +24321,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:part"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23825,6 +24373,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -23850,35 +24399,49 @@
     },
     "376:10": {
       "preRequisites:11": [
-        323
+        296
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You now have access to all §aLens§r types, to engrave all the wafers!\n\n§eAny§r task will complete this Quest.\nThe §aPower Circuit§r will be used for §dEnergy Hatches§r, you will need a §3HV Cutting Machine§r.\nThe §aSimple System on Chip§r will be used for either §dME Fluid Storage Components§r, or the best §dULV Circuit§r recipe.\n\nI would also recommend going ahead and making all the other useful colored Lenses ahead of time.",
+          "desc:8": "§oIf you get the reference in the name of the Quest, yeah, you don\u0027t need that mod.§r\n\nThe §3Extended Pattern Terminal§r has §616 slots§r instead of 9 slots.\n\nThanks to it, you can automate all the §3Assembly Line§r recipes using §2AE2§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 821,
+            "Damage:2": 341,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
+            "id:8": "appliedenergistics2:part"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "I see the world in colours",
+          "name:8": "PackagedWho?",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
       "questID:3": 376,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 52,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -23890,38 +24453,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 821,
+              "Damage:2": 341,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 603,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 829,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 596,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
+              "id:8": "appliedenergistics2:part"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -23949,6 +24483,7 @@
               "FluidName:8": "titanium_tetrachloride"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24001,6 +24536,7 @@
               "FluidName:8": "fluorine"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24050,6 +24586,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24137,6 +24674,7 @@
               "FluidName:8": "radon"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24207,6 +24745,7 @@
               "FluidName:8": "air"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24271,6 +24810,7 @@
               "FluidName:8": "wood_tar"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24357,6 +24897,7 @@
               "FluidName:8": "gasoline_premium"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24409,6 +24950,7 @@
               "Charge:4": 1000000000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24463,6 +25005,7 @@
               "Charge:4": 4000000000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24517,6 +25060,7 @@
               "Charge:4": 20000000000
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24569,6 +25113,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24622,6 +25167,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24673,6 +25219,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24724,6 +25271,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24816,6 +25364,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_single"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24868,6 +25417,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:quantum_link"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24944,6 +25494,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -24995,6 +25546,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_plate"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25046,6 +25598,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25137,6 +25690,7 @@
               "FluidName:8": "rocket_fuel"
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25186,6 +25740,7 @@
             "OreDict:8": "",
             "id:8": "minecraft:nether_star"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25256,6 +25811,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25344,6 +25900,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25398,6 +25955,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25483,6 +26041,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25535,6 +26094,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25649,6 +26209,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25703,6 +26264,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25755,6 +26317,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25823,6 +26386,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25874,6 +26438,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25925,6 +26490,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -25976,6 +26542,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26028,6 +26595,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26080,6 +26648,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_single"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26131,6 +26700,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26230,6 +26800,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:wire_coil"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26273,7 +26844,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe chances you are having TPS issues playing this modpack are slim, this Quest is more suited for late game bases with GregTech and AE2, and the tips apply to other modpacks.§r\n\nIf you run the command §9/forge tps§r, you will be given the current §4TPS§r and the §4tick time§r in milliseconds.\nIf the tick time exceeds 50ms, the server is under too much load, and won\u0027t be able to keep up with a steady 20 TPS.\n\nAny machine will add up to the tick time, but don\u0027t be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.\n\nThings to §cavoid§r in general:\n§9-§r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thanksfully this is should not be an issue in this modpack.\n§9-§r Building everything packed together in a small space. Note that this does §onot§r affect TPS, but you will suffer FPS drops instead.\n§9-§r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.\n\nThings to§c avoid§r with AE2:\n§9-§r ME Import and Export Buses on large networks. Use ME Interfaces instead.\n§9-§r Crafting Cards to passively do large requests. Note that this is not as bad as it used to be, thanks to the optimizations from AE2 Unofficial.\n§9-§r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.\n\nThings to §cavoid§r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy the TPS, as with any mod):\n§9-§r X Producers to Y Consumers. Use a Diode or Battery Buffer to separate your line of generators to your line of machines.\n§9-§r Large amounts of Fluid Pipes. They are §onot§r laggy individually, but they can add up if you have thousands of them.\n§9-§r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories.",
+          "desc:8": "§oThe chances you are having TPS issues playing this modpack are slim, this Quest is more suited for late game bases with GregTech and AE2, and the tips apply to other modpacks.§r\n\nIf you run the command §9/forge tps§r, you will be given the current §4TPS§r and the §4tick time§r in milliseconds.\nIf the tick time exceeds 50ms, the server is under too much load, and won\u0027t be able to keep up with a steady 20 TPS.\n\nAny machine will add up to the tick time, but don\u0027t be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.\n\nThings to §cavoid§r in general:\n§9-§r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully this should not be an issue in this modpack.\n§9-§r Building everything packed together in a small space. Note that this does §onot§r affect TPS, but you will suffer FPS drops instead.\n§9-§r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.\n\nThings to§c avoid§r with AE2:\n§9-§r ME Import and Export Buses on large networks. Use ME Interfaces instead.\n§9-§r Crafting Cards to passively do large requests. Note that this is not as bad as it used to be, thanks to the optimizations from AE2 Unofficial.\n§9-§r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.\n\nThings to §cavoid§r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy the TPS, as with any mod):\n§9-§r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines.\n§9-§r Large amounts of Fluid Pipes. They are §onot§r laggy individually, but they can add up if you have thousands of them.\n§9-§r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26281,6 +26852,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:warning_sign"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26319,6 +26891,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:transparent_casing"
           },
+          "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26370,6 +26943,7 @@
             "OreDict:8": "",
             "id:8": "appliedenergistics2:part"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26409,7 +26983,7 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 1,
+          "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
@@ -26423,7 +26997,7 @@
               }
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -26435,14 +27009,15 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You may notice that some fluids say they are \"Acidic\", with §9Sulfuric Acid§r being one of them.\n\nThis means that many fluid pipes will not be able to transport them safely! At MV, the cheapest pipes for acid transportation are probably §aGold§r, with the more expensive §aVanadium Steel§r or §aChrome§r pipes taking second place and third place.\n\nYou have two options for acid storage at around this point: §dGlass Vials§r or §dSuper Tanks§r. Glass Vials are like §9Fluid Cells§r, and are made to store acids. Super Tanks will be unlocked after §9Polyethylene§r, and can store any fluid without restriction.\n\n§cWARNING:§r Acids in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r The acid transportation and storage mechanics originate from GregTech 6. Fun!",
+          "desc:8": "You may notice that some fluids say they are \"Acidic\", with §9Sulfuric Acid§r being one of them.\n\nThis means that many fluid pipes will not be able to transport them safely!\nAt §bMV§r, the cheapest pipes for acid transportation are probably §aGold§r, with the more expensive §aVanadium Steel§r or §aChrome§r pipes taking second place and third place.\n§aStainless Steel§r or §aPolytetrafluoroethylene§r will be valid options once you are in §6HV§r.\n\nYou have two options for acid storage at around this point: §dGlass Vials§r or §dSuper Tanks§r. Glass Vials are like §9Fluid Cells§r, and are made to store acids. Super Tanks will be unlocked after §9Polyethylene§r, and can store any fluid without restriction.\n\n§cWARNING:§r Acids in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r The acid transportation and storage mechanics originate from GregTech 6. Fun!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 41,
+            "Damage:2": 6,
             "OreDict:8": "",
-            "id:8": "gregtech:fluid_pipe_normal"
+            "id:8": "gregtech:warning_sign"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26458,7 +27033,20 @@
         }
       },
       "questID:3": 417,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 85,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "index:3": 0,
@@ -26473,7 +27061,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Some specific fluids are §dCryogenic§r, which are too cold for ordinary pipes. \n\nYou need to pick the right pipe for the job!\n\nNot many pipes support cold fluids, so give §aStainless Steel§r or §aIridium§r a try. Later on you can use §aNaquadah§r or most of the fusion materials when you get there.\n\nWARNING:§r Cryogenics in the wrong pipes will cause §cvoiding§r, §cpipe freezing§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r This is the first time GregTech has cryogenic mechanics, a GTCEu-original feature!",
+          "desc:8": "Some specific fluids are §dCryogenic§r, which are too cold for ordinary pipes. \n\nYou need to pick the right pipe for the job!\n\nNot many pipes support cold fluids, so give §aStainless Steel§r or §aIridium§r a try. Later on you can use §aNaquadah§r or most of the fusion materials when you get there.\n\n§cWARNING:§r§r Cryogenics in the wrong pipes will cause §cvoiding§r, §cpipe freezing§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r This is the first time GregTech has cryogenic mechanics, a GTCEu-original feature!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26481,6 +27069,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:fluid_pipe_large"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26496,7 +27085,20 @@
         }
       },
       "questID:3": 418,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 12,
+              "Damage:2": 323,
+              "OreDict:8": "",
+              "id:8": "gregtech:fluid_pipe_small"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "index:3": 0,
@@ -26519,6 +27121,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:fluid_pipe_huge"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26557,6 +27160,7 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_block_frame_20"
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26575,7 +27179,24 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_frame_20"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
           "taskID:8": "bq_standard:checkbox"
         }
       }
@@ -26601,6 +27222,7 @@
               }
             }
           },
+          "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
@@ -26636,6 +27258,268 @@
                   "Name:8": "minecraft:air"
                 }
               }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "422:10": {
+      "preRequisites:11": [
+        211,
+        209
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oAn excellent way to save on some redstone contraptions.§r\n\nThe §aAdvanced Energy Detector§r is an RS-latch for Energy Control.\n\nPut it on a §3Battery Buffer§r, set a Minimum EU near 0, and a Maximum EU near the max capacity.\nThe Cover will output a §4redstone§r signal until the high threshold is reached, and then it will wait until the low threshold is reached to output redstone again.\n\nThis is a must to automate inertia based power generators, such as Boilers, or more importantly §3Large Turbines§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 318,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Energy Detector",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 422,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 318,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "423:10": {
+      "preRequisites:11": [
+        323
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aSimple System on Chip§r will be used for either §dME Fluid Storage Components§r, or the best §dULV Circuit§r recipe.\n\nI would also recommend going ahead and making all the other useful colored Lenses ahead of time. They are listed here in an §eoptional§r task.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 829,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "I see the world in colors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 423,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 829,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 596,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 821,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 824,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 830,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 835,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 826,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 832,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "424:10": {
+      "preRequisites:11": [
+        338
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "If you only have one §3Cleanroom§r, you will need another for §aSterilized§r recipes.\n\n§9Note:§r Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can\u0027t simply upgrade it.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "gregtech:cleanroom_casing"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sterilized Cleanroom",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 424,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:cleanroom_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "425:10": {
+      "preRequisites:11": [
+        305
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Maintenance Hatch is an upgrade to the Automatic Maintenance Hatch.\nIt allows your Multiblock to run regular Cleanroom recipes, but not Sterilized.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1401,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Filtration Maintenance Hatch",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 425,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1401,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -27187,6 +28071,13 @@
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": 84
+        },
+        "49:10": {
+          "id:3": 422,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 156
         }
       }
     },
@@ -27843,8 +28734,8 @@
           "id:3": 101,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 186,
-          "y:3": -102
+          "x:3": 258,
+          "y:3": -42
         },
         "51:10": {
           "id:3": 102,
@@ -28438,8 +29329,8 @@
           "id:3": 417,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 474,
-          "y:3": -174
+          "x:3": 432,
+          "y:3": -126
         }
       }
     },
@@ -28473,22 +29364,22 @@
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 426,
+          "x:3": 414,
           "y:3": 138
         },
         "2:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 426,
+          "x:3": 354,
           "y:3": -192
         },
         "3:10": {
           "id:3": 142,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 426,
-          "y:3": -144
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 348,
+          "y:3": -150
         },
         "4:10": {
           "id:3": 145,
@@ -28536,15 +29427,15 @@
           "id:3": 199,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 360,
+          "x:3": 348,
           "y:3": -90
         },
         "11:10": {
           "id:3": 200,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 420,
-          "y:3": -90
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 426,
+          "y:3": -144
         },
         "12:10": {
           "id:3": 201,
@@ -28578,63 +29469,63 @@
           "id:3": 205,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 204,
+          "x:3": 192,
           "y:3": 6
         },
         "17:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 210,
+          "x:3": 198,
           "y:3": 90
         },
         "18:10": {
           "id:3": 207,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 198,
+          "x:3": 186,
           "y:3": 180
         },
         "19:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 276,
-          "y:3": -156
+          "x:3": 126,
+          "y:3": -96
         },
         "20:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 288,
+          "x:3": 294,
           "y:3": 12
         },
         "21:10": {
           "id:3": 210,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 420,
+          "x:3": 408,
           "y:3": 84
         },
         "22:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 366,
+          "x:3": 354,
           "y:3": 90
         },
         "23:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 366,
+          "x:3": 354,
           "y:3": 138
         },
         "24:10": {
           "id:3": 213,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 360,
+          "x:3": 348,
           "y:3": 6
         },
         "25:10": {
@@ -28648,7 +29539,7 @@
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 162,
+          "x:3": 156,
           "y:3": -192
         },
         "27:10": {
@@ -28662,14 +29553,14 @@
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 288,
+          "x:3": 276,
           "y:3": 90
         },
         "29:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 288,
+          "x:3": 276,
           "y:3": 192
         },
         "30:10": {
@@ -28688,10 +29579,10 @@
         },
         "32:10": {
           "id:3": 226,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 288,
-          "y:3": -84
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 282,
+          "y:3": -96
         },
         "33:10": {
           "id:3": 227,
@@ -28704,14 +29595,14 @@
           "id:3": 228,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 138,
-          "y:3": -84
+          "x:3": 72,
+          "y:3": -90
         },
         "35:10": {
           "id:3": 229,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 426,
+          "x:3": 414,
           "y:3": 192
         },
         "36:10": {
@@ -28725,7 +29616,7 @@
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 366,
+          "x:3": 354,
           "y:3": 192
         },
         "38:10": {
@@ -28746,22 +29637,22 @@
           "id:3": 242,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 210,
+          "x:3": 198,
           "y:3": -192
         },
         "41:10": {
           "id:3": 247,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 426,
+          "x:3": 414,
           "y:3": 36
         },
         "42:10": {
           "id:3": 313,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": 72
+          "x:3": 0,
+          "y:3": 90
         },
         "43:10": {
           "id:3": 317,
@@ -28774,8 +29665,8 @@
           "id:3": 320,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": 72
+          "x:3": 36,
+          "y:3": 90
         },
         "45:10": {
           "id:3": 323,
@@ -28795,7 +29686,7 @@
           "id:3": 326,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 426,
+          "x:3": 414,
           "y:3": -12
         },
         "48:10": {
@@ -28806,32 +29697,32 @@
           "y:3": -96
         },
         "49:10": {
-          "id:3": 376,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 78,
-          "y:3": 72
-        },
-        "50:10": {
           "id:3": 377,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 204,
+          "x:3": 192,
           "y:3": -150
         },
-        "51:10": {
+        "50:10": {
           "id:3": 378,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 240,
           "y:3": 132
         },
-        "52:10": {
+        "51:10": {
           "id:3": 387,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": -96
+        },
+        "52:10": {
+          "id:3": 423,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 54
         }
       }
     },
@@ -28858,8 +29749,8 @@
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 204
+          "x:3": -156,
+          "y:3": 252
         },
         "1:10": {
           "id:3": 197,
@@ -29054,8 +29945,8 @@
           "id:3": 271,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -204,
-          "y:3": 252
+          "x:3": -108,
+          "y:3": 156
         },
         "29:10": {
           "id:3": 272,
@@ -29187,8 +30078,8 @@
           "id:3": 381,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 252
+          "x:3": -108,
+          "y:3": 204
         },
         "48:10": {
           "id:3": 382,
@@ -29236,8 +30127,15 @@
           "id:3": 418,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 288
+          "x:3": -66,
+          "y:3": 204
+        },
+        "55:10": {
+          "id:3": 422,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 204
         }
       }
     },
@@ -29373,137 +30271,144 @@
           "y:3": -132
         },
         "16:10": {
+          "id:3": 376,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 6,
+          "y:3": 84
+        },
+        "17:10": {
           "id:3": 388,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 84
         },
-        "17:10": {
+        "18:10": {
           "id:3": 390,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -132
         },
-        "18:10": {
+        "19:10": {
           "id:3": 393,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -216,
           "y:3": -210
         },
-        "19:10": {
+        "20:10": {
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -78
         },
-        "20:10": {
+        "21:10": {
           "id:3": 395,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": 84
         },
-        "21:10": {
+        "22:10": {
           "id:3": 396,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": 12
         },
-        "22:10": {
+        "23:10": {
           "id:3": 397,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -66
         },
-        "23:10": {
+        "24:10": {
           "id:3": 398,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -138
         },
-        "24:10": {
+        "25:10": {
           "id:3": 399,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 144,
           "y:3": -138
         },
-        "25:10": {
+        "26:10": {
           "id:3": 400,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -204
         },
-        "26:10": {
+        "27:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -60
         },
-        "27:10": {
+        "28:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -132
         },
-        "28:10": {
+        "29:10": {
           "id:3": 404,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -60
         },
-        "29:10": {
+        "30:10": {
           "id:3": 405,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": -60
         },
-        "30:10": {
+        "31:10": {
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -132
         },
-        "31:10": {
+        "32:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -204
         },
-        "32:10": {
+        "33:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -204
         },
-        "33:10": {
+        "34:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -132
         },
-        "34:10": {
+        "35:10": {
           "id:3": 415,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -144,
-          "y:3": 6
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -138,
+          "y:3": 12
         }
       }
     },
@@ -29677,7 +30582,7 @@
           "id:3": 303,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -138,
+          "x:3": -102,
           "y:3": -84
         },
         "1:10": {
@@ -29691,7 +30596,7 @@
           "id:3": 305,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
+          "x:3": -66,
           "y:3": -84
         },
         "3:10": {
@@ -29733,15 +30638,15 @@
           "id:3": 338,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -174,
+          "x:3": -138,
           "y:3": -84
         },
         "9:10": {
           "id:3": 385,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
-          "y:3": -84
+          "x:3": -24,
+          "y:3": -102
         },
         "10:10": {
           "id:3": 407,
@@ -29749,6 +30654,13 @@
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -120
+        },
+        "11:10": {
+          "id:3": 424,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -174,
+          "y:3": -84
         }
       }
     },
@@ -29819,6 +30731,13 @@
           "sizeY:3": 24,
           "x:3": -216,
           "y:3": -48
+        },
+        "7:10": {
+          "id:3": 425,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -48
         }
       }
     },
@@ -29884,13 +30803,20 @@
           "y:3": 18
         },
         "6:10": {
+          "id:3": 376,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 72
+        },
+        "7:10": {
           "id:3": 392,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -6,
           "y:3": 18
         },
-        "7:10": {
+        "8:10": {
           "id:3": 416,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -30024,108 +30950,115 @@
           "y:3": 42
         },
         "15:10": {
+          "id:3": 226,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 138,
+          "y:3": 0
+        },
+        "16:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 0
         },
-        "16:10": {
+        "17:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -6,
           "y:3": 138
         },
-        "17:10": {
+        "18:10": {
           "id:3": 257,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 138,
           "y:3": 84
         },
-        "18:10": {
+        "19:10": {
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 138
         },
-        "19:10": {
+        "20:10": {
           "id:3": 296,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 42
         },
-        "20:10": {
+        "21:10": {
           "id:3": 301,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 84
         },
-        "21:10": {
+        "22:10": {
           "id:3": 303,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 42
         },
-        "22:10": {
+        "23:10": {
           "id:3": 306,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 84
         },
-        "23:10": {
+        "24:10": {
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 90,
           "y:3": 138
         },
-        "24:10": {
+        "25:10": {
           "id:3": 312,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 138,
           "y:3": 138
         },
-        "25:10": {
+        "26:10": {
           "id:3": 314,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 138,
+          "x:3": 186,
           "y:3": 0
         },
-        "26:10": {
+        "27:10": {
           "id:3": 324,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -54,
           "y:3": 138
         },
-        "27:10": {
+        "28:10": {
           "id:3": 345,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 138
         },
-        "28:10": {
+        "29:10": {
           "id:3": 354,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 42
         },
-        "29:10": {
+        "30:10": {
           "id:3": 389,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
+          "x:3": 234,
           "y:3": 0
         }
       }
