@@ -517,19 +517,19 @@ recipes.addShaped("basiccard", <appliedenergistics2:material:25> * 2, [
 // Capacity Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardcapacity");
 recipes.addShapeless("cardcapacity", <appliedenergistics2:material:27>, [
-    <appliedenergistics2:material:28>, <ore:circuitLv>
+    <appliedenergistics2:material:25>, <ore:circuitLv>
 ]);
 
 // Crafting Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardcrafting");
 recipes.addShapeless("cardcrafting", <appliedenergistics2:material:53>, [
-    <appliedenergistics2:material:28>, <ore:circuitEv>
+    <appliedenergistics2:material:25>, <ore:circuitMv>
 ]);
 
 // Redstone Card
 recipes.removeByRecipeName("appliedenergistics2:materials/cardredstone");
 recipes.addShapeless("cardredstone", <appliedenergistics2:material:26>, [
-    <appliedenergistics2:material:28>, <ore:plateRedAlloy>
+    <appliedenergistics2:material:25>, <ore:plateRedAlloy>
 ]);
 
 // Charged Certus Quartz
