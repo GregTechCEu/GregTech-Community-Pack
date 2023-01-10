@@ -61,33 +61,30 @@ global wiremill                     as RecipeMap = RecipeMap.getByName("wiremill
 
 // Tools
 <ore:gtceWrenches>.addItems([
-	<gregtech:meta_tool:8>.withEmptyTag(), 
-	<gregtech:meta_tool:28>.withEmptyTag(), 
-	<gregtech:meta_tool:29>.withEmptyTag(), 
-	<gregtech:meta_tool:30>.withEmptyTag()]);
+	<gregtech:wrench>.withEmptyTag(), 
+	<gregtech:wrench_lv>.withEmptyTag(), 
+	<gregtech:wrench_hv>.withEmptyTag(), 
+	<gregtech:wrench_iv>.withEmptyTag()]);
 
 <ore:gtceScrewdrivers>.addItems([
-	<gregtech:meta_tool:11>.withEmptyTag(), 
-	<gregtech:meta_tool:31>.withEmptyTag()]);
+	<gregtech:screwdriver>.withEmptyTag(), 
+	<gregtech:screwdriver_lv>.withEmptyTag()]);
 
 <ore:gtceHardHammers>.addItems([
-	<gregtech:meta_tool:6>.withEmptyTag()]);
+	<gregtech:hammer>.withEmptyTag()]);
 
 <ore:gtceSaws>.addItems([
-	<gregtech:meta_tool:5>.withEmptyTag(),
-	<gregtech:meta_tool:25>.withEmptyTag(), 
-	<gregtech:meta_tool:26>.withEmptyTag(), 
-	<gregtech:meta_tool:27>.withEmptyTag(),
-	<gregtech:meta_tool:32>.withEmptyTag()]);
+	<gregtech:saw>.withEmptyTag(),
+	<gregtech:buzzsaw>.withEmptyTag()]);
 
 <ore:gtceFiles>.addItems([
-	<gregtech:meta_tool:9>.withEmptyTag()]);
+	<gregtech:file>.withEmptyTag()]);
 
 <ore:gtceWireCutters>.addItems([
-	<gregtech:meta_tool:13>.withEmptyTag()]);
+	<gregtech:wire_cutter>.withEmptyTag()]);
 
 <ore:gtceSoftHammers>.addItems([
-	<gregtech:meta_tool:7>.withEmptyTag()]);
+	<gregtech:mallet>.withEmptyTag()]);
 
 <ore:gtceMortars>.addItems([
-	<gregtech:meta_tool:12>.withEmptyTag()]);
+	<gregtech:mortar>.withEmptyTag()]);
