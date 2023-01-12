@@ -18,6 +18,11 @@
     "name": "GregTech Community Pack",
     "files":[
         {
+            "projectID": 705000,
+            "fileID": 4181287,
+            "required": true
+        },
+        {
             "projectID": 557549,
             "fileID": 4109510,
             "required": true
@@ -70,11 +75,6 @@
         {
             "projectID": 242818,
             "fileID": 2779848,
-            "required": true
-        },
-        {
-            "projectID": 230976,
-            "fileID": 2463272,
             "required": true
         },
         {
@@ -178,11 +178,6 @@
             "required": true
         },
         {
-            "projectID": 280510,
-            "fileID": 2810157,
-            "required": true
-        },
-        {
             "projectID": 299540,
             "fileID": 2706111,
             "required": true
@@ -205,11 +200,6 @@
         {
             "projectID": 261251,
             "fileID": 3045651,
-            "required": true
-        },
-        {
-            "projectID": 233019,
-            "fileID": 2468387,
             "required": true
         },
         {
@@ -293,11 +283,6 @@
             "required": true
         },
         {
-            "projectID": 250290,
-            "fileID": 2916357,
-            "required": true
-        },
-        {
             "projectID": 278385,
             "fileID": 2482543,
             "required": true
@@ -325,11 +310,6 @@
         {
             "projectID": 252354,
             "fileID": 2464501,
-            "required": true
-        },
-        {
-            "projectID": 286230,
-            "fileID": 2572528,
             "required": true
         },
         {
