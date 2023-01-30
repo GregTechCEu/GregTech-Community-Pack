@@ -14683,13 +14683,12 @@
     },
     "210:10": {
       "preRequisites:11": [
-        133,
-        125
+        133
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Implosion Compressor§r turns the Dust form of Gems into their Gem form.\n\nIt is required to get §aEnder Pearls§r.\n§cTNT§r or §cDynamite§r can be used for the Implosion.\n\n§9Note:§r Aluminium Cables are §5EV§r Cables. Don\u0027t question why they are in the Implosion Compressor recipe, but §5EV§r Cables §arequire PVC§r to insulate.",
+          "desc:8": "The §3Implosion Compressor§r turns the Dust form of Gems into their Gem form.\n\nIt is required to get §aEnder Pearls§r.\n§cTNT§r or §cDynamite§r can be used for the Implosion.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17201,7 +17200,8 @@
     "248:10": {
       "preRequisites:11": [
         208,
-        142
+        142,
+        125
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17565,7 +17565,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "New Cutting Machine? ✓\n\nNew Lens? ✓\n\nNew Power Circuit? ✓\n\nNew EBF Metal required? ✓\n\nNew Coil for Energy Hatch? ✓\n\n\n§9Note:§r If you haven\u0027t found a Jungle yet, you can §acentrifuge Stone Dust§r for get §dMetal Mixture Mix§r which doubles as a Brown Dye.",
+          "desc:8": "New Cutting Machine? ✓\n\nNew Lens? ✓\n\nNew Power Circuit? ✓\n\nNew EBF Metal required? ✓\n\nNew Coil for Energy Hatch? ✓\n\n\n§9Note:§r If you haven\u0027t found a Jungle yet, you can §acentrifuge Stone Dust§r for §dMetal Mixture Dust§r which doubles as a Brown Dye.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17577,7 +17577,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Power Integration Circuit",
+          "name:8": "Power Integrated Circuit",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -17736,7 +17736,8 @@
         200,
         220,
         208,
-        380
+        380,
+        125
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19910,12 +19911,12 @@
     },
     "289:10": {
       "preRequisites:11": [
-        298
+        394
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oLiked Fiber-Reinforced Epoxy? Now do it again!§r\n\n§aExtreme Circuit Boards§r are the next step in your circuit journey. They\u0027re not particularly interesting compared to the previous boards: just two of the previous stuck together.\n\n§bLore:§r In Gregicality Legacy, these circuit boards were much more complicated. They required Kapton, a dual polymer material. It was a challenge, to say the least. In the future, the GTCEu team might make these boards somewhat more involved to produce.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20146,7 +20147,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper.\nThis requires §9PBI§r and Alloys locked behind §aHSS-G Coils§r.",
+          "desc:8": "The first Circuit of the §1Quantum§r line.\n\nIf you wish, you can go for §dAdvanced SMDs§r to make the Circuits cheaper. \nDoing so requires §9PBI§r and Alloys locked behind §aHSS-G Coils§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20414,7 +20415,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe toughest Polymer to make in GTCEu!§r\n\nYou should have all the tools available to produce §aPolybenzimidazole§r on your own!\n\nI will give you nothing but one advice. When looking through recipes, pin them in §2JEI§r (default \u0027A\u0027 hotkey). I hope you have been doing that this whole time, as it makes planning a lot easier!\n\n§aPBI§r only becomes mandatory to progress from §dLuV§r to ZPM, but having it made earlier will unlock the §6Advanced SMDs§r.\n\nThe Quest can be completed with §eany§r PBI form. However you may want Bars for automation purposes.",
+          "desc:8": "§oThe toughest Polymer to make in GTCEu!§r\n\nYou should have all the tools available to produce §aPolybenzimidazole§r on your own!\n\nI will give you nothing but one piece of advice. When looking through recipes, pin them in §2JEI§r (default \u0027A\u0027 hotkey). I hope you have been doing that this whole time, as it makes planning a lot easier!\n\n§aPBI§r only becomes mandatory to progress from §dLuV§r to ZPM, but having it made earlier will unlock the §6Advanced SMDs§r.\n\nThe Quest can be completed with §eany§r PBI form. However you may want Bars for automation purposes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20497,7 +20498,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The main §dLuV§r material.\n\nProgressing into §dLuV§r Age will require more than simply §aRhodium Plated Palladium§r and §9LuV Circuits§r. You will also need the §3Assembly Line§r.\n\nThe §4resource costs§r will also start to increase §4significantly§r as you work towards §eFusion§r.\nIf you haven\u0027t got automation for nearly everything, now (in §1IV§r Age) is a good time to do it.\nMake use of §3Processing Arrays§r, or all the special Multiblocks from §2Gregicality Multiblocks§r.\n\nIf your power generation relies on §3Large Turbines§r, you can still get the §3LuV Rotor Holder§r.\n\n\n§c⚠ Quests in LuV and above are not completed yet! Only rough progression is outlined.",
+          "desc:8": "The main §dLuV§r material.\n\nProgressing into §dLuV§r Age will require more than simply §aRhodium Plated Palladium§r and §9LuV Circuits§r. You will also need the §3Assembly Line§r.\n\nThe §4resource costs§r will also start to increase §4significantly§r as you work towards §eFusion§r.\nIf you haven\u0027t got automation for nearly everything, now (in §1IV§r Age) is a good time to do it.\nMake use of §3Processing Arrays§r, or all the special Multiblocks from §2Gregicality Multiblocks§r.\n\nIf your power generation relies on §3Large Turbines§r, you can still get the §3LuV Rotor Holder§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20549,7 +20550,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §aUV Mainframe§r is used to make §3Fusion Mk2§r.\n\nIt\u0027s also made in the Assembly Line!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20596,12 +20597,13 @@
     },
     "300:10": {
       "preRequisites:11": [
-        405
+        405,
+        426
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oDon\u0027t touch the acid!§r\n\nRefining §9Naquadah§r into further products is your next automation task. The primary resources are §aEnriched Naquadah§r, §aNaquadria§r, and §aTrinium§r. It also produces many useful byproducts, which you can discover using JEI.\n\n§aEnriched Naquadah§r currently does not have many uses, but will be used for power generation in the future.\n\n§aNaquadria§r is a later game material, used for §3UV§r components.\n\n§aTrinium§r is the most useful resource for you right now. It is used to build the Fusion Reactor, and in all §cZPM§r machines.\n\n§eNote§r: This processing chain contains a more complex loop than what you\u0027ve seen previously! Outputs in later steps can be sent back into previous steps, but lose a little bit of fluid each time. This can be challenging to automate. Good luck!\n\n§r§bLore§r: Many GregTech iterations have Naquadah processing. The first was likely Impact, with a Naquadah fuel process. Then, Gregicality Legacy followed with Processes for making the naquadah material (and variants) as well as Fuel. After that, GTNH added their own naquadah processes for the material and fuel. Lastly, GTCEu added the process you\u0027re about to set up!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20645,12 +20647,16 @@
     },
     "301:10": {
       "preRequisites:11": [
-        295
+        295,
+        430,
+        411,
+        432,
+        297
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe power of the stars... and also particle accelerator because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. It will also overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
+          "desc:8": "§oThe power of the stars... and also particle accelerators because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. It will also overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20702,7 +20708,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oStargate\u0027s Strongest§r\n\nThis is the main material for §cZPM§r. Prepare to make lots... after you make §9Fusion§r and §9Crystal Circuits§r. Do that first.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20748,13 +20754,20 @@
       }
     },
     "303:10": {
+      "preRequisiteTypes:7": [
+        0,
+        0,
+        1
+      ],
       "preRequisites:11": [
-        299
+        299,
+        441,
+        440
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oFusion, but even more expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk2§r is even more expensive than the Mk1! The key difference is that it has a higher §6Energy To Start§r than the Mk1, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 reactor. See the Mk1\u0027s quest for how these mechanics work.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20801,12 +20814,13 @@
     },
     "304:10": {
       "preRequisites:11": [
-        333
+        333,
+        451
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oThe §6§ofinal§r §ocircuit§r.\n\nThis is a huge accomplishment, nice job!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20858,7 +20872,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oI want my particle accelerator§r\n\n§aDarmstadtium§r is the main material for §3UV§r hulls. It is yet again made with Fusion.\n\n§bFun Fact§r: Arsenic does not exist as a liquid at standard conditions. It sublimates directly into a gas!\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20890,24 +20904,29 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1,
-              "FluidName:8": "darmstadtium"
+              "Count:3": 1,
+              "Damage:2": 27,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
     "306:10": {
       "preRequisites:11": [
-        304
+        304,
+        446,
+        454
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oFusion, but the most  expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk3§r is even more expensive than the Mk2! The key difference is that it has a higher §6Energy To Start§r than the Mk2, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1\u0027s quest for how these mechanics work.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20959,7 +20978,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oPure Neutrons§r\n\n§aNeutronium§r is made entirely from Neutrons, and is found in the center of Neutron Stars. It is the final primary material in GTCEu.\n\n§bLore§r: In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia\u0027s Neutronium in GT5u, which was unlocked even later in GCYL!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21007,12 +21026,12 @@
     "308:10": {
       "preRequisites:11": [
         386,
-        306
+        455
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The amount of EU stored is the max value of a Long in Java.\nDon\u0027t try to win Minecraft, you can\u0027t.",
+          "desc:8": "§oConsider touching some grass.§r\n\nThe amount of EU stored is the max value of a Long Integer in Java.\nDon\u0027t try to win Minecraft, you can\u0027t.\n\n§bLore§r: You\u0027re probably tired of this by now, but things are different with the battery lore this time. I promise. GTCEu\u0027s ultimate battery uses 16 UV orbs. GTNH\u0027s only uses 8. However, GTNH also has a §lReally Ultimate Battery§r made of 8 Ultimate Batteries! It\u0027s not useful at all, but still exists...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21036,7 +21055,20 @@
         }
       },
       "questID:3": 308,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "minecraft:tallgrass"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -22372,7 +22404,8 @@
     "329:10": {
       "preRequisites:11": [
         208,
-        142
+        142,
+        125
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22429,7 +22462,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "ZPM Circuits that aren\u0027t mainframes!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22481,7 +22514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Cheaper §dLuV§r circuits! This will make those Robot Arms much cheaper.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22529,12 +22562,13 @@
     "332:10": {
       "preRequisites:11": [
         289,
-        301
+        402,
+        438
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The first circuit of the §9Crystal§r line.\n\n§bLore§r: The concept of a Crystal Circuit has existed since very early versions of GregTech. However, no one knows what their real life counterpart is!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22586,7 +22620,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The third circuit of the §4wetware§r line.\n\nThis is also the best §3UV§r circuit!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22638,7 +22672,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The second circuit of the §4wetware§r line.\n\nThis is also the best §cZPM§r circuit!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22690,7 +22724,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The first Circuit of the §4Wetware§r line.\n\n§6Congrats!§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22738,13 +22772,12 @@
     "336:10": {
       "preRequisites:11": [
         301,
-        302,
-        424
+        448
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oNeurons for computation§r\n\nThe §aNeuro Processing Unit§r serves as the CPU for §4Wetware§r. It also takes a circuit board in its recipe, but pay it no mind.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22756,7 +22789,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "It\u0027s alive",
+          "name:8": "It\u0027s Alive!",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -22790,23 +22823,28 @@
       }
     },
     "337:10": {
-      "preRequisites:11": [],
+      "preRequisiteTypes:7": [
+        1
+      ],
+      "preRequisites:11": [
+        398
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Quests for Higher Tiers are work in Progress.\n\n§2GTCEu§r is §6fully playable for all tiers§r, but Quests are just for rough progression outline §ofor now§r.\n\nDon\u0027t worry, they will come up probably even before you reach these tiers! Don\u0027t forget the fabled §9/bq_admin default load§r once you update the modpack to make new Quests appear. There, I said it again.",
+          "desc:8": "§oCreative Items in IV? What madness is this?!?§r\n\nLikely no one will ever make this item, but it gives you §6unlimited§r construction paste for Building Gadgets. It\u0027s useful for building... maybe.\n\nThis is really only here to tell you that this exists. Enjoy or something...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:warning_sign"
+            "id:8": "buildinggadgets:constructionpastecontainercreative"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Questbook WIP",
+          "name:8": "Creative Paste Container",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -22821,19 +22859,33 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "buildinggadgets:constructionpastecontainercreative"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
     "338:10": {
       "preRequisites:11": [
-        303
+        303,
+        344
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oStar Trek strikes again!§r\n\n§aTritanium§r is a material from Star Trek, and is used for a few other things in GT. It, like §9Americium§r, requires two fusion steps!\n\nYou\u0027ll need this to get the next tier of circuits, and for §3UV§r components.\n\n§bLore§r: In some versions of GT5u, only Tritanium fluid was red. The material was otherwise white. In GTCEu, we decided to make the whole thing red instead. Much better looking!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22944,12 +22996,21 @@
       }
     },
     "340:10": {
+      "preRequisiteTypes:7": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
       "preRequisites:11": [
         220,
         208,
         142,
         213,
-        203
+        203,
+        125
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23242,7 +23303,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oWho needs Stargate when you have Star Trek!§r\n\n§aDuranium§r is a material from Star Trek, and is used for a few things in GT. It makes some pretty awesome pipes, but otherwise you won\u0027t need much of this quite yet.\n\n§bLore§r: In some versions of GT5u, this material was entirely white. In fact, most fusion materials and later were like this. Boring!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23294,7 +23355,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Use this turbine to extract very large amounts of power from plasma!",
+          "desc:8": "§oPlasma? Turbine? What!? That\u0027s not even possible!\n\nUse this turbine to extract very large amounts of power from plasma!\n\n§aHelium Plasma§r is the best fuel for its cost.\n\nDo not question how little sense a Plasma Turbine actually makes... look up Magnetohydrodynamic Generators if you want the real-deal.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23303,7 +23364,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Plasma Turbine",
@@ -23720,7 +23781,8 @@
               "Count:3": 1,
               "Damage:2": 20,
               "OreDict:8": "",
-              "id:8": "gregtech:gt_armor"
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
             },
             "1:10": {
               "Count:3": 1,
@@ -25156,13 +25218,14 @@
     },
     "384:10": {
       "preRequisites:11": [
-        301,
-        251
+        251,
+        435,
+        402
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oEven MORE power!§r\n\nThe §aLuV Lapotronic Orb§r is even better than the §9IV§r one! It of course comes at a price...\n\n§bLore§r: In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25212,12 +25275,13 @@
     },
     "385:10": {
       "preRequisites:11": [
-        384
+        384,
+        442
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oA power signularity!§r\n\nThe §aZPM Lapotronic Orb§r is even better than the §dLuV§r one! It of course comes at a price...\n\n§bLore§r: Imagine making 64 IV or 8 LuV Orbs for just one of these! See the Lore for the LuV orb for details.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25267,12 +25331,14 @@
     },
     "386:10": {
       "preRequisites:11": [
-        385
+        385,
+        446,
+        448
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oIt holds way too much power!§r\n\nThe §aUV Lapotronic Orb§r is even better than the §cZPM§r one! It of course comes at a price...\n\n§bLore§r: Imagine making 512 IV or 64 LuV Orbs or 8 ZPM Orbs for just one of these! See the Lore for the LuV orb for details.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25428,8 +25494,13 @@
       }
     },
     "389:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        248
+        248,
+        341
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26251,7 +26322,7 @@
     },
     "401:10": {
       "preRequisites:11": [
-        393
+        426
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26491,7 +26562,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "High Power Integration Circuit",
+          "name:8": "High Power Integrated Circuit",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -26532,7 +26603,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Quest will be completed with §eeither§r an §3IV Energy Hatch§r§r... or an §3IV Dynamo Hatch§r for your Multiblock Generators.\n\nDon\u0027t forget that §d4Amps§r variants exist! However they require §aNiobium-Titanium Cables§r, which needs §9Polyphenylene Sulfide§r.\nLook down in the §dLuV§r Chapter for that (spoiler: it\u0027s easy to obtain!).",
+          "desc:8": "This Quest will be completed with §eeither§r an §3IV Energy Hatch§r§r... or an §3IV Dynamo Hatch§r for your Multiblock Generators.\n\nDon\u0027t forget that §d4 Amp§r variants exist! However they require §aNiobium-Titanium Cables§r, which needs §9Polyphenylene Sulfide§r.\nLook down in the §dLuV§r Chapter for that (spoiler: it\u0027s easy to obtain!).",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26596,12 +26667,13 @@
     },
     "406:10": {
       "preRequisites:11": [
-        393
+        393,
+        426
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oHotter than the surface temperature of the Sun!§r\n\n§aNaquadah Coils§r bring up the Heat Capacity to §d7,200K§r.\n\nThese coils are required for progressing to the second half of §dLuV§r, and beyond.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26648,12 +26720,14 @@
     },
     "407:10": {
       "preRequisites:11": [
-        406
+        406,
+        430,
+        439
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oIt\u0027s over 9000!§r!§r\n\n§aTrinium Coils§r bring up the Heat Capacity to §d9,001K§r.\n\nThese coils are required for progressing to the second half of §cZPM§r, and beyond.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27009,8 +27083,8 @@
     },
     "413:10": {
       "preRequisites:11": [
-        303,
-        407
+        338,
+        305
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27067,7 +27141,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe chances you are having TPS issues playing this modpack are slim, this Quest is more suited for late game bases with GregTech and AE2, and the tips apply to other modpacks.§r\n\nIf you run the command §9/forge tps§r, you will be given the current §4TPS§r and the §4tick time§r in milliseconds.\nIf the tick time exceeds 50ms, the server is under too much load, and won\u0027t be able to keep up with a steady 20 TPS.\n\nAny machine will add up to the tick time, but don\u0027t be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.\n\nThings to §cavoid§r in general:\n§9-§r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully this should not be an issue in this modpack.\n§9-§r Building everything packed together in a small space. Note that this does §onot§r affect TPS, but you will suffer FPS drops instead.\n§9-§r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.\n\nThings to§c avoid§r with AE2:\n§9-§r ME Import and Export Buses on large networks. Use ME Interfaces instead.\n§9-§r Crafting Cards to passively do large requests. Note that this is not as bad as it used to be, thanks to the optimizations from AE2 Unofficial.\n§9-§r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.\n\nThings to §cavoid§r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy the TPS, as with any mod):\n§9-§r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines.\n§9-§r Large amounts of Fluid Pipes. They are §onot§r laggy individually, but they can add up if you have thousands of them.\n§9-§r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories.",
+          "desc:8": "§oThe chances you are having TPS issues playing this modpack are slim, this Quest is more suited for late game bases with GregTech and AE2, and the tips apply to other modpacks.§r\n\nIf you run the command §9/forge tps§r, you will be given the current §4TPS§r and the §4tick time§r in milliseconds.\nIf the tick time exceeds 50ms, the server is under too much load, and won\u0027t be able to keep up with a steady 20 TPS.\n\nAny machine will add up to the tick time, but don\u0027t be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.\n\nThings to §cavoid§r in general:\n§9-§r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully this should not be an issue in this modpack.\n§9-§r Building everything packed together in a small space. Note that this does §onot§r affect TPS, but you will suffer FPS drops instead.\n§9-§r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.\n\nThings to§c avoid§r with AE2:\n§9-§r ME Import and Export Buses on large networks. Use ME Interfaces instead.\n§9-§r Crafting Cards to passively do large requests. Note that this is not as bad as it used to be, thanks to the optimizations from AE2 Unofficial.\n§9-§r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.\n\nThings to §cavoid§r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):\n§9-§r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines.\n§9-§r Large amounts of Fluid Pipes. They are §onot§r laggy individually, but they can add up if you have thousands of them.\n§9-§r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27336,7 +27410,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cWarning§r: §9Plasmas§r are §cextremely hot§r, with temperatures exceeding §d10 kK§r! \n\nHowever, this does §6§lnot§r mean that you need pipes to support that heat! Plasmas are treated slightly differently and break the rules a bit.\n\nFluid pipes supporting plasmas, such as §aTungsten§r, §aNaquadah§r, or §aDuranium§r can hold any plasma §6regardless of temperature§r! This means they will §lnot§r melt under the heat of the plasma!\n\n\nWARNING:§r Plasmas in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and §lvery high§r rates of §cdeath§r! Be careful!\n\n§bLore:§r This mechanic originates from GT6, just like the acids!",
+          "desc:8": "§cWarning§r: §9Plasmas§r are §cextremely hot§r, with temperatures exceeding §d30 kK§r! \n\nHowever, this does §6§lnot§r mean that you need pipes to support that heat! Plasmas are treated slightly differently and break the rules a bit.\n\nFluid pipes supporting plasmas, such as §aTungsten§r, §aNaquadah§r, or §aDuranium§r can hold any plasma §6regardless of temperature§r! This means they will §lnot§r melt under the heat of the plasma!\n\n\nWARNING:§r Plasmas in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and §lvery high§r rates of §cdeath§r! Be careful!\n\n§bLore:§r This mechanic originates from GT6, just like the acids!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27652,7 +27726,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you only have one §3Cleanroom§r, you will need another for §aSterilized§r recipes.\n\n§9Note:§r Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can\u0027t simply upgrade it.",
+          "desc:8": "§oNow with disinfectant!§r\n\nThe §aSterilized Cleanroom§r is required to produce the next tier of circuits. Nearly every step must be performed inside of one! Good luck fitting everything into such a tight space!\n\nIf you only have one §3Cleanroom§r, you will need another for §aSterilized§r recipes.\n\n§eNote§r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can\u0027t simply upgrade it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27699,7 +27773,9 @@
     },
     "425:10": {
       "preRequisites:11": [
-        305
+        305,
+        338,
+        446
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27746,6 +27822,1958 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "426:10": {
+      "preRequisites:11": [
+        393
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oDon\u0027t you mean Stargatium?§r\n\n§aNaquadah§r is a late-game material, used for many things. It is required for building a Fusion Reactor, and progressing to ZPM-tier, to name a few.\n\nFor some reason, its fluid is §agreen§r, don\u0027t ask me why.\n\n§bLore:§r Naquadah is a material originally from Stargate.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 124,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Naquadah",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 426,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 124,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "427:10": {
+      "preRequisites:11": [
+        298,
+        410,
+        217,
+        274,
+        412,
+        346
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oYour fun is about to get cranked up to 11!§r\n\n§dLuV§r Components are significantly more difficult to produce than their predecessors. They require an §9Assembly Line§r, many different forms of materials, and lots of fluids too!\n\nYou will notice that §9Samarium§r is required for §aLuV+ Motors§r. Samarium is on its own not very difficult to obtain, but smelting it is slightly more involved. It requires §9Liquid Helium§r in the Freezer. You may have seen this already, if you made §9IV Superconductors§r.\n\n§bLore:§r In the original GregTech 5, these components were unobtainable!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 132,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pure Joy",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 427,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 132,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 177,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 147,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 162,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 192,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 237,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 222,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "428:10": {
+      "preRequisites:11": [
+        426,
+        257,
+        409
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oYour blue cube is now green!§r\n\nThe §aAdvanced Processing Array§r is an upgrade to the regular version. It now has a maximum of §a64§r machines, instead of 16.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1031,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Processing Array",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 428,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1031,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "429:10": {
+      "preRequisites:11": [
+        296
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oTo Infinity, and Beyond!§r\n\nThe §aInfinity Booster Card§r is an upgrade to the §9Wireless Crafting Terminal§r, which gives it access to your AE system with unlimited range, and from any dimension.\n\n§eNote:§r You only need to craft one of these. They are not consumed in this modpack.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "ae2wtlib:infinity_booster_card"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Infinite Wireless Range",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 429,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "ae2wtlib:infinity_booster_card"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "430:10": {
+      "preRequisites:11": [
+        406,
+        300,
+        431
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oAnother Stargate material? Impossible!§r\n\n§aTrinium§r is a very important material for progression. You\u0027ll need it to make a §9Fusion Reactor§r, and throughout all §cZPM§r.\n\nIt also requires an §dLuV§r EBF to smelt! You\u0027ll probably want a dedicated setup for cooking this.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 130,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Trinium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 430,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 443,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 130,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "431:10": {
+      "preRequisiteTypes:7": [
+        1,
+        0
+      ],
+      "preRequisites:11": [
+        296,
+        298
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Quest will be completed with §eeither§r an §3LuV Energy Hatch§r§r... or an §3LuV Dynamo Hatch§r for your Multiblock Generators.\n\nStarting at §dLuV§r, you\u0027ll start upgrading more multiblocks, which means more energy hatches! Both the §9EBF§r, and the §9Assembly Line§r will need power upgrades.\n\nDon\u0027t forget that §d4 Amp§r variants exist!\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1216,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Upgrading your Assembly Line",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 431,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1216,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1231,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "432:10": {
+      "preRequisites:11": [
+        406,
+        390
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oBe glad they don\u0027t use pumps...§r\n\n§aLuV Superconductors§r are a big requirement for making a §9Fusion Reactor§r. You will need §ea lot§r§r of them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 429,
+            "OreDict:8": "",
+            "id:8": "gregtech:wire_single"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "LuV Superconductors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 432,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 429,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "433:10": {
+      "preRequisites:11": [
+        298
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oSpicy Plutonium Isotope§r\n\n§aPlutonium-241§r is yet another requirement for the §9Fusion Reactor§r. It\u0027s very easy to make: just centrifuge some §9Pu-239§r to separate some out!\n\nIn the future, this material will require a §dNuclear Reactor§r to produce, but that\u0027s not in GTCEu yet.\n\n§bLore§r: In GT Impact, making Pu-241 was a challenge. Your first Pu-241 had to be produced as a byproduct of its very expensive Naquadah fuel process, and it could only be made independently with something post-fusion!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 82,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Plutonium-241",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 433,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "434:10": {
+      "preRequisites:11": [
+        296,
+        297
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oIf you haven\u0027t struck gold yet, you will now§r\n\nThe §aLuV Electric Prospector§r is a major upgrade from the §eHV§r one. It will make finding Fluid and Ore veins very easy.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 468,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "MaxCharge:4": 163840000
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "LuV Prospector",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 434,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 468,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 163840000
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "435:10": {
+      "preRequisites:11": [
+        301
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oFusing Europium? How...?\n\n§aEuropium§r is the first major Fusion Material. You\u0027ll be using this quite a lot going forwards.\n\n§eNote§r: The temperature of liquid Europium is very hot, but  is not a plasma. Plan your piping accordingly!\n\n§bLore§r: In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and is not fused in real life.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 33,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Europium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 435,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 33,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "436:10": {
+      "preRequisiteTypes:7": [
+        0,
+        0,
+        1
+      ],
+      "preRequisites:11": [
+        411,
+        400,
+        398
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNot an actual TradeMark.§r\n\nThis armor provides more QoL compared to the Nano suit.\n\n§9Helmet:§r Provides §dNight vision§r (default keybind §4M§r but check for conflicts), prevents harmful potion effects, and automatically eats for you!\n\n§9Chestplate:§r Nullifies burning, but can be further upgraded into the §aAdvanced§r version at the very end of §dLuV§r Age. Note that this does NOT include a jetpack without the advanced upgrade.\n\n§9Leggings:§r Provides the speed boost which the Nano leggings did not.\n\n§9Boots:§r Provides §dStep Assist§r, nullifies fall damage, and increases jump height!\n\n§bLore:§r This armor is originally inspired by IndustrialCraft, but its first implementation within the GTCE environment came with Nuke Powered Utils, an addon mod to GTCE.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 41,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "QuarkTech™",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 436,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 40,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 41,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 42,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 43,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "437:10": {
+      "preRequisites:11": [
+        384,
+        436
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oQuite a bit of a microcrafting project, but this is worth it!§r\n\nThe Advanced Quantum Chestplate combines protection, a personal battery and an §6ultimate Jetpack§r, all in one.\n\nTo §denable charging§r, shift right-click it when it is in your hand, then equip it (Note that there is a bug when it sometimes does not want to charge... you will forgive it, right?).\n\nNote that this stores §oa lot§r of energy. You may want to invest in an §3LuV Turbo Charger§r.\n\n§bLore§r: This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 50,
+            "OreDict:8": "",
+            "id:8": "gregtech:gt_armor",
+            "tag:10": {}
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Best Flight",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 437,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 50,
+              "OreDict:8": "",
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "438:10": {
+      "preRequisites:11": [
+        435
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oHow do these even work?§r\n\n§aCrystal CPUs§r are used to produce §9Crystal Circuits§r, who would have thought?\n\nProducing these is quite a bit different from the previous circuits\u0027 components. Instead of standard silicon wafers, these rely on §9Emerald§r or §9Olivine§r.\n\nGetting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier autoclave. After you get your first Chip, you can duplicate them with §9Europium§r. Don\u0027t worry about those other recipes yet, they\u0027re for later on in §cZPM§r.\n\n§bLore§r: In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 704,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Crystal CPU",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 438,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 703,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 704,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "439:10": {
+      "preRequisites:11": [
+        300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNaquadah, but radioactive!§r\n\n§aEnriched Naquadah§r is an isotope of naquadah, Nq-528. It is radioactive, and will be used to produce power in the future.\n\nCurrently, you just need it to make §9Trinium Coils§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 125,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Enriched Naquadah",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 439,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 447,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 125,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "440:10": {
+      "preRequisites:11": [
+        300,
+        407
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNaquadah, but radioactive!§r\n\n§aNaquadria§r is an isotope of Naquadah, Nq-522. It is highly unstable, and used for §3UV§r components and §9Fusion Mk2§r.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 126,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Naquadria",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 440,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 448,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 126,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "441:10": {
+      "preRequisites:11": [
+        407
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oGetting tired of all these pitch-black ingots yet?§r\n\n§aZPM Superconductors§r are a big requirement for making a §9Fusion Reactor Mk2§r. You will need §ea lot§r§r of them. \n\nYou can also use them to make §9Superconducting Coils§r for cheaper.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 430,
+            "OreDict:8": "",
+            "id:8": "gregtech:wire_single"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "ZPM Superconductors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 441,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 430,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "442:10": {
+      "preRequisites:11": [
+        443,
+        302,
+        435
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Quest will be completed with §eeither§r a §3ZPM Energy Hatch§r§r... or a §3ZPM Dynamo Hatch§r for your Multiblock Generators.\n\nDon\u0027t forget that §d16 Amp§r variants exist!\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1217,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Upgrading your Assembly Line II",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 442,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1217,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1232,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "443:10": {
+      "preRequisites:11": [
+        426,
+        296
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aUHPIC§r unlocks §3ZPM Energy Hatches§r and §3Dynamos§r... You may know the drill, but do you know the screwdriver?",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 606,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ultra High Power Integrated Circuit",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 443,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 581,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 606,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "444:10": {
+      "preRequisites:11": [
+        435,
+        302
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oPrepare your Platline!§r\n\n§cZPM§r Components thankfully aren\u0027t too much harder than §dLuV§r. \n\nThey use lots of §9Osmiridum§r, so make sure your platinum refining process is up to the task.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 133,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Absolute Elation",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 444,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 133,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 178,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 148,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 163,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 193,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 238,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 223,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "445:10": {
+      "preRequisites:11": [
+        302
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oUltimited Power!!!§r\n\nThe §aZero Point Module§r (item) is a non-rechargable battery with TONS of energy stored. You may have found one of these before now, but couldn\u0027t discharge it until reaching §cZPM§r tier.\n\nThese can only be found as loot from §6Jungle Temples§r.  They\u0027re very rare, so don\u0027t worry about finding one. This quest is §6optional§r and is just for fun.\n\n§bLore:§r Zero Point Module, the full name of the ZPM tier, is  also from Stargate. It is named after a device which generated crazy amounts of energy.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 752,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Zero Point Module",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 445,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 752,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 2000000000000
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "446:10": {
+      "preRequisites:11": [
+        303
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThis really should be made in a nuclear reactor...§r\n\n§aAmericium§r is a Fusion Mk2 material, used to progress into the §3UV§r tier!\n\nAnd yes, it does indeed have two fusion steps!\n\n§bLore§r: In Gregicality Legacy, Americium was replaced with Dubnium. Americium is a material only obtained from nuclear reactors, so GCYL changed it to the synthetic element Dubnium instead.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Americium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 446,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "447:10": {
+      "preRequisites:11": [
+        424
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThe final processing line, at last!§r\n\nProduction of §aSterilized Growth Medium§r is the final processing line in GTCEu, for now at least...\n\nYou will need this for §4Wetware Circuits§r.\n\nProducing it is not nearly as difficult as PBI, but nearly every step requires a Sterilized Cleanroom. This means you\u0027ll have to get creative with how you use your space.\n\nMake sure to look at every recipe for every step. Some inputs are much more effective than others!\n\n§ePro Tip§r: You can wall-share cleanrooms, with doors in-between too, if you want more space.\n\n§bLore§r: GTCEu\u0027s Sterilized Growth Medium chain is loosely based off of Bartworks\u0027 from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line! GTCEu is considering adding a multiblock like it but with their own spin in the future.\n\n§bMore Lore§r: In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients.\n\n§bEven More Lore§r: In Shadows of Greg, this was made with just Distilled Water and Mince Meat! Oh how far we have come...",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 84,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "sterilized_growth_medium"
+              }
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Sterlized Growth Medium",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 447,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sterilized_growth_medium"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "448:10": {
+      "preRequisites:11": [
+        450
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThe board that keeps life§r\n\nThe final circuit board at last! As you can see, this board is §cmuch§r more expensive than the other ones, but you should be okay.\n\n§bLore§r: In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits! Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were neeed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 407,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Master Circuit Board",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 448,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 407,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "449:10": {
+      "preRequisites:11": [
+        442
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oWhen engraving it once just isn\u0027t enough§r\n\nThe §aCrystal SoC§r is used to make cheaper §9Crystal Circuits§r. Enjoy the discount!\n\nIn the future, these may become more difficult to make.\n\n§bLore§r: In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why!\n\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 705,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Crystal SoC",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 449,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 705,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "450:10": {
+      "preRequisites:11": [
+        447
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThis texture is really ugly...§r\n\n§aStem Cells§r are a major component of §4Wetware Circuits§r. Just don\u0027t ask why these use Osmiridium.\n\n§bLore§r: The Nomifactory modpack has a much better texture for these, and uses it in its custom Draconic Stem Cells.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 709,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Stem Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 450,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "451:10": {
+      "preRequisites:11": [
+        413
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aUV Superconductors§r are a big requirement for making a §9Fusion Reactor Mk3§r. You will need §ea lot§r§r of them. \n\nYou can also use them to make §9Superconducting Coils§r for even cheaper.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 431,
+            "OreDict:8": "",
+            "id:8": "gregtech:wire_single"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "UV Superconductors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 451,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 431,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "452:10": {
+      "preRequisites:11": [
+        338,
+        446,
+        305
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oPrepare your Fusion Reactors!§r\n\n§3UV§r Components are a little bit harder than §cZPM§r. \n\nThey use lots of §9Tritanium§r and §9Naquadria§r, so make sure your have enough Fusion Reactors, and a fast enough Naquadah Plant.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 134,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Total Euphoria",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 452,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 134,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 179,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 149,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 164,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 194,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "453:10": {
+      "preRequisites:11": [
+        307
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oHow does Neutronate even work??§r\n\nYou probably don\u0027t even need these, but §aUHV Superconductors§r exist, and are used for a few things, which you also probably don\u0027t even need.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 432,
+            "OreDict:8": "",
+            "id:8": "gregtech:wire_single"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "UHV Superconductors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 453,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 432,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "454:10": {
+      "preRequisiteTypes:7": [
+        1
+      ],
+      "preRequisites:11": [
+        305
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Quest will be completed with §eeither§r a §3UV Energy Hatch§r§r... or a §3UV Dynamo Hatch§r for your Multiblock Generators.\n\nDon\u0027t forget that §d16 Amp§r variants exist!\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1217,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Upgrading your Assembly Line III",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 454,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1218,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1233,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "455:10": {
+      "preRequisites:11": [
+        307
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oNo, it doesn\u0027t make you float§r\n\nThe §aGravi Star§r is the final upgraded Nether Star in GTCEu. It\u0027s needed for §3UV§r Sensors, Emitters, and Field Generators.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 283,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Gravi Star",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 455,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 283,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "456:10": {
+      "preRequisites:11": [
+        455
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oAnd you thought there wouldn\u0027t be creative items...§r\n\nThe §aCreative Wireless Terminal§r is one of the few craftable creative items. It has infinite range, works in any dimension, and does not consume energy.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "wct:wct_creative",
+            "tag:10": {
+              "IsInRange:1": 0
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Creative Wireless Terminal",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 456,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "wct:wct_creative",
+              "tag:10": {
+                "IsInRange:1": 0
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "457:10": {
+      "preRequisites:11": [
+        453
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This Quest will be completed with §eeither§r a §3UHV Energy Hatch§r§r... or a §3UHV Dynamo Hatch§r for your Multiblock Generators.\n\nThese are the final energy hatches in GTCEu. \n\nDon\u0027t forget about the §d16 amp§r versions!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1219,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Upgrading your Assembly Line for the Last Time",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 457,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1219,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1234,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "458:10": {
+      "preRequisites:11": [
+        308
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oIs this... the end?§r\n\nCrafting this item is the end of GTCEu and the GregTech Community Modpack. §6Congratulations!§r\n\nNow that you\u0027ve finished the mod, there\u0027s a few things you should do:\n\n- §9Join the GTCEu Discord§r and tell us about how your playthrough went! Also show off your battery :) \n   §9Link§r: TODO\n\n- §eGo outside§r (and start playing GregTech in real life, right?)\n\n- §cBlow up your world with TNT and GT Dynamite§r. §nMake a backup first!!!§r\n\n\n§6Thank you for playing the pack!§r\n- The GregTech Community Pack Dev Team",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": "",
+            "id:8": "gregtech:warning_sign_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The End",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "UNLOCKED"
+        }
+      },
+      "questID:3": 458,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     }
@@ -29584,363 +31612,356 @@
           "y:3": 192
         },
         "1:10": {
-          "id:3": 125,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 414,
-          "y:3": 138
-        },
-        "2:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": -192
         },
-        "3:10": {
+        "2:10": {
           "id:3": 142,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
           "y:3": -150
         },
-        "4:10": {
+        "3:10": {
           "id:3": 145,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -54,
           "y:3": 0
         },
-        "5:10": {
+        "4:10": {
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -126,
           "y:3": 6
         },
-        "6:10": {
+        "5:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -48
         },
-        "7:10": {
+        "6:10": {
           "id:3": 194,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 12,
           "y:3": -150
         },
-        "8:10": {
+        "7:10": {
           "id:3": 195,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -150
         },
-        "9:10": {
+        "8:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": -144
         },
-        "10:10": {
+        "9:10": {
           "id:3": 199,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
           "y:3": -90
         },
-        "11:10": {
+        "10:10": {
           "id:3": 200,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 426,
           "y:3": -144
         },
-        "12:10": {
+        "11:10": {
           "id:3": 201,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -48,
           "y:3": 126
         },
-        "13:10": {
+        "12:10": {
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 18,
           "y:3": 192
         },
-        "14:10": {
+        "13:10": {
           "id:3": 203,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -198
         },
-        "15:10": {
+        "14:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": 132
         },
-        "16:10": {
+        "15:10": {
           "id:3": 205,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 192,
           "y:3": 6
         },
-        "17:10": {
+        "16:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 90
         },
-        "18:10": {
+        "17:10": {
           "id:3": 207,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 186,
           "y:3": 180
         },
-        "19:10": {
+        "18:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 126,
           "y:3": -96
         },
-        "20:10": {
+        "19:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 294,
           "y:3": 12
         },
-        "21:10": {
+        "20:10": {
           "id:3": 210,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 408,
           "y:3": 84
         },
-        "22:10": {
+        "21:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 90
         },
-        "23:10": {
+        "22:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 138
         },
-        "24:10": {
+        "23:10": {
           "id:3": 213,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
           "y:3": 6
         },
-        "25:10": {
+        "24:10": {
           "id:3": 214,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 126,
           "y:3": -192
         },
-        "26:10": {
+        "25:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -192
         },
-        "27:10": {
+        "26:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": 192
         },
-        "28:10": {
+        "27:10": {
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 90
         },
-        "29:10": {
+        "28:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 192
         },
-        "30:10": {
+        "29:10": {
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": 72
         },
-        "31:10": {
+        "30:10": {
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": 150
         },
-        "32:10": {
+        "31:10": {
           "id:3": 226,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 282,
           "y:3": -96
         },
-        "33:10": {
+        "32:10": {
           "id:3": 227,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -174,
           "y:3": 6
         },
-        "34:10": {
+        "33:10": {
           "id:3": 228,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -90
         },
-        "35:10": {
+        "34:10": {
           "id:3": 229,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": 192
         },
-        "36:10": {
+        "35:10": {
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -96
         },
-        "37:10": {
+        "36:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 192
         },
-        "38:10": {
+        "37:10": {
           "id:3": 232,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 18,
           "y:3": -192
         },
-        "39:10": {
+        "38:10": {
           "id:3": 233,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": 72
         },
-        "40:10": {
+        "39:10": {
           "id:3": 242,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": -192
         },
-        "41:10": {
+        "40:10": {
           "id:3": 247,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": 36
         },
-        "42:10": {
+        "41:10": {
           "id:3": 313,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 90
         },
-        "43:10": {
+        "42:10": {
           "id:3": 317,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": 114
         },
-        "44:10": {
+        "43:10": {
           "id:3": 320,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 90
         },
-        "45:10": {
+        "44:10": {
           "id:3": 323,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": 6
         },
-        "46:10": {
+        "45:10": {
           "id:3": 324,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": -48
         },
-        "47:10": {
+        "46:10": {
           "id:3": 326,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": -12
         },
-        "48:10": {
+        "47:10": {
           "id:3": 352,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": -96
         },
-        "49:10": {
+        "48:10": {
           "id:3": 377,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 192,
           "y:3": -150
         },
-        "50:10": {
+        "49:10": {
           "id:3": 378,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 132
         },
-        "51:10": {
+        "50:10": {
           "id:3": 387,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": -96
         },
-        "52:10": {
+        "51:10": {
           "id:3": 423,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -29969,391 +31990,398 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 125,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 66
+        },
+        "1:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 252
         },
-        "1:10": {
+        "2:10": {
           "id:3": 197,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -168,
           "y:3": 192
         },
-        "2:10": {
+        "3:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 156
         },
-        "3:10": {
+        "4:10": {
           "id:3": 205,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -324,
           "y:3": 96
         },
-        "4:10": {
+        "5:10": {
           "id:3": 207,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -36,
           "y:3": 246
         },
-        "5:10": {
+        "6:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -42,
           "y:3": 6
         },
-        "6:10": {
+        "7:10": {
           "id:3": 217,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
           "y:3": 48
         },
-        "7:10": {
+        "8:10": {
           "id:3": 220,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
           "y:3": -48
         },
-        "8:10": {
+        "9:10": {
           "id:3": 224,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 102,
           "y:3": 162
         },
-        "9:10": {
+        "10:10": {
           "id:3": 248,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -36,
           "y:3": -108
         },
-        "10:10": {
+        "11:10": {
           "id:3": 249,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": -78
         },
-        "11:10": {
+        "12:10": {
           "id:3": 252,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 150,
           "y:3": -54
         },
-        "12:10": {
+        "13:10": {
           "id:3": 253,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 144,
           "y:3": -114
         },
-        "13:10": {
+        "14:10": {
           "id:3": 254,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -102
         },
-        "14:10": {
+        "15:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -48
         },
-        "15:10": {
+        "16:10": {
           "id:3": 256,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -36,
           "y:3": 96
         },
-        "16:10": {
+        "17:10": {
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": -48
         },
-        "17:10": {
+        "18:10": {
           "id:3": 259,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 156
         },
-        "18:10": {
+        "19:10": {
           "id:3": 260,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 204
         },
-        "19:10": {
+        "20:10": {
           "id:3": 261,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -222,
           "y:3": 90
         },
-        "20:10": {
+        "21:10": {
           "id:3": 262,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 48
         },
-        "21:10": {
+        "22:10": {
           "id:3": 264,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 102
         },
-        "22:10": {
+        "23:10": {
           "id:3": 265,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 102
         },
-        "23:10": {
+        "24:10": {
           "id:3": 266,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 150,
           "y:3": 96
         },
-        "24:10": {
+        "25:10": {
           "id:3": 267,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 54
         },
-        "25:10": {
+        "26:10": {
           "id:3": 268,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 18
         },
-        "26:10": {
+        "27:10": {
           "id:3": 269,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 156
         },
-        "27:10": {
+        "28:10": {
           "id:3": 270,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 204
         },
-        "28:10": {
+        "29:10": {
           "id:3": 271,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 156
         },
-        "29:10": {
+        "30:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 204
         },
-        "30:10": {
+        "31:10": {
           "id:3": 273,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 252
         },
-        "31:10": {
+        "32:10": {
           "id:3": 274,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
           "y:3": 156
         },
-        "32:10": {
+        "33:10": {
           "id:3": 275,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 252,
           "y:3": -108
         },
-        "33:10": {
+        "34:10": {
           "id:3": 276,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": -18
         },
-        "34:10": {
+        "35:10": {
           "id:3": 281,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": 54
         },
-        "35:10": {
+        "36:10": {
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
           "y:3": -102
         },
-        "36:10": {
+        "37:10": {
           "id:3": 312,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
           "y:3": -48
         },
-        "37:10": {
+        "38:10": {
           "id:3": 314,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 24,
           "y:3": -48
         },
-        "38:10": {
+        "39:10": {
           "id:3": 329,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 54
         },
-        "39:10": {
+        "40:10": {
           "id:3": 340,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -48
         },
-        "40:10": {
+        "41:10": {
           "id:3": 341,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -102
         },
-        "41:10": {
+        "42:10": {
           "id:3": 351,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": -48
         },
-        "42:10": {
+        "43:10": {
           "id:3": 363,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": -102
         },
-        "43:10": {
+        "44:10": {
           "id:3": 374,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 210,
           "y:3": -48
         },
-        "44:10": {
+        "45:10": {
           "id:3": 375,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": -48
         },
-        "45:10": {
+        "46:10": {
           "id:3": 379,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 252
         },
-        "46:10": {
+        "47:10": {
           "id:3": 380,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
           "y:3": 168
         },
-        "47:10": {
+        "48:10": {
           "id:3": 381,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 204
         },
-        "48:10": {
+        "49:10": {
           "id:3": 382,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 252
         },
-        "49:10": {
+        "50:10": {
           "id:3": 383,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 252
         },
-        "50:10": {
+        "51:10": {
           "id:3": 389,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -48
         },
-        "51:10": {
+        "52:10": {
           "id:3": 391,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": 252
         },
-        "52:10": {
+        "53:10": {
           "id:3": 392,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
           "y:3": 168
         },
-        "53:10": {
+        "54:10": {
           "id:3": 408,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 102
         },
-        "54:10": {
+        "55:10": {
           "id:3": 418,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": 204
         },
-        "55:10": {
+        "56:10": {
           "id:3": 422,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -30480,158 +32508,172 @@
           "y:3": 84
         },
         "14:10": {
+          "id:3": 337,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 150,
+          "y:3": -204
+        },
+        "15:10": {
           "id:3": 342,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": -204
         },
-        "15:10": {
+        "16:10": {
           "id:3": 343,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": -132
         },
-        "16:10": {
+        "17:10": {
           "id:3": 376,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 84
         },
-        "17:10": {
+        "18:10": {
           "id:3": 388,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 84
         },
-        "18:10": {
+        "19:10": {
           "id:3": 390,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -132
         },
-        "19:10": {
+        "20:10": {
           "id:3": 393,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -216,
           "y:3": -210
         },
-        "20:10": {
+        "21:10": {
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -78
         },
-        "21:10": {
+        "22:10": {
           "id:3": 395,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": 84
         },
-        "22:10": {
+        "23:10": {
           "id:3": 396,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": 12
         },
-        "23:10": {
+        "24:10": {
           "id:3": 397,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -66
         },
-        "24:10": {
+        "25:10": {
           "id:3": 398,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -138
         },
-        "25:10": {
+        "26:10": {
           "id:3": 399,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 144,
           "y:3": -138
         },
-        "26:10": {
+        "27:10": {
           "id:3": 400,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -204
         },
-        "27:10": {
+        "28:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -60
         },
-        "28:10": {
+        "29:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -132
         },
-        "29:10": {
+        "30:10": {
           "id:3": 404,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -60
         },
-        "30:10": {
+        "31:10": {
           "id:3": 405,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": -60
         },
-        "31:10": {
+        "32:10": {
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -132
         },
-        "32:10": {
+        "33:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -204
         },
-        "33:10": {
+        "34:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -204
         },
-        "34:10": {
+        "35:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -132
         },
-        "35:10": {
+        "36:10": {
           "id:3": 415,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 12
+        },
+        "37:10": {
+          "id:3": 436,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -330,
+          "y:3": -204
         }
       }
     },
@@ -30655,130 +32697,263 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 217,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -396,
+          "y:3": 18
+        },
+        "1:10": {
+          "id:3": 274,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -360,
+          "y:3": 18
+        },
+        "2:10": {
           "id:3": 289,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -90
+          "x:3": 36,
+          "y:3": -84
         },
-        "1:10": {
+        "3:10": {
+          "id:3": 296,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -234,
+          "y:3": 12
+        },
+        "4:10": {
+          "id:3": 297,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -84
+        },
+        "5:10": {
           "id:3": 298,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -90
+          "x:3": -306,
+          "y:3": -30
         },
-        "2:10": {
+        "6:10": {
           "id:3": 299,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -126
+          "x:3": -12,
+          "y:3": 66
         },
-        "3:10": {
+        "7:10": {
           "id:3": 300,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -90
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -384,
+          "y:3": -156
         },
-        "4:10": {
+        "8:10": {
           "id:3": 301,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -90
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -156,
+          "y:3": -156
         },
-        "5:10": {
+        "9:10": {
           "id:3": 302,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -54
+          "x:3": -438,
+          "y:3": -150
         },
-        "6:10": {
+        "10:10": {
+          "id:3": 312,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -150,
+          "y:3": 18
+        },
+        "11:10": {
           "id:3": 330,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -126
+          "x:3": -12,
+          "y:3": 18
         },
-        "7:10": {
+        "12:10": {
           "id:3": 331,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -126
+          "x:3": -12,
+          "y:3": -30
         },
-        "8:10": {
+        "13:10": {
           "id:3": 332,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -126
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -18,
+          "y:3": -90
         },
-        "9:10": {
-          "id:3": 337,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -294,
-          "y:3": -102
-        },
-        "10:10": {
+        "14:10": {
           "id:3": 344,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -54
+          "x:3": -78,
+          "y:3": -30
         },
-        "11:10": {
+        "15:10": {
           "id:3": 345,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -162
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -156,
+          "y:3": -36
         },
-        "12:10": {
+        "16:10": {
           "id:3": 346,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -18
+          "x:3": -378,
+          "y:3": -84
         },
-        "13:10": {
+        "17:10": {
+          "id:3": 376,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -210,
+          "y:3": 54
+        },
+        "18:10": {
           "id:3": 384,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -54
+          "x:3": -78,
+          "y:3": -216
         },
-        "14:10": {
+        "19:10": {
           "id:3": 401,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -18
+          "x:3": -438,
+          "y:3": -216
         },
-        "15:10": {
-          "id:3": 406,
+        "20:10": {
+          "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -18
+          "x:3": -78,
+          "y:3": -84
         },
-        "16:10": {
+        "21:10": {
+          "id:3": 406,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -312,
+          "y:3": -222
+        },
+        "22:10": {
+          "id:3": 412,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -438,
+          "y:3": -30
+        },
+        "23:10": {
           "id:3": 414,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -54
+          "x:3": -306,
+          "y:3": 18
         },
-        "17:10": {
+        "24:10": {
           "id:3": 419,
           "sizeX:3": 24,
           "sizeY:3": 24,
+          "x:3": -150,
+          "y:3": -84
+        },
+        "25:10": {
+          "id:3": 426,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -378,
+          "y:3": -216
+        },
+        "26:10": {
+          "id:3": 427,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -378,
+          "y:3": -30
+        },
+        "27:10": {
+          "id:3": 428,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -378,
+          "y:3": -276
+        },
+        "28:10": {
+          "id:3": 429,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -246,
+          "y:3": 54
+        },
+        "29:10": {
+          "id:3": 430,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -312,
+          "y:3": -156
+        },
+        "30:10": {
+          "id:3": 431,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -306,
+          "y:3": -84
+        },
+        "31:10": {
+          "id:3": 432,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -150,
+          "y:3": -216
+        },
+        "32:10": {
+          "id:3": 433,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": -228,
-          "y:3": -126
+          "y:3": -150
+        },
+        "33:10": {
+          "id:3": 434,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -228,
+          "y:3": -30
+        },
+        "34:10": {
+          "id:3": 435,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -84,
+          "y:3": -156
+        },
+        "35:10": {
+          "id:3": 437,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -216
+        },
+        "36:10": {
+          "id:3": 438,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -150
         }
       }
     },
@@ -30796,94 +32971,178 @@
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "§fZPM§r - Zero Point Module",
+          "name:8": "§c§f§cZPM§r - Zero Point Module",
           "visibility:8": "ALWAYS"
         }
       },
       "quests:9": {
         "0:10": {
-          "id:3": 303,
+          "id:3": 302,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -84
+          "x:3": -216,
+          "y:3": -144
         },
         "1:10": {
-          "id:3": 304,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -120
+          "id:3": 303,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -162,
+          "y:3": -90
         },
         "2:10": {
           "id:3": 305,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
+          "x:3": -96,
           "y:3": -84
         },
         "3:10": {
           "id:3": 333,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -138,
-          "y:3": -120
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -102,
+          "y:3": -24
         },
         "4:10": {
           "id:3": 334,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -174,
-          "y:3": -120
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -222,
+          "y:3": -24
         },
         "5:10": {
           "id:3": 335,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -120
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -342,
+          "y:3": -24
         },
         "6:10": {
           "id:3": 336,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -84
+          "x:3": -396,
+          "y:3": -18
         },
         "7:10": {
-          "id:3": 337,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -276,
-          "y:3": -114
-        },
-        "8:10": {
           "id:3": 338,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -138,
+          "x:3": -336,
+          "y:3": -84
+        },
+        "8:10": {
+          "id:3": 344,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -276,
           "y:3": -84
         },
         "9:10": {
           "id:3": 385,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -102
+          "x:3": -30,
+          "y:3": -204
         },
         "10:10": {
           "id:3": 407,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -66,
-          "y:3": -120
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -162,
+          "y:3": -210
         },
         "11:10": {
           "id:3": 424,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -174,
+          "x:3": -336,
+          "y:3": -144
+        },
+        "12:10": {
+          "id:3": 439,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -204
+        },
+        "13:10": {
+          "id:3": 440,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -204
+        },
+        "14:10": {
+          "id:3": 441,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -144
+        },
+        "15:10": {
+          "id:3": 442,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": -144
+        },
+        "16:10": {
+          "id:3": 443,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
           "y:3": -84
+        },
+        "17:10": {
+          "id:3": 444,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -276,
+          "y:3": -144
+        },
+        "18:10": {
+          "id:3": 445,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -276,
+          "y:3": -204
+        },
+        "19:10": {
+          "id:3": 446,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -84
+        },
+        "20:10": {
+          "id:3": 447,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -336,
+          "y:3": -204
+        },
+        "21:10": {
+          "id:3": 448,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -396,
+          "y:3": -114
+        },
+        "22:10": {
+          "id:3": 449,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -144
+        },
+        "23:10": {
+          "id:3": 450,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -396,
+          "y:3": -204
         }
       }
     },
@@ -30907,60 +33166,130 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 306,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -216,
-          "y:3": -84
+          "id:3": 304,
+          "sizeX:3": 60,
+          "sizeY:3": 60,
+          "x:3": -264,
+          "y:3": -108
         },
         "1:10": {
-          "id:3": 307,
+          "id:3": 305,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": -84
+          "x:3": -246,
+          "y:3": 6
         },
         "2:10": {
-          "id:3": 308,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": -84
+          "id:3": 306,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -180,
+          "y:3": -96
         },
         "3:10": {
-          "id:3": 309,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": -48
+          "id:3": 307,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -90,
+          "y:3": -96
         },
         "4:10": {
-          "id:3": 337,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -282,
-          "y:3": -78
+          "id:3": 308,
+          "sizeX:3": 96,
+          "sizeY:3": 96,
+          "x:3": 12,
+          "y:3": -30
         },
         "5:10": {
+          "id:3": 309,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -90,
+          "y:3": -42
+        },
+        "6:10": {
           "id:3": 386,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": -48
-        },
-        "6:10": {
-          "id:3": 413,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -216,
-          "y:3": -48
+          "x:3": -132,
+          "y:3": 6
         },
         "7:10": {
+          "id:3": 413,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -336,
+          "y:3": 0
+        },
+        "8:10": {
           "id:3": 425,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -48
+          "x:3": -210,
+          "y:3": 24
+        },
+        "9:10": {
+          "id:3": 446,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -174,
+          "y:3": 6
+        },
+        "10:10": {
+          "id:3": 451,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -336,
+          "y:3": -96
+        },
+        "11:10": {
+          "id:3": 452,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -210,
+          "y:3": -12
+        },
+        "12:10": {
+          "id:3": 453,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -138
+        },
+        "13:10": {
+          "id:3": 454,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -174,
+          "y:3": -138
+        },
+        "14:10": {
+          "id:3": 455,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -90
+        },
+        "15:10": {
+          "id:3": 456,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -138
+        },
+        "16:10": {
+          "id:3": 457,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -138
+        },
+        "17:10": {
+          "id:3": 458,
+          "sizeX:3": 168,
+          "sizeY:3": 168,
+          "x:3": -24,
+          "y:3": 96
         }
       }
     },
