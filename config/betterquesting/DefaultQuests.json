@@ -24756,7 +24756,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "To get yourself Titanium, §aRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §dCarbon§r, §dChlorine§r, §dOxygen§r, and §dMagnesium§r used in the process can be §6perfectly recovered§r from the byproduct §dCarbon Monoxide§r and §dMagnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r. This is totally and completely optional, though.\n\n§cWarning:§r §aTitanium Tetrachloride§r is a §chot Fluid§r. Transporting it in pipes that do not have enough heat capacity will §cburn§r them.\nTouching pipes with them may also instantly §ckill§r you.",
+          "desc:8": "To get yourself Titanium, §aRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §dCarbon§r, §dChlorine§r, §dOxygen§r, and §dMagnesium§r used in the process can be §6perfectly recovered§r from the byproduct §dCarbon Monoxide§r and §dMagnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r. This is totally and completely optional, though.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28567,7 +28567,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHow do these even work?§r\n\n§aCrystal CPUs§r are used to produce §9Crystal Circuits§r, who would have thought?\n\nProducing these is quite a bit different from the previous circuits\u0027 components. Instead of standard silicon wafers, these rely on §9Emerald§r or §9Olivine§r.\n\nGetting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier autoclave. After you get your first Chip, you can duplicate them with §9Europium§r. Don\u0027t worry about those other recipes yet, they\u0027re for later on in §cZPM§r.\n\n§bLore§r: In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!",
+          "desc:8": "§oHow do these even work?§r\n\n§aCrystal CPUs§r are used to produce §9Crystal Circuits§r, who would have thought?\n\nProducing these is quite a bit different from the previous circuits\u0027 components. Instead of standard silicon wafers, these rely on §9Emerald§r or §9Olivine§r.\n\nGetting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier autoclave. After you get your first Chip, you can duplicate them with §9Europium§r. Don\u0027t worry about those other recipes yet, they\u0027re for later on in §cZPM§r.\n\n§eNote§r: An §9Advanced Item Detector§r cover will be useful for automating these. They work just like the Advanced Energy Detector.\n\n§bLore§r: In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28664,8 +28664,19 @@
               "Damage:2": 447,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 125,
               "OreDict:8": "",
@@ -28723,12 +28734,23 @@
               "Damage:2": 448,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 126,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -29057,7 +29079,7 @@
               }
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "index:3": 1,
@@ -29762,7 +29784,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "The End",
+          "name:8": "The Finale",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -29889,7 +29911,7 @@
               "id:8": "gregtech:machine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "index:3": 1,
@@ -29946,7 +29968,7 @@
               "id:8": "gregtech:machine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "index:3": 1,
@@ -30110,6 +30132,62 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "465:10": {
+      "preRequisites:11": [
+        26
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §3Charcoal Pile Igniter§r is a unique multiblock. It is used to produce §aCharcoal§r faster than §3Coke Ovens§r, but comes with the trade-off of §amanual labor§r.\n\nTo operate the igniter, dig a big pit into the ground, up to §e15x15x15§r blocks in size. Fill the floor of the pit with vanilla §abrick blocks§r. Then, fill the remaining space entirely with §alogs§r. After that, §acover the filled pit§r with grass, dirt, or other natural groundcover to form a roof. In the layer with the roof, place the igniter! To start it, light it with §aFlint and Steel§r.\n\nOnce the progress completes, open up the pit and mine the §aBrittle Charcoal§r with a shovel (or spade!). Each block drops 1.4 charcoal on average, and one log converts into one block!\n\n§eNote§r: The pit must be §centirely§r full of logs. Air blocks will not allow the multiblock to form.\n\n§eNote§r: This quest is §boptional§r. If you would like to skip this quest, hit the checkmark instead.\n\n§bLore§r: This multiblock originally comes from GT5u, but did not require a fire-starting item to start.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1036,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fuel Pit",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 465,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1036,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     }
@@ -30908,7 +30986,7 @@
           "id:3": 105,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
+          "x:3": -246,
           "y:3": -270
         },
         "32:10": {
@@ -30945,6 +31023,13 @@
           "sizeY:3": 24,
           "x:3": -390,
           "y:3": -90
+        },
+        "37:10": {
+          "id:3": 465,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -210,
+          "y:3": -270
         }
       }
     },
@@ -33128,7 +33213,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
-          "y:3": 18
+          "y:3": 12
         },
         "11:10": {
           "id:3": 330,
@@ -33177,7 +33262,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 54
+          "y:3": 36
         },
         "18:10": {
           "id:3": 384,
@@ -33254,7 +33339,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 18
+          "y:3": 0
         },
         "29:10": {
           "id:3": 430,
@@ -33317,14 +33402,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
-          "y:3": 18
+          "y:3": 0
         },
         "38:10": {
           "id:3": 463,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
-          "y:3": 54
+          "y:3": 36
         }
       }
     },
@@ -33548,7 +33633,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -252,
-          "y:3": 0
+          "y:3": 36
         },
         "2:10": {
           "id:3": 306,
@@ -33596,7 +33681,7 @@
           "id:3": 425,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
+          "x:3": -216,
           "y:3": 36
         },
         "9:10": {
@@ -33617,7 +33702,7 @@
           "id:3": 452,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -276,
+          "x:3": -288,
           "y:3": 36
         },
         "12:10": {
@@ -33752,6 +33837,13 @@
           "sizeY:3": 24,
           "x:3": -6,
           "y:3": 72
+        },
+        "9:10": {
+          "id:3": 429,
+          "sizeX:3": 30,
+          "sizeY:3": 30,
+          "x:3": 78,
+          "y:3": 120
         }
       }
     },
@@ -34941,7 +35033,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
