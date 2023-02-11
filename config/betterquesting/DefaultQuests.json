@@ -11892,7 +11892,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your one and only trusty source for Nickel.\n\nCobalt is also an excellent early game material for tools.",
+          "desc:8": "Your one and only trusty source for Nickel.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12733,7 +12733,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Coal as an ore is barely worth it, but this is a classic.",
+          "desc:8": "Coal as an ore is barely worth it, because of the additional step(s) required to get it as usable fuel, but this is a classic.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
