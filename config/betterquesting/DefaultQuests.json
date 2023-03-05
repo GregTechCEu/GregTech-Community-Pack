@@ -28026,19 +28026,24 @@
       }
     },
     "429:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        296
+        296,
+        392
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTo Infinity, and Beyond!§r\n\nThe §aInfinity Booster Card§r is an upgrade to the §9Wireless Crafting Terminal§r, which gives it access to your AE system with unlimited range, and from any dimension.\n\n§eNote:§r You only need to craft one of these. They are not consumed in this modpack.",
+          "desc:8": "§oTo Infinity, and Beyond!§r\n\nThe §aQuantum Link Card§r is an upgrade to the §9Quantum Link Tunnel§r, which gives §9Wireless Terminals§r access to your AE system with unlimited range, and from any dimension.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 59,
             "OreDict:8": "",
-            "id:8": "ae2wtlib:infinity_booster_card"
+            "id:8": "appliedenergistics2:material"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -28068,9 +28073,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 59,
               "OreDict:8": "",
-              "id:8": "ae2wtlib:infinity_booster_card"
+              "id:8": "appliedenergistics2:material"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -29645,7 +29650,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAnd you thought there wouldn\u0027t be creative items...§r\n\nThe §aCreative Wireless Terminal§r is one of the few craftable creative items. It has infinite range, works in any dimension, and does not consume energy.",
+          "desc:8": "§oAnd you thought there wouldn\u0027t be creative items...§r\n\nThe §aCreative Energy Cell§r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don\u0027t have to worry about adding any more §9Dense Energy Cells§r, or using §9Energy Acceptors§r anymore.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29660,7 +29665,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Creative Wireless Terminal",
+          "name:8": "Creative ME Energy",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -30142,7 +30147,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Charcoal Pile Igniter§r is a unique multiblock. It is used to produce §aCharcoal§r faster than §3Coke Ovens§r, but comes with the trade-off of §amanual labor§r.\n\nTo operate the igniter, dig a big pit into the ground, up to §e9x5x9§r blocks in size. The tooltip mentions up to 4 blocks in depth, but you'll need up to a 5th for the structure. Fill the floor of the pit with vanilla §abrick blocks§r. Then, fill the remaining space entirely with §alogs§r. After that, §acover the filled pit§r with grass, dirt, or other natural groundcover to form a roof. In the layer with the roof, place the igniter! To start it, light it with §aFlint and Steel§r.\n\nOnce the progress completes, open up the pit and mine the §aBrittle Charcoal§r with a shovel (or spade!). Each block drops 1.4 charcoal on average, and one log converts into one block!\n\n§eNote§r: The pit must be §centirely§r full of logs. Air blocks will not allow the multiblock to form.\n\n§eNote§r: This quest is §boptional§r. If you would like to skip this quest, hit the checkmark instead.\n\n§bLore§r: This multiblock originally comes from GT5u, but did not require a fire-starting item to start.",
+          "desc:8": "The §3Charcoal Pile Igniter§r is a unique multiblock. It is used to produce §aCharcoal§r faster than §3Coke Ovens§r, but comes with the trade-off of §amanual labor§r.\n\nTo operate the igniter, dig a big pit into the ground, up to §e9x5x9§r blocks in size. The tooltip mentions up to 4 blocks in depth, but you\u0027ll need up to a 5th for the structure. Fill the floor of the pit with vanilla §abrick blocks§r. Then, fill the remaining space entirely with §alogs§r. After that, §acover the filled pit§r with grass, dirt, or other natural groundcover to form a roof. In the layer with the roof, place the igniter! To start it, light it with §aFlint and Steel§r.\n\nOnce the progress completes, open up the pit and mine the §aBrittle Charcoal§r with a shovel (or spade!). Each block drops 1.4 charcoal on average, and one log converts into one block!\n\n§eNote§r: The pit must be §centirely§r full of logs. Air blocks will not allow the multiblock to form.\n\n§eNote§r: This quest is §boptional§r. If you would like to skip this quest, hit the checkmark instead.\n\n§bLore§r: This multiblock originally comes from GT5u, but did not require a fire-starting item to start.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30188,6 +30193,120 @@
         "1:10": {
           "index:3": 1,
           "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "466:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
+      "preRequisites:11": [
+        123,
+        245
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This terminal will allow you to configure the automatically stocked fluids in a §afluid interface§r remotely!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 522,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:part"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fluid Interface Configuration",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 466,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 522,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:part"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "467:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
+      "preRequisites:11": [
+        125,
+        245
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This terminal will allow you to configure the automatically stocked items in an item interface remotely!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 521,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:part"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Interface Configuration",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 467,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 521,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:part"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     }
@@ -33780,7 +33899,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
-          "y:3": -30
+          "y:3": -36
         },
         "1:10": {
           "id:3": 156,
@@ -33801,7 +33920,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
-          "y:3": -30
+          "y:3": -36
         },
         "4:10": {
           "id:3": 246,
@@ -33844,6 +33963,20 @@
           "sizeY:3": 30,
           "x:3": 78,
           "y:3": 120
+        },
+        "10:10": {
+          "id:3": 466,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 114
+        },
+        "11:10": {
+          "id:3": 467,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 18,
+          "y:3": 114
         }
       }
     },
