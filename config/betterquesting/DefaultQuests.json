@@ -24689,7 +24689,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIf you get the reference in the name of the Quest, yeah, you don\u0027t need that mod.§r\n\nThe §3Extended Pattern Terminal§r has §616 slots§r instead of 9 slots.\n\nThanks to it, you can automate all the §3Assembly Line§r recipes using §2AE2§r.",
+          "desc:8": "§oIf you get the reference in the name of the Quest, yeah, you don\u0027t need that mod.§r\n\nThe §3Extended Pattern Terminal§r has §616 slots§r instead of 9 slots.\n\nThanks to it, you can automate all the §3Assembly Line§r recipes using §2AE2§r.\n\nIf you use §aAE2 Fluid Crafting§r, there is also a fluid version of this. It\u0027s quite expensive!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30309,6 +30309,78 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "468:10": {
+      "preRequisiteTypes:7": [
+        1
+      ],
+      "preRequisites:11": [
+        295
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aAE2 Fluid Crafting§r allows you to autocraft with fluids directly!\n\nTo get started, you need a §aFluid Descretizer§r. Only one is required for the entire ME network. It will make all of your fluids accessible by your system into \"Drops.\" These do NOT take up space in your storage system, despite being items.\n\nOnce you have one in your network, you can use §aFluid Pattern Terminals§r to pattern recipes with fluids in them directly. This is very useful for circuits, for example.\n\nThe §eDual Interface§r can be used for autocrafting recipes containing fluids. It will supply both the items and fluids according to the requested craft.\n\nThe §9Fluid Packet Decoder§r can be used to turn the Drops back into normal fluid, if you get some.\n\nThe §9Precision Burette§r can be used to fill fluid containers with precise amounts. You probably don\u0027t need this...\n\nThe §9Fluid Assembler§r allows you to autocraft recipes that use filled fluid containers, but instead draws the fluid from the ME system. An example of this would be recipes using water buckets in them. You also probably don\u0027t need this...\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "ae2fc:fluid_discretizer"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "AE2 Fluid Crafting",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 468,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "ae2fc:fluid_discretizer"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "ae2fc:part_fluid_pattern_terminal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -33235,6 +33307,13 @@
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -204
+        },
+        "40:10": {
+          "id:3": 468,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 150,
+          "y:3": -60
         }
       }
     },
@@ -33898,8 +33977,8 @@
           "id:3": 104,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": -36
+          "x:3": 60,
+          "y:3": -42
         },
         "1:10": {
           "id:3": 156,
@@ -33916,66 +33995,66 @@
           "y:3": -30
         },
         "3:10": {
-          "id:3": 245,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -36
-        },
-        "4:10": {
           "id:3": 246,
           "sizeX:3": 66,
           "sizeY:3": 66,
           "x:3": 60,
           "y:3": 24
         },
-        "5:10": {
+        "4:10": {
           "id:3": 374,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 18
         },
-        "6:10": {
+        "5:10": {
           "id:3": 376,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 72
         },
-        "7:10": {
+        "6:10": {
           "id:3": 392,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -6,
           "y:3": 18
         },
-        "8:10": {
+        "7:10": {
           "id:3": 416,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -6,
-          "y:3": 72
+          "x:3": 102,
+          "y:3": -42
         },
-        "9:10": {
+        "8:10": {
           "id:3": 429,
           "sizeX:3": 30,
           "sizeY:3": 30,
           "x:3": 78,
           "y:3": 120
         },
-        "10:10": {
+        "9:10": {
           "id:3": 466,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 18,
           "y:3": 114
         },
-        "11:10": {
+        "10:10": {
           "id:3": 467,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
+          "x:3": -6,
+          "y:3": 66
+        },
+        "11:10": {
+          "id:3": 468,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
           "y:3": 114
         }
       }
