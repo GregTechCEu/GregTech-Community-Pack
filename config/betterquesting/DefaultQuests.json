@@ -22937,7 +22937,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§4Charcoal smelting in Furnace is disabled§r, you will need the §3Coke Oven§r.\n§dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.\n\nIf you want to enable Charcoal smelting regardless, you can head to GregTech configs.\n\n\n§bLore:§r There are plans to port the Charcoal Pile Igniter from GT5, a primitive way to get Charcoal at great yield, but at the cost of manual labor.",
+          "desc:8": "§4Charcoal smelting in Furnace is disabled§r, you will need the §3Coke Oven§r.\n§dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.\n\nIf you want to enable Charcoal smelting regardless, you can head to GregTech configs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30142,7 +30142,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Charcoal Pile Igniter§r is a unique multiblock. It is used to produce §aCharcoal§r faster than §3Coke Ovens§r, but comes with the trade-off of §amanual labor§r.\n\nTo operate the igniter, dig a big pit into the ground, up to §e15x15x15§r blocks in size. Fill the floor of the pit with vanilla §abrick blocks§r. Then, fill the remaining space entirely with §alogs§r. After that, §acover the filled pit§r with grass, dirt, or other natural groundcover to form a roof. In the layer with the roof, place the igniter! To start it, light it with §aFlint and Steel§r.\n\nOnce the progress completes, open up the pit and mine the §aBrittle Charcoal§r with a shovel (or spade!). Each block drops 1.4 charcoal on average, and one log converts into one block!\n\n§eNote§r: The pit must be §centirely§r full of logs. Air blocks will not allow the multiblock to form.\n\n§eNote§r: This quest is §boptional§r. If you would like to skip this quest, hit the checkmark instead.\n\n§bLore§r: This multiblock originally comes from GT5u, but did not require a fire-starting item to start.",
+          "desc:8": "The §3Charcoal Pile Igniter§r is a unique multiblock. It is used to produce §aCharcoal§r faster than §3Coke Ovens§r, but comes with the trade-off of §amanual labor§r.\n\nTo operate the igniter, dig a big pit into the ground, up to §e9x5x9§r blocks in size. The tooltip mentions up to 4 blocks in depth, but you'll need up to a 5th for the structure. Fill the floor of the pit with vanilla §abrick blocks§r. Then, fill the remaining space entirely with §alogs§r. After that, §acover the filled pit§r with grass, dirt, or other natural groundcover to form a roof. In the layer with the roof, place the igniter! To start it, light it with §aFlint and Steel§r.\n\nOnce the progress completes, open up the pit and mine the §aBrittle Charcoal§r with a shovel (or spade!). Each block drops 1.4 charcoal on average, and one log converts into one block!\n\n§eNote§r: The pit must be §centirely§r full of logs. Air blocks will not allow the multiblock to form.\n\n§eNote§r: This quest is §boptional§r. If you would like to skip this quest, hit the checkmark instead.\n\n§bLore§r: This multiblock originally comes from GT5u, but did not require a fire-starting item to start.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
