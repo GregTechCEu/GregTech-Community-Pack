@@ -307,17 +307,39 @@ recipes.addShaped("wireless_terminal", <appliedenergistics2:wireless_terminal>, 
 
 // Wireless Crafting Terminal
 recipes.removeByRecipeName("wct:wct");
-recipes.addShaped("wct", <wct:wct>, [
+recipes.removeByRecipeName("appliedenergistics2:network/wireless_crafting_terminal");
+recipes.addShaped("wireless_crafting_terminal", <appliedenergistics2:wireless_crafting_terminal>, [
     [<appliedenergistics2:wireless_terminal>, <metaitem:cover.crafting>],
     [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
 ]);
 
-// Creative Wireless Crafting Terminal
-recipes.removeByRecipeName("wct:wct");
-recipes.addShaped("wct_creative", <wct:wct_creative>, [
-    [<wct:wct>, <metaitem:field.generator.uv>],
+// TODO: Remove - legacy conversion recipe
+recipes.addShapeless("wct", <appliedenergistics2:wireless_crafting_terminal>, [<wct:wct>]);
+
+// Wireless Pattern Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/wireless_pattern_terminal");
+recipes.addShaped("wireless_pattern_terminal", <appliedenergistics2:wireless_pattern_terminal>, [
+    [<appliedenergistics2:wireless_terminal>, <appliedenergistics2:material:52>],
     [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
 ]);
+
+// Wireless Fluid Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/wireless_fluid_terminal");
+recipes.addShaped("wireless_fluid_terminal", <appliedenergistics2:wireless_fluid_terminal>, [
+    [<appliedenergistics2:wireless_terminal>, <ore:pipeNormalFluidPolytetrafluoroethylene>],
+    [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
+]);
+
+// Creative Energy Cell
+recipes.removeByRecipeName("wct:wct");
+recipes.addShaped("creative_energy_cell", <appliedenergistics2:creative_energy_cell>, [
+    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>],
+    [<appliedenergistics2:dense_energy_cell>, <metaitem:field.generator.uv>, <appliedenergistics2:dense_energy_cell>],
+    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>]
+]);
+
+// TODO: Remove - legacy conversion recipe
+recipes.addShapeless("wct_creative", <appliedenergistics2:creative_energy_cell>, [<wct:wct_creative>]);
 
 // Biometric Card
 recipes.removeByRecipeName("appliedenergistics2:tools/network_biometric_card");
@@ -500,11 +522,14 @@ recipes.addShapeless("cardspeed", <appliedenergistics2:material:30>, [
 
 // Magnet Card
 recipes.removeByRecipeName("wct:magnet_card");
-recipes.addShaped("magnet_card", <wct:magnet_card>, [
+recipes.addShaped("magnet_card", <appliedenergistics2:material:60>, [
     [<ore:dyeRed>, <appliedenergistics2:part:300>, <ore:dyeBlue>],
     [<ore:plateDoubleTitanium>, <metaitem:item_magnet.hv>, <ore:plateDoubleTitanium>],
     [<ore:plateTitanium>, <ore:plateDoubleTitanium>, <ore:plateTitanium>]
 ]);
+
+// TODO: Remove - legacy conversion recipe
+recipes.addShapeless("magnet_card_legacy", <appliedenergistics2:material:60>, [<wct:magnet_card>]);
 
 // Basic Card
 recipes.removeByRecipeName("appliedenergistics2:materials/basiccard");
@@ -974,6 +999,20 @@ recipes.addShaped("terminals_interface", <appliedenergistics2:part:480>, [
     [<appliedenergistics2:material:24>, <ore:gtceScrewdrivers>]
 ]);
 
+// ME Interface Configuration Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_interface_configuration_revert");
+recipes.addShaped("terminals_interface_configuration", <appliedenergistics2:part:521>, [
+    [<appliedenergistics2:part:480>, <ore:pipeSmallItemPolyvinylChloride>],
+    [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
+]);
+
+// ME Fluid Interface Configuration Terminal
+recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_fluid_interface_configuration");
+recipes.addShaped("terminals_fluid_interface_configuration", <appliedenergistics2:part:522>, [
+    [<appliedenergistics2:part:480>, <ore:pipeSmallFluidPlastic>],
+    [<appliedenergistics2:part:16>, <ore:gtceScrewdrivers>]
+]);
+
 // ME Fluid Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals_fluid");
 recipes.addShaped("terminals_fluid", <appliedenergistics2:part:520>, [
@@ -996,12 +1035,15 @@ recipes.addShaped("wireless_booster", <appliedenergistics2:material:42>, [
     [<ore:plateSteel>, <ore:plateSteel>]
 ]);
 
-// Infinity Booster
+// Quantum Link Card
 recipes.removeByRecipeName("ae2wtlib:booster_card_old");
-recipes.addShaped("booster_card_new", <ae2wtlib:infinity_booster_card>, [
-    [<appliedenergistics2:material:42>, <metaitem:sensor.luv>],
+recipes.addShaped("quantum_link_card", <appliedenergistics2:material:59>, [
+    [<appliedenergistics2:material:28>, <metaitem:sensor.luv>],
     [<metaitem:emitter.luv>, <ore:gtceScrewdrivers>]
 ]);
+
+// TODO: Remove - legacy conversion recipe
+recipes.addShapeless("booster_card_new", <appliedenergistics2:material:59>, [<ae2wtlib:infinity_booster_card>]);
 
 // Portable Cell
 recipes.removeByRecipeName("appliedenergistics2:tools/network_portable_cell");
