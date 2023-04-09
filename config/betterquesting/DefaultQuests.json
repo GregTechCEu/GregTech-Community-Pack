@@ -1,5 +1,4 @@
 {
-  "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -29652,10 +29651,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "wct:wct_creative",
-            "tag:10": {
-              "IsInRange:1": 0
-            }
+            "id:8": "appliedenergistics2:creative_energy_cell"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -29679,7 +29675,7 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -29687,10 +29683,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "wct:wct_creative",
-              "tag:10": {
-                "IsInRange:1": 0
-              }
+              "id:8": "appliedenergistics2:creative_energy_cell"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -35241,7 +35234,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
