@@ -7,6 +7,7 @@ import hashlib
 import json
 # if there is a problem with building, please let htmlcsjs know
 import os
+import stat
 import shutil
 import subprocess
 import sys
@@ -103,6 +104,15 @@ def build(args):
     cringe = []
     headers = {'Accept': 'application/json', 'x-api-key': os.getenv("CFAPIKEY")}
     for mod in manifest["files"]:
+        clientOnly = False
+        try:
+            clientOnly = mod["clientOnly"]
+            # clean up the distributed file
+            del mod["clientOnly"]
+        except:
+            pass
+        modClientOnly.append(clientOnly)
+
         r = requests.get(
             'https://api.curseforge.com/v1/mods/{0}/files/{1}/download-url'.format(mod["projectID"], mod["fileID"]),
             headers=headers)
@@ -127,12 +137,14 @@ def build(args):
             modlist.append(name)
         else:
             modlist.append(metadata["data"].split("/")[-1])
-        modURLlist.append(metadata["data"])
-        try:
-            modClientOnly.append(mod["clientOnly"])
-        except:
-            modClientOnly.append(False)
+            modURLlist.append(metadata["data"])
+
+    # write the json without "clientOnly" to the file
+    with open(basePath + "/manifest.json", mode='w') as file:
+        json.dump(manifest, file, indent=4);
+
     print("modlist compiled")
+
     with open(basePath + "/buildOut/modlist.html", "w") as file:
         data = "<html><body><h1>Modlist</h1><ul>"
         for mod in modlist:
@@ -151,8 +163,8 @@ def build(args):
     print("directories copied to buildOut/server")
     for i, mod in enumerate(modURLlist):
         jarname = mod.split("/")[-1]
-        if (modClientOnly[i] == True):
-            break
+        if (modClientOnly[i]):
+            continue
 
         if os.path.exists(os.path.join(cachepath, jarname)):
             shutil.copy2(os.path.join(cachepath, jarname),
@@ -231,7 +243,7 @@ def build(args):
 
         for i, mod in enumerate(modURLlist):
             jarname = mod.split("/")[-1]
-            if (modClientOnly[i] == False):
+            if (not modClientOnly[i]):
                 break
 
             with open(basePath + "/buildOut/mmc/minecraft/mods/" + jarname, "w+b") as jar:
