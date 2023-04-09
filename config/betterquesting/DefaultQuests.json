@@ -768,7 +768,7 @@
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
                   "Material:8": "iron",
-                  "MaxDurability:3": 256,
+                  "MaxDurability:3": 768,
                   "ToolSpeed:5": 4.8
                 },
                 "HideFlags:3": 2
@@ -22036,14 +22036,10 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
+              "id:8": "betterquesting:quest_book",
               "tag:10": {
-                "orig_id:8": "questbook:itemquestbook",
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "display:10": {
-                    "Name:8": "TYPE IN CHAT /bq_admin default load"
-                  }
+                "display:10": {
+                  "Name:8": "TYPE IN CHAT /bq_admin default load"
                 }
               }
             }
@@ -26727,7 +26723,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIt\u0027s over 9000!§r!§r\n\n§aTrinium Coils§r bring up the Heat Capacity to §d9,001K§r.\n\nThese coils are required for progressing to the second half of §cZPM§r, and beyond.",
+          "desc:8": "§oIt\u0027s over 9000!!§!§\n\n\n§aTrinium Coils§r bring up the Heat Capacity to §d9,001K§r.\n\nThese coils are required for progressing to the second half of §cZPM§r, and beyond.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27090,7 +27086,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oWhat even requires this temperature?§!§\n\n\n§aTritanium Coils§r bring the Heat Capacity to §d10,800K§r.\n\nThese coils aren\u0027t needed for much, but they\u0027ll provide another perfect overclock for most recipes!\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
