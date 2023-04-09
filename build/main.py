@@ -7,7 +7,6 @@ import hashlib
 import json
 # if there is a problem with building, please let htmlcsjs know
 import os
-import stat
 import shutil
 import subprocess
 import sys
