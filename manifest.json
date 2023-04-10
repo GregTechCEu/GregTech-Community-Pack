@@ -3,8 +3,8 @@
         "version": "1.12.2",
         "modLoaders": [
             {
-            "id": "forge-14.23.5.2860",
-            "primary": true
+                "id": "forge-14.23.5.2860",
+                "primary": true
             }
         ]
     },
@@ -13,16 +13,16 @@
     "manifestVersion": 1,
     "version": "1.0",
     "author": "GregTech Community Pack Dev Team",
-    "externalDeps":[
-    ],
+    "externalDeps": [],
     "name": "GregTech Community Pack",
-    "files":[
+    "files": [
         {
             "projectID": 557549,
             "fileID": 4109510,
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 461660,
             "fileID": 3962479,
             "required": true
@@ -38,6 +38,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 250398,
             "fileID": 3025548,
             "required": true
@@ -93,11 +94,13 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 250419,
             "fileID": 2898966,
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 513857,
             "fileID": 3739783,
             "required": true
@@ -143,6 +146,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 271740,
             "fileID": 2707353,
             "required": true
@@ -158,6 +162,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 226447,
             "fileID": 2477566,
             "required": true
@@ -168,6 +173,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 265917,
             "fileID": 2951731,
             "required": true
@@ -193,6 +199,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 251407,
             "fileID": 2624712,
             "required": true
@@ -223,6 +230,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 314002,
             "fileID": 2719400,
             "required": true
@@ -238,6 +246,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 243478,
             "fileID": 2745657,
             "required": true
@@ -248,6 +257,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 238747,
             "fileID": 2739582,
             "required": true
@@ -258,6 +268,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 231275,
             "fileID": 2801170,
             "required": true
@@ -268,6 +279,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 282313,
             "fileID": 2689835,
             "required": true
@@ -338,6 +350,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 383632,
             "fileID": 3056455,
             "required": true
@@ -373,6 +386,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 306555,
             "fileID": 2707092,
             "required": true
@@ -408,6 +422,7 @@
             "required": true
         },
         {
+            "clientOnly": true,
             "projectID": 272515,
             "fileID": 2685984,
             "required": true
