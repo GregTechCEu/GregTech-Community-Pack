@@ -12,3 +12,6 @@ CODESTYLE.md @GregTechCEu/admin
 LICENSE @GregTechCEu/admin
 README.md @GregTechCEu/admin
 permission*.png @GregTechCEu/admin
+
+# Build stuff should be reviewed by specific people
+/build/** @htmlcsjs @TechLord22
