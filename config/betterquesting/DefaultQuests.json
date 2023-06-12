@@ -768,7 +768,7 @@
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
                   "Material:8": "iron",
-                  "MaxDurability:3": 256,
+                  "MaxDurability:3": 768,
                   "ToolSpeed:5": 4.8
                 },
                 "HideFlags:3": 2
@@ -4550,7 +4550,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTechnically, you could make more or less any LV Machine, but I specifically want you to make the best one of them all first! I know, I know... You\u0027re asking where is your freedom of choice.§r\n\nNo more painful wires! This machine lets you make §6two Wires from one Ingot§r, that should be three times cheaper than what you were doing up until now!\n\nTo the right of this Quest are more important machines which will help you a lot to get cheaper intermediates.\n\n\n§9Note:§r Recipes inside §3LV Machines§r go up to §aUsage: 32 EU/t (LV)§r. Anything higher than that and you will need a MV or even better machine instead. Needless to say that\u0027s for later.\n\n\n§oThis Quest\u0027s reward is wonderful. It\u0027s called freedom!\nOverall rewards will also be less generous from now on.§r",
+          "desc:8": "§oTechnically, you could make more or less any LV Machine, but I specifically want you to make the best one of them all first! I know, I know... You\u0027re asking where is your freedom of choice.§r\n\nNo more painful wires! This machine lets you make §6two Wires from one Ingot§r, that should be three times cheaper than what you were doing up until now!\n\nTo the right of this Quest are more important machines which will help you a lot to get cheaper intermediates.\n\n\n§9Note:§r Recipes inside §3LV Machines§r go up to §aUsage: 32 EU/t (LV)§r. Anything higher than that and you will need a MV or even better machine instead. Needless to say that\u0027s for later.\n\nYou will need a §dProgrammed Circuit§r for recipes. I\u0027m sure you don\u0027t want to spend a precious circuit crafting one, so §6read the dedicated quest for important details§r.\n\n\n§oThis Quest\u0027s reward is wonderful. It\u0027s called freedom!\nOverall rewards will also be less generous from now on.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4602,7 +4602,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oArgueably the second best LV machine to craft, but the choice is yours!§r\n\nThis helps converting one §6Ingot into one Plate§r, which is a better ratio than the Forge Hammer.\n\nYou will need a §dProgrammed Circuit§r for recipes. That would be nice if the questbook designer gave one for free, wouldn\u0027t it?\n\nThe Programmed Circuit can be configured by hand, or with the §aConfiguration Slot§r in the machine GUI. This slot also works for recipes!",
+          "desc:8": "§oArgueably the second best LV machine to craft, but the choice is yours!§r\n\nThis helps converting one §6Ingot into one Plate§r, which is a better ratio than the Forge Hammer.\n\nYou will need a §dProgrammed Circuit§r for recipes. I\u0027m sure you don\u0027t want to spend a precious circuit crafting one, so §6read the dedicated quest for important details§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4626,23 +4626,7 @@
         }
       },
       "questID:3": 55,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 461,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1",
-              "tag:10": {
-                "Configuration:3": 1
-              }
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -8877,7 +8861,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIf you read the previous Quest, this shouldn\u0027t be too bad. If you didn\u0027t... What are you waiting for!?§r\n\nDistillating §aOil§r will give you Fuel that you will need to desulfurize.\n\n§aHydrogen Sulfide§r is perfectly §drecycled§r in an §3Electrolyzer§r.\nTo automate this process, simply place your §3Chemical Reactor§r and your §3Electrolyzer§r next to each other. Be sure to use your §5Screwdriver§r to §4enable input from output side§r.\n\n\n§aLight Fuel§r is a good §9Power§r option. But there is something even greater... Check the Quest to the left.",
+          "desc:8": "§oIf you read the previous Quest, this shouldn\u0027t be too bad. If you didn\u0027t... What are you waiting for!?§r\n\nDistillating §aOil§r will give you Fuel that you will need to desulfurize.\n\n§aHydrogen Sulfide§r is perfectly §drecycled§r in an §3Electrolyzer§r.\nTo automate this process, simply place your §3Chemical Reactor§r and your §3Electrolyzer§r next to each other. Be sure to use your §5Screwdriver§r to §4enable input from output side§r.\n\n\n§aNaphtha§r is a good §9Product§r source. Keep following the quests to the right for more details.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8886,14 +8870,14 @@
             "id:8": "forge:bucketfilled",
             "tag:10": {
               "Amount:3": 1000,
-              "FluidName:8": "light_fuel"
+              "FluidName:8": "naphtha"
             }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Light Fuel",
+          "name:8": "Naphtha",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8916,11 +8900,11 @@
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
-              "FluidName:8": "sulfuric_light_fuel"
+              "FluidName:8": "sulfuric_naphtha"
             },
             "1:10": {
               "Amount:3": 1000,
-              "FluidName:8": "light_fuel"
+              "FluidName:8": "naphtha"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -8988,7 +8972,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aLight Fuel§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r at 100% efficiency. The recipes you are doing with the Chemical Reactor have §450% loss§r!\n\n\n§9Note:§r All of this looks terribly inefficient, I hope that\u0027s a good motivation for you to tier up! The tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+          "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aNaphtha§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r at 100% efficiency. The recipes you are doing with the Chemical Reactor have §450% loss§r!\n\n\n§9Note:§r All of this looks terribly inefficient, I hope that\u0027s a good motivation for you to tier up! The tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8997,7 +8981,7 @@
             "id:8": "forge:bucketfilled",
             "tag:10": {
               "Amount:3": 1000,
-              "FluidName:8": "severely_steamcracked_light_fuel"
+              "FluidName:8": "severely_steamcracked_naphtha"
             }
           },
           "ignoresview:1": 0,
@@ -9027,7 +9011,7 @@
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
-              "FluidName:8": "severely_steamcracked_light_fuel"
+              "FluidName:8": "severely_steamcracked_naphtha"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -9142,7 +9126,7 @@
               "tag:10": {
                 "Fluid:10": {
                   "Amount:3": 32000,
-                  "FluidName:8": "light_fuel"
+                  "FluidName:8": "naphtha"
                 }
               }
             }
@@ -10068,12 +10052,13 @@
     "138:10": {
       "preRequisites:11": [
         128,
-        123
+        123,
+        195
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A Circuit Component, that you can now make thanks the §3MV Assembler§r.",
+          "desc:8": "A Circuit Component, that you can now make thanks the §3MV Assembler§r and your new §3Kanthal EBF§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10631,7 +10616,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oBenzene causes leukemia even at low concentrations.§r\n\n§aBenzene§r is also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel Quests.\n\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
+          "desc:8": "§oBenzene causes leukemia even at low concentrations.§r\n\n§aBenzene§r is also a §9Gas Fuel§r. I will present you only the two best ways to obtain it.\n\nThis Power option is typically §dWood based§r. Put Logs in the §3Pyrolyse Oven§r for §9Wood Tar§r, and the Charcoal you obtained in §3Extractors§r for more §9Wood Tar§r, which you §3distill§r for §aBenzene§r.\n\nThis Power option can also be §dHeavy Oil based§r. Put Heavy Oil in a §3Distillery§r for §9Heavy Fuel§r, which you §aseverely steam-crack§r and §3distill§r it again for §aBenzene§r.\nFor information on how to process Oil, check the Light Fuel and Naphtha Quests.\n\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aBenzene§r is burned in a §3Gas Turbine§r. This power source starts weaker than its §eDiesel§r cousin, but gets a big boost when refined to §6Nitrobenzene§r in §6HV§r Age. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10700,12 +10685,12 @@
     },
     "149:10": {
       "preRequisites:11": [
-        119
+        471
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically.\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
+          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically. §dOilsands§r is great to use for this!\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10853,7 +10838,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFinally, Fluid Drilling Rigs in GTCEu!§r\n\nIt is quite an investment to get to run a §3Fluid Drilling Rig§r, but it is by far the most prominent §6source of Oil§r.\nIt pumps fluids from underneath Bedrock. Note that the fluids aren\u0027t actually there, instead they are simulated.\n\nFluid veins are stored within regions of §48x8 chunks§r. Each vein has a different fluid, but they are mostly types Oil.\nYou are not able to do prospection for fluid veins §oyet§r, this will come in the §6HV§r Age.\n\nEach vein generates with a different base yield. This is typically between §d150L§r to §d300L per second§r.\n\nWhen drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time, until it reaches its depletion yield. At that point you should move the Rig to somewhere else.\nA §3Basic Fluid Drilling Rig§r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for §6well over 10,000§r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate.\n\n\nWhat you can find in the §2Overworld§r:\n§9Oil:§r richer in §aLight Fuel§r, the most appreciated variant.\n§9Light Oil:§r richer in §aRefinery Gas§r, usable for power.\n§9Heavy Oil:§r richer in §aHeavy Fuel§r, which has uses that are more niche.\n§9Raw Oil:§r essentially a less dense version of §aOil§r, the least appreciated.\n§9Natural Gas:§r grants §aRefinery Gas§r with no distillation required.\n§l§9Salt Water:§r grants §aSodium§r and §aChlorine§r, useful later.\n\n§rWhat you can find in the §cNether§r:\n§9Natural Gas:§r grants §aRefinery Gas§r but with higher yield than the Overworld vein.\n§9Lava:§r you know what this is.\n\n\nFor starters you may have to tap randomly until you find something you like. Whatever you pump can be used to refuel your Fluid Rig.",
+          "desc:8": "§oFinally, Fluid Drilling Rigs in GTCEu!§r\n\nIt is quite an investment to get to run a §3Fluid Drilling Rig§r, but it is by far the most prominent §6source of Oil§r.\nIt pumps fluids from underneath Bedrock. Note that the fluids aren\u0027t actually there, instead they are simulated.\n\nFluid veins are stored within regions of §48x8 chunks§r. Each vein has a different fluid, but they are mostly types Oil.\nYou are not able to do prospection for fluid veins §oyet§r, this will come in the §6HV§r Age.\n\nEach vein generates with a different base yield. This is typically between §d150L§r to §d300L per second§r.\n\nWhen drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time, until it reaches its depletion yield. At that point you should move the Rig to somewhere else.\nA §3Basic Fluid Drilling Rig§r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for §6well over 10,000§r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate.\n\n\nWhat you can find in the §2Overworld§r:\n§9Oil:§r richer in §aLight Fuel§r, the most appreciated variant.\n§9Light Oil:§r richer in §aRefinery Gas§r, usable for power.\n§9Heavy Oil:§r richer in §aHeavy Fuel§r, which has uses that are more niche.\n§9Raw Oil:§r richer in §aNaphtha§r, the best source of the early-game oil products.\n§9Natural Gas:§r grants §aRefinery Gas§r with no distillation required.\n§l§9Salt Water:§r grants §aSodium§r and §aChlorine§r, useful later.\n\n§rWhat you can find in the §cNether§r:\n§9Natural Gas:§r grants §aRefinery Gas§r but with higher yield than the Overworld vein.\n§9Lava:§r you know what this is.\n\n\nFor starters you may have to tap randomly until you find something you like. Whatever you pump can be used to refuel your Fluid Rig.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11308,7 +11293,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The underground has pure Oilsands ore veins. You may §3centrifuge§r the Dust to get §aOil§r.\n\n\n§9§lNote:§r §lThe Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOilsands is a §6mediocre but easy starting point§r, it may help transition to Fluid Drilling Rigs.",
+          "desc:8": "The underground has pure Oilsands ore veins. You may §3centrifuge§r the Dust to get §aOil§r.\n\n\n§9§lNote:§r §lThe Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOilsands is an §6easy starting point§r, it may help transition to Fluid Drilling Rigs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11840,7 +11825,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "oil",
+          "desc:8": "Good source of §6Heavy Oil§r, which is useful for §6Diesel§r setups early on.\n\nIf you don\u0027t want to process the ore entirely, you can §bCentrifuge§r it directly.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13608,8 +13593,7 @@
     },
     "194:10": {
       "preRequisites:11": [
-        142,
-        145
+        142
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13661,13 +13645,13 @@
     },
     "195:10": {
       "preRequisites:11": [
-        194,
-        80
+        80,
+        153
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIs it getting hot in here?§r\n\n§3Kanthal Heating Coils§r are the next major step in progression. This increases the temperature of your §3Blast Furnace§r to §d2,700K§r, allowing you to process new materials. They may also §eaccelerate§r less hot recipes - check the next quest for details.\n\nYou will need §a128 Ingots§r, which will take easily over an hour. You can move on to other projects while your §3EBF§r is hard at work.",
+          "desc:8": "§oIs it getting hot in here?§r\n\n§3Kanthal Heating Coils§r are the next major step in progression. This increases the temperature of your §3Blast Furnace§r to §d2,700K§r, allowing you to process new materials. They may also §eaccelerate§r less hot recipes - check the next quest for details.\n\nYou will need §a128 Ingots§r, which will take easily over an hour. You can move on to other projects while your §3EBF§r is hard at work.\n\nAn §3MV Chemical Bath§r is required to cool §cHot Ingots§r down. They\u0027re §chot§r when held, as the name implies. §oMaybe you should save your hands and automate this...§r\n\nWith the construction of a §3Kanthal EBF§r, you\u0027re now able to make §dSilicon Ingots§r!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13703,9 +13687,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 288,
+              "Damage:2": 201,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13716,6 +13700,23 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 288,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
@@ -13855,12 +13856,12 @@
     },
     "198:10": {
       "preRequisites:11": [
-        195
+        226
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oDoping is the process of intentionally introducing impurities into semiconductors to change their properties.§r\n\n§7Silicon§r can be doped with small amounts of §eGlowstone§r to make a better §eSilicon Boule§r.\n\nGlowstone-doped Silicon Boules typically yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.",
+          "desc:8": "§oDoping is the process of intentionally introducing impurities into semiconductors to change their properties.§r\n\n§7Silicon§r can be doped with small amounts of §ePhosphorus§r to make a better §eSilicon Boule§r.\n\nPhosphorus-doped Silicon Boules typically yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.\n\n§9Note§r: All processing of Phosphorus Boules and Wafers requires a §dCleanroom§r!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13872,7 +13873,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Glowstone Boules",
+          "name:8": "Phosphorus Boules",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -14162,7 +14163,8 @@
     },
     "203:10": {
       "preRequisites:11": [
-        195
+        195,
+        194
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14233,8 +14235,7 @@
       "preRequisites:11": [
         201,
         226,
-        323,
-        195
+        323
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14560,7 +14561,8 @@
     },
     "208:10": {
       "preRequisites:11": [
-        377
+        377,
+        194
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14956,7 +14958,8 @@
     },
     "214:10": {
       "preRequisites:11": [
-        195
+        195,
+        194
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -15966,7 +15969,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Coils Behaviour",
+          "name:8": "Coils Behavior",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -16158,13 +16161,21 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the §3Input Bus§r of your §3Vacuum Freezer§r, open it and set to §e§lingotHot*§r whitelist.\nThe slot is to §dtest§r items to make sure you configured the Filter properly, drag ingots from JEI!\n\nFrom here, you have the option to route either with §9Item Pipes§r or §9AE2§r.\n\n§2With Item Pipes§r, connect the output of your §3EBF(s)§r to the input of your §3Vacuum Freezer§r and the output dump (Chest, Crate, or ME Interface).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Vacuum Freezer will be prioritized.\n\n§2With AE2§r, place a §3ME Storage Bus§r on top of your Cover and set to very §dhigh priority§r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
+          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.§r\n\nYou already know the drill from the Chemical Bath, so let\u0027s get right to the chase.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the §3Input Bus§r of your §3Vacuum Freezer§r, open it and set to §e§lingotHot*§r whitelist. The slot is to §dtest§r items to make sure you configured the Filter properly in case your forgot. Drag ingots from JEI!\n\nFrom here, you now have the option to route either with §9Item Pipes§r or §9AE2§r.\n\n§2With Item Pipes§r, connect the output of your §3EBF(s)§r to the input of your §3Vacuum Freezer§r and the output dump (Chest, Crate, or ME Interface).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Vacuum Freezer will be prioritized.\n\n§2With AE2§r, place a §3ME Storage Bus§r on top of your Cover and set to very §dhigh priority§r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 292,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "ench:9": {
+                "0:10": {
+                  "id:2": 32,
+                  "lvl:2": 5
+                }
+              }
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -21873,7 +21884,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, they are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
+          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, they are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will give you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22036,14 +22047,10 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
+              "id:8": "betterquesting:quest_book",
               "tag:10": {
-                "orig_id:8": "questbook:itemquestbook",
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "display:10": {
-                    "Name:8": "TYPE IN CHAT /bq_admin default load"
-                  }
+                "display:10": {
+                  "Name:8": "TYPE IN CHAT /bq_admin default load"
                 }
               }
             }
@@ -23579,12 +23586,13 @@
     },
     "349:10": {
       "preRequisites:11": [
-        119
+        119,
+        471
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Jetpack takes most §aCombustion Fuel§r to enable a primitive form of flight.\n\nFill it like you would fill a Drum.\n\nPress §4H§r (default) to enable Hover Mode.",
+          "desc:8": "This Jetpack takes most §aCombustion Fuels§r (excluding oils) to enable a primitive form of flight.\n\nFill it like you would fill a Drum, or with a §3Canning Machine§r.\n\nPress §4H§r (default) to enable Hover Mode.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23597,7 +23605,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "I believe I can fly",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -23622,7 +23630,8 @@
               "Count:3": 1,
               "Damage:2": 2,
               "OreDict:8": "",
-              "id:8": "gregtech:gt_armor"
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -24096,7 +24105,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Cupercomputer\n§9-§r Mainframe",
+          "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Supercomputer\n§9-§r Mainframe",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24809,7 +24818,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFluorine is the most rare gas to obtain from electrolysis in this game.§r\n\nYou may obtain it from §aLepidolite§r, §aBastnatite§r, §aMica§r, but the best source is from §aTopaz§r.",
+          "desc:8": "§oFluorine is the most rare gas to obtain from electrolysis in this game.§r\n\nYou may obtain it from §aLepidolite§r, §aBastnatite§r, and §aMica§r, but the best source is from §aTopaz§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26727,7 +26736,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIt\u0027s over 9000!§r!§r\n\n§aTrinium Coils§r bring up the Heat Capacity to §d9,001K§r.\n\nThese coils are required for progressing to the second half of §cZPM§r, and beyond.",
+          "desc:8": "§oIt\u0027s over 9000!!§!§\n\n\n§aTrinium Coils§r bring up the Heat Capacity to §d9,001K§r.\n\nThese coils are required for progressing to the second half of §cZPM§r, and beyond.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26989,7 +26998,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you already made and centrifuged §aRare Earth§r, that\u0027s great! If you did not, obtain it as §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.\n\nTo extract the §aRare Earths§r§r, you should use §3Centrifuge§r §4as high tier as possible§r, due to the chanced output increasing.\n\nThe elements you can obtain are:\n§9-§r §aLanthanum§r is used in §3Fusion§r§r, you will eventually want a lot of it!\n§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.\n§9-§r §aCerium§r is not particularly useful.\n§9-§r §aSaramium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.\n§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... you know.\n§9-§r §aCadmium§r is not particularly useful.\n\n\n§bLore:§r Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling enough as is to give them use. Gregicality Science will have a proper REE chain!",
+          "desc:8": "If you already made and centrifuged §aRare Earth§r, that\u0027s great! If you did not, obtain it as §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.\n\nTo extract the §aRare Earths§r§r, you should use §3Centrifuge§r §4as high tier as possible§r, due to the chanced output increasing.\n\nThe elements you can obtain are:\n§9-§r §aLanthanum§r is used in §3Fusion§r§r, you will eventually want a lot of it!\n§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.\n§9-§r §aCerium§r is not particularly useful.\n§9-§r §aSamarium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.\n§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... you know.\n§9-§r §aCadmium§r is not particularly useful.\n\n\n§bLore:§r Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling enough as is to give them use. Gregicality Science will have a proper REE chain!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27090,7 +27099,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§oWhat even requires this temperature?§!§\n\n\n§aTritanium Coils§r bring the Heat Capacity to §d10,800K§r.\n\nThese coils aren\u0027t needed for much, but they\u0027ll provide another perfect overclock for most recipes!\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27307,7 +27316,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You may notice that some fluids say they are \"Acidic\", with §9Sulfuric Acid§r being one of them.\n\nThis means that many fluid pipes will not be able to transport them safely!\nAt §bMV§r, the cheapest pipes for acid transportation are probably §aGold§r, with the more expensive §aVanadium Steel§r or §aChrome§r pipes taking second place and third place.\n§aStainless Steel§r or §aPolytetrafluoroethylene§r will be valid options once you are in §6HV§r.\n\nYou have two options for acid storage at around this point: §dGlass Vials§r or §dSuper Tanks§r. Glass Vials are like §9Fluid Cells§r, and are made to store acids. Super Tanks will be unlocked after §9Polyethylene§r, and can store any fluid without restriction.\n\n§cWARNING:§r Acids in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r The acid transportation and storage mechanics originate from GregTech 6. Fun!",
+          "desc:8": "You may notice that some fluids say they are \"Acidic\", with §9Sulfuric Acid§r being one of them.\n\nThis means that many fluid pipes will not be able to transport them safely!\nAt §bMV§r, the cheapest pipes for acid transportation are probably §aGold§r, with the more expensive §aVanadium Steel§r or §aChrome§r pipes taking second place and third place.\n§aStainless Steel§r or §aPolytetrafluoroethylene§r will be valid options once you are in §6HV§r.\n\nYou have three options for acid storage at around this point: §dGlass Vials§r, §dGold Drums§r, or §dSuper Tanks§r. Glass Vials are like §9Fluid Cells§r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after §9Polyethylene§r, and can store any fluid without restriction.\n\n§cWARNING:§r Acids in the wrong pipes will cause §cvoiding§r, §cpipe burning§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r The acid transportation and storage mechanics originate from GregTech 6. Fun!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29656,10 +29665,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "wct:wct_creative",
-            "tag:10": {
-              "IsInRange:1": 0
-            }
+            "id:8": "appliedenergistics2:creative_energy_cell"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -29683,7 +29689,7 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -29691,10 +29697,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "wct:wct_creative",
-              "tag:10": {
-                "IsInRange:1": 0
-              }
+              "id:8": "appliedenergistics2:creative_energy_cell"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -30381,6 +30384,158 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "469:10": {
+      "preRequisites:11": [
+        54,
+        55
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oDon\u0027t want to spend your circuits to select recipes?§r\n\nBy clicking the §6Circuit Configuration Slot§r in machines, you can create a §bGhost Programmed Circuit§r. \n\nThis is a fake circuit that allows you to select a given configuration for recipes! There\u0027s no more need to spend your circuits crafting §bProgrammed Circuits§r anymore.\n\n§dElectric Machines§r and §dItem Input Buses§r will have a Ghost Circuit Slot.\n\n§bLore§r: This feature is originally from GTNH!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 461,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Configuration:3": 1
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Programmed Circuits",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 469,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "470:10": {
+      "preRequisites:11": [
+        195
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Chemical Bath while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the side of your §3Chemical Bath§r, open it and set to §e§lingotHot*§r whitelist.\nThe slot is to §dtest§r items to make sure you configured the Filter properly, drag ingots from JEI!\n\nFrom here, you can route with §9Item Pipes§r.\n\nConnect the output of your §3EBF(s)§r to the input of your §3Chemical Bath§r and the output dump (Chest or Crate).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Chemical Bath will be prioritized.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 292,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "250IQ",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 470,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 292,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "471:10": {
+      "preRequisites:11": [
+        114
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oIf you read the previous Quest, this shouldn\u0027t be too bad. If you didn\u0027t... What are you waiting for!?§r\n\nDistillating §aOil§r will give you Fuel that you will need to desulfurize.\n\n§aHydrogen Sulfide§r is perfectly §drecycled§r in an §3Electrolyzer§r.\nTo automate this process, simply place your §3Chemical Reactor§r and your §3Electrolyzer§r next to each other. Be sure to use your §5Screwdriver§r to §4enable input from output side§r.\n\n\n§aLight Fuel§r is a good §9Power§r option. But there is something even greater... Check the Quest to the left.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "light_fuel"
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Light Fuel",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 471,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_light_fuel"
+            },
+            "1:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "light_fuel"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -30934,6 +31089,13 @@
           "sizeY:3": 24,
           "x:3": -30,
           "y:3": 156
+        },
+        "50:10": {
+          "id:3": 469,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -24
         }
       }
     },
@@ -31310,21 +31472,21 @@
           "id:3": 55,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 36,
+          "x:3": 42,
           "y:3": -36
         },
         "10:10": {
           "id:3": 56,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 78,
+          "x:3": 84,
           "y:3": -36
         },
         "11:10": {
           "id:3": 57,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 120,
+          "x:3": 132,
           "y:3": -36
         },
         "12:10": {
@@ -31718,6 +31880,13 @@
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": 174
+        },
+        "68:10": {
+          "id:3": 469,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 6
         }
       }
     },
@@ -32091,109 +32260,137 @@
           "y:3": 0
         },
         "50:10": {
+          "id:3": 195,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 222,
+          "y:3": -78
+        },
+        "51:10": {
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 42
         },
-        "51:10": {
+        "52:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": -42
         },
-        "52:10": {
+        "53:10": {
+          "id:3": 228,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": -132
+        },
+        "54:10": {
           "id:3": 240,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
           "y:3": 126
         },
-        "53:10": {
+        "55:10": {
           "id:3": 243,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": 0
         },
-        "54:10": {
+        "56:10": {
           "id:3": 245,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 72
         },
-        "55:10": {
+        "57:10": {
           "id:3": 250,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": 42
         },
-        "56:10": {
+        "58:10": {
           "id:3": 263,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
           "y:3": -216
         },
-        "57:10": {
+        "59:10": {
           "id:3": 310,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 324,
           "y:3": 42
         },
-        "58:10": {
+        "60:10": {
           "id:3": 318,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 36,
           "y:3": -78
         },
-        "59:10": {
+        "61:10": {
           "id:3": 327,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
           "y:3": -216
         },
-        "60:10": {
+        "62:10": {
           "id:3": 349,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": -216
+          "x:3": -66,
+          "y:3": -228
         },
-        "61:10": {
+        "63:10": {
           "id:3": 350,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
           "y:3": -132
         },
-        "62:10": {
+        "64:10": {
           "id:3": 354,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 96,
           "y:3": -138
         },
-        "63:10": {
+        "65:10": {
           "id:3": 355,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
           "y:3": 126
         },
-        "64:10": {
+        "66:10": {
           "id:3": 417,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
           "y:3": -126
+        },
+        "67:10": {
+          "id:3": 470,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": -36
+        },
+        "68:10": {
+          "id:3": 471,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": -216
         }
       }
     },
@@ -32248,337 +32445,323 @@
           "id:3": 192,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -126,
+          "x:3": -120,
           "y:3": 6
         },
         "5:10": {
           "id:3": 193,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -48
+          "x:3": -42,
+          "y:3": 54
         },
         "6:10": {
           "id:3": 194,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 12,
+          "x:3": 252,
           "y:3": -150
         },
         "7:10": {
-          "id:3": 195,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 72,
-          "y:3": -150
-        },
-        "8:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": -144
+          "x:3": 294,
+          "y:3": -36
         },
-        "9:10": {
+        "8:10": {
           "id:3": 199,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
           "y:3": -90
         },
-        "10:10": {
+        "9:10": {
           "id:3": 200,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 426,
           "y:3": -144
         },
-        "11:10": {
+        "10:10": {
           "id:3": 201,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -48,
           "y:3": 126
         },
-        "12:10": {
+        "11:10": {
           "id:3": 202,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 18,
           "y:3": 192
         },
-        "13:10": {
+        "12:10": {
           "id:3": 203,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 72,
-          "y:3": -198
+          "x:3": 132,
+          "y:3": -150
         },
-        "14:10": {
+        "13:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": 132
         },
-        "15:10": {
+        "14:10": {
           "id:3": 205,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 192,
           "y:3": 6
         },
-        "16:10": {
+        "15:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 90
         },
-        "17:10": {
+        "16:10": {
           "id:3": 207,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 186,
           "y:3": 180
         },
-        "18:10": {
+        "17:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 126,
-          "y:3": -96
+          "x:3": 186,
+          "y:3": -156
         },
-        "19:10": {
+        "18:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 294,
           "y:3": 12
         },
-        "20:10": {
+        "19:10": {
           "id:3": 210,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 408,
           "y:3": 84
         },
-        "21:10": {
+        "20:10": {
           "id:3": 211,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 90
         },
-        "22:10": {
+        "21:10": {
           "id:3": 212,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 138
         },
-        "23:10": {
+        "22:10": {
           "id:3": 213,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 348,
           "y:3": 6
         },
-        "24:10": {
+        "23:10": {
           "id:3": 214,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 126,
+          "x:3": 258,
           "y:3": -192
         },
-        "25:10": {
+        "24:10": {
           "id:3": 215,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
+          "x:3": 138,
           "y:3": -192
         },
-        "26:10": {
+        "25:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
           "y:3": 192
         },
-        "27:10": {
+        "26:10": {
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 90
         },
-        "28:10": {
+        "27:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 192
         },
-        "29:10": {
+        "28:10": {
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": 72
+          "x:3": -96,
+          "y:3": 60
         },
-        "30:10": {
+        "29:10": {
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
+          "x:3": -96,
           "y:3": 150
         },
-        "31:10": {
+        "30:10": {
           "id:3": 226,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 282,
           "y:3": -96
         },
-        "32:10": {
+        "31:10": {
           "id:3": 227,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -174,
-          "y:3": 6
+          "x:3": -48,
+          "y:3": -42
         },
-        "33:10": {
-          "id:3": 228,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 72,
-          "y:3": -90
-        },
-        "34:10": {
+        "32:10": {
           "id:3": 229,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": 192
         },
-        "35:10": {
+        "33:10": {
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
-          "y:3": -96
+          "x:3": 36,
+          "y:3": -36
         },
-        "36:10": {
+        "34:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 354,
           "y:3": 192
         },
-        "37:10": {
+        "35:10": {
           "id:3": 232,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": -192
+          "x:3": 84,
+          "y:3": -144
         },
-        "38:10": {
+        "36:10": {
           "id:3": 233,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -42,
-          "y:3": 72
+          "y:3": 90
         },
-        "39:10": {
+        "37:10": {
           "id:3": 242,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
-          "y:3": -192
+          "y:3": -36
         },
-        "40:10": {
+        "38:10": {
           "id:3": 247,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": 36
         },
-        "41:10": {
+        "39:10": {
           "id:3": 313,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 90
+          "x:3": 18,
+          "y:3": 132
         },
-        "42:10": {
+        "40:10": {
           "id:3": 317,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -102,
+          "x:3": -96,
           "y:3": 114
         },
-        "43:10": {
+        "41:10": {
           "id:3": 320,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 90
+          "x:3": 78,
+          "y:3": 72
         },
-        "44:10": {
+        "42:10": {
           "id:3": 323,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": 6
         },
-        "45:10": {
+        "43:10": {
           "id:3": 324,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -168,
-          "y:3": -48
+          "x:3": -96,
+          "y:3": -36
         },
-        "46:10": {
+        "44:10": {
           "id:3": 326,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 414,
           "y:3": -12
         },
-        "47:10": {
+        "45:10": {
           "id:3": 352,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -168,
-          "y:3": -96
+          "x:3": 78,
+          "y:3": -36
         },
-        "48:10": {
+        "46:10": {
           "id:3": 377,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 192,
-          "y:3": -150
+          "y:3": -90
         },
-        "49:10": {
+        "47:10": {
           "id:3": 378,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 132
         },
-        "50:10": {
+        "48:10": {
           "id:3": 387,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -42,
-          "y:3": -96
+          "x:3": 6,
+          "y:3": -36
         },
-        "51:10": {
+        "49:10": {
           "id:3": 423,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 54
+          "x:3": 18,
+          "y:3": 72
         }
       }
     },
