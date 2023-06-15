@@ -15777,7 +15777,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Cleanroom is a well isolated space, with little to no airborne particles, bacteria and other contaminants.§r\n\n§9Note:§r If you dislike the Cleanroom mechanics, it can be toggled off in the config file.\n\nThe §3Cleanroom§r is a hollow multiblock free of contaminants. Going forward, most new §acircuit-related recipes§r, as well as some unique things like §3Fusion Casings§r, will need to be run in machines inside a Cleanroom.\n\nCreating it will put a test to your §aPolyethylene§r automation for all the §dPlascrete§r and/or §dCleanroom Glass§r you will make.\n\n\n§2§lThe Structure:§r\n\nBe sure to check the §9tooltip§r (a lot of information in there!).\nThe Controller always has to be in the center. The rest of the top layer has to be §dFilter Casings§r.\nAll edges have to be §dPlascrete§r, and the sides can be §dCleanroom Glass§r.\nPlacing §3Generators§r or §3Mufflers§r inside is §cnot allowed§r. The Cleanroom will unform.\nDo not forget the §3Maintenance Hatch§r.\nIf the structure refuses to form, rotate or replace the Controller, it can be a bit finicky.\nWe will start off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped inside. It does not have to be a cube.\n\n§2§lGetting things in and out:§r\n\nTransfer EU using §3Hulls§r or §3Diodes§r.\nItem and Fluid transfer can be done using §3Passthrough Hatches§r.\n§3Machine Hulls§r count as §6ME Cables§r to extend your ME Network inside your Cleanroom.\nThe §dDoor(s)§r can remain open (not very realistic, but convenient).\n\n§2§lThe Mechanics:§r\n\nThe Cleanroom starts §4contaminated§r. While contamined, machines will not be able to operate.\nThe Cleanroom will drain 30EU/t and slowly increase the cleanliness.\nOnce §9Clean§r, recipes can run. At that point it will only draw 4EU/t. Keep it powered at all times or it will get dirty again!\nThe bigger the Cleanroom, the longer it takes to become Clean.\n\n\n§bLore:§r The Cleanroom comes from GregTech 5. But as with many features, it is more punishing in that version. The recipes would simply run, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding! Furthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means voiding 10% of items!\nGTCEu Cleanroom will §6never void§r recipe outputs.",
+          "desc:8": "§oThe Cleanroom is a well isolated space, with little to no airborne particles, bacteria and other contaminants.§r\n\nThe §3Cleanroom§r is a hollow multiblock free of contaminants. Going forward, most new §acircuit-related recipes§r, as well as some unique things like §3Fusion Casings§r, will need to be run in machines inside a Cleanroom.\n\nCreating it will put a test to your §aPolyethylene§r automation for all the §dPlascrete§r and/or §dCleanroom Glass§r you will make.\n\n\n§2§lThe Structure:§r\n\nBe sure to check the §9tooltip§r (a lot of information in there!).\nThe Controller always has to be in the center. The rest of the top layer has to be §dFilter Casings§r.\nAll edges have to be §dPlascrete§r, and the sides can be §dCleanroom Glass§r.\nPlacing §3Generators§r or §3Mufflers§r inside is §cnot allowed§r. The Cleanroom will unform.\nDo not forget the §3Maintenance Hatch§r.\nIf the structure refuses to form, rotate or replace the Controller, it can be a bit finicky.\nWe will start off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped inside. It does not have to be a cube.\n\n§2§lGetting things in and out:§r\n\nTransfer EU using §3Hulls§r or §3Diodes§r.\nItem and Fluid transfer can be done using §3Passthrough Hatches§r.\n§3Machine Hulls§r count as §6ME Cables§r to extend your ME Network inside your Cleanroom.\nThe §dDoor(s)§r can remain open (not very realistic, but convenient).\n\n§2§lThe Mechanics:§r\n\nThe Cleanroom starts §4contaminated§r. While contamined, machines will not be able to operate.\nThe Cleanroom will drain 30EU/t and slowly increase the cleanliness.\nOnce §9Clean§r, recipes can run. At that point it will only draw 4EU/t. Keep it powered at all times or it will get dirty again!\nThe bigger the Cleanroom, the longer it takes to become Clean.\n\n§9Note§r: When the time comes, Multiblocks must also be put into Cleanrooms in order to run cleanroom recipes! §5\n\n§9§eConfigs:§r If you dislike the Cleanroom mechanics, it can be toggled off in the config file with §5\"B:enableCleanroom\"§r. Multiblocks can be made to ignore cleanroom requirements with §5\"B:cleanMultiblocks\"§r. We encourage you to try it out before deciding.\n§\n\n§bLore:§r The Cleanroom comes from GregTech 5. But as with many features, it is more punishing in that version. The recipes would simply run, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding! Furthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means voiding 10% of items!\nGTCEu Cleanroom will §6never void§r recipe outputs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20371,7 +20371,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNo. The Assembly Line is not just a big Assembler, it\u0027s a lot more than that!\nYou can also call it the Assline. Do not feel guilt.§r\n\nMaking §dLuV§r Components will require more work.\nThe §3Assembly Line§r is an entry point towards late game.\n\nThis Multiblock has a §evariable size§r§r. Each §3ULV Input Bus§r accepts a different stack of items.\nYou will want to build this with a size of §d10§r to get started, or of a size of §d14§r to accept all possible recipes.\n\nRecipes require §aFluids§r, so it is a good idea to keep the §3Input Hatches§r permanently filled with §dSoldering Alloy§r, §dLubricant§r and §dStyrene-Butadienne Rubber§r.\n\nMy recommendation of Assembly Line §4automation§r goes as follows:\nHave your Interface face an §3Item P2P§r. Set two output P2Ps, into the first §3Input Bus§r, and into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n\n§bLots of Lore:§r GT5\u0027s Assembly Line is a massive project to work towards, even more so than here. You are required to scan items to put their construction data into a Data Stick. That Data Stick is then required to fit into a Data Hatch which has limited slots on the Assembly Line.\n\nThe recipe could only be viewed by printing a book with the Data Stick! It was then made to display in NEI once you acquire the item.\nTecTech made a nice machine which acts as a recipe viewer for the Data Stick (this mod is so great...).\n\nFurthermore, Item and Fluid inputs are required to be ordered the same way as the recipe indicates it. This makes automation of the Assembly Line a nice challenge which can be solved using other mods, redstone, GT item pipes... you pick it.\n\nWe are planning to port some of the GT5 features, as the Assembly Line §lshould be a challenge§r for the player.",
+          "desc:8": "§oNo. The Assembly Line is not just a big Assembler, it\u0027s a lot more than that!\nYou can also call it the Assline. Do not feel guilt.§r\n\nMaking §dLuV§r Components will require more work.\nThe §3Assembly Line§r is an entry point towards late game.\n\nThis Multiblock has a §evariable size§r§r. Each §3ULV Input Bus§r accepts a different stack of items.\nYou will want to build this with a size of §d10§r to get started, or of a size of §d14§r to accept all possible recipes.\n\nRecipes require §aFluids§r, so it is a good idea to keep the §3Input Hatches§r permanently filled with §dSoldering Alloy§r, §dLubricant§r and §dStyrene-Butadienne Rubber§r.\n\n§6Read the next quests to learn the mechanics of the Assembly Line. This multiblock is §lcomplicated§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21884,7 +21884,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oPut your micro-crafting talent to a task. Don\u0027t worry you are not wasting anything crafting this, they are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will give you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
+          "desc:8": "§oPut your micro-crafting talent to the task. Don\u0027t worry, you are not wasting anything crafting this, and they are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will give you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22214,11 +22214,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oPlacing Blocks manually for Multiblocks is tedious? We got something for ya!§r\n\nHopefully you made use of the §4Terminal§r for a few things there and there, but it\u0027s about to get better!\n\nThe §dMulitblock Helper§r app will enable you to §6auto-build§r Multiblocks!\n\nFirst, you need a §aBattery§r (LV or higher) and a §aCamera§r to be mounted in your Terminal. Open the §9Hardware§r app to do so.\nThen, you need to go in the §9App Store§r, and scroll down to the §5upgrade button§r for the §dMultiblock Helper§r. Be sure to have §a4 HV Emitters§r and §a2 Workstations§r in your inventory.\n\nCongratulations, now you can §6auto-build§r Multiblocks thanks to the Blocks present in your inventory.\n\n§9How to auto-build:§r With your §4Terminal§r in hand, shift-right-clock the Mulitblock Controller that you placed in World, this will bring up the menu. Then, open the §dMultiblock Helper§r app, click on the §93D Builder§r, and finally on the §9Automatic Build§r button.\n\nNote that the Hatches may not always end up being on the positions you wanted, but at least it placed all the other Blocks for you!",
+          "desc:8": "§oPlacing Blocks manually for Multiblocks is tedious? We got something for ya!§r\n\nThe §dMulitblock Tool§rwill enable you to §6auto-build§r Multiblocks!\n\n§9How to auto-build:§r With your §4Multiblock Tool§r in hand, shift-right-clock the Mulitblock Controller that you placed in World, and the structure will be built according to the blocks in your inventory.\n\nNote that the Hatches may not always end up being on the positions you wanted, but at least it placed all the other Blocks for you!\n\nYou can also use this tool to §6debug structure issues§r. If you\u0027re not sure why a multi won\u0027t form, right-click it with the tool and you\u0027ll recieve some potentially useful information.\n\n§bLore§r: The texture for this item was originally from the GCYL Freedom Wrench.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 504,
+            "Damage:2": 1004,
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
@@ -22269,30 +22269,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 504,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 219,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 2,
-              "Damage:2": 630,
+              "Damage:2": 1004,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -24105,7 +24082,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Supercomputer\n§9-§r Mainframe",
+          "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Cupercomputer\n§9-§r Mainframe",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26559,7 +26536,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §aHPIC§r unlocks §3IV Energy Hatches§r and §3Dynamos§r... You know the drill!\n\nMaking an §3IV Chemical Reactor§r is §doptional§r. You can craft this with a §3Large Chemical Reactor§r if you wish.\n\nIf you wish to automate your LCR with patterns, head back to the P2P Tunnel Quest for more information.",
+          "desc:8": "The §aHPIC§r unlocks §3IV Energy Hatches§r and §3Dynamos§r... You know the drill!\n\nMaking an §3IV Chemical Reactor§r is §doptional§r. You can craft this with a §3Large Chemical Reactor§r if you wish.\n\nIf you wish to automate your LCR with patterns, head back to the P2P Tunnel Quest for more information.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26998,7 +26975,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you already made and centrifuged §aRare Earth§r, that\u0027s great! If you did not, obtain it as §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.\n\nTo extract the §aRare Earths§r§r, you should use §3Centrifuge§r §4as high tier as possible§r, due to the chanced output increasing.\n\nThe elements you can obtain are:\n§9-§r §aLanthanum§r is used in §3Fusion§r§r, you will eventually want a lot of it!\n§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.\n§9-§r §aCerium§r is not particularly useful.\n§9-§r §aSamarium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.\n§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... you know.\n§9-§r §aCadmium§r is not particularly useful.\n\n\n§bLore:§r Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling enough as is to give them use. Gregicality Science will have a proper REE chain!",
+          "desc:8": "If you already made and centrifuged §aRare Earth§r, that\u0027s great! If you did not, obtain it as §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.\n\nTo extract the §aRare Earths§r§r, you should use §3Centrifuge§r §4as high tier as possible§r, due to the chanced output increasing.\n\nThe elements you can obtain are:\n§9-§r §aLanthanum§r is used in §3Fusion§r§r, you will eventually want a lot of it!\n§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.\n§9-§r §aCerium§r is not particularly useful.\n§9-§r §aSaramium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.\n§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... you know.\n§9-§r §aCadmium§r is not particularly useful.\n\n\n§bLore:§r Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling enough as is to give them use. Gregicality Science will have a proper REE chain!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30536,6 +30513,109 @@
           "taskID:8": "bq_standard:fluid"
         }
       }
+    },
+    "472:10": {
+      "preRequisites:11": [
+        296
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThings are about to get complicated!§r\n\nThis quest will explain a mechanic of the Assembly Line: §dOrdered Inputs§r.\n\nThe Assembly Line requires the Item Inputs to appear in the same order as the recipe does in JEI. \n\nThis means that the top left input must come first, the top right input must be 4th, and the bottom right input must come last, for example.\n\nIf enabled in the config (more on this at the end), Fluid Inputs can also be ordered. This is §csignificantly more difficult to automate§r, and it is §aoff by default§r. Enable it if you want more of a challenge!\n\n§9How to automate Ordered Item Inputs:§r\n\nThere are many ways to automate Ordered Items: GT item pipes, redstone, other mods, you name it! This quest will give a specific recommendation using §3AE2§r.\n\nHave your Interface containing the patterns face an §3Item P2P§r. Set two output P2Ps: one into the first §3Input Bus§r, and the other into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n§9How to automate Ordered Fluid Inputs:§r\n\nThis one is... more difficult. Fluid Pipes behave very different compared to Item Pipes, so you §4cannot§r use the same solution as above. You can automate the fluids in a few different ways: §3crafting cells of fluids§r or AE2FCR with §3Fluid Packet Decoders§r. This quest won\u0027t explain how to do this entirely due to it being off by default, so the full solution is left as an exercize to the reader.\n\n§eConfigs§r: If you find this mechanic unfun, it can be disabled with the config §5\"B:orderedAssembly\"§r for Ordered Items and §5\"B:orderedFluidAssembly\"§r for Ordered Fluids. We strongly encourage you to try Ordered Items out before disabling it right away.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1150,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ordered Assembly",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 472,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "473:10": {
+      "preRequisites:11": [
+        296
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oFeeling scientific?§r\n\nThis quest will explain a mechanic of the Assembly Line: §dResearch§r.\n\nRecipes in the assembly line will often require Research. This means you need to do a few extra things before the recipe will run. You\u0027ll notice there\u0027s a second tab in §3JEI§r: §dThe Scanner§r. Recipes needing Research will also have the output show in the Scanner\u0027s page.\n\n§9Scanning§r:\n\nScanning is the first step for research. Take the item shown in JEI and put it with a §3Data Stick§r to scan it. This will §4consume§r the item and put Data on the Data Stick. Pretty straightforward, right?\n\nThe §3Data Stick tooltip§r will be updated to show what things it can be used to make in the Assembly Line. Put this data stick into a §dData Access Hatch§r. \n\nThe Assembly Line will now be able to run all the recipes provided by Data Sticks. You\u0027ll want one Data Stick for each research, to avoid re-scanning many times.\n\n§9Data Manipulation§r:\n\nEventually, you\u0027ll want multiple Assembly Lines, but you won\u0027t want to re-scan for every Research. This is why you can also use the §3Scanner§r to §dCopy Data§r. Place the data stick you want to copy in one slot, and a blank one in the other. This will copy the contents of the first stick into the second!\n\n§4Important§r: Using two different data sticks with data on them will cause one to §4overwrite§r the other. Be careful!\n\n§9Data Storage§r:\n\nLater on, recipes will require different §aData Storage Items§r for research, such as the §3Data Orb§r. This process will remain the same, but will use different Data Storage Items instead. They can also be copied the same way, but you cannot copy between different types of storage items.\n\n§eConfigs§r: If you find this mechanic unfun, it can be disabled with the config §5\"B:enableResearch\"§r. We strongly encourage you to try it out before disabling it right away.\n\n§bLore§r: In GT5, Assembly Line recipes would be hidden in NEI until you completed research for them. After scanning the data stick, you could view the recipe\u0027s ingredients by printing a book with the Data Stick - a long and annoying process! It was then made to display in NEI once you acquire the item.\nTecTech later made a nice machine which acts as a recipe viewer for the Data Stick (this mod is so great...).",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1404,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Data and Research",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 473,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 459,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1404,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 261,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -33331,172 +33411,179 @@
           "y:3": -132
         },
         "17:10": {
-          "id:3": 376,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": 84
-        },
-        "18:10": {
           "id:3": 388,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 84
         },
-        "19:10": {
+        "18:10": {
           "id:3": 390,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -132
         },
-        "20:10": {
+        "19:10": {
           "id:3": 393,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -216,
           "y:3": -210
         },
-        "21:10": {
+        "20:10": {
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -78
         },
-        "22:10": {
+        "21:10": {
           "id:3": 395,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": 84
         },
-        "23:10": {
+        "22:10": {
           "id:3": 396,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": 12
         },
-        "24:10": {
+        "23:10": {
           "id:3": 397,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -66
         },
-        "25:10": {
+        "24:10": {
           "id:3": 398,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -138
         },
-        "26:10": {
+        "25:10": {
           "id:3": 399,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 144,
           "y:3": -138
         },
-        "27:10": {
+        "26:10": {
           "id:3": 400,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -204
         },
-        "28:10": {
+        "27:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -60
         },
-        "29:10": {
+        "28:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -132
         },
-        "30:10": {
+        "29:10": {
           "id:3": 404,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -60
         },
-        "31:10": {
+        "30:10": {
           "id:3": 405,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": -60
         },
-        "32:10": {
+        "31:10": {
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -132
         },
-        "33:10": {
+        "32:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -204
         },
-        "34:10": {
+        "33:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -204
         },
-        "35:10": {
+        "34:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -132
         },
-        "36:10": {
+        "35:10": {
           "id:3": 415,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 12
         },
-        "37:10": {
+        "36:10": {
           "id:3": 436,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -330,
           "y:3": -204
         },
-        "38:10": {
+        "37:10": {
           "id:3": 461,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": 12
         },
-        "39:10": {
+        "38:10": {
           "id:3": 464,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -204
         },
-        "40:10": {
+        "39:10": {
           "id:3": 468,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": -60
+        },
+        "40:10": {
+          "id:3": 472,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -6,
+          "y:3": 84
+        },
+        "41:10": {
+          "id:3": 473,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 18,
+          "y:3": 84
         }
       }
     },
@@ -33618,179 +33705,186 @@
           "y:3": -90
         },
         "14:10": {
-          "id:3": 344,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -78,
-          "y:3": -30
-        },
-        "15:10": {
           "id:3": 345,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -156,
           "y:3": -36
         },
-        "16:10": {
+        "15:10": {
           "id:3": 346,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -378,
           "y:3": -84
         },
-        "17:10": {
+        "16:10": {
           "id:3": 376,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 36
         },
-        "18:10": {
+        "17:10": {
           "id:3": 384,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -78,
           "y:3": -216
         },
-        "19:10": {
+        "18:10": {
           "id:3": 401,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -438,
           "y:3": -216
         },
-        "20:10": {
+        "19:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -78,
           "y:3": -84
         },
-        "21:10": {
+        "20:10": {
           "id:3": 406,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -312,
           "y:3": -222
         },
-        "22:10": {
+        "21:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -438,
           "y:3": -30
         },
-        "23:10": {
+        "22:10": {
           "id:3": 414,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -306,
           "y:3": 18
         },
-        "24:10": {
+        "23:10": {
           "id:3": 419,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": -84
         },
-        "25:10": {
+        "24:10": {
           "id:3": 426,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -378,
           "y:3": -216
         },
-        "26:10": {
+        "25:10": {
           "id:3": 427,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -378,
           "y:3": -30
         },
-        "27:10": {
+        "26:10": {
           "id:3": 428,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -378,
           "y:3": -276
         },
-        "28:10": {
+        "27:10": {
           "id:3": 429,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
           "y:3": 0
         },
-        "29:10": {
+        "28:10": {
           "id:3": 430,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -312,
           "y:3": -156
         },
-        "30:10": {
+        "29:10": {
           "id:3": 431,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -306,
           "y:3": -84
         },
-        "31:10": {
+        "30:10": {
           "id:3": 432,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": -216
         },
-        "32:10": {
+        "31:10": {
           "id:3": 433,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -150
         },
-        "33:10": {
+        "32:10": {
           "id:3": 434,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -228,
           "y:3": -30
         },
-        "34:10": {
+        "33:10": {
           "id:3": 435,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -84,
           "y:3": -156
         },
-        "35:10": {
+        "34:10": {
           "id:3": 437,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -216
         },
-        "36:10": {
+        "35:10": {
           "id:3": 438,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -150
         },
-        "37:10": {
+        "36:10": {
           "id:3": 462,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 0
         },
-        "38:10": {
+        "37:10": {
           "id:3": 463,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 36
+        },
+        "38:10": {
+          "id:3": 472,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -246,
+          "y:3": 72
+        },
+        "39:10": {
+          "id:3": 473,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -210,
+          "y:3": 72
         }
       }
     },
