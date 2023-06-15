@@ -1277,6 +1277,9 @@ for (rubber in rubbers) {
             .duration(150).EUt(8).buildAndRegister()
 }
 
-
-
-
+// Fluix Block Uncraft
+crafting.remove('appliedenergistics2:misc/deconstruction_fluix_block')
+crafting.shapelessBuilder().name('deconstruction_fluix_block')
+        .output(metaitem('gemFluix') * 4)
+        .input(item('appliedenergistics2:fluix_block'))
+        .register()
