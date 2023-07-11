@@ -14520,10 +14520,10 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 10,
-              "Damage:2": 9,
+              "Count:3": 1,
+              "Damage:2": 1023,
               "OreDict:8": "",
-              "id:8": "gregtech:metal_casing"
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -21179,7 +21179,7 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -26961,7 +26961,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If you already made and centrifuged §aRare Earth§r, that\u0027s great! If you did not, obtain it as §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.\n\nTo extract the §aRare Earths§r§r, you should use §3Centrifuge§r §4as high tier as possible§r, due to the chanced output increasing.\n\nThe elements you can obtain are:\n§9-§r §aLanthanum§r is used in §3Fusion§r§r, you will eventually want a lot of it!\n§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.\n§9-§r §aCerium§r is not particularly useful.\n§9-§r §aSaramium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.\n§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... you know.\n§9-§r §aCadmium§r is not particularly useful.\n\n\n§bLore:§r Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling enough as is to give them use. Gregicality Science will have a proper REE chain!",
+          "desc:8": "If you already made and centrifuged §aRare Earth§r, that\u0027s great! If you did not, obtain it as §9Byproduct§r from various ores, or from centrifuging §dMonazite§r.\n\nTo extract the §aRare Earths§r§r, you should use §3Centrifuge§r §4as high tier as possible§r, due to the chanced output increasing.\n\nThe elements you can obtain are:\n§9-§r §aLanthanum§r is used in §3Fusion§r§r, you will eventually want a lot of it!\n§9-§r §aYttrium§r is used in §dYttrium-Barium-Cuprate-Oxide§r (YBCO), a wire material for §3UV§r.\n§9-§r §aCerium§r is not particularly useful.\n§9-§r §aSamarium§r is used for §dIV Superconductors§r and §dMagnetic Rods§r for §dLuV§r+ Motors.\n§9-§r §aNeodymium§r normally makes the strongest magnets, but gameplay balance... you know.\n§9-§r §aCadmium§r is not particularly useful.\n\n\n§bLore:§r Rare Earth Elements (REE) contain a lot more metals than these, but we are struggling enough as is to give them use. Gregicality Science will have a proper REE chain!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36622,7 +36622,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
