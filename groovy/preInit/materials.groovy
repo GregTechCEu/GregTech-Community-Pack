@@ -1,10 +1,12 @@
-import gregtech.api.GregTechAPI.MaterialEvent
+import gregtech.api.unification.material.event.MaterialEvent
 import gregtech.api.unification.material.Material
+
+import net.minecraft.util.ResourceLocation
 
 import static gregtech.api.unification.material.info.MaterialFlags.*
 
 event_manager.listen { MaterialEvent event ->
-    new Material.Builder(32000, 'fluix')
+    new Material.Builder(32000, resource('gcp', 'fluix'))
             .gem()
             .color(0x674FAF).iconSet('CERTUS')
             .flags('generate_plate', 'disable_decomposition', 'no_smelting', 'crystallizable')
