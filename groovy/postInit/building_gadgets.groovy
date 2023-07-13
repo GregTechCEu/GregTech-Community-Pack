@@ -1,0 +1,111 @@
+// Building Gadget
+crafting.remove('buildinggadgets:buildingtool')
+crafting.shapedBuilder().name('buildingtool')
+        .output(item('buildinggadgets:buildingtool'))
+        .matrix('PLP', 'DCD', 'PKP')
+        .key('P', ore('plateSteel'))
+        .key('L', ore('plateLapis'))
+        .key('D', ore('plateDiamond'))
+        .key('C', ore('circuitLv'))
+        .key('K', ore('cableGtSingleTin'))
+        .register()
+
+// Exchanging Gadget
+crafting.remove('buildinggadgets:exchangingtool')
+crafting.shapedBuilder().name('exchangertool')
+        .output(item('buildinggadgets:exchangertool'))
+        .matrix('PLP', 'DCD', 'PKP')
+        .key('P', ore('plateSteel'))
+        .key('L', ore('plateGold'))
+        .key('D', ore('plateDiamond'))
+        .key('C', ore('circuitLv'))
+        .key('K', ore('cableGtSingleTin'))
+        .register()
+
+// Copy-Paste Gadget
+crafting.remove('buildinggadgets:copypastetool')
+crafting.shapedBuilder().name('copypastetool')
+        .output(item('buildinggadgets:copypastetool'))
+        .matrix('PLP', 'DCD', 'PKP')
+        .key('P', ore('plateSteel'))
+        .key('L', ore('plateRedstone'))
+        .key('D', ore('plateEmerald') | ore('plateOlivine'))
+        .key('C', ore('circuitLv'))
+        .key('K', ore('cableGtSingleTin'))
+        .register()
+
+// Template Manager
+crafting.remove('buildinggadgets:templatemanager')
+crafting.shapedBuilder().name('templatemanager')
+        .output(item('buildinggadgets:templatemanager'))
+        .matrix('KCK', 'CHC', 'KCK')
+        .key('K', ore('cableGtSingleTin'))
+        .key('C', ore('circuitLv'))
+        .key('H', metaitem('gregtech:hull.lv'))
+        .register()
+
+// Destruction Gadget
+crafting.remove('buildinggadgets:destructiontool')
+crafting.shapedBuilder().name('destructiontool')
+        .output(item('buildinggadgets:destructiontool'))
+        .matrix('PLP', 'DCD', 'PKP')
+        .key('P', ore('plateAluminium'))
+        .key('L', ore('plateNetherQuartz'))
+        .key('D', ore('plateEnderPearl'))
+        .key('C', ore('circuitMv'))
+        .key('K', ore('cableGtSingleCopper'))
+        .register()
+
+// Construction Block Powder
+crafting.remove('buildinggadgets:constructionpastepowder')
+
+// Construction Paste
+recipemap('fluid_solidifier').recipeBuilder()
+        .notConsumable(metaitem('shape.mold.ball'))
+        .fluidInputs(fluid('construction_foam') * 100)
+        .outputs(item('buildinggadgets:constructionpaste'))
+        .duration(128).EUt(4).buildAndRegister()
+
+// Paste Container
+crafting.remove('buildinggadgets:constructionpastecontainer')
+crafting.shapedBuilder().name('constructionpastecontainer')
+        .output(item('buildinggadgets:constructionpastecontainer'))
+        .matrix('SRS', 'PCP', 'SRS')
+        .key('S', ore('screwIron'))
+        .key('R', ore('ringIron'))
+        .key('P', ore('plateIron'))
+        .key('C', metaitem('fluid_cell'))
+        .register()
+
+// Paste Container T2
+crafting.remove('buildinggadgets:constructionpastecontainert2')
+crafting.shapedBuilder().name('constructionpastecontainert2')
+        .output(item('buildinggadgets:constructionpastecontainert2'))
+        .matrix('SRS', 'PCP', 'SRS')
+        .key('S', ore('screwRoseGold'))
+        .key('R', ore('ringGold'))
+        .key('P', ore('plateRoseGold'))
+        .key('C', item('buildinggadgets:constructionpastecontainer'))
+        .register()
+
+// Paste Container T3
+crafting.remove('buildinggadgets:constructionpastecontainert3')
+crafting.shapedBuilder().name('constructionpastecontainert3')
+        .output(item('buildinggadgets:constructionpastecontainert3'))
+        .matrix('SRS', 'PCP', 'SRS')
+        .key('S', ore('screwDiamond'))
+        .key('R', ore('ringTitanium'))
+        .key('P', ore('plateTitanium'))
+        .key('C', item('buildinggadgets:constructionpastecontainert2'))
+        .register()
+
+// Creative Paste Container
+crafting.remove('buildinggadgets:constructionpastecontainercreative')
+crafting.shapedBuilder().name('constructionpastecontainercreative')
+        .output(item('buildinggadgets:constructionpastecontainercreative'))
+        .matrix('SRS', 'PCP', 'SRS')
+        .key('S', ore('screwIridium'))
+        .key('R', ore('ringTungstenSteel'))
+        .key('P', ore('plateDoubleOsmiridium'))
+        .key('C', item('buildinggadgets:constructionpastecontainert3'))
+        .register()

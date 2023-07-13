@@ -1,5 +1,7 @@
 config/jei/worldSettings.cfg
 config/oauth.cfg
+config/AppliedEnergistics2/items.csv
 .DS_Store
 buildOut/
 local/
+.idea/
