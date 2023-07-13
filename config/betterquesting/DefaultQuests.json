@@ -17422,7 +17422,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -17445,6 +17445,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:battery_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -20345,14 +20362,6 @@
       }
     },
     "296:10": {
-      "preRequisiteTypes:7": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
       "preRequisites:11": [
         397,
         380,
@@ -20556,7 +20565,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §aUV Mainframe§r is used to make §3Fusion Mk2§r.\n\nIt\u0027s also made in the Assembly Line!",
+          "desc:8": "The §aUV Mainframe§r is used to make §3Fusion Mk2§r.\n\nIt\u0027s also made in the Assembly Line!\n\nDon\u0027t forget that this circuit requires a §9Data Orb§r for research.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21087,6 +21096,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": "",
+              "id:8": "gregtech:battery_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -25242,6 +25268,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:battery_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -25298,6 +25341,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": "",
+              "id:8": "gregtech:battery_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -25355,6 +25415,23 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": "",
+              "id:8": "gregtech:battery_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -28416,12 +28493,16 @@
       "preRequisiteTypes:7": [
         0,
         0,
+        1,
+        1,
         1
       ],
       "preRequisites:11": [
         411,
         400,
-        398
+        398,
+        251,
+        397
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -28805,7 +28886,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Quest will be completed with §eeither§r a §3ZPM Energy Hatch§r§r... or a §3ZPM Dynamo Hatch§r for your Multiblock Generators.\n\nDon\u0027t forget that §d16 Amp§r variants exist!\n",
+          "desc:8": "This Quest will be completed with §eeither§r a §3ZPM Energy Hatch§r§r... or a §3ZPM Dynamo Hatch§r for your Multiblock Generators.\n\nDon\u0027t forget that §d16 Amp§r variants exist!\n\nDon\u0027t forget that these hatches require a §9Data Orb§r for research.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29244,7 +29325,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWhen engraving it once just isn\u0027t enough§r\n\nThe §aCrystal SoC§r is used to make cheaper §9Crystal Circuits§r. Enjoy the discount!\n\nIn the future, these may become more difficult to make.\n\n§bLore§r: In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why!\n\n",
+          "desc:8": "§oWhen engraving it once just isn\u0027t enough§r\n\nThe §aCrystal SoC§r is used to make cheaper §9Crystal Circuits§r. Enjoy the discount!\n\nCrystal SoC\u0027s require §9ZPM Emitters§r, which means you need a §9Data Orb§r for their research.\n\nIn the future, these may become more difficult to make.\n\n§bLore§r: In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why!\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30305,9 +30386,6 @@
       }
     },
     "468:10": {
-      "preRequisiteTypes:7": [
-        1
-      ],
       "preRequisites:11": [
         295
       ],
@@ -31089,7 +31167,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWith our powers combined...§r\n\nThe §3Network Switch§r allows multiple HPCAs to be used in conjunction with each other! This allows you to provide far more computation to your §aResearch Station§r.\n\nHPCAs can be connected to §3Network Switches§r with transmission and reception hatches, and then the Network Switch can output to a §aResearch Station§r with another transmission hatch.\n\nHPCAs cannot connect to §3Network Switches§r by default, and require an §3HPCA Bridge Component§r to enable this.",
+          "desc:8": "§oWith our powers combined...§r\n\nThe §3Network Switch§r allows multiple HPCAs to be used in conjunction with each other! This allows you to provide far more computation to your §aResearch Station§r.\n\nHPCAs can be connected to §3Network Switches§r with transmission and reception hatches, and then the Network Switch can output to a §aResearch Station§r with another transmission hatch.\n\nHPCAs cannot connect to §3Network Switches§r by default, and each connected HPCA requires an §3HPCA Bridge Component§r to enable this functionality.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31202,7 +31280,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oCentralized Power at last!§r\n\nThe §3Power Substation§r is a multiblock power storage system. Fill it with up to §a18 layers§r of assorted §9Capacitor Blocks§r to increase its storage. Each layer must be full of capacitors, and you can use Empty Capacitors to fill unused spaces.\n\n§9Capacitors§r also hold significantly more energy than the batteries used to make them.\n\nEnergy is input with regular Energy Hatches, and output with regular Dynamo Hatches.\n\nYou can also use §9Substation Hatches§r to transmit many more amps. These hatches only work in Substations, and do not work in regular multiblocks.",
+          "desc:8": "§oCentralized Power at last!§r\n\nThe §3Power Substation§r is a multiblock power storage system. Fill it with §a2-18 layers§r of assorted §9Capacitor Blocks§r to increase its storage. Each layer must be full of capacitors, and you can use Empty Capacitors to fill unused spaces.\n\n§9Capacitors§r also hold significantly more energy than the batteries used to make them. In the §3Power Substation§r, §9Capacitors§r can be mixed, so they do not all have to be the same tier.\n\nAt §1IV§r Tier, you can make §5EV§r and/or §1IV§r Capacitors.\n\nEnergy is input with regular Energy Hatches, and output with regular Dynamo Hatches.\n\nYou can also use §9Substation Hatches§r to transmit many more amps. These hatches only work in Substations, and do not work in regular multiblocks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31241,15 +31319,26 @@
               "Damage:2": 1041,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            },
-            "1:10": {
-              "Count:3": 18,
-              "Damage:2": 0,
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
               "OreDict:8": "",
               "id:8": "gregtech:battery_block"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -31260,7 +31349,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIncreased Storage Density!§r\n\nThis hatch allows you to store more §aData Storage Items§r than the basic one.",
+          "desc:8": "§oIncreased Storage Density!§r\n\nThis hatch allows you to store more §aData Storage Items§r than the basic one.\n\nDon\u0027t forget that this hatch requires a §9Data Orb§r for research.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34337,7 +34426,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
-          "y:3": 30
+          "y:3": 12
         },
         "2:10": {
           "id:3": 253,
@@ -34386,14 +34475,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
-          "y:3": -24
+          "y:3": -36
         },
         "9:10": {
           "id:3": 295,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
-          "y:3": 30
+          "y:3": 12
         },
         "10:10": {
           "id:3": 296,
@@ -34484,7 +34573,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
-          "y:3": 12
+          "y:3": -60
         },
         "23:10": {
           "id:3": 397,
@@ -34603,7 +34692,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
-          "y:3": -60
+          "y:3": 12
         },
         "40:10": {
           "id:3": 472,
