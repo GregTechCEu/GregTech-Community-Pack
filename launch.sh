@@ -1,13 +1,12 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 # If you are having problems, make sure your java version is 1.8.0_xx with java -version
 
-RAM='2048M'
-FORGEJAR="forge-1.12.2-14.23.5.2860.jar"
+ram='2048M'
+forgeJar="forge-1.12.2-14.23.5.2860.jar"
 
-PARAMS="-server -Xms$RAM -Xmx$RAM -jar $FORGEJAR nogui"
+params=(-server "-Xms$ram" "-Xmx$ram" -jar "$forgeJar" nogui)
 
-echo "Starting server"
-echo "java $PARAMS"
+printf 'Starting server\njava %s\n' "${params[*]}"
 
-java $PARAMS
+java "${params[@]}"
