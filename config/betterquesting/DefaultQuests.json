@@ -19673,13 +19673,12 @@
     "284:10": {
       "preRequisites:11": [
         253,
-        206,
-        415
+        206
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Nothing special here... §3IV Assembler§r and §3IV Cutting Machine§r are required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nUpgrading them to §2Gregicality Multiblocks§r is a wise decision, if you added the mod.\n\n\n§bLore:§r I often get asked why is GcyM not included in the modpack. My reasoning is to show how robust GTCEu is by itself.\nDid you know that GTCE\u0027s content stopped at EV, and the content up to UV was always gapped with Shadows of Greg, a third party mod?\nOf course GcyM should still be included in any greedier modpack, because it is a great QoL mod.",
+          "desc:8": "Nothing special here... the §3IV Assembler§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r as well as §3HSS-G Coils§r, you know you do.\n\nUpgrading this to §2Gregicality Multiblocks§r is a wise decision, if you added the mod.\n\n\n§bLore:§r I often get asked why is GCYM not included in the modpack. My reasoning is to show how robust GTCEu is by itself.\nDid you know that GTCE\u0027s content stopped at EV, and the content up to UV was always gapped with Shadows of Greg, a third party mod?\nOf course GCYM should still be included in any larger modpack, because it is a great QoL mod.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19691,7 +19690,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "IV Machinery",
+          "name:8": "IV Assembling",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -19716,23 +19715,6 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 114,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 249,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -20429,7 +20411,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe toughest Polymer to make in GTCEu!§r\n\nYou should have all the tools available to produce §aPolybenzimidazole§r on your own!\n\nI will give you nothing but one piece of advice. When looking through recipes, pin them in §2JEI§r (default \u0027A\u0027 hotkey). I hope you have been doing that this whole time, as it makes planning a lot easier!\n\n§aPBI§r only becomes mandatory to progress from §dLuV§r to ZPM, but having it made earlier will unlock the §6Advanced SMDs§r.\n\nThe Quest can be completed with §eany§r PBI form. However you may want Bars for automation purposes.",
+          "desc:8": "§oThe toughest Polymer to make in GTCEu!§r\n\nYou should have all the tools available to produce §aPolybenzimidazole§r on your own!\n\nI will give you nothing but one piece of advice. When looking through recipes, pin them in §2JEI§r (default \u0027A\u0027 hotkey). I hope you have been doing that this whole time, as it makes planning a lot easier!\n\n§aPBI§r only becomes mandatory to progress from §dLuV§r to ZPM, but having it made earlier will unlock the §6Advanced SMDs§r.\n\nThe Quest asks for PBI Plates, however you may want Bars for automation purposes.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20475,23 +20457,6 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1010,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
@@ -23883,7 +23848,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oGregTech cannot yet provide ways to farm plants or trees, so here we come with a custom multiblock for the modpack!§r\n\nThe multiblock §3Greenhouse§r will be your source of §aWood§r, and other plants if you wish.\n\nThe §aWood§r production is enough to keep running §32 Pyrolyse Ovens§r at their lowest Power.\nYou can also use this for automated §aResin§r. The yields are kept low to incentivize other rubber sources, later in the game.\n\nAt §d40EU/t§r, it can run off a single LV Energy Hatch.\n\n§9Note:§r The structure requires a lot of §9Wrought Iron§r. Make sure you have an §3Arc Furnace§r for that.\n\n\n§bLore:§r We originally implemented a Chemical Reactor recipe for wood in the modpack to give options to the players. However they turned out to be completely busted, so we decided that a rebalance was due. I wonder if that\u0027s still busted? Probably less than the Fluid Rig!\nSpecial thanks to the MBT dev for releasing a version that is working with GTCEu.",
+          "desc:8": "§oGregTech cannot yet provide ways to farm plants or trees, so here we come with a custom multiblock for the modpack!§r\n\nThe multiblock §3Greenhouse§r will be your source of §aWood§r, and other plants if you wish.\n\nThe §aWood§r production is enough to keep running §32 Pyrolyse Ovens§r at their lowest Power.\nYou can also use this for automated §aResin§r. The yields are kept low to incentivize other rubber sources, later in the game.\n\n§9Note: §rWith §d40EU/t§r recipes, it needs either 1 §bMV§r energy hatch or 2 LV energy hatches. Multiblocks will §cnot§r use 2A of one tier to reach the next one for recipe voltage minimums. \nIn other words, the controller needs to say at least \"§bMV§r\" in the gui to run recipes which say \"§bMV§r\" in JEI, even if they can draw enough EU/t with a lower tier.\n\n§9Note:§r The structure requires a lot of §9Wrought Iron§r. Make sure you have an §3Arc Furnace§r for that.\n\n\n§bLore:§r We originally implemented a Chemical Reactor recipe for wood in the modpack to give options to the players. However they turned out to be completely busted, so we decided that a rebalance was due. I wonder if that\u0027s still busted? Probably less than the Fluid Rig!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26594,7 +26559,7 @@
         363,
         207,
         390,
-        284
+        490
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26647,7 +26612,8 @@
     "405:10": {
       "preRequisites:11": [
         404,
-        398
+        398,
+        284
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -31718,6 +31684,58 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "490:10": {
+      "preRequisites:11": [
+        415
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §3IV Cutting Machine§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nUpgrading it to the §2Gregicality Multiblocks§r version is a wise decision, if you added the mod.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 249,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "IV Cutting",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 490,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 249,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -34446,7 +34464,7 @@
           "id:3": 284,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -144,
+          "x:3": -216,
           "y:3": -66
         },
         "5:10": {
@@ -34607,8 +34625,8 @@
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -60
+          "x:3": -282,
+          "y:3": -132
         },
         "28:10": {
           "id:3": 403,
@@ -34635,8 +34653,8 @@
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -132
+          "x:3": -282,
+          "y:3": -204
         },
         "32:10": {
           "id:3": 410,
@@ -34649,15 +34667,15 @@
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -282,
-          "y:3": -204
+          "x:3": -210,
+          "y:3": -276
         },
         "34:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
-          "y:3": -132
+          "y:3": -276
         },
         "35:10": {
           "id:3": 415,
@@ -34670,7 +34688,7 @@
           "id:3": 436,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -282,
+          "x:3": -138,
           "y:3": -276
         },
         "37:10": {
@@ -34721,6 +34739,13 @@
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -210
+        },
+        "44:10": {
+          "id:3": 490,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -144,
+          "y:3": -66
         }
       }
     },
