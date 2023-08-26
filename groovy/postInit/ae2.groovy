@@ -689,7 +689,7 @@ recipemap('forming_press').recipeBuilder()
 
 // Printed Engineering Circuit
 recipemap('forming_press').recipeBuilder()
-        .inputs(ore('plateGold'))
+        .inputs(ore('plateDiamond'))
         .notConsumable(item('appliedenergistics2:material', 14))
         .outputs(item('appliedenergistics2:material', 17))
         .duration(200).EUt(30).buildAndRegister()
