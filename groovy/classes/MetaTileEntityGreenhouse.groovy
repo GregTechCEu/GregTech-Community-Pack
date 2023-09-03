@@ -40,7 +40,7 @@ public class MetaTileEntityGreenhouse extends RecipeMapMultiblockController {
                 .aisle(" CCC ", " CSC ", " CCC ", " CCC ")
                 .where('S' as char, selfPredicate())
                 .where('G' as char, states(MetaBlocks.TRANSPARENT_CASING.getState(BlockGlassCasing.CasingType.TEMPERED_GLASS)))
-                .where('D' as char, states(Blocks.DIRT.getDefaultState()))
+                .where('D' as char, states(Blocks.DIRT.getDefaultState(), Blocks.GRASS.getDefaultState()))
                 .where('C' as char, states(MetaBlocks.MACHINE_CASING.getState(BlockMachineCasing.MachineCasingType.ULV))
                         .setMinGlobalLimited(42)
                         .or(autoAbilities()))
