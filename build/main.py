@@ -28,7 +28,7 @@ def parse_args():
 def build(args):
     modlist = []
     basePath = os.path.normpath(os.path.realpath(__file__)[:-7] + "..")
-    copyDirs = ["/groovy", "/resources", "/config", "/mods", "/structures"]
+    copyDirs = ["/groovy", "/config", "/mods", "/structures"]
     serverCopyDirs = ["/groovy", "/config", "/mods", "/structures"]
     modURLlist = []
     modClientOnly = []

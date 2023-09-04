@@ -39,6 +39,25 @@ for (int i = 0; i <= 5; i++) {
         .duration(900).EUt(60).buildAndRegister()
 }
 
+recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(1)
+    .notConsumable(item('gregtech:rubber_sapling'))
+    .fluidInputs(liquid('water') * 1000)
+    .outputs(item('gregtech:rubber_log') * 16)
+    .outputs(item('gregtech:rubber_sapling') * 3)
+    .outputs(metaitem('rubber_drop') * 4)
+    .duration(1200).EUt(40).buildAndRegister()
+
+recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(2)
+    .notConsumable(item('gregtech:rubber_sapling'))
+    .inputs(metaitem('fertilizer') * 4)
+    .fluidInputs(liquid('water') * 1000)
+    .outputs(item('gregtech:rubber_log') * 32)
+    .outputs(item('gregtech:rubber_sapling') * 6)
+    .outputs(metaitem('rubber_drop') * 8)
+    .duration(900).EUt(60).buildAndRegister()
+
 def plants = [
     'minecraft:pumpkin_seeds' : item('minecraft:pumpkin') * 6,
     'minecraft:beetroot_seeds' : item('minecraft:beetroot') * 16,
