@@ -10690,7 +10690,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically. §dOilsands§r is great to use for this!\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth.\nIn general, it is better to prioritize placing down more machines over overclocking the recipes. That way, you end up losing less energy processing the resources.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
+          "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically. §dOilsands§r is great to use for this!\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel right now. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth for power generation.\nIn general, it is better to prioritize placing down more machines instead of overclocking the recipes for power generation. That way, you end up losing less energy processing the resources. Later on this will change when you have the power generation to keep up with energy-intensive processes.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11293,7 +11293,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The underground has pure Oilsands ore veins. You may §3centrifuge§r the Dust to get §aOil§r.\n\n\n§9§lNote:§r §lThe Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOilsands is an §6easy starting point§r, it may help transition to Fluid Drilling Rigs.",
+          "desc:8": "The underground has pure Oilsands ore veins. You may §3centrifuge§r the Dust to get §aHeavy Oil§r§r.\n\n\n§9§lNote:§r §lThe Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene. \n\nHeavy Oil is best used for making §aHeavy Fuel§r for producing §aDiesel§r in combination with another oil type for Light Fuel. Other oil types are also better for producing products such as Ethylene.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11332,12 +11332,6 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "gregtech:ore_oilsands_0"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 1597,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -11350,8 +11344,8 @@
           "index:3": 1,
           "requiredFluids:9": {
             "0:10": {
-              "Amount:3": 16000,
-              "FluidName:8": "oil"
+              "Amount:3": 1000,
+              "FluidName:8": "oil_heavy"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -20636,7 +20630,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe power of the stars... and also particle accelerators because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. It will also overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
+          "desc:8": "§oThe power of the stars... and also particle accelerators because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. The maximum voltage tier this reactor can run recipes at is §dLuV§r. It will also only overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20742,7 +20736,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFusion, but even more expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk2§r is even more expensive than the Mk1! The key difference is that it has a higher §6Energy To Start§r than the Mk1, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 reactor. See the Mk1\u0027s quest for how these mechanics work.",
+          "desc:8": "§oFusion, but even more expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk2§r is even more expensive than the Mk1! The key difference is that it has a higher §6Energy To Start§r than the Mk1, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 reactor.\n\n§6Fusion Reactor Overclocking§r works a bit differently compared to most machines. Instead of the traditional 4x power and 2x speed boost, the Fusion Reactor only does §a2x power for a 2x speed boost§r. You may be thinking this is the same as the LCR\u0027s perfect overclocking, but it\u0027s not. \nRemember how machines get one overclock for each voltage tier past the recipe\u0027s required tier? This means your §cZPM§r Fusion Reactor Mk2 will still only overclock §etwice§r with an §9IV§r recipe, meaning a total of 4x the power consumption for a 4x speed boost.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20901,7 +20895,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oFusion, but the most  expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk3§r is even more expensive than the Mk2! The key difference is that it has a higher §6Energy To Start§r than the Mk2, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1\u0027s quest for how these mechanics work.",
+          "desc:8": "§oFusion, but the most expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk3§r is even more expensive than the Mk2! The key difference is that it has a higher §6Energy To Start§r than the Mk2, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk2\u0027s quest for how these mechanics work.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30358,7 +30352,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aAE2 Fluid Crafting§r allows you to autocraft with fluids directly!\n\nTo get started, you need a §aFluid Descretizer§r. Only one is required for the entire ME network. It will make all of your fluids accessible by your system into \"Drops.\" These do NOT take up space in your storage system, despite being items.\n\nOnce you have one in your network, you can use §aFluid Pattern Terminals§r to pattern recipes with fluids in them directly. This is very useful for circuits, for example.\n\nThe §eDual Interface§r can be used for autocrafting recipes containing fluids. It will supply both the items and fluids according to the requested craft.\n\nThe §9Fluid Packet Decoder§r can be used to turn the Drops back into normal fluid, if you get some.\n\nThe §9Precision Burette§r can be used to fill fluid containers with precise amounts. You probably don\u0027t need this...\n\nThe §9Fluid Assembler§r allows you to autocraft recipes that use filled fluid containers, but instead draws the fluid from the ME system. An example of this would be recipes using water buckets in them. You also probably don\u0027t need this...\n",
+          "desc:8": "§aAE2 Fluid Crafting§r allows you to autocraft with fluids directly!\n\nTo get started, you need a §aFluid Descretizer§r. Only one is required for the entire ME network. It will make all of your fluids accessible by your system into \"Drops.\" These do NOT take up space in your storage system, despite being items.\n\nOnce you have one in your network, you can use §aFluid Pattern Terminals§r to pattern recipes with fluids in them directly. This is very useful for circuits, for example.\n\nThe §eDual Interface§r can be used for autocrafting recipes containing fluids. It will supply both the items and fluids according to the requested craft.\n\nThe §9Fluid Packet Decoder§r can be used to turn the Drops back into normal fluid, if you get some. It\u0027s also useful for Ordered Fluids in the Assembly Line if you enable it in the config and want an additional challenge.\n\nThe §9Precision Burette§r can be used to fill fluid containers with precise amounts. You probably don\u0027t need this...\n\nThe §9Fluid Assembler§r allows you to autocraft recipes that use filled fluid containers, but instead draws the fluid from the ME system. An example of this would be recipes using water buckets in them. You also probably don\u0027t need this...\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30579,7 +30573,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThings are about to get complicated!§r\n\nThis quest will explain a mechanic of the Assembly Line: §dOrdered Inputs§r.\n\nThe Assembly Line requires the Item Inputs to appear in the same order as the recipe does in JEI. \n\nThis means that the top left input must come first, the top right input must be 4th, and the bottom right input must come last, for example.\n\nIf enabled in the config (more on this at the end), Fluid Inputs can also be ordered. This is §csignificantly more difficult to automate§r, and it is §aoff by default§r. Enable it if you want more of a challenge!\n\n§9How to automate Ordered Item Inputs:§r\n\nThere are many ways to automate Ordered Items: GT item pipes, redstone, other mods, you name it! This quest will give a specific recommendation using §3AE2§r.\n\nHave your Interface containing the patterns face an §3Item P2P§r. Set two output P2Ps: one into the first §3Input Bus§r, and the other into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n§9How to automate Ordered Fluid Inputs:§r\n\nThis one is... more difficult. Fluid Pipes behave very different compared to Item Pipes, so you §4cannot§r use the same solution as above. You can automate the fluids in a few different ways: §3crafting cells of fluids§r or AE2FCR with §3Fluid Packet Decoders§r. This quest won\u0027t explain how to do this entirely due to it being off by default, so the full solution is left as an exercize to the reader.\n\n§eConfigs§r: If you find this mechanic unfun, it can be disabled with the config §5\"B:orderedAssembly\"§r for Ordered Items and §5\"B:orderedFluidAssembly\"§r for Ordered Fluids. We strongly encourage you to try Ordered Items out before disabling it right away.",
+          "desc:8": "§oThings are about to get complicated!§r\n\nThis quest will explain a mechanic of the Assembly Line: §dOrdered Inputs§r.\n\nThe Assembly Line requires the Item Inputs to appear in the same order as the recipe does in JEI. \n\nThis means that the top left input must come first, the top right input must be 4th, and the bottom right input must come last, for example.\n\nIf enabled in the config (more on this at the end), Fluid Inputs can also be ordered. This is §csignificantly more difficult to automate§r, and it is §aoff by default§r. Enable it if you want more of a challenge!\n\n§9How to automate Ordered Item Inputs:§r\n\nThere are many ways to automate Ordered Items: GT item pipes, redstone, other mods, you name it! This quest will give a specific recommendation using §3AE2§r.\n\nHave your Interface containing the patterns face an §3Item P2P§r. Set two output P2Ps: one into the first §3Input Bus§r, and the other into §3Item Pipes§r. Make your Item Pipes connect to all Input Buses including the first.\nDo not forget §dBlocking Mode§r, and you have got yourself an easy automation! This will also work flawlessly once we inevitably add ordered item inputs.\n\n§9How to automate Ordered Fluid Inputs:§r\n\nThis one is... more difficult. Fluid Pipes behave very different compared to Item Pipes, so you §4cannot§r use the same solution as above. You can automate the fluids in a few different ways: §3crafting cells of fluids§r or AE2FCR with §3Fluid Packet Decoders§r. The decoder route is much better, and involves outputting the fluids as fluid packets directly, then decoding them in the right location. This quest won\u0027t explain how to do this entirely due to it being off by default, so the full solution is left as an exercize to the reader.\n\n§eConfigs§r: If you find this mechanic unfun, it can be disabled with the config §5\"B:orderedAssembly\"§r for Ordered Items and §5\"B:orderedFluidAssembly\"§r for Ordered Fluids. We strongly encourage you to try Ordered Items out before disabling it right away.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31750,7 +31744,11 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "ae2fc:ultimate_encoder"
+            "id:8": "betterquesting:placeholder",
+            "tag:10": {
+              "orig_id:8": "ae2fc:ultimate_encoder",
+              "orig_meta:3": 0
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31782,7 +31780,11 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "ae2fc:ultimate_encoder"
+              "id:8": "betterquesting:placeholder",
+              "tag:10": {
+                "orig_id:8": "ae2fc:ultimate_encoder",
+                "orig_meta:3": 0
+              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -33628,7 +33630,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
-          "y:3": -126
+          "y:3": -132
         },
         "67:10": {
           "id:3": 470,
@@ -36862,7 +36864,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
