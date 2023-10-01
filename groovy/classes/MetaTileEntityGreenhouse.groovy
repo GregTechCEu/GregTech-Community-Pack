@@ -16,6 +16,9 @@ import gregtech.common.blocks.MetaBlocks
 import net.minecraft.init.Blocks
 import net.minecraft.util.ResourceLocation
 
+import net.minecraftforge.fml.relauncher.Side
+import net.minecraftforge.fml.relauncher.SideOnly
+
 public class MetaTileEntityGreenhouse extends RecipeMapMultiblockController {
 
     private static final RecipeMap<SimpleRecipeBuilder> GREENHOUSE_RECIPES = new RecipeMap<>("greenhouse", 3, 4, 1, 0, new SimpleRecipeBuilder(), false)
@@ -49,6 +52,7 @@ public class MetaTileEntityGreenhouse extends RecipeMapMultiblockController {
     }
 
     @Override
+    @SideOnly(Side.CLIENT)
     public ICubeRenderer getBaseTexture(IMultiblockPart sourcePart) {
         return Textures.VOLTAGE_CASINGS[0]
     }
