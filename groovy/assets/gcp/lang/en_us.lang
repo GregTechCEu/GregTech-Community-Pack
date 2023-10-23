@@ -1,4 +1,3 @@
-
 # Recipemaps
 recipemap.greenhouse.name=Greenhouse
 
@@ -6,3 +5,5 @@ recipemap.greenhouse.name=Greenhouse
 gcp.machine.greenhouse.name=Greenhouse
 gcp.machine.greenhouse.tooltip=Plant Growth Simulator
 
+# tooltips
+gcp.ae2.channels.disabled=§7Channels are disabled§r
