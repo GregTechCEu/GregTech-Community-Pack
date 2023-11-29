@@ -34,4 +34,4 @@ for entry in manifest["files"]:
     
 
 with open(f"{basePath}/manifest.json", "w") as f:
-    json.dump(manifest, f)
+    json.dump(manifest, f, indent=4)

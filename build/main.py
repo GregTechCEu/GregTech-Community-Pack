@@ -155,6 +155,7 @@ def build(args):
             modClientOnly.append(mod["clientOnly"])
         except:
             modClientOnly.append(False)
+        
     print("modlist compiled")
     with open(basePath + "/buildOut/modlist.html", "w") as file:
         data = "<html><body><h1>Modlist</h1><ul>"
@@ -178,7 +179,7 @@ def build(args):
     for i, mod in enumerate(modURLlist):
         jarname = mod.split("/")[-1]
         if (modClientOnly[i] == True):
-            break
+            continue
 
         if os.path.exists(os.path.join(cachepath, jarname)):
             shutil.copy2(os.path.join(cachepath, jarname),
@@ -252,7 +253,7 @@ def build(args):
                         basePath + "/buildOut/mmc/minecraft/mods/")
         for dir in copyDirs:
             try:
-                os.symlink(basePath + dir, basePath +
+                os.copytree(basePath + dir, basePath +
                            "/buildOut/mmc/minecraft/" + dir)
             except Exception as e:
                 print("Directory exists, skipping")
@@ -260,8 +261,6 @@ def build(args):
 
         for i, mod in enumerate(modURLlist):
             jarname = mod.split("/")[-1]
-            if (modClientOnly[i] == False):
-                break
 
             with open(basePath + "/buildOut/mmc/minecraft/mods/" + jarname, "w+b") as jar:
                 r = requests.get(mod)
