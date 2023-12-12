@@ -1271,7 +1271,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oMaybe you thought forcing crafting with tools would make your life painful. I shall present you the solution: the Crafting Station.§r\n\nThe §3Crafting Station§r is a highly §9advanced Crafting Table§r, with inventory slots for item and tools. Put the recipes either by dropping ghost items, or using the §a+§r in §2JEI§r. Crafting the items will use the items and tools in the inventory. The 9 slots on the right are saved up recipes so you can re-use them without re-opening §2JEI§r.\n\nWhat makes the §3Crafting Station§r amazing, is the fact that §6it can use adjacent inventories§r in addition to its own inventory. If you are familiar to playing with Applied Energistics, the Crafting Station is essentially a mini ME Crafting Terminal.\n\n\n§bLore:§r The reason Omnifactory had Forestry in its modlist was primarily due to its Worktable, which serves a similar function to the Crafting Station. A couple more Forestry items were used, otherwise the whole mod\u0027s functionality was disabled! Since GTCE added the Crafting Station, Omnifactory has started working on phasing out Forestry.",
+          "desc:8": "§oMaybe you thought forcing crafting with tools would make your life painful. I shall present you the solution: the Crafting Station.§r\n\nThe §3Crafting Station§r is a highly §9advanced Crafting Table§r, with inventory slots for item and tools. Put the recipes either by dropping ghost items, or using the §a+§r in §2JEI§r. Crafting the items will use the items and tools in the inventory. The 9 slots on the right are saved up recipes so you can re-use them without re-opening §2JEI§r.\n\nWhat makes the §3Crafting Station§r amazing, is the fact that §6it can use adjacent inventories§r in addition to its own inventory. If you are familiar to playing with Applied Energistics, the Crafting Station is essentially a mini ME Crafting Terminal.\n\n\n§bLore:§r The reason Nomifactory had Forestry in its modlist was primarily due to its Worktable, which serves a similar function to the Crafting Station. A couple more Forestry items were used, otherwise the whole mod\u0027s functionality was disabled!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4448,7 +4448,7 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 308,
+            "Damage:2": 321,
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
@@ -4475,7 +4475,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 308,
+              "Damage:2": 321,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -4874,8 +4874,8 @@
                   "AttackSpeed:5": -3.2,
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
-                  "Material:8": "invar",
-                  "MaxDurability:3": 384,
+                  "Material:8": "gregtech:invar",
+                  "MaxDurability:3": 1151,
                   "ToolSpeed:5": 5.6
                 },
                 "HideFlags:3": 2,
@@ -6171,7 +6171,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need about a stack each of Invar and Steel.\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
+          "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need about a stack each of Invar and Steel.\n\nNote that §aCupronickel§r can be made in the §9Alloy Smelter§r. It\u0027s much faster than mixing!\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8962,6 +8962,29 @@
             }
           },
           "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 85,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "sulfuric_acid"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -11098,7 +11121,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself.§r\nEach tier above the recipe tier allows one overclock. Each overclock implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-\u003e§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the maximum voltage tier it will Overclock to. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 16EU/t or below, it would do a classic overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster!\nGTCEu has a config to select the Overclock speed bonus, it is a very sensitive value.",
+          "desc:8": "§oNow you might wonder, why is every machine duplicated across all tiers? Because you might want them for overclocking.§r\n\nOverclocking is a mechanic that happens when you try to run a recipe in a machine §dthat is higher tier than the recipe itself.§r\nEach tier above the recipe tier allows one overclock. Each overclock implies:\n§9-§r 2x recipe speed\n§9-§r 4x power consumption\n§9-\u003e§r 2x total energy cost\n\nAs you can see there are upsides and downsides. It is a game of balancing decisions: if you want to cut time duration at the cost of greater consumption.\nYou and only you can answer this question.\n§9However I will tell you this:§r for automated setups, overclock as little as possible!\n\n\nMachines have a button to set the maximum voltage tier it will Overclock to. Click on it to cycle through all the available Voltages, and set it on §dX§r to disable Overclocking.\n\n\n§bLore:§r GTCE overclocking was extremely awkward... If the recipe consumed 16EU/t or below, it would do a classic overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14491,7 +14514,7 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 81,
+              "Damage:2": 82,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1",
               "tag:10": {
@@ -14561,7 +14584,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTitanium has the highest corrosion resistance and strength-to-density ratio of any metallic element.§r\n\n§aTitanium§r is the main material for §5EV§r machines. Be sure you build your closed loop for Rutile and prepare to run a dedicated §3EBF§r for hours.\n\nThe §5EV§r Age is the end for single block generators! You will need to run several §3HV Generators§r! And later upgrade to Multiblock Generators.\nWhile Multiblock generators are much more expensive, they have the ability to be much more energy efficient!",
+          "desc:8": "§oTitanium has the highest corrosion resistance and strength-to-density ratio of any metallic element.§r\n\n§aTitanium§r is the main material for §5EV§r machines. Be sure you build your closed loop for Rutile and prepare to run a dedicated §3EBF§r for hours.\n\nIt also is the first material requiring an §6HV§r §9Vacuum Freezer§r to cool. You won\u0027t need to upgrade your freezer\u0027s power inputs as often as your EBF, but power requirements will still slowly go up, so keep that in mind.\n\nThe §5EV§r Age is the end for single block generators! You will need to run several §3HV Generators§r! And later upgrade to Multiblock Generators.\nWhile Multiblock generators are much more expensive, they have the ability to be much more energy efficient!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17461,7 +17484,8 @@
     },
     "252:10": {
       "preRequisites:11": [
-        340
+        340,
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17513,12 +17537,13 @@
     },
     "253:10": {
       "preRequisites:11": [
-        341
+        341,
+        275
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The main §1IV§r Material! §9\n\n§aTungstenSteel§r will be the new §dSteel§r, and is composed half of Steel... suffice to say you will need a lots of both §aIron§r and §aTungsten§r!\n\nPresently, you will need it for §3Energy \u0026 Dynamo Hatches§r... one step closer to move away from pesky single block Generators...\n\nBoosting the smelting recipe in the §3Electric Blast Furnace§r will require §eHelium§r.\nYou can get an initial supply from §aextracting Monazite§r or §acentrifuging Endstone§r.\nIn the long term, you will want §aLiquid Air Distillation§r.",
+          "desc:8": "The main §1IV§r Material! §9\n\n§aTungstensteel§r will be the new §dSteel§r, and is composed half of Steel... suffice to say you will need a lots of both §aIron§r and §aTungsten§r!\n\nPresently, you will need it for §3Energy \u0026 Dynamo Hatches§r... one step closer to move away from pesky single block Generators...\n\nBoosting the smelting recipe in the §3Electric Blast Furnace§r will require §eHelium§r.\nYou can get an initial supply from §aextracting Monazite§r or §acentrifuging Endstone§r.\nIn the long term, you will want §aLiquid Air Distillation§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17582,8 +17607,7 @@
     },
     "254:10": {
       "preRequisites:11": [
-        253,
-        248
+        253
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17692,7 +17716,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Large Combustion Engine§r is a multiblock able to burn §dCombustion Fuels§r for even more Power Generation!\n\nIt\u0027s default production outputs 2048 EU/t, which is simply the same as 4 §3Turbo Combustion Generators§r.\n\nWhere it shines is the ability to §6boost§r it with §aOxygen§r.\nThis will double the fuel consumption, but §9triple the power generation§r for 6144 EU/t!\nThis results in §6150% Fuel efficiency§r.\n\nIt also requires a small amount of §aLubricant§r, nothing too crazy.\n\nThe §3LCE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the 6144 EU/t Power output, you will need a §34A EV Dynamo Hatch§r, or an §3IV Dynamo Hatch§r.",
+          "desc:8": "The §3Large Combustion Engine§r is a multiblock able to burn §dCombustion Fuels§r for even more Power Generation!\n\nIts default production outputs 2048 EU/t, which is simply the same as 4 §3Turbo Combustion Generators§r.\n\nWhere it shines is the ability to §6boost§r it with §aOxygen§r.\nThis will double the fuel consumption, but §9triple the power generation§r for 6144 EU/t!\nThis results in §6150% Fuel efficiency§r.\n\nIt also requires a small amount of §aLubricant§r, nothing too crazy.\n\nThe §3LCE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§9Note:§r This Quest requires §eany§r task to be completed, but you should still need all the parts.\nTo harness the 6144 EU/t Power output, you will need a §34A EV Dynamo Hatch§r, or an §3IV Dynamo Hatch§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17765,7 +17789,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAgain, this was quite a journey to get here. Consider you deeply rooted in EV Age once you reach this point.§r\n\nThe §3EV Circuit Assembling§r enables the next tier of Circuits, §5Nano§r.",
+          "desc:8": "§oAgain, this was quite a journey to get here. Consider yourself deeply rooted in EV Age once you reach this point.§r\n\nThe §3EV Circuit Assembling§r enables the next tier of Circuits, §5Nano§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17974,7 +17998,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While the §aWood Vinegar§r Distillation gives §aAcetone§r, the yield is low and might not suffice.\n\nThere is a direct §3LCR§r recipe from §aAcetic Acid§r to obtain §aAcetone§r.\n\nIf you want to be fancy, you can also the good old §aAcetic Acid§r -\u003e §dDissolved Calcium Acetate§r -\u003e §aAcetone§r loop, which does not require a §3LCR§r, but still recycles the Calcium compound perfectly.\n\n\n§oI\u0027ve been talking about Acetic Acid... but I haven\u0027t mentionned how to obtain it, wouldn\u0027t that be great?§r\n§aAcetic Acid§r can be synthesized in the §3Chemical Reactor§r. My favorite recipe is from §dEthylene§r.",
+          "desc:8": "While the §aWood Vinegar§r Distillation gives §aAcetone§r, the yield is low and might not suffice.\n\nThere is a direct §3LCR§r recipe from §aAcetic Acid§r to obtain §aAcetone§r.\n\nIf you want to be fancy, you can also the good old §aAcetic Acid§r -\u003e §dDissolved Calcium Acetate§r -\u003e §aAcetone§r loop, which does not require a §3LCR§r, but still recycles the Calcium compound perfectly.\n\n\n§oI\u0027ve been talking about Acetic Acid... but I haven\u0027t mentioned how to obtain it, wouldn\u0027t that be great?§r\n§aAcetic Acid§r can be synthesized in the §3Chemical Reactor§r. My favorite recipe is from §dEthylene§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18136,7 +18160,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Obtain §aPhenol§r from:\n§91 -§r §aWood Tar§r distillation.\n§92 -§r Reacting §aBenzene§r with §dChlorine§r and §dSodium Hydroxide§r (§3LCR§r, Chlorine is perfectly looped).\n§93 -§r Doing the above shortcut recipe which skips using §dSodium Hydroxide§r, but is lossy on §dChlorine§r.\n§94 -§r Reacting §aBenzene§r, §dPropene§r and §dOxygen§r using a small amount of §4Phosphoric Acid§r, normally a catalyst, but consumed in small quantity for... reasons. This is called the Cumene process.\n\nThe choice is yours:\n§91 -§r Great if you have §3Pyrolyse§r + §3Distillation Tower§r combo.\n§92 -§r My preference, you can use the §dSalt§r to make §dSalt Water§r and electrolyze it as a loop.\n§93 -§r Great if you have infinite supply of §dChlorine§r thanks to a §3Fluid Drilling Rig§r on Salt Water.\n§94 -§r §4Phosphoric Acid§r is a pain to produce and not required anywhere else in GTCEu, unrecommended.\n\n\n§bLore:§r The Benzene + Oxygen recipe was added in GTCE as part of chemical fixes as the Large Chemical Reactor didn\u0027t exist. Now that there are more realistic option, that recipe might go away.",
+          "desc:8": "Obtain §aPhenol§r from:\n§91 -§r §aWood Tar§r distillation.\n§92 -§r Reacting §aBenzene§r with §dChlorine§r and §dSodium Hydroxide§r (§3LCR§r, Chlorine is perfectly looped).\n§93 -§r Doing the above shortcut recipe which skips using §dSodium Hydroxide§r, but is lossy on §dChlorine§r.\n§94 -§r Reacting §aBenzene§r, §dPropene§r and §dOxygen§r using a small amount of §4Phosphoric Acid§r, normally a catalyst, but consumed in small quantity for... reasons. This is called the Cumene process.\n\nThe choice is yours:\n§91 -§r Great if you have §3Pyrolyse§r + §3Distillation Tower§r combo.\n§92 -§r My preference, you can use the §dSalt§r to make §dSalt Water§r and electrolyze it as a loop.\n§93 -§r Great if you have infinite supply of §dChlorine§r thanks to a §3Fluid Drilling Rig§r on Salt Water.\n§94 -§r §4Phosphoric Acid§r is a pain to produce and is only required for other things at §cZPM§r in GTCEu, unrecommended.\n\n\n§bLore:§r The Benzene + Oxygen recipe was added in GTCE as part of chemical fixes as the Large Chemical Reactor didn\u0027t exist. Now that there are more realistic option, that recipe might go away.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18884,14 +18908,14 @@
     },
     "275:10": {
       "preRequisites:11": [
-        248,
         203,
-        341
+        341,
+        400
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWow, that\u0027s hot :flushed:§r\n\n§aTungstenSteel Coils§r bring up the Heat Capacity to §d4,500K§r.\n\nThis will be required in the §1IV§r Age, but you should still get this earlier for the §6Coil bonuses§r, as always.",
+          "desc:8": "§oWow, that\u0027s hot :flushed:§r§r\n\n§a§aRTM Alloy§r§r Coils§r bring up the Heat Capacity to §d4,500K§r.\n\nThis will be required in the §1IV§r Age, but you should still get this earlier for the §6Coil bonuses§r, as always.\n\n§b§bLore§r§r: These coils used to be Tungstensteel Coils. This however made most of the EV tier very easy to skip over and postpone to IV, so they were changed to the new RTM Alloy. GTNH was the first to make this change, and used TPV Alloy instead, made from Titanium, Platinum, and Vanadium.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -18903,7 +18927,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Tungstensteel Coils",
+          "name:8": "RTM Alloy Coils",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -19143,7 +19167,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Fisher§r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like §dEnchanted Books§r. Each operation consumes 1 String and EU equivalent to its tier (32 for LV etc.) That\u0027s about it.\n\n§eFish Oil§r can be extracted from Fish, which can be used for §6Bio Diesel§r... is what we would say if that was implemented into CEu. \n\nGet §eany§r tier Fisher to complete this quest. (They only go up to §5EV§r. If you forsee needing enough Fish to justify an §1IV§r or higher Fisher, make a feature request on our GitHub or Discord.)",
+          "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Fisher§r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like §dEnchanted Books§r. Each operation consumes 1 String and EU equivalent to its tier (32 for LV etc.) That\u0027s about it.\n\n§eFish Oil§r can be extracted from Fish, which can be used for §6Bio Diesel§r.\n\nFish can also be useful for automating §eMince Meat§r, which you will need at §cZPM§r.\n\nGet §eany§r tier Fisher to complete this quest. (They only go up to §5EV§r. If you forsee needing enough Fish to justify an §1IV§r or higher Fisher, make a feature request on our GitHub or Discord.)",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19672,7 +19696,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Nothing special here... the §3IV Assembler§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r as well as §3HSS-G Coils§r, you know you do.\n\nUpgrading this to §2Gregicality Multiblocks§r is a wise decision, if you added the mod.\n\n\n§bLore:§r I often get asked why is GCYM not included in the modpack. My reasoning is to show how robust GTCEu is by itself.\nDid you know that GTCE\u0027s content stopped at EV, and the content up to UV was always gapped with Shadows of Greg, a third party mod?\nOf course GCYM should still be included in any larger modpack, because it is a great QoL mod.",
+          "desc:8": "Nothing special here... the §3IV Assembler§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r as well as §3HSS-G Coils§r, you know you do.\n\nUpgrading this to §2Gregicality Multiblocks§r is a wise decision.\n\n\n§bLore:§r Did you know that GTCE\u0027s content stopped at EV, and the content up to UV was always filled with Shadows of Greg, a third-party mod? This was one of the few IV machines you could make with only GTCE installed. This in fact traces all the way back to the original GT5!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20340,8 +20364,6 @@
     "296:10": {
       "preRequisites:11": [
         397,
-        380,
-        275,
         404,
         415,
         295
@@ -20630,7 +20652,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe power of the stars... and also particle accelerators because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. The maximum voltage tier this reactor can run recipes at is §dLuV§r. It will also only overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
+          "desc:8": "§oThe power of the stars... and also particle accelerators because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe craft for building the full multiblock is quite extensive. You may run into a bottleneck in your Vacuum Freezer(s) cooling here!\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. The maximum voltage tier this reactor can run recipes at is §dLuV§r. It will also only overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21138,9 +21160,12 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 470,
+            "Damage:2": 469,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 100000
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -21362,8 +21387,7 @@
     },
     "314:10": {
       "preRequisites:11": [
-        252,
-        248
+        252
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22149,7 +22173,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs, and it is perfectly playable as is. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance:\n\n§9-§r §dGregicality Multiblocks§r §6(released)§r adds Multiblocks (crazy huh?) mostly starting with the §1IV§r Age. These multiblocks are improved versions of single block machines which can perform many recipes in parallel. A really fancy way to scale your automation on a large scale!\n\n§9-§r §dGregicality Science§r §e(currently in early development)§r, formerly known as simply §dGregicality§r, is a huge addon. It extends the lategame with 5 additional voltage tiers, and adds some additional challenges to the earlier tiers, such as a harder Platinum Group processing line. If you want to play with it, you may choose a different modpack, though.\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n\n§9-§r §dhtmlTech§r §e(very WIP)§r adds an assortment of things. The main focus is on energy transportation thanks to lasers, as seen in TecTech.\n\n§9-§r §dMechTech§r §6(released)§r adds a Modular Armor that can be configured heavily, great as QoL. It also has a Tesla Tower, partially inspired by TecTech.",
+          "desc:8": "§oIn this lightweight modpack, we essentially included enough QoL to fit your needs, and it is perfectly playable as is. But maybe you require more?§r\n\nIf you\u0027re playing singleplayer, feel free to add mods to your instance. For more QoL, more Tech, maybe Magic...?\nJust be sure to not add anything that breaks progression... promise?\n\n\nSince we\u0027re part of the §2GregTech: CEu§r community, I will plug some of the §9addons§r here that you can safely add to your instance (running list):\n\n§9-§r §dGregTech Food Option§r §6(released)§r adds various food chains and machines, to make... food! Making Bread won\u0027t be too easy, and will require some lovely automation. A nice alternate challenge.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22328,7 +22352,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIV Age is truly the Age of automation, and finally this should be worth to automate all the ores... if you wish, that is.§r\n\nWhat you will §4§lneed§r to automate §6Ore Processing§r on a large scale:\n§9-§r One or few §3IV Macerators§r (or higher tier).\n§9-§r A few §3Processing Arrays§r (PA), to place your low tier machines inside, §eor§r use the §2Gregicality Multiblocks§r variants.\n§9-§r 16 LV §3Thermal Centrifuges§r in a PA (upgradable to 64 with the Advanced PA).\n§9-§r One or a few MV §3Electrolyzers§r, possibly in a PA.\n§9-§r A §3Multi Smelter§r.\n§9-§r A §3Packager§r of any tier.\n§9-§r Inventories acting as a large buffer, such as §3TungstenSteel Crates§r.\n§9-§r §3ME Storage Buses§r or a lot of §3Item Pipes§r + §aFilters§r covers, §aOreDict Filters§r and possibly §aSmart Filter§r.\n\nWhat you may §eoptionally§r add:\n§\n§9-§r A few LV §3Ore Washers§r for quick washing purposes.\n§9-§r Up to 16 LV §3Ore Washers§r in a PA, accompanied with a set of §3Distilleries§r for §dDistilled Water§r.\n§9-§r Up to 16 LV §3Centrifuges§r in a PA, for impure/purified dusts.\n§9-§r §3§3Chemical Baths§r for the special Byproducts using §dMercury§r or §dSodium Persulfate§r.\n§9-§r §3Sifters§r of any tier (higher tier \u003d better chanced output), for gem ores.\n§9-§r §3Electromagnetic Separators§r.\n\n\nTo answer questions:\n\n§d-§r Why §7LV§r Machines? Overclocking is not energy efficient, which is why it is generally better to go for low tier machines in passive setups. One could also argue they are cheaper.\n§3Processing Arrays§r make up for the sheer amount of machines you are making. If you wish, you can still use higher tier machines, but the power draw will be bigger.\nIf you have §2Gregicality Multiblocks§r, just use those instead.\n\n§d-§r Optional things? Yes. Obtaining most Byproducts or getting better yields are completely up to you.\n§3Thermal Centrifuges§r are close to mandatory, as they unlock a §6unique Byproduct§r from the maceration step.\n\n§d-§r What ores should I prioritise? There are crucial ores and Byproducts to not miss out.\nChalcopyrite, Chalcocite, Bornite, Tetrahedrite, Pentlandite and Sheldonite ores should all be turned into §dPurified Crushed§r and sent to the §6Platinum Group Metal§r chain.\nPurified Crushed Galena and Sphalerite may be reserved for Indium, until you have the Naquadah chain.\n§aGallium§r, §aChrome§r, §aNiobium§r, §aRare Earths§r, §aGlowstone§r are §6Byproducts§r you want to prioritise (§oif I am missing any, hit us up on Discord and I may add it!§r).\n\n§d-§r Storage Buses? As you may know, automating with AE2 is very powerful.\n§3ME Storage Buses§r can route items effortlessly. They also have a huge whitelist or blacklist configuration. Put them on the §3TungstenSteel Crates§r, to buffer the items... or use a dedicated AE2 network, you choose.\nTo combine §aTiny Dusts§r into full §aDusts§r, you will want a §3Storage Bus§r on high priority paired with an §dOre Dict§r filter for §e§ldustTiny*§r. (Or you can reverse this... using a ME OreDict Storage Bus... Up to you!). Note that a few Tiny Dusts are needed for the PBI chain, so you can blacklist them from this if it\u0027s your main network.\n\n\nMore things to note:\nThe §aSmart Filter§r§r can be used for Electrolyzable items (refer back to the \"200 IQ Quest\" with the Smart Filter), but you may prefer setting up filter §emanually§r for that.\nThe §aSmart Filter§r can also be used to be configured to filter §dsiftable Purified Crushed Ores§r.\nFor ores that you want to process but don\u0027t want the Byproducts as it would take too long in the machines, prioritize filtering them for quick washing.\nThe typically \"best\" path is: Macerator -\u003e Ore Washing -\u003e Thermal Centrifuge -\u003e Macerator. If you deviate from it for various reasons, you will have to set filters §emanually§r.",
+          "desc:8": "§oIV Age is truly the Age of automation, and finally this should be worth to automate all the ores... if you wish, that is.§r\n\nWhat you will §4§lneed§r to automate §6Ore Processing§r on a large scale:\n§9-§r One or few §3IV Macerators§r (or higher tier).\n§9-§r A few §3Processing Arrays§r (PA), to place your low tier machines inside, §eor§r use the §2Gregicality Multiblocks§r variants.\n§9-§r 16 LV §3Thermal Centrifuges§r in a PA (upgradable to 64 with the Advanced PA).\n§9-§r One or a few MV §3Electrolyzers§r, possibly in a PA.\n§9-§r A §3Multi Smelter§r.\n§9-§r A §3Packager§r of any tier.\n§9-§r Inventories acting as a large buffer, such as §3TungstenSteel Crates§r.\n§9-§r §3ME Storage Buses§r or a lot of §3Item Pipes§r + §aFilters§r covers, §aOreDict Filters§r and possibly §aSmart Filter§r.\n\nWhat you may §eoptionally§r add:\n§\n§9-§r A few LV §3Ore Washers§r for quick washing purposes.\n§9-§r Up to 16 LV §3Ore Washers§r in a PA, accompanied with a set of §3Distilleries§r for §dDistilled Water§r.\n§9-§r Up to 16 LV §3Centrifuges§r in a PA, for impure/purified dusts.\n§9-§r §3§3Chemical Baths§r for the special Byproducts using §dMercury§r or §dSodium Persulfate§r.\n§9-§r §3Sifters§r of any tier (higher tier \u003d better chanced output), for gem ores.\n§9-§r §3Electromagnetic Separators§r.\n\n\nTo answer questions:\n\n§d-§r Why §7LV§r Machines? Overclocking is not energy efficient, which is why it is generally better to go for low tier machines in passive setups. One could also argue they are cheaper.\n§3Processing Arrays§r make up for the sheer amount of machines you are making. If you wish, you can still use higher tier machines, but the power draw will be bigger.\nIf you have §2Gregicality Multiblocks§r, just use those instead.\n\n§d-§r Optional things? Yes. Obtaining most Byproducts or getting better yields are completely up to you.\n§3Thermal Centrifuges§r are close to mandatory, as they unlock a §6unique Byproduct§r from the maceration step.\n\n§d-§r What ores should I prioritise? There are crucial ores and Byproducts to not miss out.\nChalcopyrite, Chalcocite, Bornite, Tetrahedrite, Pentlandite and Sheldonite ores should all be turned into §dPurified Crushed§r and sent to the §6Platinum Group Metal§r chain.\nPurified Crushed Galena and Sphalerite may be reserved for Indium, until you have the Naquadah chain.\n§aGallium§r, §aChrome§r, §aNiobium§r, §aRare Earths§r, §aGlowstone§r are §6Byproducts§r you want to prioritise (§oif I am missing any, hit us up on Discord and I may add it!§r).\n\n§d-§r Storage Buses? As you may know, automating with AE2 is very powerful.\n§3ME Storage Buses§r can route items effortlessly. They also have a huge whitelist or blacklist configuration. Put them on the §3TungstenSteel Crates§r, to buffer the items... or use a dedicated AE2 network, you choose.\n\n\nMore things to note:\nThe §aSmart Filter§r§r can be used for Electrolyzable items (refer back to the \"200 IQ Quest\" with the Smart Filter), but you may prefer setting up filter §emanually§r for that.\nThe §aSmart Filter§r can also be used to be configured to filter §dsiftable Purified Crushed Ores§r.\nFor ores that you want to process but don\u0027t want the Byproducts as it would take too long in the machines, prioritize filtering them for quick washing.\nThe typically \"best\" path is: Macerator -\u003e Ore Washing -\u003e Thermal Centrifuge -\u003e Macerator. If you deviate from it for various reasons, you will have to set filters §emanually§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22951,21 +22975,10 @@
       }
     },
     "340:10": {
-      "preRequisiteTypes:7": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
       "preRequisites:11": [
         220,
-        208,
-        142,
         213,
-        203,
-        125
+        248
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23064,7 +23077,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAre you noticing a pattern? It\u0027s not just my imagination...§r\n\nThe §3EV Mixer§r is required for more alloys. The most important being §dTungstensteel§r.",
+          "desc:8": "§oAre you noticing a pattern? It\u0027s not just my imagination...§r\n\nThe §3EV Mixer§r is required for more alloys. The most important being §dTungstensteel§r and §dRTM Alloy§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23642,7 +23655,8 @@
       "preRequisites:11": [
         200,
         220,
-        323
+        323,
+        230
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -24607,7 +24621,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oWow this made it this far, that\u0027s great! Remember when I was talking about other mods in the introduction chapter?§r\n\nIf you want to make your late game richer, I will recommend §2Gregicality Multiblocks§r addon.\nAdding this mod to your instance is completely §doptional§r, but the Multiblocks it adds are very unique.\n\nWithout the addon, you will look at the §3Processing Array§r for large scale production.\nWith the addon, you will have a §6wide variety of Multiblocks§r, replacing all available single block Machines.\n\nIt also adds a lot of §9alloys§r to build the new Multiblocks with. It\u0027s content!\n\n\n§oThere will be no Quests for Gcy:M... but you are a JEI expert at this point, right?\nYou may also have to force complete Quests that require single block machines that you have replaced with Multiblocks.§r",
+          "desc:8": "§oWow this made it this far, that\u0027s great!\n\nIf you want to make your late game richer, I will recommend §2Gregicality Multiblocks§r addon.\nUtilizing this mod is completely §doptional§r, but the Multiblocks it adds are very unique and useful.\n\nWithout the addon, you will look at the §3Processing Array§r for large scale production.\nWith the addon, you will have a §6wide variety of Multiblocks§r, replacing all available single block Machines.\n\nIt also adds a lot of §9alloys§r to build the new Multiblocks with. It\u0027s content!\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25502,13 +25516,9 @@
       }
     },
     "389:10": {
-      "preRequisiteTypes:7": [
-        0,
-        1
-      ],
       "preRequisites:11": [
-        248,
-        341
+        341,
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25651,6 +25661,10 @@
       }
     },
     "391:10": {
+      "preRequisiteTypes:7": [
+        1,
+        0
+      ],
       "preRequisites:11": [
         275,
         379
@@ -25840,7 +25854,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The next board material as easy as §aEpoxy§r, plus an added extra step in the §3Chemical Bath§r.\n\n§oHOORAY!§r",
+          "desc:8": "The next board material is as easy as §aEpoxy§r, plus an added extra step in the §3Chemical Bath§r.\n\n§oHOORAY!§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26034,7 +26048,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHey look! It\u0027s the default icon for BetterQuesting Quests... this time used accordingly.§r\n\n§aNether Stars§r are used for high tier §dSensors§r, §dEmitters§r and §dField Generators§r.\n\nYou can also use them for §dBeacons§r, if you desire the permanent potion effects. Vanilla for you!\n\nOn the topic of §aNether Air§r which is required in the recipe: you can consider §9Liquid Nether Air§r Distillation if you wish, it\u0027s... decent.",
+          "desc:8": "§oHey look! It\u0027s the default icon for BetterQuesting Quests... this time used accordingly.§r\n\n§aNether Stars§r are used for high tier §dSensors§r, §dEmitters§r and §dField Generators§r.\n\nYou can also use them for §dBeacons§r, if you desire the permanent potion effects. Vanilla for you!\n\nOn the topic of §aNether Air§r which is required in the recipe: you can consider §9Liquid Nether Air§r Distillation if you wish, it\u0027s... decent.\n\n§bLore§r: In GTNH, you need a Nether Star Block in HV to get to the moon! You could also duplicate them with magic, and mine an ore for nether star dust much later on.\n\n§oDid you know the vanilla Nether Star texture isn\u0027t centered?§r :)",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26243,13 +26257,12 @@
       "preRequisites:11": [
         221,
         207,
-        204,
-        275
+        204
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This part of the chain starts with §aInert Metal Mixture§r.\n\n§dSulfuric Acid§r can be perfectly recycled. You will produce excess §dOxygen§r and §dHydrogen§r.\n\n§aRuthenium§r and §aRhodium§r are gatekeepers to the §dLuV§r Age. But you should still automate them so you won\u0027t need to do it later!",
+          "desc:8": "This part of the chain starts with §aInert Metal Mixture§r.\n\n§dSulfuric Acid§r can be perfectly recycled. You will produce excess §dOxygen§r and §dHydrogen§r.\n\n§aRuthenium§r is a gate to the §9IV§r age. You\u0027ll need it for the next coil!\n\n§aRhodium§r is the gate to the §dLuV§r Age. But you should still automate it so you won\u0027t need to do it later!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28102,8 +28115,7 @@
     "430:10": {
       "preRequisites:11": [
         406,
-        300,
-        431
+        300
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -29178,7 +29190,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe final processing line, at last!§r\n\nProduction of §aSterilized Growth Medium§r is the final processing line in GTCEu, for now at least...\n\nYou will need this for §4Wetware Circuits§r.\n\nProducing it is not nearly as difficult as PBI, but nearly every step requires a Sterilized Cleanroom. This means you\u0027ll have to get creative with how you use your space.\n\nMake sure to look at every recipe for every step. Some inputs are much more effective than others!\n\n§ePro Tip§r: You can wall-share cleanrooms, with doors in-between too, if you want more space.\n\n§bLore§r: GTCEu\u0027s Sterilized Growth Medium chain is loosely based off of Bartworks\u0027 from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line! GTCEu is considering adding a multiblock like it but with their own spin in the future.\n\n§bMore Lore§r: In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients.\n\n§bEven More Lore§r: In Shadows of Greg, this was made with just Distilled Water and Mince Meat! Oh how far we have come...",
+          "desc:8": "§oThe final processing line, at last!§r\n\nProduction of §aSterilized Growth Medium§r is the final processing line in GTCEu, for now at least...\n\nYou will need this for §4Wetware Circuits§r.\n\nProducing it is not nearly as difficult as PBI, but nearly every step requires a Sterilized Cleanroom. This means you\u0027ll have to get creative with how you use your space.\n\nMake sure to look at every recipe for every step. Some inputs are much more effective than others!\n\nIf you\u0027re not sure how to automate §eMince Meat§r, I\u0027ll refer you to the Fisher Quest.\n\n§ePro Tip§r: You can wall-share cleanrooms, with doors in-between too, if you want more space.\n\n§bLore§r: GTCEu\u0027s Sterilized Growth Medium chain is loosely based off of Bartworks\u0027 from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line! GTCEu is considering adding a multiblock like it but with their own spin in the future.\n\n§bMore Lore§r: In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients.\n\n§bEven More Lore§r: In Shadows of Greg, this was made with just Distilled Water and Mince Meat! Oh how far we have come...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29520,7 +29532,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHow does Neutronate even work??§r\n\nYou probably don\u0027t even need these, but §aUHV Superconductors§r exist, and are used for a few things, which you also probably don\u0027t even need...",
+          "desc:8": "§oHow does Neutronate even work??§r\n\n§aUHV Superconductors§r exist, and are used for a few things. You can use them for Superconducting Coils, as well as the §9Rotary Hearth Furnace§r and §9Bulk Blast Chiller§r from §2GCYM§r. These two multis are your parallel EBF and Vacuum Freezer!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29815,7 +29827,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIs this... the end?§r\n\nCrafting the §aUltimate Battery§r is the end of GTCEu and the GregTech Community Modpack. §6Congratulations!§r\n\nNow that you\u0027ve finished the mod, there\u0027s a few things you should do:\n\n- §9Join the GTCEu Discord§r and tell us about how your playthrough went! Also show off your battery :) \n   §9Link§r: TODO\n\n- §eGo outside§r (and start playing GregTech in real life, right?)\n\n- §cBlow up your world with TNT and GT Dynamite§r. §nMake a backup first!!!§r\n\n\n§6Thank you for playing the pack!§r\n- The GregTech Community Pack Dev Team",
+          "desc:8": "§oIs this... the end?§r\n\nCrafting the §aUltimate Battery§r is the end of GTCEu and the GregTech Community Modpack. §6Congratulations!§r\n\nNow that you\u0027ve finished the mod, there\u0027s a few things you should do:\n\n- §9Join the GTCEu Discord§r and tell us about how your playthrough went! Also show off your battery :) \n   §9Link§r: https://discord.gg/bWSWuYvURP\n\n- §eGo outside§r (and start playing GregTech in real life, right?)\n\n- §cBlow up your world with TNT and GT Dynamite§r. §nMake a backup first!!!§r\n\n\n§6Thank you for playing the pack!§r\n- The GregTech Community Pack Dev Team",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30882,7 +30894,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTime for some lasers!§r\n\nThe §3Active Transformer§r has a second use, §6Laser Power§r. Lasers are like superconductors, but behave slightly differently. They share the energy input across all connected active transformers, allowing widespread power distribution. §3Active Transformers§r are used to convert regular EU to and from Lasers.\n\nLike optical cables, they can only be connected to §eone input and output§r. But, these ones also only can move in §estraight lines§r. To turn them, an §3Active Transformer§r with a Laser Source Hatch (output) and Target Hatch (input) is needed.\n\n§bLore§r: This is yet again another TecTech feature, but there\u0027s a bit more too it this time. TecTech\u0027s lasers were tiered by voltage and carried 1000s of amps instead.",
+          "desc:8": "§oTime for some lasers!§r\n\nThe §3Active Transformer§r has a second use, §6Laser Power§r. Lasers are like superconductors, but behave slightly differently. They share the energy input across all connected active transformers, allowing widespread power distribution. §3Active Transformers§r are used to convert regular EU to and from Lasers.\n\nLike optical cables, they can only be connected to §eone input and output§r. But, these ones also only can move in §estraight lines§r. To turn them, an §3Active Transformer§r with a Laser Source Hatch (output) and Target Hatch (input) is needed.\n\n§bLore§r: This is yet again another TecTech feature, but there\u0027s a bit more too it this time. TecTech\u0027s carried 1000s of amps and caused some extreme power inflation in the GTNH late to end game.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30924,7 +30936,7 @@
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 1421,
+              "Damage:2": 1429,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             },
@@ -30947,7 +30959,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oYour research adventures continue!§r\n\nThe §3Research Station§r is the upgrade to the Scanner. It is used for more advanced forms of research. It will allow you to perform research which requires §aData Orbs and Modules§r.\n\nWhen running the §3Research Station§r, energy and §9Computation§r is needed. The latter is provided through an §9HPCA§r, which is explained in the next quest. It is recieved with a §3Computation Data Reception Hatch§r. Note that only one Reception Hatch is allowed in a Research Station.\n\nThis multiblock needs computation §dsporadically§r, which means the recipe will not reverse progress if you don\u0027t supply enough. It will simply halt in-place. The machine will still draw energy constantly, even when recieving no computation however.\n\nTo scan items, the process is relatively similar. In the §3Object Holder§r, place the target item in the center slot, and the data storage item in the other slot. Then provide computation, and the data storage item will be updated upon completion. When running, the target item will be Locked and cannot be removed.\n\n§eNote§r: To form this multiblock the §3Object Holder§r must face the controller.",
+          "desc:8": "§oYour research adventures continue!§r\n\nThe §3Research Station§r is the upgrade to the Scanner. It is used for more advanced forms of research. It will allow you to perform research which requires §aData Orbs and Modules§r.\n\nWhen running the §3Research Station§r, energy and §9Computation§r is needed. The latter is provided through an §9HPCA§r, which is explained in the next quest. It is recieved with a §3Computation Data Reception Hatch§r. Note that only one Reception Hatch is allowed in a Research Station.\n\nThis multiblock needs computation §dsporadically§r, which means the recipe will not reverse progress if you don\u0027t supply enough. It will simply halt in-place. It will also not progress at all without meeting at least the minimum computation rate. The machine will still draw energy constantly, even when recieving no computation however.\n\nTo scan items, the process is relatively similar. In the §3Object Holder§r, place the target item in the center slot, and the data storage item in the other slot. Then provide computation, and the data storage item will be updated upon completion. When running, the target item will be Locked and cannot be removed.\n\n§eNote§r: To form this multiblock the §3Object Holder§r must face the controller.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31249,7 +31261,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Power Substation",
@@ -31409,7 +31421,7 @@
     },
     "486:10": {
       "preRequisites:11": [
-        208
+        248
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -31686,7 +31698,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3IV Cutting Machine§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nUpgrading it to the §2Gregicality Multiblocks§r version is a wise decision, if you added the mod.\n",
+          "desc:8": "The §3IV Cutting Machine§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r, you know you do.\n\nUpgrading it to the §2Gregicality Multiblocks§r version is a wise decision.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31744,11 +31756,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "ae2fc:ultimate_encoder",
-              "orig_meta:3": 0
-            }
+            "id:8": "ae2fc:ultimate_encoder"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -31780,11 +31788,167 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "ae2fc:ultimate_encoder",
-                "orig_meta:3": 0
-              }
+              "id:8": "ae2fc:ultimate_encoder"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "492:10": {
+      "preRequisites:11": [
+        400
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A quick note on §aIridium§r and §aOsmium§r. \n\nYou can technically obtain these materials now, but you should wait until you reach §9IV§r tier. Producing these materials takes a lot of power, and you won\u0027t be able to smelt them into ingots until §9IV§r anyway.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 344,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Iridium, Osmium, and The EV Tier",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 492,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "493:10": {
+      "preRequisites:11": [
+        208
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oYou probably have some old machines lying around, right?§r\n\nYou definitely know by now that Arc Furnaces can recycle machines, but starting at §5EV§r they upgrade to §a9 slots§r!\n\n§eNote§r: This quest accepts either an §5EV§r or §9IV§r Arc Furnace. You don\u0027t have to make both.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 98,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Getting Rid of Those Old Machines",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 493,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 98,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "494:10": {
+      "preRequisites:11": [
+        375
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oVisions of GT++§r\n\nThe §aAlloy Blast Smelter§r is the only main §2GCYM§r machine available in the §5EV§r Tier. You can use it to produce any alloy you would normally use the Mixer for. \n\nInstead of producing Hot Ingots, the ABS produces §9Molten Fluids§r if the recipe is hot enough. These fluids require cooling with a Vacuum Freezer. Otherwise it produces regular liquids.\n\nDon\u0027t be afriad of some long smelting times. This machine incorporates the Mixer step directly into the smelting recipe, and actually saves you quite a bit of time over smelting the dust in an EBF!\n\nNearly every §2GCYM§r material is produced in this machine, so if you have trouble finding a mixer recipe, look for a molten fluid!\n\n§bLore§r: This multiblock was originally inspired by GT++. It did not use heating coils at all, had no temperature requirements, and only produced regular liquids for all materials. It was pretty OP back in the day, but it was later restricted to only a single energy hatch to balance it out. It for some reason also allowed you to cook any dust into liquid too.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2001,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "So Many Alloys",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 494,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2001,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -33746,10 +33910,10 @@
         },
         "9:10": {
           "id:3": 200,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 426,
-          "y:3": -144
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 414,
+          "y:3": -156
         },
         "10:10": {
           "id:3": 201,
@@ -33916,7 +34080,7 @@
           "id:3": 230,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
+          "x:3": 42,
           "y:3": -36
         },
         "34:10": {
@@ -34057,59 +34221,59 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
-          "y:3": 66
+          "y:3": 84
         },
         "1:10": {
           "id:3": 196,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": 252
+          "x:3": -162,
+          "y:3": 288
         },
         "2:10": {
           "id:3": 197,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -168,
-          "y:3": 192
+          "x:3": -174,
+          "y:3": 228
         },
         "3:10": {
           "id:3": 198,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
-          "y:3": 156
+          "y:3": 192
         },
         "4:10": {
           "id:3": 205,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -324,
-          "y:3": 96
+          "y:3": 132
         },
         "5:10": {
-          "id:3": 207,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": -36,
-          "y:3": 246
-        },
-        "6:10": {
           "id:3": 208,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -42,
           "y:3": 6
         },
-        "7:10": {
+        "6:10": {
           "id:3": 217,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
-          "y:3": 48
+          "y:3": 84
+        },
+        "7:10": {
+          "id:3": 220,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": -108
         },
         "8:10": {
-          "id:3": 220,
+          "id:3": 221,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
@@ -34120,62 +34284,62 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 102,
-          "y:3": 162
+          "y:3": 198
         },
         "10:10": {
           "id:3": 248,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -36,
-          "y:3": -108
+          "y:3": -174
         },
         "11:10": {
           "id:3": 249,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
-          "y:3": -78
+          "y:3": -168
         },
         "12:10": {
           "id:3": 252,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 150,
-          "y:3": -54
+          "x:3": 48,
+          "y:3": -240
         },
         "13:10": {
           "id:3": 253,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 144,
-          "y:3": -114
+          "y:3": -180
         },
         "14:10": {
           "id:3": 254,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -102
+          "x:3": 156,
+          "y:3": -108
         },
         "15:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -48
+          "x:3": 222,
+          "y:3": -108
         },
         "16:10": {
           "id:3": 256,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -36,
-          "y:3": 96
+          "y:3": 132
         },
         "17:10": {
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -264,
+          "x:3": 222,
           "y:3": -48
         },
         "18:10": {
@@ -34183,56 +34347,56 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 156
+          "y:3": 192
         },
         "19:10": {
           "id:3": 260,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 204
+          "y:3": 240
         },
         "20:10": {
           "id:3": 261,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -222,
-          "y:3": 90
+          "y:3": 126
         },
         "21:10": {
           "id:3": 262,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 48
+          "y:3": 84
         },
         "22:10": {
           "id:3": 264,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 102
+          "y:3": 138
         },
         "23:10": {
           "id:3": 265,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 102
+          "x:3": 54,
+          "y:3": 138
         },
         "24:10": {
           "id:3": 266,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 150,
-          "y:3": 96
+          "y:3": 132
         },
         "25:10": {
           "id:3": 267,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
-          "y:3": 54
+          "y:3": 84
         },
         "26:10": {
           "id:3": 268,
@@ -34246,210 +34410,210 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
-          "y:3": 156
+          "y:3": 192
         },
         "28:10": {
           "id:3": 270,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
-          "y:3": 204
+          "y:3": 240
         },
         "29:10": {
           "id:3": 271,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 156
+          "x:3": -114,
+          "y:3": 192
         },
         "30:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
-          "y:3": 204
+          "y:3": 240
         },
         "31:10": {
           "id:3": 273,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
-          "y:3": 252
+          "y:3": 288
         },
         "32:10": {
           "id:3": 274,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
-          "y:3": 156
+          "y:3": 192
         },
         "33:10": {
           "id:3": 275,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 252,
-          "y:3": -108
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 42,
+          "y:3": -180
         },
         "34:10": {
           "id:3": 276,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
-          "y:3": 54
+          "y:3": 84
         },
         "35:10": {
           "id:3": 281,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
-          "y:3": -18
+          "y:3": -48
         },
         "36:10": {
-          "id:3": 311,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -318,
-          "y:3": -102
-        },
-        "37:10": {
           "id:3": 312,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -318,
+          "x:3": 252,
           "y:3": -48
         },
-        "38:10": {
+        "37:10": {
           "id:3": 314,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": -48
+          "x:3": 54,
+          "y:3": -276
         },
-        "39:10": {
+        "38:10": {
           "id:3": 329,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
-          "y:3": 54
+          "y:3": 84
         },
-        "40:10": {
+        "39:10": {
           "id:3": 340,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -48
+          "x:3": -30,
+          "y:3": -234
         },
-        "41:10": {
+        "40:10": {
           "id:3": 341,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -102
+          "x:3": 108,
+          "y:3": -234
         },
-        "42:10": {
+        "41:10": {
           "id:3": 351,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": -48
+          "x:3": -72,
+          "y:3": -108
         },
-        "43:10": {
+        "42:10": {
           "id:3": 363,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -264,
-          "y:3": -102
+          "x:3": 156,
+          "y:3": -48
         },
-        "44:10": {
+        "43:10": {
           "id:3": 374,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 210,
-          "y:3": -48
+          "x:3": 156,
+          "y:3": -234
         },
-        "45:10": {
+        "44:10": {
           "id:3": 375,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 258,
-          "y:3": -48
+          "x:3": 222,
+          "y:3": -168
         },
-        "46:10": {
+        "45:10": {
           "id:3": 379,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 54,
-          "y:3": 252
+          "x:3": -30,
+          "y:3": 288
         },
-        "47:10": {
+        "46:10": {
           "id:3": 380,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
-          "y:3": 168
+          "y:3": 204
         },
-        "48:10": {
+        "47:10": {
           "id:3": 381,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 204
+          "x:3": -114,
+          "y:3": 240
         },
-        "49:10": {
+        "48:10": {
           "id:3": 382,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 252
+          "x:3": -114,
+          "y:3": 288
         },
-        "50:10": {
+        "49:10": {
           "id:3": 383,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -264,
-          "y:3": 252
+          "y:3": 288
         },
-        "51:10": {
+        "50:10": {
           "id:3": 389,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -48
+          "x:3": 108,
+          "y:3": -276
         },
-        "52:10": {
+        "51:10": {
           "id:3": 391,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 258,
-          "y:3": 252
+          "x:3": 54,
+          "y:3": 288
         },
-        "53:10": {
+        "52:10": {
           "id:3": 392,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 54,
-          "y:3": 168
+          "y:3": 204
+        },
+        "53:10": {
+          "id:3": 400,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -48
         },
         "54:10": {
           "id:3": 408,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
-          "y:3": 102
+          "y:3": 138
         },
         "55:10": {
           "id:3": 418,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -66,
-          "y:3": 204
+          "x:3": -72,
+          "y:3": 240
         },
         "56:10": {
           "id:3": 422,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
-          "y:3": 204
+          "y:3": 240
         },
         "57:10": {
           "id:3": 460,
@@ -34462,8 +34626,29 @@
           "id:3": 486,
           "sizeX:3": 24,
           "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -168
+        },
+        "59:10": {
+          "id:3": 492,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 54,
+          "y:3": -108
+        },
+        "60:10": {
+          "id:3": 493,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
           "x:3": 54,
           "y:3": 18
+        },
+        "61:10": {
+          "id:3": 494,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 270,
+          "y:3": -174
         }
       }
     },
@@ -34487,314 +34672,300 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 221,
-          "sizeX:3": 36,
-          "sizeY:3": 36,
-          "x:3": 0,
-          "y:3": -210
-        },
-        "1:10": {
           "id:3": 251,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 12
         },
-        "2:10": {
+        "1:10": {
           "id:3": 253,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -222,
           "y:3": 0
         },
-        "3:10": {
+        "2:10": {
           "id:3": 257,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": 6
         },
-        "4:10": {
+        "3:10": {
           "id:3": 284,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -216,
           "y:3": -66
         },
-        "5:10": {
+        "4:10": {
           "id:3": 288,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -132
         },
-        "6:10": {
+        "5:10": {
           "id:3": 292,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 252,
           "y:3": -138
         },
-        "7:10": {
+        "6:10": {
           "id:3": 293,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": -78
         },
-        "8:10": {
+        "7:10": {
           "id:3": 294,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": -36
         },
-        "9:10": {
+        "8:10": {
           "id:3": 295,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 258,
           "y:3": 12
         },
-        "10:10": {
+        "9:10": {
           "id:3": 296,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -6,
           "y:3": 0
         },
-        "11:10": {
+        "10:10": {
           "id:3": 297,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -288,
           "y:3": -66
         },
-        "12:10": {
+        "11:10": {
           "id:3": 298,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 66,
-          "y:3": -288
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -66,
+          "y:3": 12
         },
-        "13:10": {
+        "12:10": {
           "id:3": 328,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": 84
         },
-        "14:10": {
+        "13:10": {
           "id:3": 337,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": -204
         },
-        "15:10": {
+        "14:10": {
           "id:3": 342,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": -204
         },
-        "16:10": {
+        "15:10": {
           "id:3": 343,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": -132
         },
-        "17:10": {
+        "16:10": {
           "id:3": 388,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 84
         },
-        "18:10": {
+        "17:10": {
           "id:3": 390,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -132
         },
-        "19:10": {
+        "18:10": {
           "id:3": 393,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -216,
           "y:3": -210
         },
-        "20:10": {
+        "19:10": {
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -78
         },
-        "21:10": {
+        "20:10": {
           "id:3": 395,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": 84
         },
-        "22:10": {
+        "21:10": {
           "id:3": 396,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": -60
         },
-        "23:10": {
+        "22:10": {
           "id:3": 397,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 72,
           "y:3": -66
         },
-        "24:10": {
+        "23:10": {
           "id:3": 398,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -138
         },
-        "25:10": {
+        "24:10": {
           "id:3": 399,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 144,
           "y:3": -138
         },
-        "26:10": {
-          "id:3": 400,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": -276
-        },
-        "27:10": {
+        "25:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -132
         },
-        "28:10": {
+        "26:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 78,
           "y:3": -132
         },
-        "29:10": {
+        "27:10": {
           "id:3": 404,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -60
         },
-        "30:10": {
+        "28:10": {
           "id:3": 405,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": -60
         },
-        "31:10": {
+        "29:10": {
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -204
         },
-        "32:10": {
+        "30:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -204
         },
-        "33:10": {
+        "31:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -210,
           "y:3": -276
         },
-        "34:10": {
+        "32:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": -276
         },
-        "35:10": {
+        "33:10": {
           "id:3": 415,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": 12
         },
-        "36:10": {
+        "34:10": {
           "id:3": 436,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": -276
         },
-        "37:10": {
+        "35:10": {
           "id:3": 461,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -282,
           "y:3": 12
         },
-        "38:10": {
+        "36:10": {
           "id:3": 464,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 150,
-          "y:3": -276
+          "x:3": 78,
+          "y:3": -204
         },
-        "39:10": {
+        "37:10": {
           "id:3": 468,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 150,
           "y:3": 12
         },
-        "40:10": {
+        "38:10": {
           "id:3": 472,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 54
         },
-        "41:10": {
+        "39:10": {
           "id:3": 473,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 84
         },
-        "42:10": {
+        "40:10": {
           "id:3": 474,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": 114
         },
-        "43:10": {
+        "41:10": {
           "id:3": 483,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 72,
+          "x:3": 0,
           "y:3": -210
         },
-        "44:10": {
+        "42:10": {
           "id:3": 490,
           "sizeX:3": 36,
           "sizeY:3": 36,
@@ -35799,8 +35970,8 @@
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -6,
-          "y:3": 144
+          "x:3": -54,
+          "y:3": 192
         },
         "15:10": {
           "id:3": 226,
@@ -35834,7 +36005,7 @@
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 90,
+          "x:3": 42,
           "y:3": 144
         },
         "20:10": {
@@ -35842,7 +36013,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
-          "y:3": 96
+          "y:3": 144
         },
         "21:10": {
           "id:3": 301,
@@ -35869,14 +36040,14 @@
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 42,
+          "x:3": -6,
           "y:3": 144
         },
         "25:10": {
           "id:3": 312,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 186,
+          "x:3": 138,
           "y:3": 144
         },
         "26:10": {
@@ -35904,7 +36075,7 @@
           "id:3": 345,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 138,
+          "x:3": 90,
           "y:3": 144
         },
         "30:10": {
@@ -35915,53 +36086,95 @@
           "y:3": 48
         },
         "31:10": {
+          "id:3": 375,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": 192
+        },
+        "32:10": {
           "id:3": 389,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 138,
           "y:3": 0
         },
-        "32:10": {
+        "33:10": {
           "id:3": 428,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 42,
           "y:3": 192
         },
-        "33:10": {
+        "34:10": {
           "id:3": 460,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": 144
         },
-        "34:10": {
+        "35:10": {
           "id:3": 461,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": 192
         },
-        "35:10": {
+        "36:10": {
           "id:3": 462,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 0
         },
-        "36:10": {
+        "37:10": {
           "id:3": 463,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 186,
           "y:3": 48
         },
-        "37:10": {
+        "38:10": {
           "id:3": 464,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 138,
           "y:3": 48
+        },
+        "39:10": {
+          "id:3": 475,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 186,
+          "y:3": 96
+        },
+        "40:10": {
+          "id:3": 476,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -54,
+          "y:3": 240
+        },
+        "41:10": {
+          "id:3": 478,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 90,
+          "y:3": 240
+        },
+        "42:10": {
+          "id:3": 479,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 138,
+          "y:3": 240
+        },
+        "43:10": {
+          "id:3": 494,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": 240
         }
       }
     },
@@ -36864,7 +37077,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
