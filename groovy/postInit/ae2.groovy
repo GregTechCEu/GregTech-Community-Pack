@@ -390,7 +390,7 @@ crafting.shapedBuilder().name('wireless_crafting_terminal')
         .matrix('TC', 'Kd')
         .key('d', ore('toolScrewdriver')) //TODO native tools
         .key('T', item('appliedenergistics2:wireless_terminal'))
-        .key('C', metaitem('cover.crafting'))
+        .key('C', item('minecraft:crafting_table'))
         .key('K', item('appliedenergistics2:part', 16))
         .register()
 
@@ -1105,7 +1105,7 @@ crafting.shapedBuilder().name('terminals_crafting')
         .output(item('appliedenergistics2:part', 360))
         .matrix('PB', 'Cd')
         .key('P', item('appliedenergistics2:part', 380))
-        .key('B', metaitem('cover.crafting'))
+        .key('B', item('minecraft:crafting_table'))
         .key('C', item('appliedenergistics2:material', 23))
         .key('d', ore('toolScrewdriver')) //TODO native tools
         .register()
