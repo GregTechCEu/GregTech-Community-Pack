@@ -1,8 +1,6 @@
-import appeng.core.AEConfig;
-import appeng.core.features.AEFeature
+import classes.globals
 import gregtech.api.recipes.ingredients.nbtmatch.NBTCondition
 import gregtech.api.recipes.ingredients.nbtmatch.NBTMatcher
-import classes.globals
 
 // Quartz Glass
 crafting.remove('appliedenergistics2:decorative/quartz_glass')
@@ -294,14 +292,6 @@ recipemap('canner').recipeBuilder()
         .inputs(item('appliedenergistics2:crafting_unit'))
         .inputs(item('appliedenergistics2:material', 24))
         .outputs(item('appliedenergistics2:crafting_accelerator'))
-        .duration(100).EUt(4).buildAndRegister()
-
-// 1k Crafting Storage
-crafting.remove('appliedenergistics2:network/crafting/cpu_crafting_storage_1k')
-recipemap('canner').recipeBuilder()
-        .inputs(item('appliedenergistics2:crafting_unit'))
-        .inputs(item('appliedenergistics2:material', 35))
-        .outputs(item('appliedenergistics2:crafting_storage_1k'))
         .duration(100).EUt(4).buildAndRegister()
 
 // 1k Crafting Storage
@@ -914,7 +904,7 @@ recipemap('laser_engraver').recipeBuilder()
 // Inscriber Calculation Press
 recipemap('laser_engraver').recipeBuilder()
         .inputs(ore('plateDenseIron'))
-        .notConsumable(ore('craftingLensWhite'))
+        .notConsumable(ore('craftingLensBlue'))
         .outputs(item('appliedenergistics2:material', 13))
         .duration(500).EUt(120).buildAndRegister()
 
@@ -1234,9 +1224,6 @@ crafting.shapedBuilder().name('network_portable_cell')
         .key('W', ore('cableGtSingleRedAlloy'))
         .register()
 
-def final hasChannels = AEConfig.instance().isFeatureEnabled(AEFeature.CHANNELS)
-def final range = hasChannels ? [0, 20, 40, 60, 500] : [0, 20]
-
 // AE Cables
 for (int i = 0; i < globals.DYES.size(); i++) {
     String dye = globals.DYES[i]
@@ -1247,7 +1234,7 @@ for (int i = 0; i < globals.DYES.size(); i++) {
     crafting.remove('appliedenergistics2:network/cables/dense_covered_' + dye)
     crafting.remove('appliedenergistics2:network/cables/dense_smart_' + dye)
 
-    for (offset in range) {
+    for (offset in [0, 20, 40, 60, 500]) {
         recipemap('chemical_bath').recipeBuilder()
                 .inputs(item('appliedenergistics2:part', offset + 16))
                 .fluidInputs(fluid('dye_' + dye) * 18)
@@ -1303,41 +1290,33 @@ crafting.shapelessBuilder().name('deconstruction_fluix_block')
 // Channels Items
 
 // ME Controller
-if (hasChannels) {
-    crafting.shapedBuilder().name('me_controller')
-            .output(item('appliedenergistics2:controller'))
-            .matrix('PPP', 'FCF', 'PPP')
-            .key('P', ore('plateAluminium'))
-            .key('F', item('appliedenergistics2:part', 16))
-            .key('C', ore('circuitMv'))
-            .register()
-}
+crafting.shapedBuilder().name('me_controller')
+        .output(item('appliedenergistics2:controller'))
+        .matrix('PPP', 'FCF', 'PPP')
+        .key('P', ore('plateAluminium'))
+        .key('F', item('appliedenergistics2:part', 16))
+        .key('C', ore('circuitMv'))
+        .register()
 
 // Smart Cable
 crafting.remove('appliedenergistics2:network/cables/smart_fluix')
-if (hasChannels) {
-    recipemap('assembler').recipeBuilder()
-            .inputs(item('appliedenergistics2:part', 36) * 8)
-            .inputs(ore('circuitLv'))
-            .outputs(item('appliedenergistics2:part', 56) * 8)
-            .duration(200).EUt(8).buildAndRegister()
-}
+recipemap('assembler').recipeBuilder()
+        .inputs(item('appliedenergistics2:part', 36) * 8)
+        .inputs(ore('circuitLv'))
+        .outputs(item('appliedenergistics2:part', 56) * 8)
+        .duration(200).EUt(8).buildAndRegister()
 
 // Dense Cable
 crafting.remove('appliedenergistics2:network/cables/dense_covered_fluix')
-if (hasChannels) {
-    recipemap('compressor').recipeBuilder()
-            .inputs(item('appliedenergistics2:part', 36) * 4)
-            .outputs(item('appliedenergistics2:part', 516))
-            .duration(400).EUt(2).buildAndRegister()
-}
+recipemap('compressor').recipeBuilder()
+        .inputs(item('appliedenergistics2:part', 36) * 4)
+        .outputs(item('appliedenergistics2:part', 516))
+        .duration(400).EUt(2).buildAndRegister()
 
 // Dense Smart Cable
 crafting.remove('appliedenergistics2:network/cables/dense_smart_fluix')
-if (hasChannels) {
-    recipemap('assembler').recipeBuilder()
-            .inputs(item('appliedenergistics2:part', 516) * 8)
-            .inputs(ore('circuitMv'))
-            .outputs(item('appliedenergistics2:part', 76) * 8)
-            .duration(200).EUt(8).buildAndRegister()
-}
+recipemap('assembler').recipeBuilder()
+        .inputs(item('appliedenergistics2:part', 516) * 8)
+        .inputs(ore('circuitMv'))
+        .outputs(item('appliedenergistics2:part', 76) * 8)
+        .duration(200).EUt(8).buildAndRegister()
