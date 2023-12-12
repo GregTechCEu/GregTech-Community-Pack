@@ -28056,10 +28056,6 @@
       }
     },
     "429:10": {
-      "preRequisiteTypes:7": [
-        0,
-        1
-      ],
       "preRequisites:11": [
         296,
         392
@@ -31954,6 +31950,312 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "495:10": {
+      "preRequisites:11": [
+        225
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aBeam Former§r is an alternative to using ME Cable.\n\nPlace one at each end of a straight run, and it will form a beam between them! This beam will send the AE singal between each side.\n\nThe beam has a range of §e32 blocks§r between the endpoints, not including them.\n\nThese beams also have the GT bloom effects too!\n\nIf the beam is blocked, the connection will un-form. Doing this using redstone (such as pistons) technically makes it possible to shut off different sections of the system, but doing so can be §claggy§r. As an extension of this, avoid the toggle bus as well - it has the same problem.\n\nWalking through the beam does not block it!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:part"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "AE2 with Lasers",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 495,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:part"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "496:10": {
+      "preRequisites:11": [
+        374
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aInterface P2P Tunnel§r is an upgraded version of §9Item/Fluid P2P Tunnels§r.\n\nThe input side is placed on an ME Interface containing patterns. It can have multiple outputs, which should connect to inventories.\n\nWhen multiple crafts of a single pattern are requested, the P2P Tunnel will evenly distribute the crafts between all of the connected outputs.\n\nThe Interface P2P Tunnel also respects §eBlocking Mode§r, which is set in the interface containing the patterns.\n\nIt additionally works with §9Fluid Interfaces§r and §9Dual Interfaces§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "nae2:part"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Interface P2P",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 496,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "497:10": {
+      "preRequisites:11": [
+        267
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "NAE2 adds §aDense Crafting CPUs§r which provide a lot more bytes in a lot less space!\n\nIt also adds §aDense Coprocessors§r which allow you to power up your Crafting CPUs to perform more tasks simultaneously!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:storage_crafting_16384k"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Dense Crafting",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 497,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:coprocessor_4x"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:storage_crafting_256k"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "498:10": {
+      "preRequisites:11": [
+        142
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "These cells will void §c§l§neverything§r inserted into them.\n\nFilter them with a §9Cell Workbench§r to make sure nothing important gets lost!\n\nThey also store the amount of items voided, and can produce items in the §9Matter Condenser§r using the voided items. This can be very useful for producing AE2 Singularities, for example.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:fluid_storage_cell_void",
+            "tag:10": {}
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Void Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 498,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "499:10": {
+      "preRequisites:11": [
+        273
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aPattern Multitool§r does A LOT!\n\n§2Blank Pattern Storage:§r\nR-clicking the tool will open a gui where you can insert §9Blank Patterns§r. Add regular §9Capacity Cards§r to increase the slots. Opening any §9Pattern Terminal§r with the tool in your inventory or in a bauble slot will utilize Blank Patterns from these slots. You can also view this pattern storage GUI from any Pattern Terminal.\n\n§2Bulk Pattern Modification:§r\nInserting §9Encoded Patterns§r instead of blank ones will allow you to multiply/divide/add/subtract them all at once in bulk. Division and subtraction is enabled while holding §ashift§r. This GUI also shows up in the §9Interface Terminal§r or any §9ME Item/Fluid/Dual Interface§r§r. This is particularly useful when multiplying up your patterns for parallel on-demand machinery.\n\nPatterns can also be cleared in bulk with the \"Clear\" button. There is a confirmation after clicking it, but use with caution.\n\n§2Item Search and Replace:§r\nR-clicking the tool and opening the §aReplace tab§r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the §9Encoded Patterns§r stored within the tool. Successful replacements are highlighted in §agreen§r, and invalid patterns in §cred§r. This is particularly useful for §eupgrading GT circuits§r, such as transitioning from Nano to Quantum EV circuits.\n\n§2Easy Pattern Transfer:§r\nShift-LClicking patterns will move them between the player inventory and the multitool where possible. This means you can easily move patterns around between interfaces and terminals without clogging your inventory.\n\n§2In-Place Editing:§r\nRclicking an §9ME Item/Fluid/Dual Interface§r will display the interface\u0027s patterns in the multitool. This will allow you to easily modify the patterns inside it without having to manually move them back and forth.\n\n§bLore§r: Neeve, the author of the NAE2 mod suggested tiering this item at §eUXV§r tier, because it \"gives the player way too much power.\" For reference, §eUXV§r is 4 tiers past §3UV§r tier, two tiers before §c§lMAX§r voltage.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:pattern_multiplier"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pattern Multitool",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 499,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:pattern_multiplier"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "500:10": {
+      "preRequisites:11": [
+        200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "These upgraded §aAcceleration Cards§r massively increase the speed of §9ME IO Ports§r.\n\nIf you\u0027re moving huge amounts of items or fluids between cells, this is the card for you.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:upgrade"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Hyper Acceleration",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 500,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:upgrade"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -33912,7 +34214,7 @@
           "id:3": 200,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 414,
+          "x:3": 402,
           "y:3": -156
         },
         "10:10": {
@@ -34194,6 +34496,27 @@
           "sizeY:3": 24,
           "x:3": 18,
           "y:3": 72
+        },
+        "50:10": {
+          "id:3": 495,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 138,
+          "y:3": -36
+        },
+        "51:10": {
+          "id:3": 498,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 306,
+          "y:3": -192
+        },
+        "52:10": {
+          "id:3": 500,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 414,
+          "y:3": -84
         }
       }
     },
@@ -34649,6 +34972,27 @@
           "sizeY:3": 36,
           "x:3": 270,
           "y:3": -174
+        },
+        "62:10": {
+          "id:3": 496,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 222,
+          "y:3": -234
+        },
+        "63:10": {
+          "id:3": 497,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 84
+        },
+        "64:10": {
+          "id:3": 499,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 288
         }
       }
     },
@@ -35753,22 +36097,22 @@
           "id:3": 104,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
-          "y:3": -42
+          "x:3": 168,
+          "y:3": 66
         },
         "1:10": {
           "id:3": 156,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 168,
           "y:3": -24
         },
         "2:10": {
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": -30
+          "x:3": -6,
+          "y:3": -24
         },
         "3:10": {
           "id:3": 246,
@@ -35782,42 +36126,42 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
-          "y:3": 18
+          "y:3": 24
         },
         "5:10": {
           "id:3": 376,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 72
+          "x:3": -6,
+          "y:3": 114
         },
         "6:10": {
           "id:3": 392,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -6,
-          "y:3": 18
+          "y:3": 24
         },
         "7:10": {
           "id:3": 416,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": -42
+          "x:3": 216,
+          "y:3": 66
         },
         "8:10": {
           "id:3": 429,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": 60,
-          "y:3": 126
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": 24
         },
         "9:10": {
           "id:3": 466,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 18,
-          "y:3": 114
+          "x:3": -48,
+          "y:3": 66
         },
         "10:10": {
           "id:3": 467,
@@ -35830,22 +36174,64 @@
           "id:3": 468,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 60,
           "y:3": 114
         },
         "12:10": {
           "id:3": 486,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": 96,
-          "y:3": 126
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": -24
         },
         "13:10": {
           "id:3": 491,
-          "sizeX:3": 30,
-          "sizeY:3": 30,
-          "x:3": 78,
-          "y:3": 168
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 114
+        },
+        "14:10": {
+          "id:3": 495,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -24
+        },
+        "15:10": {
+          "id:3": 496,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 24
+        },
+        "16:10": {
+          "id:3": 497,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 102,
+          "y:3": 114
+        },
+        "17:10": {
+          "id:3": 498,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 114
+        },
+        "18:10": {
+          "id:3": 499,
+          "sizeX:3": 54,
+          "sizeY:3": 54,
+          "x:3": 66,
+          "y:3": -42
+        },
+        "19:10": {
+          "id:3": 500,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": 114
         }
       }
     },
@@ -37077,7 +37463,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
