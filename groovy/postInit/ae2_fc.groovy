@@ -112,3 +112,15 @@ crafting.shapedBuilder().name('ultimate_encoder')
         .key('C', ore('circuitUv'))
         .mirrored()
         .register()
+
+// Wireless Fluid Pattern Terminal
+crafting.remove('ae2fc:wireless_fluid_pattern_terminal')
+crafting.shapedBuilder().name('wireless_fluid_pattern_terminal')
+        .output(item('ae2fc:wireless_fluid_pattern_terminal'))
+        .matrix('TC', 'Kd')
+        .key('d', ore('toolScrewdriver')) //TODO native tools
+        .key('T', item('appliedenergistics2:wireless_pattern_terminal'))
+        .key('C', ore('circuitZpm'))
+        .key('K', metaitem('fluid.regulator.iv'))
+        .register()
+
