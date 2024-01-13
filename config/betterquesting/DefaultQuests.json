@@ -1,5 +1,4 @@
 {
-  "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -11160,7 +11159,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier plastics have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.",
+          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier polymers have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.\n§r\nWhen using §9ME Terminals§r, you can input mathmatical expressions into the amount field when requesting crafts, so you don\u0027t need a calculator.\n\nWhen a craft is finished, you will get a §etoast§r notifying you. This can be disabled in the config.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17139,7 +17138,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Explaining §2Applied Energistics§r mechanics would almost need its own entire Quest Book, which is too much effort for what it\u0027s worth.\n\nThere are great resources online and excellent video tutorials for all the mechanics in §2AE2§r, which I invite you to check out.\nThe Quests focus on on major milestones, and tricks that are not widely known.\n\nMake sure to use §aJEI§r for all the exper-style modified recipes, which remain fairly accessible.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r The version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
+          "desc:8": "Explaining §2Applied Energistics§r mechanics would almost need its own entire Quest Book, which is too much effort for what it\u0027s worth.\n\nThere are great resources online and excellent video tutorials for all the mechanics in §2AE2§r, which I invite you to check out.\nThe Quests focus on on major milestones, and tricks that are not widely known.\n\nMake sure to use §aJEI§r for all the exper-style modified recipes, which remain fairly accessible.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r This version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
