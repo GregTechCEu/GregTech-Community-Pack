@@ -32255,6 +32255,70 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "501:10": {
+      "preRequisites:11": [
+        374
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aAdvanced Memory Card§r allows for much greater control and efficiency when setting up §9P2Ps§r.\n\nYou can use the card on any §9P2P tunnel§r connected to an §9AE2§r network, and it allows you to rename, rebind, link, or cycle the mdoe of any other §9P2P§r on the network. You can also use it to reset all connections on a §9P2P tunnel§r.\n\n§bLore:§r The §aAdvanced Memory Card§r is from §2Betterer P2P§r, which is a fork of §2Better P2P§r, integrating features from GTNH\u0027s fork of the mod.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterp2p:advanced_memory_card",
+            "tag:10": {
+              "frequency:2": 0,
+              "gui:1": 1,
+              "mode:3": 0,
+              "selectedIndex:10": {}
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Memory Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 501,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "betterp2p:advanced_memory_card",
+              "tag:10": {
+                "frequency:2": 0,
+                "gui:1": 1,
+                "mode:3": 0,
+                "selectedIndex:10": {}
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -36096,8 +36160,8 @@
           "id:3": 104,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 66
+          "x:3": 81,
+          "y:3": 114
         },
         "1:10": {
           "id:3": 156,
@@ -36173,7 +36237,7 @@
           "id:3": 468,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 114
         },
         "12:10": {
@@ -36208,7 +36272,7 @@
           "id:3": 497,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
+          "x:3": 126,
           "y:3": 114
         },
         "17:10": {
@@ -36231,6 +36295,13 @@
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": 114
+        },
+        "20:10": {
+          "id:3": 501,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 66
         }
       }
     },

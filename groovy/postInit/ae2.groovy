@@ -446,6 +446,17 @@ crafting.shapedBuilder().name('network_memory_card')
         .key('P', ore('plateIron'))
         .register()
 
+// Advanced Memory Card
+crafting.remove('betterp2p:advanced_memory_card')
+crafting.shapedBuilder().name('advanced_memory_card')
+        .output(item('betterp2p:advanced_memory_card'))
+        .matrix('Cs', 'wT')
+        .key('C', item('appliedenergistics2:memory_card'))
+        .key('s', ore('toolScrewdriver'))
+        .key('w', ore('toolWrench'))
+        .key('T', item('appliedenergistics2:network_tool'))
+        .register()
+
 // Network Tool
 crafting.remove('appliedenergistics2:tools/network_tool')
 crafting.shapedBuilder().name('network_tool')
