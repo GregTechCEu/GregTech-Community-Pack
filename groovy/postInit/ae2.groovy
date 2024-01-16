@@ -670,6 +670,14 @@ crafting.shapelessBuilder().name('cardredstone')
         .input(ore('plateRedAlloy'))
         .register()
 
+// Sticky Card
+crafting.remove('appliedenergistics2:materials/cardsticky')
+crafting.shapelessBuilder().name('cardsticky')
+        .output(item('appliedenergistics2:material', 61))
+        .input(item('appliedenergistics2:material', 25))
+        .input(metaitem('rubber_drop'))
+        .register()
+
 // Charged Certus Quartz
 recipemap('polarizer').recipeBuilder()
         .inputs(ore('gemCertusQuartz'))
