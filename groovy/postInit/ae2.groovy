@@ -446,6 +446,17 @@ crafting.shapedBuilder().name('network_memory_card')
         .key('P', ore('plateIron'))
         .register()
 
+// Advanced Memory Card
+crafting.remove('betterp2p:advanced_memory_card')
+crafting.shapedBuilder().name('advanced_memory_card')
+        .output(item('betterp2p:advanced_memory_card'))
+        .matrix('Cs', 'wT')
+        .key('C', item('appliedenergistics2:memory_card'))
+        .key('s', ore('toolScrewdriver'))
+        .key('w', ore('toolWrench'))
+        .key('T', item('appliedenergistics2:network_tool'))
+        .register()
+
 // Network Tool
 crafting.remove('appliedenergistics2:tools/network_tool')
 crafting.shapedBuilder().name('network_tool')
@@ -657,6 +668,14 @@ crafting.shapelessBuilder().name('cardredstone')
         .output(item('appliedenergistics2:material', 26))
         .input(item('appliedenergistics2:material', 25))
         .input(ore('plateRedAlloy'))
+        .register()
+
+// Sticky Card
+crafting.remove('appliedenergistics2:materials/cardsticky')
+crafting.shapelessBuilder().name('cardsticky')
+        .output(item('appliedenergistics2:material', 61))
+        .input(item('appliedenergistics2:material', 25))
+        .input(metaitem('rubber_drop'))
         .register()
 
 // Charged Certus Quartz

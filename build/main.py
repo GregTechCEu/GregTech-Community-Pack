@@ -33,17 +33,14 @@ def parse_args():
 def build(args):
     modlist = []
     basePath = os.path.normpath(os.path.realpath(__file__)[:-7] + "..")
-    copyDirs = ["/config", "/mods", "/groovy"]
-    serverCopyDirs = ["/config", "/mods", "/groovy"]
-    modURLlist = []
-    modClientOnly = []
-    # remove the old build files
+    copyDirs = ["/scripts", "/resources", "/config",
+                "/mods", "/structures", "/groovy"]
+    serverCopyDirs = ["/scripts", "/config", "/mods", "/structures", "/groovy"]
 
-    shutil.rmtree(basePath + "/buildOut/client/overrides",
-                    ignore_errors=True)
-    shutil.rmtree(basePath + "/buildOut/server", ignore_errors=True)
-    
     if args.clean:
+        shutil.rmtree(basePath + "/buildOut/client/overrides",
+                      ignore_errors=True)
+        shutil.rmtree(basePath + "/buildOut/server", ignore_errors=True)
         shutil.rmtree(basePath + "/mods", ignore_errors=True)
         sys.exit(0)
     sha = ""
@@ -143,24 +140,27 @@ def build(args):
 
             continue
 
+        name = "placeholder"
         if "name" in mod:
             name = mod["name"]
             if name[-4:] != ".jar":
                 name += ".jar"
-            modlist.append(name)
         else:
-            modlist.append(metadata["data"].split("/")[-1])
-        modURLlist.append(metadata["data"])
+            name = metadata["data"].split("/")[-1]
+        url = metadata["data"]
+        clientOnly = False
         try:
-            modClientOnly.append(mod["clientOnly"])
+            clientOnly = mod["clientOnly"]
         except:
-            modClientOnly.append(False)
-        
+            clientOnly = False
+
+        modlist.append({"name": name, "url": url, "clientOnly": clientOnly})
+
     print("modlist compiled")
     with open(basePath + "/buildOut/modlist.html", "w") as file:
         data = "<html><body><h1>Modlist</h1><ul>"
         for mod in modlist:
-            data += "<li>" + mod.split(".jar")[0] + "</li>"
+            data += "<li>" + mod["name"].split(".jar")[0] + "</li>"
         data += "</ul></body></html>"
         file.write(data)
     print("modlist.html done")
@@ -176,9 +176,9 @@ def build(args):
         except Exception as e:
             print("Directory exists, skipping")
     print("directories copied to buildOut/server")
-    for i, mod in enumerate(modURLlist):
-        jarname = mod.split("/")[-1]
-        if (modClientOnly[i] == True):
+    for mod in modlist:
+        jarname = mod["url"].split("/")[-1]
+        if (mod["clientOnly"] == True):
             continue
 
         if os.path.exists(os.path.join(cachepath, jarname)):
@@ -188,9 +188,9 @@ def build(args):
             continue
 
         with open(basePath + "/buildOut/server/mods/" + jarname, "w+b") as jar:
-            r = requests.get(mod)
+            r = requests.get(mod["url"])
             jar.write(r.content)
-            print(mod + " Downloaded")
+            print(mod["name"] + " Downloaded")
     print("Mods Downloaded")
     with open(basePath + "/buildOut/server/forge-installer.jar", "w+b") as jar:
         forgeVer = manifest["minecraft"]["modLoaders"][0]["id"].split("-")[-1]
@@ -253,19 +253,21 @@ def build(args):
                         basePath + "/buildOut/mmc/minecraft/mods/")
         for dir in copyDirs:
             try:
-                os.copytree(basePath + dir, basePath +
+                os.symlink(basePath + dir, basePath +
                            "/buildOut/mmc/minecraft/" + dir)
             except Exception as e:
                 print("Directory exists, skipping")
             print("directories copied to buildOut/mmc/minecraft")
 
-        for i, mod in enumerate(modURLlist):
-            jarname = mod.split("/")[-1]
+        for mod in modlist:
+            jarname = mod["name"].split("/")[-1]
+            if (modClientOnly[i] == False):
+                break
 
             with open(basePath + "/buildOut/mmc/minecraft/mods/" + jarname, "w+b") as jar:
-                r = requests.get(mod)
+                r = requests.get(mod["url"])
                 jar.write(r.content)
-                print(mod + " Downloaded")
+                print(mod["name"] + " Downloaded")
 
         shutil.copy(basePath + "/mmc-instance-data.json",
                     basePath + "/buildOut/mmc/mmc-pack.json")

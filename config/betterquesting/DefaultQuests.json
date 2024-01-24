@@ -5798,7 +5798,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oBy itself, the Battery Buffer does nothing. What it does, however, is accept batteries in its inventory, to act as a... buffer... with the... batteries. I hope you got it!§r\n\nThe §3Battery Buffer§r handles §9two Amps in§r, and §9one Amp out§r §dper Battery§r. Output side has the dot, all other sides are inputs.\n§6It will also charge both EU and RF Tools inside it§r.\n\nThis is a must have if you don\u0027t have unlimited power at hand.\n\nGet §eany§r LV Battery Buffer. However the 16 slots variant is a bit overkill at this stage.\n\n§9Note:§r Do not loop your lossy Cables back to your Battery Buffer, you will end up voiding energy!\n\n§bLore:§r To be frank with you, the GTCE Battery Buffer was mediocre. It has been reworked by yours truly to provide a mix between GT5 and GTCE\u0027s functionality. Energy now splits evenly across all batteries!",
+          "desc:8": "§oBy itself, the Battery Buffer does nothing. What it does, however, is accept batteries in its inventory, to act as a... buffer... with the... batteries. I hope you got it!§r\n\nThe §3Battery Buffer§r handles §9two Amps in§r, and §9one Amp out§r §dper Battery§r. Output side has the dot, all other sides are inputs.\n§6It will also charge both EU and RF Tools inside it§r.\n\nThis is a must have if you don\u0027t have unlimited power at hand.\n\nGet §eany§r LV Battery Buffer to complete this quest. However the 16 slots variant is a bit overkill at this stage. You\u0027ll probably want a 4 slot buffer to start with for your machines, and a second 4 slot buffer which you can make later for your EBF. Make sure you understand why by the end of the LV chapter!\n\n§9Note:§r Do not loop your lossy Cables back to your Battery Buffer, you will end up voiding energy!\n\n§bLore:§r To be frank with you, the GTCE Battery Buffer was mediocre. It has been reworked by yours truly to provide a mix between GT5 and GTCE\u0027s functionality. Energy now splits evenly across all batteries!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7417,8 +7417,13 @@
       }
     },
     "99:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        81
+        81,
+        86
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7556,7 +7561,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe §3Large Boiler§r is an §6optional§r big boy variant of the Small Boilers. It runs off solid or liquid fuel.\n\nIf you want Steam-based power production, this will be your choice. Other power options are listed in the §bMV§r Chapter.\n\n\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities on this modpack.\n§cWater supply is crucial§r. Dedicate a §3Primitive Pump§r with a LV Output Hatch in the §lsame chunk§r as the Boiler. Any biome will still be enough to supply enough water.\n\n\nOnce fully heated up, the §3LBB§r produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This (relatively!) immense power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the GUI can let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r Informations about Multiblocks are given after you get the §3Electric Blast Furnace§r. I recommend you get that first.",
+          "desc:8": "§oThe §3Large Boiler§r is an §6optional§r big boy variant of the Small Boilers. It runs off solid or liquid fuel.\n\nIf you want Steam-based power production, this will be your choice. Other power options are listed in the §bMV§r Chapter.\n\n\n§cImportant:§r This Boiler can also §cexplode§r similarly to the regular Boilers! I would like to say the explosion is not kind... but it\u0027s configured to not damage blocks or entities on this modpack.\n§cWater supply is crucial§r. Dedicate a §3Primitive Pump§r with a LV Output Hatch in the §lsame chunk§r as the Boiler. Any biome will still be enough to supply enough water.\n\n\nOnce fully heated up, the §3LBB§r produces 800 Steam per tick, which is §d400EU/t§r after conversion, or 12.5 Basic Steam Turbines! This (relatively!) immense power comes at the cost of §la lot§r of burnable fuel.\n§5§lBut§r the +/- buttons in the GUI let you §9throttle§r the Boiler, down to 25% power for 200 Steam per tick. That is §d100EU/t§r, or slightly above 3 Basic Steam Turbines.\n\n\n§9Note:§r Informations about Multiblocks are given after you get the §3Electric Blast Furnace§r. I recommend you get that first.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9320,7 +9325,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer allows you to decompose §6all§r Dusts. This will make getting materials such as §aAluminium§o§§ a lot easier!",
+          "desc:8": "§oRemember the Ore Processing Quest referencing the Electrolyzer? It told you that you had to wait until MV, so here we are.§r\n\nThe Advanced Electrolyzer allows you to decompose §6all§r Dusts. This will make getting materials such as §aAluminium§o§§ a lot easier!§r\n\nIf you\u0027re looking for a faster source of nitrogen than air centrifugation, electrolyzing Saltpeter is a good pick!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11160,7 +11165,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier plastics have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.",
+          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier polymers have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.\n§r\nWhen using §9ME Terminals§r, you can input mathmatical expressions into the amount field when requesting crafts, so you don\u0027t need a calculator.\n\nWhen a craft is finished, you will get a §etoast§r notifying you. This can be disabled in the config.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17139,7 +17144,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Explaining §2Applied Energistics§r mechanics would almost need its own entire Quest Book, which is too much effort for what it\u0027s worth.\n\nThere are great resources online and excellent video tutorials for all the mechanics in §2AE2§r, which I invite you to check out.\nThe Quests focus on on major milestones, and tricks that are not widely known.\n\nMake sure to use §aJEI§r for all the exper-style modified recipes, which remain fairly accessible.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r The version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
+          "desc:8": "Explaining §2Applied Energistics§r mechanics would almost need its own entire Quest Book, which is too much effort for what it\u0027s worth.\n\nThere are great resources online and excellent video tutorials for all the mechanics in §2AE2§r, which I invite you to check out.\nThe Quests focus on on major milestones, and tricks that are not widely known.\n\nMake sure to use §aJEI§r for all the exper-style modified recipes, which remain fairly accessible.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r This version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17843,7 +17848,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Processing Array does nothing... except that it does a lot!§r\n\nThe §3Processing Array§r is a power §6automation tool§r.\nIt combines several single block machines into one single multiblock.\nPlace up to §d16§r Machines into the §3Machine Access Interface§r.\n\nThe §3PA§r will now §asimulate§r all the machines you put inside, as if they were running at the same time.\nThis means recipes can now be performed up to §d16§r at a time, this is called §4parallel§r.\n\nPower cost is based on the current recipe being run, times the number of §4parallel§r being performed.\nAs an §9example§r, §316 LV Distilleries§r will require an §3HV Energy Hatch§r in order to run effectively.\n\n\n§eWhere or why is the Processing Array useful?§r\n§9-§r §4Parallelization is superior§r to oveclocking. Use it for passive setups such as Ore Processing or Oil Distilling.\n§9-§r §6Distinct buses§r: a §3PA§r can accept up to 10 §3Input Buses§r. Use it for your pattern automation with §3Extruder§r, §3Engraver§r, and many other.\n\n\n§9Note:§r With §2Gregicality Multiblocks§r installed, the §3PA§r can be fully replaced with all the specialized Multiblocks instead. That\u0027s for you if you hate 3x3 blue cubes, or if you hate crafting numerous low tier machines.\n\n\n§bLore:§r In GregTech 5, the Data Orb was used to Matter Replicator to store data of the material you wanted to replicate. There is no replication here, the Orb is just a crafting component.\nAdditionally GregTech 5\u0027s PA and other Multiblocks acted as a Cleanroom. There is no such thing here. You will need to place Multiblocks in the Cleanroom.",
+          "desc:8": "§oThe Processing Array does nothing... except that it does a lot!§r\n\nThe §3Processing Array§r is a power §6automation tool§r.\nIt combines several single block machines into one single multiblock.\nPlace up to §d16§r Machines into the §3Machine Access Interface§r.\n\nThe §3PA§r will now §asimulate§r all the machines you put inside, as if they were running at the same time.\nThis means recipes can now be performed up to §d16§r at a time, this is called §4parallel§r.\n\nPower cost is based on the current recipe being run, times the number of §4parallel§r being performed.\nAs an §9example§r, §316 LV Distilleries§r will require an §3HV Energy Hatch§r in order to run effectively.\n\n\n§eWhere or why is the Processing Array useful?§r\n§9-§r §4Parallelization is superior§r to overclocking. Use it for passive setups such as Ore Processing or Oil Distilling.\n§9-§r §6Distinct buses§r: a §3PA§r can accept up to 10 §3Input Buses§r. Use it for your pattern automation with §3Extruder§r, §3Engraver§r, and many other.\n\n\n§9Note:§r With §2Gregicality Multiblocks§r installed, the §3PA§r can be fully replaced with all the specialized Multiblocks instead. That\u0027s for you if you hate 3x3 blue cubes, or if you hate crafting numerous low tier machines.\n\n\n§bLore:§r In GregTech 5, the Data Orb was used to Matter Replicator to store data of the material you wanted to replicate. There is no replication here, the Orb is just a crafting component.\nAdditionally GregTech 5\u0027s PA and other Multiblocks acted as a Cleanroom. There is no such thing here. You will need to place Multiblocks in the Cleanroom.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19981,7 +19986,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe concepts presented are for the curious players. Don\u0027t read past the TL;DR if you are not interested.§r\n\n§bLore:§r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. The Energy network now works as intended.\n\n§6§lTL;DR:§r For safety, match the Amperage limit of your Cables with the max amount of Amps from Energy Producers.\n\n\nYou surely have realised by now the Energy system in §2GregTech§r is §cnot as simple§r as the §1RF§r you may be used to using in modded Minecraft!\n§1EU§r mechanics have a depth to them and are not dissimilar to real electricity. It can also be §4dangerous§r if mishandled. But it also gives a lot of §6satisfaction§r, if harnessed well.\n\nThis Quest tackles the §9Amperage§r mechanics. As for the §dVoltage§r mechanics, that will be explained once you reach §bMV§r.\n\nEach single-block Generator in GregTech is configured to produce §91 Amp§r for its voltage tier. For §7LV§r, that results in §232EU/t§r.\nIf a machine requires 16EU/t, one packet of 32EU is sent every other tick (assuming no cable loss).\n\nA Battery Buffer with §94§r Batteries can produce up to §94 Amps§r, for §2128EU/t§r as §7LV§r, which is important for the §3Electric Blast Furnace§r, or to run multiple machines simultaneously.\nGeneric machines are configured to draw up to §92 Amps§r to account for cable loss. Other machines have specific §9Amps IN§r, described in the tooltip.\n\n§aCables§r have an §9Amperage §climit§r. Attempting to transport more Amps than the limit will §4burn§r them.\n\n§9Amps§r are drawn §oonly§r through the §aCables§r connecting the Producers and Consumers directly, and §oonly§r if the Consumers are active.\nThis means you can safely step down your Cables in certain places, feel free to experiment!",
+          "desc:8": "§oThe concepts presented are for the curious players. Don\u0027t read past the TL;DR if you are not interested.§r\n\n§bLore:§r The Amperage bug, exploit or feature (call it whatever you want!) from GTCE has been §lfixed§r in GTCEu. The Energy network now works as intended.\n\n§6§lTL;DR:§r For safety, match the Amperage limit of your Cables with the max amount of Amps from Energy Producers.\n\n\nYou surely have realised by now the Energy system in §2GregTech§r is §cnot as simple§r as the §1RF§r you may be used to using in modded Minecraft!\n§1EU§r mechanics have a depth to them and are not dissimilar to real electricity. It can also be §4dangerous§r if mishandled. But it also gives a lot of §6satisfaction§r, if harnessed well.\n\nThis Quest tackles the §9Amperage§r mechanics. As for the §dVoltage§r mechanics, that will be explained once you reach §bMV§r.\n\nEach single-block Generator in GregTech is configured to produce §91 Amp§r for its voltage tier. For §7LV§r, that results in §232EU/t§r.\nIf a machine requires 16EU/t, one packet of 32EU is sent every other tick (assuming no cable loss).\n\nA Battery Buffer with §94§r Batteries can produce up to §94 Amps§r, for §2128EU/t§r as §7LV§r, which is important for the §3Electric Blast Furnace§r, or to run multiple machines simultaneously.\nGeneric machines are configured to draw up to §92 Amps§r when less than §950%§r full to account for cable loss, but otherwise draw §91 Amp§r. Other machines have specific §9Amps IN§r, described in the tooltip.\n\n§aCables§r have an §9Amperage §climit§r. Attempting to transport more Amps than the limit will §4burn§r them.\n\n§9Amps§r are drawn §oonly§r through the §aCables§r connecting the Producers and Consumers directly, and §oonly§r if the Consumers are active.\nThis means you can safely step down your Cable Amperage in certain places, feel free to experiment!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19990,7 +19995,7 @@
             "id:8": "gregtech:cable_quadruple"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "But what are Amps?",
@@ -24067,7 +24072,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Cupercomputer\n§9-§r Mainframe",
+          "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Supercomputer\n§9-§r Mainframe",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32256,6 +32261,122 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "501:10": {
+      "preRequisites:11": [
+        374
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aAdvanced Memory Card§r allows for much greater control and efficiency when setting up §9P2Ps§r.\n\nYou can use the card on any §9P2P tunnel§r connected to an §9AE2§r network, and it allows you to rename, rebind, link, or cycle the mdoe of any other §9P2P§r on the network. You can also use it to reset all connections on a §9P2P tunnel§r.\n\n§bLore:§r The §aAdvanced Memory Card§r is from §2Betterer P2P§r, which is a fork of §2Better P2P§r, integrating features from GTNH\u0027s fork of the mod.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterp2p:advanced_memory_card",
+            "tag:10": {
+              "frequency:2": 0,
+              "gui:1": 1,
+              "mode:3": 0,
+              "selectedIndex:10": {}
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Memory Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 501,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "betterp2p:advanced_memory_card",
+              "tag:10": {
+                "frequency:2": 0,
+                "gui:1": 1,
+                "mode:3": 0,
+                "selectedIndex:10": {}
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "502:10": {
+      "preRequisites:11": [
+        248
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This hatch acts like an infinite water source for multiblocks! It can make some setups much more convenient, and also has effectively infinite throughput so it doesn\u0027t have the limitations of the §9Infinite Water Source Cover§r not being fast enough.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1418,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Reservoir Hatch",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 502,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1418,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -33270,7 +33391,7 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 162,
-          "y:3": 54
+          "y:3": 90
         },
         "21:10": {
           "id:3": 70,
@@ -33290,21 +33411,21 @@
           "id:3": 72,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
+          "x:3": 198,
           "y:3": 18
         },
         "24:10": {
           "id:3": 73,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": -60
+          "x:3": 138,
+          "y:3": 18
         },
         "25:10": {
           "id:3": 74,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 210,
+          "x:3": 216,
           "y:3": -30
         },
         "26:10": {
@@ -33368,7 +33489,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
-          "y:3": 102
+          "y:3": 120
         },
         "35:10": {
           "id:3": 85,
@@ -33480,13 +33601,13 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 258,
-          "y:3": -42
+          "y:3": -36
         },
         "51:10": {
           "id:3": 102,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 126,
+          "x:3": 120,
           "y:3": 96
         },
         "52:10": {
@@ -33521,8 +33642,8 @@
           "id:3": 111,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 210,
-          "y:3": 60
+          "x:3": 198,
+          "y:3": 54
         },
         "57:10": {
           "id:3": 112,
@@ -33584,7 +33705,7 @@
           "id:3": 347,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 174,
+          "x:3": 180,
           "y:3": -30
         },
         "66:10": {
@@ -34620,8 +34741,8 @@
           "id:3": 249,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -114,
-          "y:3": -168
+          "x:3": -72,
+          "y:3": -138
         },
         "12:10": {
           "id:3": 252,
@@ -34993,6 +35114,13 @@
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 288
+        },
+        "65:10": {
+          "id:3": 502,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -198
         }
       }
     },
@@ -36097,8 +36225,8 @@
           "id:3": 104,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 66
+          "x:3": 81,
+          "y:3": 114
         },
         "1:10": {
           "id:3": 156,
@@ -36174,7 +36302,7 @@
           "id:3": 468,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": 36,
           "y:3": 114
         },
         "12:10": {
@@ -36209,7 +36337,7 @@
           "id:3": 497,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
+          "x:3": 126,
           "y:3": 114
         },
         "17:10": {
@@ -36232,6 +36360,13 @@
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": 114
+        },
+        "20:10": {
+          "id:3": 501,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": 66
         }
       }
     },
