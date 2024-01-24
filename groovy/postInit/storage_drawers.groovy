@@ -1,18 +1,27 @@
 
-def create_drawer(planks, slab, wood_name) {
-    basic_drawer(planks, wood_name)
-    basic_drawer_1_2(planks, wood_name)
-    basic_drawer_2_2(planks, wood_name)
-    half_drawer_1_2(slab, wood_name)
-    half_drawer_2_2(slab, wood_name)
+def create_drawer(planks, slab, wood_name, boolean isGT) {
+    basic_drawer(planks, wood_name, isGT)
+    basic_drawer_1_2(planks, wood_name, isGT)
+    basic_drawer_2_2(planks, wood_name, isGT)
+    half_drawer_1_2(slab, wood_name, isGT)
+    half_drawer_2_2(slab, wood_name, isGT)
 }
 
-def basic_drawer(planks, wood_name) {
-    crafting.remove('storagedrawers:basicdrawers_fulldrawers1_' + wood_name)
+def basic_drawer(planks, wood_name, boolean isGT) {
+    if (isGT) {
+        crafting.remove('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood_fulldrawers1_gregtech_' + wood_name + '_wood.0')
+    } else {
+        crafting.remove('storagedrawers:basicdrawers_fulldrawers1_' + wood_name)
+    }
 
-    def output = item('storagedrawers:basicdrawers').withNbt([
-            'material': wood_name
-    ])
+    var output
+    if (isGT) {
+        output = item('gregtechdrawers:basicdrawers_gregtech_' + wood_name + "_wood")
+    } else {
+        output = item('storagedrawers:basicdrawers').withNbt([
+                'material': wood_name
+        ])
+    }
 
     crafting.shapedBuilder().name('basicdrawers_fulldrawers1_' + wood_name)
         .output(output)
@@ -31,12 +40,21 @@ def basic_drawer(planks, wood_name) {
             .duration(100).EUt(16).buildAndRegister()
 }
 
-def basic_drawer_1_2(planks, wood_name) {
-    crafting.remove('storagedrawers:basicdrawers_fulldrawers2_' + wood_name)
+def basic_drawer_1_2(planks, wood_name, boolean isGT) {
+    if (isGT) {
+        crafting.remove('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood_fulldrawers2_gregtech_' + wood_name + '_wood.0')
+    } else {
+        crafting.remove('storagedrawers:basicdrawers_fulldrawers2_' + wood_name)
+    }
 
-    def output = item('storagedrawers:basicdrawers', 1).withNbt([
-            'material': wood_name
-    ])
+    var output
+    if (isGT) {
+        output = item('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood', 1)
+    } else {
+        output = item('storagedrawers:basicdrawers', 1).withNbt([
+                'material': wood_name
+        ])
+    }
 
     crafting.shapedBuilder().name('basicdrawers_fulldrawers2_' + wood_name)
         .output(output)
@@ -55,12 +73,21 @@ def basic_drawer_1_2(planks, wood_name) {
             .duration(100).EUt(16).buildAndRegister()
 }
 
-def basic_drawer_2_2(planks, wood_name) {
-    crafting.remove('storagedrawers:basicdrawers_fulldrawers4_' + wood_name)
+def basic_drawer_2_2(planks, wood_name, boolean isGT) {
+    if (isGT) {
+        crafting.remove('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood_fulldrawers4_gregtech_' + wood_name + '_wood.0')
+    } else {
+        crafting.remove('storagedrawers:basicdrawers_fulldrawers4_' + wood_name)
+    }
 
-    def output = item('storagedrawers:basicdrawers', 2).withNbt([
-            'material': wood_name
-    ])
+    var output
+    if (isGT) {
+        output = item('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood', 2)
+    } else {
+        output = item('storagedrawers:basicdrawers', 2).withNbt([
+                'material': wood_name
+        ])
+    }
 
     crafting.shapedBuilder().name('basicdrawers_fulldrawers4_' + wood_name)
         .output(output)
@@ -79,12 +106,21 @@ def basic_drawer_2_2(planks, wood_name) {
             .duration(100).EUt(16).buildAndRegister()
 }
 
-def half_drawer_1_2(slab, wood_name) {
-    crafting.remove('storagedrawers:basicdrawers_halfdrawers2_' + wood_name)
+def half_drawer_1_2(slab, wood_name, boolean isGT) {
+    if (isGT) {
+        crafting.remove('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood_halfdrawers2_gregtech_' + wood_name + '_wood.0')
+    } else {
+        crafting.remove('storagedrawers:basicdrawers_halfdrawers2_' + wood_name)
+    }
 
-    def output = item('storagedrawers:basicdrawers', 3).withNbt([
-            'material': wood_name
-    ])
+    var output
+    if (isGT) {
+        output = item('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood', 3)
+    } else {
+        output = item('storagedrawers:basicdrawers', 3).withNbt([
+                'material': wood_name
+        ])
+    }
 
     crafting.shapedBuilder().name('basicdrawers_halfdrawers2_' + wood_name)
         .output(output)
@@ -103,12 +139,21 @@ def half_drawer_1_2(slab, wood_name) {
             .duration(100).EUt(16).buildAndRegister()
 }
 
-def half_drawer_2_2(slab, wood_name) {
-    crafting.remove('storagedrawers:basicdrawers_halfdrawers4_' + wood_name)
+def half_drawer_2_2(slab, wood_name, boolean isGT) {
+    if (isGT) {
+        crafting.remove('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood_halfdrawers4_gregtech_' + wood_name + '_wood.0')
+    } else {
+        crafting.remove('storagedrawers:basicdrawers_halfdrawers4_' + wood_name)
+    }
 
-    def output = item('storagedrawers:basicdrawers', 4).withNbt([
-            'material': wood_name
-    ])
+    var output
+    if (isGT) {
+        output = item('gregtechdrawers:basicdrawers_gregtech_' + wood_name + '_wood', 4)
+    } else {
+        output = item('storagedrawers:basicdrawers', 4).withNbt([
+                'material': wood_name
+        ])
+    }
 
     crafting.shapedBuilder().name('basicdrawers_halfdrawers4_' + wood_name)
         .output(output)
@@ -128,12 +173,14 @@ def half_drawer_2_2(slab, wood_name) {
 }
 
 // Drawers
-create_drawer(item('minecraft:planks'), item('minecraft:wooden_slab'), 'oak')
-create_drawer(item('minecraft:planks', 1), item('minecraft:wooden_slab', 1), 'spruce')
-create_drawer(item('minecraft:planks', 2), item('minecraft:wooden_slab', 2), 'birch')
-create_drawer(item('minecraft:planks', 3), item('minecraft:wooden_slab', 3),  'jungle')
-create_drawer(item('minecraft:planks', 4), item('minecraft:wooden_slab', 4),  'acacia')
-create_drawer(item('minecraft:planks', 5), item('minecraft:wooden_slab', 5),  'dark_oak')
+create_drawer(item('minecraft:planks'), item('minecraft:wooden_slab'), 'oak', false)
+create_drawer(item('minecraft:planks', 1), item('minecraft:wooden_slab', 1), 'spruce', false)
+create_drawer(item('minecraft:planks', 2), item('minecraft:wooden_slab', 2), 'birch', false)
+create_drawer(item('minecraft:planks', 3), item('minecraft:wooden_slab', 3),  'jungle', false)
+create_drawer(item('minecraft:planks', 4), item('minecraft:wooden_slab', 4),  'acacia', false)
+create_drawer(item('minecraft:planks', 5), item('minecraft:wooden_slab', 5),  'dark_oak', false)
+create_drawer(item('gregtech:planks'), item('gregtech:wood_slab'), 'rubber', true)
+create_drawer(item('gregtech:planks', 1), item('gregtech:wood_slab', 1), 'treated', true)
 
 // Framing Table
 crafting.remove('storagedrawers:framing_table')
