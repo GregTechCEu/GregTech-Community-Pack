@@ -1,19 +1,13 @@
 {
-  "packName": "GregTech Community Pack",
-  "packId": "gcp",
+  "packName": "GregTech Community Pack Expert",
+  "packId": "gcpex",
   "version": "1.0.0",
   "debug": false,
   "classes": [
     "classes/"
   ],
   "loaders": {
-    "preInit": [
-      "preInit/"
-    ],
-    "postInit": [
-      "postInit/machines.groovy",
-      "postInit/oredicts.groovy",
-      "postInit/"
-    ]
+    "preInit": [],
+    "postInit": []
   }
 }
