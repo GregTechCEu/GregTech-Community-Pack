@@ -1,0 +1,50 @@
+gcp.material.fluix=Fluix Crystal
+gcp.material.zanite=Zanite
+gcp.material.gravitite=Gravitite
+gcp.material.ambrosium=Ambrosium
+gcp.material.icestone=Icestone
+gcp.material.arkenium=Arkenium
+gcp.material.aquamarine=Aquamarine
+gcp.material.terrasteel=Terrasteel
+gcp.material.manasteel=Manasteel
+gcp.material.elven_elementium=Elementium
+gcp.material.dragonstone=Dragonstone
+gcp.material.electrical_steel=Electrical Steel
+gcp.material.energetic_alloy=Energetic Alloy
+gcp.material.vibrant_alloy=Vibrant Alloy
+gcp.material.redstone_alloy=Redstone Alloy
+gcp.material.conductive_iron=Conductive Iron
+gcp.material.pulsating_iron=Pulsating Iron
+gcp.material.dark_steel=Dark Steel
+gcp.material.soularium=Soularium
+gcp.material.end_steel=End Steel
+gcp.material.crystalline_alloy=Crystalline Alloy
+gcp.material.melodic_alloy=Melodic Alloy
+gcp.material.stellar_alloy=Stellar Alloy
+gcp.material.crystalline_pink_slime=Crystalline Pink Slime
+gcp.material.energetic_silver=Energetic Silver
+gcp.material.vivid_alloy=Vivid Alloy
+gcp.material.thaumium=Thaumium
+gcp.material.void=Void Metal
+gcp.material.ardite=Ardite
+gcp.material.manyullyn=Manyullyn
+gcp.material.knightslime=Knightslime
+gcp.material.tenebrum=Tenebrum
+gcp.material.nagrilite=Nagrilite
+gcp.material.ebonite=Ebonite
+gcp.material.holystone=Holystone
+gcp.material.nightstone=Nightstone
+
+gcp.material.astral_starmetal=Starmetal
+gcp.material.impregnated_wood=Impregnated Wood
+gcp.material.meteoric_iron=Meteoric Iron
+gcp.material.desh=Desh
+gcp.material.amber=Amber
+gcp.material.thauminite=Thauminite
+gcp.material.ichorium=Ichorium
+gcp.material.pigiron=Pigiron
+
+item.material.oreprefix.oreHolyStone=Holy %s Ore
+item.material.oreprefix.oreNightStone=Dark %s Ore
+
+

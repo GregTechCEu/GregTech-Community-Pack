@@ -1,13 +1,26 @@
 {
-  "packName": "GregTech Community Pack Expert",
-  "packId": "gcpex",
+  "packName": "Gregtech Community Pack Expert",
+  "packId": "gcp",
   "version": "1.0.0",
   "debug": false,
-  "classes": [
-    "classes/"
-  ],
+  "classes": {
+    "preInit": [
+      "classes/"
+    ]
+  },
   "loaders": {
-    "preInit": [],
-    "postInit": []
+    "preInit": [
+      "elements.groovy",
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ]
+  },
+  "packmode": {
+    "values": [],
+    "default": "",
+    "_comment": "By default the packmode is not synced with the packmode mod. You can enable integration, but you can no longer change packmode on the fly.",
+    "integratePackmodeMod": false
   }
 }
