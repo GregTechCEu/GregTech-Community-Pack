@@ -1,6 +1,8 @@
 config/jei/worldSettings.cfg
 config/oauth.cfg
 config/AppliedEnergistics2/items.csv
+config/thaumicjei_itemstack_aspects.json
+config/gregtech/terminal/
 .DS_Store
 buildOut/
 local/
