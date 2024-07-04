@@ -1,4 +1,5 @@
 {
+  "build:8": "4.2.2",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -124,6 +125,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -141,6 +143,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -206,6 +209,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -296,6 +300,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -331,6 +336,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -452,6 +458,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -534,6 +541,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -557,6 +565,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -636,6 +645,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -740,6 +750,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -827,6 +838,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -844,6 +856,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -861,6 +874,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -878,6 +892,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -895,6 +910,7 @@
         "4:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 4,
@@ -912,6 +928,7 @@
         "5:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 5,
@@ -929,6 +946,7 @@
         "6:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 6,
@@ -946,6 +964,7 @@
         "7:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 7,
@@ -1031,6 +1050,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -1160,6 +1180,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -1312,6 +1333,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1383,6 +1405,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1400,6 +1423,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1435,6 +1459,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -1458,6 +1483,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -1529,6 +1555,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1546,6 +1573,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1611,6 +1639,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1634,6 +1663,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1651,6 +1681,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -1722,6 +1753,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1739,6 +1771,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1804,6 +1837,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1821,6 +1855,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1838,6 +1873,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -1909,6 +1945,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -1980,6 +2017,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2051,6 +2089,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2116,6 +2155,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2181,6 +2221,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2233,6 +2274,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2298,6 +2340,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2363,6 +2406,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2410,6 +2454,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -2433,6 +2478,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -2498,6 +2544,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2521,6 +2568,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -2586,6 +2634,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2669,6 +2718,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2737,6 +2787,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2891,6 +2942,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2968,6 +3020,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3045,6 +3098,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3062,6 +3116,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3079,6 +3134,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -3144,6 +3200,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3161,6 +3218,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3178,6 +3236,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -3255,6 +3314,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3272,6 +3332,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3355,6 +3416,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3450,6 +3512,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3545,6 +3608,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3622,6 +3686,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3686,6 +3751,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3703,6 +3769,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3726,6 +3793,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -3779,6 +3847,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3808,6 +3877,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3831,6 +3901,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -3884,6 +3955,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -3913,6 +3985,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -3988,6 +4061,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4005,6 +4079,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4115,6 +4190,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4180,6 +4256,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4197,6 +4274,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -4262,6 +4340,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4314,6 +4393,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4366,6 +4446,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4418,6 +4499,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4525,6 +4607,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4578,6 +4661,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4630,6 +4714,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4682,6 +4767,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4734,6 +4820,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4786,6 +4873,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4893,6 +4981,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -4945,6 +5034,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5133,6 +5223,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5150,6 +5241,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -5214,6 +5306,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5266,6 +5359,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5318,6 +5412,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5370,6 +5465,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5422,6 +5518,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5474,6 +5571,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5526,6 +5624,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5582,6 +5681,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -5599,6 +5699,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 2,
@@ -5651,6 +5752,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5668,6 +5770,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -5744,6 +5847,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -5836,6 +5940,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -5853,6 +5958,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -5870,6 +5976,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -5995,6 +6102,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
@@ -6060,6 +6168,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6077,6 +6186,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -6141,6 +6251,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6212,6 +6323,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6290,6 +6402,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6361,6 +6474,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6378,6 +6492,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -6443,6 +6558,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6515,6 +6631,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6532,6 +6649,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -6617,6 +6735,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6723,6 +6842,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6782,6 +6902,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6834,6 +6955,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6887,6 +7009,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -6910,6 +7033,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -6962,6 +7086,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7029,6 +7154,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7095,6 +7221,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7184,6 +7311,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7249,6 +7377,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7302,6 +7431,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7354,6 +7484,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7450,6 +7581,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7473,6 +7605,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -7531,6 +7664,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7583,6 +7717,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7654,6 +7789,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7713,6 +7849,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7730,6 +7867,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -7795,6 +7933,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7866,6 +8005,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7895,6 +8035,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -7972,6 +8113,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7989,6 +8131,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -8006,6 +8149,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -8071,6 +8215,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8142,6 +8287,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8194,6 +8340,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8291,6 +8438,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8308,6 +8456,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -8363,6 +8512,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -8415,6 +8565,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8486,6 +8637,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8572,6 +8724,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8589,6 +8742,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -8661,6 +8815,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8717,6 +8872,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -8964,6 +9120,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9160,6 +9317,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9294,6 +9452,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9347,6 +9506,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9412,6 +9572,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9429,6 +9590,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9500,6 +9662,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9571,6 +9734,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9624,6 +9788,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9641,6 +9806,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -9658,6 +9824,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -9716,6 +9883,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9768,6 +9936,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9822,6 +9991,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9875,6 +10045,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -9946,6 +10117,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10000,6 +10172,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10054,6 +10227,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10108,6 +10282,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10161,6 +10336,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10213,6 +10389,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10266,6 +10443,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10320,6 +10498,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10373,6 +10552,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10425,6 +10605,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10496,6 +10677,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10548,6 +10730,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10614,6 +10797,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10888,6 +11072,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -10960,6 +11145,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11026,6 +11212,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11043,6 +11230,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -11096,6 +11284,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11187,6 +11376,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11239,6 +11429,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11291,6 +11482,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11343,6 +11535,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11409,6 +11602,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11461,6 +11655,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11525,6 +11720,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11595,6 +11791,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11665,6 +11862,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11729,6 +11927,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11799,6 +11998,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11869,6 +12069,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11921,6 +12122,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -11991,6 +12193,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12061,6 +12264,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12131,6 +12335,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12201,6 +12406,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12271,6 +12477,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12341,6 +12548,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12411,6 +12619,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12481,6 +12690,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12558,6 +12768,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12622,6 +12833,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12692,6 +12904,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12762,6 +12975,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12814,6 +13028,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12872,6 +13087,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -12936,6 +13152,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13006,6 +13223,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13070,6 +13288,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13140,6 +13359,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13198,6 +13418,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13262,6 +13483,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13326,6 +13548,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13396,6 +13619,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13460,6 +13684,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13525,6 +13750,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13590,6 +13816,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13642,6 +13869,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13695,6 +13923,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13712,6 +13941,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13729,6 +13959,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -13781,6 +14012,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13853,6 +14085,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13922,6 +14155,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -13939,6 +14173,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -13992,6 +14227,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14044,6 +14280,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14097,6 +14334,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14149,6 +14387,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14214,6 +14453,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14231,6 +14471,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14285,6 +14526,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14322,6 +14564,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -14375,6 +14618,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14459,6 +14703,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14530,6 +14775,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14547,6 +14793,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14631,6 +14878,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14683,6 +14931,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14735,6 +14984,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -14812,6 +15062,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14871,6 +15122,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -14888,6 +15140,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -14905,6 +15158,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -14922,6 +15176,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 4,
@@ -14939,6 +15194,7 @@
         "4:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 5,
@@ -15004,6 +15260,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15057,6 +15314,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15109,6 +15367,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15174,6 +15433,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15246,6 +15506,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -15263,6 +15524,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -15439,6 +15701,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15555,6 +15818,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -15572,6 +15836,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -15630,6 +15895,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15647,6 +15913,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -15699,6 +15966,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15765,6 +16033,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15818,6 +16087,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15871,6 +16141,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -15900,6 +16171,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -15923,6 +16195,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -15999,6 +16272,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16148,6 +16422,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
@@ -16263,6 +16538,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16334,6 +16610,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16422,6 +16699,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16486,6 +16764,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16556,6 +16835,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16614,6 +16894,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16672,6 +16953,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16736,6 +17018,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16807,6 +17090,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16824,6 +17108,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -16890,6 +17175,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16907,6 +17193,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -16959,6 +17246,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -16976,6 +17264,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17028,6 +17317,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17045,6 +17335,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17147,6 +17438,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17257,6 +17549,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -17311,6 +17604,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17366,6 +17660,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -17422,6 +17717,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -17439,6 +17735,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
@@ -17496,6 +17793,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -17513,6 +17811,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -17566,6 +17865,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17619,6 +17919,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17636,6 +17937,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17688,6 +17990,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17705,6 +18008,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17722,6 +18026,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -17739,6 +18044,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -17792,6 +18098,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17809,6 +18116,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17865,6 +18173,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -17919,6 +18228,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -17936,6 +18246,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -17988,6 +18299,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18005,6 +18317,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 4,
@@ -18184,6 +18497,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18396,6 +18710,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18451,6 +18766,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18503,6 +18819,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18520,6 +18837,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -18579,6 +18897,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18632,6 +18951,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18684,6 +19004,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18802,6 +19123,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18854,6 +19176,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -18920,6 +19243,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -18937,6 +19261,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -18991,6 +19316,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19044,6 +19370,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19139,6 +19466,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19191,6 +19519,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19262,6 +19591,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19279,6 +19609,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -19296,6 +19627,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -19313,6 +19645,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -19426,6 +19759,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19443,6 +19777,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -19460,6 +19795,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -19477,6 +19813,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -19530,6 +19867,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19547,6 +19885,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -19564,6 +19903,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -19616,6 +19956,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19668,6 +20009,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19685,6 +20027,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -19702,6 +20045,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -19719,6 +20063,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -19772,6 +20117,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19901,6 +20247,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -19953,6 +20300,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20005,6 +20353,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20057,6 +20406,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20158,6 +20508,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20236,6 +20587,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20288,6 +20640,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20340,6 +20693,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20392,6 +20746,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20447,6 +20802,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20517,6 +20873,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -20569,6 +20926,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20622,6 +20980,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20728,6 +21087,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20780,6 +21140,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -20834,6 +21195,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20887,6 +21249,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20939,6 +21302,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -20993,6 +21357,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21045,6 +21410,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21111,6 +21477,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21128,6 +21495,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -21180,6 +21548,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21235,6 +21604,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -21287,6 +21657,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21304,6 +21675,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 4,
@@ -21422,6 +21794,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21493,6 +21866,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21610,6 +21984,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21627,6 +22002,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -21679,6 +22055,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21732,6 +22109,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -21749,6 +22127,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -21766,6 +22145,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -21858,6 +22238,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -21912,6 +22293,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -22032,6 +22414,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22152,6 +22535,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22204,6 +22588,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22314,6 +22699,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22366,6 +22752,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22383,6 +22770,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -22476,6 +22864,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22528,6 +22917,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22580,6 +22970,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22634,6 +23025,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22686,6 +23078,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22738,6 +23131,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22790,6 +23184,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22842,6 +23237,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22894,6 +23290,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -22947,6 +23344,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23012,6 +23410,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23085,6 +23484,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23108,6 +23508,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -23160,6 +23561,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23231,6 +23633,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23248,6 +23651,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -23302,6 +23706,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23354,6 +23759,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23406,6 +23812,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23458,6 +23865,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23513,6 +23921,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -23566,6 +23975,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23583,6 +23993,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -23636,6 +24047,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -23698,6 +24110,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -23753,6 +24166,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -23806,6 +24220,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -23877,6 +24292,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23961,6 +24377,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -24013,6 +24430,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -24289,6 +24707,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -24661,6 +25080,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -24765,6 +25185,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -24926,6 +25347,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -24957,6 +25379,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -25014,6 +25437,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25291,6 +25715,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -25308,6 +25733,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -25364,6 +25790,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -25381,6 +25808,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -25438,6 +25866,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -25455,6 +25884,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -25508,6 +25938,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25562,6 +25993,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25615,6 +26047,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25667,6 +26100,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25690,6 +26124,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -25707,6 +26142,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -25764,6 +26200,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25817,6 +26254,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25840,6 +26278,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
@@ -25894,6 +26333,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25946,6 +26386,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -25998,6 +26439,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26140,6 +26582,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26157,6 +26600,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -26211,6 +26655,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26228,6 +26673,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -26245,6 +26691,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -26300,6 +26747,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26354,6 +26802,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26371,6 +26820,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -26388,6 +26838,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -26440,6 +26891,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26530,6 +26982,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26608,6 +27061,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26663,6 +27117,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26717,6 +27172,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26734,6 +27190,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -26787,6 +27244,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26841,6 +27299,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26893,6 +27352,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26945,6 +27405,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -26998,6 +27459,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27051,6 +27513,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27103,6 +27566,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27120,6 +27584,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -27204,6 +27669,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27295,6 +27761,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27347,6 +27814,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27364,6 +27832,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 2,
@@ -27564,6 +28033,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27626,6 +28096,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -27684,6 +28155,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27736,6 +28208,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27759,6 +28232,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -27841,6 +28315,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27902,6 +28377,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -27954,6 +28430,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28012,6 +28489,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28102,6 +28580,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28155,6 +28634,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28208,6 +28688,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28271,6 +28752,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28288,6 +28770,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -28341,6 +28824,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28393,6 +28877,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28449,6 +28934,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28504,6 +28990,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28567,6 +29054,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -28640,6 +29128,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -28693,6 +29182,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28751,6 +29241,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28768,6 +29259,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -28821,6 +29313,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28838,6 +29331,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -28890,6 +29384,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28946,6 +29441,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -28963,6 +29459,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -29020,6 +29517,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29079,6 +29577,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29167,6 +29666,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -29226,6 +29726,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29333,6 +29834,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29385,6 +29887,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29437,6 +29940,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29489,6 +29993,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29544,6 +30049,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29620,6 +30126,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29673,6 +30180,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29690,6 +30198,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -29742,6 +30251,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29794,6 +30304,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29846,6 +30357,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -29863,6 +30375,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -29954,6 +30467,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30013,6 +30527,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30070,6 +30585,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30126,6 +30642,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30178,6 +30695,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30230,6 +30748,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30282,6 +30801,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30343,6 +30863,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30400,6 +30921,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30452,6 +30974,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30469,6 +30992,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -30564,6 +31088,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30712,6 +31237,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30729,6 +31255,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -30746,6 +31273,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -30798,6 +31326,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30858,6 +31387,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30930,6 +31460,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -30982,6 +31513,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31047,6 +31579,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31111,6 +31644,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31175,6 +31709,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31227,6 +31762,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31340,6 +31876,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31357,6 +31894,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -31409,6 +31947,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31462,6 +32001,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31514,6 +32054,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31531,6 +32072,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -31548,6 +32090,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -31565,6 +32108,7 @@
         "3:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 3,
@@ -31618,6 +32162,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31676,6 +32221,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31734,6 +32280,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31786,6 +32333,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31838,6 +32386,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31929,6 +32478,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -31946,6 +32496,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -31998,6 +32549,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32050,6 +32602,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32141,6 +32694,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32200,6 +32754,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32252,6 +32807,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32304,6 +32860,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32362,6 +32919,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32420,6 +32978,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -32430,6 +32989,165 @@
               "Damage:2": 1418,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "503:10": {
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The ME Storage Exposer can - as its name suggests - expose the contents of your ME network to any attached inventory.\n\nFor instance, if you place it on an Input Bus, the Bus will be able to view anything contained within your network. This can be incredibly powerful when paired with appropriately-filtered Conveyor Modules or Robot Arms. You may want to integrate this into your §6Ore Processing§r in future.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:exposer"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The Cooler ME Interface",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 503,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:exposer"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "504:10": {
+      "preRequisites:11": [
+        273
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§7This thing is seriously powerful...\n\nThe §dProgrammed Circuit Card§f will take your autocrafting capabilities to the next level - if used in an Interface, you can now send patterns containing §9Programmed GregTech Circuits§f, and the Interface will tell the machine to switch its Circuit!\n\nOf course, such power does not come cheap, and you are encouraged to parallelize your processing instead of bottlenecking on a single machine, but this card is incredibly useful in many setups.\n\nOh, and §4don\u0027t§f forget §eBlocking Mode§f!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": "",
+            "id:8": "nae2:upgrade"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Programmed Circuit Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 504,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "nae2:upgrade"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "505:10": {
+      "preRequisites:11": [
+        51
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Job Auto-Complete Card allows your Interfaces to inform your ME Network that a performed recipe has been completed, §bregardless§f of whether the expected output has actually been crafted.\n\nA possible use-case for this would be to pattern the \"ingredient\" blocks required to construct a LCR, and then use an §6Auto-Complete Card§f so that the craft does not hang. Now, you can order §aentire multiblocks§f from the comfort of your Terminal!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "nae2:upgrade"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Job Auto-Complete Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 505,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "nae2:upgrade"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -36425,6 +37143,27 @@
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 66
+        },
+        "21:10": {
+          "id:3": 503,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 156
+        },
+        "22:10": {
+          "id:3": 504,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 81,
+          "y:3": 156
+        },
+        "23:10": {
+          "id:3": 505,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 126,
+          "y:3": 156
         }
       }
     },
