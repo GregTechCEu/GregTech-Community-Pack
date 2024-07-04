@@ -1,5 +1,4 @@
 {
-  "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -23655,10 +23654,17 @@
       }
     },
     "350:10": {
+      "preRequisiteTypes:7": [
+        0,
+        0,
+        0,
+        1
+      ],
       "preRequisites:11": [
         250,
         92,
-        82
+        82,
+        94
       ],
       "properties:10": {
         "betterquesting:10": {
