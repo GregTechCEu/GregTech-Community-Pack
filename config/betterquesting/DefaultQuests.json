@@ -5105,7 +5105,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThis machine combines Cauldron washing for simple automation, but also advanced and precise washing for byproducts.§r\n\nWashing a §aCrushed Ore§r will grant a §aPurified Ore§r which can refined further, some useless stone, and more importantly the first §6Byproduct§r.\nAny Ore will give at §9minimum 2/3rd of a Dust§r of this Byproduct through washing! So prioritize this step the most.\n\nDistilled Water over Water cuts recipe duration in half, but is also less convenient to produce.",
+          "desc:8": "§oThis machine combines Cauldron washing for simple automation, but also advanced and precise washing for byproducts.§r\n\nWashing a §aCrushed Ore§r will grant a §aPurified Ore§r which can refined further, some useless stone, and more importantly the first §6Byproduct§r.\nOn average every §9three Purified Ore§r will also net you §9one Dust§r of this §6Byproduct§r! So prioritize this step the most.\n\nDistilled Water over Water cuts recipe duration in half, but is also less convenient to produce.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5169,12 +5169,6 @@
               "id:8": "gregtech:meta_crushed_purified"
             },
             "2:10": {
-              "Count:3": 18,
-              "Damage:2": 22,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust_tiny"
-            },
-            "3:10": {
               "Count:3": 2,
               "Damage:2": 22,
               "OreDict:8": "",
@@ -8691,7 +8685,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§,§r\n\nGet a §3Pump§r, place it above an Oil spout and Power it!§r Do §cnot§r pump above an Ocean, as currently there is a flaw in the pump logic, and it will attempt to pull water, resulting in getting the Pump stuck.\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil, which is huge! Refining the Oil§r onsite into either §aLight Fuel§r or §aDiesel§r (or both) is perfectly viable. Next Quests explain what they are good for.\nStore this into §3Drums§r, but you will truly want to use a §3Super Tank§r as soon as you unlock it.\n\n§cWarning: §rDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§\n§9§lNote:§r§l The Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOil spouts are a §6great starting point§r, they will help transition to Fluid Drilling Rigs.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
+          "desc:8": "§oHave you seen the Oil spouts when wandering around, or mined into a deposit of Oil?§,§r\n\nGet a §3Pump§r, place it above an Oil spout and Power it!\n\nEach Oil deposit can have between §63,000§r and §69,200§r buckets of Oil, which is huge! Refining the Oil§r onsite into either §aLight Fuel§r or §aDiesel§r (or both) is perfectly viable. Next Quests explain what they are good for.\nStore this into §3Drums§r, but you will truly want to use a §3Super Tank§r as soon as you unlock it.\n\n§cWarning: §rDo not forget to §dchunkload§r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click).\n\n\n§\n§9§lNote:§r§l The Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene.\n\nOil spouts are a §6great starting point§r, they will help transition to Fluid Drilling Rigs.\n\n\n§bLore:§r Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack without Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky... or wait until HV age to do a rudimentary prospection.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11165,7 +11159,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier polymers have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.\n§r\nWhen using §9ME Terminals§r, you can input mathmatical expressions into the amount field when requesting crafts, so you don\u0027t need a calculator.\n\nWhen a craft is finished, you will get a §etoast§r notifying you. This can be disabled in the config.",
+          "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier polymers have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.\n§r\nWhen using §9ME Terminals§r, you can input mathematical expressions into the amount field when requesting crafts, so you don\u0027t need a calculator.\n\nWhen a craft is finished, you will get a §etoast§r notifying you. This can be disabled in the config.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11382,7 +11376,7 @@
     },
     "160:10": {
       "preRequisites:11": [
-        152
+        128
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13555,7 +13549,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "When your power generation allows for it, §3HV machines§r are well worth using for your on demand processing. The total 4x energy cost compared to §7LV§r shouldn\u0027t bother you too much.\n\n§9Note:§r Crafting Hulls in the §3Assembler§r is slightly more efficient. Priotize it.",
+          "desc:8": "When your power generation allows for it, §3HV machines§r are well worth using for your on demand processing. The total 4x energy cost compared to §7LV§r shouldn\u0027t bother you too much.\n\n§9Note:§r Crafting Hulls in the §3Assembler§r is slightly more efficient. Prioritize it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13878,7 +13872,8 @@
     },
     "198:10": {
       "preRequisites:11": [
-        226
+        226,
+        213
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14712,7 +14707,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Implosion Compressor§r turns the Dust form of Gems into their Gem form.\n\nIt is required to get §aEnder Pearls§r.\n§cTNT§r or §cDynamite§r can be used for the Implosion.",
+          "desc:8": "The §3Implosion Compressor§r turns the Dust form of Gems into their Gem form.\n\nIt is required to get §aEnder Pearls§r.\n§cTNT§r, §cDynamite§r, §cPowderbarrels§r, or §cIndustrial TNT§r can be used for the Implosion.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14848,7 +14843,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cTNT§r (Trinitrotoluene) can\u0027t be prepared with the usual Gunpowder and Sand anymore. Instead, make §aGelled Toluene§r and react it with Sulfuric Acid to make TNT.\n\nThe §3HV Chemical Reactor§r§r recipe will double the yield of §aGelled Toluene§r, at cost of additional inputs. Not strictly required.\n\nI do not have any strong tips to give you for §aToluene§r. No matter what you do, it will be painful!\nDon\u0027t miss out on the direct §aHeavy Fuel§r to §aToluene§r recipe in the single block §3Distillery§r.\n\n§aToluene§r can also optionally be used in the §5EV§r Age to make §dGasoline§r.\n\n§cTNT§r is used in the §3Implosion Compressor§r to make Gems. It also blows stuff up.\nTechnically Dynamite could also be used... but that\u0027s even more inconvenient to obtain than TNT.",
+          "desc:8": "This quest serves the purpose of equipping you with the extra stuff you need for running the §3Implosion Compressor§r. As such, you can complete it by making any one of the four explosives that achieve that.\n\n§cTNT§r (Trinitrotoluene) can\u0027t be prepared with the usual Gunpowder and Sand anymore. Instead, make §aGelled Toluene§r and react it with Sulfuric Acid to make TNT.\n\nThe §3HV Chemical Reactor§r§r recipe will double the yield of §aGelled Toluene§r, at cost of additional inputs. Not strictly required.\n\nI do not have any strong tips to give you for §aToluene§r. No matter what you do, it will be painful!\nDon\u0027t miss out on the direct §aHeavy Fuel§r to §aToluene§r recipe in the single block §3Distillery§r.\n\n§aToluene§r can also optionally be used in the §5EV§r Age to make §dGasoline§r.\n\nAs mentioned before, you can make §cPowderbarrels§r, §cTNT§r, §cDynamite§r, or §cIndustrial TNT§r to complete this quest, ordered in increasing complexity. The more complex the explosive, the smaller amount the §3Implosion Compressor§r needs for a recipe, with §cIndustrial TNT§r requiring only§9 1§r, while §cPowderbarrels§r a whopping§9 8§r!\nWe\u0027re leaving the specifics of making fuels other than §cTNT§r as an exercise to the reader.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14860,14 +14855,14 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "TNT",
+          "name:8": "Making C4 at home",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -14875,20 +14870,6 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "requiredFluids:9": {
-            "0:10": {
-              "Amount:3": 100,
-              "FluidName:8": "toluene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
@@ -14901,12 +14882,74 @@
               "Damage:2": 498,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": "",
+              "id:8": "gregtech:powderbarrel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
               "id:8": "minecraft:tnt"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 4,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 460,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "4:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 5,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:itnt"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -16601,7 +16644,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your one and only Tunsgten source! (You could technically get Tungstate from macerating End Stone... but the yield is tiny.)\n\nAn extremely important vein as Tungsten is used in vast amounts in IV Age and onwards.",
+          "desc:8": "Your one and only Tungsten source! (You could technically get Tungstate from macerating End Stone... but the yield is tiny.)\n\nAn extremely important vein as Tungsten is used in vast amounts in IV Age and onwards.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19055,7 +19098,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Packager§r compresses §aTiny Dusts§r and §aSmall Dusts§r into §afull Dusts§r into Ingots.\n\nIt can also work in reverse, change between sizes of Wires, and more...\nUnpacking Cables back into Wires and Rubber will be appreciated once you rework your Energy Network.\n\n\n§oI know...§r the compacting recipes do not sound useful because the crafting tables recipes exist. This machine exists for §9automation§r purposes.\n\nFor the §9automated§r setup, route the §aTiny Dusts§r in a buffer inventory (a chest will do) next to your §3Packager§r.\nThen, place a §3Robot Arm§r and configure it to §dImport§r, §dSupply Exact 9§r. Finally, use the Machine auto-output on another side.\n\n\n§bLore§r: In GTCE, the reverse operation required a separate machine, the Unpackager.",
+          "desc:8": "The §3Packager§r packs §aWires§r into §athicker Wires§r, and §aTiny§r or §aSmall Dusts§r into §afull Dusts§r.\n\nIt can also work in reverse, unpack your §athick wires§r into §athinner§r ones, or §afull Dusts§r into §aSmall§r or §aTiny§r ones.\nAn additional functionality is §aunpacking Cables§r back into §aWires§r and §aRubber§r, which will be appreciated once you rework your Energy Network.\n\n\n§oI know...§r the compacting recipes do not sound useful because the crafting tables recipes exist. This machine exists mainly for §9automation§r purposes, save for unpacking Cables and a few other things.\n\n\n§bLore§r: You might wonder why this quest is in the Ore Processing section, the quest reward and the mentions of Tiny Dusts are a hint. In earlier versions of GTCEu, Ore Processing used to give Byproducts as a static amount of Tiny Dusts instead of a chance at a full Dust, so you\u0027d use a packager to combine them into full Dusts.\n\n§bMore Lore§r: In GTCE, the reverse operation required a separate machine, the Unpackager.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21337,14 +21380,20 @@
       }
     },
     "313:10": {
+      "preRequisiteTypes:7": [
+        0,
+        0,
+        1
+      ],
       "preRequisites:11": [
         201,
-        423
+        423,
+        142
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§bDigital fluid storage§r is pretty cool. Each §b1k ME Fluid Storage Cell§r holds up to §d5 types§r of fluid, and can hold §6over 8,000 buckets§r of those 5 fluid types! That\u0027s more than a §3Super Tank 2§r!\n\nHigher tier §aFluid Storage Cells§r hold even more fluid, but are only available quite a bit later.\n\nYou may want to §4format§r Fluid Storage Cells to certain types, to prevent the network from clogging. Make a §3Cell Workbench§r to do so.",
+          "desc:8": "§bDigital fluid storage§r is pretty cool. Each §b1k ME Fluid Storage Cell§r holds up to §d5 types§r of fluid, and can hold §6over 8,000 buckets§r of those 5 fluid types! That\u0027s more than a §3Super Tank 2§r!\n\nHigher tier §aFluid Storage Cells§r hold even more fluid, but are only available quite a bit later.\n\nYou may want to §4format§r Fluid Storage Cells to certain types, to prevent the network from clogging. Make a §3Cell Workbench§r to do so.\n\n§4Beware§r! §aFluid Storage Components§r require EV circuits, that means you need a §3Cleanroom§r!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22069,7 +22118,8 @@
     },
     "323:10": {
       "preRequisites:11": [
-        145
+        145,
+        133
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22217,7 +22267,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oPlacing Blocks manually for Multiblocks is tedious? We got something for ya!§r\n\nThe §dMulitblock Tool§rwill enable you to §6auto-build§r Multiblocks!\n\n§9How to auto-build:§r With your §4Multiblock Tool§r in hand, shift-right-clock the Mulitblock Controller that you placed in World, and the structure will be built according to the blocks in your inventory.\n\nNote that the Hatches may not always end up being on the positions you wanted, but at least it placed all the other Blocks for you!\n\nYou can also use this tool to §6debug structure issues§r. If you\u0027re not sure why a multi won\u0027t form, right-click it with the tool and you\u0027ll recieve some potentially useful information.\n\n§bLore§r: The texture for this item was originally from the GCYL Freedom Wrench.",
+          "desc:8": "§oPlacing Blocks manually for Multiblocks is tedious? We got something for ya!§r\n\nThe §dMulitblock Tool§rwill enable you to §6auto-build§r Multiblocks!\n\n§9How to auto-build:§r With your §4Multiblock Tool§r in hand, shift-right-click the Mulitblock Controller that you placed in World, and the structure will be built according to the blocks in your inventory.\n\nNote that the Hatches may not always end up being on the positions you wanted, but at least it placed all the other Blocks for you!\n\nYou can also use this tool to §6debug structure issues§r. If you\u0027re not sure why a multi won\u0027t form, right-click it with the tool and you\u0027ll recieve some potentially useful information.\n\n§bLore§r: The texture for this item was originally from the GCYL Freedom Wrench.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23606,7 +23656,9 @@
     },
     "350:10": {
       "preRequisites:11": [
-        128
+        250,
+        92,
+        82
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -24574,7 +24626,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oChannels may disabled, but P2P Tunnels are still extremely important automation tools! Especially the Item P2P and the GTEU P2P.§r\n\n§9Note:§r There are great resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. They are linked using a Memory Card.\nThis Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit.\n\n\n§2§lThe GTEU P2P Tunnel:§r\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r.\n\nThis is ideal in lategame situations, to avoid spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n\n\n§2§lThe Item P2P Tunnel:§r\n\nTo turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.\nItem P2P Tunnels are useful in a more abstract way so let\u0027s start with an example.\n\n§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.\nYou could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).\n\nNow, you may think the next step is just to dump the items in a Buffer and route the items with Pipes, however this system will eventually §4jam§r due to the incompability with AE2 Interface blocking mode! Trust me.\nPlace the input of the §aItem P2P§r on your §3ME Interface§r, and one output on the §3Extractor§r, one on the §3Assembler§r.\nThen, use Filter covers where the outputs are connected. §dOre Dictionary Filters§r are better, since you can configure them to §9ingot*§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots, that\u0027s an intentional design decision in GregTech). \nDo not forget §dBlocking Mode§r on your Interface.\n\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
+          "desc:8": "§oChannels may be disabled, but P2P Tunnels are still extremely important automation tools! Especially the Item P2P and the GTEU P2P.§r\n\n§9Note:§r There are great resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from one input to endless outputs, with the Unofficial Extended Life version of AE2 (which we are using) allowing any number of inputs to any number of outputs. They are linked using a Memory Card.\nThis Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit.\n\n\n§2§lThe GTEU P2P Tunnel:§r\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r.\n\nThis is ideal in lategame situations, to avoid spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n\n\n§2§lThe Item P2P Tunnel:§r\n\nTo turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.\nItem P2P Tunnels are useful in a more abstract way so let\u0027s start with an example.\n\n§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.\nYou could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).\n\nNow, you may think the next step is just to dump the items in a Buffer and route the items with Pipes, however this system will eventually §4jam§r due to the incompability with AE2 Interface blocking mode! Trust me.\nPlace the input of the §aItem P2P§r on your §3ME Interface§r, and one output on the §3Extractor§r, one on the §3Assembler§r.\nThen, use Filter covers where the outputs are connected. §dOre Dictionary Filters§r are better, since you can configure them to §9ingot*§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots, that\u0027s an intentional design decision in GregTech). \nDo not forget §dBlocking Mode§r on your Interface.\n\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25580,7 +25632,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oIndium has uses as a semiconductor.§r\n\nGetting §aIndium§r requires a lot of §dSulfuric Acid§r, and two different ores: Galena and Sphalerite.\n\n§dSulfuric Acid§r can be produced in large scale in the §3Large Chemical Reactor§r, or obtained as a waste from the §9Platinum Group Sludge§r process.\n\nIn §dLuV§r, the mandatory §9Naquadah chain§r will grant §aIndium§r too, which means this setup will have a limited life.\n\n\n§bLore:§r Another small chain inherited from GregTech 5. However this used to yield one tiny Dust instead, which was very painful.",
+          "desc:8": "§oIndium has uses as a semiconductor.§r\n\nGetting §aIndium§r requires a lot of §dSulfuric Acid§r, and two different ores: Galena and Sphalerite.\n\n§dSulfuric Acid§r can be produced in large scale in the §3Large Chemical Reactor§r, or obtained as a waste from the §9Platinum Group Sludge§r process.\n\nIn §dLuV§r, the mandatory §9Naquadah chain§r will grant §aIndium§r too, which means this setup will have a limited life.\n\nUse the §5§d§k§1§3§5§9Circuit 4§r recipe to avoid having to deal with Small Dusts.\n\n§bLore:§r Another small chain inherited from GregTech 5. However this used to yield one tiny Dust instead, which was very painful.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25615,13 +25667,13 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 279,
               "OreDict:8": "",
               "id:8": "gregtech:meta_crushed_purified"
             },
             "1:10": {
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 322,
               "OreDict:8": "",
               "id:8": "gregtech:meta_crushed_purified"
@@ -25641,7 +25693,7 @@
               "Count:3": 1,
               "Damage:2": 48,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust_small"
+              "id:8": "gregtech:meta_dust"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -31861,7 +31913,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -34097,8 +34149,8 @@
           "id:3": 160,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -162,
-          "y:3": 0
+          "x:3": 174,
+          "y:3": -132
         },
         "50:10": {
           "id:3": 195,
@@ -34195,8 +34247,8 @@
           "id:3": 350,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 174,
-          "y:3": -132
+          "x:3": -162,
+          "y:3": 42
         },
         "64:10": {
           "id:3": 354,
