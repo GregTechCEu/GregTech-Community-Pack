@@ -1,3 +1,3 @@
 // Hide categories
-mods.jei.hideCategory('appliedenergistics2.grinder')
-mods.jei.hideCategory('appliedenergistics2.inscriber')
+mods.jei.category.remove('appliedenergistics2.grinder')
+mods.jei.category.remove('appliedenergistics2.inscriber')
