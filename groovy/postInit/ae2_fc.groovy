@@ -14,7 +14,7 @@ crafting.shapedBuilder().name('fluid_discretizer')
         .register()
 
 // Fluid Pattern Encoder
-mods.jei.hide(item('ae2fc:fluid_pattern_encoder'))
+mods.jei.ingredient.hide(item('ae2fc:fluid_pattern_encoder'))
 crafting.remove('ae2fc:fluid_pattern_encoder')
 
 // Fluid Packet Decoder
@@ -32,11 +32,11 @@ crafting.shapedBuilder().name('fluid_packet_decoder')
         .register()
 
 // Ingredient Buffer
-mods.jei.hide(item('ae2fc:ingredient_buffer'))
+mods.jei.ingredient.hide(item('ae2fc:ingredient_buffer'))
 crafting.remove('ae2fc:ingredient_buffer')
 
 // Large Ingredient Buffer
-mods.jei.hide(item('ae2fc:large_ingredient_buffer'))
+mods.jei.ingredient.hide(item('ae2fc:large_ingredient_buffer'))
 crafting.remove('ae2fc:large_ingredient_buffer')
 
 // Precision Burette
@@ -62,7 +62,7 @@ crafting.shapedBuilder().name('dual_interface')
         .register()
 
 // Fluid Level Maintainer
-mods.jei.hide(item('ae2fc:fluid_level_maintainer'))
+mods.jei.ingredient.hide(item('ae2fc:fluid_level_maintainer'))
 crafting.remove('ae2fc:fluid_level_maintainer')
 
 // Fluid Assembler

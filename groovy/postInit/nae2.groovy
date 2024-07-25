@@ -20,6 +20,23 @@ crafting.shapedBuilder().name('hyper_acceleration_card')
         .key('K', ore('circuitIv'))
         .register()
 
+// Job Auto-Complete Card
+crafting.remove('nae2:item/upgrade/auto_complete')
+crafting.shapelessBuilder().name('auto_complete_card')
+        .output(item('nae2:upgrade', 1))
+        .input(item('appliedenergistics2:material', 53))
+        .input(metaitem('emitter.mv'))
+        .register()
+
+// Programmed Circuit Card
+crafting.remove('nae2:item/upgrade/gregtech_circuit')
+crafting.shapelessBuilder().name('programmed_circuit_card')
+        .output(item('nae2:upgrade', 2))
+        .input(item('appliedenergistics2:material', 28))
+        .input(metaitem('robot.arm.ev'))
+        .input(ore('circuitLuv'))
+        .register()
+
 // Pattern Multi-Tool
 crafting.remove('nae2:item/pattern_multiplier')
 crafting.shapedBuilder().name('pattern_multitool')
@@ -32,6 +49,16 @@ crafting.shapedBuilder().name('pattern_multitool')
         .key('B', item('appliedenergistics2:material', 24))
         .key('C', item('appliedenergistics2:material', 23))
         .register()
+
+// ME Storage Exposer
+crafting.remove('nae2:block/exposer')
+recipemap('assembler').recipeBuilder()
+        .inputs(metaitem('hull.ev'))
+        .inputs(item('appliedenergistics2:interface'))
+        .inputs(metaitem('sensor.ev'))
+        .inputs(item('appliedenergistics2:material:30') * 4)
+        .outputs(item('nae2:exposer'))
+        .duration(200).EUt(1920).buildAndRegister()
 
 // Void Storage Component
 crafting.remove('nae2:item/material/storage/cell_part_void')

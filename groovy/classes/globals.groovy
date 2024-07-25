@@ -1,3 +1,5 @@
+package classes
+
 public class globals {
     public static final DYES = [
             'white',
