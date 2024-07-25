@@ -53,12 +53,12 @@ crafting.shapedBuilder().name('pattern_multitool')
 // ME Storage Exposer
 crafting.remove('nae2:block/exposer')
 recipemap('assembler').recipeBuilder()
-        .inputs(metaitem('hull.iv'))
+        .inputs(metaitem('hull.ev'))
         .inputs(item('appliedenergistics2:interface'))
-        .inputs(metaitem('sensor.iv'))
+        .inputs(metaitem('sensor.ev'))
         .inputs(item('appliedenergistics2:material:30') * 4)
         .outputs(item('nae2:exposer'))
-        .duration(200).EUt(7680).buildAndRegister()
+        .duration(200).EUt(1920).buildAndRegister()
 
 // Void Storage Component
 crafting.remove('nae2:item/material/storage/cell_part_void')

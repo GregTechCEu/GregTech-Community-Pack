@@ -32996,8 +32996,11 @@
       }
     },
     "503:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        143
+        248
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -33102,8 +33105,11 @@
       }
     },
     "505:10": {
+      "preRequisiteTypes:7": [
+        2
+      ],
       "preRequisites:11": [
-        51
+        113
       ],
       "properties:10": {
         "betterquesting:10": {
