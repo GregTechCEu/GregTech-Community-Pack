@@ -4,4 +4,8 @@ recipemap.greenhouse.name=温室
 
 # MetaTileEntities
 gcp.machine.greenhouse.name=温室
+gcp.machine.greenhouse.tooltip=植物生长模拟器
 
+# Tooltips
+gcp.ae2.channels.disabled=频道已§c禁用§7。
+gcp.ae2.channels.enabled=频道已§c启用§7。
